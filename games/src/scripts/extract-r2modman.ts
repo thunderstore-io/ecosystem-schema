@@ -4,9 +4,16 @@ import * as yaml from "js-yaml";
 import * as fs from "fs";
 import { GameDefinition } from "../models";
 import { convertDisplayMode, convertGameType, convertPlatform } from "../utils";
+import { loadGameDefinitions } from "../load";
+
+const existingDefinitions = loadGameDefinitions();
+const settingsIdentifierToUuid = new Map<string, string>();
+for (const def of existingDefinitions) {
+  settingsIdentifierToUuid.set(def.legacy.settingsIdentifier, def.uuid);
+}
 
 const games: GameDefinition[] = GameManager.gameList.map((x) => ({
-  uuid: uuid(),
+  uuid: settingsIdentifierToUuid.get(x.settingsIdentifier) ?? uuid(),
   label: x.thunderstoreCommunity,
   meta: {
     displayName: x.displayName,
