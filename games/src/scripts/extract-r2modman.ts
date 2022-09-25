@@ -37,12 +37,11 @@ const games: GameDefinition[] = GameManager.gameList.map((x) => ({
 }));
 
 for (const game of games) {
-  fs.writeFile(
+  fs.writeFileSync(
     `./data/generated/${game.label}.yml`,
     yaml.dump(game, {
       quotingType: '"',
       forceQuotes: true,
-    }),
-    (x) => x && console.error(x)
+    })
   );
 }
