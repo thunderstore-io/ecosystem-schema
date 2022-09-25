@@ -1,0 +1,21 @@
+uuid: "4d8ab61e-eb93-4fab-b076-b73ae450b73f"
+label: "for-the-king"
+meta:
+  displayName: "For The King"
+  iconUrl: "ForTheKing.png"
+distributions:
+  - platform: "steam"
+    identifier: "527230"
+  - platform: "egs"
+    identifier: "Discus"
+legacy:
+  internalFolderName: "ForTheKing"
+  dataFolderName: "FTK_Data"
+  settingsIdentifier: "ForTheKing"
+  packageIndex: "https://for-the-king.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "For The King"
+  exeNames:
+    - "FTK.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"

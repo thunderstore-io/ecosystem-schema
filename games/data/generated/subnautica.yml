@@ -1,0 +1,21 @@
+uuid: "72ff8d9a-5af4-428d-9520-1955a464e3b6"
+label: "subnautica"
+meta:
+  displayName: "Subnautica"
+  iconUrl: "Subnautica.png"
+distributions:
+  - platform: "steam"
+    identifier: "264710"
+  - platform: "egs"
+    identifier: "Jaguar"
+legacy:
+  internalFolderName: "Subnautica"
+  dataFolderName: "Subnautica_Data"
+  settingsIdentifier: "Subnautica"
+  packageIndex: "https://subnautica.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "Subnautica"
+  exeNames:
+    - "Subnautica.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"

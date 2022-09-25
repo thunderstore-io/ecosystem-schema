@@ -1,0 +1,19 @@
+uuid: "429bb8b1-7bb0-409f-a1f2-73357298e651"
+label: "h3vr"
+meta:
+  displayName: "H3VR"
+  iconUrl: "H3VR.png"
+distributions:
+  - platform: "steam"
+    identifier: "450540"
+legacy:
+  internalFolderName: "H3VR"
+  dataFolderName: "h3vr_Data"
+  settingsIdentifier: "H3VR"
+  packageIndex: "https://h3vr.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "H3VR"
+  exeNames:
+    - "h3vr.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"

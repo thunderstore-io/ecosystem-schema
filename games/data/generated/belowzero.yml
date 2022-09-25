@@ -1,0 +1,19 @@
+uuid: "c7281746-5743-4dd1-b37f-b640f6611854"
+label: "belowzero"
+meta:
+  displayName: "Subnautica: Below Zero"
+  iconUrl: "SubnauticaBelowZero.png"
+distributions:
+  - platform: "steam"
+    identifier: "848450"
+legacy:
+  internalFolderName: "SubnauticaBZ"
+  dataFolderName: "SubnauticaZero_Data"
+  settingsIdentifier: "SubnauticaBZ"
+  packageIndex: "https://belowzero.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "SubnauticaZero"
+  exeNames:
+    - "SubnauticaZero.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"

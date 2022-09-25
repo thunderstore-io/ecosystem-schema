@@ -1,0 +1,19 @@
+uuid: "dc7232bd-040f-4d72-8353-2b2a7d4a5082"
+label: "hotds"
+meta:
+  displayName: "House of the Dying Sun"
+  iconUrl: "HOTDS.jpg"
+distributions:
+  - platform: "steam"
+    identifier: "283160"
+legacy:
+  internalFolderName: "HOTDS"
+  dataFolderName: "dyingsun_Data"
+  settingsIdentifier: "HOTDS"
+  packageIndex: "https://hotds.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "DyingSun"
+  exeNames:
+    - "dyingsun.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"

@@ -1,0 +1,20 @@
+uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
+label: "inscryption"
+meta:
+  displayName: "Inscryption"
+  iconUrl: "Inscryption.png"
+distributions:
+  - platform: "steam"
+    identifier: "1092790"
+  - platform: "other"
+legacy:
+  internalFolderName: "Inscryption"
+  dataFolderName: "Inscryption_Data"
+  settingsIdentifier: "Inscryption"
+  packageIndex: "https://inscryption.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "Inscryption"
+  exeNames:
+    - "Inscryption.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"

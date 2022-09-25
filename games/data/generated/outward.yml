@@ -1,0 +1,22 @@
+uuid: "da7c4adc-dd04-4fca-b35c-31bcda26c53e"
+label: "outward"
+meta:
+  displayName: "Outward Definitive"
+  iconUrl: "OutwardDe.jpg"
+distributions:
+  - platform: "steam-direct"
+    identifier: "794260"
+  - platform: "egs"
+    identifier: "f07a51af8ac845ea96f792fb485e04a3"
+  - platform: "other"
+legacy:
+  internalFolderName: "OutwardDe"
+  dataFolderName: "Outward Definitive Edition_Data"
+  settingsIdentifier: "OutwardDe"
+  packageIndex: "https://outward.thunderstore.io/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "Outward/Outward_Defed"
+  exeNames:
+    - "Outward Definitive Edition.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"
