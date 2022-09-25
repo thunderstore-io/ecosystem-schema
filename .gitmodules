@@ -1,0 +1,3 @@
+[submodule "games/r2modmanPlus"]
+	path = games/r2modmanPlus
+	url = git@github.com:thunderstore-io/r2modmanPlus.git
