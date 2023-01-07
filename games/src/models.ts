@@ -26,13 +26,15 @@ export interface GameLegacyDefinition {
   gameSelectionDisplayMode: "visible" | "hidden";
 }
 
-export interface ThunderstoreCategory {
-  slug: string;
-  label: string;
-}
-
 export interface GameThunderstoreDefinition {
-  categories?: ThunderstoreCategory[];
+  categories?: { [key: string]: { label: string } };
+  sections?: {
+    [key: string]: {
+      name: string;
+      excludeCategories?: string[];
+      requireCategories?: string[];
+    };
+  };
   discordUrl?: string;
   wikiUrl?: string;
 }
