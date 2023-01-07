@@ -1,0 +1,43 @@
+uuid: "ca3b2a52-0598-4611-9906-bba3934e27f6"
+label: "ultrakill"
+meta:
+  displayName: "Ultrakill"
+  iconUrl: null
+distributions:
+  - platform: "steam"
+    identifier: "1229490"
+r2modman:
+  internalFolderName: "Ultrakill"
+  dataFolderName: "ULTRAKILL_Data"
+  settingsIdentifier: "ultrakill"
+  packageIndex: "https://thunderstore.io/c/ultrakill/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "ULTRAKILL"
+  exeNames:
+    - "ULTRAKILL.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"
+thunderstore:
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    weapons:
+      label: "Weapons"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories: ["modpacks"]
+    modpacks:
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/newblood"
