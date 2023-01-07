@@ -8,6 +8,8 @@ distributions:
     identifier: "508440"
   - platform: "egs"
     identifier: "Driftfish"
+  - platform: "xbox-game-pass"
+    identifier: "LandfallGames.TotallyAccurateBattleSimulator"
 legacy:
   internalFolderName: "TABS"
   dataFolderName: "TotallyAccurateBattleSimulator_Data"

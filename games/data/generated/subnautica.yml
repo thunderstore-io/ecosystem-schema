@@ -8,6 +8,8 @@ distributions:
     identifier: "264710"
   - platform: "egs"
     identifier: "Jaguar"
+  - platform: "xbox-game-pass"
+    identifier: "UnknownWorldsEntertainmen.GAMEPREVIEWSubnautica"
 legacy:
   internalFolderName: "Subnautica"
   dataFolderName: "Subnautica_Data"

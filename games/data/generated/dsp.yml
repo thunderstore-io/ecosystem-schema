@@ -6,6 +6,8 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1366540"
+  - platform: "xbox-game-pass"
+    identifier: "GameraGame.DysonSphereProgram"
 legacy:
   internalFolderName: "DysonSphereProgram"
   dataFolderName: "DSPGAME_Data"
