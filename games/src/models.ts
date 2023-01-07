@@ -1,3 +1,10 @@
+export type ModmanTrackingMethod =
+  | "state"
+  | "subdir"
+  | "subdir-no-flatten"
+  | null;
+export type ModmanPackageLoader = "bepinex" | "melonloader" | "northstar";
+
 export type DistributionPlatform =
   | "steam"
   | "steam-direct"
@@ -14,7 +21,20 @@ export interface GameDistributionDefinition {
   identifier?: string;
 }
 
-export interface GameR2modmanDefinition {
+export interface ModmanModLoaderPackage {
+  packageId: string;
+  rootFolder: string;
+  loader: ModmanPackageLoader;
+}
+export interface ModmanInstallRule {
+  route: string;
+  trackingMethod: ModmanTrackingMethod;
+  children?: ModmanInstallRule[];
+  defaultFileExtensions?: string[];
+  isDefaultLocation?: boolean;
+}
+
+export interface GameModmanDefinition {
   internalFolderName: string;
   dataFolderName: string;
   settingsIdentifier: string;
@@ -24,6 +44,9 @@ export interface GameR2modmanDefinition {
   exeNames: string[];
   gameInstancetype: "game" | "server";
   gameSelectionDisplayMode: "visible" | "hidden";
+  modLoaderPackages: ModmanModLoaderPackage[];
+  installRules: ModmanInstallRule[];
+  relativeFileExclusions?: string[];
 }
 
 export interface GameThunderstoreDefinition {
@@ -47,6 +70,6 @@ export interface GameDefinition {
     iconUrl: string;
   };
   distributions: GameDistributionDefinition[];
-  r2modman: GameR2modmanDefinition;
+  r2modman: GameModmanDefinition;
   thunderstore?: GameThunderstoreDefinition;
 }

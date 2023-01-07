@@ -27,6 +27,8 @@ const game: GameDefinition = {
     exeNames: [`${name}.exe`],
     gameInstancetype: "game",
     gameSelectionDisplayMode: "visible",
+    modLoaderPackages: [],
+    installRules: [],
   },
 };
 

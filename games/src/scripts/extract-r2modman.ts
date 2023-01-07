@@ -3,8 +3,20 @@ import { v4 as uuid } from "uuid";
 import * as yaml from "js-yaml";
 import * as fs from "fs";
 import { GameDefinition } from "../models";
-import { convertDisplayMode, convertGameType, convertPlatform } from "../utils";
+import {
+  convertDisplayMode,
+  convertGameType,
+  convertInstallRule,
+  convertModLoaderPackageMapping,
+  convertPlatform,
+} from "../utils";
 import { loadGameDefinitions } from "../load";
+import {
+  GAME_NAME,
+  MOD_LOADER_VARIANTS,
+} from "../../r2modmanPlus/src/r2mm/installing/profile_installers/ModLoaderVariantRecord";
+import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator";
+import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules";
 
 const existingDefinitions = loadGameDefinitions();
 const settingsIdentifierToUuid = new Map<string, string>();
@@ -23,6 +35,20 @@ const extractThunderstoreCommunity = (thunderstoreUrl: string): string => {
   let matches = thunderstoreUrl.match(oldPackegeListRe)?.[1];
   matches = matches ?? thunderstoreUrl.match(newPackegeListRe)?.[1];
   return matches ?? "risk-of-rain2";
+};
+
+InstallationRuleApplicator.apply();
+const extractRules = (
+  game: GAME_NAME
+): {
+  installRules: GameDefinition["r2modman"]["installRules"];
+  relativeFileExclusions: GameDefinition["r2modman"]["relativeFileExclusions"];
+} => {
+  const rules = InstallationRules.RULES.find((x) => x.gameName == game);
+  return {
+    installRules: (rules?.rules ?? []).map(convertInstallRule),
+    relativeFileExclusions: rules?.relativeFileExclusions ?? [],
+  };
 };
 
 const games: GameDefinition[] = GameManager.gameList.map((x) => ({
@@ -46,6 +72,10 @@ const games: GameDefinition[] = GameManager.gameList.map((x) => ({
     exeNames: x.exeName,
     gameInstancetype: convertGameType(x.instanceType),
     gameSelectionDisplayMode: convertDisplayMode(x.displayMode),
+    modLoaderPackages: MOD_LOADER_VARIANTS[x.internalFolderName].map(
+      convertModLoaderPackageMapping
+    ),
+    ...extractRules(x.internalFolderName),
   },
 }));
 
