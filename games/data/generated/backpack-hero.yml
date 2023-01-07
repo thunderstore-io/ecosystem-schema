@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1970580"
-legacy:
+r2modman:
   internalFolderName: "BackpackHero"
   dataFolderName: "Backpack Hero_Data"
   settingsIdentifier: "BackpackHero"

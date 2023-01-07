@@ -9,7 +9,7 @@ distributions:
   - platform: "egs"
     identifier: "f07a51af8ac845ea96f792fb485e04a3"
   - platform: "other"
-legacy:
+r2modman:
   internalFolderName: "OutwardDe"
   dataFolderName: "Outward Definitive Edition_Data"
   settingsIdentifier: "OutwardDe"

@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "2051980"
-legacy:
+r2modman:
   internalFolderName: "Aloft"
   dataFolderName: "Aloft_Data"
   settingsIdentifier: "Aloft"

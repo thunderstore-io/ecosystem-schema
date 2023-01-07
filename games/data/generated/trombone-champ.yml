@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1059990"
-legacy:
+r2modman:
   internalFolderName: "TromboneChamp"
   dataFolderName: "TromboneChamp_Data"
   settingsIdentifier: "TromboneChamp"

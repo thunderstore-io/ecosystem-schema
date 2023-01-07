@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1313140"
-legacy:
+r2modman:
   internalFolderName: "COTL"
   dataFolderName: "Cult Of The Lamb_Data"
   settingsIdentifier: "COTL"

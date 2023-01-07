@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1948280"
-legacy:
+r2modman:
   internalFolderName: "Stacklands"
   dataFolderName: "Stacklands_Data"
   settingsIdentifier: "Stacklands"

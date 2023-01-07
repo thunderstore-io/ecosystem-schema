@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1414850"
-legacy:
+r2modman:
   internalFolderName: "NASB"
   dataFolderName: "Nickelodeon All-Star Brawl_Data"
   settingsIdentifier: "NASB"

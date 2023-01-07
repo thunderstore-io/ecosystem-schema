@@ -7,7 +7,7 @@ distributions:
   - platform: "steam"
     identifier: "1092790"
   - platform: "other"
-legacy:
+r2modman:
   internalFolderName: "Inscryption"
   dataFolderName: "Inscryption_Data"
   settingsIdentifier: "Inscryption"

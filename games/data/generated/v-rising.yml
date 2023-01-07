@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1604030"
-legacy:
+r2modman:
   internalFolderName: "VRising"
   dataFolderName: "VRising_Data"
   settingsIdentifier: "VRising"

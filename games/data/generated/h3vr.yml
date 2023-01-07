@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "450540"
-legacy:
+r2modman:
   internalFolderName: "H3VR"
   dataFolderName: "h3vr_Data"
   settingsIdentifier: "H3VR"

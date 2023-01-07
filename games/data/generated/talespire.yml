@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "720620"
-legacy:
+r2modman:
   internalFolderName: "TaleSpire"
   dataFolderName: "TaleSpire_Data"
   settingsIdentifier: "TaleSpire"

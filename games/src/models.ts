@@ -14,7 +14,7 @@ export interface GameDistributionDefinition {
   identifier?: string;
 }
 
-export interface GameLegacyDefinition {
+export interface GameR2modmanDefinition {
   internalFolderName: string;
   dataFolderName: string;
   settingsIdentifier: string;
@@ -47,6 +47,6 @@ export interface GameDefinition {
     iconUrl: string;
   };
   distributions: GameDistributionDefinition[];
-  legacy: GameLegacyDefinition;
+  r2modman: GameR2modmanDefinition;
   thunderstore?: GameThunderstoreDefinition;
 }

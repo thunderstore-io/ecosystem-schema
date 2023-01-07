@@ -9,7 +9,7 @@ distributions:
   - platform: "egs"
     identifier: "Garlic"
   - platform: "other"
-legacy:
+r2modman:
   internalFolderName: "ETG"
   dataFolderName: "EtG_Data"
   settingsIdentifier: "EnterTheGungeon"

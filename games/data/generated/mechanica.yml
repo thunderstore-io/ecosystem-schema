@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1226990"
-legacy:
+r2modman:
   internalFolderName: "Mechanica"
   dataFolderName: "Mechanica_Data"
   settingsIdentifier: "Mechanica"

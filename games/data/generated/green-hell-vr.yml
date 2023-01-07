@@ -7,7 +7,7 @@ distributions:
   - platform: "steam"
     identifier: "1782330"
   - platform: "oculus"
-legacy:
+r2modman:
   internalFolderName: "GreenHellVR"
   dataFolderName: "GHVR_Data"
   settingsIdentifier: "GreenHellVR"

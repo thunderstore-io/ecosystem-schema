@@ -9,7 +9,7 @@ import { loadGameDefinitions } from "../load";
 const existingDefinitions = loadGameDefinitions();
 const settingsIdentifierToUuid = new Map<string, string>();
 for (const def of existingDefinitions) {
-  settingsIdentifierToUuid.set(def.legacy.settingsIdentifier, def.uuid);
+  settingsIdentifierToUuid.set(def.r2modman.settingsIdentifier, def.uuid);
 }
 
 const oldPackegeListRe = new RegExp(
@@ -36,7 +36,7 @@ const games: GameDefinition[] = GameManager.gameList.map((x) => ({
     platform: convertPlatform(p.storePlatform),
     identifier: p.storeIdentifier,
   })),
-  legacy: {
+  r2modman: {
     internalFolderName: x.internalFolderName,
     dataFolderName: x.dataFolderName,
     settingsIdentifier: x.settingsIdentifier,

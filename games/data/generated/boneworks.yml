@@ -7,7 +7,7 @@ distributions:
   - platform: "steam"
     identifier: "823500"
   - platform: "oculus"
-legacy:
+r2modman:
   internalFolderName: "BONEWORKS"
   dataFolderName: "BONEWORKS_Data"
   settingsIdentifier: "BONEWORKS"

@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1621690"
-legacy:
+r2modman:
   internalFolderName: "CoreKeeper"
   dataFolderName: "CoreKeeper_Data"
   settingsIdentifier: "CoreKeeper"

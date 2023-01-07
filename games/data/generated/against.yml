@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1584840"
-legacy:
+r2modman:
   internalFolderName: "AGAINST"
   dataFolderName: "AGAINST_Data"
   settingsIdentifier: "AGAINST"

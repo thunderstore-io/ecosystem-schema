@@ -8,7 +8,7 @@ distributions:
     identifier: "1237970"
   - platform: "origin"
     identifier: ""
-legacy:
+r2modman:
   internalFolderName: "Titanfall2"
   dataFolderName: ""
   settingsIdentifier: "Titanfall2"

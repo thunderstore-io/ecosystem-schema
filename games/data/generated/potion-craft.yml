@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1210320"
-legacy:
+r2modman:
   internalFolderName: "PotionCraft"
   dataFolderName: "Potion Craft_Data"
   settingsIdentifier: "PotionCraft"

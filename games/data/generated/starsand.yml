@@ -8,7 +8,7 @@ distributions:
     identifier: "1380220"
   - platform: "egs"
     identifier: "a774278c0813447c96a76b053cbf73ff"
-legacy:
+r2modman:
   internalFolderName: "Starsand"
   dataFolderName: "Starsand_Data"
   settingsIdentifier: "Starsand"

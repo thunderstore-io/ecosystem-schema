@@ -8,7 +8,7 @@ distributions:
     identifier: "527230"
   - platform: "egs"
     identifier: "Discus"
-legacy:
+r2modman:
   internalFolderName: "ForTheKing"
   dataFolderName: "FTK_Data"
   settingsIdentifier: "ForTheKing"

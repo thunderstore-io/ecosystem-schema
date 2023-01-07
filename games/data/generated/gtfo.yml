@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "493520"
-legacy:
+r2modman:
   internalFolderName: "GTFO"
   dataFolderName: "GTFO_Data"
   settingsIdentifier: "GTFO"

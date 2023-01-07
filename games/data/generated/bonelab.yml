@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1592190"
-legacy:
+r2modman:
   internalFolderName: "BONELAB"
   dataFolderName: "BONELAB_Steam_Windows64"
   settingsIdentifier: "BONELAB"

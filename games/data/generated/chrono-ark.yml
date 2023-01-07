@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1188930"
-legacy:
+r2modman:
   internalFolderName: "ChronoArk"
   dataFolderName: "ChronoArk_Data"
   settingsIdentifier: "ChronoArk"

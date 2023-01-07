@@ -10,7 +10,7 @@ distributions:
     identifier: "Jaguar"
   - platform: "xbox-game-pass"
     identifier: "UnknownWorldsEntertainmen.GAMEPREVIEWSubnautica"
-legacy:
+r2modman:
   internalFolderName: "Subnautica"
   dataFolderName: "Subnautica_Data"
   settingsIdentifier: "Subnautica"

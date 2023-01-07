@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1625450"
-legacy:
+r2modman:
   internalFolderName: "Muck"
   dataFolderName: "Muck_Data"
   settingsIdentifier: "Muck"

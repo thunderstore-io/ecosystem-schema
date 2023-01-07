@@ -7,7 +7,7 @@ distributions:
   - platform: "steam"
     identifier: "1296610"
   - platform: "other"
-legacy:
+r2modman:
   internalFolderName: "Peglin"
   dataFolderName: "Peglin_Data"
   settingsIdentifier: "Peglin"

@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1180760"
-legacy:
+r2modman:
   internalFolderName: "RiskOfRain2"
   dataFolderName: "Risk of Rain 2_Data"
   settingsIdentifier: "RiskOfRain2Server"

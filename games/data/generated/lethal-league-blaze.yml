@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "553310"
-legacy:
+r2modman:
   internalFolderName: "LethalLeagueBlaze"
   dataFolderName: "LLBlaze_Data"
   settingsIdentifier: "LethalLeagueBlaze"

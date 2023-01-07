@@ -16,7 +16,7 @@ const game: GameDefinition = {
     iconUrl: "None",
   },
   distributions: [],
-  legacy: {
+  r2modman: {
     internalFolderName: name,
     dataFolderName: name,
     settingsIdentifier: name,

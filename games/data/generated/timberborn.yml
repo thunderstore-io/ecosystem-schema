@@ -9,7 +9,7 @@ distributions:
   - platform: "egs"
     identifier: "972a4ca2631e43b4ba7bc3b7586ad8c4"
   - platform: "other"
-legacy:
+r2modman:
   internalFolderName: "Timberborn"
   dataFolderName: "Timberborn_Data"
   settingsIdentifier: "Timberborn"

@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "896660"
-legacy:
+r2modman:
   internalFolderName: "Valheim"
   dataFolderName: "valheim_server_Data"
   settingsIdentifier: "ValheimServer"

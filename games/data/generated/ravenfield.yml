@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "636480"
-legacy:
+r2modman:
   internalFolderName: "Ravenfield"
   dataFolderName: "ravenfield_Data"
   settingsIdentifier: "Ravenfield"

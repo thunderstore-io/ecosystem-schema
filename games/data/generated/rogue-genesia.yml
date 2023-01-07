@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "2067920"
-legacy:
+r2modman:
   internalFolderName: "RogueGenesia"
   dataFolderName: "Rogue Genesia_Data"
   settingsIdentifier: "RogueGenesia"

@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "667970"
-legacy:
+r2modman:
   internalFolderName: "VTOL_VR"
   dataFolderName: "VTOLVR_Data"
   settingsIdentifier: "VTOL_VR"

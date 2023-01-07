@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1268900"
-legacy:
+r2modman:
   internalFolderName: "NearlyDead"
   dataFolderName: "Nearly Dead_Data"
   settingsIdentifier: "NearlyDead"

@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1294760"
-legacy:
+r2modman:
   internalFolderName: "HardBullet"
   dataFolderName: "Hard Bullet_Data"
   settingsIdentifier: "HardBullet"

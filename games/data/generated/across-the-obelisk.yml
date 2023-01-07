@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1385380"
-legacy:
+r2modman:
   internalFolderName: "AcrossTheObelisk"
   dataFolderName: "AcrossTheObelisk_Data"
   settingsIdentifier: "AcrossTheObelisk"

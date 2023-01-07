@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1557740"
-legacy:
+r2modman:
   internalFolderName: "ROUNDS"
   dataFolderName: "Rounds_Data"
   settingsIdentifier: "ROUNDS"

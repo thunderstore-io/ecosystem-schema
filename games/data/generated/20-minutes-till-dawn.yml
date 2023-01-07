@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1966900"
-legacy:
+r2modman:
   internalFolderName: "20MinutesTillDawn"
   dataFolderName: "MinutesTillDawn_Data"
   settingsIdentifier: "20MinutesTillDawn"

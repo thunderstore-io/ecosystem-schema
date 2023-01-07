@@ -8,7 +8,7 @@ distributions:
     identifier: "848450"
   - platform: "xbox-game-pass"
     identifier: "UnknownWorldsEntertainmen.SubnauticaBelowZero"
-legacy:
+r2modman:
   internalFolderName: "SubnauticaBZ"
   dataFolderName: "SubnauticaZero_Data"
   settingsIdentifier: "SubnauticaBZ"

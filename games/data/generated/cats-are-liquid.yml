@@ -7,7 +7,7 @@ distributions:
   - platform: "steam"
     identifier: "1188080"
   - platform: "other"
-legacy:
+r2modman:
   internalFolderName: "CatsAreLiquidABP"
   dataFolderName: "CaL-ABP-Windows_Data"
   settingsIdentifier: "CatsAreLiquidABP"

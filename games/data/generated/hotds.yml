@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "283160"
-legacy:
+r2modman:
   internalFolderName: "HOTDS"
   dataFolderName: "dyingsun_Data"
   settingsIdentifier: "HOTDS"
