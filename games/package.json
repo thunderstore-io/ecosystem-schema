@@ -7,7 +7,8 @@
   "author": "Mythic <mythic@thunderstore.io>",
   "license": "MIT",
   "scripts": {
-    "extract": "ts-node ./src/scripts/extract-r2modman.ts"
+    "extract": "ts-node ./src/scripts/extract-r2modman.ts",
+    "build": "ts-node ./src/scripts/build.ts"
   },
   "dependencies": {
     "@types/js-yaml": "^4.0.5",
