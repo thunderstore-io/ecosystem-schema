@@ -15,6 +15,8 @@ export function convertPlatform(platform: StorePlatform): DistributionPlatform {
       return "oculus";
     case StorePlatform.ORIGIN:
       return "origin";
+    case StorePlatform.XBOX_GAME_PASS:
+      return "xbox-game-pass";
     case StorePlatform.OTHER:
       return "other";
   }

@@ -4,6 +4,7 @@ export type DistributionPlatform =
   | "egs"
   | "oculus"
   | "origin"
+  | "xbox-game-pass"
   | "other";
 export type GameType = "game" | "server";
 export type DisplayType = "visible" | "hidden";
