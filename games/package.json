@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "extract": "ts-node ./src/scripts/extract-r2modman.ts",
-    "build": "ts-node ./src/scripts/build.ts"
+    "build": "ts-node ./src/scripts/build.ts",
+    "add": "ts-node ./src/scripts/add.ts"
   },
   "dependencies": {
     "@types/js-yaml": "^4.0.5",

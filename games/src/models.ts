@@ -26,6 +26,17 @@ export interface GameLegacyDefinition {
   gameSelectionDisplayMode: "visible" | "hidden";
 }
 
+export interface ThunderstoreCategory {
+  slug: string;
+  label: string;
+}
+
+export interface GameThunderstoreDefinition {
+  categories?: ThunderstoreCategory[];
+  discordUrl?: string;
+  wikiUrl?: string;
+}
+
 export interface GameDefinition {
   uuid: string;
   label: string;
@@ -35,4 +46,5 @@ export interface GameDefinition {
   };
   distributions: GameDistributionDefinition[];
   legacy: GameLegacyDefinition;
+  thunderstore?: GameThunderstoreDefinition;
 }

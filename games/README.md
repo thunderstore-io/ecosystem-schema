@@ -11,6 +11,18 @@ ecosystem.
 yarn run extract
 ```
 
+### Build game definitions into json
+
+```
+yarn run build
+```
+
+### Generate a new game definition yml
+
+```
+yarn run add {gamename}
+```
+
 ## Goals
 
 - IDs are permanent and should not be deleted from newer version of the schema
