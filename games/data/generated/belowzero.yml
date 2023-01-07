@@ -19,3 +19,29 @@ r2modman:
     - "SubnauticaZero.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "Subnautica_Modding-BepInExPack_BelowZero"
+      rootFolder: "BepInExPack_BelowZero"
+      loader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "state"
+    - route: "BepInEx/monomod"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+    - route: "QMods"
+      trackingMethod: "state"
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"

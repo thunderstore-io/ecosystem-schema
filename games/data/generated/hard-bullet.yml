@@ -17,3 +17,37 @@ r2modman:
     - "Hard Bullet.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "LavaGang-MelonLoader"
+      rootFolder: ""
+      loader: "melonloader"
+  installRules:
+    - route: "Mods"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".dll"
+    - route: "UserData/ModManager"
+      trackingMethod: "subdir-no-flatten"
+      isDefaultLocation: true
+    - route: "UserData/CustomNPCs"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".npc"
+    - route: "UserLibs"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".lib.dll"
+    - route: "MelonLoader"
+      trackingMethod: "state"
+      children:
+        - route: "Managed"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".managed.dll"
+        - route: "Libs"
+          trackingMethod: "state"
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"
+    - "LICENCE"

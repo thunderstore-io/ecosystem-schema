@@ -20,3 +20,15 @@ r2modman:
     - "Titanfall2.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "Northstar-Northstar"
+      rootFolder: "Northstar"
+      loader: "northstar"
+  installRules:
+    - route: "R2Northstar/mods"
+      trackingMethod: "state"
+  relativeFileExclusions:
+    - "manifest.json"
+    - "README.md"
+    - "icon.png"
+    - "LICENCE"

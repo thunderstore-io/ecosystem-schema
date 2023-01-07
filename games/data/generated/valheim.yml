@@ -18,3 +18,29 @@ r2modman:
     - "valheim_server.x86_64"
   gameInstancetype: "server"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "denikson-BepInExPack_Valheim"
+      rootFolder: "BepInExPack_Valheim"
+      loader: "bepinex"
+    - packageId: "1F31A-BepInEx_Valheim_Full"
+      rootFolder: "BepInEx_Valheim_Full"
+      loader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "subdir"
+    - route: "BepInEx/monomod"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+    - route: "BepInEx/SlimVML"
+      trackingMethod: "subdir"
+  relativeFileExclusions: []

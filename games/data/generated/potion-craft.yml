@@ -17,3 +17,24 @@ r2modman:
     - "Potion Craft.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "BepInEx-BepInExPack_PotionCraft"
+      rootFolder: "BepInExPack_PotionCraft"
+      loader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "subdir"
+    - route: "BepInEx/monomod"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+  relativeFileExclusions: []

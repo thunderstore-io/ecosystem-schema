@@ -17,3 +17,24 @@ r2modman:
     - "CoreKeeper.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "BepInEx-BepInExPack_Core_Keeper"
+      rootFolder: "BepInExPack_Core-Keeper"
+      loader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "subdir"
+    - route: "BepInEx/monomod"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+  relativeFileExclusions: []

@@ -21,3 +21,32 @@ r2modman:
     - "Subnautica.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "Subnautica_Modding-BepInExPack_Subnautica"
+      rootFolder: "BepInExPack_Subnautica"
+      loader: "bepinex"
+    - packageId: "Subnautica_Modding-BepInExPack_Subnautica_Experimental"
+      rootFolder: "BepInExPack_Subnautica_Experimental"
+      loader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "state"
+    - route: "BepInEx/monomod"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+    - route: "QMods"
+      trackingMethod: "state"
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"

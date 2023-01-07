@@ -19,3 +19,75 @@ r2modman:
     - "Boneworks_Oculus_Windows64.exe"
   gameInstancetype: "game"
   gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "LavaGang-MelonLoader"
+      rootFolder: ""
+      loader: "melonloader"
+  installRules:
+    - route: "Mods"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "Plugins"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".plugin.dll"
+    - route: "UserLibs"
+      trackingMethod: "state"
+      defaultFileExtensions:
+        - ".lib.dll"
+    - route: "MelonLoader"
+      trackingMethod: "state"
+      children:
+        - route: "Managed"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".managed.dll"
+        - route: "Libs"
+          trackingMethod: "state"
+    - route: "UserData"
+      trackingMethod: "state"
+      children:
+        - route: "CustomItems"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".melon"
+        - route: "CustomMaps"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".bcm"
+            - ".cma"
+        - route: "PlayerModels"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".body"
+        - route: "CustomLoadScreens"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".load"
+        - route: "Music"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".wav"
+        - route: "Food"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".food"
+        - route: "Scoreworks"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".sw"
+        - route: "CustomSkins"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".png"
+        - route: "Grenades"
+          trackingMethod: "state"
+          defaultFileExtensions:
+            - ".grenade"
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"
+    - "LICENCE"
