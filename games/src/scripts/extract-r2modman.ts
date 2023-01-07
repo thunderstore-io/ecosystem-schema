@@ -12,9 +12,22 @@ for (const def of existingDefinitions) {
   settingsIdentifierToUuid.set(def.legacy.settingsIdentifier, def.uuid);
 }
 
+const oldPackegeListRe = new RegExp(
+  /https:\/\/([\w\-]+).thunderstore.io\/api\/v1\/package\//
+);
+const newPackegeListRe = new RegExp(
+  /https:\/\/thunderstore.io\/c\/([\w\-]+)\/api\/v1\/package\//
+);
+
+const extractThunderstoreCommunity = (thunderstoreUrl: string): string => {
+  let matches = thunderstoreUrl.match(oldPackegeListRe)?.[1];
+  matches = matches ?? thunderstoreUrl.match(newPackegeListRe)?.[1];
+  return matches ?? "risk-of-rain2";
+};
+
 const games: GameDefinition[] = GameManager.gameList.map((x) => ({
   uuid: settingsIdentifierToUuid.get(x.settingsIdentifier) ?? uuid(),
-  label: x.thunderstoreCommunity,
+  label: extractThunderstoreCommunity(x.thunderstoreUrl),
   meta: {
     displayName: x.displayName,
     iconUrl: x.gameImage,
