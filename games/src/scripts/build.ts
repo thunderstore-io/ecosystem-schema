@@ -4,19 +4,21 @@ import fs from "fs";
 
 const existingDefinitions = loadGameDefinitions();
 
-const result = new Map<string, GameDefinition>();
+const games = new Map<string, GameDefinition>();
 for (const game of existingDefinitions) {
-  if (result.has(game.label)) {
+  if (games.has(game.label)) {
     throw new Error(`Game definition with duplicate label: ${game.label}`);
   }
-  result.set(game.label, game);
+  games.set(game.label, game);
 }
+
+const result = {
+  schemaVersion: "0.0.1",
+  games: Object.fromEntries(games),
+};
 
 const outdir = "./dist";
 if (!fs.existsSync(outdir)) {
   fs.mkdirSync(outdir);
 }
-fs.writeFileSync(
-  `${outdir}/games.json`,
-  JSON.stringify(Object.fromEntries(result), undefined, 2)
-);
+fs.writeFileSync(`${outdir}/games.json`, JSON.stringify(result, undefined, 2));
