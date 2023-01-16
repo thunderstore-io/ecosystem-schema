@@ -49,7 +49,8 @@ export interface GameModmanDefinition {
   relativeFileExclusions?: string[];
 }
 
-export interface GameThunderstoreDefinition {
+export interface ThunderstoreCommunityDefinition {
+  displayName: string;
   categories?: { [key: string]: { label: string } };
   sections?: {
     [key: string]: {
@@ -71,5 +72,5 @@ export interface GameDefinition {
   };
   distributions: GameDistributionDefinition[];
   r2modman: GameModmanDefinition;
-  thunderstore?: GameThunderstoreDefinition;
+  thunderstore?: ThunderstoreCommunityDefinition;
 }
