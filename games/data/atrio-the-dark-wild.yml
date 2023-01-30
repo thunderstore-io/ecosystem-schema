@@ -1,0 +1,31 @@
+uuid: "867747e7-e916-4747-8ee9-8682cfdd4aa5"
+label: "atrio-the-dark-wild"
+meta:
+  displayName: "atrio-the-dark-wild"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Atrio: The Dark Wild"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    weapons:
+      label: "Weapons"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories: ["modpacks"]
+    modpacks:
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/yRdVvMeTNS"

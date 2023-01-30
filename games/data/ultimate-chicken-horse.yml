@@ -1,0 +1,31 @@
+uuid: "c34fe1cf-1752-4185-bb39-25e29a6394f3"
+label: "ultimate-chicken-horse"
+meta:
+  displayName: "ultimate-chicken-horse"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Ultimate Chicken Horse"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    weapons:
+      label: "Weapons"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories: ["modpacks"]
+    modpacks:
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/GgzDQW6zbq"
