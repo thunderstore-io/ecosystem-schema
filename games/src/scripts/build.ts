@@ -22,7 +22,7 @@ for (const game of existingDefinitions) {
 }
 
 const result = {
-  schemaVersion: "0.0.4",
+  schemaVersion: "0.0.5",
   games: Object.fromEntries(games),
   communities: Object.fromEntries(communities),
 };
