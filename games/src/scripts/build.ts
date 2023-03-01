@@ -22,7 +22,7 @@ for (const game of existingDefinitions) {
 }
 
 const result = {
-  schemaVersion: "0.0.5",
+  schemaVersion: "0.0.6",
   games: Object.fromEntries(games),
   communities: Object.fromEntries(communities),
 };
@@ -31,7 +31,9 @@ const outdir = "./dist";
 if (!fs.existsSync(outdir)) {
   fs.mkdirSync(outdir);
 }
+const jsoned = JSON.stringify(result, undefined, 2);
 fs.writeFileSync(
   `${outdir}/ecosystem-schema.${result.schemaVersion}.json`,
-  JSON.stringify(result, undefined, 2)
+  jsoned
 );
+fs.writeFileSync(`${outdir}/latest.json`, jsoned);
