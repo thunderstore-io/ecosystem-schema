@@ -19,6 +19,24 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    arenas:
+      label: "Arenas"
+    characters:
+      label: "Characters"
+    costumes:
+      label: "Costumes"
+    furniture:
+      label: "Furniture"
+    moves:
+      label: "Moves"
+    overrides:
+      label: "Overrides"
+    textures:
+      label: "Textures"
+    themes:
+      label: "Themes"
+    weapons:
+      label: "Weapons"
   sections:
     mods:
       name: "Mods"
