@@ -1,0 +1,28 @@
+uuid: "b7b7cf05-50a8-4ffd-815b-71a16d7f7954"
+label: "west-of-loathing"
+meta:
+  displayName: "West of Loathing"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "West of Loathing"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories: ["modpacks"]
+    modpacks:
+      name: "Modpacks"
+      requireCategories: ["modpacks"]

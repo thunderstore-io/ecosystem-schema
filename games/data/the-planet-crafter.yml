@@ -1,0 +1,28 @@
+uuid: "cce6146c-afe8-4200-9359-1e023966d4dc"
+label: "the-planet-crafter"
+meta:
+  displayName: "The Planet Crafter"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "The Planet Crafter"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories: ["modpacks"]
+    modpacks:
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
