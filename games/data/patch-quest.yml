@@ -1,0 +1,28 @@
+uuid: "f177bed2-ec0d-424a-98bd-87e9e3484924"
+label: "patch-quest"
+meta:
+  displayName: "Patch Quest"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Patch Quest"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories: ["modpacks"]
+    modpacks:
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
