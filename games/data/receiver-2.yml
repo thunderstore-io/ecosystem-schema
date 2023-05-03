@@ -23,8 +23,8 @@ thunderstore:
       label: "Tapes"
     ammo:
       label: "Ammo"
-    campaign:
-      label: "Campaign"
+    campaigns:
+      label: "Campaigns"
     libraries:
       label: "Libraries"
     misc:
