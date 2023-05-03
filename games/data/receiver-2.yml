@@ -23,6 +23,8 @@ thunderstore:
       label: "Tapes"
     ammo:
       label: "Ammo"
+    campaign:
+      label: "Campaign"
     libraries:
       label: "Libraries"
     misc:
@@ -34,3 +36,4 @@ thunderstore:
     modpacks:
       name: "Modpacks"
       requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/wolfire"
