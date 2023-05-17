@@ -19,6 +19,20 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    patch:
+      label: "Patch"
+    items:
+      label: "Items"
+    cases:
+      label: "Cases"
+    ai:
+      label: "AI"
+    cityGeneration:
+      label: "City Generation"
+    decor:
+      label: "Decor"
+    gamemode:
+      label: "Gamemode"
   sections:
     mods:
       name: "Mods"
