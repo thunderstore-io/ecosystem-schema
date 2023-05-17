@@ -27,7 +27,7 @@ thunderstore:
       label: "Cases"
     ai:
       label: "AI"
-    cityGeneration:
+    city-generation:
       label: "City Generation"
     decor:
       label: "Decor"
