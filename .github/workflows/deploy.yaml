@@ -10,7 +10,7 @@ jobs:
     runs-on: "ubuntu-latest"
     environment:
       name: "Dev"
-      url: ${{ environment.DEPLOY_API_URL }}
+      url: ${{ env.DEPLOY_API_URL }}
     defaults:
       run:
         working-directory: "games"
