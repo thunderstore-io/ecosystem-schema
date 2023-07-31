@@ -10,7 +10,7 @@ jobs:
     runs-on: "ubuntu-latest"
     environment:
       name: "Dev"
-      url: ${{ env.DEPLOY_API_URL }}
+      url: ${{ vars.DEPLOY_API_URL }}
     defaults:
       run:
         working-directory: "games"
@@ -26,5 +26,5 @@ jobs:
       - name: "Deploy"
         run: "yarn run deploy"
         env:
-          DEPLOY_API_URL: ${{ env.DEPLOY_API_URL }}
+          DEPLOY_API_URL: ${{ vars.DEPLOY_API_URL }}
           DEPLOY_API_KEY: ${{ secrets.DEPLOY_API_KEY }}
