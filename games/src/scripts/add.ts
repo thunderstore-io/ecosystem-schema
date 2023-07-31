@@ -30,6 +30,27 @@ const game: GameDefinition = {
     modLoaderPackages: [],
     installRules: [],
   },
+  thunderstore: {
+    displayName: name,
+    categories: {
+      mods: { label: "Mods" },
+      modpacks: { label: "Modpacks" },
+      tools: { label: "Tools" },
+      libraries: { label: "Libraries" },
+      misc: { label: "Misc" },
+      audio: { label: "Audio" },
+    },
+    sections: {
+      mods: {
+        name: "Mods",
+        excludeCategories: ["modpacks"],
+      },
+      modpacks: {
+        name: "Modpacks",
+        requireCategories: ["modpacks"],
+      },
+    },
+  },
 };
 
 const path = `./data/${name}.yml`;
