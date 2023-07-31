@@ -1,5 +1,6 @@
 {
   "name": "@thunderstore/games",
+  "type": "module",
   "version": "0.1.0",
   "description": "Index of Thunderstore supported games",
   "main": "index.js",
@@ -9,12 +10,14 @@
   "scripts": {
     "extract": "ts-node ./src/scripts/extract-r2modman.ts",
     "build": "ts-node ./src/scripts/build.ts",
-    "add": "ts-node ./src/scripts/add.ts"
+    "add": "ts-node ./src/scripts/add.ts",
+    "deploy": "ts-node ./src/scripts/deploy.ts"
   },
   "dependencies": {
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^18.7.21",
     "@types/uuid": "^8.3.4",
+    "dotenv": "^16.3.1",
     "js-yaml": "^4.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3",

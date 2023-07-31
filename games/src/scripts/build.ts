@@ -32,8 +32,4 @@ if (!fs.existsSync(outdir)) {
   fs.mkdirSync(outdir);
 }
 const jsoned = JSON.stringify(result, undefined, 2);
-fs.writeFileSync(
-  `${outdir}/ecosystem-schema.${result.schemaVersion}.json`,
-  jsoned
-);
 fs.writeFileSync(`${outdir}/latest.json`, jsoned);
