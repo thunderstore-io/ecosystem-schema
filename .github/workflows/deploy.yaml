@@ -26,4 +26,5 @@ jobs:
       - name: "Deploy"
         run: "yarn run deploy"
         env:
+          DEPLOY_API_URL: ${{ env.DEPLOY_API_URL }}
           DEPLOY_API_KEY: ${{ secrets.DEPLOY_API_KEY }}
