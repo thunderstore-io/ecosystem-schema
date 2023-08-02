@@ -2,17 +2,24 @@ import { GameDefinition } from "../models";
 import { v4 as uuid } from "uuid";
 import fs from "fs";
 import * as yaml from "js-yaml";
+import { input } from "@inquirer/prompts";
+import _ from "lodash";
 
-const name = process.argv[2];
-if (!name) {
-  throw new Error("Missing argument: name");
-}
+const displayName = await input({
+  message: "Display name for the community",
+  validate: (val) => !!val,
+});
+const identifier = await input({
+  message: "Identifier for the community (slug)",
+  default: _.kebabCase(displayName),
+  validate: (val) => !!val && val == _.kebabCase(val),
+});
 
 const game: GameDefinition = {
   uuid: uuid(),
-  label: name,
+  label: identifier,
   meta: {
-    displayName: name,
+    displayName,
     iconUrl: "None",
   },
   distributions: [],
@@ -32,7 +39,7 @@ const game: GameDefinition = {
   //   installRules: [],
   // },
   thunderstore: {
-    displayName: name,
+    displayName,
     categories: {
       mods: { label: "Mods" },
       modpacks: { label: "Modpacks" },
@@ -54,7 +61,7 @@ const game: GameDefinition = {
   },
 };
 
-const path = `./data/${name}.yml`;
+const path = `./data/${identifier}.yml`;
 if (fs.existsSync(path)) {
   throw new Error(`${path} already exists`);
 }
