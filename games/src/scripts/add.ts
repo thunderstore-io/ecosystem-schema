@@ -16,20 +16,21 @@ const game: GameDefinition = {
     iconUrl: "None",
   },
   distributions: [],
-  r2modman: {
-    internalFolderName: name,
-    dataFolderName: name,
-    settingsIdentifier: name,
-    packageIndex: `https://thunderstore.io/c/${name}/api/v1/package/`,
-    exclusionsUrl:
-      "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md",
-    steamFolderName: name,
-    exeNames: [`${name}.exe`],
-    gameInstancetype: "game",
-    gameSelectionDisplayMode: "visible",
-    modLoaderPackages: [],
-    installRules: [],
-  },
+  // TODO: Enable once consumers implemented
+  // r2modman: {
+  //   internalFolderName: name,
+  //   dataFolderName: name,
+  //   settingsIdentifier: name,
+  //   packageIndex: `https://thunderstore.io/c/${name}/api/v1/package/`,
+  //   exclusionsUrl:
+  //     "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md",
+  //   steamFolderName: name,
+  //   exeNames: [`${name}.exe`],
+  //   gameInstancetype: "game",
+  //   gameSelectionDisplayMode: "visible",
+  //   modLoaderPackages: [],
+  //   installRules: [],
+  // },
   thunderstore: {
     displayName: name,
     categories: {

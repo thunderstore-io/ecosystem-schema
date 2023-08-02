@@ -70,7 +70,7 @@ export interface GameDefinition {
     displayName: string;
     iconUrl: string;
   };
-  distributions: GameDistributionDefinition[];
-  r2modman: GameModmanDefinition;
+  distributions?: GameDistributionDefinition[];
+  r2modman?: GameModmanDefinition;
   thunderstore?: ThunderstoreCommunityDefinition;
 }
