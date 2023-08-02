@@ -1,0 +1,30 @@
+uuid: "e4a6abd5-cc54-4a32-8491-d6a1b360bd71"
+label: "garfield-kart-furious-racing"
+meta:
+  displayName: "Garfield Kart - Furious Racing"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Garfield Kart - Furious Racing"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"

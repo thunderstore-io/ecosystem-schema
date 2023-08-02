@@ -1,0 +1,30 @@
+uuid: "4df35e7e-e355-4ecc-b9db-76eebbff97d0"
+label: "we-love-katamari-reroll-royal-reverie"
+meta:
+  displayName: "We Love Katamari REROLL+ Royal Reverie"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "We Love Katamari REROLL+ Royal Reverie"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
