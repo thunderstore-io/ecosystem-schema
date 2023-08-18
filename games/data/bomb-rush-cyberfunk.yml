@@ -1,0 +1,31 @@
+uuid: "0a5f2248-3eff-408b-87ed-cd982e4f1c91"
+label: "bomb-rush-cyberfunk"
+meta:
+  displayName: "Bomb Rush Cyberfunk"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Bomb Rush Cyberfunk"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/reptilehideout"

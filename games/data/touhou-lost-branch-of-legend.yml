@@ -1,0 +1,32 @@
+uuid: "375634e8-16b6-486d-aa9d-26ba422d4143"
+label: "touhou-lost-branch-of-legend"
+meta:
+  displayName: "Touhou: Lost Branch of Legend"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Touhou: Lost Branch of Legend"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/WT4qdfYhhG"
+  wikiUrl: "https://lbol.miraheze.org/wiki/Main_Page"
