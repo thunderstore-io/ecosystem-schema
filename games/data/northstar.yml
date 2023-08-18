@@ -1,0 +1,8 @@
+uuid: "2ba4fd1d-5cfc-45c8-a403-d9ebbd8c6165"
+label: "northstar"
+tcli:
+  autodiscovery:
+    - kind: "RegistryLookup"
+      platform: "windows"
+      args:
+        registryPath: "Software\\Respawn\\Titanfall2"
