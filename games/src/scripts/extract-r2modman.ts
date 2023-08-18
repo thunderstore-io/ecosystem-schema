@@ -18,9 +18,9 @@ import {
 import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator";
 import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules";
 
-const existingDefinitions = loadGameDefinitions();
+const { generated } = loadGameDefinitions();
 const settingsIdentifierToUuid = new Map<string, string>();
-for (const def of existingDefinitions) {
+for (const def of generated) {
   settingsIdentifierToUuid.set(def.r2modman.settingsIdentifier, def.uuid);
 }
 
