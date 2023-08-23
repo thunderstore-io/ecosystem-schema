@@ -4,6 +4,12 @@ meta:
   displayName: "Patch Quest"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1347970
 thunderstore:
   displayName: "Patch Quest"
   categories:

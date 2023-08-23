@@ -4,6 +4,12 @@ meta:
   displayName: "RUMBLE"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 890550
 thunderstore:
   displayName: "RUMBLE"
   categories:

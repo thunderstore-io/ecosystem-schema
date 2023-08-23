@@ -1,0 +1,19 @@
+uuid: "72ff8d9a-5af4-428d-9520-1955a464e3b6"
+label: "subnautica"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 264710
+
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "Jaguar"
+    
+    - kind: "gamepass"
+      targets:
+        - "windows"
+      ident: "UnknownWorldsEntertainment.Subnautica"

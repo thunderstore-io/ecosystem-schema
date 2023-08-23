@@ -1,0 +1,8 @@
+uuid: "23a949a1-e3c4-4df3-9106-c1561dc709ec"
+label: "nearly-dead"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1268900

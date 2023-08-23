@@ -4,6 +4,12 @@ meta:
   displayName: "Wildfrost"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1811990
 thunderstore:
   displayName: "Wildfrost"
   categories:

@@ -1,0 +1,9 @@
+uuid: "a1d6a1d9-ca62-4754-b64c-0ee1d88b7024"
+label: "stacklands"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1948280

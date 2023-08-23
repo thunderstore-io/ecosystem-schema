@@ -1,0 +1,10 @@
+uuid: "17034141-3fc6-497e-bd71-d6bd61cf55a5"
+label: "muck"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1625450

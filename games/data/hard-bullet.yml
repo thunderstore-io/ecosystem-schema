@@ -1,0 +1,8 @@
+uuid: "2bc64650-f8fa-424a-9ee2-53bef8041681"
+label: "hard-bullet"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1294760

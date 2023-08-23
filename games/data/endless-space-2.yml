@@ -4,6 +4,13 @@ meta:
   displayName: "Endless Space 2"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 392110
 thunderstore:
   displayName: "Endless Space 2"
   categories:

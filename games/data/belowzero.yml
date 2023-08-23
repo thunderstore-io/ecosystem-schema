@@ -1,0 +1,13 @@
+uuid: "c7281746-5743-4dd1-b37f-b640f6611854"
+label: "belowzero"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 848450
+    - kind: "gamepass"
+      targets:
+        - "windows"
+      ident: "UnknownWorldsEntertainment.SubnauticaBelowZero"

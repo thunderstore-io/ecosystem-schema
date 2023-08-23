@@ -1,0 +1,9 @@
+uuid: "49fd28ec-fb38-47c5-ba62-92a51cf9b70e"
+label: "core-keeper"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "linux"
+      appid: 1621690

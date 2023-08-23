@@ -4,6 +4,12 @@ meta:
   displayName: "Shadows of Doubt"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 986130
 thunderstore:
   displayName: "Shadows of Doubt"
   categories:

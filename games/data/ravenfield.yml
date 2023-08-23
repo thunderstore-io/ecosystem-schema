@@ -1,0 +1,10 @@
+uuid: "92c201e9-d38d-421e-b40b-7d0e0e84d433"
+label: "ravenfield"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 636480

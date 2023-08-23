@@ -1,0 +1,19 @@
+uuid: "f2ae6950-3481-4448-827f-5d186c620dcf"
+label: "enter-the-gungeon"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "linux"
+      appid: 311690
+
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "Garlic"
+
+    - kind: "nodrm"
+      targets:
+        - "windows"
+        - "linux"

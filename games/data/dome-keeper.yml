@@ -4,6 +4,14 @@ meta:
   displayName: "Dome Keeper"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1637320
 thunderstore:
   displayName: "Dome Keeper"
   categories:

@@ -1,0 +1,9 @@
+uuid: "2f4a73d2-001a-48a8-9957-b9aa5c1a6ec0"
+label: "trombone-champ"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1059990

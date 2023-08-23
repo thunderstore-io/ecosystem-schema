@@ -1,0 +1,10 @@
+uuid: "00b69efd-f144-45d5-b16e-09c4927a5421"
+label: "across-the-obelisk"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1385380

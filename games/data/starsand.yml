@@ -1,0 +1,13 @@
+uuid: "25892e24-3b51-4742-883e-3964024af225"
+label: "starsand"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1380220
+
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "a774278c0813447c96a76b053cbf73ff"

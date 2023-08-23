@@ -1,0 +1,8 @@
+uuid: "6bec34e7-ce43-4fd5-a4d9-5017ab5f6245"
+label: "chrono-ark"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1188930

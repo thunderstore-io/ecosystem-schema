@@ -4,6 +4,13 @@ meta:
   displayName: "Shadows Over Loathing"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1939160
 thunderstore:
   displayName: "Shadows Over Loathing"
   categories:

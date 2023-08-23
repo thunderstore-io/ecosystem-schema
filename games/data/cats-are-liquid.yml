@@ -1,0 +1,15 @@
+uuid: "72045937-27bc-47cc-a2f4-477ec25b881c"
+label: "cats-are-liquid"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1188080
+    - kind: "nodrm"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"

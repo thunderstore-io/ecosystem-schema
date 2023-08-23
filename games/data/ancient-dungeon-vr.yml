@@ -4,6 +4,16 @@ meta:
   displayName: "Ancient Dungeon VR"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1125240
+    - kind: "oculus"
+      targets:
+        - "windows"
+      note: "?????? how ident ?????"
 thunderstore:
   displayName: "Ancient Dungeon VR"
   categories:

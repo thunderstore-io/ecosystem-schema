@@ -4,6 +4,13 @@ meta:
   displayName: "Inscryption Multiplayer"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "nodrm"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
 thunderstore:
   displayName: "Inscryption Multiplayer"
   categories:

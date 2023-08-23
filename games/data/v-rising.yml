@@ -1,0 +1,8 @@
+uuid: "ffd789b4-89d3-4909-95dd-38b588fbf4aa"
+label: "v-rising"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1604030

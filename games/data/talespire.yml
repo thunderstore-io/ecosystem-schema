@@ -1,0 +1,8 @@
+uuid: "c72e0f9a-c223-4c3e-bf50-c4c1cf5eddad"
+label: "talespire"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 720620

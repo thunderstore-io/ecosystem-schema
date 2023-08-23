@@ -4,6 +4,14 @@ meta:
   displayName: "Dicey Dungeons"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 861540
 thunderstore:
   displayName: "Dicey Dungeons"
   categories:

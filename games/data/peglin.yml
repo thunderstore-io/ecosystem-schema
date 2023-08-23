@@ -1,0 +1,16 @@
+uuid: "e215e837-4d44-4774-9ed0-a40300dd5c1d"
+label: "peglin"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets: 
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1296610
+    
+    - kind: "nodrm"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"

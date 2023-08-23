@@ -4,6 +4,12 @@ meta:
   displayName: "Bomb Rush Cyberfunk"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1353230
 thunderstore:
   displayName: "Bomb Rush Cyberfunk"
   categories:

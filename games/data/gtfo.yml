@@ -1,0 +1,8 @@
+uuid: "ac1a90d0-aad5-4a23-9d56-e8bff5beeaac"
+label: "gtfo"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 493520

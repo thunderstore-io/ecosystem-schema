@@ -1,0 +1,8 @@
+uuid: "1bf9c695-b950-4fa4-8d76-4aa60ccafcb0"
+label: "potion-craft"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1210320

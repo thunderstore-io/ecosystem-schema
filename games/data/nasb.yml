@@ -1,0 +1,8 @@
+uuid: "8979a32c-23d4-4fe6-b388-6282737d4db1"
+label: "nasb"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1414850

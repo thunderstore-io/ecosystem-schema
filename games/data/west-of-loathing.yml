@@ -4,6 +4,14 @@ meta:
   displayName: "West of Loathing"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 597220
 thunderstore:
   displayName: "West of Loathing"
   categories:
