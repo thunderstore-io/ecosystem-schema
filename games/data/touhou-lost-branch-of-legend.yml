@@ -19,6 +19,36 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    qol:
+      label: "QoL"
+    cards:
+      label: "Cards"
+    difficulty:
+      label: "Difficulty"
+    memes:
+      label: "Memes"
+    balance:
+      label: "Balance"
+    bosses:
+      label: "Bosses"
+    enemies:
+      label: "Enemies"
+    skins:
+      label: "Skins"
+    ui:
+      label: "UI"
+    characters:
+      label: "Characters"
+    run-modifiers:
+      label: "Run Modifiers"
+    music:
+      label: "Music"
+    localization:
+      label: "Localization"
+    exhibits:
+      label: "Exhibits"
+    events:
+      label: "Events"
   sections:
     mods:
       name: "Mods"
