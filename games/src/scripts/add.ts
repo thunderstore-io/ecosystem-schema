@@ -14,6 +14,14 @@ const identifier = await input({
   default: _.kebabCase(displayName),
   validate: (val) => !!val && val == _.kebabCase(val),
 });
+const discordUrl = await input({
+  message: "Discord URL for the community (optional)",
+  default: "",
+});
+const wikiUrl = await input({
+  message: "Wiki URL for the community (optional)",
+  default: "",
+});
 
 const game: GameDefinition = {
   uuid: uuid(),
@@ -58,6 +66,8 @@ const game: GameDefinition = {
         requireCategories: ["modpacks"],
       },
     },
+    wikiUrl: wikiUrl || undefined,
+    discordUrl: discordUrl || undefined,
   },
 };
 
