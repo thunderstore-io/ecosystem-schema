@@ -1,0 +1,31 @@
+uuid: "da78ae80-b42f-4956-b239-bfa408594ebc"
+label: "sunkenland"
+meta:
+  displayName: "Sunkenland"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Sunkenland"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/Vd89cSgxNW"
