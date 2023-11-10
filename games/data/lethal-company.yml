@@ -1,0 +1,31 @@
+uuid: "40c7d846-cff1-45fe-8679-4abe993abafb"
+label: "lethal-company"
+meta:
+  displayName: "Lethal Company"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Lethal Company"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/XeyYqRdRGC"
