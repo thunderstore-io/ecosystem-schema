@@ -1,0 +1,32 @@
+uuid: "549e0efb-bf7c-47f8-a76f-dfe61c89196c"
+label: "cities-skylines-ii"
+meta:
+  displayName: "Cities: Skylines II"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Cities: Skylines II"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/optimus-code/Cities2Modding"
+  discordUrl: "https://discord.gg/KGRNBbm5Fh"
