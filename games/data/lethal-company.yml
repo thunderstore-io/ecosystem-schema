@@ -23,6 +23,18 @@ thunderstore:
       label: "BepInEx"
     melonloader:
       label: "MelonLoader"
+    suits:
+      label: "Suits"
+    equipment:
+      label: "Equipment"
+    items:
+      label: "Items"
+    monsters:
+      label: "Monsters"
+    moons:
+      label: "Moons"
+    furniture:
+      label: "Furniture"
   sections:
     mods:
       name: "Mods"
