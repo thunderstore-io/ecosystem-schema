@@ -2,7 +2,7 @@ uuid: "40c7d846-cff1-45fe-8679-4abe993abafb"
 label: "lethal-company"
 meta:
   displayName: "Lethal Company"
-  iconUrl: "None"
+  iconUrl: "https://styles.redditmedia.com/t5_9al6ft/styles/communityIcon_lb87s4o45y0c1.png"
 distributions: []
 thunderstore:
   displayName: "Lethal Company"
@@ -33,3 +33,4 @@ thunderstore:
       requireCategories:
         - "modpacks"
   discordUrl: "https://discord.gg/XeyYqRdRGC"
+  wikiUrl: "https://lethal.wiki/"
