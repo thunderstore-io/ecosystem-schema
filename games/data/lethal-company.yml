@@ -35,6 +35,10 @@ thunderstore:
       label: "Moons"
     furniture:
       label: "Furniture"
+    clientside:
+      label: "Client-side"
+    serverside:
+      label: "Server-side"
   sections:
     mods:
       name: "Mods"
