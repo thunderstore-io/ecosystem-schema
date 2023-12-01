@@ -46,6 +46,12 @@ thunderstore:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+    libraries:
+      name: "APIs & Libraries"
+      requireCategories:
+        - "libraries"
+      excludeCategories:
+        - "modpacks"
     modpacks:
       name: "Modpacks"
       requireCategories:
