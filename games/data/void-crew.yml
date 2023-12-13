@@ -1,0 +1,30 @@
+uuid: "337b81bd-6acd-44b5-9a9f-13edc45c6d07"
+label: "void-crew"
+meta:
+  displayName: "Void Crew"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Void Crew"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"

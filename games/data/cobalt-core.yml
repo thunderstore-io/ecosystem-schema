@@ -1,0 +1,31 @@
+uuid: "d03f61b8-9604-4cc7-8d77-4647db475aa9"
+label: "cobalt-core"
+meta:
+  displayName: "Cobalt Core"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Cobalt Core"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/m8jhYA4TvV"
