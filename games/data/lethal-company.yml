@@ -41,9 +41,18 @@ thunderstore:
       label: "Server-side"
     cosmetics:
       label: "Cosmetics"
+    asset-replacements:
+      label: "Asset Replacements"
   sections:
     mods:
       name: "Mods"
+      excludeCategories:
+        - "modpacks"
+        - "asset-replacements"
+    asset-replacements:
+      name: "Asset Replacements"
+      requireCategories:
+        - "asset-replacements"
       excludeCategories:
         - "modpacks"
     libraries:
