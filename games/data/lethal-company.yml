@@ -43,6 +43,8 @@ thunderstore:
       label: "Cosmetics"
     asset-replacements:
       label: "Asset Replacements"
+    translations:
+      label: "Translations"
   sections:
     mods:
       name: "Mods"
