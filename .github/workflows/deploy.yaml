@@ -18,7 +18,9 @@ jobs:
       - uses: "actions/checkout@v3"
       - uses: "actions/setup-node@v3"
         with:
-          node-version: "18.18" # 18.19 breaks the build for some reason
+          # 18.19 breaks the build due to
+          # https://github.com/TypeStrong/ts-node/issues/2094
+          node-version: "18.18"
           cache-dependency-path: "games/yarn.lock"
       - name: "Install dependencies"
         run: "yarn install --frozen-lockfile"
