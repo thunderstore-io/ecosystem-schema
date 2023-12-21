@@ -25,6 +25,12 @@ thunderstore:
       label: "MelonLoader"
     suits:
       label: "Suits"
+    boombox:
+      label: "Boombox Music"
+    video:
+      label: "TV Videos"
+    poster:
+      label: "Posters"
     equipment:
       label: "Equipment"
     items:
