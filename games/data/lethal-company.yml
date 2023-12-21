@@ -45,6 +45,8 @@ thunderstore:
       label: "Asset Replacements"
     translations:
       label: "Translations"
+    emotes:
+      label: "Emotes"
   sections:
     mods:
       name: "Mods"
