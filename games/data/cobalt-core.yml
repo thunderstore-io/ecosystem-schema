@@ -7,6 +7,14 @@ distributions: []
 thunderstore:
   displayName: "Cobalt Core"
   categories:
+    # main categories
+    mods:
+      label: "Mods"
+    tools:
+      label: "Tools"
+    modpacks:
+      label: "Modpacks"
+    # mod subcategories
     artifacts:
       label: "Artifacts"
     cards:
@@ -21,14 +29,12 @@ thunderstore:
       label: "Events"
     gameplay-mechanics:
       label: "Gameplay mechanics"
-    tools:
-      label: "Tools"
     libraries:
       label: "Libraries"
+    audio:
+      label: "Audio"
     misc:
       label: "Misc"
-    modpacks:
-      label: "Modpacks"
   sections:
     mods:
       name: "Mods"
