@@ -7,18 +7,28 @@ distributions: []
 thunderstore:
   displayName: "Cobalt Core"
   categories:
-    mods:
-      label: "Mods"
-    modpacks:
-      label: "Modpacks"
+    artifacts:
+      label: "Artifacts"
+    cards:
+      label: "Cards"
+    characters:
+      label: "Characters"
+    ships:
+      label: "Ships"
+    enemies:
+      label: "Enemies"
+    events:
+      label: "Events"
+    gameplay-mechanics:
+      label: "Gameplay mechanics"
     tools:
       label: "Tools"
     libraries:
       label: "Libraries"
     misc:
       label: "Misc"
-    audio:
-      label: "Audio"
+    modpacks:
+      label: "Modpacks"
   sections:
     mods:
       name: "Mods"
