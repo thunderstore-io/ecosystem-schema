@@ -1,2 +1,76 @@
 uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
 label: "inscryption"
+meta:
+  displayName: "Inscryption"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Inscryption"
+  categories:
+    cards:
+      label: "Cards"
+    scribes:
+      label: "Scrybes"
+    bosses:
+      label: "Bosses"
+    audio:
+      label: "Audio"
+    tweaks:
+      label: "Tweaks"
+    language:
+      label: "Language"
+    libraries:
+      label: "Libraries"
+    modpacks:
+      label: "Modpacks"
+    misc:
+      label: "Misc"
+    act-i:
+      label: "Act I"
+    act-ii:
+      label: "Act II"
+    act-iii:
+      label: "Act III"
+    music:
+      label: "Music"
+    kaycees-mod:
+      label: "Kaycee's Mod"
+    items:
+      label: "Items"
+    regions:
+      label: "Regions"
+    encounters:
+      label: "Encounters"
+    p03-kcm-addons:
+      label: "P03 In Kaycee's Mod Addons"
+    grimoramod-addons:
+      label: "Grimora Mod Addons"
+    magmod-addons:
+      label: "Magnificus Mod Addons"
+  sections:
+    mods:
+      name: "All Mods"
+      excludeCategories:
+        - "modpacks"
+    act-i:
+      name: "Act I"
+      requireCategories:
+        - "act-i"
+    act-ii:
+      name: "Act II"
+      requireCategories:
+        - "act-ii"
+    act-iii:
+      name: "Act III"
+      requireCategories:
+        - "act-iii"
+    kaycees-mod:
+      name: "Kaycees Mod"
+      requireCategories:
+        - "kaycees-mod"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/ZQPvfKEpwM"
+  wikiUrl: "https://inscryptionmodding.github.io/InscryptionAPI/wiki/index.html"
