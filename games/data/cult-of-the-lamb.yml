@@ -1,0 +1,34 @@
+uuid: "5eb3bb69-dcca-436c-9bba-ab78c580c908"
+label: "cult-of-the-lamb"
+meta:
+  displayName: "Cult of the Lamb"
+  iconUrl: "Cotl.jpg"
+distributions: []
+thunderstore:
+  displayName: "Cult Of The Lamb"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    skins:
+      label: "Skins"
+  sections:
+    mods:
+      name: "All Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/R73vhh8Q2F"
+  wikiUrl: "https://pebloop.notion.site/pebloop/Cult-of-the-Lamb-Modding-dbc44bff70f6465d9abdb9e6f29fb6cd"
