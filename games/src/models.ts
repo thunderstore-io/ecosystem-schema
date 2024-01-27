@@ -74,3 +74,8 @@ export interface GameDefinition {
   r2modman?: GameModmanDefinition;
   thunderstore?: ThunderstoreCommunityDefinition;
 }
+
+export interface PackageInstallerDefinition {
+  name: string;
+  description: string;
+}

@@ -1,0 +1,11 @@
+name: "Legacy installer"
+description: >
+  The legacy installer represents the default (legacy) behavior used by r2modmanPlus
+  & Thunderstore for installing packages. The documentation for this behavior
+  is maintained at
+  [the r2modmanPlus wiki](https://github.com/ebkr/r2modmanPlus/wiki/Structuring-your-Thunderstore-package),
+  although it likely does not fully describe all the game-specific edge cases
+
+
+  This installer is implicitly used for packages which don't explicitly declare
+  their installers.

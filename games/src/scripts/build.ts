@@ -1,5 +1,9 @@
-import { loadGameDefinitions } from "../load";
-import { GameDefinition, ThunderstoreCommunityDefinition } from "../models";
+import { loadGameDefinitions, loadInstallerDefinitions } from "../load";
+import {
+  GameDefinition,
+  PackageInstallerDefinition,
+  ThunderstoreCommunityDefinition,
+} from "../models";
 import fs from "fs";
 import _ from "lodash";
 
@@ -48,10 +52,20 @@ for (const game of mergedDefinitions.values()) {
   games.set(game.label, game);
 }
 
+const packageInstallers = new Map<string, PackageInstallerDefinition>();
+
+for (const installer of loadInstallerDefinitions()) {
+  if (packageInstallers.has(installer.key)) {
+    throw new Error(`Package installer with duplicate key: ${installer.key}`);
+  }
+  packageInstallers.set(installer.key, installer.data);
+}
+
 const result = {
-  schemaVersion: "0.0.11",
+  schemaVersion: "0.1.0",
   games: Object.fromEntries(games),
   communities: Object.fromEntries(communities),
+  packageInstallers: Object.fromEntries(packageInstallers),
 };
 
 const outdir = "./dist";
