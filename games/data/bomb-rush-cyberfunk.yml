@@ -11,6 +11,8 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
+    maps:
+      label: "Maps"
     tools:
       label: "Tools"
     libraries:
@@ -23,6 +25,17 @@ thunderstore:
     mods:
       name: "Mods"
       excludeCategories:
+        - "modpacks"
+    maps:
+      name: "Maps"
+      requireCategories:
+        - "maps"
+      excludeCategories:
+        - "modpacks"
+    other:
+      name: "Other"
+      excludeCategories:
+        - "maps"
         - "modpacks"
     modpacks:
       name: "Modpacks"
