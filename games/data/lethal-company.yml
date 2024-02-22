@@ -39,6 +39,8 @@ thunderstore:
       label: "Monsters"
     moons:
       label: "Moons"
+    interiors:
+      label: "Interiors"
     furniture:
       label: "Furniture"
     clientside:
