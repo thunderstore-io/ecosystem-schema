@@ -1,0 +1,31 @@
+uuid: "18cea92d-ed64-4107-8f49-79b55ad6cb39"
+label: "plasma"
+meta:
+  displayName: "Plasma"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Plasma"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/BqGuhjtb65"
