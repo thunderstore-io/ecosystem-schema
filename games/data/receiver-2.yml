@@ -4,6 +4,14 @@ meta:
   displayName: "Receiver 2"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1129310
 thunderstore:
   displayName: "Receiver 2"
   categories:

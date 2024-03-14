@@ -1,0 +1,10 @@
+uuid: "3465826f-3754-4681-b3fd-f912bc900c5b"
+label: "backpack-hero"
+tcli:
+  distrbutions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1970580

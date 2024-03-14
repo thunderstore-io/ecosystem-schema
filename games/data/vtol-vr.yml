@@ -1,0 +1,8 @@
+uuid: "280cd9af-b668-42f1-9bb6-f172ec7998c2"
+label: "vtol-vr"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 667970
