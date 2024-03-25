@@ -15,10 +15,40 @@ thunderstore:
       label: "Tools"
     libraries:
       label: "Libraries"
+    quality-of-life:
+      label: "Quality of Life"
+    gameplay-tweaks:
+      label: "Gameplay Tweaks"
+    items:
+      label: "Items"
+    survivors:
+      label: "Survivors"
+    skills:
+      label: "Skills"
+    skins:
+      label: "Skins"
+    monsters:
+      label: "Monsters"
+    elites:
+      label: "Elites"
+    stages:
+      label: "Stages"
+    interactables:
+      label: "Interactables"
+    artifacts:
+      label: "Artifacts"
+    gamemodes:
+      label: "Gamemodes"
     misc:
       label: "Misc"
+    language:
+      label: "Language"
     audio:
       label: "Audio"
+    client-side:
+      label: "Client-side"
+    server-side:
+      label: "Server-side"
   sections:
     mods:
       name: "Mods"
