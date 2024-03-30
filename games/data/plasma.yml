@@ -19,6 +19,12 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    biomes:
+      label: "Biomes"
+    nodes:
+      label: "Logic Nodes"
+    components:
+      label: "Components"
   sections:
     mods:
       name: "Mods"
