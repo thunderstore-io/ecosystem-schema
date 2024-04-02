@@ -1,0 +1,31 @@
+uuid: "fce81e4f-fb2f-4bcb-84f5-2118e79161c3"
+label: "content-warning"
+meta:
+  displayName: "Content Warning"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Content Warning"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/E9ustG9Drx"
