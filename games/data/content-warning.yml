@@ -13,6 +13,8 @@ thunderstore:
       label: "Server-side"
     mods:
       label: "Mods"
+    camera:
+      label: "Camera Mods"
     emotes:
       label: "Emotes"
     items:
