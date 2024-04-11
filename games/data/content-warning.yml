@@ -11,6 +11,8 @@ thunderstore:
       label: "Client-side"
     serverside:
       label: "Server-side"
+    vanillacomp:
+      label: "Vanilla Compatible"
     mods:
       label: "Mods"
     camera:
