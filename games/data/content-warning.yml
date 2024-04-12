@@ -7,23 +7,66 @@ distributions: []
 thunderstore:
   displayName: "Content Warning"
   categories:
+    clientside:
+      label: "Client-side"
+    serverside:
+      label: "Server-side"
+    vanillacomp:
+      label: "Vanilla Compatible"
     mods:
       label: "Mods"
-    modpacks:
-      label: "Modpacks"
+    camera:
+      label: "Camera Mods"
+    emotes:
+      label: "Emotes"
+    items:
+      label: "Items"
+    items:
+      label: "Furniture"
+    monsters:
+      label: "Monsters"
+    audio:
+      label: "Audio"
+    misc:
+      label: "Misc"
+    bepinex:
+      label: "BepInEx"
+    melonloader:
+      label: "MelonLoader"
     tools:
       label: "Tools"
     libraries:
       label: "Libraries"
-    misc:
-      label: "Misc"
-    audio:
-      label: "Audio"
+    maps:
+      label: "Maps"
+    asset-replacements:
+      label: "Asset Replacements"
+    translations:
+      label: "Translations"
+    modpacks:
+      label: "Modpacks"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+        - "translations"
+    clientside:
+      name: "Clientside Mods"
+      requireCategories:
+        - "clientside"
+    serverside:
+      name: "Host Only Mods"
+      requireCategories:
+        - "serverside"
+    translations:
+      name: "Translations"
+      requireCategories:
+        - "translations"
+    libraries:
+      name: "APIs & Libraries"
+      requireCategories:
+        - "libraries"
     modpacks:
       name: "Modpacks"
       requireCategories:
