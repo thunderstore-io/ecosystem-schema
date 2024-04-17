@@ -1,50 +1,51 @@
-uuid: "8481a40d-1bac-4e98-b03a-f80ae7c59cb7"
-label: "bopl-battle"
+---
+uuid: 8481a40d-1bac-4e98-b03a-f80ae7c59cb7
+label: bopl-battle
 meta:
-  displayName: "Bopl Battle"
-  iconUrl: "None"
+  displayName: Bopl Battle
+  iconUrl: None
 distributions: []
 thunderstore:
-  displayName: "Bopl Battle"
+  displayName: Bopl Battle
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
     client-side:
-      label: "ClientSide"
+      label: ClientSide
     maps:
-      label: "Maps"
+      label: Maps
     abilities:
-      label: "Abilities"
+      label: Abilities
     host-only:
-      label: "Host-only"
+      label: Host-only
     local-only:
-      label: "Local-only:
+      label: Local-only
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+        - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
+        - modpacks
     maps:
-      name: "Maps"
+      name: Maps
       requireCategories:
-        - "maps"
+        - maps
     abilities:
-      name: "Abilities"
+      name: Abilities
       requireCategories:
-        - "abilities"
-wikiUrl: "https://borpl.site/wiki"
-discordUrl: "https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310"
+        - abilities
+wikiUrl: https://borpl.site/wiki
+discordUrl: https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310
