@@ -21,8 +21,6 @@ thunderstore:
       label: "Emotes"
     items:
       label: "Items"
-    items:
-      label: "Furniture"
     monsters:
       label: "Monsters"
     audio:
