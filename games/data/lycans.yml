@@ -1,0 +1,32 @@
+uuid: "e9f5de2b-6273-4af4-a4cc-f7c427e1389a"
+label: "lycans"
+meta:
+  displayName: "Lycans"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Lycans"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://lycans-modding.github.io/LMWiki/"
+  discordUrl: "https://discord.gg/KHk3FHcWMv"

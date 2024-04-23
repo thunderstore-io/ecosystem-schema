@@ -1,0 +1,31 @@
+uuid: "98d80ee3-5a6e-4c15-a433-ab70200a0b90"
+label: "hades-ii"
+meta:
+  displayName: "Hades 2"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Hades 2"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/KuMbyrN"
