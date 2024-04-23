@@ -28,3 +28,4 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/nfES3pcwTZ"
