@@ -1,0 +1,22 @@
+on:
+  pull_request:
+
+jobs:
+  deploy:
+    name: "Validate"
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        working-directory: "games"
+    steps:
+      - uses: "actions/checkout@v3"
+      - uses: "actions/setup-node@v3"
+        with:
+          node-version: "20.12"
+          cache-dependency-path: "games/yarn.lock"
+      - name: "Install dependencies"
+        run: "yarn install --frozen-lockfile"
+      - name: "Validate & Diff"
+        run: "yarn run validate && yarn run diff"
+        env:
+          LATEST_SCHEMA_URL: ${{ vars.LATEST_SCHEMA_URL }}
