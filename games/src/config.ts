@@ -16,3 +16,8 @@ const DEPLOY_API_KEY: string | undefined = process.env.DEPLOY_API_KEY;
 
 export const getDeployApiKey = () =>
   requireConfig("DEPLOY_API_KEY", DEPLOY_API_KEY);
+
+const LATEST_SCHEMA_URL: string | undefined = process.env.LATEST_SCHEMA_URL;
+
+export const getLatestSchemaUrl = () =>
+  requireConfig("LATEST_SCHEMA_URL", LATEST_SCHEMA_URL);

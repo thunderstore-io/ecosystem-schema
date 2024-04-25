@@ -1,5 +1,6 @@
 import fs from "fs";
 import { getDeployApiKey, getDeployApiUrl } from "../config";
+import { assertForStatus } from "../utils/requests";
 
 const outdir = "./dist";
 if (!fs.existsSync(outdir)) {
@@ -21,12 +22,7 @@ const response = await fetch(apiUrl, {
   },
 });
 
-if (response.status !== 200) {
-  console.error(await response.text());
-  throw new Error(
-    `Deployment API returned a non-200 status code: ${response.status}`
-  );
-} else {
-  console.log("Successfully deployed!");
-  console.log(await response.text());
-}
+await assertForStatus(response);
+
+console.log("Successfully deployed!");
+console.log(await response.text());
