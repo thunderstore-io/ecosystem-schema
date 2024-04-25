@@ -28,4 +28,5 @@ jobs:
         run: "yarn run diff && yarn run deploy"
         env:
           DEPLOY_API_URL: ${{ vars.DEPLOY_API_URL }}
+          LATEST_SCHEMA_URL: ${{ vars.LATEST_SCHEMA_URL }}
           DEPLOY_API_KEY: ${{ secrets.DEPLOY_API_KEY }}
