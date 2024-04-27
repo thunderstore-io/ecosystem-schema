@@ -39,10 +39,11 @@ file at the root of the project (next to `package.json`).
 
 Available configuration options are as follows:
 
-| Name             | Default Value | Description                              |
-|------------------|---------------|------------------------------------------|
-| `DEPLOY_API_URL` |               | API url where the built schema is posted |
-| `DEPLOY_API_KEY` |               | API key used with `DEPLOY_API_URL`       |
+| Name                | Default Value | Description                                                                     |
+|---------------------|---------------|---------------------------------------------------------------------------------|
+| `DEPLOY_API_URL`    |               | API url where the built schema is posted                                        |
+| `DEPLOY_API_KEY`    |               | API key used with `DEPLOY_API_URL`                                              |
+| `LATEST_SCHEMA_URL` |               | API url where the latest schema is located at (to diff against when validating) |
 
 ## Goals
 

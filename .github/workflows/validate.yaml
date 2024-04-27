@@ -1,16 +1,10 @@
 on:
-  push:
-    branches:
-      - "master"
-
+  pull_request:
 
 jobs:
   deploy:
-    name: "Deploy"
+    name: "Validate"
     runs-on: "ubuntu-latest"
-    environment:
-      name: "Dev"
-      url: ${{ vars.DEPLOY_API_URL }}
     defaults:
       run:
         working-directory: "games"
@@ -22,11 +16,7 @@ jobs:
           cache-dependency-path: "games/yarn.lock"
       - name: "Install dependencies"
         run: "yarn install --frozen-lockfile"
-      - name: "Build"
-        run: "yarn run build"
-      - name: "Deploy"
-        run: "yarn run diff && yarn run deploy"
+      - name: "Validate & Diff"
+        run: "yarn run validate && yarn run diff"
         env:
-          DEPLOY_API_URL: ${{ vars.DEPLOY_API_URL }}
           LATEST_SCHEMA_URL: ${{ vars.LATEST_SCHEMA_URL }}
-          DEPLOY_API_KEY: ${{ secrets.DEPLOY_API_KEY }}
