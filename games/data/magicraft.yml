@@ -1,0 +1,30 @@
+uuid: "fe91afc5-082d-4faf-b55d-fdafdd5f4012"
+label: "magicraft"
+meta:
+  displayname: "Magicraft"
+  iconurl: "none"
+distributions: []
+thunderstore:
+  displayname: "Magicraft"
+  categories:
+    mods:
+      label: "mods"
+    modpacks:
+      label: "modpacks"
+    weapons:
+      label: "weapons"
+    audio:
+      label: "audio"
+    tools:
+      label: "tools"
+    libraries:
+      label: "libraries"
+    misc:
+      label: "misc"
+  sections:
+    mods:
+      name: "mods"
+      excludecategories: ["modpacks"]
+    modpacks:
+      name: "modpacks"
+      requirecategories: ["modpacks"]
