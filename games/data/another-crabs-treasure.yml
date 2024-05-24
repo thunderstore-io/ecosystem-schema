@@ -1,0 +1,32 @@
+uuid: "b463b841-82b9-427c-81f5-9962c733038c"
+label: "another-crabs-treasure"
+meta:
+  displayName: "Another Crab's Treasure"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Another Crab's Treasure"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://another-crabs-treasure.fandom.com/wiki/Another_Crab's_Treasure_Wiki"
+  discordUrl: "https://discord.gg/eHw4CJbAks"
