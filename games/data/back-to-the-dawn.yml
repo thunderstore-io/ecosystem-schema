@@ -1,0 +1,37 @@
+uuid: "d9438bf4-c83f-4d6d-952f-efc79b8432a1"
+label: "back-to-the-dawn"
+meta:
+  displayName: "Back to the Dawn"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Back to the Dawn"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    quality-of-life:
+      label: "Quality of Life"
+    gameplay-tweaks:
+      label: "Gameplay Tweaks"
+    language:
+      label: "Language"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/m9ud5rRMaJ"
