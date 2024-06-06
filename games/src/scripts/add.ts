@@ -2,8 +2,9 @@ import { GameDefinition } from "../models";
 import { v4 as uuid } from "uuid";
 import fs from "fs";
 import * as yaml from "js-yaml";
-import { input } from "@inquirer/prompts";
+import { input, checkbox } from "@inquirer/prompts";
 import _ from "lodash";
+import { AUTOLIST_PACKAGE_CHOICES } from "../schema/autolistPackages";
 
 const displayName = await input({
   message: "Display name for the community",
@@ -21,6 +22,11 @@ const discordUrl = await input({
 const wikiUrl = await input({
   message: "Wiki URL for the community (optional)",
   default: "",
+});
+
+const autolistPackageIds = await checkbox({
+  message: "Automatically list package",
+  choices: AUTOLIST_PACKAGE_CHOICES,
 });
 
 const game: GameDefinition = {
@@ -68,6 +74,7 @@ const game: GameDefinition = {
     },
     wikiUrl: wikiUrl || undefined,
     discordUrl: discordUrl || undefined,
+    autolistPackageIds: autolistPackageIds || undefined,
   },
 };
 
