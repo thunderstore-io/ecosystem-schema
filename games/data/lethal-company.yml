@@ -55,6 +55,16 @@ thunderstore:
       label: "Translations"
     emotes:
       label: "Emotes"
+    weather:
+      label: "Weather"
+    hazards:
+      label: "Hazards"
+    bug-fixes:
+      label: "Bug Fixes"
+    performance:
+      label: "Performance"
+    tweaks-and-quality-of-life:
+      label: "Tweaks & Quality Of Life"
   sections:
     mods:
       name: "Mods"
