@@ -1,0 +1,31 @@
+uuid: "5dbf02a7-1d75-4016-8b80-34e409c6e7b1"
+label: "gladio-mori"
+meta:
+  displayName: "Gladio Mori"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Gladio Mori"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/jCEpx8SpGF"
