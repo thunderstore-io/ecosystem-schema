@@ -1,0 +1,30 @@
+uuid: "ad84c3e7-0db7-4a05-b498-63a0244fa510"
+label: "gloomwood"
+meta:
+  displayName: "Gloomwood"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Gloomwood"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
