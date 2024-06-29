@@ -64,6 +64,8 @@ thunderstore:
       name: "Translations"
       requireCategories:
         - "translations"
+      excludeCategories:
+        - "modpacks"
     libraries:
       name: "APIs & Libraries"
       requireCategories:
