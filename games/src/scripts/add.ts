@@ -23,6 +23,35 @@ const wikiUrl = await input({
   default: "",
 });
 
+console.log("Enter a package ID (ex: BepInEx-BepInExPack) to automatically list it for the community");
+
+const autolistPackageIds: string[] = [];
+while (true) {
+  const userInput = await input({
+    message: "Package ID (optional):",
+    default: "",
+  });
+
+  if (!userInput.trim()) {
+    break;
+  }
+
+  if(userInput.includes(',') || userInput.includes(' ')) {
+    console.log("Invalid package ID! Enter one package ID at a time!");
+  }
+  else if(!userInput.includes('-'))
+  {
+    console.log("Invalid package ID! The package ID should be in this format: {namespace}-{name}");
+  }
+  else
+  {
+    autolistPackageIds.push(userInput);
+  }
+}
+
+
+
+
 const game: GameDefinition = {
   uuid: uuid(),
   label: identifier,
@@ -68,6 +97,7 @@ const game: GameDefinition = {
     },
     wikiUrl: wikiUrl || undefined,
     discordUrl: discordUrl || undefined,
+    autolistPackageIds: autolistPackageIds || undefined,
   },
 };
 

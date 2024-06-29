@@ -20,6 +20,7 @@ const communitySchema = z.strictObject({
   ),
   wikiUrl: z.string().optional(),
   discordUrl: z.string().optional(),
+  autolistPackageIds: z.array(z.string()).optional(),
 });
 
 export type CommunitySchemaType = z.infer<typeof communitySchema>;
