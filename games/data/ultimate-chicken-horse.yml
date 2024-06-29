@@ -4,6 +4,14 @@ meta:
   displayName: "Ultimate Chicken Horse"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 386940
 thunderstore:
   displayName: "Ultimate Chicken Horse"
   categories:

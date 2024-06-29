@@ -4,6 +4,13 @@ meta:
   displayName: "Sun Haven"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1432860
 thunderstore:
   displayName: "Sun Haven"
   categories:

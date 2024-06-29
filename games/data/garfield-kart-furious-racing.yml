@@ -4,6 +4,13 @@ meta:
   displayName: "Garfield Kart - Furious Racing"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1085510
 thunderstore:
   displayName: "Garfield Kart - Furious Racing"
   categories:

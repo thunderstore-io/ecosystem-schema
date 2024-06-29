@@ -1,0 +1,9 @@
+uuid: "5eb3bb69-dcca-436c-9bba-ab78c580c908"
+label: "cult-of-the-lamb"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1313140
