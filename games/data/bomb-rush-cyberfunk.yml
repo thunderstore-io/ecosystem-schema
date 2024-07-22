@@ -14,7 +14,7 @@ thunderstore:
     maps:
       label: "Maps"
     cars:
-      label: "Cars"
+      label: "Cars" 
     tools:
       label: "Tools"
     libraries:
