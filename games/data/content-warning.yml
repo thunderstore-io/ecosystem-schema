@@ -54,6 +54,14 @@ thunderstore:
         - "modpacks"
         - "translations"
         - "soundpack"
+    clientside:
+      name: "Clientside Mods"
+      requireCategories:
+        - "clientside"
+    serverside:
+      name: "Host Only Mods"
+      requireCategories:
+        - "serverside"
     vanillacomp:
       name: "Vanilla Compatible Mods"
       excludeCategories:
