@@ -19,4 +19,4 @@ jobs:
       - name: "Validate & Diff"
         run: "yarn run validate && yarn run diff"
         env:
-          LATEST_SCHEMA_URL: ${{ vars.LATEST_SCHEMA_URL }}
+          LATEST_SCHEMA_URL: "https://thunderstore.io/api/experimental/schema/dev/latest/"
