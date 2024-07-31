@@ -8,9 +8,11 @@ thunderstore:
   displayName: "Content Warning"
   categories:
     clientside:
-      label: "Client-side"
+      label: "Client-Only"
     serverside:
-      label: "Server-side"
+      label: "Host-Only"
+    allclients:
+      label: "All Clients"
     vanillacomp:
       label: "Vanilla Compatible"
     mods:
@@ -43,12 +45,15 @@ thunderstore:
       label: "Translations"
     modpacks:
       label: "Modpacks"
+    soundpack:
+      label: "Soundpack"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
         - "translations"
+        - "soundpack"
     clientside:
       name: "Clientside Mods"
       requireCategories:
@@ -57,16 +62,28 @@ thunderstore:
       name: "Host Only Mods"
       requireCategories:
         - "serverside"
+    vanillacomp:
+      name: "Vanilla Compatible Mods"
+      excludeCategories:
+        - "modpacks"
+      requireCategories:
+        - "vanillacomp"
     translations:
       name: "Translations"
       requireCategories:
         - "translations"
+      excludeCategories:
+        - "modpacks"
     libraries:
       name: "APIs & Libraries"
       requireCategories:
         - "libraries"
+      excludeCategories:
+        - "modpacks"
     modpacks:
-      name: "Modpacks"
+      name: "Modpacks & Soundpacks"
       requireCategories:
         - "modpacks"
+        - "soundpack"
+    
   discordUrl: "https://discord.gg/E9ustG9Drx"
