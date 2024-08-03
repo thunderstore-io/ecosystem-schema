@@ -19,6 +19,12 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    decks:
+      label: "Decks"
+    themes:
+      label: "Themes"
+    rulesets:
+      label: "Rulesets"
   sections:
     mods:
       name: "Mods"
