@@ -1,0 +1,10 @@
+
+uuid: "57ae7cc1-b21a-4592-8415-73512a91b180"
+label: "20-minutes-till-dawn"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1966900
