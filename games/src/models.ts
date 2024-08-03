@@ -61,6 +61,7 @@ export interface ThunderstoreCommunityDefinition {
   };
   discordUrl?: string;
   wikiUrl?: string;
+  autolistPackageIds?: string[];
 }
 
 export interface GameDefinition {
