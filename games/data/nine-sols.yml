@@ -1,0 +1,31 @@
+uuid: "5d48824a-081a-4617-ab35-943f8ef17250"
+label: "nine-sols"
+meta:
+  displayName: "Nine Sols"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Nine Sols"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/NYT4vQpweS"
