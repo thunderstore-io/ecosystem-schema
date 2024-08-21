@@ -1,0 +1,31 @@
+uuid: "6ebb56d0-ca43-471a-9e50-3182cd3b3c66"
+label: "arcus-chroma"
+meta:
+  displayName: "Arcus Chroma"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Arcus Chroma"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/UCzagYr7cS"
