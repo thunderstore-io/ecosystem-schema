@@ -1,0 +1,32 @@
+uuid: "8217c6e0-ec15-474e-a447-fafbf435fd64"
+label: "supermarket-together"
+meta:
+  displayName: "Supermarket Together"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Supermarket Together"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://supermarkettogether.wiki.gg"
+  discordUrl: "https://discord.com/invite/GUVbBUMqNZ"
