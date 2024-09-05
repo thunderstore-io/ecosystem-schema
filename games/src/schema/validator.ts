@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { isAutolistPackageValid } from "./autolistPackages";
 
 const slug = z.string().regex(new RegExp(/^[a-z0-9](-?[a-z0-9])*$/));
 
@@ -20,6 +21,7 @@ const communitySchema = z.strictObject({
   ),
   wikiUrl: z.string().optional(),
   discordUrl: z.string().optional(),
+  autolistPackageIds: z.array(z.string()).optional(),
 });
 
 export type CommunitySchemaType = z.infer<typeof communitySchema>;
@@ -94,6 +96,16 @@ export function validateSchemaJson(schemaJson: any): SchemaType {
           `to use the label '${key}' but found '${game.label}'`
       );
     }
+  });
+
+  Object.entries(parsed.communities).forEach(([key, community]) => {
+    (community.autolistPackageIds ?? []).forEach((packageId) => {
+      if (!isAutolistPackageValid(packageId)) {
+        throw new Error(
+          `Invalid autolist package ID "${packageId}" defined for community "${key}"`
+        );
+      }
+    });
   });
 
   return parsed;
