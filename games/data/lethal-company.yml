@@ -65,6 +65,10 @@ thunderstore:
       label: "Performance"
     tweaks-and-quality-of-life:
       label: "Tweaks & Quality Of Life"
+    v56:
+      label: "v56"
+    v60:
+      label: "v60"
   sections:
     mods:
       name: "Mods"
