@@ -30,3 +30,4 @@ thunderstore:
         - "modpacks"
   wikiUrl: "https://belowthestone.wiki.gg/wiki/Below_the_Stone_Wiki"
   discordUrl: "https://discord.com/invite/MW72QReXKh"
+  autolistPackageIds: ["BepInEx-BepInExPack"]
