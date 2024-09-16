@@ -1,43 +1,84 @@
-uuid: "6fa77982-361c-45df-b797-b158d16be178"
-label: "shadows-of-doubt"
+uuid: 6fa77982-361c-45df-b797-b158d16be178
+label: shadows-of-doubt
 meta:
-  displayName: "Shadows of Doubt"
-  iconUrl: "None"
+  displayName: Shadows of Doubt
+  iconUrl: shadows-of-doubt.jpg
 distributions: []
 thunderstore:
-  displayName: "Shadows of Doubt"
+  displayName: Shadows of Doubt
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     audio:
-      label: "Audio"
+      label: Audio
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     patch:
-      label: "Patch"
+      label: Patch
     items:
-      label: "Items"
+      label: Items
     cases:
-      label: "Cases"
+      label: Cases
     ai:
-      label: "AI"
+      label: AI
     city-generation:
-      label: "City Generation"
+      label: City Generation
     decor:
-      label: "Decor"
+      label: Decor
     gamemode:
-      label: "Gamemode"
+      label: Gamemode
   sections:
     mods:
-      name: "Mods"
-      excludeCategories: ["modpacks"]
+      name: Mods
+      excludeCategories:
+      - modpacks
     modpacks:
-      name: "Modpacks"
-      requireCategories: ["modpacks"]
-  discordUrl: "https://discord.gg/zGuvtBSeSp"
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/zGuvtBSeSp
+r2modman:
+  internalFolderName: ShadowsofDoubt
+  dataFolderName: ShadowsofDoubt_Data
+  settingsIdentifier: ShadowsofDoubt
+  packageIndex: https://thunderstore.io/c/shadows-of-doubt/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Shadows of Doubt
+  exeNames:
+  - Shadows of Doubt.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

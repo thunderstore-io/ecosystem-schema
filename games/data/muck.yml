@@ -1,0 +1,48 @@
+uuid: 17034141-3fc6-497e-bd71-d6bd61cf55a5
+label: muck
+meta:
+  displayName: Muck
+  iconUrl: Muck.png
+distributions:
+- platform: steam
+  identifier: '1625450'
+r2modman:
+  internalFolderName: Muck
+  dataFolderName: Muck_Data
+  settingsIdentifier: Muck
+  packageIndex: https://muck.thunderstore.io/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Muck
+  exeNames:
+  - Muck.exe
+  - Muck.x86_64
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

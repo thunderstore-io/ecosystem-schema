@@ -1,31 +1,50 @@
-uuid: "5278952c-a20c-42b9-a93f-9387cd7cfbb9"
-label: "ancient-dungeon-vr"
+uuid: 5278952c-a20c-42b9-a93f-9387cd7cfbb9
+label: ancient-dungeon-vr
 meta:
-  displayName: "Ancient Dungeon VR"
-  iconUrl: "None"
+  displayName: Ancient Dungeon VR
+  iconUrl: ancient-dungeon-vr.png
 distributions: []
 thunderstore:
-  displayName: "Ancient Dungeon VR"
+  displayName: Ancient Dungeon VR
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     weapons:
-      label: "Weapons"
+      label: Weapons
     audio:
-      label: "Audio"
+      label: Audio
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
   sections:
     mods:
-      name: "Mods"
-      excludeCategories: ["modpacks"]
+      name: Mods
+      excludeCategories:
+      - modpacks
     modpacks:
-      name: "Modpacks"
-      requireCategories: ["modpacks"]
-  discordUrl: "https://discord.gg/advr"
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/advr
+r2modman:
+  internalFolderName: AncientDungeonVR
+  dataFolderName: Ancient_Dungeon_Data
+  settingsIdentifier: AncientDungeonVR
+  packageIndex: https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Ancient Dungeon VR
+  exeNames:
+  - Ancient_Dungeon.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: mods
+    defaultFileExtensions: []
+    trackingMethod: subdir-no-flatten
+    subRoutes: []
+    isDefaultLocation: true

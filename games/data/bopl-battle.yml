@@ -1,32 +1,71 @@
-uuid: "8481a40d-1bac-4e98-b03a-f80ae7c59cb7"
-label: "bopl-battle"
+uuid: 8481a40d-1bac-4e98-b03a-f80ae7c59cb7
+label: bopl-battle
 meta:
-  displayName: "Bopl Battle"
-  iconUrl: "None"
+  displayName: Bopl Battle
+  iconUrl: BoplBattle.png
 distributions: []
 thunderstore:
-  displayName: "Bopl Battle"
+  displayName: Bopl Battle
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  wikiUrl: "https://github.com/commandblox/Splotch/wiki"
-  discordUrl: "https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310"
+      - modpacks
+  wikiUrl: https://github.com/commandblox/Splotch/wiki
+  discordUrl: https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310
+r2modman:
+  internalFolderName: BoplBattle
+  dataFolderName: BoplBattle_Data
+  settingsIdentifier: BoplBattle
+  packageIndex: https://thunderstore.io/c/bopl-battle/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Bopl Battle
+  exeNames:
+  - BoplBattle.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

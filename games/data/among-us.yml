@@ -1,38 +1,77 @@
-uuid: "ede82780-6c91-4403-b444-1f4c279e784c"
-label: "among-us"
+uuid: ede82780-6c91-4403-b444-1f4c279e784c
+label: among-us
 meta:
-  displayName: "Among Us"
-  iconUrl: "None"
+  displayName: Among Us
+  iconUrl: AmongUs.png
 distributions: []
 thunderstore:
-  displayName: "Among Us"
+  displayName: Among Us
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
     hostonly:
-      label: "Host Only"
+      label: Host Only
     translations:
-      label: "Translations"
+      label: Translations
     maps:
-      label: "Maps"
+      label: Maps
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  wikiUrl: "https://docs.reactor.gg/"
-  discordUrl: "https://reactor.gg/discord"
+      - modpacks
+  wikiUrl: https://docs.reactor.gg/
+  discordUrl: https://reactor.gg/discord
+r2modman:
+  internalFolderName: AmongUs
+  dataFolderName: Among Us_Data
+  settingsIdentifier: AmongUs
+  packageIndex: https://thunderstore.io/c/among-us/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Among Us
+  exeNames:
+  - Among Us.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

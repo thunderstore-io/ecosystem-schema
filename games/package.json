@@ -7,6 +7,9 @@
   "repository": "git@github.com:thunderstore-io/ecosystem-schema.git",
   "author": "Mythic <mythic@thunderstore.io>",
   "license": "MIT",
+  "compilerOptions": {
+    "rootDir": "./"
+  },
   "scripts": {
     "extract": "tsx ./src/scripts/extract-r2modman.ts",
     "build": "tsx ./src/scripts/build.ts",

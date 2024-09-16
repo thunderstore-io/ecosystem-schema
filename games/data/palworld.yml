@@ -1,30 +1,42 @@
-uuid: "60b24eb2-791f-43bf-91da-f19139f6738f"
-label: "palworld"
+uuid: 60b24eb2-791f-43bf-91da-f19139f6738f
+label: palworld
 meta:
-  displayName: "Palworld"
-  iconUrl: "None"
+  displayName: Palworld
+  iconUrl: Palworld.png
 distributions: []
 thunderstore:
-  displayName: "Palworld"
+  displayName: Palworld
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
+      - modpacks
+r2modman:
+  internalFolderName: Palworld
+  dataFolderName: Pal
+  settingsIdentifier: Palworld
+  packageIndex: https://thunderstore.io/c/palworld/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Palworld
+  exeNames:
+  - Palworld.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules: []

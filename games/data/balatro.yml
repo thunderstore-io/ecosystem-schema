@@ -1,31 +1,43 @@
-uuid: "ecbabbaa-076a-4fce-9211-4c90ab7f0890"
-label: "balatro"
+uuid: ecbabbaa-076a-4fce-9211-4c90ab7f0890
+label: balatro
 meta:
-  displayName: "Balatro"
-  iconUrl: "None"
+  displayName: Balatro
+  iconUrl: Balatro.png
 distributions: []
 thunderstore:
-  displayName: "Balatro"
+  displayName: Balatro
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  discordUrl: "https://discord.gg/balatro"
+      - modpacks
+  discordUrl: https://discord.gg/balatro
+r2modman:
+  internalFolderName: Balatro
+  dataFolderName: Balatro_Data
+  settingsIdentifier: Balatro
+  packageIndex: https://thunderstore.io/c/balatro/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Balatro
+  exeNames:
+  - Balatro.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules: []

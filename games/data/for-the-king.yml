@@ -1,0 +1,49 @@
+uuid: 4d8ab61e-eb93-4fab-b076-b73ae450b73f
+label: for-the-king
+meta:
+  displayName: For The King
+  iconUrl: ForTheKing.png
+distributions:
+- platform: steam
+  identifier: '527230'
+- platform: egs
+  identifier: Discus
+r2modman:
+  internalFolderName: ForTheKing
+  dataFolderName: FTK_Data
+  settingsIdentifier: ForTheKing
+  packageIndex: https://for-the-king.thunderstore.io/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: For The King
+  exeNames:
+  - FTK.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

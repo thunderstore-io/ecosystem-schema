@@ -1,28 +1,69 @@
-uuid: "3131efc5-6fe4-4f1d-8563-3de9001c8c5d"
-label: "shadows-over-loathing"
+uuid: 3131efc5-6fe4-4f1d-8563-3de9001c8c5d
+label: shadows-over-loathing
 meta:
-  displayName: "Shadows Over Loathing"
-  iconUrl: "None"
+  displayName: Shadows Over Loathing
+  iconUrl: shadows-over-loathing.jpg
 distributions: []
 thunderstore:
-  displayName: "Shadows Over Loathing"
+  displayName: Shadows Over Loathing
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     audio:
-      label: "Audio"
+      label: Audio
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
   sections:
     mods:
-      name: "Mods"
-      excludeCategories: ["modpacks"]
+      name: Mods
+      excludeCategories:
+      - modpacks
     modpacks:
-      name: "Modpacks"
-      requireCategories: ["modpacks"]
+      name: Modpacks
+      requireCategories:
+      - modpacks
+r2modman:
+  internalFolderName: ShadowsOverLoathing
+  dataFolderName: ShadowsOverLoathing_Data
+  settingsIdentifier: ShadowsOverLoathing
+  packageIndex: https://thunderstore.io/c/shadows-over-loathing/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Shadows Over Loathing/Shadows Over Loathing
+  exeNames:
+  - Shadows Over Loathing.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

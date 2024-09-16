@@ -1,31 +1,43 @@
-uuid: "4a28a8cc-902c-4630-a4b7-79f90ae22299"
-label: "panicore"
+uuid: 4a28a8cc-902c-4630-a4b7-79f90ae22299
+label: panicore
 meta:
-  displayName: "Panicore"
-  iconUrl: "None"
+  displayName: Panicore
+  iconUrl: Panicore.png
 distributions: []
 thunderstore:
-  displayName: "Panicore"
+  displayName: Panicore
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  discordUrl: "https://discord.gg/5sPBzystfr"
+      - modpacks
+  discordUrl: https://discord.gg/5sPBzystfr
+r2modman:
+  internalFolderName: Panicore
+  dataFolderName: Panicore
+  settingsIdentifier: Panicore
+  packageIndex: https://thunderstore.io/c/panicore/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Panicore
+  exeNames:
+  - Panicore.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules: []

@@ -1,32 +1,71 @@
-uuid: "2e133e49-b1c0-4e72-81fe-2ce070ce912e"
-label: "below-the-stone"
+uuid: 2e133e49-b1c0-4e72-81fe-2ce070ce912e
+label: below-the-stone
 meta:
-  displayName: "Below the Stone"
-  iconUrl: "None"
+  displayName: Below the Stone
+  iconUrl: BelowTheStone.png
 distributions: []
 thunderstore:
-  displayName: "Below the Stone"
+  displayName: Below the Stone
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  wikiUrl: "https://belowthestone.wiki.gg/wiki/Below_the_Stone_Wiki"
-  discordUrl: "https://discord.com/invite/MW72QReXKh"
+      - modpacks
+  wikiUrl: https://belowthestone.wiki.gg/wiki/Below_the_Stone_Wiki
+  discordUrl: https://discord.com/invite/MW72QReXKh
+r2modman:
+  internalFolderName: BelowTheStone
+  dataFolderName: Below The Stone_Data
+  settingsIdentifier: BelowTheStone
+  packageIndex: https://thunderstore.io/c/below-the-stone/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Below The Stone
+  exeNames:
+  - Below The Stone.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

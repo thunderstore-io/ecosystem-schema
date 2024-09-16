@@ -1,32 +1,71 @@
-uuid: "476f1d7a-4009-4ede-9ccd-e620a57f4040"
-label: "last-train-outta-wormtown"
+uuid: 476f1d7a-4009-4ede-9ccd-e620a57f4040
+label: last-train-outta-wormtown
 meta:
-  displayName: "Last Train Outta' Wormtown"
-  iconUrl: "None"
+  displayName: Last Train Outta' Wormtown
+  iconUrl: LastTrainOuttaWormtown.png
 distributions: []
 thunderstore:
-  displayName: "Last Train Outta' Wormtown"
+  displayName: Last Train Outta' Wormtown
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  wikiUrl: "https://lasttrainouttawormtown.fandom.com/wiki/Last_Train_Outta'_Wormtown_Wiki"
-  discordUrl: "https://discord.gg/wormtown"
+      - modpacks
+  wikiUrl: https://lasttrainouttawormtown.fandom.com/wiki/Last_Train_Outta'_Wormtown_Wiki
+  discordUrl: https://discord.gg/wormtown
+r2modman:
+  internalFolderName: LastTrainOuttaWormtown
+  dataFolderName: Last Train Out Of WormTown_Data
+  settingsIdentifier: LastTrainOuttaWormtown
+  packageIndex: https://thunderstore.io/c/last-train-outta-wormtown/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Last Train Outta' Wormtown
+  exeNames:
+  - Last Train Out Of WormTown.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

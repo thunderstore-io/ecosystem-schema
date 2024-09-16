@@ -1,89 +1,127 @@
-uuid: "fce81e4f-fb2f-4bcb-84f5-2118e79161c3"
-label: "content-warning"
+uuid: fce81e4f-fb2f-4bcb-84f5-2118e79161c3
+label: content-warning
 meta:
-  displayName: "Content Warning"
-  iconUrl: "None"
+  displayName: Content Warning
+  iconUrl: ContentWarning.png
 distributions: []
 thunderstore:
-  displayName: "Content Warning"
+  displayName: Content Warning
   categories:
     clientside:
-      label: "Client-Only"
+      label: Client-Only
     serverside:
-      label: "Host-Only"
+      label: Host-Only
     allclients:
-      label: "All Clients"
+      label: All Clients
     vanillacomp:
-      label: "Vanilla Compatible"
+      label: Vanilla Compatible
     mods:
-      label: "Mods"
+      label: Mods
     camera:
-      label: "Camera Mods"
+      label: Camera Mods
     emotes:
-      label: "Emotes"
+      label: Emotes
     items:
-      label: "Items"
+      label: Items
     monsters:
-      label: "Monsters"
+      label: Monsters
     audio:
-      label: "Audio"
+      label: Audio
     misc:
-      label: "Misc"
+      label: Misc
     bepinex:
-      label: "BepInEx"
+      label: BepInEx
     melonloader:
-      label: "MelonLoader"
+      label: MelonLoader
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     maps:
-      label: "Maps"
+      label: Maps
     asset-replacements:
-      label: "Asset Replacements"
+      label: Asset Replacements
     translations:
-      label: "Translations"
+      label: Translations
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     soundpack:
-      label: "Soundpack"
+      label: Soundpack
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
-        - "translations"
-        - "soundpack"
+      - modpacks
+      - translations
+      - soundpack
     clientside:
-      name: "Clientside Mods"
+      name: Clientside Mods
       requireCategories:
-        - "clientside"
+      - clientside
     serverside:
-      name: "Host Only Mods"
+      name: Host Only Mods
       requireCategories:
-        - "serverside"
+      - serverside
     vanillacomp:
-      name: "Vanilla Compatible Mods"
+      name: Vanilla Compatible Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
       requireCategories:
-        - "vanillacomp"
+      - vanillacomp
     translations:
-      name: "Translations"
+      name: Translations
       requireCategories:
-        - "translations"
+      - translations
       excludeCategories:
-        - "modpacks"
+      - modpacks
     libraries:
-      name: "APIs & Libraries"
+      name: APIs & Libraries
       requireCategories:
-        - "libraries"
+      - libraries
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks & Soundpacks"
+      name: Modpacks & Soundpacks
       requireCategories:
-        - "modpacks"
-        - "soundpack"
-    
-  discordUrl: "https://discord.gg/E9ustG9Drx"
+      - modpacks
+      - soundpack
+  discordUrl: https://discord.gg/E9ustG9Drx
+r2modman:
+  internalFolderName: ContentWarning
+  dataFolderName: Content Warning_Data
+  settingsIdentifier: ContentWarning
+  packageIndex: https://thunderstore.io/c/content-warning/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Content Warning
+  exeNames:
+  - Content Warning.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

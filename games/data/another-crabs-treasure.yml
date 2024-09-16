@@ -1,36 +1,75 @@
-uuid: "fe739984-0340-4004-885c-a831baee3952"
-label: "another-crabs-treasure"
+uuid: fe739984-0340-4004-885c-a831baee3952
+label: another-crabs-treasure
 meta:
-  displayName: "Another Crab's Treasure"
-  iconUrl: "None"
+  displayName: Another Crab's Treasure
+  iconUrl: AnotherCrabsTreasure.png
 distributions: []
 thunderstore:
-  displayName: "Another Crab's Treasure"
+  displayName: Another Crab's Treasure
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
     speedrunning:
-      label: "Speedrunning"
+      label: Speedrunning
     cosmetic:
-      label: "Cosmetic"
+      label: Cosmetic
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  wikiUrl: "https://another-crabs-treasure.fandom.com/wiki/Another_Crab's_Treasure_Wiki"
-  discordUrl: "https://discord.gg/eHw4CJbAks"
+      - modpacks
+  wikiUrl: https://another-crabs-treasure.fandom.com/wiki/Another_Crab's_Treasure_Wiki
+  discordUrl: https://discord.gg/eHw4CJbAks
+r2modman:
+  internalFolderName: AnotherCrabsTreasure
+  dataFolderName: AnotherCrabsTreasure_Data
+  settingsIdentifier: AnotherCrabsTreasure
+  packageIndex: https://thunderstore.io/c/another-crabs-treasure/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: AnotherCrabsTreasure
+  exeNames:
+  - AnotherCrabsTreasure.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

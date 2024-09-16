@@ -1,62 +1,101 @@
-uuid: "375634e8-16b6-486d-aa9d-26ba422d4143"
-label: "touhou-lost-branch-of-legend"
+uuid: 375634e8-16b6-486d-aa9d-26ba422d4143
+label: touhou-lost-branch-of-legend
 meta:
-  displayName: "Touhou: Lost Branch of Legend"
-  iconUrl: "None"
+  displayName: 'Touhou: Lost Branch of Legend'
+  iconUrl: TouhouLostBranchOfLegend.jpg
 distributions: []
 thunderstore:
-  displayName: "Touhou: Lost Branch of Legend"
+  displayName: 'Touhou: Lost Branch of Legend'
   categories:
     mods:
-      label: "Mods"
+      label: Mods
     modpacks:
-      label: "Modpacks"
+      label: Modpacks
     tools:
-      label: "Tools"
+      label: Tools
     libraries:
-      label: "Libraries"
+      label: Libraries
     misc:
-      label: "Misc"
+      label: Misc
     audio:
-      label: "Audio"
+      label: Audio
     qol:
-      label: "QoL"
+      label: QoL
     cards:
-      label: "Cards"
+      label: Cards
     difficulty:
-      label: "Difficulty"
+      label: Difficulty
     memes:
-      label: "Memes"
+      label: Memes
     balance:
-      label: "Balance"
+      label: Balance
     bosses:
-      label: "Bosses"
+      label: Bosses
     enemies:
-      label: "Enemies"
+      label: Enemies
     skins:
-      label: "Skins"
+      label: Skins
     ui:
-      label: "UI"
+      label: UI
     characters:
-      label: "Characters"
+      label: Characters
     run-modifiers:
-      label: "Run Modifiers"
+      label: Run Modifiers
     music:
-      label: "Music"
+      label: Music
     localization:
-      label: "Localization"
+      label: Localization
     exhibits:
-      label: "Exhibits"
+      label: Exhibits
     events:
-      label: "Events"
+      label: Events
   sections:
     mods:
-      name: "Mods"
+      name: Mods
       excludeCategories:
-        - "modpacks"
+      - modpacks
     modpacks:
-      name: "Modpacks"
+      name: Modpacks
       requireCategories:
-        - "modpacks"
-  discordUrl: "https://discord.gg/WT4qdfYhhG"
-  wikiUrl: "https://lbol.miraheze.org/wiki/Main_Page"
+      - modpacks
+  discordUrl: https://discord.gg/WT4qdfYhhG
+  wikiUrl: https://lbol.miraheze.org/wiki/Main_Page
+r2modman:
+  internalFolderName: TouhouLostBranchOfLegend
+  dataFolderName: LBoL_Data
+  settingsIdentifier: TouhouLostBranchOfLegend
+  packageIndex: https://thunderstore.io/c/touhou-lost-branch-of-legend/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: LBoL
+  exeNames:
+  - LBoL.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null
