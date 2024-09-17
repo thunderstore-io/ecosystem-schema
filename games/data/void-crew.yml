@@ -7,7 +7,7 @@ distributions: []
 thunderstore:
   displayName: "Void Crew"
   categories:
-    client-Side:
+    client-side:
       label: "Client-Side"
     host:
       label: "Host-Side"
