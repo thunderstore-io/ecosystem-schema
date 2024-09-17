@@ -28,3 +28,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/g2u5wpbMGu"
+  wikiUrl: "https://voidcrew.wiki.gg"
