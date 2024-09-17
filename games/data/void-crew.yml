@@ -7,14 +7,18 @@ distributions: []
 thunderstore:
   displayName: "Void Crew"
   categories:
-    clientSide:
-      label: "Client"
+    client-Side:
+      label: "Client-Side"
     host:
-      label: "Host"
-    session:
-      label: "Session"
-    allRequired:
+      label: "Host-Side"
+    session-required:
+      label: "Mod_Session Required"
+    all-required:
       label: "All Required"
+    quality-of-life:
+      label: "Quality of Life"
+    bug-fixes:
+      label: "Bug Fixes"
     mods:
       label: "Mods"
     modpacks:
