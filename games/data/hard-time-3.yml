@@ -1,0 +1,48 @@
+uuid: "c3892224-6958-4e07-a6b5-61c60a48ec3a"
+label: "hard-time-3"
+meta:
+  displayName: "Hard Time III"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Hard Time III"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    locations:
+      label: "Locations"
+    characters:
+      label: "Characters"
+    costumes:
+      label: "Costumes"
+    furniture:
+      label: "Furniture"
+    moves:
+      label: "Moves"
+    overrides:
+      label: "Overrides"
+    textures:
+      label: "Textures"
+    weapons:
+      label: "Weapons"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/zWzRCTHMdS"
+  autolistPackageIds: ["BepInEx-BepInExPack"]
