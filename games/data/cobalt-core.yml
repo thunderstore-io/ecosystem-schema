@@ -1,0 +1,47 @@
+uuid: "d03f61b8-9604-4cc7-8d77-4647db475aa9"
+label: "cobalt-core"
+meta:
+  displayName: "Cobalt Core"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Cobalt Core"
+  categories:
+    # main categories
+    mods:
+      label: "Mods"
+    tools:
+      label: "Tools"
+    modpacks:
+      label: "Modpacks"
+    # mod subcategories
+    artifacts:
+      label: "Artifacts"
+    cards:
+      label: "Cards"
+    characters:
+      label: "Characters"
+    ships:
+      label: "Ships"
+    enemies:
+      label: "Enemies"
+    events:
+      label: "Events"
+    gameplay-mechanics:
+      label: "Gameplay mechanics"
+    libraries:
+      label: "Libraries"
+    audio:
+      label: "Audio"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/m8jhYA4TvV"

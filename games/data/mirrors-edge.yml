@@ -1,0 +1,31 @@
+uuid: "bd2699ab-0ebf-4411-aab3-2132063361b0"
+label: "mirrors-edge"
+meta:
+  displayName: "Mirror's Edge"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Mirror's Edge"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/gV8QW6F"
