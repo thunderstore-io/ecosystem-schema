@@ -30,3 +30,4 @@ thunderstore:
         - "modpacks"
   wikiUrl: "https://hoodedhorse.com/wiki/Against_the_Storm/Modding"
   discordUrl: "https://discord.gg/fn8tJqKTCQ"
+  autolistPackageIds: ["sinai-dev-UnityExplorer"]
