@@ -1,0 +1,19 @@
+uuid: "d731a8bc-0780-432c-9c8a-b8e9d6047831"
+label: "totally-accurate-battle-simulator"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 508440
+    
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "Driftfish"
+
+    - kind: "gamepass"
+      targets:
+        - "windows"
+      ident: "LandfallGames.TotallyAccurateBattleSimulator"

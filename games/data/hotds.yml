@@ -1,0 +1,8 @@
+uuid: "dc7232bd-040f-4d72-8353-2b2a7d4a5082"
+label: "hotds"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 283160

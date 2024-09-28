@@ -1,0 +1,8 @@
+uuid: "f58e3cb3-9306-460f-89f3-1c5f9ba0e914"
+label: "mechanica"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1226990
