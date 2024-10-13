@@ -1,0 +1,41 @@
+uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
+label: "tcg-card-shop-simulator"
+meta:
+  displayName: "TCG Card Shop Simulator"
+  iconUrl: "TCG Card Shop Simulator.png"
+distributions:
+  - platform: "steam"
+    identifier: "3070070"
+  - platform: "other"
+r2modman:
+  internalFolderName: "TCG Card Shop Simulator"
+  dataFolderName: "Card Shop Simulator_Data"
+  settingsIdentifier: "TCG Card Shop Simulator"
+  packageIndex: "thunderstore.io/c/tcg-card-shop-simulator/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "TCG Card Shop Simulator"
+  exeNames:
+    - "Card Shop Simulator.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "BepInEx-BepInExPack_Inscryption"
+      rootFolder: "BepInExPack_Inscryption"
+      loader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "subdir"
+    - route: "BepInEx/monomod"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+  relativeFileExclusions: []
