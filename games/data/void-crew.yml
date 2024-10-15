@@ -19,6 +19,18 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    client-side:
+      label: "Client-Side"
+    host:
+      label: "Host-Side"
+    session-required:
+      label: "Mod_Session Required"
+    all-required:
+      label: "All Required"
+    quality-of-life:
+      label: "Quality of Life"
+    bug-fixes:
+      label: "Bug Fixes"
   sections:
     mods:
       name: "Mods"
@@ -28,3 +40,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/g2u5wpbMGu"
+  wikiUrl: "https://voidcrew.wiki.gg"
