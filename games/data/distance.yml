@@ -19,11 +19,20 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    quality-of-life:
+      label: "Quality Of Life"
+    cars:
+      label: "Cars"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+        - "cars"
+    cars:
+      name: "Cars"
+      requireCategories:
+        - "cars"
     modpacks:
       name: "Modpacks"
       requireCategories:
