@@ -1,41 +1,58 @@
-uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
+uuid: "c49c7c87-81de-4877-aeb5-1793a88997e6"
 label: "tcg-card-shop-simulator"
 meta:
   displayName: "TCG Card Shop Simulator"
-  iconUrl: "TCG Card Shop Simulator.png"
-distributions:
-  - platform: "steam"
-    identifier: "3070070"
-  - platform: "other"
-r2modman:
-  internalFolderName: "TCG Card Shop Simulator"
-  dataFolderName: "Card Shop Simulator_Data"
-  settingsIdentifier: "TCG Card Shop Simulator"
-  packageIndex: "thunderstore.io/c/tcg-card-shop-simulator/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "TCG Card Shop Simulator"
-  exeNames:
-    - "Card Shop Simulator.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_TCG_Card_Shop_Simulator"
-      rootFolder: "BepInExPack_TCG_Card_Shop_Simulator"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "TCG Card Shop Simulator"
+  categories: 
+        mods: 
+          label: "Mods"
+        modpacks: 
+          label: "Modpacks"
+        tools: 
+          label: "Tools"
+        misc: 
+          label: "Misc"
+        audio: 
+          label: "Audio"
+        sets: 
+          label: "Sets"
+        expansions: 
+          label: "Expansions"
+        cards: 
+          label: "Cards"
+        npcs: 
+          label: "NPCs"
+        items: 
+          label: "Items"
+        asset-replacement: 
+          label: "Asset Replacement"
+        qol: 
+          label: "QOL"
+        phone-related: 
+          label: "Phone Related"
+        furniture: 
+          label: "Furniture"
+        decoration: 
+          label: "Decoration"
+        shop: 
+          label: "Shop"
+        apps: 
+          label: "Apps"
+        themes: 
+          label: "Themes"
+  sections: 
+    mods: 
+      name: "Mods",
+      excludeCategories: 
+        - "modpacks"
+    modpacks: 
+      name: 'Modpacks',
+      requireCategories: 
+        - "modpacks"
+  wikiUrl: ""
+  discordUrl: "https://discord.gg/kCp4mRAVUE"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
