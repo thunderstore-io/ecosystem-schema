@@ -6,51 +6,51 @@ meta:
 distributions: []
 thunderstore:
   displayName: "TCG Card Shop Simulator"
-  categories: 
-        mods: 
+  categories:
+        mods:
           label: "Mods"
-        modpacks: 
+        modpacks:
           label: "Modpacks"
-        tools: 
+        tools:
           label: "Tools"
-        misc: 
+        misc:
           label: "Misc"
-        audio: 
+        audio:
           label: "Audio"
-        sets: 
+        sets:
           label: "Sets"
-        expansions: 
+        expansions:
           label: "Expansions"
-        cards: 
+        cards:
           label: "Cards"
-        npcs: 
+        npcs:
           label: "NPCs"
-        items: 
+        items:
           label: "Items"
-        asset-replacement: 
+        asset-replacement:
           label: "Asset Replacement"
-        qol: 
+        qol:
           label: "QOL"
-        phone-related: 
+        phone-related:
           label: "Phone Related"
-        furniture: 
+        furniture:
           label: "Furniture"
-        decoration: 
+        decoration:
           label: "Decoration"
-        shop: 
+        shop:
           label: "Shop"
-        apps: 
+        apps:
           label: "Apps"
-        themes: 
+        themes:
           label: "Themes"
-  sections: 
-    mods: 
-      name: "Mods",
-      excludeCategories: 
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
         - "modpacks"
-    modpacks: 
-      name: 'Modpacks',
-      requireCategories: 
+    modpacks:
+      name: 'Modpacks'
+      requireCategories:
         - "modpacks"
   wikiUrl: ""
   discordUrl: "https://discord.gg/kCp4mRAVUE"
