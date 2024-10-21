@@ -44,3 +44,7 @@ r2modman:
     - route: "BepInEx/SlimVML"
       trackingMethod: "subdir"
   relativeFileExclusions: []
+thunderstore:
+  categories:
+    bog-witch-update:
+      label: "Bog Witch Update"
