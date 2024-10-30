@@ -17,9 +17,7 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
-  sections:
-    mods:
-      name: "Mods"
+  sections: {}
   wikiUrl: "https://webfishing.wiki.gg/wiki/WEBFISHING_Wiki"
   discordUrl: "https://discord.gg/HzhCPxeCKY"
   autolistPackageIds: []
