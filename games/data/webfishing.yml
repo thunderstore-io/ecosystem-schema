@@ -17,6 +17,16 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    client-side:
+      label: "Client Side"
+    server-side:
+      label: "Server Side"
+    fish:
+      label: "Fish"
+    species:
+      label: "Species"
+    maps:
+      label: "Maps"
   sections: {}
   wikiUrl: "https://webfishing.wiki.gg/wiki/WEBFISHING_Wiki"
   discordUrl: "https://discord.gg/HzhCPxeCKY"
