@@ -2,18 +2,28 @@ from enum import Enum
 import glob
 from typing import Optional
 import yaml
+import humps
 
 from functools import cache
 from os import path
 
 from pydantic import AnyUrl, BaseModel, Field, FileUrl, UUID4, validator
 
+# Get a cached deserialized list of all ecosystem entries found within ../games/data.
 @cache
-def get_schema_entries():
-    data_dir = "../games/data"
-    schema_files = glob.glob(data_dir + "/*.yml")
-    return list(map(lambda file: yaml.load(open(file), Loader=yaml.Loader), schema_files))
+def get_schema_entries(dir: str) -> list["SchemaEntry"]:
+    schema_files = glob.glob(dir + "/*.yml")
+    yml_entries = map(lambda file: yaml.load(open(file), Loader=yaml.Loader), schema_files)
 
+    entries = []
+    for yml_entry in yml_entries:
+        # We decamelize here to convert from camelCase into the Python-relevant snake case.
+        decamel = humps.decamelize(yml_entry)
+        entries.append(SchemaEntry.model_validate(decamel))
+
+    return entries
+
+# Load a single ecosystem entry from the provided .yml file path.
 def load_entry(file: str) -> "SchemaEntry":
     des = yaml.load(open(file), Loader=yaml.Loader)
     return SchemaEntry.model_validate(des)
@@ -21,14 +31,6 @@ def load_entry(file: str) -> "SchemaEntry":
 class EntryMeta(BaseModel):
     display_name: str
     icon_url: str
-
-    @validator('icon_url')
-    def validate_icon_url(cls, v):
-        icon_path = path.join("../games/r2modmanPlus/src/assets/images/game_selection", v)
-        if path.isfile(icon_path):
-            return str(v)
-
-        raise Exception(f"Icon {v} does not exist at the expected location {icon_path}")
 
 class EntryDist(BaseModel):
     platform: str
@@ -83,12 +85,18 @@ class SchemaEntry(BaseModel):
     thunderstore: Optional[EntryThunderstore] = None
     r2modman: EntryR2 = Field(EntryR2, alias="r_2modman")
 
-    @validator('label')
-    def validate_label(cls, v):
-        schema_entries = get_schema_entries()
-        is_unique = len([entry for entry in schema_entries if entry["label"] == v]) == 1
+class Schema(BaseModel):
+    schema_version: str
+    games: dict[str, SchemaEntry]
+    communities: dict[str, EntryThunderstore]
+    package_installers: list
 
-        if not is_unique:
-            raise Exception(f"Label {v} already exists within the ecosystem schema")
-        return str(v)
+    # @validator('label')
+    # def validate_label(cls, v):
+    #     schema_entries = get_schema_entries()
+    #     is_unique = len([entry for entry in schema_entries if entry["label"] == v]) == 1
+
+    #     if not is_unique:
+    #         raise Exception(f"Label {v} already exists within the ecosystem schema")
+    #     return str(v)
 
