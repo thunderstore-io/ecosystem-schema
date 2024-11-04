@@ -28,6 +28,6 @@ thunderstore:
     maps:
       label: "Maps"
   sections: {}
-  wikiUrl: "https://webfishing.wiki.gg/wiki/WEBFISHING_Wiki"
+  wikiUrl: "https://notnite.github.io/webfishing-mod-wiki/"
   discordUrl: "https://discord.gg/HzhCPxeCKY"
   autolistPackageIds: []
