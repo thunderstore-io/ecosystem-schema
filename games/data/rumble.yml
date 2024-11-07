@@ -1,76 +1,29 @@
-uuid: 16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e
-label: rumble
+uuid: "16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e"
+label: "rumble"
 meta:
-  displayName: RUMBLE
-  iconUrl: RUMBLE.png
+  displayName: "RUMBLE"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: RUMBLE
+  displayName: "RUMBLE"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     audio:
-      label: Audio
+      label: "Audio"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
   sections:
     mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
+      name: "Mods"
+      excludeCategories: ["modpacks"]
     modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/nEheqYkXvA
-r2modman:
-  internalFolderName: RUMBLE
-  dataFolderName: RUMBLE_Data
-  settingsIdentifier: RUMBLE
-  packageIndex: https://thunderstore.io/c/rumble/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: RUMBLE
-  exeNames:
-  - RUMBLE.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: Mods
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: null
-  - route: UserData/ModManager
-    defaultFileExtensions: []
-    trackingMethod: subdir-no-flatten
-    subRoutes: []
-    isDefaultLocation: true
-  - route: UserLibs
-    defaultFileExtensions:
-    - .lib.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: null
-  - route: MelonLoader
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: Managed
-      defaultFileExtensions:
-      - .managed.dll
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: null
-    - route: Libs
-      defaultFileExtensions: []
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: null
-    isDefaultLocation: null
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/nEheqYkXvA"

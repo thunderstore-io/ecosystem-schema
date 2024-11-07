@@ -1,70 +1,31 @@
-uuid: 45c79671-8676-4e4a-b8d8-63f79ef3fc6d
-label: sailwind
+uuid: "45c79671-8676-4e4a-b8d8-63f79ef3fc6d"
+label: "sailwind"
 meta:
-  displayName: Sailwind
-  iconUrl: Sailwind.png
+  displayName: "Sailwind"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Sailwind
+  displayName: "Sailwind"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  discordUrl: https://discord.com/invite/ySH63huD
-r2modman:
-  internalFolderName: Sailwind
-  dataFolderName: Sailwind_Data
-  settingsIdentifier: Sailwind
-  packageIndex: https://thunderstore.io/c/sailwind/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Sailwind
-  exeNames:
-  - Sailwind.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/ySH63huD"

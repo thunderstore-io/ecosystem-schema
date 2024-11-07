@@ -1,0 +1,69 @@
+uuid: 337b81bd-6acd-44b5-9a9f-13edc45c6d07
+label: void-crew
+meta:
+  displayName: Void Crew
+  iconUrl: VoidCrew.png
+distributions: []
+thunderstore:
+  displayName: Void Crew
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+r2modman:
+  internalFolderName: VoidCrew
+  dataFolderName: VoidCrew_Data
+  settingsIdentifier: VoidCrew
+  packageIndex: https://thunderstore.io/c/void-crew/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Void Crew
+  exeNames:
+  - Void Crew.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

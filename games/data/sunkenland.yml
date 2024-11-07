@@ -1,70 +1,31 @@
-uuid: da78ae80-b42f-4956-b239-bfa408594ebc
-label: sunkenland
+uuid: "da78ae80-b42f-4956-b239-bfa408594ebc"
+label: "sunkenland"
 meta:
-  displayName: Sunkenland
-  iconUrl: Sunkenland.jpg
+  displayName: "Sunkenland"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Sunkenland
+  displayName: "Sunkenland"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/Vd89cSgxNW
-r2modman:
-  internalFolderName: Sunkenland
-  dataFolderName: Sunkenland_Data
-  settingsIdentifier: Sunkenland
-  packageIndex: https://thunderstore.io/c/sunkenland/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Sunkenland
-  exeNames:
-  - Sunkenland.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  discordUrl: "https://discord.gg/Vd89cSgxNW"

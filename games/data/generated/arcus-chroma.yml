@@ -1,0 +1,70 @@
+uuid: 6ebb56d0-ca43-471a-9e50-3182cd3b3c66
+label: arcus-chroma
+meta:
+  displayName: Arcus Chroma
+  iconUrl: ArcusChroma.png
+distributions: []
+thunderstore:
+  displayName: Arcus Chroma
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/UCzagYr7cS
+r2modman:
+  internalFolderName: ArcusChroma
+  dataFolderName: Arcus Chroma_Data
+  settingsIdentifier: ArcusChroma
+  packageIndex: https://thunderstore.io/c/arcus-chroma/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Arcus Chroma
+  exeNames:
+  - Arcus Chroma.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

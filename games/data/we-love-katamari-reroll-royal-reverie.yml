@@ -1,69 +1,30 @@
-uuid: 4df35e7e-e355-4ecc-b9db-76eebbff97d0
-label: we-love-katamari-reroll-royal-reverie
+uuid: "4df35e7e-e355-4ecc-b9db-76eebbff97d0"
+label: "we-love-katamari-reroll-royal-reverie"
 meta:
-  displayName: We Love Katamari REROLL+ Royal Reverie
-  iconUrl: WLKRR.jpg
+  displayName: "We Love Katamari REROLL+ Royal Reverie"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: We Love Katamari REROLL+ Royal Reverie
+  displayName: "We Love Katamari REROLL+ Royal Reverie"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-r2modman:
-  internalFolderName: WeLoveKatamariRerollRoyalReverie
-  dataFolderName: WeLoveKatamariRerollRoyalReverie_Data
-  settingsIdentifier: WeLoveKatamariRerollRoyalReverie
-  packageIndex: https://thunderstore.io/c/we-love-katamari-reroll-royal-reverie/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: WLKRR
-  exeNames:
-  - WLKRR.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"

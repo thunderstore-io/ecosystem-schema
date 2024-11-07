@@ -1,0 +1,69 @@
+uuid: 45049fca-094f-4e86-a6aa-5eb11dc2f899
+label: deep-rock-galactic-survivor
+meta:
+  displayName: 'Deep Rock Galactic: Survivor'
+  iconUrl: DeepRockGalacticSurvivor.png
+distributions: []
+thunderstore:
+  displayName: 'Deep Rock Galactic: Survivor'
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+r2modman:
+  internalFolderName: DeepRockGalacticSurvivor
+  dataFolderName: DRG Survivor_Data
+  settingsIdentifier: DeepRockGalacticSurvivor
+  packageIndex: https://thunderstore.io/c/deep-rock-galactic-survivor/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Deep Rock Survivor
+  exeNames:
+  - DRG Survivor.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

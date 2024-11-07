@@ -1,72 +1,31 @@
-uuid: c34fe1cf-1752-4185-bb39-25e29a6394f3
-label: ultimate-chicken-horse
+uuid: "c34fe1cf-1752-4185-bb39-25e29a6394f3"
+label: "ultimate-chicken-horse"
 meta:
-  displayName: Ultimate Chicken Horse
-  iconUrl: ultimate-chicken-horse.jpg
+  displayName: "Ultimate Chicken Horse"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Ultimate Chicken Horse
+  displayName: "Ultimate Chicken Horse"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     weapons:
-      label: Weapons
+      label: "Weapons"
     audio:
-      label: Audio
+      label: "Audio"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
   sections:
     mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
+      name: "Mods"
+      excludeCategories: ["modpacks"]
     modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/GgzDQW6zbq
-r2modman:
-  internalFolderName: UltimateChickenHorse
-  dataFolderName: UltimateChickenHorse_Data
-  settingsIdentifier: UltimateChickenHorse
-  packageIndex: https://thunderstore.io/c/ultimate-chicken-horse/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Ultimate Chicken Horse
-  exeNames:
-  - UltimateChickenHorse.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/GgzDQW6zbq"

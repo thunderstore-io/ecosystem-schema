@@ -1,88 +1,47 @@
-uuid: 18b8d82e-aa61-453a-98b0-fc98dd3e6c70
-label: wrestling-empire
+uuid: "18b8d82e-aa61-453a-98b0-fc98dd3e6c70"
+label: "wrestling-empire"
 meta:
-  displayName: Wrestling Empire
-  iconUrl: wrestling-empire.jpg
+  displayName: "Wrestling Empire"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Wrestling Empire
+  displayName: "Wrestling Empire"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     audio:
-      label: Audio
+      label: "Audio"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     arenas:
-      label: Arenas
+      label: "Arenas"
     characters:
-      label: Characters
+      label: "Characters"
     costumes:
-      label: Costumes
+      label: "Costumes"
     furniture:
-      label: Furniture
+      label: "Furniture"
     moves:
-      label: Moves
+      label: "Moves"
     overrides:
-      label: Overrides
+      label: "Overrides"
     textures:
-      label: Textures
+      label: "Textures"
     themes:
-      label: Themes
+      label: "Themes"
     weapons:
-      label: Weapons
+      label: "Weapons"
   sections:
     mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
+      name: "Mods"
+      excludeCategories: ["modpacks"]
     modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/mH56AhUwPR
-r2modman:
-  internalFolderName: WrestlingEmpire
-  dataFolderName: Wrestling Empire_Data
-  settingsIdentifier: WrestlingEmpire
-  packageIndex: https://thunderstore.io/c/wrestling-empire/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Wrestling Empire
-  exeNames:
-  - Wrestling Empire.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/mH56AhUwPR"

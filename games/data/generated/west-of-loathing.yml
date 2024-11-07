@@ -1,0 +1,69 @@
+uuid: b7b7cf05-50a8-4ffd-815b-71a16d7f7954
+label: west-of-loathing
+meta:
+  displayName: West of Loathing
+  iconUrl: west-of-loathing.jpg
+distributions: []
+thunderstore:
+  displayName: West of Loathing
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    audio:
+      label: Audio
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+r2modman:
+  internalFolderName: WestofLoathing
+  dataFolderName: WestofLoathing_Data
+  settingsIdentifier: WestofLoathing
+  packageIndex: https://thunderstore.io/c/west-of-loathing/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: West of Loathing
+  exeNames:
+  - West of Loathing.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

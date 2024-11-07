@@ -1,69 +1,30 @@
-uuid: e4a6abd5-cc54-4a32-8491-d6a1b360bd71
-label: garfield-kart-furious-racing
+uuid: "e4a6abd5-cc54-4a32-8491-d6a1b360bd71"
+label: "garfield-kart-furious-racing"
 meta:
-  displayName: Garfield Kart - Furious Racing
-  iconUrl: "garfield-kart-furious-racing.png"
+  displayName: "Garfield Kart - Furious Racing"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Garfield Kart - Furious Racing
+  displayName: "Garfield Kart - Furious Racing"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-r2modman:
-  internalFolderName: GarfieldKartFuriousRacing
-  dataFolderName: GarfieldKartFuriousRacing_Data
-  settingsIdentifier: GarfieldKartFuriousRacing
-  packageIndex: https://thunderstore.io/c/garfield-kart-furious-racing/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Garfield Kart - Furious Racing
-  exeNames:
-  - Garfield Kart Furious Racing.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"

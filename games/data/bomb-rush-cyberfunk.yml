@@ -1,83 +1,44 @@
-uuid: 0a5f2248-3eff-408b-87ed-cd982e4f1c91
-label: bomb-rush-cyberfunk
+uuid: "0a5f2248-3eff-408b-87ed-cd982e4f1c91"
+label: "bomb-rush-cyberfunk"
 meta:
-  displayName: Bomb Rush Cyberfunk
-  iconUrl: BombRushCyberfunk.jpg
+  displayName: "Bomb Rush Cyberfunk"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Bomb Rush Cyberfunk
+  displayName: "Bomb Rush Cyberfunk"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     maps:
-      label: Maps
+      label: "Maps"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     maps:
-      name: Maps
+      name: "Maps"
       requireCategories:
-      - maps
+        - "maps"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     other:
-      name: Other
+      name: "Other"
       excludeCategories:
-      - maps
-      - modpacks
+        - "maps"
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/TmBBV2qRuq
-r2modman:
-  internalFolderName: BombRushCyberfunk
-  dataFolderName: Bomb Rush Cyberfunk_Data
-  settingsIdentifier: BombRushCyberfunk
-  packageIndex: https://thunderstore.io/c/bomb-rush-cyberfunk/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: BombRushCyberfunk
-  exeNames:
-  - Bomb Rush Cyberfunk.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  discordUrl: "https://discord.gg/TmBBV2qRuq"

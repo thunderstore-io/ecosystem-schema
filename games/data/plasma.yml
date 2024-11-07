@@ -1,76 +1,37 @@
-uuid: 18cea92d-ed64-4107-8f49-79b55ad6cb39
-label: plasma
+uuid: "18cea92d-ed64-4107-8f49-79b55ad6cb39"
+label: "plasma"
 meta:
-  displayName: Plasma
-  iconUrl: Plasma.jpg
+  displayName: "Plasma"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Plasma
+  displayName: "Plasma"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
     biomes:
-      label: Biomes
+      label: "Biomes"
     nodes:
-      label: Logic Nodes
+      label: "Logic Nodes"
     components:
-      label: Components
+      label: "Components"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/BqGuhjtb65
-r2modman:
-  internalFolderName: Plasma
-  dataFolderName: Plasma_Data
-  settingsIdentifier: Plasma
-  packageIndex: https://thunderstore.io/c/plasma/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Plasma
-  exeNames:
-  - Plasma.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  discordUrl: "https://discord.gg/BqGuhjtb65"

@@ -1,70 +1,31 @@
-uuid: 646b9aff-b0b4-4a83-a661-4d50d1bb904b
-label: wizard-with-a-gun
+uuid: "646b9aff-b0b4-4a83-a661-4d50d1bb904b"
+label: "wizard-with-a-gun"
 meta:
-  displayName: Wizard with a Gun
-  iconUrl: WizardWithAGun.jpg
+  displayName: "Wizard with a Gun"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Wizard with a Gun
+  displayName: "Wizard with a Gun"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  discordUrl: https://discord.com/invite/galvanicgames
-r2modman:
-  internalFolderName: WizardWithAGun
-  dataFolderName: wizardwithagun_Data
-  settingsIdentifier: WizardWithAGun
-  packageIndex: https://thunderstore.io/c/wizard-with-a-gun/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Wizard With A Gun
-  exeNames:
-  - wizardwithagun.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/galvanicgames"

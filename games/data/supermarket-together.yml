@@ -1,71 +1,32 @@
-uuid: 8217c6e0-ec15-474e-a447-fafbf435fd64
-label: supermarket-together
+uuid: "8217c6e0-ec15-474e-a447-fafbf435fd64"
+label: "supermarket-together"
 meta:
-  displayName: Supermarket Together
-  iconUrl: SupermarketTogether.png
+  displayName: "Supermarket Together"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Supermarket Together
+  displayName: "Supermarket Together"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  wikiUrl: https://supermarkettogether.wiki.gg
-  discordUrl: https://discord.com/invite/GUVbBUMqNZ
-r2modman:
-  internalFolderName: SupermarketTogether
-  dataFolderName: Supermarket Together_Data
-  settingsIdentifier: SupermarketTogether
-  packageIndex: https://thunderstore.io/c/supermarket-together/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Supermarket Together
-  exeNames:
-  - Supermarket Together.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  wikiUrl: "https://supermarkettogether.wiki.gg"
+  discordUrl: "https://discord.com/invite/GUVbBUMqNZ"

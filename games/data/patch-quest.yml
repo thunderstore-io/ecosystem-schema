@@ -1,76 +1,29 @@
-uuid: f177bed2-ec0d-424a-98bd-87e9e3484924
-label: patch-quest
+uuid: "f177bed2-ec0d-424a-98bd-87e9e3484924"
+label: "patch-quest"
 meta:
-  displayName: Patch Quest
-  iconUrl: patch-quest.jpg
+  displayName: "Patch Quest"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: Patch Quest
+  displayName: "Patch Quest"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     audio:
-      label: Audio
+      label: "Audio"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
   sections:
     mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
+      name: "Mods"
+      excludeCategories: ["modpacks"]
     modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/rf8RwMYqZe
-r2modman:
-  internalFolderName: PatchQuest
-  dataFolderName: PatchQuest_Data
-  settingsIdentifier: PatchQuest
-  packageIndex: https://thunderstore.io/c/patch-quest/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Patch Quest
-  exeNames:
-  - Patch Quest.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: Mods
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: null
-  - route: UserData/ModManager
-    defaultFileExtensions: []
-    trackingMethod: subdir-no-flatten
-    subRoutes: []
-    isDefaultLocation: true
-  - route: UserLibs
-    defaultFileExtensions:
-    - .lib.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: null
-  - route: MelonLoader
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: Managed
-      defaultFileExtensions:
-      - .managed.dll
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: null
-    - route: Libs
-      defaultFileExtensions: []
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: null
-    isDefaultLocation: null
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/rf8RwMYqZe"

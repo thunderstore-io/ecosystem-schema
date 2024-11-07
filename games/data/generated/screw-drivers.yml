@@ -1,0 +1,70 @@
+uuid: 0e914579-c6f4-4824-9920-618a668eb599
+label: screw-drivers
+meta:
+  displayName: Screw Drivers
+  iconUrl: ScrewDrivers.png
+distributions: []
+thunderstore:
+  displayName: Screw Drivers
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/screwdrivers
+r2modman:
+  internalFolderName: ScrewDrivers
+  dataFolderName: Screw Drivers_Data
+  settingsIdentifier: ScrewDrivers
+  packageIndex: https://thunderstore.io/c/screw-drivers/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Screw Drivers
+  exeNames:
+  - Screw Drivers.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null

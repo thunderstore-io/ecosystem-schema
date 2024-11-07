@@ -1,79 +1,65 @@
-uuid: ca3b2a52-0598-4611-9906-bba3934e27f6
-label: ultrakill
+uuid: "ca3b2a52-0598-4611-9906-bba3934e27f6"
+label: "ultrakill"
 meta:
-  displayName: ULTRAKILL
-  iconUrl: ULTRAKILL.jpg
+  displayName: "ULTRAKILL"
+  iconUrl: null
 distributions:
-- platform: steam
-  identifier: '1229490'
+  - platform: "steam"
+    identifier: "1229490"
 r2modman:
-  internalFolderName: ULTRAKILL
-  dataFolderName: ULTRAKILL_Data
-  settingsIdentifier: ULTRAKILL
-  packageIndex: https://thunderstore.io/c/ultrakill/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: ULTRAKILL
+  internalFolderName: "Ultrakill"
+  dataFolderName: "ULTRAKILL_Data"
+  settingsIdentifier: "ultrakill"
+  packageIndex: "https://thunderstore.io/c/ultrakill/api/v1/package/"
+  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
+  steamFolderName: "ULTRAKILL"
   exeNames:
-  - ULTRAKILL.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "ULTRAKILL.exe"
+  gameInstancetype: "game"
+  gameSelectionDisplayMode: "visible"
+  modLoaderPackages:
+    - packageId: "BepInEx-BepInExPack_Ultrakill"
+      rootFolder: "BepInExPack_Ultrakill"
+      loader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/UMM Mods
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
+    - route: "BepInEx/plugins"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".dll"
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      trackingMethod: "subdir"
+    - route: "BepInEx/patchers"
+      trackingMethod: "subdir"
+    - route: "BepInEx/monomod"
+      trackingMethod: "subdir"
+      defaultFileExtensions:
+        - ".mm.dll"
+    - route: "BepInEx/config"
+      trackingMethod: null
+  relativeFileExclusions: []
 thunderstore:
-  displayName: ULTRAKILL
+  displayName: "ULTRAKILL"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     weapons:
-      label: Weapons
+      label: "Weapons"
     audio:
-      label: Audio
+      label: "Audio"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
   sections:
     mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
+      name: "Mods"
+      excludeCategories: ["modpacks"]
     modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/newblood
+      name: "Modpacks"
+      requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/newblood"

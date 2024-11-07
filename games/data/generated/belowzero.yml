@@ -1,0 +1,54 @@
+uuid: c7281746-5743-4dd1-b37f-b640f6611854
+label: belowzero
+meta:
+  displayName: 'Subnautica: Below Zero'
+  iconUrl: SubnauticaBelowZero.png
+distributions:
+- platform: steam
+  identifier: '848450'
+- platform: xbox-game-pass
+  identifier: UnknownWorldsEntertainmen.SubnauticaBelowZero
+r2modman:
+  internalFolderName: SubnauticaBZ
+  dataFolderName: SubnauticaZero_Data
+  settingsIdentifier: SubnauticaBZ
+  packageIndex: https://belowzero.thunderstore.io/api/v1/package/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: SubnauticaZero
+  exeNames:
+  - SubnauticaZero.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: state
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: state
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: state
+    subRoutes: []
+    isDefaultLocation: null
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: null
+    subRoutes: []
+    isDefaultLocation: null
+  - route: QMods
+    defaultFileExtensions: []
+    trackingMethod: state
+    subRoutes: []
+    isDefaultLocation: null

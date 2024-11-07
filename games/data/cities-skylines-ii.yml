@@ -1,70 +1,31 @@
-uuid: 549e0efb-bf7c-47f8-a76f-dfe61c89196c
-label: cities-skylines-ii
+uuid: "549e0efb-bf7c-47f8-a76f-dfe61c89196c"
+label: "cities-skylines-ii"
 meta:
-  displayName: 'Cities: Skylines II'
-  iconUrl: CitiesSkylines2.png
+  displayName: "Cities: Skylines II"
+  iconUrl: "None"
 distributions: []
 thunderstore:
-  displayName: 'Cities: Skylines II'
+  displayName: "Cities: Skylines II"
   categories:
     mods:
-      label: Mods
+      label: "Mods"
     modpacks:
-      label: Modpacks
+      label: "Modpacks"
     tools:
-      label: Tools
+      label: "Tools"
     libraries:
-      label: Libraries
+      label: "Libraries"
     misc:
-      label: Misc
+      label: "Misc"
     audio:
-      label: Audio
+      label: "Audio"
   sections:
     mods:
-      name: Mods
+      name: "Mods"
       excludeCategories:
-      - modpacks
+        - "modpacks"
     modpacks:
-      name: Modpacks
+      name: "Modpacks"
       requireCategories:
-      - modpacks
-  wikiUrl: https://github.com/optimus-code/Cities2Modding
-r2modman:
-  internalFolderName: CitiesSkylines2
-  dataFolderName: CitiesSkylines2_Data
-  settingsIdentifier: CitiesSkylines2
-  packageIndex: https://thunderstore.io/c/cities-skylines-ii/api/v1/package/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Cities Skylines II
-  exeNames:
-  - Cities2.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: null
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: null
-    subRoutes: []
-    isDefaultLocation: null
+        - "modpacks"
+  wikiUrl: "https://github.com/optimus-code/Cities2Modding"
