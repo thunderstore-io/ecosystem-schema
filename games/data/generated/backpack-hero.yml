@@ -24,7 +24,7 @@ r2modman:
     - .dll
     trackingMethod: state
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: UserData/ModManager
     defaultFileExtensions: []
     trackingMethod: subdir-no-flatten
@@ -35,7 +35,7 @@ r2modman:
     - .lib.dll
     trackingMethod: state
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: MelonLoader
     defaultFileExtensions: []
     trackingMethod: state
@@ -45,10 +45,10 @@ r2modman:
       - .managed.dll
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: Libs
       defaultFileExtensions: []
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
-    isDefaultLocation: null
+      isDefaultLocation: false
+    isDefaultLocation: false

@@ -31,13 +31,13 @@ r2modman:
     - .plugin.dll
     trackingMethod: state
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: UserLibs
     defaultFileExtensions:
     - .lib.dll
     trackingMethod: state
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: MelonLoader
     defaultFileExtensions: []
     trackingMethod: state
@@ -47,13 +47,13 @@ r2modman:
       - .managed.dll
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: Libs
       defaultFileExtensions: []
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
-    isDefaultLocation: null
+      isDefaultLocation: false
+    isDefaultLocation: false
   - route: UserData
     defaultFileExtensions: []
     trackingMethod: state
@@ -63,54 +63,54 @@ r2modman:
       - .melon
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: CustomMaps
       defaultFileExtensions:
       - .bcm
       - .cma
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: PlayerModels
       defaultFileExtensions:
       - .body
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: CustomLoadScreens
       defaultFileExtensions:
       - .load
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: Music
       defaultFileExtensions:
       - .wav
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: Food
       defaultFileExtensions:
       - .food
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: Scoreworks
       defaultFileExtensions:
       - .sw
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: CustomSkins
       defaultFileExtensions:
       - .png
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
+      isDefaultLocation: false
     - route: Grenades
       defaultFileExtensions:
       - .grenade
       trackingMethod: state
       subRoutes: []
-      isDefaultLocation: null
-    isDefaultLocation: null
+      isDefaultLocation: false
+    isDefaultLocation: false

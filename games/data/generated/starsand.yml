@@ -30,20 +30,20 @@ r2modman:
     defaultFileExtensions: []
     trackingMethod: subdir
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: BepInEx/patchers
     defaultFileExtensions: []
     trackingMethod: subdir
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: BepInEx/monomod
     defaultFileExtensions:
     - .mm.dll
     trackingMethod: subdir
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
     trackingMethod: null
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false

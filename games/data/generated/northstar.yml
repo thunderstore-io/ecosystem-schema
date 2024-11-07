@@ -25,4 +25,4 @@ r2modman:
     defaultFileExtensions: []
     trackingMethod: state
     subRoutes: []
-    isDefaultLocation: null
+    isDefaultLocation: false
