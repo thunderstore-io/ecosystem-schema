@@ -3,7 +3,9 @@ label: ultimate-chicken-horse
 meta:
   displayName: Ultimate Chicken Horse
   iconUrl: ultimate-chicken-horse.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '386940'
 thunderstore:
   displayName: Ultimate Chicken Horse
   categories:
@@ -42,6 +44,8 @@ r2modman:
   - UltimateChickenHorse.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - uch
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -67,6 +71,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

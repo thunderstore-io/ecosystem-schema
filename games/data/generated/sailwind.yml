@@ -3,7 +3,9 @@ label: sailwind
 meta:
   displayName: Sailwind
   iconUrl: Sailwind.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1764530'
 thunderstore:
   displayName: Sailwind
   categories:
@@ -40,6 +42,7 @@ r2modman:
   - Sailwind.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -65,6 +68,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

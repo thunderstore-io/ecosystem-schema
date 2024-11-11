@@ -3,7 +3,9 @@ label: gladio-mori
 meta:
   displayName: Gladio Mori
   iconUrl: GladioMori.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2908480'
 thunderstore:
   displayName: Gladio Mori
   categories:
@@ -40,6 +42,8 @@ r2modman:
   - Gladio Mori.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - gm
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -65,6 +69,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

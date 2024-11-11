@@ -7,6 +7,7 @@ distributions:
 - platform: steam
   identifier: '823500'
 - platform: oculus
+  identifier: null
 r2modman:
   internalFolderName: BONEWORKS
   dataFolderName: BONEWORKS_Data
@@ -19,6 +20,8 @@ r2modman:
   - Boneworks_Oculus_Windows64.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - BW
   installRules:
   - route: Mods
     defaultFileExtensions:

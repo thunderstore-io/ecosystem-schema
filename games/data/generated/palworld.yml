@@ -3,7 +3,9 @@ label: palworld
 meta:
   displayName: Palworld
   iconUrl: Palworld.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1623730'
 thunderstore:
   displayName: Palworld
   categories:
@@ -39,4 +41,6 @@ r2modman:
   - Palworld.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - palworld
   installRules: []

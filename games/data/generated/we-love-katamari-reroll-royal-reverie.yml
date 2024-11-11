@@ -3,7 +3,9 @@ label: we-love-katamari-reroll-royal-reverie
 meta:
   displayName: We Love Katamari REROLL+ Royal Reverie
   iconUrl: WLKRR.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1730700'
 thunderstore:
   displayName: We Love Katamari REROLL+ Royal Reverie
   categories:
@@ -39,6 +41,8 @@ r2modman:
   - WLKRR.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - wlkrr
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -64,6 +68,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

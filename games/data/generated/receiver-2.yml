@@ -3,7 +3,9 @@ label: receiver-2
 meta:
   displayName: Receiver 2
   iconUrl: receiver-2.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1129310'
 thunderstore:
   displayName: Receiver 2
   categories:
@@ -50,6 +52,8 @@ r2modman:
   - Receiver2.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - rec2
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -75,6 +79,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

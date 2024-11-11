@@ -3,7 +3,9 @@ label: content-warning
 meta:
   displayName: Content Warning
   iconUrl: ContentWarning.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2881650'
 thunderstore:
   displayName: Content Warning
   categories:
@@ -97,6 +99,8 @@ r2modman:
   - Content Warning.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - cw
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -122,6 +126,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

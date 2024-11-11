@@ -6,6 +6,8 @@ meta:
 distributions:
 - platform: steam
   identifier: '1592190'
+- platform: oculus
+  identifier: null
 r2modman:
   internalFolderName: BONELAB
   dataFolderName: BONELAB_Steam_Windows64
@@ -18,6 +20,8 @@ r2modman:
   - BONELAB_Oculus_Windows64.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - BL
   installRules:
   - route: Mods
     defaultFileExtensions:

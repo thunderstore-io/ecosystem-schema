@@ -3,7 +3,9 @@ label: brotato
 meta:
   displayName: Brotato
   iconUrl: brotato.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1942280'
 thunderstore:
   displayName: Brotato
   categories:
@@ -42,6 +44,7 @@ r2modman:
   - Brotato.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules:
   - route: mods
     defaultFileExtensions: []

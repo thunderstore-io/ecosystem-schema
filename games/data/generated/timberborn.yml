@@ -9,6 +9,7 @@ distributions:
 - platform: egs
   identifier: 972a4ca2631e43b4ba7bc3b7586ad8c4
 - platform: other
+  identifier: null
 r2modman:
   internalFolderName: Timberborn
   dataFolderName: Timberborn_Data
@@ -20,6 +21,8 @@ r2modman:
   - Timberborn.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - TB
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -45,7 +48,7 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false
   - route: BepInEx/Maps

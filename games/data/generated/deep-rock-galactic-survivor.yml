@@ -3,7 +3,9 @@ label: deep-rock-galactic-survivor
 meta:
   displayName: 'Deep Rock Galactic: Survivor'
   iconUrl: DeepRockGalacticSurvivor.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2321470'
 thunderstore:
   displayName: 'Deep Rock Galactic: Survivor'
   categories:
@@ -39,6 +41,8 @@ r2modman:
   - DRG Survivor.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ''
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -64,6 +68,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

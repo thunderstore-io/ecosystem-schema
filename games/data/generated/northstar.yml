@@ -20,6 +20,11 @@ r2modman:
   - Titanfall2.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - northstar
+  - ns
+  - tf2
+  - tf|2
   installRules:
   - route: R2Northstar/mods
     defaultFileExtensions: []

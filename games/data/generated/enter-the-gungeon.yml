@@ -9,6 +9,7 @@ distributions:
 - platform: egs
   identifier: Garlic
 - platform: other
+  identifier: null
 r2modman:
   internalFolderName: ETG
   dataFolderName: EtG_Data
@@ -20,6 +21,8 @@ r2modman:
   - EtG.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - etg
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -45,6 +48,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

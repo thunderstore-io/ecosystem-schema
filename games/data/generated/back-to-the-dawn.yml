@@ -3,7 +3,9 @@ label: back-to-the-dawn
 meta:
   displayName: Back to the Dawn
   iconUrl: BackToTheDawn.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1735700'
 thunderstore:
   displayName: Back to the Dawn
   categories:
@@ -46,6 +48,8 @@ r2modman:
   - Back To The Dawn.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - bttd
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -71,6 +75,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

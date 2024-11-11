@@ -3,7 +3,9 @@ label: atrio-the-dark-wild
 meta:
   displayName: 'Atrio: The Dark Wild'
   iconUrl: atrio-the-dark-wild.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1125390'
 thunderstore:
   displayName: 'Atrio: The Dark Wild'
   categories:
@@ -42,6 +44,8 @@ r2modman:
   - Atrio.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - adw
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -67,6 +71,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

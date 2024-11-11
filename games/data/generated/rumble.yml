@@ -3,7 +3,9 @@ label: rumble
 meta:
   displayName: RUMBLE
   iconUrl: RUMBLE.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '890550'
 thunderstore:
   displayName: RUMBLE
   categories:
@@ -40,6 +42,7 @@ r2modman:
   - RUMBLE.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules:
   - route: Mods
     defaultFileExtensions:

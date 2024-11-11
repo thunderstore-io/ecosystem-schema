@@ -6,6 +6,8 @@ meta:
 distributions:
 - platform: steam
   identifier: '1966900'
+- platform: egs
+  identifier: 4656facc740742a39e265b026e13d075
 r2modman:
   internalFolderName: 20MinutesTillDawn
   dataFolderName: MinutesTillDawn_Data
@@ -17,6 +19,9 @@ r2modman:
   - MinutesTillDawn.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - mtd
+  - 20mtd
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -42,6 +47,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

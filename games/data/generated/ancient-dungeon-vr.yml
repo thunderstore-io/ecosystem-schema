@@ -3,7 +3,11 @@ label: ancient-dungeon-vr
 meta:
   displayName: Ancient Dungeon VR
   iconUrl: ancient-dungeon-vr.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1125240'
+- platform: oculus
+  identifier: null
 thunderstore:
   displayName: Ancient Dungeon VR
   categories:
@@ -42,6 +46,8 @@ r2modman:
   - Ancient_Dungeon.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - adv
   installRules:
   - route: mods
     defaultFileExtensions: []

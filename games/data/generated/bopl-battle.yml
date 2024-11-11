@@ -3,7 +3,9 @@ label: bopl-battle
 meta:
   displayName: Bopl Battle
   iconUrl: BoplBattle.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1686940'
 thunderstore:
   displayName: Bopl Battle
   categories:
@@ -41,6 +43,8 @@ r2modman:
   - BoplBattle.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - bb
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -66,6 +70,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

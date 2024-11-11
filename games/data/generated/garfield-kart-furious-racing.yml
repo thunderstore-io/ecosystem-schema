@@ -3,7 +3,9 @@ label: garfield-kart-furious-racing
 meta:
   displayName: Garfield Kart - Furious Racing
   iconUrl: garfield-kart-furious-racing.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1085510'
 thunderstore:
   displayName: Garfield Kart - Furious Racing
   categories:
@@ -39,6 +41,8 @@ r2modman:
   - Garfield Kart Furious Racing.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - gkfr
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -64,6 +68,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

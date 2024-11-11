@@ -3,7 +3,9 @@ label: patch-quest
 meta:
   displayName: Patch Quest
   iconUrl: patch-quest.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1347970'
 thunderstore:
   displayName: Patch Quest
   categories:
@@ -40,6 +42,8 @@ r2modman:
   - Patch Quest.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - pq
   installRules:
   - route: Mods
     defaultFileExtensions:

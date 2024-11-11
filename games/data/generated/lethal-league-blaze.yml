@@ -20,6 +20,8 @@ r2modman:
   - LLBlaze.app
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - LLB
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -45,6 +47,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

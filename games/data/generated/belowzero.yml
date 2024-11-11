@@ -19,6 +19,10 @@ r2modman:
   - SubnauticaZero.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - bz
+  - sbz
+  - s:bz
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -44,7 +48,7 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false
   - route: QMods

@@ -3,7 +3,9 @@ label: supermarket-together
 meta:
   displayName: Supermarket Together
   iconUrl: SupermarketTogether.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2709570'
 thunderstore:
   displayName: Supermarket Together
   categories:
@@ -41,6 +43,8 @@ r2modman:
   - Supermarket Together.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ''
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -66,6 +70,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

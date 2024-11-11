@@ -3,7 +3,9 @@ label: balatro
 meta:
   displayName: Balatro
   iconUrl: Balatro.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2379780'
 thunderstore:
   displayName: Balatro
   categories:
@@ -40,4 +42,5 @@ r2modman:
   - Balatro.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules: []

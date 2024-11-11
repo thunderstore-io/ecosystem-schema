@@ -17,6 +17,8 @@ r2modman:
   - Hard Bullet.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - hb
   installRules:
   - route: Mods
     defaultFileExtensions:

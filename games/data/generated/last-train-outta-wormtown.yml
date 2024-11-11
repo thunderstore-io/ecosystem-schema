@@ -3,7 +3,9 @@ label: last-train-outta-wormtown
 meta:
   displayName: Last Train Outta' Wormtown
   iconUrl: LastTrainOuttaWormtown.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2318480'
 thunderstore:
   displayName: Last Train Outta' Wormtown
   categories:
@@ -41,6 +43,8 @@ r2modman:
   - Last Train Out Of WormTown.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ltow
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -66,6 +70,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

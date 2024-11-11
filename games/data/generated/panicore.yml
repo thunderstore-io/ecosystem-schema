@@ -3,7 +3,9 @@ label: panicore
 meta:
   displayName: Panicore
   iconUrl: Panicore.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2695940'
 thunderstore:
   displayName: Panicore
   categories:
@@ -40,4 +42,6 @@ r2modman:
   - Panicore.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - panicore
   installRules: []

@@ -3,7 +3,11 @@ label: bomb-rush-cyberfunk
 meta:
   displayName: Bomb Rush Cyberfunk
   iconUrl: BombRushCyberfunk.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1353230'
+- platform: xbox-game-pass
+  identifier: TeamReptile.BombRushCyberfunk
 thunderstore:
   displayName: Bomb Rush Cyberfunk
   categories:
@@ -53,6 +57,8 @@ r2modman:
   - Bomb Rush Cyberfunk.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - brc
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -78,6 +84,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

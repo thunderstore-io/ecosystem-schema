@@ -3,7 +3,9 @@ label: west-of-loathing
 meta:
   displayName: West of Loathing
   iconUrl: west-of-loathing.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '597220'
 thunderstore:
   displayName: West of Loathing
   categories:
@@ -39,6 +41,8 @@ r2modman:
   - West of Loathing.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - wol
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -64,6 +68,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

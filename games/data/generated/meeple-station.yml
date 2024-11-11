@@ -3,7 +3,9 @@ label: meeple-station
 meta:
   displayName: Meeple Station
   iconUrl: MeepleStation.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '900010'
 thunderstore:
   displayName: Meeple Station
   categories:
@@ -41,6 +43,8 @@ r2modman:
   - Meeple Station.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ms
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -66,6 +70,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

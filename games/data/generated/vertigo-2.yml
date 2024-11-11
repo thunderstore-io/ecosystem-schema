@@ -3,7 +3,9 @@ label: vertigo-2
 meta:
   displayName: Vertigo 2
   iconUrl: Vertigo2.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '843390'
 thunderstore:
   displayName: Vertigo 2
   categories:
@@ -40,6 +42,7 @@ r2modman:
   - vertigo2.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -65,6 +68,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

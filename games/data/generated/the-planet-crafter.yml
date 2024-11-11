@@ -3,7 +3,9 @@ label: the-planet-crafter
 meta:
   displayName: The Planet Crafter
   iconUrl: the-planet-crafter.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1284190'
 thunderstore:
   displayName: The Planet Crafter
   categories:
@@ -40,6 +42,8 @@ r2modman:
   - Planet Crafter.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - tpc
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -65,6 +69,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

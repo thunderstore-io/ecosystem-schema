@@ -3,7 +3,9 @@ label: voices-of-the-void
 meta:
   displayName: Voices of the Void
   iconUrl: VotV.png
-distributions: []
+distributions:
+- platform: other
+  identifier: null
 thunderstore:
   displayName: Voices of the Void
   categories:
@@ -40,4 +42,6 @@ r2modman:
   - VotV.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - votv
   installRules: []

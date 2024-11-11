@@ -3,7 +3,9 @@ label: dome-keeper
 meta:
   displayName: Dome Keeper
   iconUrl: dome-keeper.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1637320'
 thunderstore:
   displayName: Dome Keeper
   categories:
@@ -39,6 +41,8 @@ r2modman:
   - domekeeper.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - dk
   installRules:
   - route: mods
     defaultFileExtensions: []

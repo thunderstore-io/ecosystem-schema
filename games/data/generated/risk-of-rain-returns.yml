@@ -3,7 +3,9 @@ label: risk-of-rain-returns
 meta:
   displayName: Risk of Rain Returns
   iconUrl: RiskOfRainReturns.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1337520'
 thunderstore:
   displayName: Risk of Rain Returns
   categories:
@@ -70,4 +72,6 @@ r2modman:
   - Risk of Rain Returns.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - rorr
   installRules: []

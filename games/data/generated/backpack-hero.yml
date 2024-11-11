@@ -18,6 +18,9 @@ r2modman:
   - linux.x86_64
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - bh
+  - farlands
   installRules:
   - route: Mods
     defaultFileExtensions:

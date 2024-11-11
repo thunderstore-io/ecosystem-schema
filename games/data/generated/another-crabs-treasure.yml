@@ -3,7 +3,9 @@ label: another-crabs-treasure
 meta:
   displayName: Another Crab's Treasure
   iconUrl: AnotherCrabsTreasure.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1887840'
 thunderstore:
   displayName: Another Crab's Treasure
   categories:
@@ -45,6 +47,8 @@ r2modman:
   - AnotherCrabsTreasure.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - act
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -70,6 +74,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

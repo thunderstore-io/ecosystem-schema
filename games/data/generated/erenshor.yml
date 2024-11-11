@@ -3,7 +3,9 @@ label: erenshor
 meta:
   displayName: Erenshor
   iconUrl: Erenshor.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '2382520'
 thunderstore:
   displayName: Erenshor
   categories:
@@ -41,6 +43,7 @@ r2modman:
   - Erenshor.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -66,6 +69,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

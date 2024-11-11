@@ -7,6 +7,7 @@ distributions:
 - platform: steam
   identifier: '1296610'
 - platform: other
+  identifier: null
 r2modman:
   internalFolderName: Peglin
   dataFolderName: Peglin_Data
@@ -18,6 +19,7 @@ r2modman:
   - Peglin.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -43,6 +45,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

@@ -3,7 +3,9 @@ label: screw-drivers
 meta:
   displayName: Screw Drivers
   iconUrl: ScrewDrivers.png
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1279510'
 thunderstore:
   displayName: Screw Drivers
   categories:
@@ -40,6 +42,8 @@ r2modman:
   - Screw Drivers.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ''
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -65,6 +69,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false

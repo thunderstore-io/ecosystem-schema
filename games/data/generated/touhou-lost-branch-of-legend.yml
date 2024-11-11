@@ -3,7 +3,9 @@ label: touhou-lost-branch-of-legend
 meta:
   displayName: 'Touhou: Lost Branch of Legend'
   iconUrl: TouhouLostBranchOfLegend.jpg
-distributions: []
+distributions:
+- platform: steam
+  identifier: '1140150'
 thunderstore:
   displayName: 'Touhou: Lost Branch of Legend'
   categories:
@@ -71,6 +73,8 @@ r2modman:
   - LBoL.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - lbol
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
@@ -96,6 +100,6 @@ r2modman:
     isDefaultLocation: false
   - route: BepInEx/config
     defaultFileExtensions: []
-    trackingMethod: null
+    trackingMethod: none
     subRoutes: []
     isDefaultLocation: false
