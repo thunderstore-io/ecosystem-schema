@@ -29,6 +29,12 @@ const autolistPackageIds = await checkbox({
   choices: AUTOLIST_PACKAGE_CHOICES,
 });
 
+const shortDescription = await input({
+  message: "Short description for the community (optional)",
+  default: "",
+  validate: (val) => val.length < 513,
+});
+
 const game: GameDefinition = {
   uuid: uuid(),
   label: identifier,
@@ -75,6 +81,7 @@ const game: GameDefinition = {
     wikiUrl: wikiUrl || undefined,
     discordUrl: discordUrl || undefined,
     autolistPackageIds: autolistPackageIds || undefined,
+    shortDescription: shortDescription || undefined,
   },
 };
 
