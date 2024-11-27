@@ -1,25 +1,44 @@
 from enum import Enum
 import glob
+from os import path
+import os
+import re
+import textwrap
 from typing import Optional
 import yaml
-import humps
 
 from functools import cache
-from os import path
 
-from pydantic import AnyUrl, BaseModel, Field, FileUrl, UUID4, validator
+from pydantic import UUID4, BaseModel, ConfigDict, ValidationError, field_validator, model_validator
+
+def r2mm_dir() -> str:
+    dir_path = os.environ.get("R2MM_DIR", default="../games/r2modmanPlus/")
+    if os.path.isdir(dir_path):
+        return dir_path
+
+    raise Exception(textwrap.dedent(f"""
+        The r2modman directory at `{dir_path}` does not exist. You can fix this by either:
+        - Ensuring that this path exists and points to a valid local r2modman repository.
+        - Set a different r2modman directory path via the `R2MM_DIR` environment variable.
+    """))
 
 # Get a cached deserialized list of all ecosystem entries found within ../games/data.
 @cache
-def get_schema_entries(dir: str) -> list["SchemaEntry"]:
+def get_schema_entries(dir: str, skip_validation=False) -> list["SchemaEntry"] | list["PartialSchemaEntry"]:
     schema_files = glob.glob(dir + "/*.yml")
     yml_entries = map(lambda file: yaml.load(open(file), Loader=yaml.Loader), schema_files)
 
     entries = []
     for yml_entry in yml_entries:
         # We decamelize here to convert from camelCase into the Python-relevant snake case.
-        decamel = humps.decamelize(yml_entry)
-        entries.append(SchemaEntry.model_validate(decamel))
+        if skip_validation:
+            entries.append(PartialSchemaEntry.model_validate(yml_entry))
+            continue
+
+        try:
+            entries.append(SchemaEntry.model_validate(yml_entry, strict=False))
+        except ValidationError as e:
+            print(f"A validation error occured for {yml_entry["label"]}: {e}")
 
     return entries
 
@@ -29,53 +48,138 @@ def load_entry(file: str) -> "SchemaEntry":
     return SchemaEntry.model_validate(des)
 
 class EntryMeta(BaseModel):
-    display_name: str
-    icon_url: str
+    displayName: str
+    iconUrl: str
+
+    @field_validator("iconUrl")
+    @classmethod
+    def validate_icon(cls, v: str) -> str:
+        # Null values are ok in this instance, we just skip it silently.
+        if v == "None" or v is None:
+            return v
+
+        icon_dir = path.join(r2mm_dir(), "src/assets/images/game_selection")
+        icon_path = path.join(icon_dir, v)
+
+        if not path.isdir(icon_dir):
+            raise ValueError(f"The r2modman icon directory at {icon_dir} does not exist")
+        if not path.isfile(icon_path):
+            print(f"Warning: The icon at path `{icon_path}` does not exist")
+
+        return v
+
+class DistributionPlatform(str, Enum):
+    STEAM = "steam"
+    STEAM_DIRECT = "steam-direct"
+    EGS = "egs"
+    OCULUS = "oculus"
+    ORIGIN = "origin"
+    XBOX_GAME_PASS = "xbox-game-pass"
+    OTHER = "other"
+
+    # Does this distribution variant require an identifier?
+    def is_required(self) -> bool:
+        return self in [
+            DistributionPlatform.STEAM,
+            DistributionPlatform.STEAM_DIRECT,
+            DistributionPlatform.EGS,
+            DistributionPlatform.ORIGIN,
+            DistributionPlatform.XBOX_GAME_PASS,
+        ]
 
 class EntryDist(BaseModel):
-    platform: str
+    platform: DistributionPlatform
     identifier: Optional[str] = None
 
+    @model_validator(mode="after")
+    @classmethod
+    def validate_identifier(cls, data: any) -> str:
+        if data.identifier is None and data.platform.is_required():
+            raise ValueError(f"Distribution field with platform {data.platform} is missing a valid identifier")
+
 class EntryThunderstore(BaseModel):
-    display_name: str
-    discord_url: Optional[AnyUrl] = None
-    wiki_url: Optional[AnyUrl] = None
+    displayName: str
+    discordUrl: Optional[str] = None
+    wikiUrl: Optional[str] = None
     categories: dict
     sections: dict
 
-class GameInstanceType(Enum):
+class GameInstanceType(str, Enum):
     GAME = "game"
     SERVER = "server"
 
-class GameSelectionDisplayMode(Enum):
+class GameSelectionDisplayMode(str, Enum):
     VISIBLE = "visible"
     HIDDEN = "hidden"
 
-class TrackingMethod(Enum):
+class TrackingMethod(str, Enum):
     SUBDIR = "subdir"
     SUBDIR_NO_FLATTEN = "subdir-no-flatten"
     STATE = "state"
     PACKAGE_ZIP = "package-zip"
     NONE = "none"
 
+class ModLoaderPackageRef(str, Enum):
+    bepinex = "bepinex"
+    melonloader = "melonloader"
+    northstar = "northstar"
+    godotml = "godotml"
+    shimloader = "shimloader"
+    lovely = "lovely"
+    returnofmodding = "returnofmodding"
+
+class ModLoaderPackage(BaseModel):
+    packageId: str
+    rootFolder: str
+    loader: str
+
 class InstallRule(BaseModel):
     route: str
-    default_file_extensions: list[str]
+    defaultFileExtensions: list[str]
     trackingMethod: TrackingMethod
-    sub_routes: list["InstallRule"]
-    is_default_location: bool
+    subRoutes: list["InstallRule"]
+    isDefaultLocation: bool
+
+    # Route values must:
+    # - Must not contain relative path characters
+    # - Must not contain invalid path characters (UNIX + Windows)
+    @field_validator("route")
+    def validate_route(cls, v):
+        pattern = r"^(?!.*\.\./)(?!.*[<>:\"|?*]).*[^/\\]$"
+        if not re.match(pattern, v):
+            raise ValueError("Route values cannot contain invalid path characters or relative path traversals")
+
+    @field_validator("defaultFileExtensions")
+    def validate_default_file_extensions(cls, v):
+        pattern = r"^(\.[a-zA-Z0-9]+)+$"
+        invalid = list([x for x in v if not re.match(pattern, x)])
+        if len(invalid):
+            raise ValueError(f"Invalid file extensions: {invalid}")
 
 class EntryR2(BaseModel):
-    internal_folder_name: str
-    data_folder_name: str
-    settings_identifier: str
-    package_index: AnyUrl
-    exclusions_url: FileUrl
-    steam_folder_name: str
-    exe_names: list[str]
-    game_instance_type: GameInstanceType
-    game_selection_display_mode: GameSelectionDisplayMode
-    install_rules: list[InstallRule]
+    internalFolderName: str
+    dataFolderName: Optional[str] = None
+    settingsIdentifier: str
+    packageIndex: str
+    exclusionsUrl: str
+    steamFolderName: str
+    exeNames: list[str]
+    gameInstanceType: GameInstanceType
+    gameSelectionDisplayMode: GameSelectionDisplayMode
+    installRules: list[InstallRule]
+
+    # These values must be folder names and therefore cannot contain:
+    # - Invalid path characters
+    # - Directory separators
+    # - Directory traversal tokens (../)
+    @field_validator("internalFolderName", "dataFolderName", "settingsIdentifier")
+    def validate_folder_names(cls, v):
+        if v == "":
+            return
+        pattern = r"^(?!.*\.\./|.*[\\/]|.*:)[^/\\:*?\"<>|]+$"
+        if not re.match(pattern, v):
+            raise ValueError(f"Folder names cannot contain path characters, path separators, or relative path traversals")
+
 
 class SchemaEntry(BaseModel):
     uuid: UUID4
@@ -83,20 +187,26 @@ class SchemaEntry(BaseModel):
     meta: EntryMeta
     distributions: list[EntryDist]
     thunderstore: Optional[EntryThunderstore] = None
-    r2modman: EntryR2 = Field(EntryR2, alias="r_2modman")
+    r2modman: Optional[EntryR2] = None
+
+    @field_validator("label")
+    def validate_label(cls, v):
+        pattern = r"^[a-z0-9-]+$"
+        if not re.match(pattern, v):
+            raise ValueError(f"Entry labels must only contain lowercase alphanumeric (a-z) characters, numbers, and hyphens")
+
+# This model is *only* used when we merge user-created entries with the machine generated ones in
+# /data/games/generated. We skip validation here because, prior to merging, we can only assert that the
+# uuid and label fields will exist.
+class PartialSchemaEntry(BaseModel):
+    model_config = ConfigDict(
+        extra="allow",
+    )
+    uuid: str
+    label: str
 
 class Schema(BaseModel):
     schema_version: str
     games: dict[str, SchemaEntry]
     communities: dict[str, EntryThunderstore]
     package_installers: list
-
-    # @validator('label')
-    # def validate_label(cls, v):
-    #     schema_entries = get_schema_entries()
-    #     is_unique = len([entry for entry in schema_entries if entry["label"] == v]) == 1
-
-    #     if not is_unique:
-    #         raise Exception(f"Label {v} already exists within the ecosystem schema")
-    #     return str(v)
-
