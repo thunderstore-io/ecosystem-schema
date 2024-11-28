@@ -30,4 +30,5 @@ thunderstore:
         - "modpacks"
   wikiUrl: "https://atlyss.wiki.gg/wiki/ATLYSS_Wiki"
   discordUrl: "https://discord.gg/atlyss"
-  autolistPackageIds: []
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
