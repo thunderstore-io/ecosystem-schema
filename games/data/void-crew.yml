@@ -31,6 +31,8 @@ thunderstore:
       label: "Quality of Life"
     bug-fixes:
       label: "Bug Fixes"
+    disables-progression:
+      label: "Disables Progression"
   sections:
     mods:
       name: "Mods"
