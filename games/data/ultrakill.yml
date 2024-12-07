@@ -36,7 +36,7 @@ r2modman:
       defaultFileExtensions:
         - ".mm.dll"
     - route: "BepInEx/config"
-      trackingMethod: null
+      trackingMethod: "none"
   relativeFileExclusions: []
 thunderstore:
   displayName: "ULTRAKILL"
