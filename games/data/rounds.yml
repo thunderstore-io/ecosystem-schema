@@ -1,0 +1,8 @@
+uuid: "f21ea350-d7fc-4f18-9f59-d3133a1743b1"
+label: "rounds"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1557740

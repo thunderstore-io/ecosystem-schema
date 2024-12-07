@@ -4,6 +4,12 @@ meta:
   displayName: "We Love Katamari REROLL+ Royal Reverie"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1730700
 thunderstore:
   displayName: "We Love Katamari REROLL+ Royal Reverie"
   categories:
