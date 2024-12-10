@@ -1,9 +1,10 @@
 import textwrap
+import yaml
 
 from pydantic import ValidationError
 
 from util import make_validation_err, partial_entry_merge
-from schema import EntryThunderstore, PartialSchemaEntry, Schema, SchemaEntry, get_schema_entries
+from schema import EntryThunderstore, ModloaderPackage, PartialSchemaEntry, Schema, SchemaEntry, get_schema_entries
 
 # Build a new version of the schema by merging /generated with overrides, then dumping
 # to a .json at the specified location.
@@ -66,9 +67,14 @@ def build_schema() -> Schema:
         if hasattr(entry, "thunderstore") and entry.thunderstore is not None:
             communities[entry.label] = entry.thunderstore
 
+    # Create the list of modloader packages
+    mlp_file = open("../modloader-packages.yml")
+    modloader_packages = map(lambda x: ModloaderPackage.model_validate(x), yaml.load(mlp_file, Loader=yaml.Loader))
+
     return Schema(
         schema_version="0.1.12",
         games=games,
         communities=communities,
         package_installers=list(),
+        modloader_packages=list(modloader_packages),
     )

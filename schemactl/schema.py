@@ -71,7 +71,7 @@ class EntryMeta(BaseModel):
 class DistributionPlatform(str, Enum):
     STEAM = "steam"
     STEAM_DIRECT = "steam-direct"
-    EGS = "egs"
+    EGS = "epic-games-store"
     OCULUS = "oculus"
     ORIGIN = "origin"
     XBOX_GAME_PASS = "xbox-game-pass"
@@ -96,6 +96,7 @@ class EntryDist(BaseModel):
     def validate_identifier(cls, data: any) -> str:
         if data.identifier is None and data.platform.is_required():
             raise ValueError(f"Distribution field with platform {data.platform} is missing a valid identifier")
+        return data
 
 class EntryThunderstore(BaseModel):
     displayName: str
@@ -124,9 +125,11 @@ class ModLoaderPackageRef(str, Enum):
     melonloader = "melonloader"
     northstar = "northstar"
     godotml = "godotml"
+    ancientdungeonvr = "ancientdungeonvr"
     shimloader = "shimloader"
     lovely = "lovely"
     returnofmodding = "returnofmodding"
+    gdweave = "gdweave"
 
 class ModLoaderPackage(BaseModel):
     packageId: str
@@ -148,6 +151,7 @@ class InstallRule(BaseModel):
         pattern = r"^(?!.*\.\./)(?!.*[<>:\"|?*]).*[^/\\]$"
         if not re.match(pattern, v):
             raise ValueError("Route values cannot contain invalid path characters or relative path traversals")
+        return v
 
     @field_validator("defaultFileExtensions")
     def validate_default_file_extensions(cls, v):
@@ -155,6 +159,7 @@ class InstallRule(BaseModel):
         invalid = list([x for x in v if not re.match(pattern, x)])
         if len(invalid):
             raise ValueError(f"Invalid file extensions: {invalid}")
+        return v
 
 class EntryR2(BaseModel):
     internalFolderName: str
@@ -166,6 +171,8 @@ class EntryR2(BaseModel):
     exeNames: list[str]
     gameInstanceType: GameInstanceType
     gameSelectionDisplayMode: GameSelectionDisplayMode
+    packageLoader: ModLoaderPackageRef
+    additionalSearchStrings: list[str]
     installRules: list[InstallRule]
 
     # These values must be folder names and therefore cannot contain:
@@ -179,6 +186,7 @@ class EntryR2(BaseModel):
         pattern = r"^(?!.*\.\./|.*[\\/]|.*:)[^/\\:*?\"<>|]+$"
         if not re.match(pattern, v):
             raise ValueError(f"Folder names cannot contain path characters, path separators, or relative path traversals")
+        return v
 
 
 class SchemaEntry(BaseModel):
@@ -194,6 +202,12 @@ class SchemaEntry(BaseModel):
         pattern = r"^[a-z0-9-]+$"
         if not re.match(pattern, v):
             raise ValueError(f"Entry labels must only contain lowercase alphanumeric (a-z) characters, numbers, and hyphens")
+        return v
+
+class ModloaderPackage(BaseModel):
+    identifier: str
+    rootFolder: str
+    variant: str
 
 # This model is *only* used when we merge user-created entries with the machine generated ones in
 # /data/games/generated. We skip validation here because, prior to merging, we can only assert that the
@@ -210,3 +224,4 @@ class Schema(BaseModel):
     games: dict[str, SchemaEntry]
     communities: dict[str, EntryThunderstore]
     package_installers: list
+    modloader_packages: list[ModloaderPackage]
