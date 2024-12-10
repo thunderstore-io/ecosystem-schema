@@ -5,7 +5,7 @@ meta:
   iconUrl: GladioMori.png
 distributions:
 - platform: steam
-  identifier: '2908480'
+  identifier: '2689120'
 thunderstore:
   displayName: Gladio Mori
   categories:
@@ -35,15 +35,16 @@ r2modman:
   internalFolderName: GladioMori
   dataFolderName: Gladio Mori_Data
   settingsIdentifier: GladioMori
-  packageIndex: https://thunderstore.io/c/gladio-mori/api/v1/package/
+  packageIndex: https://thunderstore.io/c/gladio-mori/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Gladio Mori Demo
+  steamFolderName: Gladio Mori
   exeNames:
   - Gladio Mori.exe
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - gm
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

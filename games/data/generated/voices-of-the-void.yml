@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: VotV
   dataFolderName: VotV
   settingsIdentifier: VotV
-  packageIndex: https://thunderstore.io/c/voices-of-the-void/api/v1/package/
+  packageIndex: https://thunderstore.io/c/voices-of-the-void/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: ''
   exeNames:
@@ -44,4 +44,5 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - votv
+  packageLoader: shimloader
   installRules: []

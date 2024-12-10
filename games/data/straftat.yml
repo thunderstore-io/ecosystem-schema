@@ -1,0 +1,33 @@
+uuid: "44bcb85e-66c1-4a04-a272-4aabeb1a4552"
+label: "straftat"
+meta:
+  displayName: "STRAFTAT"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "STRAFTAT"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/qeMEaMEkDa"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

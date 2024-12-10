@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: BackpackHero
   dataFolderName: Backpack Hero_Data
   settingsIdentifier: BackpackHero
-  packageIndex: https://thunderstore.io/c/backpack-hero/api/v1/package/
+  packageIndex: https://thunderstore.io/c/backpack-hero/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Backpack Hero
   exeNames:
@@ -21,6 +21,7 @@ r2modman:
   additionalSearchStrings:
   - bh
   - farlands
+  packageLoader: melonloader
   installRules:
   - route: Mods
     defaultFileExtensions:

@@ -34,7 +34,7 @@ r2modman:
   internalFolderName: VoidCrew
   dataFolderName: VoidCrew_Data
   settingsIdentifier: VoidCrew
-  packageIndex: https://thunderstore.io/c/void-crew/api/v1/package/
+  packageIndex: https://thunderstore.io/c/void-crew/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Void Crew
   exeNames:
@@ -43,6 +43,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - vc
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

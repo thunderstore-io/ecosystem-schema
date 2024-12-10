@@ -50,7 +50,7 @@ r2modman:
   internalFolderName: BombRushCyberfunk
   dataFolderName: Bomb Rush Cyberfunk_Data
   settingsIdentifier: BombRushCyberfunk
-  packageIndex: https://thunderstore.io/c/bomb-rush-cyberfunk/api/v1/package/
+  packageIndex: https://thunderstore.io/c/bomb-rush-cyberfunk/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: BombRushCyberfunk
   exeNames:
@@ -59,6 +59,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - brc
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

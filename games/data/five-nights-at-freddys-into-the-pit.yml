@@ -1,0 +1,32 @@
+uuid: "ec590bff-7655-4946-acf1-476782de86d5"
+label: "five-nights-at-freddys-into-the-pit"
+meta:
+  displayName: "Five Nights at Freddy's: Into the Pit"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Five Nights at Freddy's: Into the Pit"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/technical-fnaf-664239645441261588"
+  autolistPackageIds: ["BepInEx-BepInExPack"]

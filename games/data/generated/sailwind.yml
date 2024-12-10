@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: Sailwind
   dataFolderName: Sailwind_Data
   settingsIdentifier: Sailwind
-  packageIndex: https://thunderstore.io/c/sailwind/api/v1/package/
+  packageIndex: https://thunderstore.io/c/sailwind/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Sailwind
   exeNames:
@@ -43,6 +43,7 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

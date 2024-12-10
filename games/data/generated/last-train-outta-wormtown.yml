@@ -36,7 +36,7 @@ r2modman:
   internalFolderName: LastTrainOuttaWormtown
   dataFolderName: Last Train Out Of WormTown_Data
   settingsIdentifier: LastTrainOuttaWormtown
-  packageIndex: https://thunderstore.io/c/last-train-outta-wormtown/api/v1/package/
+  packageIndex: https://thunderstore.io/c/last-train-outta-wormtown/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Last Train Outta' Wormtown
   exeNames:
@@ -45,6 +45,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ltow
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: AleAndTaleTavern
   dataFolderName: Ale and Tale Tavern_Data
   settingsIdentifier: AleAndTaleTavern
-  packageIndex: https://thunderstore.io/c/ale-and-tale-tavern/api/v1/package/
+  packageIndex: https://thunderstore.io/c/ale-and-tale-tavern/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Ale & Tale Tavern
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ''
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

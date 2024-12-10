@@ -34,7 +34,7 @@ r2modman:
   internalFolderName: GarfieldKartFuriousRacing
   dataFolderName: GarfieldKartFuriousRacing_Data
   settingsIdentifier: GarfieldKartFuriousRacing
-  packageIndex: https://thunderstore.io/c/garfield-kart-furious-racing/api/v1/package/
+  packageIndex: https://thunderstore.io/c/garfield-kart-furious-racing/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Garfield Kart - Furious Racing
   exeNames:
@@ -43,6 +43,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - gkfr
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

@@ -36,7 +36,7 @@ r2modman:
   internalFolderName: MeepleStation
   dataFolderName: MeepleStation_Data
   settingsIdentifier: MeepleStation
-  packageIndex: https://thunderstore.io/c/meeple-station/api/v1/package/
+  packageIndex: https://thunderstore.io/c/meeple-station/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Meeple Station
   exeNames:
@@ -45,6 +45,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ms
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

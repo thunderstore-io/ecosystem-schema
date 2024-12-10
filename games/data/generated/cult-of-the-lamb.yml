@@ -12,7 +12,7 @@ r2modman:
   internalFolderName: COTL
   dataFolderName: Cult Of The Lamb_Data
   settingsIdentifier: COTL
-  packageIndex: https://thunderstore.io/c/cult-of-the-lamb/api/v1/package/
+  packageIndex: https://thunderstore.io/c/cult-of-the-lamb/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Cult of the Lamb
   exeNames:
@@ -21,6 +21,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - cotl
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

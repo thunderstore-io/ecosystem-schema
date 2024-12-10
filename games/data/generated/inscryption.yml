@@ -12,7 +12,7 @@ r2modman:
   internalFolderName: Inscryption
   dataFolderName: Inscryption_Data
   settingsIdentifier: Inscryption
-  packageIndex: https://inscryption.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/inscryption/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Inscryption
   exeNames:
@@ -20,6 +20,7 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

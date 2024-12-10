@@ -2,7 +2,7 @@ uuid: 49fd28ec-fb38-47c5-ba62-92a51cf9b70e
 label: core-keeper
 meta:
   displayName: Core Keeper
-  iconUrl: CoreKeeper.jpg
+  iconUrl: CoreKeeper.png
 distributions:
 - platform: steam
   identifier: '1621690'
@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: CoreKeeper
   dataFolderName: CoreKeeper_Data
   settingsIdentifier: CoreKeeper
-  packageIndex: https://core-keeper.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/core-keeper/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Core Keeper
   exeNames:
@@ -19,6 +19,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ck
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

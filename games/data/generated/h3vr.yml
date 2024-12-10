@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: H3VR
   dataFolderName: h3vr_Data
   settingsIdentifier: H3VR
-  packageIndex: https://h3vr.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/h3vr/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: H3VR
   exeNames:
@@ -20,6 +20,7 @@ r2modman:
   additionalSearchStrings:
   - Hot Dogs, Horseshoes & Hand Grenades
   - Hot Dogs, Horseshoes and Hand Grenades
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

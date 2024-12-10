@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: NineSols
   dataFolderName: Nine Sols_Data
   settingsIdentifier: NineSols
-  packageIndex: https://thunderstore.io/c/nine-sols/api/v1/package/
+  packageIndex: https://thunderstore.io/c/nine-sols/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Nine Sols
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ''
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

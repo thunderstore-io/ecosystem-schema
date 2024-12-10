@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: NASB
   dataFolderName: Nickelodeon All-Star Brawl_Data
   settingsIdentifier: NASB
-  packageIndex: https://nasb.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/nasb/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Nickelodeon All-Star Brawl
   exeNames:
@@ -20,6 +20,7 @@ r2modman:
   additionalSearchStrings:
   - Nickelodeon All-Star Brawl
   - NASB
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

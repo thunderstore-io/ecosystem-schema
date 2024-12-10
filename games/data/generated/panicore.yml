@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: Panicore
   dataFolderName: Panicore
   settingsIdentifier: Panicore
-  packageIndex: https://thunderstore.io/c/panicore/api/v1/package/
+  packageIndex: https://thunderstore.io/c/panicore/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Panicore
   exeNames:
@@ -44,4 +44,5 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - panicore
+  packageLoader: shimloader
   installRules: []

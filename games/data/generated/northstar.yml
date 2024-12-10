@@ -12,7 +12,7 @@ r2modman:
   internalFolderName: Titanfall2
   dataFolderName: ''
   settingsIdentifier: Titanfall2
-  packageIndex: https://northstar.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/northstar/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Titanfall2
   exeNames:
@@ -25,6 +25,7 @@ r2modman:
   - ns
   - tf2
   - tf|2
+  packageLoader: northstar
   installRules:
   - route: R2Northstar/mods
     defaultFileExtensions: []

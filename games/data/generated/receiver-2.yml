@@ -45,7 +45,7 @@ r2modman:
   internalFolderName: Receiver2
   dataFolderName: Receiver2_Data
   settingsIdentifier: Receiver2
-  packageIndex: https://thunderstore.io/c/receiver-2/api/v1/package/
+  packageIndex: https://thunderstore.io/c/receiver-2/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Receiver 2
   exeNames:
@@ -54,6 +54,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - rec2
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

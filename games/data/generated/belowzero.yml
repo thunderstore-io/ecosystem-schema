@@ -12,7 +12,7 @@ r2modman:
   internalFolderName: SubnauticaBZ
   dataFolderName: SubnauticaZero_Data
   settingsIdentifier: SubnauticaBZ
-  packageIndex: https://belowzero.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/subnautica-below-zero/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: SubnauticaZero
   exeNames:
@@ -23,6 +23,7 @@ r2modman:
   - bz
   - sbz
   - s:bz
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

@@ -37,7 +37,7 @@ r2modman:
   internalFolderName: CitiesSkylines2
   dataFolderName: CitiesSkylines2_Data
   settingsIdentifier: CitiesSkylines2
-  packageIndex: https://thunderstore.io/c/cities-skylines-ii/api/v1/package/
+  packageIndex: https://thunderstore.io/c/cities-skylines-ii/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Cities Skylines II
   exeNames:
@@ -46,6 +46,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - cs2
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

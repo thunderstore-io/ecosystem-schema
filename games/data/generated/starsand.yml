@@ -6,13 +6,13 @@ meta:
 distributions:
 - platform: steam
   identifier: '1380220'
-- platform: egs
+- platform: epic-games-store
   identifier: a774278c0813447c96a76b053cbf73ff
 r2modman:
   internalFolderName: Starsand
   dataFolderName: Starsand_Data
   settingsIdentifier: Starsand
-  packageIndex: https://starsand.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/starsand/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Starsand
   exeNames:
@@ -20,6 +20,7 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

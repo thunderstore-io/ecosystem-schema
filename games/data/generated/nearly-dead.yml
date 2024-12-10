@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: NearlyDead
   dataFolderName: Nearly Dead_Data
   settingsIdentifier: NearlyDead
-  packageIndex: https://nearly-dead.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/nearly-dead/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Nearly Dead
   exeNames:
@@ -19,6 +19,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - nd
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

@@ -34,7 +34,7 @@ r2modman:
   internalFolderName: Palworld
   dataFolderName: Pal
   settingsIdentifier: Palworld
-  packageIndex: https://thunderstore.io/c/palworld/api/v1/package/
+  packageIndex: https://thunderstore.io/c/palworld/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Palworld
   exeNames:
@@ -43,4 +43,5 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - palworld
+  packageLoader: shimloader
   installRules: []

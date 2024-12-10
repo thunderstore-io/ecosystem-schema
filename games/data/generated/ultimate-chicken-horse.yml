@@ -37,7 +37,7 @@ r2modman:
   internalFolderName: UltimateChickenHorse
   dataFolderName: UltimateChickenHorse_Data
   settingsIdentifier: UltimateChickenHorse
-  packageIndex: https://thunderstore.io/c/ultimate-chicken-horse/api/v1/package/
+  packageIndex: https://thunderstore.io/c/ultimate-chicken-horse/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Ultimate Chicken Horse
   exeNames:
@@ -46,6 +46,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - uch
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

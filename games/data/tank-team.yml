@@ -1,0 +1,32 @@
+uuid: "e36d39f6-d0d2-4af1-8ff9-61757d734fcb"
+label: "tank-team"
+meta:
+  displayName: "Tank Team"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Tank Team"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/YfnnKkyNuh"
+  autolistPackageIds: ["BepInEx-BepInExPack"]

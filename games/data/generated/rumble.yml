@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: RUMBLE
   dataFolderName: RUMBLE_Data
   settingsIdentifier: RUMBLE
-  packageIndex: https://thunderstore.io/c/rumble/api/v1/package/
+  packageIndex: https://thunderstore.io/c/rumble/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: RUMBLE
   exeNames:
@@ -43,6 +43,7 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: melonloader
   installRules:
   - route: Mods
     defaultFileExtensions:

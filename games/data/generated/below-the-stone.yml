@@ -36,7 +36,7 @@ r2modman:
   internalFolderName: BelowTheStone
   dataFolderName: Below The Stone_Data
   settingsIdentifier: BelowTheStone
-  packageIndex: https://thunderstore.io/c/below-the-stone/api/v1/package/
+  packageIndex: https://thunderstore.io/c/below-the-stone/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Below The Stone
   exeNames:
@@ -45,6 +45,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - bts
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

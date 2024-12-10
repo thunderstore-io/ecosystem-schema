@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: Sunkenland
   dataFolderName: Sunkenland_Data
   settingsIdentifier: Sunkenland
-  packageIndex: https://thunderstore.io/c/sunkenland/api/v1/package/
+  packageIndex: https://thunderstore.io/c/sunkenland/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Sunkenland
   exeNames:
@@ -43,6 +43,7 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

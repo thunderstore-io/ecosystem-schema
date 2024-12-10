@@ -6,13 +6,13 @@ meta:
 distributions:
 - platform: steam
   identifier: '1966900'
-- platform: egs
+- platform: epic-games-store
   identifier: 4656facc740742a39e265b026e13d075
 r2modman:
   internalFolderName: 20MinutesTillDawn
   dataFolderName: MinutesTillDawn_Data
   settingsIdentifier: 20MinutesTillDawn
-  packageIndex: https://thunderstore.io/c/20-minutes-till-dawn/api/v1/package/
+  packageIndex: https://thunderstore.io/c/20-minutes-till-dawn/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: 20MinuteTillDawn
   exeNames:
@@ -22,6 +22,7 @@ r2modman:
   additionalSearchStrings:
   - mtd
   - 20mtd
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

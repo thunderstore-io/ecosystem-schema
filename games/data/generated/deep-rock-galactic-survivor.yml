@@ -34,7 +34,7 @@ r2modman:
   internalFolderName: DeepRockGalacticSurvivor
   dataFolderName: DRG Survivor_Data
   settingsIdentifier: DeepRockGalacticSurvivor
-  packageIndex: https://thunderstore.io/c/deep-rock-galactic-survivor/api/v1/package/
+  packageIndex: https://thunderstore.io/c/deep-rock-galactic-survivor/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Deep Rock Survivor
   exeNames:
@@ -43,6 +43,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ''
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

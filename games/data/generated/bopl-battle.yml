@@ -36,7 +36,7 @@ r2modman:
   internalFolderName: BoplBattle
   dataFolderName: BoplBattle_Data
   settingsIdentifier: BoplBattle
-  packageIndex: https://thunderstore.io/c/bopl-battle/api/v1/package/
+  packageIndex: https://thunderstore.io/c/bopl-battle/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Bopl Battle
   exeNames:
@@ -45,6 +45,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - bb
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

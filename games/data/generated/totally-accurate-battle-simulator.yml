@@ -6,7 +6,7 @@ meta:
 distributions:
 - platform: steam
   identifier: '508440'
-- platform: egs
+- platform: epic-games-store
   identifier: Driftfish
 - platform: xbox-game-pass
   identifier: LandfallGames.TotallyAccurateBattleSimulator
@@ -14,7 +14,7 @@ r2modman:
   internalFolderName: TABS
   dataFolderName: TotallyAccurateBattleSimulator_Data
   settingsIdentifier: TotallyAccurateBattleSimulator
-  packageIndex: https://totally-accurate-battle-simulator.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/totally-accurate-battle-simulator/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Totally Accurate Battle Simulator
   exeNames:
@@ -23,6 +23,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - Totally Accurate Battle Simulator
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

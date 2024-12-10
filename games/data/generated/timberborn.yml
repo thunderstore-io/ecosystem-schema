@@ -2,11 +2,11 @@ uuid: 538c21b3-7a42-445b-bded-864a5449d1ec
 label: timberborn
 meta:
   displayName: Timberborn
-  iconUrl: Timberborn.jpg
+  iconUrl: Timberborn.png
 distributions:
 - platform: steam
   identifier: '1062090'
-- platform: egs
+- platform: epic-games-store
   identifier: 972a4ca2631e43b4ba7bc3b7586ad8c4
 - platform: other
   identifier: null
@@ -14,7 +14,7 @@ r2modman:
   internalFolderName: Timberborn
   dataFolderName: Timberborn_Data
   settingsIdentifier: Timberborn
-  packageIndex: https://timberborn.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/timberborn/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Timberborn
   exeNames:
@@ -23,6 +23,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - TB
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

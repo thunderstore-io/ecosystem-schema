@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: LethalLeagueBlaze
   dataFolderName: LLBlaze_Data
   settingsIdentifier: LethalLeagueBlaze
-  packageIndex: https://lethal-league-blaze.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/lethal-league-blaze/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: LLBlaze
   exeNames:
@@ -22,6 +22,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - LLB
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

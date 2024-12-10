@@ -6,7 +6,7 @@ meta:
 distributions:
 - platform: steam
   identifier: '311690'
-- platform: egs
+- platform: epic-games-store
   identifier: Garlic
 - platform: other
   identifier: null
@@ -14,7 +14,7 @@ r2modman:
   internalFolderName: ETG
   dataFolderName: EtG_Data
   settingsIdentifier: EnterTheGungeon
-  packageIndex: https://thunderstore.io/c/enter-the-gungeon/api/v1/package/
+  packageIndex: https://thunderstore.io/c/enter-the-gungeon/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Enter the Gungeon
   exeNames:
@@ -23,6 +23,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - etg
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

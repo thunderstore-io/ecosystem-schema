@@ -65,7 +65,7 @@ r2modman:
   internalFolderName: RiskofRainReturns
   dataFolderName: ''
   settingsIdentifier: RiskofRainReturns
-  packageIndex: https://thunderstore.io/c/risk-of-rain-returns/api/v1/package/
+  packageIndex: https://thunderstore.io/c/risk-of-rain-returns/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Risk of Rain Returns
   exeNames:
@@ -74,4 +74,5 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - rorr
+  packageLoader: returnofmodding
   installRules: []

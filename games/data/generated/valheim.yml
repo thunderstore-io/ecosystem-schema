@@ -5,22 +5,21 @@ meta:
   iconUrl: Valheim.jpg
 distributions:
 - platform: steam
-  identifier: '892970'
-- platform: xbox-game-pass
-  identifier: CoffeeStainStudios.Valheim
+  identifier: '896660'
 r2modman:
   internalFolderName: Valheim
-  dataFolderName: valheim_Data
-  settingsIdentifier: Valheim
-  packageIndex: https://valheim.thunderstore.io/api/v1/package/
+  dataFolderName: valheim_server_Data
+  settingsIdentifier: ValheimServer
+  packageIndex: https://thunderstore.io/c/valheim/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Valheim
+  steamFolderName: Valheim dedicated server
   exeNames:
-  - valheim.exe
-  - valheim.x86_64
-  gameInstanceType: game
+  - valheim_server.exe
+  - valheim_server.x86_64
+  gameInstanceType: server
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

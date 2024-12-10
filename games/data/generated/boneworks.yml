@@ -12,7 +12,7 @@ r2modman:
   internalFolderName: BONEWORKS
   dataFolderName: BONEWORKS_Data
   settingsIdentifier: BONEWORKS
-  packageIndex: https://boneworks.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/boneworks/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: BONEWORKS/BONEWORKS
   exeNames:
@@ -22,6 +22,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - BW
+  packageLoader: melonloader
   installRules:
   - route: Mods
     defaultFileExtensions:

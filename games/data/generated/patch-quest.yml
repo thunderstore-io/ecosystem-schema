@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: PatchQuest
   dataFolderName: PatchQuest_Data
   settingsIdentifier: PatchQuest
-  packageIndex: https://thunderstore.io/c/patch-quest/api/v1/package/
+  packageIndex: https://thunderstore.io/c/patch-quest/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Patch Quest
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - pq
+  packageLoader: melonloader
   installRules:
   - route: Mods
     defaultFileExtensions:

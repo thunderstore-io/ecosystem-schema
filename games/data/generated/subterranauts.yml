@@ -1,0 +1,78 @@
+uuid: d479f68c-b484-4d90-b704-9672b826d794
+label: subterranauts
+meta:
+  displayName: Subterranauts
+  iconUrl: Subterranauts.png
+distributions:
+- platform: steam
+  identifier: '3075800'
+thunderstore:
+  displayName: Subterranauts
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  wikiUrl: https://subterranauts.fandom.com/wiki/Subterranauts_Wiki
+  discordUrl: https://discord.gg/sc6j2JuJ
+  autolistPackageIds:
+  - BepInEx-BepInExPack
+r2modman:
+  internalFolderName: Subterranauts
+  dataFolderName: Subterranauts_Data
+  settingsIdentifier: Subterranauts
+  packageIndex: https://thunderstore.io/c/subterranauts/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Subterranauts
+  exeNames:
+  - Subterranauts.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ''
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

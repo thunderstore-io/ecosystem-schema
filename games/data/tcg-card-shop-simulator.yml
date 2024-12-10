@@ -1,0 +1,58 @@
+uuid: "99207aff-e108-4371-ac34-75f57763729f"
+label: "tcg-card-shop-simulator"
+meta:
+  displayName: "TCG Card Shop Simulator"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "TCG Card Shop Simulator"
+  categories:
+        mods:
+          label: "Mods"
+        modpacks:
+          label: "Modpacks"
+        tools:
+          label: "Tools"
+        misc:
+          label: "Misc"
+        audio:
+          label: "Audio"
+        sets:
+          label: "Sets"
+        expansions:
+          label: "Expansions"
+        cards:
+          label: "Cards"
+        npcs:
+          label: "NPCs"
+        items:
+          label: "Items"
+        asset-replacement:
+          label: "Asset Replacement"
+        qol:
+          label: "QOL"
+        phone-related:
+          label: "Phone Related"
+        furniture:
+          label: "Furniture"
+        decoration:
+          label: "Decoration"
+        shop:
+          label: "Shop"
+        apps:
+          label: "Apps"
+        themes:
+          label: "Themes"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: 'Modpacks'
+      requireCategories:
+        - "modpacks"
+  wikiUrl: ""
+  discordUrl: "https://discord.gg/kCp4mRAVUE"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

@@ -39,7 +39,7 @@ r2modman:
   internalFolderName: AncientDungeonVR
   dataFolderName: Ancient_Dungeon_Data
   settingsIdentifier: AncientDungeonVR
-  packageIndex: https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package/
+  packageIndex: https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Ancient Dungeon VR
   exeNames:
@@ -48,6 +48,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - adv
+  packageLoader: ancientdungeonvr
   installRules:
   - route: mods
     defaultFileExtensions: []

@@ -2,7 +2,7 @@ uuid: 586c54d1-53ce-4a7a-8466-73204bbd27ba
 label: green-hell-vr
 meta:
   displayName: Green Hell VR
-  iconUrl: GreenHellVR.jpg
+  iconUrl: GreenHellVR.png
 distributions:
 - platform: steam
   identifier: '1782330'
@@ -12,7 +12,7 @@ r2modman:
   internalFolderName: GreenHellVR
   dataFolderName: GHVR_Data
   settingsIdentifier: GreenHellVR
-  packageIndex: https://thunderstore.io/c/green-hell-vr/api/v1/package/
+  packageIndex: https://thunderstore.io/c/green-hell-vr/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Green Hell VR
   exeNames:
@@ -21,6 +21,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ghvr
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

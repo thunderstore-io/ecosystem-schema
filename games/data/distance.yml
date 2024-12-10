@@ -1,0 +1,32 @@
+uuid: "e74a656d-3d3f-49be-a332-9066fe02c6b0"
+label: "distance"
+meta:
+  displayName: "Distance"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Distance"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/distance"
+  autolistPackageIds: ["BepInEx-BepInExPack"]

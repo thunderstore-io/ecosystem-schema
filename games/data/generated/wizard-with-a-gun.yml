@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: WizardWithAGun
   dataFolderName: wizardwithagun_Data
   settingsIdentifier: WizardWithAGun
-  packageIndex: https://thunderstore.io/c/wizard-with-a-gun/api/v1/package/
+  packageIndex: https://thunderstore.io/c/wizard-with-a-gun/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Wizard With A Gun
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - wizgun
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

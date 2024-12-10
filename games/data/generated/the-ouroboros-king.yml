@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: TheOuroborosKing
   dataFolderName: The Ouroboros King_Data
   settingsIdentifier: TheOuroborosKing
-  packageIndex: https://thunderstore.io/c/the-ouroboros-king/api/v1/package/
+  packageIndex: https://thunderstore.io/c/the-ouroboros-king/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: The Ouroboros King
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - tok
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

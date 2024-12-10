@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: TaleSpire
   dataFolderName: TaleSpire_Data
   settingsIdentifier: TaleSpire
-  packageIndex: https://talespire.thunderstore.io/api/v1/package/
+  packageIndex: https://thunderstore.io/c/talespire/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: TaleSpire
   exeNames:
@@ -19,6 +19,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - TS
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

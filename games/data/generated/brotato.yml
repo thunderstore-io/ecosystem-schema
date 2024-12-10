@@ -37,7 +37,7 @@ r2modman:
   internalFolderName: Brotato
   dataFolderName: ''
   settingsIdentifier: Brotato
-  packageIndex: https://thunderstore.io/c/brotato/api/v1/package/
+  packageIndex: https://thunderstore.io/c/brotato/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Brotato
   exeNames:
@@ -45,6 +45,7 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: godotml
   installRules:
   - route: mods
     defaultFileExtensions: []

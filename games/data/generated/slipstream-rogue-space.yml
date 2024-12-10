@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: SlipstreamRogueSpace
   dataFolderName: Slipstream_Win_Data
   settingsIdentifier: SlipstreamRogueSpace
-  packageIndex: https://thunderstore.io/c/slipstream-rogue-space/api/v1/package/
+  packageIndex: https://thunderstore.io/c/slipstream-rogue-space/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Slipstream Rogue Space
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - srs
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

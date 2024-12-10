@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: HardBullet
   dataFolderName: Hard Bullet_Data
   settingsIdentifier: HardBullet
-  packageIndex: https://thunderstore.io/c/hard-bullet/api/v1/package/
+  packageIndex: https://thunderstore.io/c/hard-bullet/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Hard Bullet
   exeNames:
@@ -19,6 +19,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - hb
+  packageLoader: melonloader
   installRules:
   - route: Mods
     defaultFileExtensions:

@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: Balatro
   dataFolderName: Balatro_Data
   settingsIdentifier: Balatro
-  packageIndex: https://thunderstore.io/c/balatro/api/v1/package/
+  packageIndex: https://thunderstore.io/c/balatro/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Balatro
   exeNames:
@@ -43,4 +43,5 @@ r2modman:
   gameInstanceType: game
   gameSelectionDisplayMode: visible
   additionalSearchStrings: []
+  packageLoader: lovely
   installRules: []

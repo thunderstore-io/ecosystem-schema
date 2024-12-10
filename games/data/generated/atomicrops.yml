@@ -35,7 +35,7 @@ r2modman:
   internalFolderName: Atomicrops
   dataFolderName: Atomicrops_Data
   settingsIdentifier: Atomicrops
-  packageIndex: https://thunderstore.io/c/atomicrops/api/v1/package/
+  packageIndex: https://thunderstore.io/c/atomicrops/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Atomicrops
   exeNames:
@@ -44,6 +44,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - ac
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

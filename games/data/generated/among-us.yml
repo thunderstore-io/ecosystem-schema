@@ -6,7 +6,7 @@ meta:
 distributions:
 - platform: steam
   identifier: '945360'
-- platform: egs
+- platform: epic-games-store
   identifier: among-us
 - platform: xbox-game-pass
   identifier: Innersloth.AmongUs
@@ -48,7 +48,7 @@ r2modman:
   internalFolderName: AmongUs
   dataFolderName: Among Us_Data
   settingsIdentifier: AmongUs
-  packageIndex: https://thunderstore.io/c/among-us/api/v1/package/
+  packageIndex: https://thunderstore.io/c/among-us/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Among Us
   exeNames:
@@ -57,6 +57,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - au
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

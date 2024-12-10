@@ -10,7 +10,7 @@ r2modman:
   internalFolderName: TromboneChamp
   dataFolderName: TromboneChamp_Data
   settingsIdentifier: TromboneChamp
-  packageIndex: https://thunderstore.io/c/trombone-champ/api/v1/package/
+  packageIndex: https://thunderstore.io/c/trombone-champ/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: TromboneChamp
   exeNames:
@@ -19,6 +19,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - tc
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:

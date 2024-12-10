@@ -95,7 +95,7 @@ r2modman:
   internalFolderName: LethalCompany
   dataFolderName: Lethal Company_Data
   settingsIdentifier: LethalCompany
-  packageIndex: https://thunderstore.io/c/lethal-company/api/v1/package/
+  packageIndex: https://thunderstore.io/c/lethal-company/api/v1/package-listing-index/
   exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
   steamFolderName: Lethal Company
   exeNames:
@@ -104,6 +104,7 @@ r2modman:
   gameSelectionDisplayMode: visible
   additionalSearchStrings:
   - lc
+  packageLoader: bepinex
   installRules:
   - route: BepInEx/plugins
     defaultFileExtensions:
