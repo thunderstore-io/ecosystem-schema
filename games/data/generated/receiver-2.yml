@@ -1,0 +1,85 @@
+uuid: 9d9ac981-81d3-413a-9f73-709a8036b56e
+label: receiver-2
+meta:
+  displayName: Receiver 2
+  iconUrl: receiver-2.jpg
+distributions:
+- platform: steam
+  identifier: '1129310'
+thunderstore:
+  displayName: Receiver 2
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    audio:
+      label: Audio
+    tools:
+      label: Tools
+    weapons:
+      label: Weapons
+    tiles:
+      label: Tiles
+    tapes:
+      label: Tapes
+    ammo:
+      label: Ammo
+    campaigns:
+      label: Campaigns
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/wolfire
+r2modman:
+  internalFolderName: Receiver2
+  dataFolderName: Receiver2_Data
+  settingsIdentifier: Receiver2
+  packageIndex: https://thunderstore.io/c/receiver-2/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Receiver 2
+  exeNames:
+  - Receiver2.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - rec2
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
