@@ -1,0 +1,17 @@
+uuid: "da7c4adc-dd04-4fca-b35c-31bcda26c53e"
+label: "outward"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 794260
+
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "f07a51af8ac845ea96f792fb485e04a3"
+
+    - kind: "nodrm"
+      targets:
+        - "windows"
