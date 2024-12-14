@@ -55,7 +55,7 @@ thunderstore:
       label: "Gloomrot Update"
     server:
       label: "Server"
-      client:
+    client:
         label: "Client"
   sections:
     1-0-update:
