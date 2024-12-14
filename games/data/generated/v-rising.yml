@@ -38,23 +38,23 @@ r2modman:
     - route: "BepInEx/config"
       trackingMethod: null
   relativeFileExclusions: []
-  thunderstore:
-    displayName: "V Rising"
-    categories:
-      mods:
-        label: "Mods"
-      modpacks:
-        label: "Modpacks"
-      tools:
-        label: "Tools"
-      libraries:
-        label: "Libraries"
-      1-0-update:
-        label: "1.0 Update"
-      gloomrot-update:
-        label: "Gloomrot Update"
-      server:
-        label: "Server"
+thunderstore:
+  displayName: "V Rising"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    1-0-update:
+      label: "1.0 Update"
+    gloomrot-update:
+      label: "Gloomrot Update"
+    server:
+      label: "Server"
       client:
         label: "Client"
   sections:
