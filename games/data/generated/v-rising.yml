@@ -61,9 +61,8 @@ thunderstore:
     1-0-update:
       name: "1.0 Update"
       requireCategories: ["1-0-update"]
-      excludeeCategories: ["modpacks", "gloomrot-update"]
+      excludeCategories: ["modpacks", "gloomrot-update"]
     modpacks:
       name: "Modpacks"
       requireCategories: ["modpacks"]
-      excludeCategories: ["1-0-update", "gloomrot-update", "mods"]
   discordUrl: "https://vrisingmods.com/discord"
