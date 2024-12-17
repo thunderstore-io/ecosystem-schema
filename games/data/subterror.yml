@@ -1,0 +1,32 @@
+uuid: "a5754c79-d267-4ec1-8f5c-9f0c5b38348d"
+label: "subterror"
+meta:
+  displayName: "Subterror"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Subterror"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
