@@ -21,18 +21,70 @@ thunderstore:
       label: "Audio"
     quality-of-life:
       label: "Quality Of Life"
-    cars:
-      label: "Cars"
+    car:
+      label: "Car"
+    acceleracers:
+      label: "Acceleracers"
+    hotwheels:
+      label: "Hot Wheels"
+    worldrace:
+      label: "World Race"
+    bf5:
+      label: "Battle Force 5"
+    asphalt:
+      label: "Asphalt"
+    burnout:
+      label: "Burnout"
+    halloween:
+      label: "Halloween"
+    christmas:
+      label: "Christmas"
+    monstertruck:
+      label: "Monster Truck"
+    fzero:
+      label: "F-Zero"
+    lego:
+      label: "LEGO"
+    meme:
+      label: "Meme"
+    police:
+      label: "Police"
+    carsfilm:
+      label: "Cars (film)"
+    blastermaster:
+      label: "Blaster Master"
+    nitronicrush:
+      label: "Nitronic Rush"
+    original:
+      label: "Original Car"
+    real:
+      label: "Real Car"
+    rocketleague:
+      label: "Rocket League"
+    runner:
+      label: "Runner"
+    spaceship:
+      label: "Space Ship"
+    halo:
+      label: "Halo"
+    speedracer:
+      label: "Speed Racer"
+    sonic:
+      label: "Sonic"
+    trackmania:
+      label: "Trackmania"
+    wackyraces:
+      label: "Wacky Races"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
-        - "cars"
+        - "car"
     cars:
       name: "Cars"
       requireCategories:
-        - "cars"
+        - "car"
     modpacks:
       name: "Modpacks"
       requireCategories:
