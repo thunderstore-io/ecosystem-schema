@@ -166,7 +166,7 @@ class EntryR2(BaseModel):
     dataFolderName: Optional[str] = None
     settingsIdentifier: str
     packageIndex: str
-    exclusionsUrl: str
+    exclusionsUrl: Optional[str] = None
     steamFolderName: str
     exeNames: list[str]
     gameInstanceType: GameInstanceType
