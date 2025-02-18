@@ -1,0 +1,33 @@
+uuid: "f02a7d1c-62b3-484b-8b34-6cc87a342521"
+label: "dale-dawson-stationery-supplies"
+meta:
+  displayName: "Dale & Dawson Stationery Supplies"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Dale & Dawson Stationery Supplies"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/2Wn3N2P"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
