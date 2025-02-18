@@ -1,0 +1,33 @@
+uuid: "2c8bdcd0-e5b7-4927-8e0b-c13b7914c3a1"
+label: "disco-elysium"
+meta:
+  displayName: "Disco Elysium"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Disco Elysium"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://discoelysium.fandom.com/"
+  discordUrl: "https://discord.com/discoelysium"
+  autolistPackageIds: []
