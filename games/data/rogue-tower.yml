@@ -1,0 +1,8 @@
+uuid: "7948dd1e-aa12-4cda-833f-1499f4c2a928"
+label: "rogue-tower"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1843760
