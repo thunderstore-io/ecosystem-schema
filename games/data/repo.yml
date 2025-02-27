@@ -1,0 +1,32 @@
+uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
+label: "repo"
+meta:
+  displayName: "R.E.P.O."
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "R.E.P.O."
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
