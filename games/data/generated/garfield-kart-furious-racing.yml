@@ -1,0 +1,74 @@
+uuid: e4a6abd5-cc54-4a32-8491-d6a1b360bd71
+label: garfield-kart-furious-racing
+meta:
+  displayName: Garfield Kart - Furious Racing
+  iconUrl: garfield-kart-furious-racing.png
+distributions:
+- platform: steam
+  identifier: '1085510'
+thunderstore:
+  displayName: Garfield Kart - Furious Racing
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+r2modman:
+  internalFolderName: GarfieldKartFuriousRacing
+  dataFolderName: GarfieldKartFuriousRacing_Data
+  settingsIdentifier: GarfieldKartFuriousRacing
+  packageIndex: https://thunderstore.io/c/garfield-kart-furious-racing/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Garfield Kart - Furious Racing
+  exeNames:
+  - Garfield Kart Furious Racing.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - gkfr
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
