@@ -26,3 +26,5 @@ thunderstore:
     modpacks:
       name: "Modpacks"
       requireCategories: ["modpacks"]
+  discordUrl: "https://discord.gg/wildfrost"
+  wikiUrl: "https://wildfrost.jakobt.dev/"
