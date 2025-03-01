@@ -4,6 +4,13 @@ meta:
   displayName: "Thronefall"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 2239150
 thunderstore:
   displayName: "Thronefall"
   categories:

@@ -1,0 +1,8 @@
+uuid: "e62ac63e-4d33-41d5-8999-a600a7c6f3ed"
+label: "against"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1584840

@@ -1,0 +1,13 @@
+uuid: "586c54d1-53ce-4a7a-8466-73204bbd27ba"
+label: "green-hell-vr"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1782330
+
+    - kind: "oculus"
+      targets:
+        - "windows"
+      note: "??????"
