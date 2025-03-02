@@ -19,6 +19,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    valuables:
+      label: "Valuables"
   sections:
     mods:
       name: "Mods"
