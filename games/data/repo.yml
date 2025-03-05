@@ -33,6 +33,10 @@ thunderstore:
       label: "Monsters"
     levels:
       label: "Levels"
+    clientside:
+      label: "Client-side"
+    serverside:
+      label: "Server-side"
   sections:
     mods:
       name: "Mods"
