@@ -1,0 +1,76 @@
+uuid: 8481a40d-1bac-4e98-b03a-f80ae7c59cb7
+label: bopl-battle
+meta:
+  displayName: Bopl Battle
+  iconUrl: BoplBattle.png
+distributions:
+- platform: steam
+  identifier: '1686940'
+thunderstore:
+  displayName: Bopl Battle
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  wikiUrl: https://github.com/commandblox/Splotch/wiki
+  discordUrl: https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310
+r2modman:
+  internalFolderName: BoplBattle
+  dataFolderName: BoplBattle_Data
+  settingsIdentifier: BoplBattle
+  packageIndex: https://thunderstore.io/c/bopl-battle/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Bopl Battle
+  exeNames:
+  - BoplBattle.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - bb
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

@@ -1,0 +1,106 @@
+uuid: 375634e8-16b6-486d-aa9d-26ba422d4143
+label: touhou-lost-branch-of-legend
+meta:
+  displayName: 'Touhou: Lost Branch of Legend'
+  iconUrl: TouhouLostBranchOfLegend.jpg
+distributions:
+- platform: steam
+  identifier: '1140150'
+thunderstore:
+  displayName: 'Touhou: Lost Branch of Legend'
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+    qol:
+      label: QoL
+    cards:
+      label: Cards
+    difficulty:
+      label: Difficulty
+    memes:
+      label: Memes
+    balance:
+      label: Balance
+    bosses:
+      label: Bosses
+    enemies:
+      label: Enemies
+    skins:
+      label: Skins
+    ui:
+      label: UI
+    characters:
+      label: Characters
+    run-modifiers:
+      label: Run Modifiers
+    music:
+      label: Music
+    localization:
+      label: Localization
+    exhibits:
+      label: Exhibits
+    events:
+      label: Events
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/WT4qdfYhhG
+  wikiUrl: https://lbol.miraheze.org/wiki/Main_Page
+r2modman:
+  internalFolderName: TouhouLostBranchOfLegend
+  dataFolderName: LBoL_Data
+  settingsIdentifier: TouhouLostBranchOfLegend
+  packageIndex: https://thunderstore.io/c/touhou-lost-branch-of-legend/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: LBoL
+  exeNames:
+  - LBoL.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - lbol
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
