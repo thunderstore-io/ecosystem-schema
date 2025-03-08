@@ -1,0 +1,19 @@
+uuid: "538c21b3-7a42-445b-bded-864a5449d1ec"
+label: "timberborn"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1062090
+
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "972a4ca2631e43b4ba7bc3b7586ad8c4"
+
+    - kind: "nodrm"
+      targets:
+        - "windows"
+        - "macos"

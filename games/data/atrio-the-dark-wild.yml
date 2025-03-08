@@ -4,6 +4,12 @@ meta:
   displayName: "Atrio: The Dark Wild"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1125390
 thunderstore:
   displayName: "Atrio: The Dark Wild"
   categories:

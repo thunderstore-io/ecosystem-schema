@@ -1,0 +1,9 @@
+uuid: "c69c1da5-4c6b-4523-a8e4-8bd49e1c9790"
+label: "valheim"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "linux"
+      appid: 892970

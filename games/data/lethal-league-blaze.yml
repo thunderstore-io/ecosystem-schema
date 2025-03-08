@@ -1,0 +1,10 @@
+uuid: "96ba2a15-2347-4823-b216-d62bea492b33"
+label: "lethal-league-blaze"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 553310
