@@ -1,0 +1,38 @@
+uuid: "c43b4368-ef52-40f6-99e8-4bbdefc589f8"
+label: "my-dream-setup"
+meta:
+  displayName: "My Dream Setup"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "My Dream Setup"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    apis:
+      label: "APIs"
+    rooms:
+      label: "Rooms"
+    buildmodels:
+      label: "Build Models"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/NWN53Fw7fp"
+  autolistPackageIds: []
