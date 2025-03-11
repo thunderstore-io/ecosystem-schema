@@ -35,4 +35,5 @@ thunderstore:
       requireCategories:
         - "modpacks"
   discordUrl: "https://discord.com/invite/NWN53Fw7fp"
-  autolistPackageIds: []
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
