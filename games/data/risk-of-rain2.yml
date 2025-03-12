@@ -1,0 +1,8 @@
+uuid: "da7786df-a437-463a-b495-1f502bfff4bb"
+label: "risk-of-rain2"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1180760

@@ -4,6 +4,12 @@ meta:
   displayName: "Techtonica"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1457320
 thunderstore:
   displayName: "Techtonica"
   categories:

@@ -1,0 +1,8 @@
+uuid: "2ed50207-0ffe-4d04-acc5-af4aa8722f8c"
+label: "aloft"
+tcli:
+  distributions:
+    - kind: "steam" 
+      targets:
+        - "windows"
+      appid: 1660080

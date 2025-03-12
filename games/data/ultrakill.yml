@@ -38,6 +38,12 @@ r2modman:
     - route: "BepInEx/config"
       trackingMethod: null
   relativeFileExclusions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1229490
 thunderstore:
   displayName: "ULTRAKILL"
   categories:

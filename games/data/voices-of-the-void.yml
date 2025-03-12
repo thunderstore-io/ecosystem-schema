@@ -4,6 +4,11 @@ meta:
   displayName: "Voices of the Void"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "nodrm"
+      targets:
+        - "windows"
 thunderstore:
   displayName: "Voices of the Void"
   categories:

@@ -1,0 +1,8 @@
+uuid: "429bb8b1-7bb0-409f-a1f2-73357298e651"
+label: "h3vr"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 450540
