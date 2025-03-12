@@ -29,6 +29,6 @@ thunderstore:
       requireCategories:
         - "modpacks"
   wikiUrl: "https://zort.fandom.com/wiki/Zort_Wiki"
-  discordUrl: "https://discord.gg/EHAS3Fd5rG"
+  discordUrl: "https://discord.gg/gmPEXpPvay"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
