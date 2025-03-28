@@ -30,3 +30,4 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
+  discordUrl: "https://discord.gg/9Z5RKEYSzq"
