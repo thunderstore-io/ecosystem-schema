@@ -1,0 +1,33 @@
+uuid: "a8c07068-9690-4bb4-8b07-64e9da66208c"
+label: "odd-remedy"
+meta:
+  displayName: "Odd Remedy"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Odd Remedy"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/hWSv5x2ptN"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

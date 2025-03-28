@@ -1,0 +1,33 @@
+uuid: "f5dc52cc-47fb-441d-bcc1-23e0f82face0"
+label: "i-am-your-beast"
+meta:
+  displayName: "I Am Your Beast"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "I Am Your Beast"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/dog-airport-game"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

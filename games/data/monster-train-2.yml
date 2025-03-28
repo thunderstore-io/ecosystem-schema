@@ -1,0 +1,34 @@
+uuid: "d915f79b-330f-425d-bc4f-7f04bf85f7d8"
+label: "monster-train-2"
+meta:
+  displayName: "Monster Train 2"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Monster Train 2"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/Monster-Train-2-Modding-Group"
+  discordUrl: "https://discord.gg/Rqz4vnGa"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

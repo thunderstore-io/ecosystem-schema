@@ -1,0 +1,33 @@
+uuid: "367e77fa-c7d6-4ca0-a8c6-a35e3f10d300"
+label: "starship"
+meta:
+  displayName: "Starship"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Starship"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://gamebanana.com/games/21612"
+  discordUrl: "https://discord.com/invite/shipofharkinian"
+  autolistPackageIds: []

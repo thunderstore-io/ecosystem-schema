@@ -1,0 +1,53 @@
+uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
+label: "repo"
+meta:
+  displayName: "R.E.P.O."
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "R.E.P.O."
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    valuables:
+      label: "Valuables"
+    items:
+      label: "Items"
+    upgrades:
+      label: "Upgrades"
+    weapons:
+      label: "Weapons"
+    drones:
+      label: "Drones"
+    monsters:
+      label: "Monsters"
+    levels:
+      label: "Levels"
+    clientside:
+      label: "Client-side"
+    serverside:
+      label: "Server-side"
+    cosmetics:
+      label: "Cosmetics"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  discordUrl: "https://discord.gg/vPJtKhYAFe"
