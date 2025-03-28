@@ -6,6 +6,7 @@ import {
   SchemaType,
   validateSchemaJson,
 } from "../schema/validator";
+import Differ, { DiffResult } from "json-diff-kit/dist/differ";
 
 const schemaUrl = getLatestSchemaUrl();
 
@@ -42,9 +43,42 @@ function assertNoRemovals(previous: string[], current: string[]) {
   }
 }
 
+const decorate = (line: DiffResult) => {
+  const sign = line.type === "equal" ? " " : line.type === "remove" ? "-" : "+";
+  const indent = "  ".repeat(line.level);
+  const comma = line.comma ? "," : "";
+  return `${sign} ${indent}${line.text}${comma}`;
+};
+
+const renderDiff = (content: readonly [DiffResult[], DiffResult[]]) => {
+  const [linesLeft, linesRight] = content;
+  const length = linesLeft.length;
+  const output: string[] = [];
+
+  for (let i = 0; i < length; i++) {
+    const left = linesLeft[i];
+    const right = linesRight[i];
+    if (left.type === "equal" && right.type === "equal") {
+      output.push(decorate(left));
+    } else {
+      if (left.text) output.push(decorate(left));
+      if (right.text) output.push(decorate(right));
+    }
+  }
+
+  return output.join("\n");
+};
+
 async function runDiffCommand() {
   const previous = validateSchemaJson(await fetchPreviousSchema());
   const current = validateSchemaJson(buildSchemaJson());
+
+  const differ = new Differ({
+    arrayDiffMethod: "lcs",
+  });
+
+  const diff = differ.diff(previous, current);
+  console.log(renderDiff(diff));
 
   assertNoRemovals(extractGameLabels(previous), extractGameLabels(current));
   assertNoRemovals(extractGameUUIDs(previous), extractGameUUIDs(current));
@@ -62,8 +96,6 @@ async function runDiffCommand() {
       extractCommunityCategories(current.communities[key])
     );
   }
-
-  console.log("Schema diffed successfully!");
 }
 
 await runDiffCommand();

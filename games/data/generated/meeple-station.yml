@@ -1,0 +1,76 @@
+uuid: ff1755e6-c96f-4b4d-8ab2-a8ca6e2f1769
+label: meeple-station
+meta:
+  displayName: Meeple Station
+  iconUrl: MeepleStation.png
+distributions:
+- platform: steam
+  identifier: '900010'
+thunderstore:
+  displayName: Meeple Station
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  wikiUrl: https://meeplestation.fandom.com/wiki/Meeple_Station_Wiki
+  discordUrl: https://discord.gg/gameclaw
+r2modman:
+  internalFolderName: MeepleStation
+  dataFolderName: MeepleStation_Data
+  settingsIdentifier: MeepleStation
+  packageIndex: https://thunderstore.io/c/meeple-station/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Meeple Station
+  exeNames:
+  - Meeple Station.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ms
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
