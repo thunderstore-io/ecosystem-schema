@@ -37,4 +37,3 @@ def copy_template(name: str, output: str):
     template = "\n".join([f"uuid: {uuid}"] + template_lines[first::])
 
     open(output, "w+").write(template)
-

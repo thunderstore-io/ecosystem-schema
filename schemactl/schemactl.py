@@ -64,4 +64,3 @@ template_parser.set_defaults(func=do_template)
 
 args = parser.parse_args()
 args.func(args)
-
