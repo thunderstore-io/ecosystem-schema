@@ -4,6 +4,13 @@ meta:
   displayName: "The Ouroboros King"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "linux"
+      appid: 2096510
 thunderstore:
   displayName: "The Ouroboros King"
   categories:

@@ -4,6 +4,14 @@ meta:
   displayName: "Skul: The Hero Slayer"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 1147560
 thunderstore:
   displayName: "Skul: The Hero Slayer"
   categories:

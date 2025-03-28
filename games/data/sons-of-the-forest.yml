@@ -4,6 +4,12 @@ meta:
   displayName: "Sons Of The Forest"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1326470
 thunderstore:
   displayName: "Sons Of The Forest"
   categories:

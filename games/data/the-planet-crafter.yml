@@ -4,6 +4,12 @@ meta:
   displayName: "The Planet Crafter"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1284190
 thunderstore:
   displayName: "The Planet Crafter"
   categories:
