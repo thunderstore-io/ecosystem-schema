@@ -37,6 +37,8 @@ thunderstore:
       label: "Client-side"
     serverside:
       label: "Server-side"
+    cosmetics:
+      label: "Cosmetics"
   sections:
     mods:
       name: "Mods"
