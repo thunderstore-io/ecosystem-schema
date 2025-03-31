@@ -1,0 +1,132 @@
+uuid: fce81e4f-fb2f-4bcb-84f5-2118e79161c3
+label: content-warning
+meta:
+  displayName: Content Warning
+  iconUrl: ContentWarning.png
+distributions:
+- platform: steam
+  identifier: '2881650'
+thunderstore:
+  displayName: Content Warning
+  categories:
+    clientside:
+      label: Client-Only
+    serverside:
+      label: Host-Only
+    allclients:
+      label: All Clients
+    vanillacomp:
+      label: Vanilla Compatible
+    mods:
+      label: Mods
+    camera:
+      label: Camera Mods
+    emotes:
+      label: Emotes
+    items:
+      label: Items
+    monsters:
+      label: Monsters
+    audio:
+      label: Audio
+    misc:
+      label: Misc
+    bepinex:
+      label: BepInEx
+    melonloader:
+      label: MelonLoader
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    maps:
+      label: Maps
+    asset-replacements:
+      label: Asset Replacements
+    translations:
+      label: Translations
+    modpacks:
+      label: Modpacks
+    soundpack:
+      label: Soundpack
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+      - translations
+      - soundpack
+    clientside:
+      name: Clientside Mods
+      requireCategories:
+      - clientside
+    serverside:
+      name: Host Only Mods
+      requireCategories:
+      - serverside
+    vanillacomp:
+      name: Vanilla Compatible Mods
+      excludeCategories:
+      - modpacks
+      requireCategories:
+      - vanillacomp
+    translations:
+      name: Translations
+      requireCategories:
+      - translations
+      excludeCategories:
+      - modpacks
+    libraries:
+      name: APIs & Libraries
+      requireCategories:
+      - libraries
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks & Soundpacks
+      requireCategories:
+      - modpacks
+      - soundpack
+  discordUrl: https://discord.gg/E9ustG9Drx
+r2modman:
+  internalFolderName: ContentWarning
+  dataFolderName: Content Warning_Data
+  settingsIdentifier: ContentWarning
+  packageIndex: https://thunderstore.io/c/content-warning/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Content Warning
+  exeNames:
+  - Content Warning.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - cw
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

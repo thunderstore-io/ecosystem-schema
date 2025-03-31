@@ -1,0 +1,50 @@
+uuid: 0cfe33bd-9fb6-4d50-899f-9daa9ef16fc0
+label: webfishing
+meta:
+  displayName: WEBFISHING
+  iconUrl: WEBFISHING.png
+distributions:
+- platform: steam
+  identifier: '3146520'
+thunderstore:
+  displayName: WEBFISHING
+  categories:
+    mods:
+      label: Mods
+    cosmetics:
+      label: Cosmetics
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    client-side:
+      label: Client Side
+    server-side:
+      label: Server Side
+    fish:
+      label: Fish
+    species:
+      label: Species
+    maps:
+      label: Maps
+  sections: {}
+  wikiUrl: https://notnite.github.io/webfishing-mod-wiki/
+  discordUrl: https://discord.gg/PMdFCrJnUb
+  autolistPackageIds: []
+r2modman:
+  internalFolderName: WEBFISHING
+  dataFolderName: ''
+  settingsIdentifier: WEBFISHING
+  packageIndex: https://thunderstore.io/c/webfishing/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: WEBFISHING
+  exeNames:
+  - webfishing.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ''
+  packageLoader: gdweave
+  installRules: []

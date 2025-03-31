@@ -1,0 +1,74 @@
+uuid: bf3d42cc-65ca-46de-bcd1-8679e271e92d
+label: wildfrost
+meta:
+  displayName: Wildfrost
+  iconUrl: wildfrost.jpg
+distributions:
+- platform: steam
+  identifier: '1811990'
+thunderstore:
+  displayName: Wildfrost
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    audio:
+      label: Audio
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+r2modman:
+  internalFolderName: Wildfrost
+  dataFolderName: Wildfrost_Data
+  settingsIdentifier: Wildfrost
+  packageIndex: https://thunderstore.io/c/wildfrost/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Wildfrost
+  exeNames:
+  - Wildfrost.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - wfrst
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

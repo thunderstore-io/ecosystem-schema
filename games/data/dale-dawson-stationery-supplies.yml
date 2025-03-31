@@ -2,8 +2,10 @@ uuid: "f02a7d1c-62b3-484b-8b34-6cc87a342521"
 label: "dale-dawson-stationery-supplies"
 meta:
   displayName: "Dale & Dawson Stationery Supplies"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "DaleAndDawson.png"
+distributions:
+- platform: steam
+  identifier: '2920570'
 thunderstore:
   displayName: "Dale & Dawson Stationery Supplies"
   categories:
@@ -31,3 +33,17 @@ thunderstore:
   discordUrl: "https://discord.gg/2Wn3N2P"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
+r2modman:
+  internalFolderName: DaleAndDawson
+  dataFolderName: DDSS_Data
+  settingsIdentifier: DaleAndDawson
+  packageIndex: https://thunderstore.io/c/dale-dawson-stationery-supplies/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: DaleAndDawson
+  exeNames:
+  - DDSS.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
+  packageLoader: recursive-melonloader
+  installRules: []

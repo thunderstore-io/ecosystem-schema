@@ -1,0 +1,78 @@
+uuid: 624e16e1-47e6-406f-9ab4-cfc9b8398ab8
+label: risk-of-rain-returns
+meta:
+  displayName: Risk of Rain Returns
+  iconUrl: RiskOfRainReturns.png
+distributions:
+- platform: steam
+  identifier: '1337520'
+thunderstore:
+  displayName: Risk of Rain Returns
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    quality-of-life:
+      label: Quality of Life
+    gameplay-tweaks:
+      label: Gameplay Tweaks
+    items:
+      label: Items
+    survivors:
+      label: Survivors
+    skills:
+      label: Skills
+    skins:
+      label: Skins
+    monsters:
+      label: Monsters
+    elites:
+      label: Elites
+    stages:
+      label: Stages
+    interactables:
+      label: Interactables
+    artifacts:
+      label: Artifacts
+    gamemodes:
+      label: Gamemodes
+    misc:
+      label: Misc
+    language:
+      label: Language
+    audio:
+      label: Audio
+    client-side:
+      label: Client-side
+    server-side:
+      label: Server-side
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/VjS57cszMq
+r2modman:
+  internalFolderName: RiskofRainReturns
+  dataFolderName: ''
+  settingsIdentifier: RiskofRainReturns
+  packageIndex: https://thunderstore.io/c/risk-of-rain-returns/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Risk of Rain Returns
+  exeNames:
+  - Risk of Rain Returns.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - rorr
+  packageLoader: returnofmodding
+  installRules: []

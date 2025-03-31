@@ -1,0 +1,54 @@
+uuid: b20dbe1e-1f04-4c5a-849b-481a5b3758e5
+label: brotato
+meta:
+  displayName: Brotato
+  iconUrl: brotato.jpg
+distributions:
+- platform: steam
+  identifier: '1942280'
+thunderstore:
+  displayName: Brotato
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    weapons:
+      label: Weapons
+    audio:
+      label: Audio
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/j39jE6k
+r2modman:
+  internalFolderName: Brotato
+  dataFolderName: ''
+  settingsIdentifier: Brotato
+  packageIndex: https://thunderstore.io/c/brotato/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Brotato
+  exeNames:
+  - Brotato.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
+  packageLoader: godotml
+  installRules:
+  - route: mods
+    defaultFileExtensions: []
+    trackingMethod: package-zip
+    subRoutes: []
+    isDefaultLocation: true

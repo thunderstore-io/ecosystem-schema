@@ -40,7 +40,7 @@ export const ecosystemJsonSchema = z.strictObject({
       distributions: z.array(
         z.strictObject({
           platform: z.string(),
-          identifier: z.string().optional(),
+          identifier: z.string().optional().nullable(),
         })
       ),
       thunderstore: communitySchema.optional(),

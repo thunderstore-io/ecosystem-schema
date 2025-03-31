@@ -1,40 +1,49 @@
-uuid: "2ed50207-0ffe-4d04-acc5-af4aa8722f8c"
-label: "aloft"
+uuid: 2ed50207-0ffe-4d04-acc5-af4aa8722f8c
+label: aloft
 meta:
-  displayName: "Aloft"
-  iconUrl: "Aloft.jpg"
+  displayName: Aloft
+  iconUrl: Aloft.png
 distributions:
-  - platform: "steam"
-    identifier: "2051980"
+- platform: steam
+  identifier: '2051980'
 r2modman:
-  internalFolderName: "Aloft"
-  dataFolderName: "Aloft_Data"
-  settingsIdentifier: "Aloft"
-  packageIndex: "https://thunderstore.io/c/aloft/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "Aloft Demo"
+  internalFolderName: Aloft
+  dataFolderName: Aloft_Data
+  settingsIdentifier: Aloft
+  packageIndex: https://thunderstore.io/c/aloft/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Aloft Demo
   exeNames:
-    - "Aloft.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_Aloft"
-      rootFolder: "BepInExPack_Aloft"
-      loader: "bepinex"
+  - Aloft.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
+  packageLoader: bepinex
   installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

@@ -1,0 +1,80 @@
+uuid: 18cea92d-ed64-4107-8f49-79b55ad6cb39
+label: plasma
+meta:
+  displayName: Plasma
+  iconUrl: Plasma.jpg
+distributions:
+- platform: steam
+  identifier: '1409160'
+thunderstore:
+  displayName: Plasma
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+    biomes:
+      label: Biomes
+    nodes:
+      label: Logic Nodes
+    components:
+      label: Components
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/BqGuhjtb65
+r2modman:
+  internalFolderName: Plasma
+  dataFolderName: Plasma_Data
+  settingsIdentifier: Plasma
+  packageIndex: https://thunderstore.io/c/plasma/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Plasma
+  exeNames:
+  - Plasma.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

@@ -2,8 +2,10 @@ uuid: "2c8bdcd0-e5b7-4927-8e0b-c13b7914c3a1"
 label: "disco-elysium"
 meta:
   displayName: "Disco Elysium"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "DiscoElysium.webp"
+distributions:
+- platform: steam
+  identifier: "632470"
 thunderstore:
   displayName: "Disco Elysium"
   categories:
@@ -31,3 +33,45 @@ thunderstore:
   wikiUrl: "https://discoelysium.fandom.com/"
   discordUrl: "https://discord.com/discoelysium"
   autolistPackageIds: []
+r2modman:
+  internalFolderName: DiscoElysium
+  dataFolderName: disco_Data
+  settingsIdentifier: Disco Elysium
+  packageIndex: https://thunderstore.io/c/disco-elysium/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Disco Elysium
+  exeNames:
+  - disco.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - de
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

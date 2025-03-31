@@ -1,0 +1,88 @@
+uuid: ede82780-6c91-4403-b444-1f4c279e784c
+label: among-us
+meta:
+  displayName: Among Us
+  iconUrl: AmongUs.png
+distributions:
+- platform: steam
+  identifier: '945360'
+- platform: epic-games-store
+  identifier: among-us
+- platform: xbox-game-pass
+  identifier: Innersloth.AmongUs
+- platform: other
+  identifier: null
+thunderstore:
+  displayName: Among Us
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+    hostonly:
+      label: Host Only
+    translations:
+      label: Translations
+    maps:
+      label: Maps
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  wikiUrl: https://docs.reactor.gg/
+  discordUrl: https://reactor.gg/discord
+r2modman:
+  internalFolderName: AmongUs
+  dataFolderName: Among Us_Data
+  settingsIdentifier: AmongUs
+  packageIndex: https://thunderstore.io/c/among-us/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Among Us
+  exeNames:
+  - Among Us.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - au
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

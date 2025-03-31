@@ -1,0 +1,81 @@
+uuid: f177bed2-ec0d-424a-98bd-87e9e3484924
+label: patch-quest
+meta:
+  displayName: Patch Quest
+  iconUrl: patch-quest.jpg
+distributions:
+- platform: steam
+  identifier: '1347970'
+thunderstore:
+  displayName: Patch Quest
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    audio:
+      label: Audio
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.gg/rf8RwMYqZe
+r2modman:
+  internalFolderName: PatchQuest
+  dataFolderName: PatchQuest_Data
+  settingsIdentifier: PatchQuest
+  packageIndex: https://thunderstore.io/c/patch-quest/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Patch Quest
+  exeNames:
+  - Patch Quest.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - pq
+  packageLoader: melonloader
+  installRules:
+  - route: Mods
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: state
+    subRoutes: []
+    isDefaultLocation: false
+  - route: UserData/ModManager
+    defaultFileExtensions: []
+    trackingMethod: subdir-no-flatten
+    subRoutes: []
+    isDefaultLocation: true
+  - route: UserLibs
+    defaultFileExtensions:
+    - .lib.dll
+    trackingMethod: state
+    subRoutes: []
+    isDefaultLocation: false
+  - route: MelonLoader
+    defaultFileExtensions: []
+    trackingMethod: state
+    subRoutes:
+    - route: Managed
+      defaultFileExtensions:
+      - .managed.dll
+      trackingMethod: state
+      subRoutes: []
+      isDefaultLocation: false
+    - route: Libs
+      defaultFileExtensions: []
+      trackingMethod: state
+      subRoutes: []
+      isDefaultLocation: false
+    isDefaultLocation: false

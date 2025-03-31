@@ -1,45 +1,59 @@
-uuid: "538c21b3-7a42-445b-bded-864a5449d1ec"
-label: "timberborn"
+uuid: 538c21b3-7a42-445b-bded-864a5449d1ec
+label: timberborn
 meta:
-  displayName: "Timberborn"
-  iconUrl: "Timberborn.jpg"
+  displayName: Timberborn
+  iconUrl: Timberborn.png
 distributions:
-  - platform: "steam"
-    identifier: "1062090"
-  - platform: "egs"
-    identifier: "972a4ca2631e43b4ba7bc3b7586ad8c4"
-  - platform: "other"
+- platform: steam
+  identifier: '1062090'
+- platform: epic-games-store
+  identifier: 972a4ca2631e43b4ba7bc3b7586ad8c4
+- platform: other
+  identifier: null
 r2modman:
-  internalFolderName: "Timberborn"
-  dataFolderName: "Timberborn_Data"
-  settingsIdentifier: "Timberborn"
-  packageIndex: "https://timberborn.thunderstore.io/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "Timberborn"
+  internalFolderName: Timberborn
+  dataFolderName: Timberborn_Data
+  settingsIdentifier: Timberborn
+  packageIndex: https://thunderstore.io/c/timberborn/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Timberborn
   exeNames:
-    - "Timberborn.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_Timberborn"
-      rootFolder: "BepInExPack_Timberborn"
-      loader: "bepinex"
+  - Timberborn.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - TB
+  packageLoader: bepinex
   installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-    - route: "BepInEx/Maps"
-      trackingMethod: "subdir"
-  relativeFileExclusions: []
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/Maps
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false

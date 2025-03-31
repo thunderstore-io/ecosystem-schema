@@ -1,0 +1,76 @@
+uuid: 46786b60-1740-4b74-99f6-e6be6db88438
+label: castle-story
+meta:
+  displayName: Castle Story
+  iconUrl: CastleStory.png
+distributions:
+- platform: steam-direct
+  identifier: '227860'
+thunderstore:
+  displayName: Castle Story
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  wikiUrl: https://castlestory.fandom.com/wiki/Castle_Story_Wiki
+  discordUrl: https://discord.gg/castlestory
+r2modman:
+  internalFolderName: CastleStory
+  dataFolderName: Castle Story_Data
+  settingsIdentifier: CastleStory
+  packageIndex: https://thunderstore.io/c/castle-story/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Castle Story
+  exeNames:
+  - Castle Story.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - cs
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

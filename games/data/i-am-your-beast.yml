@@ -2,8 +2,10 @@ uuid: "f5dc52cc-47fb-441d-bcc1-23e0f82face0"
 label: "i-am-your-beast"
 meta:
   displayName: "I Am Your Beast"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "IAmYourBeast.webp"
+distributions:
+- platform: steam
+  identifier: "1876590"
 thunderstore:
   displayName: "I Am Your Beast"
   categories:
@@ -31,3 +33,45 @@ thunderstore:
   discordUrl: "https://discord.gg/dog-airport-game"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+r2modman:
+  internalFolderName: IAmYourBeast
+  dataFolderName: I Am Your Beast_Data
+  settingsIdentifier: I Am Your Beast
+  packageIndex: https://thunderstore.io/c/i-am-your-beast/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: I Am Your Beast
+  exeNames:
+  - I Am Your Beast.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - iayb
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

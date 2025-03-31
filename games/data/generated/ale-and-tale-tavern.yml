@@ -1,0 +1,75 @@
+uuid: 1003c39e-ee41-4111-ac9d-e10ca07bb8d8
+label: ale-and-tale-tavern
+meta:
+  displayName: Ale & Tale Tavern
+  iconUrl: AleAndTaleTavern.png
+distributions:
+- platform: steam
+  identifier: '2683150'
+thunderstore:
+  displayName: Ale & Tale Tavern
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+    tools:
+      label: Tools
+    libraries:
+      label: Libraries
+    misc:
+      label: Misc
+    audio:
+      label: Audio
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks
+  discordUrl: https://discord.com/invite/qqxmSC8B5J
+r2modman:
+  internalFolderName: AleAndTaleTavern
+  dataFolderName: Ale and Tale Tavern_Data
+  settingsIdentifier: AleAndTaleTavern
+  packageIndex: https://thunderstore.io/c/ale-and-tale-tavern/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Ale & Tale Tavern
+  exeNames:
+  - Ale and Tale Tavern.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - ''
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
