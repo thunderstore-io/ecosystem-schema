@@ -2,8 +2,10 @@ uuid: "a78aee6c-e075-47d9-9c73-e4734ec3b22a"
 label: "gang-beasts"
 meta:
   displayName: "Gang Beasts"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "GangBeasts.png"
+distributions:
+- platform: steam
+  identifier: "285900"
 thunderstore:
   displayName: "Gang Beasts"
   categories:
@@ -31,3 +33,18 @@ thunderstore:
   discordUrl: "https://discord.com/invite/fCwXc5k43w"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
+r2modman:
+  internalFolderName: GangBeasts
+  dataFolderName: Gang Beasts_Data
+  settingsIdentifier: GangBeasts
+  packageIndex: https://thunderstore.io/c/gang-beasts/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Gang Beasts
+  exeNames:
+  - Gang Beasts.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - gb
+  packageLoader: recursive-melonloader
+  installRules: []

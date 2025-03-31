@@ -2,8 +2,10 @@ uuid: "f0fbd55b-2283-43cf-9401-1c456e3f15a6"
 label: "dusk"
 meta:
   displayName: "DUSK"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "DUSK.png"
+distributions:
+- platform: steam
+  identifier: "519860"
 thunderstore:
   displayName: "DUSK"
   categories:
@@ -32,3 +34,44 @@ thunderstore:
   discordUrl: "https://discord.com/invite/newblood"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+r2modman:
+  internalFolderName: DUSK
+  dataFolderName: Dusk_Data
+  settingsIdentifier: DUSK
+  packageIndex: https://thunderstore.io/c/dusk/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: Dusk
+  exeNames:
+  - Dusk.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings: []
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false

@@ -2,8 +2,10 @@ uuid: "a8c07068-9690-4bb4-8b07-64e9da66208c"
 label: "odd-remedy"
 meta:
   displayName: "Odd Remedy"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "OddRemedy.png"
+distributions:
+- platform: steam
+  identifier: "1745680"
 thunderstore:
   displayName: "Odd Remedy"
   categories:
@@ -31,3 +33,45 @@ thunderstore:
   discordUrl: "https://discord.com/invite/hWSv5x2ptN"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+r2modman:
+  internalFolderName: OddRemedy
+  dataFolderName: OddRemedy_Data
+  settingsIdentifier: OddRemedy
+  packageIndex: https://thunderstore.io/c/odd-remedy/api/v1/package-listing-index/
+  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
+  steamFolderName: OddRemedy
+  exeNames:
+  - OddRemedy.exe
+  gameInstanceType: game
+  gameSelectionDisplayMode: visible
+  additionalSearchStrings:
+  - or
+  packageLoader: bepinex
+  installRules:
+  - route: BepInEx/plugins
+    defaultFileExtensions:
+    - .dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: true
+  - route: BepInEx/core
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/patchers
+    defaultFileExtensions: []
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/monomod
+    defaultFileExtensions:
+    - .mm.dll
+    trackingMethod: subdir
+    subRoutes: []
+    isDefaultLocation: false
+  - route: BepInEx/config
+    defaultFileExtensions: []
+    trackingMethod: none
+    subRoutes: []
+    isDefaultLocation: false
