@@ -1,7 +1,9 @@
 from enum import Enum
 import glob
+import operator
 from os import path
 import os
+from pathlib import Path
 import re
 import textwrap
 from typing import Optional
@@ -11,6 +13,7 @@ from functools import cache
 
 from pydantic import UUID4, BaseModel, ConfigDict, ValidationError, field_validator, model_validator
 
+@cache
 def r2mm_dir() -> str:
     dir_path = os.environ.get("R2MM_DIR", default="../games/r2modmanPlus/")
     if os.path.isdir(dir_path):
@@ -25,20 +28,21 @@ def r2mm_dir() -> str:
 # Get a cached deserialized list of all ecosystem entries found within ../games/data.
 @cache
 def get_schema_entries(dir: str, skip_validation=False) -> list["SchemaEntry"] | list["PartialSchemaEntry"]:
-    schema_files = glob.glob(dir + "/*.yml")
-    yml_entries = map(lambda file: yaml.load(open(file), Loader=yaml.Loader), schema_files)
-
+    schema_files = glob.iglob(dir + "/*.yml")
     entries = []
-    for yml_entry in yml_entries:
-        # We decamelize here to convert from camelCase into the Python-relevant snake case.
+
+    for schema_file in schema_files:
+        entry = yaml.load(Path(schema_file).read_text(), Loader=yaml.Loader)
+
         if skip_validation:
-            entries.append(PartialSchemaEntry.model_validate(yml_entry))
+            entries.append(PartialSchemaEntry.model_validate(entry))
             continue
 
         try:
-            entries.append(SchemaEntry.model_validate(yml_entry, strict=False))
+            entries.append(SchemaEntry.model_validate(entry, strict=False))
         except ValidationError as e:
-            print(f"A validation error occured for {yml_entry["label"]}: {e}")
+            print(f"A validation error occured for {entry['label']}: {e}")
+            raise e
 
     return entries
 
@@ -78,7 +82,7 @@ class DistributionPlatform(str, Enum):
     OTHER = "other"
 
     # Does this distribution variant require an identifier?
-    def is_required(self) -> bool:
+    def requires_game_identifier(self) -> bool:
         return self in [
             DistributionPlatform.STEAM,
             DistributionPlatform.STEAM_DIRECT,
@@ -94,7 +98,7 @@ class EntryDist(BaseModel):
     @model_validator(mode="after")
     @classmethod
     def validate_identifier(cls, data: any) -> str:
-        if data.identifier is None and data.platform.is_required():
+        if data.identifier is None and data.platform.requires_game_identifier():
             raise ValueError(f"Distribution field with platform {data.platform} is missing a valid identifier")
         return data
 
@@ -123,6 +127,7 @@ class TrackingMethod(str, Enum):
 class ModLoaderPackageRef(str, Enum):
     bepinex = "bepinex"
     melonloader = "melonloader"
+    recursive_melonloader = "recursive-melonloader"
     northstar = "northstar"
     godotml = "godotml"
     ancientdungeonvr = "ancientdungeonvr"
@@ -181,8 +186,10 @@ class EntryR2(BaseModel):
     # - Directory traversal tokens (../)
     @field_validator("internalFolderName", "dataFolderName", "settingsIdentifier")
     def validate_folder_names(cls, v):
-        if v == "":
-            return
+        # Handle dataFolderName optional value.
+        if v == "" or v == None:
+            return v
+
         pattern = r"^(?!.*\.\./|.*[\\/]|.*:)[^/\\:*?\"<>|]+$"
         if not re.match(pattern, v):
             raise ValueError(f"Folder names cannot contain path characters, path separators, or relative path traversals")
@@ -225,3 +232,29 @@ class Schema(BaseModel):
     communities: dict[str, EntryThunderstore]
     package_installers: list
     modloader_packages: list[ModloaderPackage]
+
+    @model_validator(mode="after")
+    def validate_r2mm_icons(self):
+        icon_dir = Path(r2mm_dir()).joinpath("src/assets/images/game_selection")
+        for game in self.games.values():
+            icon_path = icon_dir.joinpath(game.meta.iconUrl)
+            if icon_path.exists():
+                continue
+            print(f"WARN: Icon for {game.label} '{game.meta.iconUrl}' does not exist at '{icon_path}'")
+        return self
+
+    @model_validator(mode="after")
+    def validate_r2mm_unique_fields(self):
+        self._is_unique_field("uuid")
+        self._is_unique_field("label")
+
+        return self
+
+    def _is_unique_field(self, field_id):
+        seen = set()
+        for game in self.games.values():
+            val = operator.attrgetter(field_id)(game)
+            if val in seen:
+                raise ValueError(f"Field '{field_id}' with value '{val}' is not unique")
+            seen.add(val)
+

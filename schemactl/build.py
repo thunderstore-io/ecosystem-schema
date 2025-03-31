@@ -44,21 +44,6 @@ def build_schema() -> Schema:
     communities = dict[str, EntryThunderstore]()
 
     for entry in entries:
-        # Assert that the following fields are unique within entries.
-        uuid_match = list(x for x in entries if x.uuid == entry.uuid)
-        if len(uuid_match) != 1:
-            pretty = ", ".join(list(x.label for x in uuid_match))
-            raise Exception(textwrap.dedent(f"""
-                Ecosystem schema entry {entry.label} does not have a unique UUID.
-                - UUID: {entry.uuid}
-                - Label matches: {pretty}
-            """))
-
-        if len(list(x for x in entries if x.label == entry.label)) != 1:
-            raise Exception(textwrap.dedent(f"""
-                Ecosystem schema entry {entry.label} does not have a unique label.
-            """))
-
         try:
             games[entry.label] = SchemaEntry.model_validate(entry.model_dump())
         except ValidationError as e:
@@ -71,10 +56,10 @@ def build_schema() -> Schema:
     mlp_file = open("../modloader-packages.yml")
     modloader_packages = map(lambda x: ModloaderPackage.model_validate(x), yaml.load(mlp_file, Loader=yaml.Loader))
 
-    return Schema(
+    return Schema.model_validate(dict(
         schema_version="0.1.12",
         games=games,
         communities=communities,
         package_installers=list(),
         modloader_packages=list(modloader_packages),
-    )
+    ))

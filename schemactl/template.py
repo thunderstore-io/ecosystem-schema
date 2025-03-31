@@ -1,6 +1,7 @@
-from glob import glob
+import glob
 from itertools import takewhile
 from os import path
+from pathlib import Path
 from uuid import uuid4
 
 class Template:
@@ -12,12 +13,12 @@ class Template:
         this.description = description
 
 def get_templates() -> list[Template]:
-    files = glob("./templates/*.yml")
+    files = glob.iglob("./templates/*.yml")
     templates = []
 
     for file in files:
         name = path.basename(file)
-        lines = open(file).read().splitlines()
+        lines = Path(file).read_text().splitlines()
         desc = "\n".join([x.lstrip("# ") for x in takewhile(lambda x: x != "", lines)])
 
         templates.append(Template(name, desc))
@@ -30,7 +31,7 @@ def copy_template(name: str, output: str):
         raise Exception(f"A template with name `{name}` could not be found.")
 
     # Re-read the template, strip the leading description, insert the UUID field, and write it out.
-    template_lines = open(f"./templates/{name}").read().splitlines()
+    template_lines = Path(f"./templates/{name}").read_text().splitlines()
     first = template_lines.index("") + 1
 
     uuid = uuid4()
