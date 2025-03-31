@@ -6,7 +6,7 @@ import {
   SchemaType,
   validateSchemaJson,
 } from "../schema/validator";
-import Differ, { DiffResult } from "json-diff-kit/dist/differ";
+import Differ, { DiffResult } from "json-diff-kit/differ";
 
 const schemaUrl = getLatestSchemaUrl();
 
