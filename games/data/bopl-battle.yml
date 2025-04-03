@@ -19,6 +19,16 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    client-side:
+      label: "ClientSide"
+    maps:
+      label: "Maps"
+    abilities:
+      label: "Abilities"
+    host-only:
+      label: "Host-only"
+    local-only:
+      label: "Local-only"
   sections:
     mods:
       name: "Mods"
@@ -28,5 +38,13 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://github.com/commandblox/Splotch/wiki"
-  discordUrl: "https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310"
+    maps:
+      name: "Maps"
+      requireCategories:
+        - "maps"
+    abilities:
+      name: "Abilities"
+      requireCategories:
+        - "abilities"
+wikiUrl: "https://borpl.site/wiki"
+discordUrl: "https://discord.gg/official-bopl-battle-modding-comunity-1175164882388275310"
