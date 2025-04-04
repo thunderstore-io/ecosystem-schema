@@ -21,6 +21,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    mono:
+      label: "Mono"
   sections:
     mods:
       name: "Mods"
@@ -30,6 +32,17 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+    mono-mods:
+      name: "Mono Mods"
+      requireCategories:
+        - "mono"
+      excludeCategories:
+        - "modpacks"
+    mono-modpacks:
+      name: "Mono Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "mono"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
   discordUrl: "https://discord.gg/9Z5RKEYSzq"
