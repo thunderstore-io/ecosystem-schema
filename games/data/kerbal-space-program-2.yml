@@ -4,6 +4,12 @@ meta:
   displayName: "Kerbal Space Program 2"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 954850
 thunderstore:
   displayName: "Kerbal Space Program 2"
   categories:

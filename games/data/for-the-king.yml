@@ -1,0 +1,15 @@
+uuid: "4d8ab61e-eb93-4fab-b076-b73ae450b73f"
+label: "for-the-king"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+        - "linux"
+      appid: 527230
+    
+    - kind: "egs"
+      targets:
+        - "windows"
+      app_name: "Discus"

@@ -1,0 +1,8 @@
+uuid: "2d7868bd-6b43-45b6-b587-172d44a11067"
+label: "bonelab"
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1592190

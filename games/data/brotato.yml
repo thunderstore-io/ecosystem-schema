@@ -4,6 +4,12 @@ meta:
   displayName: "Brotato"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+      appid: 1942280
 thunderstore:
   displayName: "Brotato"
   categories:

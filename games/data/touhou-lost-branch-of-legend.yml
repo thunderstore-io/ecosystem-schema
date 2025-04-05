@@ -4,6 +4,13 @@ meta:
   displayName: "Touhou: Lost Branch of Legend"
   iconUrl: "None"
 distributions: []
+tcli:
+  distributions:
+    - kind: "steam"
+      targets:
+        - "windows"
+        - "macos"
+      appid: 1140150
 thunderstore:
   displayName: "Touhou: Lost Branch of Legend"
   categories:
