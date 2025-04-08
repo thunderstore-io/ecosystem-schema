@@ -1,27 +1,30 @@
-import GameManager from "../../r2modmanPlus/src/model/game/GameManager";
+import GameManager from "../../r2modmanPlus/src/model/game/GameManager.js";
 import { v4 as uuid } from "uuid";
 import * as yaml from "js-yaml";
 import * as fs from "fs";
-import { GameDefinition } from "../models";
+import { GameDefinition, GameModmanDefinition } from "../models.js";
 import {
   convertDisplayMode,
   convertGameType,
   convertInstallRule,
   convertModLoaderPackageMapping,
   convertPlatform,
-} from "../utils";
-import { loadGameDefinitions } from "../load";
+} from "../utils.js";
+import { loadGameDefinitions } from "../load.js";
 import {
   GAME_NAME,
   MOD_LOADER_VARIANTS,
-} from "../../r2modmanPlus/src/r2mm/installing/profile_installers/ModLoaderVariantRecord";
-import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator";
-import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules";
+} from "../../r2modmanPlus/src/r2mm/installing/profile_installers/ModLoaderVariantRecord.js";
+import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator.js";
+import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
+import Game from "../../r2modmanPlus/src/model/game/Game.js";
 
 const { generated } = loadGameDefinitions();
 const settingsIdentifierToUuid = new Map<string, string>();
 for (const def of generated) {
-  settingsIdentifierToUuid.set(def.r2modman.settingsIdentifier, def.uuid);
+  if (def.r2modman) {
+    settingsIdentifierToUuid.set(def.r2modman.settingsIdentifier, def.uuid);
+  }
 }
 
 const oldPackegeListRe = new RegExp(
@@ -41,8 +44,8 @@ InstallationRuleApplicator.apply();
 const extractRules = (
   game: GAME_NAME
 ): {
-  installRules: GameDefinition["r2modman"]["installRules"];
-  relativeFileExclusions: GameDefinition["r2modman"]["relativeFileExclusions"];
+  installRules: GameModmanDefinition["installRules"];
+  relativeFileExclusions: GameModmanDefinition["relativeFileExclusions"];
 } => {
   const rules = InstallationRules.RULES.find((x) => x.gameName == game);
   return {
@@ -51,7 +54,7 @@ const extractRules = (
   };
 };
 
-const games: GameDefinition[] = GameManager.gameList.map((x) => ({
+const games: GameDefinition[] = GameManager.gameList.map((x: Game) => ({
   uuid: settingsIdentifierToUuid.get(x.settingsIdentifier) ?? uuid(),
   label: extractThunderstoreCommunity(x.thunderstoreUrl),
   meta: {
@@ -67,14 +70,14 @@ const games: GameDefinition[] = GameManager.gameList.map((x) => ({
     dataFolderName: x.dataFolderName,
     settingsIdentifier: x.settingsIdentifier,
     packageIndex: x.thunderstoreUrl,
-    exclusionsUrl: x.exclusionsUrl,
+    // exclusionsUrl: x.exclusionsUrl,
     steamFolderName: x.steamFolderName,
     exeNames: x.exeName,
     gameInstancetype: convertGameType(x.instanceType),
     gameSelectionDisplayMode: convertDisplayMode(x.displayMode),
-    modLoaderPackages: MOD_LOADER_VARIANTS[x.internalFolderName].map(
-      convertModLoaderPackageMapping
-    ),
+    // modLoaderPackages: MOD_LOADER_VARIANTS[x.internalFolderName].map(
+    //   convertModLoaderPackageMapping
+    // ),
     ...extractRules(x.internalFolderName),
   },
 }));

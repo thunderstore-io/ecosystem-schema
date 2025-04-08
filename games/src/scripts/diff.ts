@@ -1,11 +1,11 @@
-import { buildSchemaJson } from "../schema/builder";
-import { getLatestSchemaUrl } from "../config";
-import { assertForStatus } from "../utils/requests";
+import { buildSchemaJson } from "../schema/builder.js";
+import { getLatestSchemaUrl } from "../config.js";
+import { assertForStatus } from "../utils/requests.js";
 import {
   CommunitySchemaType,
   SchemaType,
   validateSchemaJson,
-} from "../schema/validator";
+} from "../schema/validator.js";
 import Differ, { DiffResult } from "json-diff-kit/differ";
 
 const schemaUrl = getLatestSchemaUrl();
@@ -98,4 +98,7 @@ async function runDiffCommand() {
   }
 }
 
-await runDiffCommand();
+// TODO: Add await if/when top level await is supported without
+//       "type": "module" inclusion in package.json or after removal of
+//       r2modmanPlus submodule from the repo.
+runDiffCommand();

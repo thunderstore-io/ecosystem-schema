@@ -1,4 +1,4 @@
-import { GameInstanceType } from "../r2modmanPlus/src/model/game/GameInstanceType";
+import { GameInstanceType } from "../r2modmanPlus/src/model/game/GameInstanceType.js";
 import {
   DisplayType,
   DistributionPlatform,
@@ -7,12 +7,12 @@ import {
   ModmanModLoaderPackage,
   ModmanPackageLoader,
   ModmanTrackingMethod,
-} from "./models";
-import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform";
-import { GameSelectionDisplayMode } from "../r2modmanPlus/src/model/game/GameSelectionDisplayMode";
-import { PackageLoader } from "../r2modmanPlus/src/model/installing/PackageLoader";
-import { RuleSubtype } from "../r2modmanPlus/src/r2mm/installing/InstallationRules";
-import ModLoaderPackageMapping from "../r2modmanPlus/src/model/installing/ModLoaderPackageMapping";
+} from "./models.js";
+import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform.js";
+import { GameSelectionDisplayMode } from "../r2modmanPlus/src/model/game/GameSelectionDisplayMode.js";
+import { PackageLoader } from "../r2modmanPlus/src/model/installing/PackageLoader.js";
+import { RuleSubtype } from "../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
+import ModLoaderPackageMapping from "../r2modmanPlus/src/model/installing/ModLoaderPackageMapping.js";
 
 export function convertPlatform(platform: StorePlatform): DistributionPlatform {
   switch (platform) {
@@ -93,6 +93,8 @@ export function convertTrackingMethod(
       return "state";
     case "SUBDIR_NO_FLATTEN":
       return "subdir-no-flatten";
+    case "PACKAGE_ZIP":
+      return "package-zip";
   }
 }
 
@@ -106,5 +108,19 @@ export function convertPackageLoader(
       return "melonloader";
     case PackageLoader.NORTHSTAR:
       return "northstar";
+    case PackageLoader.GODOT_ML:
+      return "godot";
+    case PackageLoader.ANCIENT_DUNGEON_VR:
+      return "ancient-dungeon-vr";
+    case PackageLoader.SHIMLOADER:
+      return "shimloader";
+    case PackageLoader.LOVELY:
+      return "lovely";
+    case PackageLoader.RETURN_OF_MODDING:
+      return "return-of-modding";
+    case PackageLoader.GDWEAVE:
+      return "gdweave";
+    case PackageLoader.RECURSIVE_MELON_LOADER:
+      return "melonloader-recursive";
   }
 }

@@ -1,9 +1,9 @@
-import { loadGameDefinitions, loadInstallerDefinitions } from "../load";
+import { loadGameDefinitions, loadInstallerDefinitions } from "../load.js";
 import {
   GameDefinition,
   PackageInstallerDefinition,
   ThunderstoreCommunityDefinition,
-} from "../models";
+} from "../models.js";
 import _ from "lodash";
 
 export function buildSchemaJson() {
