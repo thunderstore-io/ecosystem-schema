@@ -33,7 +33,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
     mods:
-      name: "Mods"
+      name: "All Mods"
       excludeCategories:
         - "modpacks"
     modpacks:
