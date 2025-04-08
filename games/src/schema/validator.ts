@@ -41,8 +41,8 @@ const gameSchema = z.strictObject({
     })
   ),
   thunderstore: communitySchema.optional(),
-  tcli: z.object({}).optional(), // TODO: Use strict object with schema
-  r2modman: z.object({}).optional(), // TODO: Use strict object with schema
+  tcli: z.object({}).passthrough().optional(), // TODO: Use strict object with schema
+  r2modman: z.object({}).passthrough().nullable(), // TODO: Use strict object with schema
 });
 
 export const ecosystemJsonSchema = z.strictObject({
@@ -54,6 +54,13 @@ export const ecosystemJsonSchema = z.strictObject({
     z.strictObject({
       name: z.string(),
       description: z.string(),
+    })
+  ),
+  modloaderPackages: z.array(
+    z.strictObject({
+      packageId: z.string(),
+      rootFolder: z.string(),
+      loader: z.string(),
     })
   ),
 });

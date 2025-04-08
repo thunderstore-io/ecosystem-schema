@@ -1,77 +1,50 @@
-uuid: b0c85f2e-69ef-4ad2-a3a3-d2db18abe48c
-label: sulfur
+uuid: "b0c85f2e-69ef-4ad2-a3a3-d2db18abe48c"
+label: "sulfur"
 meta:
-  displayName: SULFUR
-  iconUrl: SULFUR.png
+  displayName: "SULFUR"
+  iconUrl: "SULFUR.png"
 distributions:
-- platform: steam
-  identifier: '2124120'
-thunderstore:
-  displayName: SULFUR
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/sulfurgame
-  autolistPackageIds:
-  - BepInEx-BepInExPack
+  - platform: "steam"
+    identifier: "2124120"
 r2modman:
-  internalFolderName: SULFUR
-  dataFolderName: Sulfur_Data
-  settingsIdentifier: SULFUR
-  packageIndex: https://thunderstore.io/c/sulfur/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Sulfur
+  internalFolderName: "SULFUR"
+  dataFolderName: "Sulfur_Data"
+  settingsIdentifier: "SULFUR"
+  packageIndex: "https://thunderstore.io/c/sulfur/api/v1/package-listing-index/"
+  steamFolderName: "Sulfur"
   exeNames:
-  - Sulfur.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Sulfur.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ''
-  packageLoader: bepinex
+    - ""
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

@@ -1,77 +1,50 @@
-uuid: 867747e7-e916-4747-8ee9-8682cfdd4aa5
-label: atrio-the-dark-wild
+uuid: "867747e7-e916-4747-8ee9-8682cfdd4aa5"
+label: "atrio-the-dark-wild"
 meta:
-  displayName: 'Atrio: The Dark Wild'
-  iconUrl: atrio-the-dark-wild.jpg
+  displayName: "Atrio: The Dark Wild"
+  iconUrl: "atrio-the-dark-wild.jpg"
 distributions:
-- platform: steam
-  identifier: '1125390'
-thunderstore:
-  displayName: 'Atrio: The Dark Wild'
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    weapons:
-      label: Weapons
-    audio:
-      label: Audio
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/yRdVvMeTNS
+  - platform: "steam"
+    identifier: "1125390"
 r2modman:
-  internalFolderName: AtrioTheDarkWild
-  dataFolderName: Atrio_Data
-  settingsIdentifier: AtrioTheDarkWild
-  packageIndex: https://thunderstore.io/c/atrio-the-dark-wild/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Atrio The Dark Wild
+  internalFolderName: "AtrioTheDarkWild"
+  dataFolderName: "Atrio_Data"
+  settingsIdentifier: "AtrioTheDarkWild"
+  packageIndex: "https://thunderstore.io/c/atrio-the-dark-wild/api/v1/package-listing-index/"
+  steamFolderName: "Atrio The Dark Wild"
   exeNames:
-  - Atrio.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Atrio.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - adw
-  packageLoader: bepinex
+    - "adw"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

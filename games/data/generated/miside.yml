@@ -1,0 +1,50 @@
+uuid: "5d8d324b-bf77-46b2-b2c1-cf0c0adfba05"
+label: "miside"
+meta:
+  displayName: "MiSide"
+  iconUrl: "MiSide.webp"
+distributions:
+  - platform: "steam"
+    identifier: "2527500"
+r2modman:
+  internalFolderName: "MiSide"
+  dataFolderName: "MiSideFull_Data"
+  settingsIdentifier: "MiSide"
+  packageIndex: "https://thunderstore.io/c/miside/api/v1/package-listing-index/"
+  steamFolderName: "MiSide"
+  exeNames:
+    - "MiSideFull.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
+  additionalSearchStrings:
+    - ""
+  packageLoader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

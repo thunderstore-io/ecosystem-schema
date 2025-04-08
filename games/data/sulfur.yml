@@ -2,7 +2,6 @@ uuid: "b0c85f2e-69ef-4ad2-a3a3-d2db18abe48c"
 label: "sulfur"
 meta:
   displayName: "SULFUR"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "SULFUR"

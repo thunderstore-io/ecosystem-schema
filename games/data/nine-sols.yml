@@ -2,7 +2,6 @@ uuid: "5d48824a-081a-4617-ab35-943f8ef17250"
 label: "nine-sols"
 meta:
   displayName: "Nine Sols"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Nine Sols"

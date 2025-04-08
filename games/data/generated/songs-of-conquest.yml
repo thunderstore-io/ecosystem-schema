@@ -1,0 +1,50 @@
+uuid: "d9fcc60f-1418-44b6-9ea9-15f50e5baf6f"
+label: "songs-of-conquest"
+meta:
+  displayName: "Songs of Conquest"
+  iconUrl: "SongsOfConquest.png"
+distributions:
+  - platform: "steam"
+    identifier: "867210"
+r2modman:
+  internalFolderName: "SongsOfConquest"
+  dataFolderName: "SongsOfConquest_Data"
+  settingsIdentifier: "SongsOfConquest"
+  packageIndex: "https://thunderstore.io/c/songs-of-conquest/api/v1/package-listing-index/"
+  steamFolderName: "SongsOfConquest"
+  exeNames:
+    - "SongsOfConquest.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
+  additionalSearchStrings:
+    - "soc"
+  packageLoader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

@@ -2,7 +2,6 @@ uuid: "be17d062-1f3d-4a6c-b147-33386590c648"
 label: "old-market-simulator"
 meta:
   displayName: "Old Market Simulator"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Old Market Simulator"

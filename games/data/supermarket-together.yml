@@ -2,7 +2,6 @@ uuid: "8217c6e0-ec15-474e-a447-fafbf435fd64"
 label: "supermarket-together"
 meta:
   displayName: "Supermarket Together"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Supermarket Together"

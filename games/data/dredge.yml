@@ -2,7 +2,6 @@ uuid: "a292ab38-090b-49aa-b155-ca7c8360ce0d"
 label: "dredge"
 meta:
   displayName: "Dredge"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Dredge"

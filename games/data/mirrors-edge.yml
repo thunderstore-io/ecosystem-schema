@@ -2,7 +2,6 @@ uuid: "bd2699ab-0ebf-4411-aab3-2132063361b0"
 label: "mirrors-edge"
 meta:
   displayName: "Mirror's Edge"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Mirror's Edge"

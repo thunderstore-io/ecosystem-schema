@@ -2,7 +2,6 @@ uuid: "0ba1984d-33a7-4c8d-89da-85c0246f5af1"
 label: "gear-blocks"
 meta:
   displayName: "GearBlocks"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "GearBlocks"

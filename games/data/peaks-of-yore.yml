@@ -2,7 +2,6 @@ uuid: "4f23c46e-2f26-46fc-9e66-4b0bcfcf03f0"
 label: "peaks-of-yore"
 meta:
   displayName: "Peaks of Yore"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Peaks of Yore"

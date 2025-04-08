@@ -1,0 +1,50 @@
+uuid: "c43b4368-ef52-40f6-99e8-4bbdefc589f8"
+label: "my-dream-setup"
+meta:
+  displayName: "My Dream Setup"
+  iconUrl: "MyDreamSetup.png"
+distributions:
+  - platform: "steam"
+    identifier: "2200780"
+r2modman:
+  internalFolderName: "MyDreamSetup"
+  dataFolderName: "MDS_Data"
+  settingsIdentifier: "MyDreamSetup"
+  packageIndex: "https://thunderstore.io/c/my-dream-setup/api/v1/package-listing-index/"
+  steamFolderName: "My dream setup/MDS"
+  exeNames:
+    - "MDS.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
+  additionalSearchStrings:
+    - "MDS"
+  packageLoader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

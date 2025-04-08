@@ -2,7 +2,6 @@ uuid: "cce6146c-afe8-4200-9359-1e023966d4dc"
 label: "the-planet-crafter"
 meta:
   displayName: "The Planet Crafter"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "The Planet Crafter"

@@ -2,7 +2,6 @@ uuid: "ecbabbaa-076a-4fce-9211-4c90ab7f0890"
 label: "balatro"
 meta:
   displayName: "Balatro"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Balatro"

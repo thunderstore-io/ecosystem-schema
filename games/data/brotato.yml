@@ -2,7 +2,6 @@ uuid: "b20dbe1e-1f04-4c5a-849b-481a5b3758e5"
 label: "brotato"
 meta:
   displayName: "Brotato"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Brotato"

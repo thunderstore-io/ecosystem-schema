@@ -1,4 +1,8 @@
-import { loadGameDefinitions, loadInstallerDefinitions } from "../load.js";
+import {
+  loadGameDefinitions,
+  loadInstallerDefinitions,
+  loadModloaderPackages,
+} from "../load.js";
 import {
   GameDefinition,
   PackageInstallerDefinition,
@@ -49,6 +53,12 @@ export function buildSchemaJson() {
       }
       communities.set(game.label, game.thunderstore);
     }
+    if (game.r2modman === undefined) {
+      game.r2modman = null;
+    }
+    if (game.meta.iconUrl === undefined) {
+      game.meta.iconUrl = null;
+    }
     games.set(game.label, game);
   }
 
@@ -66,5 +76,6 @@ export function buildSchemaJson() {
     games: Object.fromEntries(games),
     communities: Object.fromEntries(communities),
     packageInstallers: Object.fromEntries(packageInstallers),
+    modloaderPackages: loadModloaderPackages(),
   };
 }

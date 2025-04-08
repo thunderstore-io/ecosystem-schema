@@ -1,93 +1,50 @@
-uuid: 18b8d82e-aa61-453a-98b0-fc98dd3e6c70
-label: wrestling-empire
+uuid: "18b8d82e-aa61-453a-98b0-fc98dd3e6c70"
+label: "wrestling-empire"
 meta:
-  displayName: Wrestling Empire
-  iconUrl: wrestling-empire.jpg
+  displayName: "Wrestling Empire"
+  iconUrl: "wrestling-empire.jpg"
 distributions:
-- platform: steam
-  identifier: '1620340'
-thunderstore:
-  displayName: Wrestling Empire
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    audio:
-      label: Audio
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    arenas:
-      label: Arenas
-    characters:
-      label: Characters
-    costumes:
-      label: Costumes
-    furniture:
-      label: Furniture
-    moves:
-      label: Moves
-    overrides:
-      label: Overrides
-    textures:
-      label: Textures
-    themes:
-      label: Themes
-    weapons:
-      label: Weapons
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/mH56AhUwPR
+  - platform: "steam"
+    identifier: "1620340"
 r2modman:
-  internalFolderName: WrestlingEmpire
-  dataFolderName: Wrestling Empire_Data
-  settingsIdentifier: WrestlingEmpire
-  packageIndex: https://thunderstore.io/c/wrestling-empire/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Wrestling Empire
+  internalFolderName: "WrestlingEmpire"
+  dataFolderName: "Wrestling Empire_Data"
+  settingsIdentifier: "WrestlingEmpire"
+  packageIndex: "https://thunderstore.io/c/wrestling-empire/api/v1/package-listing-index/"
+  steamFolderName: "Wrestling Empire"
   exeNames:
-  - Wrestling Empire.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Wrestling Empire.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - we
-  packageLoader: bepinex
+    - "we"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

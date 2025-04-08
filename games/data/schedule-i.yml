@@ -2,7 +2,6 @@ uuid: "17c73827-aed4-46b1-9f79-e52eaf7ef14a"
 label: "schedule-i"
 meta:
   displayName: "Schedule I"
-  iconUrl: "ScheduleI.jpg"
 distributions:
 - platform: steam
   identifier: "3164500"
@@ -43,17 +42,3 @@ thunderstore:
   autolistPackageIds:
     - "LavaGang-MelonLoader"
   discordUrl: "https://discord.gg/9Z5RKEYSzq"
-r2modman:
-  internalFolderName: ScheduleI
-  dataFolderName: Schedule I_Data
-  settingsIdentifier: ScheduleI
-  packageIndex: https://thunderstore.io/c/schedule-i/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Schedule I
-  exeNames:
-  - Schedule I.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  additionalSearchStrings: []
-  packageLoader: recursive-melonloader
-  installRules: []

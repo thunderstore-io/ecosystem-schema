@@ -2,7 +2,6 @@ uuid: "37b2e210-0f07-4386-9d3e-97f767eacca2"
 label: "lizards-must-die"
 meta:
   displayName: "Lizards Must Die"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Lizards Must Die"

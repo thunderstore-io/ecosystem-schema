@@ -1,77 +1,50 @@
-uuid: ec590bff-7655-4946-acf1-476782de86d5
-label: five-nights-at-freddys-into-the-pit
+uuid: "ec590bff-7655-4946-acf1-476782de86d5"
+label: "five-nights-at-freddys-into-the-pit"
 meta:
-  displayName: 'Five Nights at Freddy''s: Into the Pit'
-  iconUrl: FiveNightsAtFreddysIntoThePit.png
+  displayName: "Five Nights at Freddy's: Into the Pit"
+  iconUrl: "FiveNightsAtFreddysIntoThePit.png"
 distributions:
-- platform: steam
-  identifier: '2638370'
-thunderstore:
-  displayName: 'Five Nights at Freddy''s: Into the Pit'
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/technical-fnaf-664239645441261588
-  autolistPackageIds:
-  - BepInEx-BepInExPack
+  - platform: "steam"
+    identifier: "2638370"
 r2modman:
-  internalFolderName: FiveNightsAtFreddysIntoThePit
-  dataFolderName: Five Nights at Freddy's Into the Pit_Data
-  settingsIdentifier: FiveNightsAtFreddysIntoThePit
-  packageIndex: https://thunderstore.io/c/five-nights-at-freddys-into-the-pit/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Five Nights at Freddy's Into the Pit
+  internalFolderName: "FiveNightsAtFreddysIntoThePit"
+  dataFolderName: "Five Nights at Freddy's Into the Pit_Data"
+  settingsIdentifier: "FiveNightsAtFreddysIntoThePit"
+  packageIndex: "https://thunderstore.io/c/five-nights-at-freddys-into-the-pit/api/v1/package-listing-index/"
+  steamFolderName: "Five Nights at Freddy's Into the Pit"
   exeNames:
-  - Five Nights at Freddy's Into the Pit.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Five Nights at Freddy's Into the Pit.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ''
-  packageLoader: bepinex
+    - ""
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

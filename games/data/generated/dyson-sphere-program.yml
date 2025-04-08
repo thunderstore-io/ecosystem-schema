@@ -1,0 +1,52 @@
+uuid: "b4ee10ce-d22c-4da3-b084-e97ced4fec85"
+label: "dyson-sphere-program"
+meta:
+  displayName: "Dyson Sphere Program"
+  iconUrl: "DysonSphereProgram.png"
+distributions:
+  - platform: "steam"
+    identifier: "1366540"
+  - platform: "xbox-game-pass"
+    identifier: "GameraGame.DysonSphereProgram"
+r2modman:
+  internalFolderName: "DysonSphereProgram"
+  dataFolderName: "DSPGAME_Data"
+  settingsIdentifier: "DysonSphereProgram"
+  packageIndex: "https://thunderstore.io/c/dyson-sphere-program/api/v1/package-listing-index/"
+  steamFolderName: "Dyson Sphere Program"
+  exeNames:
+    - "DSPGAME.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
+  additionalSearchStrings:
+    - "DSP"
+  packageLoader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

@@ -2,7 +2,6 @@ uuid: "44bcb85e-66c1-4a04-a272-4aabeb1a4552"
 label: "straftat"
 meta:
   displayName: "STRAFTAT"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "STRAFTAT"

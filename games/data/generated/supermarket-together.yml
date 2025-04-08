@@ -1,76 +1,50 @@
-uuid: 8217c6e0-ec15-474e-a447-fafbf435fd64
-label: supermarket-together
+uuid: "8217c6e0-ec15-474e-a447-fafbf435fd64"
+label: "supermarket-together"
 meta:
-  displayName: Supermarket Together
-  iconUrl: SupermarketTogether.png
+  displayName: "Supermarket Together"
+  iconUrl: "SupermarketTogether.png"
 distributions:
-- platform: steam
-  identifier: '2709570'
-thunderstore:
-  displayName: Supermarket Together
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  wikiUrl: https://supermarkettogether.wiki.gg
-  discordUrl: https://discord.com/invite/GUVbBUMqNZ
+  - platform: "steam"
+    identifier: "2709570"
 r2modman:
-  internalFolderName: SupermarketTogether
-  dataFolderName: Supermarket Together_Data
-  settingsIdentifier: SupermarketTogether
-  packageIndex: https://thunderstore.io/c/supermarket-together/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Supermarket Together
+  internalFolderName: "SupermarketTogether"
+  dataFolderName: "Supermarket Together_Data"
+  settingsIdentifier: "SupermarketTogether"
+  packageIndex: "https://thunderstore.io/c/supermarket-together/api/v1/package-listing-index/"
+  steamFolderName: "Supermarket Together"
   exeNames:
-  - Supermarket Together.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Supermarket Together.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ''
-  packageLoader: bepinex
+    - ""
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

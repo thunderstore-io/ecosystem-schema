@@ -35,3 +35,7 @@ export function loadInstallerDefinitions(): {
 }[] {
   return loadYamlFromDir<PackageInstallerDefinition>("./installers");
 }
+
+export function loadModloaderPackages() {
+  return yaml.load(fs.readFileSync("./misc/modloader-packages.yml", "utf-8"));
+}

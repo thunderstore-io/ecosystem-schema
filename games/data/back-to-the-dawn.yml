@@ -2,7 +2,6 @@ uuid: "d9438bf4-c83f-4d6d-952f-efc79b8432a1"
 label: "back-to-the-dawn"
 meta:
   displayName: "Back to the Dawn"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Back to the Dawn"

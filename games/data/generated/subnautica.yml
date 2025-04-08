@@ -1,58 +1,61 @@
-uuid: 72ff8d9a-5af4-428d-9520-1955a464e3b6
-label: subnautica
+uuid: "72ff8d9a-5af4-428d-9520-1955a464e3b6"
+label: "subnautica"
 meta:
-  displayName: Subnautica
-  iconUrl: Subnautica.png
+  displayName: "Subnautica"
+  iconUrl: "Subnautica.png"
 distributions:
-- platform: steam
-  identifier: '264710'
-- platform: epic-games-store
-  identifier: Jaguar
-- platform: xbox-game-pass
-  identifier: UnknownWorldsEntertainmen.GAMEPREVIEWSubnautica
+  - platform: "steam"
+    identifier: "264710"
+  - platform: "epic-games-store"
+    identifier: "Jaguar"
+  - platform: "xbox-game-pass"
+    identifier: "UnknownWorldsEntertainmen.GAMEPREVIEWSubnautica"
 r2modman:
-  internalFolderName: Subnautica
-  dataFolderName: Subnautica_Data
-  settingsIdentifier: Subnautica
-  packageIndex: https://thunderstore.io/c/subnautica/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Subnautica
+  internalFolderName: "Subnautica"
+  dataFolderName: "Subnautica_Data"
+  settingsIdentifier: "Subnautica"
+  packageIndex: "https://thunderstore.io/c/subnautica/api/v1/package-listing-index/"
+  steamFolderName: "Subnautica"
   exeNames:
-  - Subnautica.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Subnautica.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings: []
-  packageLoader: bepinex
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
-  - route: QMods
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "QMods"
+      defaultFileExtensions: []
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"

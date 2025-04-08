@@ -1,135 +1,50 @@
-uuid: 40c7d846-cff1-45fe-8679-4abe993abafb
-label: lethal-company
+uuid: "40c7d846-cff1-45fe-8679-4abe993abafb"
+label: "lethal-company"
 meta:
-  displayName: Lethal Company
-  iconUrl: LethalCompany.png
+  displayName: "Lethal Company"
+  iconUrl: "LethalCompany.png"
 distributions:
-- platform: steam
-  identifier: '1966720'
-thunderstore:
-  displayName: Lethal Company
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-    bepinex:
-      label: BepInEx
-    melonloader:
-      label: MelonLoader
-    suits:
-      label: Suits
-    boombox:
-      label: Boombox Music
-    video:
-      label: TV Videos
-    poster:
-      label: Posters
-    equipment:
-      label: Equipment
-    items:
-      label: Items
-    monsters:
-      label: Monsters
-    moons:
-      label: Moons
-    interiors:
-      label: Interiors
-    furniture:
-      label: Furniture
-    clientside:
-      label: Client-side
-    serverside:
-      label: Server-side
-    cosmetics:
-      label: Cosmetics
-    asset-replacements:
-      label: Asset Replacements
-    translations:
-      label: Translations
-    emotes:
-      label: Emotes
-    weather:
-      label: Weather
-    hazards:
-      label: Hazards
-    bug-fixes:
-      label: Bug Fixes
-    performance:
-      label: Performance
-    tweaks-and-quality-of-life:
-      label: Tweaks & Quality Of Life
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-      - asset-replacements
-    asset-replacements:
-      name: Asset Replacements
-      requireCategories:
-      - asset-replacements
-      excludeCategories:
-      - modpacks
-    libraries:
-      name: APIs & Libraries
-      requireCategories:
-      - libraries
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/XeyYqRdRGC
-  wikiUrl: https://lethal.wiki/
+  - platform: "steam"
+    identifier: "1966720"
 r2modman:
-  internalFolderName: LethalCompany
-  dataFolderName: Lethal Company_Data
-  settingsIdentifier: LethalCompany
-  packageIndex: https://thunderstore.io/c/lethal-company/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Lethal Company
+  internalFolderName: "LethalCompany"
+  dataFolderName: "Lethal Company_Data"
+  settingsIdentifier: "LethalCompany"
+  packageIndex: "https://thunderstore.io/c/lethal-company/api/v1/package-listing-index/"
+  steamFolderName: "Lethal Company"
   exeNames:
-  - Lethal Company.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Lethal Company.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - lc
-  packageLoader: bepinex
+    - "lc"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

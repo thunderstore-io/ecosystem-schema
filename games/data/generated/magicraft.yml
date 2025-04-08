@@ -1,73 +1,49 @@
-uuid: 66fb57a2-670d-4dc2-be6e-765db764866d
-label: magicraft
+uuid: "66fb57a2-670d-4dc2-be6e-765db764866d"
+label: "magicraft"
 meta:
-  displayName: Magicraft
-  iconUrl: Magicraft.png
+  displayName: "Magicraft"
+  iconUrl: "Magicraft.png"
 distributions:
-- platform: steam
-  identifier: '2103140'
-thunderstore:
-  displayName: Magicraft
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
+  - platform: "steam"
+    identifier: "2103140"
 r2modman:
-  internalFolderName: Magicraft
-  dataFolderName: Magicraft_Data
-  settingsIdentifier: Magicraft
-  packageIndex: https://thunderstore.io/c/magicraft/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Magicraft
+  internalFolderName: "Magicraft"
+  dataFolderName: "Magicraft_Data"
+  settingsIdentifier: "Magicraft"
+  packageIndex: "https://thunderstore.io/c/magicraft/api/v1/package-listing-index/"
+  steamFolderName: "Magicraft"
   exeNames:
-  - Magicraft.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Magicraft.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings: []
-  packageLoader: bepinex
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

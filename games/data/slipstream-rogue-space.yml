@@ -2,7 +2,6 @@ uuid: "d3011931-87a2-4084-92d2-f653f2ef07b6"
 label: "slipstream-rogue-space"
 meta:
   displayName: "Slipstream: Rogue Space"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Slipstream: Rogue Space"

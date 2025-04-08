@@ -1,80 +1,50 @@
-uuid: fe739984-0340-4004-885c-a831baee3952
-label: another-crabs-treasure
+uuid: "fe739984-0340-4004-885c-a831baee3952"
+label: "another-crabs-treasure"
 meta:
-  displayName: Another Crab's Treasure
-  iconUrl: AnotherCrabsTreasure.png
+  displayName: "Another Crab's Treasure"
+  iconUrl: "AnotherCrabsTreasure.png"
 distributions:
-- platform: steam
-  identifier: '1887840'
-thunderstore:
-  displayName: Another Crab's Treasure
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-    speedrunning:
-      label: Speedrunning
-    cosmetic:
-      label: Cosmetic
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  wikiUrl: https://another-crabs-treasure.fandom.com/wiki/Another_Crab's_Treasure_Wiki
-  discordUrl: https://discord.gg/eHw4CJbAks
+  - platform: "steam"
+    identifier: "1887840"
 r2modman:
-  internalFolderName: AnotherCrabsTreasure
-  dataFolderName: AnotherCrabsTreasure_Data
-  settingsIdentifier: AnotherCrabsTreasure
-  packageIndex: https://thunderstore.io/c/another-crabs-treasure/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: AnotherCrabsTreasure
+  internalFolderName: "AnotherCrabsTreasure"
+  dataFolderName: "AnotherCrabsTreasure_Data"
+  settingsIdentifier: "AnotherCrabsTreasure"
+  packageIndex: "https://thunderstore.io/c/another-crabs-treasure/api/v1/package-listing-index/"
+  steamFolderName: "AnotherCrabsTreasure"
   exeNames:
-  - AnotherCrabsTreasure.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "AnotherCrabsTreasure.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - act
-  packageLoader: bepinex
+    - "act"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

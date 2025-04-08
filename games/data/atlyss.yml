@@ -2,7 +2,6 @@ uuid: "0b5d044e-7f08-411a-af50-40119a401460"
 label: "atlyss"
 meta:
   displayName: "ATLYSS"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "ATLYSS"
