@@ -1,6 +1,5 @@
 {
   "name": "@thunderstore/games",
-  "type": "module",
   "version": "0.1.0",
   "description": "Index of Thunderstore supported games",
   "main": "index.js",
@@ -16,7 +15,8 @@
     "add": "tsx ./src/scripts/add.ts",
     "deploy": "tsx ./src/scripts/deploy.ts",
     "validate": "tsx ./src/scripts/validate.ts",
-    "diff": "tsx ./src/scripts/diff.ts"
+    "diff": "tsx ./src/scripts/diff.ts",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.0.1",
@@ -27,10 +27,10 @@
     "js-yaml": "^4.1.0",
     "json-diff-kit": "^1.0.31",
     "lodash": "^4.17.21",
-    "tsx": "^4.7.2",
-    "typescript": "^4.8.3",
+    "tsx": "4.19.3",
+    "typescript": "5.5",
     "uuid": "^9.0.0",
-    "zod": "^3.23.4"
+    "zod": "3.24.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.196"

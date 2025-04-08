@@ -2,8 +2,19 @@ export type ModmanTrackingMethod =
   | "state"
   | "subdir"
   | "subdir-no-flatten"
+  | "package-zip"
   | null;
-export type ModmanPackageLoader = "bepinex" | "melonloader" | "northstar";
+export type ModmanPackageLoader =
+  | "bepinex"
+  | "melonloader"
+  | "northstar"
+  | "godot"
+  | "ancient-dungeon-vr"
+  | "shimloader"
+  | "lovely"
+  | "return-of-modding"
+  | "gdweave"
+  | "melonloader-recursive";
 
 export type DistributionPlatform =
   | "steam"
@@ -39,12 +50,12 @@ export interface GameModmanDefinition {
   dataFolderName: string;
   settingsIdentifier: string;
   packageIndex: string;
-  exclusionsUrl: string;
+  // exclusionsUrl: string;
   steamFolderName: string;
   exeNames: string[];
   gameInstancetype: "game" | "server";
   gameSelectionDisplayMode: "visible" | "hidden";
-  modLoaderPackages: ModmanModLoaderPackage[];
+  // modLoaderPackages: ModmanModLoaderPackage[];
   installRules: ModmanInstallRule[];
   relativeFileExclusions?: string[];
 }

@@ -1,5 +1,6 @@
 import { z } from "zod";
-import { isAutolistPackageValid } from "./autolistPackages";
+
+import { isAutolistPackageValid } from "./autolistPackages.js";
 
 const slug = z.string().regex(new RegExp(/^[a-z0-9](-?[a-z0-9])*$/));
 
@@ -26,28 +27,27 @@ const communitySchema = z.strictObject({
 
 export type CommunitySchemaType = z.infer<typeof communitySchema>;
 
-export const ecosystemJsonSchema = z.strictObject({
-  schemaVersion: z.string(),
-  games: z.record(
-    z.string(),
+const gameSchema = z.strictObject({
+  uuid: z.string().uuid(),
+  label: slug,
+  meta: z.strictObject({
+    displayName: z.string(),
+    iconUrl: z.string().nullable(),
+  }),
+  distributions: z.array(
     z.strictObject({
-      uuid: z.string().uuid(),
-      label: slug,
-      meta: z.strictObject({
-        displayName: z.string(),
-        iconUrl: z.string().nullable(),
-      }),
-      distributions: z.array(
-        z.strictObject({
-          platform: z.string(),
-          identifier: z.string().optional().nullable(),
-        })
-      ),
-      thunderstore: communitySchema.optional(),
-      tcli: z.object({}).optional(), // TODO: Use strict object with schema
-      r2modman: z.object({}).optional(), // TODO: Use strict object with schema
+      platform: z.string(),
+      identifier: z.string().optional().nullable(),
     })
   ),
+  thunderstore: communitySchema.optional(),
+  tcli: z.object({}).optional(), // TODO: Use strict object with schema
+  r2modman: z.object({}).optional(), // TODO: Use strict object with schema
+});
+
+export const ecosystemJsonSchema = z.strictObject({
+  schemaVersion: z.string(),
+  games: z.record(z.string(), gameSchema),
   communities: z.record(slug, communitySchema),
   packageInstallers: z.record(
     slug,

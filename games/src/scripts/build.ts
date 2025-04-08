@@ -1,5 +1,5 @@
 import fs from "fs";
-import { buildSchemaJson } from "../schema/builder";
+import { buildSchemaJson } from "../schema/builder.js";
 
 function runBuildCommand() {
   const outdir = "./dist";

@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as yaml from "js-yaml";
-import { GameDefinition, PackageInstallerDefinition } from "./models";
+import { GameDefinition, PackageInstallerDefinition } from "./models.js";
 import { lstatSync } from "fs";
 
 function loadYamlFromDir<T>(path: string) {
