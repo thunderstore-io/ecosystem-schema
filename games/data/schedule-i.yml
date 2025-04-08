@@ -23,7 +23,15 @@ thunderstore:
       label: "Audio"
     mono:
       label: "Mono"
+    il2cpp:
+      label: "IL2CPP"
   sections:
+    mono-mods:
+      name: "Mono Mods"
+      requireCategories:
+        - "mono"
+      excludeCategories:
+        - "modpacks"
     mods:
       name: "Mods"
       excludeCategories:
@@ -32,17 +40,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-    mono-mods:
-      name: "Mono Mods"
-      requireCategories:
-        - "mono"
-      excludeCategories:
-        - "modpacks"
-    mono-modpacks:
-      name: "Mono Modpacks"
-      requireCategories:
-        - "modpacks"
-        - "mono"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
   discordUrl: "https://discord.gg/9Z5RKEYSzq"
