@@ -1,58 +1,58 @@
-uuid: 429bb8b1-7bb0-409f-a1f2-73357298e651
-label: h3vr
+uuid: "429bb8b1-7bb0-409f-a1f2-73357298e651"
+label: "h3vr"
 meta:
-  displayName: H3VR
-  iconUrl: H3VR.png
+  displayName: "H3VR"
+  iconUrl: "H3VR.png"
 distributions:
-- platform: steam
-  identifier: '450540'
+  - platform: "steam"
+    identifier: "450540"
 r2modman:
-  internalFolderName: H3VR
-  dataFolderName: h3vr_Data
-  settingsIdentifier: H3VR
-  packageIndex: https://thunderstore.io/c/h3vr/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: H3VR
+  internalFolderName: "H3VR"
+  dataFolderName: "h3vr_Data"
+  settingsIdentifier: "H3VR"
+  packageIndex: "https://thunderstore.io/c/h3vr/api/v1/package-listing-index/"
+  steamFolderName: "H3VR"
   exeNames:
-  - h3vr.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "h3vr.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - Hot Dogs, Horseshoes & Hand Grenades
-  - Hot Dogs, Horseshoes and Hand Grenades
-  packageLoader: bepinex
+    - "Hot Dogs, Horseshoes & Hand Grenades"
+    - "Hot Dogs, Horseshoes and Hand Grenades"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/Sideloader
-    defaultFileExtensions:
-    - .hotmod
-    - .h3mod
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/Sideloader"
+      defaultFileExtensions:
+        - ".hotmod"
+        - ".h3mod"
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

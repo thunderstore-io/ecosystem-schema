@@ -2,7 +2,6 @@ uuid: "5087bfff-b7c0-44ac-9870-f10624e367d1"
 label: "the-ouroboros-king"
 meta:
   displayName: "The Ouroboros King"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "The Ouroboros King"

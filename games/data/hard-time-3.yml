@@ -2,7 +2,6 @@ uuid: "c3892224-6958-4e07-a6b5-61c60a48ec3a"
 label: "hard-time-3"
 meta:
   displayName: "Hard Time III"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Hard Time III"

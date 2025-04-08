@@ -41,7 +41,7 @@ async function runAddCommand() {
     label: identifier,
     meta: {
       displayName,
-      iconUrl: "None",
+      // iconUrl: "None", // TODO: Add support for media assets
     },
     distributions: [],
     // TODO: Enable once consumers implemented

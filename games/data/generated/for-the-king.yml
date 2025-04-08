@@ -1,52 +1,52 @@
-uuid: 4d8ab61e-eb93-4fab-b076-b73ae450b73f
-label: for-the-king
+uuid: "4d8ab61e-eb93-4fab-b076-b73ae450b73f"
+label: "for-the-king"
 meta:
-  displayName: For The King
-  iconUrl: ForTheKing.png
+  displayName: "For The King"
+  iconUrl: "ForTheKing.png"
 distributions:
-- platform: steam
-  identifier: '527230'
-- platform: epic-games-store
-  identifier: Discus
+  - platform: "steam"
+    identifier: "527230"
+  - platform: "epic-games-store"
+    identifier: "Discus"
 r2modman:
-  internalFolderName: ForTheKing
-  dataFolderName: FTK_Data
-  settingsIdentifier: ForTheKing
-  packageIndex: https://thunderstore.io/c/for-the-king/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: For The King
+  internalFolderName: "ForTheKing"
+  dataFolderName: "FTK_Data"
+  settingsIdentifier: "ForTheKing"
+  packageIndex: "https://thunderstore.io/c/for-the-king/api/v1/package-listing-index/"
+  steamFolderName: "For The King"
   exeNames:
-  - FTK.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "FTK.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ftk
-  packageLoader: bepinex
+    - "ftk"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

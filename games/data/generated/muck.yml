@@ -1,50 +1,50 @@
-uuid: 17034141-3fc6-497e-bd71-d6bd61cf55a5
-label: muck
+uuid: "17034141-3fc6-497e-bd71-d6bd61cf55a5"
+label: "muck"
 meta:
-  displayName: Muck
-  iconUrl: Muck.png
+  displayName: "Muck"
+  iconUrl: "Muck.png"
 distributions:
-- platform: steam
-  identifier: '1625450'
+  - platform: "steam"
+    identifier: "1625450"
 r2modman:
-  internalFolderName: Muck
-  dataFolderName: Muck_Data
-  settingsIdentifier: Muck
-  packageIndex: https://thunderstore.io/c/muck/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Muck
+  internalFolderName: "Muck"
+  dataFolderName: "Muck_Data"
+  settingsIdentifier: "Muck"
+  packageIndex: "https://thunderstore.io/c/muck/api/v1/package-listing-index/"
+  steamFolderName: "Muck"
   exeNames:
-  - Muck.exe
-  - Muck.x86_64
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Muck.exe"
+    - "Muck.x86_64"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings: []
-  packageLoader: bepinex
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

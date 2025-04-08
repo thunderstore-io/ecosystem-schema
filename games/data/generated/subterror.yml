@@ -1,0 +1,50 @@
+uuid: "a5754c79-d267-4ec1-8f5c-9f0c5b38348d"
+label: "subterror"
+meta:
+  displayName: "Subterror"
+  iconUrl: "Subterror.png"
+distributions:
+  - platform: "steam"
+    identifier: "2846060"
+r2modman:
+  internalFolderName: "Subterror"
+  dataFolderName: "Subterror_Data"
+  settingsIdentifier: "Subterror"
+  packageIndex: "https://thunderstore.io/c/subterror/api/v1/package-listing-index/"
+  steamFolderName: "Subterror"
+  exeNames:
+    - "Subterror.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
+  additionalSearchStrings:
+    - "st"
+  packageLoader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

@@ -1,62 +1,66 @@
-uuid: 2bc64650-f8fa-424a-9ee2-53bef8041681
-label: hard-bullet
+uuid: "2bc64650-f8fa-424a-9ee2-53bef8041681"
+label: "hard-bullet"
 meta:
-  displayName: Hard Bullet
-  iconUrl: HardBullet.jpg
+  displayName: "Hard Bullet"
+  iconUrl: "HardBullet.jpg"
 distributions:
-- platform: steam
-  identifier: '1294760'
+  - platform: "steam"
+    identifier: "1294760"
 r2modman:
-  internalFolderName: HardBullet
-  dataFolderName: Hard Bullet_Data
-  settingsIdentifier: HardBullet
-  packageIndex: https://thunderstore.io/c/hard-bullet/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Hard Bullet
+  internalFolderName: "HardBullet"
+  dataFolderName: "Hard Bullet_Data"
+  settingsIdentifier: "HardBullet"
+  packageIndex: "https://thunderstore.io/c/hard-bullet/api/v1/package-listing-index/"
+  steamFolderName: "Hard Bullet"
   exeNames:
-  - Hard Bullet.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Hard Bullet.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - hb
-  packageLoader: melonloader
+    - "hb"
+  packageLoader: "melonloader"
   installRules:
-  - route: Mods
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: UserData/ModManager
-    defaultFileExtensions: []
-    trackingMethod: subdir-no-flatten
-    subRoutes: []
-    isDefaultLocation: true
-  - route: UserLibs
-    defaultFileExtensions:
-    - .lib.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: MelonLoader
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: Managed
+    - route: "Mods"
       defaultFileExtensions:
-      - .managed.dll
-      trackingMethod: state
+        - ".dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    - route: Libs
+    - route: "UserData/ModManager"
       defaultFileExtensions: []
-      trackingMethod: state
+      trackingMethod: "subdir-no-flatten"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "UserLibs"
+      defaultFileExtensions:
+        - ".lib.dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    isDefaultLocation: false
-  - route: UserData/CustomNPCs
-    defaultFileExtensions:
-    - .npc
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "MelonLoader"
+      defaultFileExtensions: []
+      trackingMethod: "state"
+      subRoutes:
+        - route: "Managed"
+          defaultFileExtensions:
+            - ".managed.dll"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Libs"
+          defaultFileExtensions: []
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+      isDefaultLocation: false
+    - route: "UserData/CustomNPCs"
+      defaultFileExtensions:
+        - ".npc"
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"
+    - "LICENCE"

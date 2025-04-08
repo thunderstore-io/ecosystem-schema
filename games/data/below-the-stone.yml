@@ -2,7 +2,6 @@ uuid: "2e133e49-b1c0-4e72-81fe-2ce070ce912e"
 label: "below-the-stone"
 meta:
   displayName: "Below the Stone"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Below the Stone"

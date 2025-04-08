@@ -2,7 +2,6 @@ uuid: "9004c7ca-cf7f-4adc-a184-1b6d4cc45eae"
 label: "sons-of-the-forest"
 meta:
   displayName: "Sons Of The Forest"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Sons Of The Forest"

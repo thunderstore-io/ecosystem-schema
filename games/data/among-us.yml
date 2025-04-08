@@ -2,7 +2,6 @@ uuid: "ede82780-6c91-4403-b444-1f4c279e784c"
 label: "among-us"
 meta:
   displayName: "Among Us"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Among Us"

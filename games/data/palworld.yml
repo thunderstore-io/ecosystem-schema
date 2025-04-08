@@ -2,7 +2,6 @@ uuid: "60b24eb2-791f-43bf-91da-f19139f6738f"
 label: "palworld"
 meta:
   displayName: "Palworld"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Palworld"

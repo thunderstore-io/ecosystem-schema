@@ -2,7 +2,6 @@ uuid: "2ece1ef1-88cd-4b95-8e41-ef43f5f7fc80"
 label: "goodbye-volcano-high"
 meta:
   displayName: "Goodbye Volcano High"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Goodbye Volcano High"

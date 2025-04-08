@@ -1,80 +1,59 @@
-uuid: 16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e
-label: rumble
+uuid: "16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e"
+label: "rumble"
 meta:
-  displayName: RUMBLE
-  iconUrl: RUMBLE.png
+  displayName: "RUMBLE"
+  iconUrl: "RUMBLE.png"
 distributions:
-- platform: steam
-  identifier: '890550'
-thunderstore:
-  displayName: RUMBLE
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    audio:
-      label: Audio
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/nEheqYkXvA
+  - platform: "steam"
+    identifier: "890550"
 r2modman:
-  internalFolderName: RUMBLE
-  dataFolderName: RUMBLE_Data
-  settingsIdentifier: RUMBLE
-  packageIndex: https://thunderstore.io/c/rumble/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: RUMBLE
+  internalFolderName: "RUMBLE"
+  dataFolderName: "RUMBLE_Data"
+  settingsIdentifier: "RUMBLE"
+  packageIndex: "https://thunderstore.io/c/rumble/api/v1/package-listing-index/"
+  steamFolderName: "RUMBLE"
   exeNames:
-  - RUMBLE.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "RUMBLE.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings: []
-  packageLoader: melonloader
+  packageLoader: "melonloader"
   installRules:
-  - route: Mods
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: UserData/ModManager
-    defaultFileExtensions: []
-    trackingMethod: subdir-no-flatten
-    subRoutes: []
-    isDefaultLocation: true
-  - route: UserLibs
-    defaultFileExtensions:
-    - .lib.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: MelonLoader
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: Managed
+    - route: "Mods"
       defaultFileExtensions:
-      - .managed.dll
-      trackingMethod: state
+        - ".dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    - route: Libs
+    - route: "UserData/ModManager"
       defaultFileExtensions: []
-      trackingMethod: state
+      trackingMethod: "subdir-no-flatten"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "UserLibs"
+      defaultFileExtensions:
+        - ".lib.dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    isDefaultLocation: false
+    - route: "MelonLoader"
+      defaultFileExtensions: []
+      trackingMethod: "state"
+      subRoutes:
+        - route: "Managed"
+          defaultFileExtensions:
+            - ".managed.dll"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Libs"
+          defaultFileExtensions: []
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+      isDefaultLocation: false
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"
+    - "LICENCE"

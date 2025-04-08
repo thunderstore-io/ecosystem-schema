@@ -1,75 +1,50 @@
-uuid: 0e914579-c6f4-4824-9920-618a668eb599
-label: screw-drivers
+uuid: "0e914579-c6f4-4824-9920-618a668eb599"
+label: "screw-drivers"
 meta:
-  displayName: Screw Drivers
-  iconUrl: ScrewDrivers.png
+  displayName: "Screw Drivers"
+  iconUrl: "ScrewDrivers.png"
 distributions:
-- platform: steam
-  identifier: '1279510'
-thunderstore:
-  displayName: Screw Drivers
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/screwdrivers
+  - platform: "steam"
+    identifier: "1279510"
 r2modman:
-  internalFolderName: ScrewDrivers
-  dataFolderName: Screw Drivers_Data
-  settingsIdentifier: ScrewDrivers
-  packageIndex: https://thunderstore.io/c/screw-drivers/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Screw Drivers
+  internalFolderName: "ScrewDrivers"
+  dataFolderName: "Screw Drivers_Data"
+  settingsIdentifier: "ScrewDrivers"
+  packageIndex: "https://thunderstore.io/c/screw-drivers/api/v1/package-listing-index/"
+  steamFolderName: "Screw Drivers"
   exeNames:
-  - Screw Drivers.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Screw Drivers.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ''
-  packageLoader: bepinex
+    - ""
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

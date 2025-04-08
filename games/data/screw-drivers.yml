@@ -2,7 +2,6 @@ uuid: "0e914579-c6f4-4824-9920-618a668eb599"
 label: "screw-drivers"
 meta:
   displayName: "Screw Drivers"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Screw Drivers"

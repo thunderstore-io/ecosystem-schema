@@ -1,48 +1,25 @@
-uuid: 98d80ee3-5a6e-4c15-a433-ab70200a0b90
-label: hades-ii
+uuid: "98d80ee3-5a6e-4c15-a433-ab70200a0b90"
+label: "hades-ii"
 meta:
-  displayName: Hades 2
-  iconUrl: Hades2.png
+  displayName: "Hades II"
+  iconUrl: "Hades2.png"
 distributions:
-- platform: steam
-  identifier: '1145350'
-thunderstore:
-  displayName: Hades 2
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.com/invite/KuMbyrN
+  - platform: "steam"
+    identifier: "1145350"
+  - platform: "epic-games-store"
+    identifier: "07c634c7291a49b5b2455e14b9a83950"
 r2modman:
-  internalFolderName: HadesII
-  dataFolderName: ''
-  settingsIdentifier: HadesII
-  packageIndex: https://thunderstore.io/c/hades-ii/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Hades II/Ship
+  internalFolderName: "HadesII"
+  dataFolderName: ""
+  settingsIdentifier: "HadesII"
+  packageIndex: "https://thunderstore.io/c/hades-ii/api/v1/package-listing-index/"
+  steamFolderName: "Hades II/Ship"
   exeNames:
-  - Hades2.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Hades2.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - h2
-  packageLoader: returnofmodding
+    - "h2"
+  packageLoader: "returnofmodding"
   installRules: []
+  relativeFileExclusions: null

@@ -3,12 +3,12 @@ export type ModmanTrackingMethod =
   | "subdir"
   | "subdir-no-flatten"
   | "package-zip"
-  | null;
+  | "none";
 export type ModmanPackageLoader =
   | "bepinex"
   | "melonloader"
   | "northstar"
-  | "godot"
+  | "godotml"
   | "ancient-dungeon-vr"
   | "shimloader"
   | "lovely"
@@ -19,7 +19,7 @@ export type ModmanPackageLoader =
 export type DistributionPlatform =
   | "steam"
   | "steam-direct"
-  | "egs"
+  | "epic-games-store"
   | "oculus"
   | "origin"
   | "xbox-game-pass"
@@ -29,7 +29,7 @@ export type DisplayType = "visible" | "hidden";
 
 export interface GameDistributionDefinition {
   platform: DistributionPlatform;
-  identifier?: string;
+  identifier: string | null;
 }
 
 export interface ModmanModLoaderPackage {
@@ -40,7 +40,7 @@ export interface ModmanModLoaderPackage {
 export interface ModmanInstallRule {
   route: string;
   trackingMethod: ModmanTrackingMethod;
-  children?: ModmanInstallRule[];
+  subRoutes?: ModmanInstallRule[];
   defaultFileExtensions?: string[];
   isDefaultLocation?: boolean;
 }
@@ -53,11 +53,11 @@ export interface GameModmanDefinition {
   // exclusionsUrl: string;
   steamFolderName: string;
   exeNames: string[];
-  gameInstancetype: "game" | "server";
+  gameInstanceType: "game" | "server";
   gameSelectionDisplayMode: "visible" | "hidden";
   // modLoaderPackages: ModmanModLoaderPackage[];
   installRules: ModmanInstallRule[];
-  relativeFileExclusions?: string[];
+  relativeFileExclusions: string[] | null;
 }
 
 export interface ThunderstoreCommunityDefinition {
@@ -81,10 +81,10 @@ export interface GameDefinition {
   label: string;
   meta: {
     displayName: string;
-    iconUrl: string;
+    iconUrl?: string | null;
   };
   distributions?: GameDistributionDefinition[];
-  r2modman?: GameModmanDefinition;
+  r2modman?: GameModmanDefinition | null;
   thunderstore?: ThunderstoreCommunityDefinition;
 }
 

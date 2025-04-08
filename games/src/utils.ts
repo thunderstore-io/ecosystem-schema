@@ -21,7 +21,7 @@ export function convertPlatform(platform: StorePlatform): DistributionPlatform {
     case StorePlatform.STEAM_DIRECT:
       return "steam-direct";
     case StorePlatform.EPIC_GAMES_STORE:
-      return "egs";
+      return "epic-games-store";
     case StorePlatform.OCULUS_STORE:
       return "oculus";
     case StorePlatform.ORIGIN:
@@ -68,16 +68,16 @@ export function convertInstallRule(
 ): ModmanInstallRule {
   return {
     route: installRule.route.split("\\").join("/"),
-    trackingMethod: convertTrackingMethod(installRule.trackingMethod),
-    children:
-      installRule.subRoutes.length > 0
-        ? installRule.subRoutes.map(convertInstallRule)
-        : undefined,
     defaultFileExtensions:
       installRule.defaultFileExtensions.length > 0
         ? installRule.defaultFileExtensions
-        : undefined,
-    isDefaultLocation: installRule.isDefaultLocation,
+        : [],
+    trackingMethod: convertTrackingMethod(installRule.trackingMethod),
+    subRoutes:
+      installRule.subRoutes.length > 0
+        ? installRule.subRoutes.map(convertInstallRule)
+        : [],
+    isDefaultLocation: installRule.isDefaultLocation ?? false,
   };
 }
 
@@ -88,7 +88,7 @@ export function convertTrackingMethod(
     case "SUBDIR":
       return "subdir";
     case "NONE":
-      return null;
+      return "none";
     case "STATE":
       return "state";
     case "SUBDIR_NO_FLATTEN":
@@ -109,7 +109,7 @@ export function convertPackageLoader(
     case PackageLoader.NORTHSTAR:
       return "northstar";
     case PackageLoader.GODOT_ML:
-      return "godot";
+      return "godotml";
     case PackageLoader.ANCIENT_DUNGEON_VR:
       return "ancient-dungeon-vr";
     case PackageLoader.SHIMLOADER:

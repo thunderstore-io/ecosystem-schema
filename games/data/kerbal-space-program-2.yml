@@ -2,7 +2,6 @@ uuid: "a7b6e172-b2f7-48f7-ae4f-bf90c76aa8c5"
 label: "kerbal-space-program-2"
 meta:
   displayName: "Kerbal Space Program 2"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Kerbal Space Program 2"

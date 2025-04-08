@@ -1,76 +1,50 @@
-uuid: 3905c63a-17b6-4f57-aae5-adfeb6697196
-label: against-the-storm
+uuid: "3905c63a-17b6-4f57-aae5-adfeb6697196"
+label: "against-the-storm"
 meta:
-  displayName: Against the Storm
-  iconUrl: AgainstTheStorm.png
+  displayName: "Against the Storm"
+  iconUrl: "AgainstTheStorm.png"
 distributions:
-- platform: steam
-  identifier: '1336490'
-thunderstore:
-  displayName: Against the Storm
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    audio:
-      label: Audio
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  wikiUrl: https://hoodedhorse.com/wiki/Against_the_Storm/Modding
-  discordUrl: https://discord.gg/fn8tJqKTCQ
+  - platform: "steam"
+    identifier: "1336490"
 r2modman:
-  internalFolderName: AgainstTheStorm
-  dataFolderName: Against the Storm_Data
-  settingsIdentifier: AgainstTheStorm
-  packageIndex: https://thunderstore.io/c/against-the-storm/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Against the Storm
+  internalFolderName: "AgainstTheStorm"
+  dataFolderName: "Against the Storm_Data"
+  settingsIdentifier: "AgainstTheStorm"
+  packageIndex: "https://thunderstore.io/c/against-the-storm/api/v1/package-listing-index/"
+  steamFolderName: "Against the Storm"
   exeNames:
-  - Against the Storm.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Against the Storm.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ats
-  packageLoader: bepinex
+    - "ats"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

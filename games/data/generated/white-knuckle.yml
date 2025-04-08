@@ -1,0 +1,50 @@
+uuid: "86e03bd3-56c2-4cea-b471-fedde6069a68"
+label: "white-knuckle"
+meta:
+  displayName: "White Knuckle"
+  iconUrl: "WhiteKnuckle.png"
+distributions:
+  - platform: "steam"
+    identifier: "3195790"
+r2modman:
+  internalFolderName: "WhiteKnuckle"
+  dataFolderName: "White Knuckle_Data"
+  settingsIdentifier: "WhiteKnuckle"
+  packageIndex: "https://thunderstore.io/c/white-knuckle/api/v1/package-listing-index/"
+  steamFolderName: "White Knuckle Demo"
+  exeNames:
+    - "White Knuckle.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
+  additionalSearchStrings:
+    - "wk"
+  packageLoader: "bepinex"
+  installRules:
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

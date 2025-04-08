@@ -1,58 +1,62 @@
-uuid: 3465826f-3754-4681-b3fd-f912bc900c5b
-label: backpack-hero
+uuid: "3465826f-3754-4681-b3fd-f912bc900c5b"
+label: "backpack-hero"
 meta:
-  displayName: Backpack Hero
-  iconUrl: BackpackHero.jpg
+  displayName: "Backpack Hero"
+  iconUrl: "BackpackHero.jpg"
 distributions:
-- platform: steam
-  identifier: '1970580'
+  - platform: "steam"
+    identifier: "1970580"
 r2modman:
-  internalFolderName: BackpackHero
-  dataFolderName: Backpack Hero_Data
-  settingsIdentifier: BackpackHero
-  packageIndex: https://thunderstore.io/c/backpack-hero/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Backpack Hero
+  internalFolderName: "BackpackHero"
+  dataFolderName: "Backpack Hero_Data"
+  settingsIdentifier: "BackpackHero"
+  packageIndex: "https://thunderstore.io/c/backpack-hero/api/v1/package-listing-index/"
+  steamFolderName: "Backpack Hero"
   exeNames:
-  - Backpack Hero.exe
-  - linux.x86_64
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Backpack Hero.exe"
+    - "linux.x86_64"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - bh
-  - farlands
-  packageLoader: melonloader
+    - "bh"
+    - "farlands"
+  packageLoader: "melonloader"
   installRules:
-  - route: Mods
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: UserData/ModManager
-    defaultFileExtensions: []
-    trackingMethod: subdir-no-flatten
-    subRoutes: []
-    isDefaultLocation: true
-  - route: UserLibs
-    defaultFileExtensions:
-    - .lib.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: MelonLoader
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: Managed
+    - route: "Mods"
       defaultFileExtensions:
-      - .managed.dll
-      trackingMethod: state
+        - ".dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    - route: Libs
+    - route: "UserData/ModManager"
       defaultFileExtensions: []
-      trackingMethod: state
+      trackingMethod: "subdir-no-flatten"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "UserLibs"
+      defaultFileExtensions:
+        - ".lib.dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    isDefaultLocation: false
+    - route: "MelonLoader"
+      defaultFileExtensions: []
+      trackingMethod: "state"
+      subRoutes:
+        - route: "Managed"
+          defaultFileExtensions:
+            - ".managed.dll"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Libs"
+          defaultFileExtensions: []
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+      isDefaultLocation: false
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"
+    - "LICENCE"

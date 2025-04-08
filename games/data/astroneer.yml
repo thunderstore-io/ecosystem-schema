@@ -2,7 +2,6 @@ uuid: "43c1b6fb-f9a5-4d25-847f-c3eda4f2bf5a"
 label: "astroneer"
 meta:
   displayName: "Astroneer"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Astroneer"

@@ -2,7 +2,6 @@ uuid: "5dbf02a7-1d75-4016-8b80-34e409c6e7b1"
 label: "gladio-mori"
 meta:
   displayName: "Gladio Mori"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Gladio Mori"

@@ -1,93 +1,50 @@
-uuid: c3892224-6958-4e07-a6b5-61c60a48ec3a
-label: hard-time-3
+uuid: "c3892224-6958-4e07-a6b5-61c60a48ec3a"
+label: "hard-time-3"
 meta:
-  displayName: Hard Time III
-  iconUrl: HardTime3.png
+  displayName: "Hard Time III"
+  iconUrl: "HardTime3.png"
 distributions:
-- platform: steam
-  identifier: '3009850'
-thunderstore:
-  displayName: Hard Time III
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    audio:
-      label: Audio
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-    locations:
-      label: Locations
-    characters:
-      label: Characters
-    costumes:
-      label: Costumes
-    furniture:
-      label: Furniture
-    moves:
-      label: Moves
-    overrides:
-      label: Overrides
-    textures:
-      label: Textures
-    weapons:
-      label: Weapons
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/zWzRCTHMdS
-  autolistPackageIds:
-  - BepInEx-BepInExPack
+  - platform: "steam"
+    identifier: "3009850"
 r2modman:
-  internalFolderName: HardTime3
-  dataFolderName: Hard Time III_Data
-  settingsIdentifier: HardTime3
-  packageIndex: https://thunderstore.io/c/hard-time-3/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Hard Time III
+  internalFolderName: "HardTime3"
+  dataFolderName: "Hard Time III_Data"
+  settingsIdentifier: "HardTime3"
+  packageIndex: "https://thunderstore.io/c/hard-time-3/api/v1/package-listing-index/"
+  steamFolderName: "Hard Time III"
   exeNames:
-  - Hard Time III.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Hard Time III.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ''
-  packageLoader: bepinex
+    - ""
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

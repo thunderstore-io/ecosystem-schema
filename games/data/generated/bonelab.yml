@@ -1,120 +1,124 @@
-uuid: 2d7868bd-6b43-45b6-b587-172d44a11067
-label: bonelab
+uuid: "2d7868bd-6b43-45b6-b587-172d44a11067"
+label: "bonelab"
 meta:
-  displayName: BONELAB
-  iconUrl: BONELAB.jpg
+  displayName: "BONELAB"
+  iconUrl: "BONELAB.jpg"
 distributions:
-- platform: steam
-  identifier: '1592190'
-- platform: oculus
-  identifier: null
+  - platform: "steam"
+    identifier: "1592190"
+  - platform: "oculus"
+    identifier: null
 r2modman:
-  internalFolderName: BONELAB
-  dataFolderName: BONELAB_Steam_Windows64
-  settingsIdentifier: BONELAB
-  packageIndex: https://thunderstore.io/c/bonelab/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: BONELAB
+  internalFolderName: "BONELAB"
+  dataFolderName: "BONELAB_Steam_Windows64"
+  settingsIdentifier: "BONELAB"
+  packageIndex: "https://thunderstore.io/c/bonelab/api/v1/package-listing-index/"
+  steamFolderName: "BONELAB"
   exeNames:
-  - BONELAB_Steam_Windows64.exe
-  - BONELAB_Oculus_Windows64.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "BONELAB_Steam_Windows64.exe"
+    - "BONELAB_Oculus_Windows64.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - BL
-  packageLoader: melonloader
+    - "BL"
+  packageLoader: "melonloader"
   installRules:
-  - route: Mods
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: true
-  - route: Plugins
-    defaultFileExtensions:
-    - .plugin.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: UserLibs
-    defaultFileExtensions:
-    - .lib.dll
-    trackingMethod: state
-    subRoutes: []
-    isDefaultLocation: false
-  - route: MelonLoader
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: Managed
+    - route: "Mods"
       defaultFileExtensions:
-      - .managed.dll
-      trackingMethod: state
+        - ".dll"
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "Plugins"
+      defaultFileExtensions:
+        - ".plugin.dll"
+      trackingMethod: "state"
       subRoutes: []
       isDefaultLocation: false
-    - route: Libs
+    - route: "UserLibs"
+      defaultFileExtensions:
+        - ".lib.dll"
+      trackingMethod: "state"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "MelonLoader"
       defaultFileExtensions: []
-      trackingMethod: state
-      subRoutes: []
+      trackingMethod: "state"
+      subRoutes:
+        - route: "Managed"
+          defaultFileExtensions:
+            - ".managed.dll"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Libs"
+          defaultFileExtensions: []
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
       isDefaultLocation: false
-    isDefaultLocation: false
-  - route: UserData
-    defaultFileExtensions: []
-    trackingMethod: state
-    subRoutes:
-    - route: CustomItems
-      defaultFileExtensions:
-      - .melon
-      trackingMethod: state
-      subRoutes: []
+    - route: "UserData"
+      defaultFileExtensions: []
+      trackingMethod: "state"
+      subRoutes:
+        - route: "CustomItems"
+          defaultFileExtensions:
+            - ".melon"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "CustomMaps"
+          defaultFileExtensions:
+            - ".bcm"
+            - ".cma"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "PlayerModels"
+          defaultFileExtensions:
+            - ".body"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "CustomLoadScreens"
+          defaultFileExtensions:
+            - ".load"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Music"
+          defaultFileExtensions:
+            - ".wav"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Food"
+          defaultFileExtensions:
+            - ".food"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Scoreworks"
+          defaultFileExtensions:
+            - ".sw"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "CustomSkins"
+          defaultFileExtensions:
+            - ".png"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
+        - route: "Grenades"
+          defaultFileExtensions:
+            - ".grenade"
+          trackingMethod: "state"
+          subRoutes: []
+          isDefaultLocation: false
       isDefaultLocation: false
-    - route: CustomMaps
-      defaultFileExtensions:
-      - .bcm
-      - .cma
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: PlayerModels
-      defaultFileExtensions:
-      - .body
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: CustomLoadScreens
-      defaultFileExtensions:
-      - .load
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: Music
-      defaultFileExtensions:
-      - .wav
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: Food
-      defaultFileExtensions:
-      - .food
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: Scoreworks
-      defaultFileExtensions:
-      - .sw
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: CustomSkins
-      defaultFileExtensions:
-      - .png
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    - route: Grenades
-      defaultFileExtensions:
-      - .grenade
-      trackingMethod: state
-      subRoutes: []
-      isDefaultLocation: false
-    isDefaultLocation: false
+  relativeFileExclusions:
+    - "manifest.json"
+    - "icon.png"
+    - "README.md"
+    - "LICENCE"

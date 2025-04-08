@@ -1,57 +1,30 @@
-uuid: 5278952c-a20c-42b9-a93f-9387cd7cfbb9
-label: ancient-dungeon-vr
+uuid: "5278952c-a20c-42b9-a93f-9387cd7cfbb9"
+label: "ancient-dungeon-vr"
 meta:
-  displayName: Ancient Dungeon VR
-  iconUrl: ancient-dungeon-vr.png
+  displayName: "Ancient Dungeon VR"
+  iconUrl: "ancient-dungeon-vr.png"
 distributions:
-- platform: steam
-  identifier: '1125240'
-- platform: oculus
-  identifier: null
-thunderstore:
-  displayName: Ancient Dungeon VR
-  categories:
-    mods:
-      label: Mods
-    modpacks:
-      label: Modpacks
-    weapons:
-      label: Weapons
-    audio:
-      label: Audio
-    tools:
-      label: Tools
-    libraries:
-      label: Libraries
-    misc:
-      label: Misc
-  sections:
-    mods:
-      name: Mods
-      excludeCategories:
-      - modpacks
-    modpacks:
-      name: Modpacks
-      requireCategories:
-      - modpacks
-  discordUrl: https://discord.gg/advr
+  - platform: "steam"
+    identifier: "1125240"
+  - platform: "oculus"
+    identifier: null
 r2modman:
-  internalFolderName: AncientDungeonVR
-  dataFolderName: Ancient_Dungeon_Data
-  settingsIdentifier: AncientDungeonVR
-  packageIndex: https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Ancient Dungeon VR
+  internalFolderName: "AncientDungeonVR"
+  dataFolderName: "Ancient_Dungeon_Data"
+  settingsIdentifier: "AncientDungeonVR"
+  packageIndex: "https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package-listing-index/"
+  steamFolderName: "Ancient Dungeon VR"
   exeNames:
-  - Ancient_Dungeon.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "Ancient_Dungeon.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - adv
-  packageLoader: ancientdungeonvr
+    - "adv"
+  packageLoader: null
   installRules:
-  - route: mods
-    defaultFileExtensions: []
-    trackingMethod: subdir-no-flatten
-    subRoutes: []
-    isDefaultLocation: true
+    - route: "mods"
+      defaultFileExtensions: []
+      trackingMethod: "subdir-no-flatten"
+      subRoutes: []
+      isDefaultLocation: true
+  relativeFileExclusions: null

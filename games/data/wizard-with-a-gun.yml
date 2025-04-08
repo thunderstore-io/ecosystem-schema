@@ -2,7 +2,6 @@ uuid: "646b9aff-b0b4-4a83-a661-4d50d1bb904b"
 label: "wizard-with-a-gun"
 meta:
   displayName: "Wizard with a Gun"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Wizard with a Gun"

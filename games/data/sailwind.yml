@@ -2,7 +2,6 @@ uuid: "45c79671-8676-4e4a-b8d8-63f79ef3fc6d"
 label: "sailwind"
 meta:
   displayName: "Sailwind"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Sailwind"

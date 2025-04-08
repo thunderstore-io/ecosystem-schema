@@ -1,52 +1,52 @@
-uuid: 586c54d1-53ce-4a7a-8466-73204bbd27ba
-label: green-hell-vr
+uuid: "586c54d1-53ce-4a7a-8466-73204bbd27ba"
+label: "green-hell-vr"
 meta:
-  displayName: Green Hell VR
-  iconUrl: GreenHellVR.png
+  displayName: "Green Hell VR"
+  iconUrl: "GreenHellVR.png"
 distributions:
-- platform: steam
-  identifier: '1782330'
-- platform: oculus
-  identifier: null
+  - platform: "steam"
+    identifier: "1782330"
+  - platform: "oculus"
+    identifier: null
 r2modman:
-  internalFolderName: GreenHellVR
-  dataFolderName: GHVR_Data
-  settingsIdentifier: GreenHellVR
-  packageIndex: https://thunderstore.io/c/green-hell-vr/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Green Hell VR
+  internalFolderName: "GreenHellVR"
+  dataFolderName: "GHVR_Data"
+  settingsIdentifier: "GreenHellVR"
+  packageIndex: "https://thunderstore.io/c/green-hell-vr/api/v1/package-listing-index/"
+  steamFolderName: "Green Hell VR"
   exeNames:
-  - GHVR.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
+    - "GHVR.exe"
+  gameInstanceType: "game"
+  gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-  - ghvr
-  packageLoader: bepinex
+    - "ghvr"
+  packageLoader: "bepinex"
   installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
+    - route: "BepInEx/plugins"
+      defaultFileExtensions:
+        - ".dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    - route: "BepInEx/core"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/patchers"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/monomod"
+      defaultFileExtensions:
+        - ".mm.dll"
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: false
+    - route: "BepInEx/config"
+      defaultFileExtensions: []
+      trackingMethod: "none"
+      subRoutes: []
+      isDefaultLocation: false
+  relativeFileExclusions: null

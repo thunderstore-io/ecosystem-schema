@@ -2,7 +2,6 @@ uuid: "d915f79b-330f-425d-bc4f-7f04bf85f7d8"
 label: "monster-train-2"
 meta:
   displayName: "Monster Train 2"
-  iconUrl: "MonsterTrain2.png"
 distributions:
 - platform: steam
   identifier: "3296150"
@@ -34,45 +33,3 @@ thunderstore:
   discordUrl: "https://discord.gg/Rqz4vnGa"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
-r2modman:
-  internalFolderName: MonsterTrain2
-  dataFolderName: MonsterTrain2-Demo_Data
-  settingsIdentifier: MonsterTrain2
-  packageIndex: https://thunderstore.io/c/monster-train-2/api/v1/package-listing-index/
-  exclusionsUrl: https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md
-  steamFolderName: Monster Train 2 Demo
-  exeNames:
-  - MonsterTrain2-Demo.exe
-  gameInstanceType: game
-  gameSelectionDisplayMode: visible
-  additionalSearchStrings:
-  - mt2
-  packageLoader: bepinex
-  installRules:
-  - route: BepInEx/plugins
-    defaultFileExtensions:
-    - .dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: true
-  - route: BepInEx/core
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/patchers
-    defaultFileExtensions: []
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/monomod
-    defaultFileExtensions:
-    - .mm.dll
-    trackingMethod: subdir
-    subRoutes: []
-    isDefaultLocation: false
-  - route: BepInEx/config
-    defaultFileExtensions: []
-    trackingMethod: none
-    subRoutes: []
-    isDefaultLocation: false
