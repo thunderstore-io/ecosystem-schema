@@ -5,6 +5,8 @@ import {
   GameType,
   ModmanInstallRule,
   ModmanModLoaderPackage,
+  ModmanPackageLoader,
+  ModmanPackageLoaderValues,
   ModmanTrackingMethod,
 } from "./models.js";
 import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform.js";
@@ -12,7 +14,6 @@ import { GameSelectionDisplayMode } from "../r2modmanPlus/src/model/game/GameSel
 import { PackageLoader } from "../r2modmanPlus/src/model/installing/PackageLoader.js";
 import { RuleSubtype } from "../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
 import ModLoaderPackageMapping from "../r2modmanPlus/src/model/installing/ModLoaderPackageMapping.js";
-import { PackageInstallerId } from "../r2modmanPlus/src/installers/registry";
 
 export function convertPlatform(platform: StorePlatform): DistributionPlatform {
   switch (platform) {
@@ -100,7 +101,7 @@ export function convertTrackingMethod(
 
 export function convertPackageLoader(
   packageLoader: PackageLoader
-): PackageInstallerId | null {
+): ModmanPackageLoader | null {
   switch (packageLoader) {
     case PackageLoader.BEPINEX:
       return "bepinex";
