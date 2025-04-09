@@ -13,15 +13,10 @@ export const ModmanPackageLoaderValues = [
   "northstar",
   "godotml",
   "shimloader",
-  "shimloader-plugin",
   "lovely",
-  "lovely-plugin",
   "returnofmodding",
-  "returnofmodding-plugin",
   "gdweave",
-  "gdweave-plugin",
   "recursive-melonloader",
-  "recursive-melonloader-plugin",
 ] as const;
 export type ModmanPackageLoader =
   | typeof ModmanPackageLoaderValues[number]
