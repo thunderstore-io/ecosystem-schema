@@ -1,36 +1,48 @@
-export type ModmanTrackingMethod =
-  | "state"
-  | "subdir"
-  | "subdir-no-flatten"
-  | "package-zip"
-  | "none";
-export type ModmanPackageLoader =
-  | null
-  | "bepinex"
-  | "melonloader"
-  | "northstar"
-  | "godotml"
-  | "shimloader"
-  | "shimloader-plugin"
-  | "lovely"
-  | "lovely-plugin"
-  | "returnofmodding"
-  | "returnofmodding-plugin"
-  | "gdweave"
-  | "gdweave-plugin"
-  | "recursive-melonloader"
-  | "recursive-melonloader-plugin";
+export const ModmanTrackingMethodValues = [
+  "state",
+  "subdir",
+  "subdir-no-flatten",
+  "package-zip",
+  "none",
+] as const;
+export type ModmanTrackingMethod = typeof ModmanTrackingMethodValues[number];
 
-export type DistributionPlatform =
-  | "steam"
-  | "steam-direct"
-  | "epic-games-store"
-  | "oculus-store"
-  | "origin"
-  | "xbox-game-pass"
-  | "other";
-export type GameType = "game" | "server";
-export type DisplayType = "visible" | "hidden";
+export const ModmanPackageLoaderValues = [
+  "bepinex",
+  "melonloader",
+  "northstar",
+  "godotml",
+  "shimloader",
+  "shimloader-plugin",
+  "lovely",
+  "lovely-plugin",
+  "returnofmodding",
+  "returnofmodding-plugin",
+  "gdweave",
+  "gdweave-plugin",
+  "recursive-melonloader",
+  "recursive-melonloader-plugin",
+] as const;
+export type ModmanPackageLoader =
+  | typeof ModmanPackageLoaderValues[number]
+  | null;
+
+export const DistributionPlatformValues = [
+  "steam",
+  "steam-direct",
+  "epic-games-store",
+  "oculus-store",
+  "origin",
+  "xbox-game-pass",
+  "other",
+] as const;
+export type DistributionPlatform = typeof DistributionPlatformValues[number];
+
+export const GameTypeValues = ["game", "server"] as const;
+export type GameType = typeof GameTypeValues[number];
+
+export const DisplayTypeValues = ["visible", "hidden"] as const;
+export type DisplayType = typeof DisplayTypeValues[number];
 
 export interface GameDistributionDefinition {
   platform: DistributionPlatform;
@@ -47,7 +59,7 @@ export interface ModmanInstallRule {
   trackingMethod: ModmanTrackingMethod;
   subRoutes?: ModmanInstallRule[];
   defaultFileExtensions?: string[];
-  isDefaultLocation?: boolean;
+  isDefaultLocation: boolean;
 }
 
 export interface GameModmanDefinition {
