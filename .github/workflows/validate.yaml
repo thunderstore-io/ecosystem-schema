@@ -18,5 +18,3 @@ jobs:
         run: "yarn install --frozen-lockfile"
       - name: "Validate & Diff"
         run: "yarn run validate && yarn run diff"
-        env:
-          LATEST_SCHEMA_URL: ${{ vars.LATEST_SCHEMA_URL }}
