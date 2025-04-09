@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1125240"
-  - platform: "oculus"
+  - platform: "oculus-store"
     identifier: null
 r2modman:
   internalFolderName: "AncientDungeonVR"

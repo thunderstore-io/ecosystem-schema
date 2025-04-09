@@ -2,7 +2,6 @@ uuid: "d9fcc60f-1418-44b6-9ea9-15f50e5baf6f"
 label: "songs-of-conquest"
 meta:
   displayName: "Songs of Conquest"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Songs of Conquest"

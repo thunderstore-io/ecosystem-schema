@@ -6,7 +6,7 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1592190"
-  - platform: "oculus"
+  - platform: "oculus-store"
     identifier: null
 r2modman:
   internalFolderName: "BONELAB"

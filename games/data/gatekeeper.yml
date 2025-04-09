@@ -2,7 +2,6 @@ uuid: "6326ec88-399a-4aac-bc1b-6db8f053f515"
 label: "gatekeeper"
 meta:
   displayName: "Gatekeeper"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Gatekeeper"

@@ -1,5 +1,7 @@
 import fs from "fs";
 import { buildSchemaJson } from "../schema/builder.js";
+import { zodToJsonSchema } from "zod-to-json-schema";
+import { ecosystemJsonSchema } from "../schema/validator";
 
 function runBuildCommand() {
   const outdir = "./dist";
@@ -7,8 +9,11 @@ function runBuildCommand() {
     fs.mkdirSync(outdir);
   }
   const result = buildSchemaJson();
-  const jsoned = JSON.stringify(result, undefined, 2);
-  fs.writeFileSync(`${outdir}/latest.json`, jsoned);
+  const toJson = (x: any) => JSON.stringify(x, undefined, 2);
+  fs.writeFileSync(`${outdir}/latest.json`, toJson(result));
+
+  const jsonSchema = zodToJsonSchema(ecosystemJsonSchema, "thunderstore");
+  fs.writeFileSync(`${outdir}/latest.schema.json`, toJson(jsonSchema));
 }
 
 runBuildCommand();

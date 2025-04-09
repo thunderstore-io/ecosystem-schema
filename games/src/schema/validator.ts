@@ -27,6 +27,21 @@ const communitySchema = z.strictObject({
 
 export type CommunitySchemaType = z.infer<typeof communitySchema>;
 
+const r2modmanSchema = z.strictObject({
+  internalFolderName: z.string(),
+  dataFolderName: z.string(),
+  settingsIdentifier: z.string(),
+  packageIndex: z.string(),
+  steamFolderName: z.string(),
+  exeNames: z.array(z.string()),
+  gameInstanceType: z.string(),
+  gameSelectionDisplayMode: z.string(),
+  additionalSearchStrings: z.array(z.string()),
+  packageLoader: z.string().nullable(),
+  installRules: z.array(z.object({}).passthrough()),
+  relativeFileExclusions: z.array(z.string()).nullable(),
+});
+
 const gameSchema = z.strictObject({
   uuid: z.string().uuid(),
   label: slug,
@@ -42,7 +57,7 @@ const gameSchema = z.strictObject({
   ),
   thunderstore: communitySchema.optional(),
   tcli: z.object({}).passthrough().optional(), // TODO: Use strict object with schema
-  r2modman: z.object({}).passthrough().nullable(), // TODO: Use strict object with schema
+  r2modman: r2modmanSchema.nullable(), // TODO: Use strict object with schema
 });
 
 export const ecosystemJsonSchema = z.strictObject({

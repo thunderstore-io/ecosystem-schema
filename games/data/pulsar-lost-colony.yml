@@ -2,7 +2,6 @@ uuid: "d4f457c3-71b1-40c7-87f2-5ed5b0b67ca1"
 label: "pulsar-lost-colony"
 meta:
   displayName: "Pulsar: Lost Colony"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Pulsar: Lost Colony"

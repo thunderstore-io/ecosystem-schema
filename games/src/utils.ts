@@ -5,7 +5,6 @@ import {
   GameType,
   ModmanInstallRule,
   ModmanModLoaderPackage,
-  ModmanPackageLoader,
   ModmanTrackingMethod,
 } from "./models.js";
 import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform.js";
@@ -13,6 +12,7 @@ import { GameSelectionDisplayMode } from "../r2modmanPlus/src/model/game/GameSel
 import { PackageLoader } from "../r2modmanPlus/src/model/installing/PackageLoader.js";
 import { RuleSubtype } from "../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
 import ModLoaderPackageMapping from "../r2modmanPlus/src/model/installing/ModLoaderPackageMapping.js";
+import { PackageInstallerId } from "../r2modmanPlus/src/installers/registry";
 
 export function convertPlatform(platform: StorePlatform): DistributionPlatform {
   switch (platform) {
@@ -23,7 +23,7 @@ export function convertPlatform(platform: StorePlatform): DistributionPlatform {
     case StorePlatform.EPIC_GAMES_STORE:
       return "epic-games-store";
     case StorePlatform.OCULUS_STORE:
-      return "oculus";
+      return "oculus-store";
     case StorePlatform.ORIGIN:
       return "origin";
     case StorePlatform.XBOX_GAME_PASS:
@@ -100,7 +100,7 @@ export function convertTrackingMethod(
 
 export function convertPackageLoader(
   packageLoader: PackageLoader
-): ModmanPackageLoader {
+): PackageInstallerId | null {
   switch (packageLoader) {
     case PackageLoader.BEPINEX:
       return "bepinex";
@@ -111,16 +111,16 @@ export function convertPackageLoader(
     case PackageLoader.GODOT_ML:
       return "godotml";
     case PackageLoader.ANCIENT_DUNGEON_VR:
-      return "ancient-dungeon-vr";
+      return null;
     case PackageLoader.SHIMLOADER:
       return "shimloader";
     case PackageLoader.LOVELY:
       return "lovely";
     case PackageLoader.RETURN_OF_MODDING:
-      return "return-of-modding";
+      return "returnofmodding";
     case PackageLoader.GDWEAVE:
       return "gdweave";
     case PackageLoader.RECURSIVE_MELON_LOADER:
-      return "melonloader-recursive";
+      return "recursive-melonloader";
   }
 }

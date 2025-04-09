@@ -5,22 +5,27 @@ export type ModmanTrackingMethod =
   | "package-zip"
   | "none";
 export type ModmanPackageLoader =
+  | null
   | "bepinex"
   | "melonloader"
   | "northstar"
   | "godotml"
-  | "ancient-dungeon-vr"
   | "shimloader"
+  | "shimloader-plugin"
   | "lovely"
-  | "return-of-modding"
+  | "lovely-plugin"
+  | "returnofmodding"
+  | "returnofmodding-plugin"
   | "gdweave"
-  | "melonloader-recursive";
+  | "gdweave-plugin"
+  | "recursive-melonloader"
+  | "recursive-melonloader-plugin";
 
 export type DistributionPlatform =
   | "steam"
   | "steam-direct"
   | "epic-games-store"
-  | "oculus"
+  | "oculus-store"
   | "origin"
   | "xbox-game-pass"
   | "other";
