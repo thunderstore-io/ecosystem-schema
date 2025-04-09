@@ -12,8 +12,8 @@ import {
 } from "../utils.js";
 import { loadGameDefinitions } from "../load.js";
 import {
+  ALL_MODLOADER_MAPPINGS,
   GAME_NAME,
-  MODLOADER_PACKAGES,
 } from "../../r2modmanPlus/src/r2mm/installing/profile_installers/ModLoaderVariantRecord.js";
 import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator.js";
 import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
@@ -118,7 +118,7 @@ const games: GameDefinition[] = GameManager.gameList
 
 fs.writeFileSync(
   "./misc/modloader-packages.yml",
-  yaml.dump(MODLOADER_PACKAGES.map(convertModLoaderPackageMapping), {
+  yaml.dump(ALL_MODLOADER_MAPPINGS.map(convertModLoaderPackageMapping), {
     quotingType: '"',
     forceQuotes: true,
   })

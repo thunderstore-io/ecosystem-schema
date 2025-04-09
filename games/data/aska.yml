@@ -2,7 +2,6 @@ uuid: "1cc17f22-ca8f-4596-b936-eaa80b300286"
 label: "aska"
 meta:
   displayName: "ASKA"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "ASKA"
