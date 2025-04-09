@@ -1,32 +1,55 @@
 import fs from "fs";
-import { getDeployApiKey, getDeployApiUrl } from "../config.js";
+import {
+  getDeployApiKey,
+  getDeployApiUrl,
+  getDeployUrlForData,
+  getDeployUrlForSchema,
+} from "../config.js";
 import { assertForStatus } from "../utils/requests.js";
 
-async function runDeployCommand() {
-  const outdir = "./dist";
-  if (!fs.existsSync(outdir)) {
-    fs.mkdirSync(outdir);
-  }
-  const filepath = `${outdir}/latest.json`;
+async function doUpload(args: { filepath: string; url: string }) {
+  const { filepath, url } = args;
 
   if (!fs.existsSync(filepath)) {
     throw new Error(`Unable to deploy: no file found at ${filepath}`);
   }
 
-  const apiUrl = getDeployApiUrl();
-
-  const response = await fetch(apiUrl, {
+  const response = await fetch(url, {
     method: "POST",
     body: fs.readFileSync(filepath),
     headers: {
       Authorization: getDeployApiKey(),
     },
   });
-
   await assertForStatus(response);
-
-  console.log("Successfully deployed!");
   console.log(await response.text());
+}
+
+async function runDeployCommand() {
+  const outdir = "./dist";
+  if (!fs.existsSync(outdir)) {
+    fs.mkdirSync(outdir);
+  }
+
+  const dataPath = `${outdir}/latest.json`;
+  const schemaPath = `${outdir}/latest.schema.json`;
+  const uploads = [
+    {
+      filepath: dataPath,
+      url: getDeployApiUrl(),
+    },
+    {
+      filepath: dataPath,
+      url: getDeployUrlForData(),
+    },
+    {
+      filepath: schemaPath,
+      url: getDeployUrlForSchema(),
+    },
+  ].map(doUpload);
+
+  await Promise.all(uploads);
+  console.log("Deployed successfully!");
 }
 
 // TODO: Add await if/when top level await is supported without
