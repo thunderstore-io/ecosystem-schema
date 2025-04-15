@@ -37,7 +37,7 @@ export type CommunitySchemaType = z.infer<typeof communitySchema>;
 const _baseInstallRuleSchema = z.strictObject({
   route: z.string(),
   trackingMethod: z.enum(ModmanTrackingMethodValues),
-  defaultFileExtensions: z.array(z.string()).optional(),
+  defaultFileExtensions: z.array(z.string()),
   isDefaultLocation: z.boolean(),
 });
 type _installRuleSchema = z.infer<typeof _baseInstallRuleSchema> & {
