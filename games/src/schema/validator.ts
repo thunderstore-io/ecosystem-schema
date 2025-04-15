@@ -41,11 +41,11 @@ const _baseInstallRuleSchema = z.strictObject({
   isDefaultLocation: z.boolean(),
 });
 type _installRuleSchema = z.infer<typeof _baseInstallRuleSchema> & {
-  subRoutes?: _installRuleSchema[];
+  subRoutes: _installRuleSchema[];
 };
 const installRuleSchema: z.ZodType<_installRuleSchema> =
   _baseInstallRuleSchema.extend({
-    subRoutes: z.lazy(() => installRuleSchema.array().optional()),
+    subRoutes: z.lazy(() => installRuleSchema.array()),
   });
 
 const r2modmanSchema = z.strictObject({
