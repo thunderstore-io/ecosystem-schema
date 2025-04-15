@@ -1,0 +1,33 @@
+uuid: "52a2dfeb-584a-4c36-ab88-68faf0d10ec1"
+label: "human-fall-flat"
+meta:
+  displayName: "Human Fall Flat"
+  iconUrl: "None"
+distributions: []
+thunderstore:
+  displayName: "Human Fall Flat"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/D7xeGJ6yEm"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
