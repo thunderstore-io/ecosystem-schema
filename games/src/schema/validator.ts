@@ -96,7 +96,7 @@ export const ecosystemJsonSchema = z.strictObject({
     z.strictObject({
       packageId: z.string(),
       rootFolder: z.string(),
-      loader: z.string(),
+      loader: z.enum(ModmanPackageLoaderValues),
     })
   ),
 });
