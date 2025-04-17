@@ -214,6 +214,10 @@
   rootFolder: "BepInExPack"
   variant: bepinex
 
+- identifier: "BepInEx-BepInExPack_Magicite"
+  rootFolder: "BepInExPack_Magicite"
+  variant: bepinex
+
 - identifier: "0xFFF7-votv_shimloader"
   rootFolder: ""
   variant: shimloader
