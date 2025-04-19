@@ -52,3 +52,4 @@ thunderstore:
   autolistPackageIds:
     - "BepInEx-BepInExPack"
   discordUrl: "https://discord.gg/vPJtKhYAFe"
+  wikiUrl: "https://repomods.com/"
