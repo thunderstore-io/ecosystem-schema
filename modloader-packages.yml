@@ -218,6 +218,10 @@
   rootFolder: "BepInExPack_Magicite"
   variant: bepinex
 
+- identifier: "BepInEx-BepInExPack_HumanFallFlat"
+  rootFolder: "BepInExPack_HumanFallFlat"
+  variant: bepinex
+
 - identifier: "0xFFF7-votv_shimloader"
   rootFolder: ""
   variant: shimloader
