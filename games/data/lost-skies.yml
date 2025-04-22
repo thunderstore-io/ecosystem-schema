@@ -1,0 +1,32 @@
+uuid: "0814ff73-fa5d-4d32-9248-57259fd43f9d"
+label: "lost-skies"
+meta:
+  displayName: "Lost Skies"
+distributions: []
+thunderstore:
+  displayName: "Lost Skies"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/zVXAPcHqDV"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
