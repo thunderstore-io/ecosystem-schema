@@ -1,0 +1,33 @@
+uuid: "8d60a159-96e3-45b5-acf4-b2ebe356d1dd"
+label: "aneurism-iv"
+meta:
+  displayName: "ANEURISM IV"
+distributions: []
+thunderstore:
+  displayName: "ANEURISM IV"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://aneurism.wiki.gg/"
+  discordUrl: "https://discord.gg/9rTSjA7mNB"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
