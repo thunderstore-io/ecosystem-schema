@@ -18,6 +18,10 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    clientside:
+      label: "Client-side"
+    serverside:
+      label: "Server-side"
   sections:
     mods:
       name: "Mods"
