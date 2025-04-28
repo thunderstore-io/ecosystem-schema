@@ -1,23 +1,23 @@
-uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
-label: "repo"
+uuid: "1cc17f22-ca8f-4596-b936-eaa80b300286"
+label: "aska"
 meta:
-  displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  displayName: "ASKA"
+  iconUrl: "ASKA.png"
 distributions:
   - platform: "steam"
-    identifier: "3241660"
+    identifier: "1898300"
 r2modman:
-  internalFolderName: "REPO"
-  dataFolderName: "REPO_Data"
-  settingsIdentifier: "REPO"
-  packageIndex: "https://thunderstore.io/c/repo/api/v1/package-listing-index/"
-  steamFolderName: "REPO"
+  internalFolderName: "ASKA"
+  dataFolderName: "ASKA_Data"
+  settingsIdentifier: "ASKA"
+  packageIndex: "https://thunderstore.io/c/aska/api/v1/package-listing-index/"
+  steamFolderName: "ASKA"
   exeNames:
-    - "REPO.exe"
+    - "Aska.exe"
   gameInstanceType: "game"
   gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-    - "repo"
+    - ""
   packageLoader: "bepinex"
   installRules:
     - route: "BepInEx/plugins"

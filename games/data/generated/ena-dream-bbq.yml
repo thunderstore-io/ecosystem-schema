@@ -1,23 +1,23 @@
-uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
-label: "repo"
+uuid: "8c308f6d-91c2-4506-b860-b4f9cf69ef18"
+label: "ena-dream-bbq"
 meta:
-  displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  displayName: "ENA: Dream BBQ"
+  iconUrl: "ENADreamBBQ.png"
 distributions:
   - platform: "steam"
-    identifier: "3241660"
+    identifier: "2134320"
 r2modman:
-  internalFolderName: "REPO"
-  dataFolderName: "REPO_Data"
-  settingsIdentifier: "REPO"
-  packageIndex: "https://thunderstore.io/c/repo/api/v1/package-listing-index/"
-  steamFolderName: "REPO"
+  internalFolderName: "ENADreamBBQ"
+  dataFolderName: "ENA-4-DreamBBQ_Data"
+  settingsIdentifier: "ENADreamBBQ"
+  packageIndex: "https://thunderstore.io/c/ena-dream-bbq/api/v1/package-listing-index/"
+  steamFolderName: "ENA-4-DreamBBQ"
   exeNames:
-    - "REPO.exe"
+    - "ENA-4-DreamBBQ.exe"
   gameInstanceType: "game"
   gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-    - "repo"
+    - "edbbq"
   packageLoader: "bepinex"
   installRules:
     - route: "BepInEx/plugins"

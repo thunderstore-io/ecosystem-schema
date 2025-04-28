@@ -1,23 +1,23 @@
-uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
-label: "repo"
+uuid: "8c424b9d-fa80-4b82-9be6-2ced047a1229"
+label: "magicite"
 meta:
-  displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  displayName: "Magicite"
+  iconUrl: "Magicite.png"
 distributions:
   - platform: "steam"
-    identifier: "3241660"
+    identifier: "268750"
 r2modman:
-  internalFolderName: "REPO"
-  dataFolderName: "REPO_Data"
-  settingsIdentifier: "REPO"
-  packageIndex: "https://thunderstore.io/c/repo/api/v1/package-listing-index/"
-  steamFolderName: "REPO"
+  internalFolderName: "Magicite"
+  dataFolderName: "Magicite_Data"
+  settingsIdentifier: "Magicite"
+  packageIndex: "https://thunderstore.io/c/magicite/api/v1/package-listing-index/"
+  steamFolderName: "Magicite"
   exeNames:
-    - "REPO.exe"
+    - "Magicite.exe"
   gameInstanceType: "game"
   gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-    - "repo"
+    - ""
   packageLoader: "bepinex"
   installRules:
     - route: "BepInEx/plugins"
