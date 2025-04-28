@@ -1,23 +1,23 @@
-uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
-label: "repo"
+uuid: "52a2dfeb-584a-4c36-ab88-68faf0d10ec1"
+label: "human-fall-flat"
 meta:
-  displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  displayName: "Human Fall Flat"
+  iconUrl: "HumanFallFlat.png"
 distributions:
   - platform: "steam"
-    identifier: "3241660"
+    identifier: "477160"
 r2modman:
-  internalFolderName: "REPO"
-  dataFolderName: "REPO_Data"
-  settingsIdentifier: "REPO"
-  packageIndex: "https://thunderstore.io/c/repo/api/v1/package-listing-index/"
-  steamFolderName: "REPO"
+  internalFolderName: "HumanFallFlat"
+  dataFolderName: "Human_Data"
+  settingsIdentifier: "HumanFallFlat"
+  packageIndex: "https://thunderstore.io/c/human-fall-flat/api/v1/package-listing-index/"
+  steamFolderName: "Human Fall Flat"
   exeNames:
-    - "REPO.exe"
+    - "Human.exe"
   gameInstanceType: "game"
   gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-    - "repo"
+    - "hff"
   packageLoader: "bepinex"
   installRules:
     - route: "BepInEx/plugins"

@@ -1,23 +1,23 @@
-uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
-label: "repo"
+uuid: "0814ff73-fa5d-4d32-9248-57259fd43f9d"
+label: "lost-skies"
 meta:
-  displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  displayName: "Lost Skies"
+  iconUrl: "LostSkies.png"
 distributions:
   - platform: "steam"
-    identifier: "3241660"
+    identifier: "1931180"
 r2modman:
-  internalFolderName: "REPO"
-  dataFolderName: "REPO_Data"
-  settingsIdentifier: "REPO"
-  packageIndex: "https://thunderstore.io/c/repo/api/v1/package-listing-index/"
-  steamFolderName: "REPO"
+  internalFolderName: "LostSkies"
+  dataFolderName: "LostSkies_Data"
+  settingsIdentifier: "LostSkies"
+  packageIndex: "https://thunderstore.io/c/lost-skies/api/v1/package-listing-index/"
+  steamFolderName: "LostSkies"
   exeNames:
-    - "REPO.exe"
+    - "LostSkies.exe"
   gameInstanceType: "game"
   gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-    - "repo"
+    - "ls"
   packageLoader: "bepinex"
   installRules:
     - route: "BepInEx/plugins"

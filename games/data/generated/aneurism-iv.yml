@@ -1,23 +1,23 @@
-uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
-label: "repo"
+uuid: "8d60a159-96e3-45b5-acf4-b2ebe356d1dd"
+label: "aneurism-iv"
 meta:
-  displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  displayName: "ANEURISM IV"
+  iconUrl: "ANEURISM_IV.png"
 distributions:
   - platform: "steam"
-    identifier: "3241660"
+    identifier: "2773280"
 r2modman:
-  internalFolderName: "REPO"
-  dataFolderName: "REPO_Data"
-  settingsIdentifier: "REPO"
-  packageIndex: "https://thunderstore.io/c/repo/api/v1/package-listing-index/"
-  steamFolderName: "REPO"
+  internalFolderName: "ANEURISMIV"
+  dataFolderName: "ANEURISM IV_Data"
+  settingsIdentifier: "ANEURISMIV"
+  packageIndex: "https://thunderstore.io/c/aneurism-iv/api/v1/package-listing-index/"
+  steamFolderName: "ANEURISMIV"
   exeNames:
-    - "REPO.exe"
+    - "ANEURISM IV.exe"
   gameInstanceType: "game"
   gameSelectionDisplayMode: "visible"
   additionalSearchStrings:
-    - "repo"
+    - ""
   packageLoader: "bepinex"
   installRules:
     - route: "BepInEx/plugins"
