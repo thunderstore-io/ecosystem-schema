@@ -46,9 +46,16 @@ async function runDeployCommand() {
       filepath: schemaPath,
       url: getDeployUrlForSchema(),
     },
-  ].map(doUpload);
+  ];
 
-  await Promise.all(uploads);
+  for (const target of uploads) {
+    await doUpload(target);
+  }
+
+  // TODO: Swap to parallel uploads once serverside race condition fixed
+  // const promises = uploads.map(doUpload);
+  // await await Promise.all(promises);
+
   console.log("Deployed successfully!");
 }
 
