@@ -7,47 +7,53 @@ distributions:
   - platform: "steam"
     identifier: "553310"
 r2modman:
-  internalFolderName: "LethalLeagueBlaze"
-  dataFolderName: "LLBlaze_Data"
-  settingsIdentifier: "LethalLeagueBlaze"
-  packageIndex: "https://thunderstore.io/c/lethal-league-blaze/api/v1/package-listing-index/"
-  steamFolderName: "LLBlaze"
-  exeNames:
-    - "LLBlaze.exe"
-    - "LLBlaze.x86_64"
-    - "LLBlaze.x86"
-    - "LLBlaze.app"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "LLB"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Lethal League Blaze"
+      iconUrl: "LethalLeagueBlaze.png"
+    internalFolderName: "LethalLeagueBlaze"
+    dataFolderName: "LLBlaze_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "553310"
+    settingsIdentifier: "LethalLeagueBlaze"
+    packageIndex: "https://thunderstore.io/c/lethal-league-blaze/api/v1/package-listing-index/"
+    steamFolderName: "LLBlaze"
+    exeNames:
+      - "LLBlaze.exe"
+      - "LLBlaze.x86_64"
+      - "LLBlaze.x86"
+      - "LLBlaze.app"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "LLB"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

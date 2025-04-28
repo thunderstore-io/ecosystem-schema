@@ -9,44 +9,52 @@ distributions:
   - platform: "xbox-game-pass"
     identifier: "ParadoxInteractive.CitiesSkylinesII-PCEdition"
 r2modman:
-  internalFolderName: "CitiesSkylines2"
-  dataFolderName: "CitiesSkylines2_Data"
-  settingsIdentifier: "CitiesSkylines2"
-  packageIndex: "https://thunderstore.io/c/cities-skylines-ii/api/v1/package-listing-index/"
-  steamFolderName: "Cities Skylines II"
-  exeNames:
-    - "Cities2.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "cs2"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Cities: Skylines II"
+      iconUrl: "CitiesSkylines2.png"
+    internalFolderName: "CitiesSkylines2"
+    dataFolderName: "CitiesSkylines2_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "949230"
+      - platform: "xbox-game-pass"
+        identifier: "ParadoxInteractive.CitiesSkylinesII-PCEdition"
+    settingsIdentifier: "CitiesSkylines2"
+    packageIndex: "https://thunderstore.io/c/cities-skylines-ii/api/v1/package-listing-index/"
+    steamFolderName: "Cities Skylines II"
+    exeNames:
+      - "Cities2.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "cs2"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

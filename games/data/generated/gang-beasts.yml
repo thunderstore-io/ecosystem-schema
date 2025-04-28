@@ -7,17 +7,23 @@ distributions:
   - platform: "steam"
     identifier: "285900"
 r2modman:
-  internalFolderName: "GangBeasts"
-  dataFolderName: "Gang Beasts_Data"
-  settingsIdentifier: "GangBeasts"
-  packageIndex: "https://thunderstore.io/c/gang-beasts/api/v1/package-listing-index/"
-  steamFolderName: "Gang Beasts"
-  exeNames:
-    - "Gang Beasts.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "gb"
-  packageLoader: "recursive-melonloader"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Gang Beasts"
+      iconUrl: "GangBeasts.png"
+    internalFolderName: "GangBeasts"
+    dataFolderName: "Gang Beasts_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "285900"
+    settingsIdentifier: "GangBeasts"
+    packageIndex: "https://thunderstore.io/c/gang-beasts/api/v1/package-listing-index/"
+    steamFolderName: "Gang Beasts"
+    exeNames:
+      - "Gang Beasts.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "gb"
+    packageLoader: "recursive-melonloader"
+    installRules: []
+    relativeFileExclusions: null

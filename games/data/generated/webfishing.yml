@@ -7,17 +7,23 @@ distributions:
   - platform: "steam"
     identifier: "3146520"
 r2modman:
-  internalFolderName: "WEBFISHING"
-  dataFolderName: ""
-  settingsIdentifier: "WEBFISHING"
-  packageIndex: "https://thunderstore.io/c/webfishing/api/v1/package-listing-index/"
-  steamFolderName: "WEBFISHING"
-  exeNames:
-    - "webfishing.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - ""
-  packageLoader: "gdweave"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "WEBFISHING"
+      iconUrl: "WEBFISHING.png"
+    internalFolderName: "WEBFISHING"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam"
+        identifier: "3146520"
+    settingsIdentifier: "WEBFISHING"
+    packageIndex: "https://thunderstore.io/c/webfishing/api/v1/package-listing-index/"
+    steamFolderName: "WEBFISHING"
+    exeNames:
+      - "webfishing.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "gdweave"
+    installRules: []
+    relativeFileExclusions: null

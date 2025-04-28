@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "2096510"
 r2modman:
-  internalFolderName: "TheOuroborosKing"
-  dataFolderName: "The Ouroboros King_Data"
-  settingsIdentifier: "TheOuroborosKing"
-  packageIndex: "https://thunderstore.io/c/the-ouroboros-king/api/v1/package-listing-index/"
-  steamFolderName: "The Ouroboros King"
-  exeNames:
-    - "The Ouroboros King.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "tok"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "The Ouroboros King"
+      iconUrl: "the-ouroboros-king.jpg"
+    internalFolderName: "TheOuroborosKing"
+    dataFolderName: "The Ouroboros King_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2096510"
+    settingsIdentifier: "TheOuroborosKing"
+    packageIndex: "https://thunderstore.io/c/the-ouroboros-king/api/v1/package-listing-index/"
+    steamFolderName: "The Ouroboros King"
+    exeNames:
+      - "The Ouroboros King.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "tok"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

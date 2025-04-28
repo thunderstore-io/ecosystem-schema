@@ -58,8 +58,10 @@ export interface ModmanInstallRule {
 }
 
 export interface GameModmanDefinition {
+  meta: GameDefinitionMeta;
   internalFolderName: string;
   dataFolderName: string;
+  distributions?: GameDistributionDefinition[];
   settingsIdentifier: string;
   packageIndex: string;
   // exclusionsUrl: string;
@@ -88,15 +90,17 @@ export interface ThunderstoreCommunityDefinition {
   shortDescription?: string;
 }
 
+type GameDefinitionMeta = {
+  displayName: string;
+  iconUrl?: string | null;
+};
+
 export interface GameDefinition {
   uuid: string;
   label: string;
-  meta: {
-    displayName: string;
-    iconUrl?: string | null;
-  };
+  meta: GameDefinitionMeta;
   distributions?: GameDistributionDefinition[];
-  r2modman?: GameModmanDefinition | null;
+  r2modman?: GameModmanDefinition[] | null;
   thunderstore?: ThunderstoreCommunityDefinition;
 }
 

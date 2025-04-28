@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1279510"
 r2modman:
-  internalFolderName: "ScrewDrivers"
-  dataFolderName: "Screw Drivers_Data"
-  settingsIdentifier: "ScrewDrivers"
-  packageIndex: "https://thunderstore.io/c/screw-drivers/api/v1/package-listing-index/"
-  steamFolderName: "Screw Drivers"
-  exeNames:
-    - "Screw Drivers.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - ""
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Screw Drivers"
+      iconUrl: "ScrewDrivers.png"
+    internalFolderName: "ScrewDrivers"
+    dataFolderName: "Screw Drivers_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1279510"
+    settingsIdentifier: "ScrewDrivers"
+    packageIndex: "https://thunderstore.io/c/screw-drivers/api/v1/package-listing-index/"
+    steamFolderName: "Screw Drivers"
+    exeNames:
+      - "Screw Drivers.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

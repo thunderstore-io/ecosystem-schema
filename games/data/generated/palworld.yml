@@ -7,17 +7,23 @@ distributions:
   - platform: "steam"
     identifier: "1623730"
 r2modman:
-  internalFolderName: "Palworld"
-  dataFolderName: "Pal"
-  settingsIdentifier: "Palworld"
-  packageIndex: "https://thunderstore.io/c/palworld/api/v1/package-listing-index/"
-  steamFolderName: "Palworld"
-  exeNames:
-    - "Palworld.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "palworld"
-  packageLoader: "shimloader"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Palworld"
+      iconUrl: "Palworld.png"
+    internalFolderName: "Palworld"
+    dataFolderName: "Pal"
+    distributions:
+      - platform: "steam"
+        identifier: "1623730"
+    settingsIdentifier: "Palworld"
+    packageIndex: "https://thunderstore.io/c/palworld/api/v1/package-listing-index/"
+    steamFolderName: "Palworld"
+    exeNames:
+      - "Palworld.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "palworld"
+    packageLoader: "shimloader"
+    installRules: []
+    relativeFileExclusions: null

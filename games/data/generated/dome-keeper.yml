@@ -7,22 +7,28 @@ distributions:
   - platform: "steam"
     identifier: "1637320"
 r2modman:
-  internalFolderName: "DomeKeeper"
-  dataFolderName: ""
-  settingsIdentifier: "DomeKeeper"
-  packageIndex: "https://thunderstore.io/c/dome-keeper/api/v1/package-listing-index/"
-  steamFolderName: "Dome Keeper"
-  exeNames:
-    - "domekeeper.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "dk"
-  packageLoader: "godotml"
-  installRules:
-    - route: "mods"
-      defaultFileExtensions: []
-      trackingMethod: "package-zip"
-      subRoutes: []
-      isDefaultLocation: true
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Dome Keeper"
+      iconUrl: "dome-keeper.jpg"
+    internalFolderName: "DomeKeeper"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam"
+        identifier: "1637320"
+    settingsIdentifier: "DomeKeeper"
+    packageIndex: "https://thunderstore.io/c/dome-keeper/api/v1/package-listing-index/"
+    steamFolderName: "Dome Keeper"
+    exeNames:
+      - "domekeeper.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "dk"
+    packageLoader: "godotml"
+    installRules:
+      - route: "mods"
+        defaultFileExtensions: []
+        trackingMethod: "package-zip"
+        subRoutes: []
+        isDefaultLocation: true
+    relativeFileExclusions: null

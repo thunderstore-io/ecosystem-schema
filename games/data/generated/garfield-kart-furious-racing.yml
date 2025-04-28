@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1085510"
 r2modman:
-  internalFolderName: "GarfieldKartFuriousRacing"
-  dataFolderName: "GarfieldKartFuriousRacing_Data"
-  settingsIdentifier: "GarfieldKartFuriousRacing"
-  packageIndex: "https://thunderstore.io/c/garfield-kart-furious-racing/api/v1/package-listing-index/"
-  steamFolderName: "Garfield Kart - Furious Racing"
-  exeNames:
-    - "Garfield Kart Furious Racing.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "gkfr"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Garfield Kart - Furious Racing"
+      iconUrl: "garfield-kart-furious-racing.png"
+    internalFolderName: "GarfieldKartFuriousRacing"
+    dataFolderName: "GarfieldKartFuriousRacing_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1085510"
+    settingsIdentifier: "GarfieldKartFuriousRacing"
+    packageIndex: "https://thunderstore.io/c/garfield-kart-furious-racing/api/v1/package-listing-index/"
+    steamFolderName: "Garfield Kart - Furious Racing"
+    exeNames:
+      - "Garfield Kart Furious Racing.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "gkfr"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -7,17 +7,23 @@ distributions:
   - platform: "steam"
     identifier: "3164500"
 r2modman:
-  internalFolderName: "ScheduleI"
-  dataFolderName: "Schedule I_Data"
-  settingsIdentifier: "ScheduleI"
-  packageIndex: "https://thunderstore.io/c/schedule-i/api/v1/package-listing-index/"
-  steamFolderName: "Schedule I"
-  exeNames:
-    - "Schedule I.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - ""
-  packageLoader: "recursive-melonloader"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Schedule I"
+      iconUrl: "ScheduleI.png"
+    internalFolderName: "ScheduleI"
+    dataFolderName: "Schedule I_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "3164500"
+    settingsIdentifier: "ScheduleI"
+    packageIndex: "https://thunderstore.io/c/schedule-i/api/v1/package-listing-index/"
+    steamFolderName: "Schedule I"
+    exeNames:
+      - "Schedule I.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "recursive-melonloader"
+    installRules: []
+    relativeFileExclusions: null

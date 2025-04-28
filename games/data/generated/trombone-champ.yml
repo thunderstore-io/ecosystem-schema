@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1059990"
 r2modman:
-  internalFolderName: "TromboneChamp"
-  dataFolderName: "TromboneChamp_Data"
-  settingsIdentifier: "TromboneChamp"
-  packageIndex: "https://thunderstore.io/c/trombone-champ/api/v1/package-listing-index/"
-  steamFolderName: "TromboneChamp"
-  exeNames:
-    - "TromboneChamp.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "tc"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Trombone Champ"
+      iconUrl: "TromboneChamp.jpg"
+    internalFolderName: "TromboneChamp"
+    dataFolderName: "TromboneChamp_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1059990"
+    settingsIdentifier: "TromboneChamp"
+    packageIndex: "https://thunderstore.io/c/trombone-champ/api/v1/package-listing-index/"
+    steamFolderName: "TromboneChamp"
+    exeNames:
+      - "TromboneChamp.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "tc"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

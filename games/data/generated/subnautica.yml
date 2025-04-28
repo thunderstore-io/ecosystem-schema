@@ -11,51 +11,61 @@ distributions:
   - platform: "xbox-game-pass"
     identifier: "UnknownWorldsEntertainmen.GAMEPREVIEWSubnautica"
 r2modman:
-  internalFolderName: "Subnautica"
-  dataFolderName: "Subnautica_Data"
-  settingsIdentifier: "Subnautica"
-  packageIndex: "https://thunderstore.io/c/subnautica/api/v1/package-listing-index/"
-  steamFolderName: "Subnautica"
-  exeNames:
-    - "Subnautica.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings: []
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "QMods"
-      defaultFileExtensions: []
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions:
-    - "manifest.json"
-    - "icon.png"
-    - "README.md"
+  - meta:
+      displayName: "Subnautica"
+      iconUrl: "Subnautica.png"
+    internalFolderName: "Subnautica"
+    dataFolderName: "Subnautica_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "264710"
+      - platform: "epic-games-store"
+        identifier: "Jaguar"
+      - platform: "xbox-game-pass"
+        identifier: "UnknownWorldsEntertainmen.GAMEPREVIEWSubnautica"
+    settingsIdentifier: "Subnautica"
+    packageIndex: "https://thunderstore.io/c/subnautica/api/v1/package-listing-index/"
+    steamFolderName: "Subnautica"
+    exeNames:
+      - "Subnautica.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "QMods"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "icon.png"
+      - "README.md"

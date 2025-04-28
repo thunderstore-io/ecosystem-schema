@@ -48,9 +48,20 @@ const installRuleSchema: z.ZodType<_installRuleSchema> =
     subRoutes: z.lazy(() => installRuleSchema.array()),
   });
 
+const distributionSchema = z.strictObject({
+  platform: z.enum(DistributionPlatformValues),
+  identifier: z.string().optional().nullable(),
+});
+const metaSchema = z.strictObject({
+  displayName: z.string(),
+  iconUrl: z.string().nullable(),
+});
+
 const r2modmanSchema = z.strictObject({
+  meta: metaSchema,
   internalFolderName: z.string(),
   dataFolderName: z.string(),
+  distributions: z.array(distributionSchema),
   settingsIdentifier: z.string(),
   packageIndex: z.string(),
   steamFolderName: z.string(),
@@ -66,19 +77,11 @@ const r2modmanSchema = z.strictObject({
 const gameSchema = z.strictObject({
   uuid: z.string().uuid(),
   label: slug,
-  meta: z.strictObject({
-    displayName: z.string(),
-    iconUrl: z.string().nullable(),
-  }),
-  distributions: z.array(
-    z.strictObject({
-      platform: z.enum(DistributionPlatformValues),
-      identifier: z.string().optional().nullable(),
-    })
-  ),
+  meta: metaSchema,
+  distributions: z.array(distributionSchema),
   thunderstore: communitySchema.optional(),
   tcli: z.object({}).passthrough().optional(), // TODO: Use strict object with schema
-  r2modman: r2modmanSchema.nullable(), // TODO: Use strict object with schema
+  r2modman: z.array(r2modmanSchema).nullable(),
 });
 
 export const ecosystemJsonSchema = z.strictObject({
