@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "2765860"
 r2modman:
-  internalFolderName: "SlipstreamRogueSpace"
-  dataFolderName: "Slipstream_Win_Data"
-  settingsIdentifier: "SlipstreamRogueSpace"
-  packageIndex: "https://thunderstore.io/c/slipstream-rogue-space/api/v1/package-listing-index/"
-  steamFolderName: "Slipstream Rogue Space"
-  exeNames:
-    - "Slipstream_Win.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "srs"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Slipstream: Rogue Space"
+      iconUrl: "SlipstreamRogueSpace.png"
+    internalFolderName: "SlipstreamRogueSpace"
+    dataFolderName: "Slipstream_Win_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2765860"
+    settingsIdentifier: "SlipstreamRogueSpace"
+    packageIndex: "https://thunderstore.io/c/slipstream-rogue-space/api/v1/package-listing-index/"
+    steamFolderName: "Slipstream Rogue Space"
+    exeNames:
+      - "Slipstream_Win.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "srs"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

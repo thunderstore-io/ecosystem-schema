@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "2134320"
 r2modman:
-  internalFolderName: "ENADreamBBQ"
-  dataFolderName: "ENA-4-DreamBBQ_Data"
-  settingsIdentifier: "ENADreamBBQ"
-  packageIndex: "https://thunderstore.io/c/ena-dream-bbq/api/v1/package-listing-index/"
-  steamFolderName: "ENA-4-DreamBBQ"
-  exeNames:
-    - "ENA-4-DreamBBQ.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "edbbq"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "ENA: Dream BBQ"
+      iconUrl: "ENADreamBBQ.png"
+    internalFolderName: "ENADreamBBQ"
+    dataFolderName: "ENA-4-DreamBBQ_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2134320"
+    settingsIdentifier: "ENADreamBBQ"
+    packageIndex: "https://thunderstore.io/c/ena-dream-bbq/api/v1/package-listing-index/"
+    steamFolderName: "ENA-4-DreamBBQ"
+    exeNames:
+      - "ENA-4-DreamBBQ.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "edbbq"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

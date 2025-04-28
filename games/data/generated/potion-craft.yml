@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1210320"
 r2modman:
-  internalFolderName: "PotionCraft"
-  dataFolderName: "Potion Craft_Data"
-  settingsIdentifier: "PotionCraft"
-  packageIndex: "https://thunderstore.io/c/potion-craft/api/v1/package-listing-index/"
-  steamFolderName: "Potion Craft"
-  exeNames:
-    - "Potion Craft.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "pc"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Potion Craft"
+      iconUrl: "PotionCraft.jpg"
+    internalFolderName: "PotionCraft"
+    dataFolderName: "Potion Craft_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1210320"
+    settingsIdentifier: "PotionCraft"
+    packageIndex: "https://thunderstore.io/c/potion-craft/api/v1/package-listing-index/"
+    steamFolderName: "Potion Craft"
+    exeNames:
+      - "Potion Craft.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "pc"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

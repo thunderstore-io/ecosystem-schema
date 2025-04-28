@@ -7,67 +7,73 @@ distributions:
   - platform: "steam"
     identifier: "1414850"
 r2modman:
-  internalFolderName: "NASB"
-  dataFolderName: "Nickelodeon All-Star Brawl_Data"
-  settingsIdentifier: "NASB"
-  packageIndex: "https://thunderstore.io/c/nasb/api/v1/package-listing-index/"
-  steamFolderName: "Nickelodeon All-Star Brawl"
-  exeNames:
-    - "Nickelodeon All-Star Brawl.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "Nickelodeon All-Star Brawl"
-    - "NASB"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/CustomSongs"
-      defaultFileExtensions: []
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/Voicepacks"
-      defaultFileExtensions:
-        - ".voicepack"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/Skins"
-      defaultFileExtensions:
-        - ".nasbskin"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/Movesets"
-      defaultFileExtensions: []
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Nickelodeon All‑Star Brawl"
+      iconUrl: "NASB.jpg"
+    internalFolderName: "NASB"
+    dataFolderName: "Nickelodeon All-Star Brawl_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1414850"
+    settingsIdentifier: "NASB"
+    packageIndex: "https://thunderstore.io/c/nasb/api/v1/package-listing-index/"
+    steamFolderName: "Nickelodeon All-Star Brawl"
+    exeNames:
+      - "Nickelodeon All-Star Brawl.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "Nickelodeon All-Star Brawl"
+      - "NASB"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/CustomSongs"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/Voicepacks"
+        defaultFileExtensions:
+          - ".voicepack"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/Skins"
+        defaultFileExtensions:
+          - ".nasbskin"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/Movesets"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

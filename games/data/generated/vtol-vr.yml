@@ -7,43 +7,49 @@ distributions:
   - platform: "steam"
     identifier: "667970"
 r2modman:
-  internalFolderName: "VTOL_VR"
-  dataFolderName: "VTOLVR_Data"
-  settingsIdentifier: "VTOL_VR"
-  packageIndex: "https://thunderstore.io/c/vtol-vr/api/v1/package-listing-index/"
-  steamFolderName: "VTOL VR"
-  exeNames:
-    - "VTOLVR.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings: []
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "VTOL VR"
+      iconUrl: "VtolVR.jpg"
+    internalFolderName: "VTOL_VR"
+    dataFolderName: "VTOLVR_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "667970"
+    settingsIdentifier: "VTOL_VR"
+    packageIndex: "https://thunderstore.io/c/vtol-vr/api/v1/package-listing-index/"
+    steamFolderName: "VTOL VR"
+    exeNames:
+      - "VTOLVR.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

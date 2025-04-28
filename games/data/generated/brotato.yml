@@ -7,21 +7,27 @@ distributions:
   - platform: "steam"
     identifier: "1942280"
 r2modman:
-  internalFolderName: "Brotato"
-  dataFolderName: ""
-  settingsIdentifier: "Brotato"
-  packageIndex: "https://thunderstore.io/c/brotato/api/v1/package-listing-index/"
-  steamFolderName: "Brotato"
-  exeNames:
-    - "Brotato.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings: []
-  packageLoader: "godotml"
-  installRules:
-    - route: "mods"
-      defaultFileExtensions: []
-      trackingMethod: "package-zip"
-      subRoutes: []
-      isDefaultLocation: true
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Brotato"
+      iconUrl: "brotato.jpg"
+    internalFolderName: "Brotato"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam"
+        identifier: "1942280"
+    settingsIdentifier: "Brotato"
+    packageIndex: "https://thunderstore.io/c/brotato/api/v1/package-listing-index/"
+    steamFolderName: "Brotato"
+    exeNames:
+      - "Brotato.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "godotml"
+    installRules:
+      - route: "mods"
+        defaultFileExtensions: []
+        trackingMethod: "package-zip"
+        subRoutes: []
+        isDefaultLocation: true
+    relativeFileExclusions: null

@@ -11,44 +11,54 @@ distributions:
   - platform: "other"
     identifier: null
 r2modman:
-  internalFolderName: "BombRushCyberfunk"
-  dataFolderName: "Bomb Rush Cyberfunk_Data"
-  settingsIdentifier: "BombRushCyberfunk"
-  packageIndex: "https://thunderstore.io/c/bomb-rush-cyberfunk/api/v1/package-listing-index/"
-  steamFolderName: "BombRushCyberfunk"
-  exeNames:
-    - "Bomb Rush Cyberfunk.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "brc"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Bomb Rush Cyberfunk"
+      iconUrl: "BombRushCyberfunk.jpg"
+    internalFolderName: "BombRushCyberfunk"
+    dataFolderName: "Bomb Rush Cyberfunk_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1353230"
+      - platform: "xbox-game-pass"
+        identifier: "TeamReptile.BombRushCyberfunk"
+      - platform: "other"
+        identifier: null
+    settingsIdentifier: "BombRushCyberfunk"
+    packageIndex: "https://thunderstore.io/c/bomb-rush-cyberfunk/api/v1/package-listing-index/"
+    steamFolderName: "BombRushCyberfunk"
+    exeNames:
+      - "Bomb Rush Cyberfunk.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "brc"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -9,17 +9,25 @@ distributions:
   - platform: "epic-games-store"
     identifier: "07c634c7291a49b5b2455e14b9a83950"
 r2modman:
-  internalFolderName: "HadesII"
-  dataFolderName: ""
-  settingsIdentifier: "HadesII"
-  packageIndex: "https://thunderstore.io/c/hades-ii/api/v1/package-listing-index/"
-  steamFolderName: "Hades II/Ship"
-  exeNames:
-    - "Hades2.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "h2"
-  packageLoader: "returnofmodding"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Hades II"
+      iconUrl: "Hades2.png"
+    internalFolderName: "HadesII"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam"
+        identifier: "1145350"
+      - platform: "epic-games-store"
+        identifier: "07c634c7291a49b5b2455e14b9a83950"
+    settingsIdentifier: "HadesII"
+    packageIndex: "https://thunderstore.io/c/hades-ii/api/v1/package-listing-index/"
+    steamFolderName: "Hades II/Ship"
+    exeNames:
+      - "Hades2.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "h2"
+    packageLoader: "returnofmodding"
+    installRules: []
+    relativeFileExclusions: null

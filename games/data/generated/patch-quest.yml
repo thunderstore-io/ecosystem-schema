@@ -7,54 +7,60 @@ distributions:
   - platform: "steam"
     identifier: "1347970"
 r2modman:
-  internalFolderName: "PatchQuest"
-  dataFolderName: "PatchQuest_Data"
-  settingsIdentifier: "PatchQuest"
-  packageIndex: "https://thunderstore.io/c/patch-quest/api/v1/package-listing-index/"
-  steamFolderName: "Patch Quest"
-  exeNames:
-    - "Patch Quest.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "pq"
-  packageLoader: "melonloader"
-  installRules:
-    - route: "Mods"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "UserData/ModManager"
-      defaultFileExtensions: []
-      trackingMethod: "subdir-no-flatten"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "UserLibs"
-      defaultFileExtensions:
-        - ".lib.dll"
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "MelonLoader"
-      defaultFileExtensions: []
-      trackingMethod: "state"
-      subRoutes:
-        - route: "Managed"
-          defaultFileExtensions:
-            - ".managed.dll"
-          trackingMethod: "state"
-          subRoutes: []
-          isDefaultLocation: false
-        - route: "Libs"
-          defaultFileExtensions: []
-          trackingMethod: "state"
-          subRoutes: []
-          isDefaultLocation: false
-      isDefaultLocation: false
-  relativeFileExclusions:
-    - "manifest.json"
-    - "icon.png"
-    - "README.md"
-    - "LICENCE"
+  - meta:
+      displayName: "Patch Quest"
+      iconUrl: "patch-quest.jpg"
+    internalFolderName: "PatchQuest"
+    dataFolderName: "PatchQuest_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1347970"
+    settingsIdentifier: "PatchQuest"
+    packageIndex: "https://thunderstore.io/c/patch-quest/api/v1/package-listing-index/"
+    steamFolderName: "Patch Quest"
+    exeNames:
+      - "Patch Quest.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "pq"
+    packageLoader: "melonloader"
+    installRules:
+      - route: "Mods"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "UserData/ModManager"
+        defaultFileExtensions: []
+        trackingMethod: "subdir-no-flatten"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "UserLibs"
+        defaultFileExtensions:
+          - ".lib.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "MelonLoader"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes:
+          - route: "Managed"
+            defaultFileExtensions:
+              - ".managed.dll"
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+          - route: "Libs"
+            defaultFileExtensions: []
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "icon.png"
+      - "README.md"
+      - "LICENCE"

@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1730700"
 r2modman:
-  internalFolderName: "WeLoveKatamariRerollRoyalReverie"
-  dataFolderName: "WeLoveKatamariRerollRoyalReverie_Data"
-  settingsIdentifier: "WeLoveKatamariRerollRoyalReverie"
-  packageIndex: "https://thunderstore.io/c/we-love-katamari-reroll-royal-reverie/api/v1/package-listing-index/"
-  steamFolderName: "WLKRR"
-  exeNames:
-    - "WLKRR.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "wlkrr"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "We Love Katamari REROLL+ Royal Reverie"
+      iconUrl: "WLKRR.jpg"
+    internalFolderName: "WeLoveKatamariRerollRoyalReverie"
+    dataFolderName: "WeLoveKatamariRerollRoyalReverie_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1730700"
+    settingsIdentifier: "WeLoveKatamariRerollRoyalReverie"
+    packageIndex: "https://thunderstore.io/c/we-love-katamari-reroll-royal-reverie/api/v1/package-listing-index/"
+    steamFolderName: "WLKRR"
+    exeNames:
+      - "WLKRR.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "wlkrr"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -9,22 +9,30 @@ distributions:
   - platform: "oculus-store"
     identifier: null
 r2modman:
-  internalFolderName: "AncientDungeonVR"
-  dataFolderName: "Ancient_Dungeon_Data"
-  settingsIdentifier: "AncientDungeonVR"
-  packageIndex: "https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package-listing-index/"
-  steamFolderName: "Ancient Dungeon VR"
-  exeNames:
-    - "Ancient_Dungeon.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "adv"
-  packageLoader: null
-  installRules:
-    - route: "mods"
-      defaultFileExtensions: []
-      trackingMethod: "subdir-no-flatten"
-      subRoutes: []
-      isDefaultLocation: true
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Ancient Dungeon VR"
+      iconUrl: "ancient-dungeon-vr.png"
+    internalFolderName: "AncientDungeonVR"
+    dataFolderName: "Ancient_Dungeon_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1125240"
+      - platform: "oculus-store"
+        identifier: null
+    settingsIdentifier: "AncientDungeonVR"
+    packageIndex: "https://thunderstore.io/c/ancient-dungeon-vr/api/v1/package-listing-index/"
+    steamFolderName: "Ancient Dungeon VR"
+    exeNames:
+      - "Ancient_Dungeon.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "adv"
+    packageLoader: null
+    installRules:
+      - route: "mods"
+        defaultFileExtensions: []
+        trackingMethod: "subdir-no-flatten"
+        subRoutes: []
+        isDefaultLocation: true
+    relativeFileExclusions: null

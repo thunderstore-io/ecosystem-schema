@@ -7,17 +7,23 @@ distributions:
   - platform: "steam"
     identifier: "1337520"
 r2modman:
-  internalFolderName: "RiskofRainReturns"
-  dataFolderName: ""
-  settingsIdentifier: "RiskofRainReturns"
-  packageIndex: "https://thunderstore.io/c/risk-of-rain-returns/api/v1/package-listing-index/"
-  steamFolderName: "Risk of Rain Returns"
-  exeNames:
-    - "Risk of Rain Returns.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "rorr"
-  packageLoader: "returnofmodding"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Risk of Rain Returns"
+      iconUrl: "RiskOfRainReturns.png"
+    internalFolderName: "RiskofRainReturns"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam"
+        identifier: "1337520"
+    settingsIdentifier: "RiskofRainReturns"
+    packageIndex: "https://thunderstore.io/c/risk-of-rain-returns/api/v1/package-listing-index/"
+    steamFolderName: "Risk of Rain Returns"
+    exeNames:
+      - "Risk of Rain Returns.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "rorr"
+    packageLoader: "returnofmodding"
+    installRules: []
+    relativeFileExclusions: null

@@ -9,30 +9,38 @@ distributions:
   - platform: "origin"
     identifier: ""
 r2modman:
-  internalFolderName: "Titanfall2"
-  dataFolderName: ""
-  settingsIdentifier: "Titanfall2"
-  packageIndex: "https://thunderstore.io/c/northstar/api/v1/package-listing-index/"
-  steamFolderName: "Titanfall2"
-  exeNames:
-    - "NorthstarLauncher.exe"
-    - "Titanfall2.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "northstar"
-    - "ns"
-    - "tf2"
-    - "tf|2"
-  packageLoader: "northstar"
-  installRules:
-    - route: "R2Northstar/mods"
-      defaultFileExtensions: []
-      trackingMethod: "state"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions:
-    - "manifest.json"
-    - "README.md"
-    - "icon.png"
-    - "LICENCE"
+  - meta:
+      displayName: "Titanfall 2"
+      iconUrl: "Titanfall2.jpg"
+    internalFolderName: "Titanfall2"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam-direct"
+        identifier: "1237970"
+      - platform: "origin"
+        identifier: ""
+    settingsIdentifier: "Titanfall2"
+    packageIndex: "https://thunderstore.io/c/northstar/api/v1/package-listing-index/"
+    steamFolderName: "Titanfall2"
+    exeNames:
+      - "NorthstarLauncher.exe"
+      - "Titanfall2.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "northstar"
+      - "ns"
+      - "tf2"
+      - "tf|2"
+    packageLoader: "northstar"
+    installRules:
+      - route: "R2Northstar/mods"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "README.md"
+      - "icon.png"
+      - "LICENCE"

@@ -9,44 +9,52 @@ distributions:
   - platform: "other"
     identifier: null
 r2modman:
-  internalFolderName: "COTL"
-  dataFolderName: "Cult Of The Lamb_Data"
-  settingsIdentifier: "COTL"
-  packageIndex: "https://thunderstore.io/c/cult-of-the-lamb/api/v1/package-listing-index/"
-  steamFolderName: "Cult of the Lamb"
-  exeNames:
-    - "Cult Of The Lamb.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "cotl"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Cult of the Lamb"
+      iconUrl: "Cotl.jpg"
+    internalFolderName: "COTL"
+    dataFolderName: "Cult Of The Lamb_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1313140"
+      - platform: "other"
+        identifier: null
+    settingsIdentifier: "COTL"
+    packageIndex: "https://thunderstore.io/c/cult-of-the-lamb/api/v1/package-listing-index/"
+    steamFolderName: "Cult of the Lamb"
+    exeNames:
+      - "Cult Of The Lamb.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "cotl"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

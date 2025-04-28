@@ -9,43 +9,51 @@ distributions:
   - platform: "epic-games-store"
     identifier: "a774278c0813447c96a76b053cbf73ff"
 r2modman:
-  internalFolderName: "Starsand"
-  dataFolderName: "Starsand_Data"
-  settingsIdentifier: "Starsand"
-  packageIndex: "https://thunderstore.io/c/starsand/api/v1/package-listing-index/"
-  steamFolderName: "Starsand"
-  exeNames:
-    - "Starsand.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings: []
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Starsand"
+      iconUrl: "Starsand.png"
+    internalFolderName: "Starsand"
+    dataFolderName: "Starsand_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1380220"
+      - platform: "epic-games-store"
+        identifier: "a774278c0813447c96a76b053cbf73ff"
+    settingsIdentifier: "Starsand"
+    packageIndex: "https://thunderstore.io/c/starsand/api/v1/package-listing-index/"
+    steamFolderName: "Starsand"
+    exeNames:
+      - "Starsand.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

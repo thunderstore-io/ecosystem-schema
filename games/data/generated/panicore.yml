@@ -7,17 +7,23 @@ distributions:
   - platform: "steam"
     identifier: "2695940"
 r2modman:
-  internalFolderName: "Panicore"
-  dataFolderName: "Panicore"
-  settingsIdentifier: "Panicore"
-  packageIndex: "https://thunderstore.io/c/panicore/api/v1/package-listing-index/"
-  steamFolderName: "Panicore"
-  exeNames:
-    - "Panicore.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "panicore"
-  packageLoader: "shimloader"
-  installRules: []
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Panicore"
+      iconUrl: "Panicore.png"
+    internalFolderName: "Panicore"
+    dataFolderName: "Panicore"
+    distributions:
+      - platform: "steam"
+        identifier: "2695940"
+    settingsIdentifier: "Panicore"
+    packageIndex: "https://thunderstore.io/c/panicore/api/v1/package-listing-index/"
+    steamFolderName: "Panicore"
+    exeNames:
+      - "Panicore.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "panicore"
+    packageLoader: "shimloader"
+    installRules: []
+    relativeFileExclusions: null

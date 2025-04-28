@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "986130"
 r2modman:
-  internalFolderName: "ShadowsofDoubt"
-  dataFolderName: "ShadowsofDoubt_Data"
-  settingsIdentifier: "ShadowsofDoubt"
-  packageIndex: "https://thunderstore.io/c/shadows-of-doubt/api/v1/package-listing-index/"
-  steamFolderName: "Shadows of Doubt"
-  exeNames:
-    - "Shadows of Doubt.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "sod"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Shadows of Doubt"
+      iconUrl: "shadows-of-doubt.jpg"
+    internalFolderName: "ShadowsofDoubt"
+    dataFolderName: "ShadowsofDoubt_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "986130"
+    settingsIdentifier: "ShadowsofDoubt"
+    packageIndex: "https://thunderstore.io/c/shadows-of-doubt/api/v1/package-listing-index/"
+    steamFolderName: "Shadows of Doubt"
+    exeNames:
+      - "Shadows of Doubt.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "sod"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

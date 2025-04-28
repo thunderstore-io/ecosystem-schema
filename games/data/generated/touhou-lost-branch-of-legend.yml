@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1140150"
 r2modman:
-  internalFolderName: "TouhouLostBranchOfLegend"
-  dataFolderName: "LBoL_Data"
-  settingsIdentifier: "TouhouLostBranchOfLegend"
-  packageIndex: "https://thunderstore.io/c/touhou-lost-branch-of-legend/api/v1/package-listing-index/"
-  steamFolderName: "LBoL"
-  exeNames:
-    - "LBoL.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "lbol"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "TouhouLostBranchOfLegend"
+      iconUrl: "TouhouLostBranchOfLegend.jpg"
+    internalFolderName: "TouhouLostBranchOfLegend"
+    dataFolderName: "LBoL_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1140150"
+    settingsIdentifier: "TouhouLostBranchOfLegend"
+    packageIndex: "https://thunderstore.io/c/touhou-lost-branch-of-legend/api/v1/package-listing-index/"
+    steamFolderName: "LBoL"
+    exeNames:
+      - "LBoL.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "lbol"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -7,44 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "386940"
 r2modman:
-  internalFolderName: "UltimateChickenHorse"
-  dataFolderName: "UltimateChickenHorse_Data"
-  settingsIdentifier: "UltimateChickenHorse"
-  packageIndex: "https://thunderstore.io/c/ultimate-chicken-horse/api/v1/package-listing-index/"
-  steamFolderName: "Ultimate Chicken Horse"
-  exeNames:
-    - "UltimateChickenHorse.exe"
-  gameInstanceType: "game"
-  gameSelectionDisplayMode: "visible"
-  additionalSearchStrings:
-    - "uch"
-  packageLoader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      defaultFileExtensions:
-        - ".dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/patchers"
-      defaultFileExtensions: []
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/monomod"
-      defaultFileExtensions:
-        - ".mm.dll"
-      trackingMethod: "subdir"
-      subRoutes: []
-      isDefaultLocation: false
-    - route: "BepInEx/config"
-      defaultFileExtensions: []
-      trackingMethod: "none"
-      subRoutes: []
-      isDefaultLocation: false
-  relativeFileExclusions: null
+  - meta:
+      displayName: "Ultimate Chicken Horse"
+      iconUrl: "ultimate-chicken-horse.jpg"
+    internalFolderName: "UltimateChickenHorse"
+    dataFolderName: "UltimateChickenHorse_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "386940"
+    settingsIdentifier: "UltimateChickenHorse"
+    packageIndex: "https://thunderstore.io/c/ultimate-chicken-horse/api/v1/package-listing-index/"
+    steamFolderName: "Ultimate Chicken Horse"
+    exeNames:
+      - "UltimateChickenHorse.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "uch"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
