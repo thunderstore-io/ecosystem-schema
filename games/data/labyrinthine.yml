@@ -27,7 +27,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://labyrinthine.fandom.com/wiki/Labyrinthine_Wiki"
-  discordUrl: "https://discord.com/invite/valkogamestudios"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
