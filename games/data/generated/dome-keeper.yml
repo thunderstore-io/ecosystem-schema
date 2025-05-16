@@ -1,0 +1,34 @@
+uuid: "44f7465f-65f5-4f9f-964f-9e679e580144"
+label: "dome-keeper"
+meta:
+  displayName: "Dome Keeper"
+  iconUrl: "dome-keeper.jpg"
+distributions:
+  - platform: "steam"
+    identifier: "1637320"
+r2modman:
+  - meta:
+      displayName: "Dome Keeper"
+      iconUrl: "dome-keeper.jpg"
+    internalFolderName: "DomeKeeper"
+    dataFolderName: ""
+    distributions:
+      - platform: "steam"
+        identifier: "1637320"
+    settingsIdentifier: "DomeKeeper"
+    packageIndex: "https://thunderstore.io/c/dome-keeper/api/v1/package-listing-index/"
+    steamFolderName: "Dome Keeper"
+    exeNames:
+      - "domekeeper.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "dk"
+    packageLoader: "godotml"
+    installRules:
+      - route: "mods"
+        defaultFileExtensions: []
+        trackingMethod: "package-zip"
+        subRoutes: []
+        isDefaultLocation: true
+    relativeFileExclusions: null

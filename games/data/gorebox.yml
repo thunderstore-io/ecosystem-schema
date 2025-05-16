@@ -2,7 +2,6 @@ uuid: "c49c7c87-81de-4877-aeb5-1793a88997e6"
 label: "gorebox"
 meta:
   displayName: "GoreBox"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "GoreBox"

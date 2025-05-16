@@ -2,7 +2,6 @@ uuid: "4a28a8cc-902c-4630-a4b7-79f90ae22299"
 label: "panicore"
 meta:
   displayName: "Panicore"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Panicore"

@@ -2,8 +2,10 @@ uuid: "5dc44866-bdbd-44fe-b144-d57d761f6f26"
 label: "zort"
 meta:
   displayName: "Zort"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "zort.png"
+distributions:
+- platform: steam
+  identifier: "3121110"
 thunderstore:
   displayName: "Zort"
   categories:
@@ -29,6 +31,6 @@ thunderstore:
       requireCategories:
         - "modpacks"
   wikiUrl: "https://zort.fandom.com/wiki/Zort_Wiki"
-  discordUrl: "https://discord.gg/EHAS3Fd5rG"
+  discordUrl: "https://discord.gg/gmPEXpPvay"
   autolistPackageIds:
     - "BepInEx-BepInExPack"

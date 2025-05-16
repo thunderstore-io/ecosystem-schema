@@ -1,0 +1,56 @@
+uuid: "82797f44-f9db-44a3-a448-fcac4bd23673"
+label: "paquerette-down-the-bunburrows"
+meta:
+  displayName: "Paquerette Down the Bunburrows"
+  iconUrl: "PaqueretteDownTheBunburrows.png"
+distributions:
+  - platform: "steam"
+    identifier: "1628610"
+r2modman:
+  - meta:
+      displayName: "Paquerette Down the Bunburrows"
+      iconUrl: "PaqueretteDownTheBunburrows.png"
+    internalFolderName: "PaqueretteDownTheBunburrows"
+    dataFolderName: "Paquerette Down the Bunburrows_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1628610"
+    settingsIdentifier: "PaqueretteDownTheBunburrows"
+    packageIndex: "https://thunderstore.io/c/paquerette-down-the-bunburrows/api/v1/package-listing-index/"
+    steamFolderName: "Paquerette Down the Bunburrows"
+    exeNames:
+      - "Paquerette Down the Bunburrows.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

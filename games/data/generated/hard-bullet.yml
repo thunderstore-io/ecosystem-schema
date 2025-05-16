@@ -7,47 +7,66 @@ distributions:
   - platform: "steam"
     identifier: "1294760"
 r2modman:
-  internalFolderName: "HardBullet"
-  dataFolderName: "Hard Bullet_Data"
-  settingsIdentifier: "HardBullet"
-  packageIndex: "https://thunderstore.io/c/hard-bullet/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "Hard Bullet"
-  exeNames:
-    - "Hard Bullet.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "LavaGang-MelonLoader"
-      rootFolder: ""
-      loader: "melonloader"
-  installRules:
-    - route: "Mods"
-      trackingMethod: "state"
-      defaultFileExtensions:
-        - ".dll"
-    - route: "UserData/ModManager"
-      trackingMethod: "subdir-no-flatten"
-      isDefaultLocation: true
-    - route: "UserData/CustomNPCs"
-      trackingMethod: "state"
-      defaultFileExtensions:
-        - ".npc"
-    - route: "UserLibs"
-      trackingMethod: "state"
-      defaultFileExtensions:
-        - ".lib.dll"
-    - route: "MelonLoader"
-      trackingMethod: "state"
-      children:
-        - route: "Managed"
-          trackingMethod: "state"
-          defaultFileExtensions:
-            - ".managed.dll"
-        - route: "Libs"
-          trackingMethod: "state"
-  relativeFileExclusions:
-    - "manifest.json"
-    - "icon.png"
-    - "README.md"
-    - "LICENCE"
+  - meta:
+      displayName: "Hard Bullet"
+      iconUrl: "HardBullet.jpg"
+    internalFolderName: "HardBullet"
+    dataFolderName: "Hard Bullet_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1294760"
+    settingsIdentifier: "HardBullet"
+    packageIndex: "https://thunderstore.io/c/hard-bullet/api/v1/package-listing-index/"
+    steamFolderName: "Hard Bullet"
+    exeNames:
+      - "Hard Bullet.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "hb"
+    packageLoader: "melonloader"
+    installRules:
+      - route: "Mods"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "UserData/ModManager"
+        defaultFileExtensions: []
+        trackingMethod: "subdir-no-flatten"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "UserLibs"
+        defaultFileExtensions:
+          - ".lib.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "MelonLoader"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes:
+          - route: "Managed"
+            defaultFileExtensions:
+              - ".managed.dll"
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+          - route: "Libs"
+            defaultFileExtensions: []
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+        isDefaultLocation: false
+      - route: "UserData/CustomNPCs"
+        defaultFileExtensions:
+          - ".npc"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "icon.png"
+      - "README.md"
+      - "LICENCE"

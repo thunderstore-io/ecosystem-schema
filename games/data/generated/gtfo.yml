@@ -7,38 +7,59 @@ distributions:
   - platform: "steam"
     identifier: "493520"
 r2modman:
-  internalFolderName: "GTFO"
-  dataFolderName: "GTFO_Data"
-  settingsIdentifier: "GTFO"
-  packageIndex: "https://gtfo.thunderstore.io/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "GTFO"
-  exeNames:
-    - "GTFO.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_GTFO"
-      rootFolder: "BepInExPack_GTFO"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-    - route: "BepInEx/GameData"
-      trackingMethod: "subdir"
-    - route: "BepInEx/Assets"
-      trackingMethod: "state"
-  relativeFileExclusions: []
+  - meta:
+      displayName: "GTFO"
+      iconUrl: "GTFO.jpg"
+    internalFolderName: "GTFO"
+    dataFolderName: "GTFO_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "493520"
+    settingsIdentifier: "GTFO"
+    packageIndex: "https://thunderstore.io/c/gtfo/api/v1/package-listing-index/"
+    steamFolderName: "GTFO"
+    exeNames:
+      - "GTFO.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/GameData"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/Assets"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

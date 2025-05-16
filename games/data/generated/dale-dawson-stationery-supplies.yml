@@ -1,0 +1,29 @@
+uuid: "f02a7d1c-62b3-484b-8b34-6cc87a342521"
+label: "dale-dawson-stationery-supplies"
+meta:
+  displayName: "Dale & Dawson Stationery Supplies"
+  iconUrl: "DaleAndDawson.png"
+distributions:
+  - platform: "steam"
+    identifier: "2920570"
+r2modman:
+  - meta:
+      displayName: "Dale & Dawson Stationery Supplies"
+      iconUrl: "DaleAndDawson.png"
+    internalFolderName: "DaleAndDawson"
+    dataFolderName: "DDSS_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2920570"
+    settingsIdentifier: "DaleAndDawson"
+    packageIndex: "https://thunderstore.io/c/dale-dawson-stationery-supplies/api/v1/package-listing-index/"
+    steamFolderName: "Dale&Dawson"
+    exeNames:
+      - "DDSS.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "recursive-melonloader"
+    installRules: []
+    relativeFileExclusions: null

@@ -7,34 +7,50 @@ distributions:
   - platform: "steam"
     identifier: "1604030"
 r2modman:
-  internalFolderName: "VRising"
-  dataFolderName: "VRising_Data"
-  settingsIdentifier: "VRising"
-  packageIndex: "https://thunderstore.io/c/v-rising/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "VRising"
-  exeNames:
-    - "VRising.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_V_Rising"
-      rootFolder: "BepInExPack_V_Rising"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  - meta:
+      displayName: "V Rising"
+      iconUrl: "VRising.jpg"
+    internalFolderName: "VRising"
+    dataFolderName: "VRising_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1604030"
+    settingsIdentifier: "VRising"
+    packageIndex: "https://thunderstore.io/c/v-rising/api/v1/package-listing-index/"
+    steamFolderName: "VRising"
+    exeNames:
+      - "VRising.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "vrising"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -1,0 +1,56 @@
+uuid: "f5dc52cc-47fb-441d-bcc1-23e0f82face0"
+label: "i-am-your-beast"
+meta:
+  displayName: "I Am Your Beast"
+  iconUrl: "IAmYourBeast.webp"
+distributions:
+  - platform: "steam"
+    identifier: "1876590"
+r2modman:
+  - meta:
+      displayName: "I Am Your Beast"
+      iconUrl: "IAmYourBeast.webp"
+    internalFolderName: "IAmYourBeast"
+    dataFolderName: "I Am Your Beast_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1876590"
+    settingsIdentifier: "I Am Your Beast"
+    packageIndex: "https://thunderstore.io/c/i-am-your-beast/api/v1/package-listing-index/"
+    steamFolderName: "I Am Your Beast"
+    exeNames:
+      - "I Am Your Beast.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "iayb"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

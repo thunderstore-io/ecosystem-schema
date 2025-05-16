@@ -1,0 +1,70 @@
+uuid: "c7281746-5743-4dd1-b37f-b640f6611854"
+label: "subnautica-below-zero"
+meta:
+  displayName: "Subnautica: Below Zero"
+  iconUrl: "SubnauticaBelowZero.png"
+distributions:
+  - platform: "steam"
+    identifier: "848450"
+  - platform: "xbox-game-pass"
+    identifier: "UnknownWorldsEntertainmen.SubnauticaBelowZero"
+r2modman:
+  - meta:
+      displayName: "Subnautica: Below Zero"
+      iconUrl: "SubnauticaBelowZero.png"
+    internalFolderName: "SubnauticaBZ"
+    dataFolderName: "SubnauticaZero_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "848450"
+      - platform: "xbox-game-pass"
+        identifier: "UnknownWorldsEntertainmen.SubnauticaBelowZero"
+    settingsIdentifier: "SubnauticaBZ"
+    packageIndex: "https://thunderstore.io/c/subnautica-below-zero/api/v1/package-listing-index/"
+    steamFolderName: "SubnauticaZero"
+    exeNames:
+      - "SubnauticaZero.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "bz"
+      - "sbz"
+      - "s:bz"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "QMods"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "icon.png"
+      - "README.md"

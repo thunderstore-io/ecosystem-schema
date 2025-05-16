@@ -1,0 +1,56 @@
+uuid: "d9438bf4-c83f-4d6d-952f-efc79b8432a1"
+label: "back-to-the-dawn"
+meta:
+  displayName: "Back to the Dawn"
+  iconUrl: "BackToTheDawn.png"
+distributions:
+  - platform: "steam"
+    identifier: "1735700"
+r2modman:
+  - meta:
+      displayName: "Back to the Dawn"
+      iconUrl: "BackToTheDawn.png"
+    internalFolderName: "BacktotheDawn"
+    dataFolderName: "Back To The Dawn_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1735700"
+    settingsIdentifier: "BacktotheDawn"
+    packageIndex: "https://thunderstore.io/c/back-to-the-dawn/api/v1/package-listing-index/"
+    steamFolderName: "MetalHeadGames"
+    exeNames:
+      - "Back To The Dawn.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "bttd"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

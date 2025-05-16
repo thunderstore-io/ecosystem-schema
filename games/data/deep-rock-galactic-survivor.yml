@@ -2,7 +2,6 @@ uuid: "45049fca-094f-4e86-a6aa-5eb11dc2f899"
 label: "deep-rock-galactic-survivor"
 meta:
   displayName: "Deep Rock Galactic: Survivor"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Deep Rock Galactic: Survivor"

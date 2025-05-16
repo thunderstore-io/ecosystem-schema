@@ -1,0 +1,56 @@
+uuid: "3383f232-8539-4052-8da9-3067549a029c"
+label: "techtonica"
+meta:
+  displayName: "Techtonica"
+  iconUrl: "techtonica.png"
+distributions:
+  - platform: "steam"
+    identifier: "1457320"
+r2modman:
+  - meta:
+      displayName: "Techtonica"
+      iconUrl: "techtonica.png"
+    internalFolderName: "Techtonica"
+    dataFolderName: "Techtonica_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1457320"
+    settingsIdentifier: "Techtonica"
+    packageIndex: "https://thunderstore.io/c/techtonica/api/v1/package-listing-index/"
+    steamFolderName: "Techtonica"
+    exeNames:
+      - "Techtonica.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "tt"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

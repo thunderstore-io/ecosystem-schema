@@ -1,0 +1,43 @@
+# A generic ecosystem entry intended to add a new community to Thunderstore WITHOUT r2modman package install support.
+
+# A unique label for this entry.
+label:
+
+# User-facing data that's used to present this entry to the user, usually within the
+# game selection menu.
+meta:
+  # The display name of this entry as listed within r2modman.
+  displayName:
+  # The name of the icon file within the r2modman directory `src/assets/images/game_selection/`.
+  iconUrl:
+
+# One or more distribution entries.
+distributions:
+  # The name of the platform.
+- platform:
+  # The optional identifier used to autodetect the location of the game directory.
+- identifier:
+
+# Fields which determine how this entry is listed on thunderstore.io.
+thunderstore:
+  # A human-readable display name.
+  displayName:
+
+  # One or more categories. The following are a good set of defaults, but new ones can be added if needed.
+  categories:
+    mods:
+      label: Mods
+    modpacks:
+      label: Modpacks
+
+  # Top-level sections used to separate different package categories into visual tabs. Again, these
+  # are a good set of defaults, but new ones can be added.
+  sections:
+    mods:
+      name: Mods
+      excludeCategories:
+      - modpacks
+    modpacks:
+      name: Modpacks
+      requireCategories:
+      - modpacks

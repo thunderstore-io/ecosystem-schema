@@ -2,7 +2,6 @@ uuid: "8b1ef87d-8ca8-4204-9cf3-7b7bc8262e37"
 label: "dread-hunger"
 meta:
   displayName: "Dread Hunger"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Dread Hunger"

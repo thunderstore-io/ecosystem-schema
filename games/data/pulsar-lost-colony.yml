@@ -1,0 +1,33 @@
+uuid: "d4f457c3-71b1-40c7-87f2-5ed5b0b67ca1"
+label: "pulsar-lost-colony"
+meta:
+  displayName: "Pulsar: Lost Colony"
+distributions: []
+thunderstore:
+  displayName: "Pulsar: Lost Colony"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://pulsarlostcolony.fandom.com/wiki/PULSAR:_Lost_Colony_Wiki"
+  discordUrl: "https://discord.com/invite/j3Pydn6"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

@@ -1,0 +1,56 @@
+uuid: "be17d062-1f3d-4a6c-b147-33386590c648"
+label: "old-market-simulator"
+meta:
+  displayName: "Old Market Simulator"
+  iconUrl: "OldMarketSimulator.png"
+distributions:
+  - platform: "steam"
+    identifier: "2878420"
+r2modman:
+  - meta:
+      displayName: "Old Market Simulator"
+      iconUrl: "OldMarketSimulator.png"
+    internalFolderName: "OldMarketSimulator"
+    dataFolderName: "Old Market Simulator_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2878420"
+    settingsIdentifier: "Old Market Simulator"
+    packageIndex: "https://thunderstore.io/c/old-market-simulator/api/v1/package-listing-index/"
+    steamFolderName: "Old Market Simulator"
+    exeNames:
+      - "Old Market Simulator.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

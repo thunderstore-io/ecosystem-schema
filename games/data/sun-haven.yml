@@ -2,7 +2,6 @@ uuid: "6bc92698-4e26-4ebf-8c74-f3a9fcb768da"
 label: "sun-haven"
 meta:
   displayName: "Sun Haven"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Sun Haven"

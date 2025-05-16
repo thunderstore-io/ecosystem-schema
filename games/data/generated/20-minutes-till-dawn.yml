@@ -6,35 +6,56 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "1966900"
+  - platform: "epic-games-store"
+    identifier: "4656facc740742a39e265b026e13d075"
 r2modman:
-  internalFolderName: "20MinutesTillDawn"
-  dataFolderName: "MinutesTillDawn_Data"
-  settingsIdentifier: "20MinutesTillDawn"
-  packageIndex: "https://thunderstore.io/c/20-minutes-till-dawn/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "20MinuteTillDawn"
-  exeNames:
-    - "MinutesTillDawn.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInExPackMTD-BepInExPack_20MTD"
-      rootFolder: "BepInExPack_20MTD"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  - meta:
+      displayName: "20 Minutes Till Dawn"
+      iconUrl: "20MinutesTillDawn.jpg"
+    internalFolderName: "20MinutesTillDawn"
+    dataFolderName: "MinutesTillDawn_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1966900"
+      - platform: "epic-games-store"
+        identifier: "4656facc740742a39e265b026e13d075"
+    settingsIdentifier: "20MinutesTillDawn"
+    packageIndex: "https://thunderstore.io/c/20-minutes-till-dawn/api/v1/package-listing-index/"
+    steamFolderName: "20MinuteTillDawn"
+    exeNames:
+      - "MinutesTillDawn.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "mtd"
+      - "20mtd"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

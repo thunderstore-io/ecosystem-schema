@@ -2,7 +2,6 @@ uuid: "da78ae80-b42f-4956-b239-bfa408594ebc"
 label: "sunkenland"
 meta:
   displayName: "Sunkenland"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Sunkenland"

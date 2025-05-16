@@ -2,7 +2,6 @@ uuid: "e9f5de2b-6273-4af4-a4cc-f7c427e1389a"
 label: "lycans"
 meta:
   displayName: "Lycans"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Lycans"

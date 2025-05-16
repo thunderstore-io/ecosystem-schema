@@ -2,7 +2,6 @@ uuid: "4e739d58-fea8-4739-9bd0-6aacf124b0ec"
 label: "107zxz-inscryption-multiplayer"
 meta:
   displayName: "Inscryption Multiplayer"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Inscryption Multiplayer"

@@ -1,0 +1,56 @@
+uuid: "52a2dfeb-584a-4c36-ab88-68faf0d10ec1"
+label: "human-fall-flat"
+meta:
+  displayName: "Human Fall Flat"
+  iconUrl: "HumanFallFlat.png"
+distributions:
+  - platform: "steam"
+    identifier: "477160"
+r2modman:
+  - meta:
+      displayName: "Human Fall Flat"
+      iconUrl: "HumanFallFlat.png"
+    internalFolderName: "HumanFallFlat"
+    dataFolderName: "Human_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "477160"
+    settingsIdentifier: "HumanFallFlat"
+    packageIndex: "https://thunderstore.io/c/human-fall-flat/api/v1/package-listing-index/"
+    steamFolderName: "Human Fall Flat"
+    exeNames:
+      - "Human.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "hff"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -1,0 +1,56 @@
+uuid: "375634e8-16b6-486d-aa9d-26ba422d4143"
+label: "touhou-lost-branch-of-legend"
+meta:
+  displayName: "TouhouLostBranchOfLegend"
+  iconUrl: "TouhouLostBranchOfLegend.jpg"
+distributions:
+  - platform: "steam"
+    identifier: "1140150"
+r2modman:
+  - meta:
+      displayName: "TouhouLostBranchOfLegend"
+      iconUrl: "TouhouLostBranchOfLegend.jpg"
+    internalFolderName: "TouhouLostBranchOfLegend"
+    dataFolderName: "LBoL_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1140150"
+    settingsIdentifier: "TouhouLostBranchOfLegend"
+    packageIndex: "https://thunderstore.io/c/touhou-lost-branch-of-legend/api/v1/package-listing-index/"
+    steamFolderName: "LBoL"
+    exeNames:
+      - "LBoL.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "lbol"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

@@ -1,0 +1,56 @@
+uuid: "fe739984-0340-4004-885c-a831baee3952"
+label: "another-crabs-treasure"
+meta:
+  displayName: "Another Crab's Treasure"
+  iconUrl: "AnotherCrabsTreasure.png"
+distributions:
+  - platform: "steam"
+    identifier: "1887840"
+r2modman:
+  - meta:
+      displayName: "Another Crab's Treasure"
+      iconUrl: "AnotherCrabsTreasure.png"
+    internalFolderName: "AnotherCrabsTreasure"
+    dataFolderName: "AnotherCrabsTreasure_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1887840"
+    settingsIdentifier: "AnotherCrabsTreasure"
+    packageIndex: "https://thunderstore.io/c/another-crabs-treasure/api/v1/package-listing-index/"
+    steamFolderName: "AnotherCrabsTreasure"
+    exeNames:
+      - "AnotherCrabsTreasure.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "act"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

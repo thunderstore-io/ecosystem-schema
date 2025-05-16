@@ -2,8 +2,9 @@ uuid: "a78aee6c-e075-47d9-9c73-e4734ec3b22a"
 label: "gang-beasts"
 meta:
   displayName: "Gang Beasts"
-  iconUrl: "None"
-distributions: []
+distributions:
+- platform: steam
+  identifier: "285900"
 thunderstore:
   displayName: "Gang Beasts"
   categories:

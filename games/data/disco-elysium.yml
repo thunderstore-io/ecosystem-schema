@@ -2,8 +2,9 @@ uuid: "2c8bdcd0-e5b7-4927-8e0b-c13b7914c3a1"
 label: "disco-elysium"
 meta:
   displayName: "Disco Elysium"
-  iconUrl: "None"
-distributions: []
+distributions:
+- platform: steam
+  identifier: "632470"
 thunderstore:
   displayName: "Disco Elysium"
   categories:

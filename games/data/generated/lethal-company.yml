@@ -1,0 +1,56 @@
+uuid: "40c7d846-cff1-45fe-8679-4abe993abafb"
+label: "lethal-company"
+meta:
+  displayName: "Lethal Company"
+  iconUrl: "LethalCompany.png"
+distributions:
+  - platform: "steam"
+    identifier: "1966720"
+r2modman:
+  - meta:
+      displayName: "Lethal Company"
+      iconUrl: "LethalCompany.png"
+    internalFolderName: "LethalCompany"
+    dataFolderName: "Lethal Company_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1966720"
+    settingsIdentifier: "LethalCompany"
+    packageIndex: "https://thunderstore.io/c/lethal-company/api/v1/package-listing-index/"
+    steamFolderName: "Lethal Company"
+    exeNames:
+      - "Lethal Company.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "lc"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

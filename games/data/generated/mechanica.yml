@@ -7,34 +7,49 @@ distributions:
   - platform: "steam"
     identifier: "1226990"
 r2modman:
-  internalFolderName: "Mechanica"
-  dataFolderName: "Mechanica_Data"
-  settingsIdentifier: "Mechanica"
-  packageIndex: "https://mechanica.thunderstore.io/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "Mechanica"
-  exeNames:
-    - "Mechanica.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "Zinal001-BepInExPack_MECHANICA"
-      rootFolder: "BepInExPack_MECHANICA"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  - meta:
+      displayName: "Mechanica"
+      iconUrl: "Mechanica.jpg"
+    internalFolderName: "Mechanica"
+    dataFolderName: "Mechanica_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1226990"
+    settingsIdentifier: "Mechanica"
+    packageIndex: "https://thunderstore.io/c/mechanica/api/v1/package-listing-index/"
+    steamFolderName: "Mechanica"
+    exeNames:
+      - "Mechanica.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

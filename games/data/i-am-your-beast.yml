@@ -2,8 +2,9 @@ uuid: "f5dc52cc-47fb-441d-bcc1-23e0f82face0"
 label: "i-am-your-beast"
 meta:
   displayName: "I Am Your Beast"
-  iconUrl: "None"
-distributions: []
+distributions:
+- platform: steam
+  identifier: "1876590"
 thunderstore:
   displayName: "I Am Your Beast"
   categories:

@@ -2,39 +2,55 @@ uuid: "49fd28ec-fb38-47c5-ba62-92a51cf9b70e"
 label: "core-keeper"
 meta:
   displayName: "Core Keeper"
-  iconUrl: "CoreKeeper.jpg"
+  iconUrl: "CoreKeeper.png"
 distributions:
   - platform: "steam"
     identifier: "1621690"
 r2modman:
-  internalFolderName: "CoreKeeper"
-  dataFolderName: "CoreKeeper_Data"
-  settingsIdentifier: "CoreKeeper"
-  packageIndex: "https://core-keeper.thunderstore.io/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "Core Keeper"
-  exeNames:
-    - "CoreKeeper.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_Core_Keeper"
-      rootFolder: "BepInExPack_Core-Keeper"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  - meta:
+      displayName: "Core Keeper"
+      iconUrl: "CoreKeeper.png"
+    internalFolderName: "CoreKeeper"
+    dataFolderName: "CoreKeeper_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1621690"
+    settingsIdentifier: "CoreKeeper"
+    packageIndex: "https://thunderstore.io/c/core-keeper/api/v1/package-listing-index/"
+    steamFolderName: "Core Keeper"
+    exeNames:
+      - "CoreKeeper.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ck"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

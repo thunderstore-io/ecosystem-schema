@@ -2,8 +2,10 @@ uuid: "a8c07068-9690-4bb4-8b07-64e9da66208c"
 label: "odd-remedy"
 meta:
   displayName: "Odd Remedy"
-  iconUrl: "None"
-distributions: []
+  iconUrl: "OddRemedy.png"
+distributions:
+- platform: steam
+  identifier: "1745680"
 thunderstore:
   displayName: "Odd Remedy"
   categories:

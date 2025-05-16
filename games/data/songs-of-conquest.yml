@@ -1,0 +1,33 @@
+uuid: "d9fcc60f-1418-44b6-9ea9-15f50e5baf6f"
+label: "songs-of-conquest"
+meta:
+  displayName: "Songs of Conquest"
+distributions: []
+thunderstore:
+  displayName: "Songs of Conquest"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://docs.google.com/spreadsheets/d/1Z8Mp9UrmZ45shY5ETMG4iv6X8aug2YQTZw48NgHf2h0/edit?usp=sharing"
+  discordUrl: "https://discord.gg/WFBJnh9GQP"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

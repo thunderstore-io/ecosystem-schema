@@ -2,7 +2,6 @@ uuid: "fce81e4f-fb2f-4bcb-84f5-2118e79161c3"
 label: "content-warning"
 meta:
   displayName: "Content Warning"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Content Warning"
@@ -85,5 +84,5 @@ thunderstore:
       requireCategories:
         - "modpacks"
         - "soundpack"
-    
+
   discordUrl: "https://discord.gg/E9ustG9Drx"

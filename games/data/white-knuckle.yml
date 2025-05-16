@@ -1,0 +1,32 @@
+uuid: "86e03bd3-56c2-4cea-b471-fedde6069a68"
+label: "white-knuckle"
+meta:
+  displayName: "White Knuckle"
+distributions: []
+thunderstore:
+  displayName: "White Knuckle"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/utEargcD2Z"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

@@ -1,0 +1,56 @@
+uuid: "6ebb56d0-ca43-471a-9e50-3182cd3b3c66"
+label: "arcus-chroma"
+meta:
+  displayName: "Arcus Chroma"
+  iconUrl: "ArcusChroma.png"
+distributions:
+  - platform: "steam"
+    identifier: "1447350"
+r2modman:
+  - meta:
+      displayName: "Arcus Chroma"
+      iconUrl: "ArcusChroma.png"
+    internalFolderName: "ArcusChroma"
+    dataFolderName: "Arcus Chroma_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1447350"
+    settingsIdentifier: "ArcusChroma"
+    packageIndex: "https://thunderstore.io/c/arcus-chroma/api/v1/package-listing-index/"
+    steamFolderName: "Arcus Chroma"
+    exeNames:
+      - "Arcus Chroma.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

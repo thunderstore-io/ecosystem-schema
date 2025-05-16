@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as yaml from "js-yaml";
-import { GameDefinition, PackageInstallerDefinition } from "./models";
+import { GameDefinition, PackageInstallerDefinition } from "./models.js";
 import { lstatSync } from "fs";
 
 function loadYamlFromDir<T>(path: string) {
@@ -34,4 +34,8 @@ export function loadInstallerDefinitions(): {
   data: PackageInstallerDefinition;
 }[] {
   return loadYamlFromDir<PackageInstallerDefinition>("./installers");
+}
+
+export function loadModloaderPackages() {
+  return yaml.load(fs.readFileSync("./misc/modloader-packages.yml", "utf-8"));
 }

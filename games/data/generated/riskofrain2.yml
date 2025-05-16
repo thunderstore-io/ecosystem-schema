@@ -1,0 +1,111 @@
+uuid: "da7786df-a437-463a-b495-1f502bfff4bb"
+label: "riskofrain2"
+meta:
+  displayName: "Risk of Rain 2"
+  iconUrl: "RiskOfRain2.jpg"
+distributions:
+  - platform: "steam"
+    identifier: "632360"
+  - platform: "epic-games-store"
+    identifier: "4b3dcc5723454a47a9112d8fe8fd5f5c"
+  - platform: "steam"
+    identifier: "1180760"
+r2modman:
+  - meta:
+      displayName: "Risk of Rain 2"
+      iconUrl: "RiskOfRain2.jpg"
+    internalFolderName: "RiskOfRain2"
+    dataFolderName: "Risk of Rain 2_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "632360"
+      - platform: "epic-games-store"
+        identifier: "4b3dcc5723454a47a9112d8fe8fd5f5c"
+      - platform: "steam"
+        identifier: "1180760"
+    settingsIdentifier: "RiskOfRain2"
+    packageIndex: "https://thunderstore.io/c/riskofrain2/api/v1/package-listing-index/"
+    steamFolderName: "Risk of Rain 2"
+    exeNames:
+      - "Risk of Rain 2.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ROR2"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
+  - meta:
+      displayName: "Risk of Rain 2 Dedicated Server"
+      iconUrl: "RiskOfRain2.jpg"
+    internalFolderName: "RiskOfRain2"
+    dataFolderName: "Risk of Rain 2_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1180760"
+    settingsIdentifier: "RiskOfRain2Server"
+    packageIndex: "https://thunderstore.io/c/riskofrain2/api/v1/package-listing-index/"
+    steamFolderName: "Risk of Rain 2 Dedicated Server"
+    exeNames:
+      - "Risk of Rain 2.exe"
+    gameInstanceType: "server"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ROR2"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

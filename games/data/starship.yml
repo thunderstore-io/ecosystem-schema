@@ -2,7 +2,6 @@ uuid: "367e77fa-c7d6-4ca0-a8c6-a35e3f10d300"
 label: "starship"
 meta:
   displayName: "Starship"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Starship"

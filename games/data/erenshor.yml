@@ -2,7 +2,6 @@ uuid: "588b3202-55b4-4701-8d28-0da252f8101f"
 label: "erenshor"
 meta:
   displayName: "Erenshor"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Erenshor"

@@ -1,0 +1,56 @@
+uuid: "45049fca-094f-4e86-a6aa-5eb11dc2f899"
+label: "deep-rock-galactic-survivor"
+meta:
+  displayName: "Deep Rock Galactic: Survivor"
+  iconUrl: "DeepRockGalacticSurvivor.png"
+distributions:
+  - platform: "steam"
+    identifier: "2321470"
+r2modman:
+  - meta:
+      displayName: "Deep Rock Galactic: Survivor"
+      iconUrl: "DeepRockGalacticSurvivor.png"
+    internalFolderName: "DeepRockGalacticSurvivor"
+    dataFolderName: "DRG Survivor_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2321470"
+    settingsIdentifier: "DeepRockGalacticSurvivor"
+    packageIndex: "https://thunderstore.io/c/deep-rock-galactic-survivor/api/v1/package-listing-index/"
+    steamFolderName: "Deep Rock Survivor"
+    exeNames:
+      - "DRG Survivor.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

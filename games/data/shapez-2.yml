@@ -2,7 +2,6 @@ uuid: "1a6f1e43-d697-4556-98cb-43b2e6ad16dd"
 label: "shapez-2"
 meta:
   displayName: "Shapez 2"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Shapez 2"

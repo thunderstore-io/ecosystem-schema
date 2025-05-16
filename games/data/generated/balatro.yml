@@ -1,0 +1,28 @@
+uuid: "ecbabbaa-076a-4fce-9211-4c90ab7f0890"
+label: "balatro"
+meta:
+  displayName: "Balatro"
+  iconUrl: "Balatro.png"
+distributions:
+  - platform: "steam"
+    identifier: "2379780"
+r2modman:
+  - meta:
+      displayName: "Balatro"
+      iconUrl: "Balatro.png"
+    internalFolderName: "Balatro"
+    dataFolderName: "Balatro_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2379780"
+    settingsIdentifier: "Balatro"
+    packageIndex: "https://thunderstore.io/c/balatro/api/v1/package-listing-index/"
+    steamFolderName: "Balatro"
+    exeNames:
+      - "Balatro.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "lovely"
+    installRules: []
+    relativeFileExclusions: null

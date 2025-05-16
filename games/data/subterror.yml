@@ -2,8 +2,9 @@ uuid: "a5754c79-d267-4ec1-8f5c-9f0c5b38348d"
 label: "subterror"
 meta:
   displayName: "Subterror"
-  iconUrl: "None"
-distributions: []
+distributions:
+- platform: steam
+  identifier: "2846060"
 thunderstore:
   displayName: "Subterror"
   categories:

@@ -1,0 +1,56 @@
+uuid: "8d60a159-96e3-45b5-acf4-b2ebe356d1dd"
+label: "aneurism-iv"
+meta:
+  displayName: "ANEURISM IV"
+  iconUrl: "ANEURISM_IV.png"
+distributions:
+  - platform: "steam"
+    identifier: "2773280"
+r2modman:
+  - meta:
+      displayName: "ANEURISM IV"
+      iconUrl: "ANEURISM_IV.png"
+    internalFolderName: "ANEURISMIV"
+    dataFolderName: "ANEURISM IV_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2773280"
+    settingsIdentifier: "ANEURISMIV"
+    packageIndex: "https://thunderstore.io/c/aneurism-iv/api/v1/package-listing-index/"
+    steamFolderName: "ANEURISMIV"
+    exeNames:
+      - "ANEURISM IV.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

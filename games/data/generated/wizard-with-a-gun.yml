@@ -1,0 +1,56 @@
+uuid: "646b9aff-b0b4-4a83-a661-4d50d1bb904b"
+label: "wizard-with-a-gun"
+meta:
+  displayName: "Wizard With A Gun"
+  iconUrl: "WizardWithAGun.jpg"
+distributions:
+  - platform: "steam"
+    identifier: "1150530"
+r2modman:
+  - meta:
+      displayName: "Wizard With A Gun"
+      iconUrl: "WizardWithAGun.jpg"
+    internalFolderName: "WizardWithAGun"
+    dataFolderName: "wizardwithagun_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1150530"
+    settingsIdentifier: "WizardWithAGun"
+    packageIndex: "https://thunderstore.io/c/wizard-with-a-gun/api/v1/package-listing-index/"
+    steamFolderName: "Wizard With A Gun"
+    exeNames:
+      - "wizardwithagun.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "wizgun"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

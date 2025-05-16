@@ -2,7 +2,6 @@ uuid: "59abf0d2-1f59-4378-897e-2b4c94c87245"
 label: "phasmophobia"
 meta:
   displayName: "Phasmophobia"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Phasmophobia"

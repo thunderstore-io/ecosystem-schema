@@ -2,7 +2,6 @@ uuid: "e7eaf05a-ba88-447b-bdd8-4c5d53ccfa11"
 label: "voices-of-the-void"
 meta:
   displayName: "Voices of the Void"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Voices of the Void"

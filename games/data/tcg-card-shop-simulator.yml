@@ -2,7 +2,6 @@ uuid: "99207aff-e108-4371-ac34-75f57763729f"
 label: "tcg-card-shop-simulator"
 meta:
   displayName: "TCG Card Shop Simulator"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "TCG Card Shop Simulator"

@@ -2,7 +2,6 @@ uuid: "d479f68c-b484-4d90-b704-9672b826d794"
 label: "subterranauts"
 meta:
   displayName: "Subterranauts"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Subterranauts"

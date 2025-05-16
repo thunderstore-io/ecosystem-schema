@@ -1,5 +1,13 @@
 import { z } from "zod";
-import { isAutolistPackageValid } from "./autolistPackages";
+
+import { isAutolistPackageValid } from "./autolistPackages.js";
+import {
+  DisplayTypeValues,
+  DistributionPlatformValues,
+  GameTypeValues,
+  ModmanPackageLoaderValues,
+  ModmanTrackingMethodValues,
+} from "../models";
 
 const slug = z.string().regex(new RegExp(/^[a-z0-9](-?[a-z0-9])*$/));
 
@@ -26,34 +34,72 @@ const communitySchema = z.strictObject({
 
 export type CommunitySchemaType = z.infer<typeof communitySchema>;
 
+const _baseInstallRuleSchema = z.strictObject({
+  route: z.string(),
+  trackingMethod: z.enum(ModmanTrackingMethodValues),
+  defaultFileExtensions: z.array(z.string()),
+  isDefaultLocation: z.boolean(),
+});
+type _installRuleSchema = z.infer<typeof _baseInstallRuleSchema> & {
+  subRoutes: _installRuleSchema[];
+};
+const installRuleSchema: z.ZodType<_installRuleSchema> =
+  _baseInstallRuleSchema.extend({
+    subRoutes: z.lazy(() => installRuleSchema.array()),
+  });
+
+const distributionSchema = z.strictObject({
+  platform: z.enum(DistributionPlatformValues),
+  identifier: z.string().optional().nullable(),
+});
+const metaSchema = z.strictObject({
+  displayName: z.string(),
+  iconUrl: z.string().nullable(),
+});
+
+const r2modmanSchema = z.strictObject({
+  meta: metaSchema,
+  internalFolderName: z.string(),
+  dataFolderName: z.string(),
+  distributions: z.array(distributionSchema),
+  settingsIdentifier: z.string(),
+  packageIndex: z.string(),
+  steamFolderName: z.string(),
+  exeNames: z.array(z.string()),
+  gameInstanceType: z.enum(GameTypeValues),
+  gameSelectionDisplayMode: z.enum(DisplayTypeValues),
+  additionalSearchStrings: z.array(z.string()),
+  packageLoader: z.enum(ModmanPackageLoaderValues).nullable(),
+  installRules: z.array(installRuleSchema),
+  relativeFileExclusions: z.array(z.string()).nullable(),
+});
+
+const gameSchema = z.strictObject({
+  uuid: z.string().uuid(),
+  label: slug,
+  meta: metaSchema,
+  distributions: z.array(distributionSchema),
+  thunderstore: communitySchema.optional(),
+  tcli: z.object({}).passthrough().optional(), // TODO: Use strict object with schema
+  r2modman: z.array(r2modmanSchema).nullable(),
+});
+
 export const ecosystemJsonSchema = z.strictObject({
   schemaVersion: z.string(),
-  games: z.record(
-    z.string(),
-    z.strictObject({
-      uuid: z.string().uuid(),
-      label: slug,
-      meta: z.strictObject({
-        displayName: z.string(),
-        iconUrl: z.string().nullable(),
-      }),
-      distributions: z.array(
-        z.strictObject({
-          platform: z.string(),
-          identifier: z.string().optional(),
-        })
-      ),
-      thunderstore: communitySchema.optional(),
-      tcli: z.object({}).optional(), // TODO: Use strict object with schema
-      r2modman: z.object({}).optional(), // TODO: Use strict object with schema
-    })
-  ),
+  games: z.record(z.string(), gameSchema),
   communities: z.record(slug, communitySchema),
   packageInstallers: z.record(
     slug,
     z.strictObject({
       name: z.string(),
       description: z.string(),
+    })
+  ),
+  modloaderPackages: z.array(
+    z.strictObject({
+      packageId: z.string(),
+      rootFolder: z.string(),
+      loader: z.enum(ModmanPackageLoaderValues),
     })
   ),
 });

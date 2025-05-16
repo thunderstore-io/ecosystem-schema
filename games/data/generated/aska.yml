@@ -1,0 +1,56 @@
+uuid: "1cc17f22-ca8f-4596-b936-eaa80b300286"
+label: "aska"
+meta:
+  displayName: "ASKA"
+  iconUrl: "ASKA.png"
+distributions:
+  - platform: "steam"
+    identifier: "1898300"
+r2modman:
+  - meta:
+      displayName: "ASKA"
+      iconUrl: "ASKA.png"
+    internalFolderName: "ASKA"
+    dataFolderName: "ASKA_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1898300"
+    settingsIdentifier: "ASKA"
+    packageIndex: "https://thunderstore.io/c/aska/api/v1/package-listing-index/"
+    steamFolderName: "ASKA"
+    exeNames:
+      - "Aska.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

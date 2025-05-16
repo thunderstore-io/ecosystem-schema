@@ -1,0 +1,56 @@
+uuid: "d4f457c3-71b1-40c7-87f2-5ed5b0b67ca1"
+label: "pulsar-lost-colony"
+meta:
+  displayName: "Pulsar: Lost Colony"
+  iconUrl: "PulsarLostColony.png"
+distributions:
+  - platform: "steam"
+    identifier: "252870"
+r2modman:
+  - meta:
+      displayName: "Pulsar: Lost Colony"
+      iconUrl: "PulsarLostColony.png"
+    internalFolderName: "PulsarLostColony"
+    dataFolderName: "PULSAR_LostColony_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "252870"
+    settingsIdentifier: "PulsarLostColony"
+    packageIndex: "https://thunderstore.io/c/pulsar-lost-colony/api/v1/package-listing-index/"
+    steamFolderName: "PULSARLostColony"
+    exeNames:
+      - "PULSAR_LostColony.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "plc"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

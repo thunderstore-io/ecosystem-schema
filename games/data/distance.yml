@@ -2,8 +2,9 @@ uuid: "e74a656d-3d3f-49be-a332-9066fe02c6b0"
 label: "distance"
 meta:
   displayName: "Distance"
-  iconUrl: "None"
-distributions: []
+distributions:
+- platform: steam
+  identifier: "233610"
 thunderstore:
   displayName: "Distance"
   categories:

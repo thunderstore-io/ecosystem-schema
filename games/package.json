@@ -1,19 +1,22 @@
 {
   "name": "@thunderstore/games",
-  "type": "module",
   "version": "0.1.0",
   "description": "Index of Thunderstore supported games",
   "main": "index.js",
   "repository": "git@github.com:thunderstore-io/ecosystem-schema.git",
   "author": "Mythic <mythic@thunderstore.io>",
   "license": "MIT",
+  "compilerOptions": {
+    "rootDir": "./"
+  },
   "scripts": {
     "extract": "tsx ./src/scripts/extract-r2modman.ts",
     "build": "tsx ./src/scripts/build.ts",
     "add": "tsx ./src/scripts/add.ts",
     "deploy": "tsx ./src/scripts/deploy.ts",
     "validate": "tsx ./src/scripts/validate.ts",
-    "diff": "tsx ./src/scripts/diff.ts"
+    "diff": "tsx ./src/scripts/diff.ts",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.0.1",
@@ -22,13 +25,16 @@
     "@types/uuid": "^8.3.4",
     "dotenv": "^16.3.1",
     "js-yaml": "^4.1.0",
+    "json-diff-kit": "^1.0.31",
     "lodash": "^4.17.21",
-    "tsx": "^4.7.2",
-    "typescript": "^4.8.3",
+    "tsx": "4.19.3",
+    "typescript": "5.5",
     "uuid": "^9.0.0",
-    "zod": "^3.23.4"
+    "zod": "3.24.2",
+    "zod-to-json-schema": "3.24"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.196"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

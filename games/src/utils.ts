@@ -1,4 +1,4 @@
-import { GameInstanceType } from "../r2modmanPlus/src/model/game/GameInstanceType";
+import { GameInstanceType } from "../r2modmanPlus/src/model/game/GameInstanceType.js";
 import {
   DisplayType,
   DistributionPlatform,
@@ -6,13 +6,14 @@ import {
   ModmanInstallRule,
   ModmanModLoaderPackage,
   ModmanPackageLoader,
+  ModmanPackageLoaderValues,
   ModmanTrackingMethod,
-} from "./models";
-import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform";
-import { GameSelectionDisplayMode } from "../r2modmanPlus/src/model/game/GameSelectionDisplayMode";
-import { PackageLoader } from "../r2modmanPlus/src/model/installing/PackageLoader";
-import { RuleSubtype } from "../r2modmanPlus/src/r2mm/installing/InstallationRules";
-import ModLoaderPackageMapping from "../r2modmanPlus/src/model/installing/ModLoaderPackageMapping";
+} from "./models.js";
+import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform.js";
+import { GameSelectionDisplayMode } from "../r2modmanPlus/src/model/game/GameSelectionDisplayMode.js";
+import { PackageLoader } from "../r2modmanPlus/src/model/installing/PackageLoader.js";
+import { RuleSubtype } from "../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
+import ModLoaderPackageMapping from "../r2modmanPlus/src/model/installing/ModLoaderPackageMapping.js";
 
 export function convertPlatform(platform: StorePlatform): DistributionPlatform {
   switch (platform) {
@@ -21,9 +22,9 @@ export function convertPlatform(platform: StorePlatform): DistributionPlatform {
     case StorePlatform.STEAM_DIRECT:
       return "steam-direct";
     case StorePlatform.EPIC_GAMES_STORE:
-      return "egs";
+      return "epic-games-store";
     case StorePlatform.OCULUS_STORE:
-      return "oculus";
+      return "oculus-store";
     case StorePlatform.ORIGIN:
       return "origin";
     case StorePlatform.XBOX_GAME_PASS:
@@ -68,16 +69,16 @@ export function convertInstallRule(
 ): ModmanInstallRule {
   return {
     route: installRule.route.split("\\").join("/"),
-    trackingMethod: convertTrackingMethod(installRule.trackingMethod),
-    children:
-      installRule.subRoutes.length > 0
-        ? installRule.subRoutes.map(convertInstallRule)
-        : undefined,
     defaultFileExtensions:
       installRule.defaultFileExtensions.length > 0
         ? installRule.defaultFileExtensions
-        : undefined,
-    isDefaultLocation: installRule.isDefaultLocation,
+        : [],
+    trackingMethod: convertTrackingMethod(installRule.trackingMethod),
+    subRoutes:
+      installRule.subRoutes.length > 0
+        ? installRule.subRoutes.map(convertInstallRule)
+        : [],
+    isDefaultLocation: installRule.isDefaultLocation ?? false,
   };
 }
 
@@ -88,17 +89,19 @@ export function convertTrackingMethod(
     case "SUBDIR":
       return "subdir";
     case "NONE":
-      return null;
+      return "none";
     case "STATE":
       return "state";
     case "SUBDIR_NO_FLATTEN":
       return "subdir-no-flatten";
+    case "PACKAGE_ZIP":
+      return "package-zip";
   }
 }
 
 export function convertPackageLoader(
   packageLoader: PackageLoader
-): ModmanPackageLoader {
+): ModmanPackageLoader | null {
   switch (packageLoader) {
     case PackageLoader.BEPINEX:
       return "bepinex";
@@ -106,5 +109,19 @@ export function convertPackageLoader(
       return "melonloader";
     case PackageLoader.NORTHSTAR:
       return "northstar";
+    case PackageLoader.GODOT_ML:
+      return "godotml";
+    case PackageLoader.ANCIENT_DUNGEON_VR:
+      return null;
+    case PackageLoader.SHIMLOADER:
+      return "shimloader";
+    case PackageLoader.LOVELY:
+      return "lovely";
+    case PackageLoader.RETURN_OF_MODDING:
+      return "returnofmodding";
+    case PackageLoader.GDWEAVE:
+      return "gdweave";
+    case PackageLoader.RECURSIVE_MELON_LOADER:
+      return "recursive-melonloader";
   }
 }

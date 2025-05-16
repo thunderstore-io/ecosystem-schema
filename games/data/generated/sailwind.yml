@@ -1,0 +1,55 @@
+uuid: "45c79671-8676-4e4a-b8d8-63f79ef3fc6d"
+label: "sailwind"
+meta:
+  displayName: "Sailwind"
+  iconUrl: "Sailwind.png"
+distributions:
+  - platform: "steam"
+    identifier: "1764530"
+r2modman:
+  - meta:
+      displayName: "Sailwind"
+      iconUrl: "Sailwind.png"
+    internalFolderName: "Sailwind"
+    dataFolderName: "Sailwind_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1764530"
+    settingsIdentifier: "Sailwind"
+    packageIndex: "https://thunderstore.io/c/sailwind/api/v1/package-listing-index/"
+    steamFolderName: "Sailwind"
+    exeNames:
+      - "Sailwind.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

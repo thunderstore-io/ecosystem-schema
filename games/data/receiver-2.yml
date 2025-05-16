@@ -2,7 +2,6 @@ uuid: "9d9ac981-81d3-413a-9f73-709a8036b56e"
 label: "receiver-2"
 meta:
   displayName: "Receiver 2"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Receiver 2"

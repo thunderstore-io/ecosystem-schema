@@ -1,0 +1,33 @@
+uuid: "6326ec88-399a-4aac-bc1b-6db8f053f515"
+label: "gatekeeper"
+meta:
+  displayName: "Gatekeeper"
+distributions: []
+thunderstore:
+  displayName: "Gatekeeper"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://www.gatekeeper.wiki/"
+  discordUrl: "https://discord.com/invite/Hkrp6AUa5S"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"

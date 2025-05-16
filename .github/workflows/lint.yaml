@@ -1,0 +1,26 @@
+on:
+  pull_request:
+
+jobs:
+  deploy:
+    name: "Lint"
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        working-directory: "games"
+    steps:
+      - uses: "actions/checkout@v3"
+        with:
+          submodules: "recursive"
+      - uses: "actions/setup-node@v3"
+        with:
+          node-version: "23.6"
+          cache-dependency-path: |
+            games/yarn.lock
+            games/r2modmanPlus/yarn.lock
+      - name: "Install main dependencies"
+        run: "yarn install --frozen-lockfile"
+      - name: "Install r2modmanPlus dependencies"
+        run: "cd r2modmanPlus && yarn install --frozen-lockfile"
+      - name: "Lint"
+        run: "yarn run lint"

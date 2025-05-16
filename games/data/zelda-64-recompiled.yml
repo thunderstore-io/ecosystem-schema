@@ -2,7 +2,6 @@ uuid: "9a90746b-6ae2-426b-92ac-cf4e06ab0564"
 label: "zelda-64-recompiled"
 meta:
   displayName: "Zelda 64: Recompiled"
-  iconUrl: "None"
 distributions: []
 thunderstore:
   displayName: "Zelda 64: Recompiled"

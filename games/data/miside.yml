@@ -2,8 +2,9 @@ uuid: "5d8d324b-bf77-46b2-b2c1-cf0c0adfba05"
 label: "miside"
 meta:
   displayName: "MiSide"
-  iconUrl: "None"
-distributions: []
+distributions:
+- platform: steam
+  identifier: "2527500"
 thunderstore:
   displayName: "MiSide"
   categories:

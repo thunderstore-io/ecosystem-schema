@@ -2,39 +2,56 @@ uuid: "00b69efd-f144-45d5-b16e-09c4927a5421"
 label: "across-the-obelisk"
 meta:
   displayName: "Across the Obelisk"
-  iconUrl: "AcrossTheObelisk.jpg"
+  iconUrl: "AcrossTheObelisk.png"
 distributions:
   - platform: "steam"
     identifier: "1385380"
 r2modman:
-  internalFolderName: "AcrossTheObelisk"
-  dataFolderName: "AcrossTheObelisk_Data"
-  settingsIdentifier: "AcrossTheObelisk"
-  packageIndex: "https://thunderstore.io/c/across-the-obelisk/api/v1/package/"
-  exclusionsUrl: "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md"
-  steamFolderName: "Across the Obelisk"
-  exeNames:
-    - "AcrossTheObelisk.exe"
-  gameInstancetype: "game"
-  gameSelectionDisplayMode: "visible"
-  modLoaderPackages:
-    - packageId: "BepInEx-BepInExPack_AcrossTheObelisk"
-      rootFolder: "BepInExPack_AcrossTheObelisk"
-      loader: "bepinex"
-  installRules:
-    - route: "BepInEx/plugins"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".dll"
-      isDefaultLocation: true
-    - route: "BepInEx/core"
-      trackingMethod: "subdir"
-    - route: "BepInEx/patchers"
-      trackingMethod: "subdir"
-    - route: "BepInEx/monomod"
-      trackingMethod: "subdir"
-      defaultFileExtensions:
-        - ".mm.dll"
-    - route: "BepInEx/config"
-      trackingMethod: null
-  relativeFileExclusions: []
+  - meta:
+      displayName: "Across the Obelisk"
+      iconUrl: "AcrossTheObelisk.png"
+    internalFolderName: "AcrossTheObelisk"
+    dataFolderName: "AcrossTheObelisk_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1385380"
+    settingsIdentifier: "AcrossTheObelisk"
+    packageIndex: "https://thunderstore.io/c/across-the-obelisk/api/v1/package-listing-index/"
+    steamFolderName: "Across the Obelisk"
+    exeNames:
+      - "AcrossTheObelisk.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ato"
+      - "ao"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null

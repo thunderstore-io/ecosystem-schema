@@ -1,0 +1,56 @@
+uuid: "2ece1ef1-88cd-4b95-8e41-ef43f5f7fc80"
+label: "goodbye-volcano-high"
+meta:
+  displayName: "Goodbye Volcano High"
+  iconUrl: "GoodbyeVolcanoHigh.png"
+distributions:
+  - platform: "steam"
+    identifier: "1310330"
+r2modman:
+  - meta:
+      displayName: "Goodbye Volcano High"
+      iconUrl: "GoodbyeVolcanoHigh.png"
+    internalFolderName: "GoodbyeVolcanoHigh"
+    dataFolderName: "Goodbye Volcano High_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1310330"
+    settingsIdentifier: "GoodbyeVolcanoHigh"
+    packageIndex: "https://thunderstore.io/c/goodbye-volcano-high/api/v1/package-listing-index/"
+    steamFolderName: "Goodbye Volcano High"
+    exeNames:
+      - "Goodbye Volcano High.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
