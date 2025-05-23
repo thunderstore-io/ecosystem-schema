@@ -18,6 +18,18 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    equipment:
+      label: "Equipment"
+    abilities:
+      label: "Abilities"
+    cosmetics:
+      label: "Cosmetics"
+    objectives:
+      label: "Objectives"
+    translations:
+      label: "Translations"
+    tweaks:
+      label: "Tweaks"
   sections:
     mods:
       name: "Mods"
@@ -28,4 +40,4 @@ thunderstore:
       requireCategories:
         - "modpacks"
   wikiUrl: "https://lasttrainouttawormtown.fandom.com/wiki/Last_Train_Outta'_Wormtown_Wiki"
-  discordUrl: "https://discord.gg/wormtown"
+  discordUrl: "https://discord.gg/bTpxn65ZzY"
