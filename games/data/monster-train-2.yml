@@ -4,7 +4,7 @@ meta:
   displayName: "Monster Train 2"
 distributions:
 - platform: steam
-  identifier: "3296150"
+  identifier: "2742830"
 thunderstore:
   displayName: "Monster Train 2"
   categories:
@@ -20,6 +20,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    clans:
+      label: "Clan"
   sections:
     mods:
       name: "Mods"
