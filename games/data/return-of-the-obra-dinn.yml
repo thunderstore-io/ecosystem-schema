@@ -1,0 +1,32 @@
+uuid: "6b4a870a-26fe-44c2-9164-9e3fc5d86e3a"
+label: "return-of-the-obra-dinn"
+meta:
+  displayName: "Return of the Obra Dinn"
+distributions: []
+thunderstore:
+  displayName: "Return of the Obra Dinn"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://obradinn.fandom.com/wiki/Return_of_the_Obra_Dinn_Wiki"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
