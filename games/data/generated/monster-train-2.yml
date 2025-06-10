@@ -5,21 +5,21 @@ meta:
   iconUrl: "MonsterTrain2.png"
 distributions:
   - platform: "steam"
-    identifier: "3296150"
+    identifier: "2742830"
 r2modman:
   - meta:
       displayName: "Monster Train 2"
       iconUrl: "MonsterTrain2.png"
     internalFolderName: "MonsterTrain2"
-    dataFolderName: "MonsterTrain2-Demo_Data"
+    dataFolderName: "MonsterTrain2_Data"
     distributions:
       - platform: "steam"
-        identifier: "3296150"
+        identifier: "2742830"
     settingsIdentifier: "MonsterTrain2"
     packageIndex: "https://thunderstore.io/c/monster-train-2/api/v1/package-listing-index/"
-    steamFolderName: "Monster Train 2 Demo"
+    steamFolderName: "Monster Train 2"
     exeNames:
-      - "MonsterTrain2-Demo.exe"
+      - "MonsterTrain2.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:

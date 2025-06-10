@@ -17,7 +17,7 @@ r2modman:
         identifier: "1931180"
     settingsIdentifier: "LostSkies"
     packageIndex: "https://thunderstore.io/c/lost-skies/api/v1/package-listing-index/"
-    steamFolderName: "LostSkies"
+    steamFolderName: "Wild Skies"
     exeNames:
       - "LostSkies.exe"
     gameInstanceType: "game"

@@ -1,29 +1,29 @@
-uuid: "86e03bd3-56c2-4cea-b471-fedde6069a68"
-label: "white-knuckle"
+uuid: "3f1b9fa4-a067-4910-877e-78bcd8caef25"
+label: "9-kings"
 meta:
-  displayName: "White Knuckle"
-  iconUrl: "WhiteKnuckle.png"
+  displayName: "9 Kings"
+  iconUrl: "9Kings.png"
 distributions:
   - platform: "steam"
-    identifier: "3195790"
+    identifier: "2784470"
 r2modman:
   - meta:
-      displayName: "White Knuckle"
-      iconUrl: "WhiteKnuckle.png"
-    internalFolderName: "WhiteKnuckle"
-    dataFolderName: "White Knuckle_Data"
+      displayName: "9 Kings"
+      iconUrl: "9Kings.png"
+    internalFolderName: "9Kings"
+    dataFolderName: "9Kings_Data"
     distributions:
       - platform: "steam"
-        identifier: "3195790"
-    settingsIdentifier: "WhiteKnuckle"
-    packageIndex: "https://thunderstore.io/c/white-knuckle/api/v1/package-listing-index/"
-    steamFolderName: "White Knuckle"
+        identifier: "2784470"
+    settingsIdentifier: "9Kings"
+    packageIndex: "https://thunderstore.io/c/9-kings/api/v1/package-listing-index/"
+    steamFolderName: "9 Kings"
     exeNames:
-      - "White Knuckle.exe"
+      - "9Kings.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - "wk"
+      - ""
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

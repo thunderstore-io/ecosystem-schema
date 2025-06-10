@@ -1,0 +1,66 @@
+uuid: "ce8b8855-5fa1-46a1-a362-356254d1fff7"
+label: "painting-vr"
+meta:
+  displayName: "Painting VR"
+  iconUrl: "PaintingVr.png"
+distributions:
+  - platform: "steam"
+    identifier: "1905940"
+r2modman:
+  - meta:
+      displayName: "Painting VR"
+      iconUrl: "PaintingVr.png"
+    internalFolderName: "PaintingVr"
+    dataFolderName: "PaintingVr_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1905940"
+    settingsIdentifier: "PaintingVr"
+    packageIndex: "https://thunderstore.io/c/painting-vr/api/v1/package-listing-index/"
+    steamFolderName: "Painting VR"
+    exeNames:
+      - "PaintingVr.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "pvr"
+    packageLoader: "recursive-melonloader"
+    installRules:
+      - route: "Mods"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "UserData/ModManager"
+        defaultFileExtensions: []
+        trackingMethod: "subdir-no-flatten"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "UserLibs"
+        defaultFileExtensions:
+          - ".lib.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "MelonLoader"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes:
+          - route: "Managed"
+            defaultFileExtensions:
+              - ".managed.dll"
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+          - route: "Libs"
+            defaultFileExtensions: []
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "icon.png"
+      - "README.md"
+      - "LICENCE"

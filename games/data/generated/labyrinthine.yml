@@ -1,0 +1,29 @@
+uuid: "f51778cc-ffa4-42f7-a140-9ad5c528d8f7"
+label: "labyrinthine"
+meta:
+  displayName: "Labyrinthine"
+  iconUrl: "Labyrinthine.png"
+distributions:
+  - platform: "steam"
+    identifier: "1302240"
+r2modman:
+  - meta:
+      displayName: "Labyrinthine"
+      iconUrl: "Labyrinthine.png"
+    internalFolderName: "Labyrinthine"
+    dataFolderName: "Labyrinthine_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1302240"
+    settingsIdentifier: "Labyrinthine"
+    packageIndex: "https://thunderstore.io/c/labyrinthine/api/v1/package-listing-index/"
+    steamFolderName: "Labyrinthine"
+    exeNames:
+      - "Labyrinthine.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "recursive-melonloader"
+    installRules: []
+    relativeFileExclusions: null
