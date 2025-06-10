@@ -124,7 +124,11 @@ for (const x of GameManager.gameList) {
         gameInstanceType: convertGameType(x.instanceType),
         gameSelectionDisplayMode: convertDisplayMode(x.displayMode),
         additionalSearchStrings: x.additionalSearchStrings,
-        packageLoader: GetInstallerIdForLoader(x.packageLoader),
+
+        // Cast null to "none" to bypass chicken/egg problem with
+        // syncing this repo and r2mm repo.
+        packageLoader: GetInstallerIdForLoader(x.packageLoader) || "none",
+
         ...extractRules(x.internalFolderName),
       },
     ],

@@ -101,7 +101,7 @@ export function convertTrackingMethod(
 
 export function convertPackageLoader(
   packageLoader: PackageLoader
-): ModmanPackageLoader | null {
+): ModmanPackageLoader {
   switch (packageLoader) {
     case PackageLoader.BEPINEX:
       return "bepinex";
@@ -111,8 +111,6 @@ export function convertPackageLoader(
       return "northstar";
     case PackageLoader.GODOT_ML:
       return "godotml";
-    case PackageLoader.ANCIENT_DUNGEON_VR:
-      return null;
     case PackageLoader.SHIMLOADER:
       return "shimloader";
     case PackageLoader.LOVELY:
@@ -123,5 +121,7 @@ export function convertPackageLoader(
       return "gdweave";
     case PackageLoader.RECURSIVE_MELON_LOADER:
       return "recursive-melonloader";
+    case PackageLoader.NONE:
+      return "none";
   }
 }
