@@ -69,7 +69,7 @@ const r2modmanSchema = z.strictObject({
   gameInstanceType: z.enum(GameTypeValues),
   gameSelectionDisplayMode: z.enum(DisplayTypeValues),
   additionalSearchStrings: z.array(z.string()),
-  packageLoader: z.enum(ModmanPackageLoaderValues).nullable(),
+  packageLoader: z.enum(ModmanPackageLoaderValues),
   installRules: z.array(installRuleSchema),
   relativeFileExclusions: z.array(z.string()).nullable(),
 });

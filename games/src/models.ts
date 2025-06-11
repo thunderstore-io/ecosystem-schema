@@ -17,10 +17,9 @@ export const ModmanPackageLoaderValues = [
   "returnofmodding",
   "gdweave",
   "recursive-melonloader",
+  "none",
 ] as const;
-export type ModmanPackageLoader =
-  | typeof ModmanPackageLoaderValues[number]
-  | null;
+export type ModmanPackageLoader = typeof ModmanPackageLoaderValues[number];
 
 export const DistributionPlatformValues = [
   "steam",

@@ -1,29 +1,29 @@
-uuid: "86e03bd3-56c2-4cea-b471-fedde6069a68"
-label: "white-knuckle"
+uuid: "c6954061-56b4-4854-b12b-b473c6bdf051"
+label: "depo"
 meta:
-  displayName: "White Knuckle"
-  iconUrl: "WhiteKnuckle.png"
+  displayName: "DEPO : Death Epileptic Pixel Origins"
+  iconUrl: "DEPO.png"
 distributions:
   - platform: "steam"
-    identifier: "3195790"
+    identifier: "1091320"
 r2modman:
   - meta:
-      displayName: "White Knuckle"
-      iconUrl: "WhiteKnuckle.png"
-    internalFolderName: "WhiteKnuckle"
-    dataFolderName: "White Knuckle_Data"
+      displayName: "DEPO : Death Epileptic Pixel Origins"
+      iconUrl: "DEPO.png"
+    internalFolderName: "DEPO"
+    dataFolderName: "DEPO_Data"
     distributions:
       - platform: "steam"
-        identifier: "3195790"
-    settingsIdentifier: "WhiteKnuckle"
-    packageIndex: "https://thunderstore.io/c/white-knuckle/api/v1/package-listing-index/"
-    steamFolderName: "White Knuckle"
+        identifier: "1091320"
+    settingsIdentifier: "DEPO"
+    packageIndex: "https://thunderstore.io/c/depo/api/v1/package-listing-index/"
+    steamFolderName: "DEPO"
     exeNames:
-      - "White Knuckle.exe"
+      - "DEPO.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - "wk"
+      - ""
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
