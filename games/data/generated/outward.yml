@@ -29,12 +29,6 @@ r2modman:
         identifier: "Viola"
       - platform: "other"
         identifier: null
-      - platform: "steam"
-        identifier: "1758860"
-      - platform: "epic-games-store"
-        identifier: "f07a51af8ac845ea96f792fb485e04a3"
-      - platform: "other"
-        identifier: null
     settingsIdentifier: "Outward"
     packageIndex: "https://thunderstore.io/c/outward/api/v1/package-listing-index/"
     steamFolderName: "Outward"

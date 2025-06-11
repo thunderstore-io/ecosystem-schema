@@ -144,24 +144,14 @@ for (const definitions of gamesByCommunityId.values()) {
   if (definitions.length < 1) {
     continue;
   }
-  const result = definitions[0];
-  for (const entry of definitions.slice(1)) {
-    if (!entry.r2modman) {
-      continue;
-    }
-    if (!result.r2modman) {
-      result.r2modman = [];
-    }
-    result.r2modman.push(...entry.r2modman);
 
-    if (entry.distributions) {
-      if (!result.distributions) {
-        result.distributions = [];
-      }
-      result.distributions.push(...entry.distributions);
-    }
-  }
-  games.push(result);
+  const allR2Modman = definitions.flatMap((x) => x.r2modman ?? []);
+
+  games.push({
+    ...definitions[0],
+    distributions: definitions.flatMap((x) => x.distributions ?? []),
+    r2modman: allR2Modman.length ? allR2Modman : null,
+  });
 }
 
 fs.writeFileSync(

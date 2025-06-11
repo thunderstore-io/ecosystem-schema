@@ -21,8 +21,6 @@ r2modman:
         identifier: "632360"
       - platform: "epic-games-store"
         identifier: "4b3dcc5723454a47a9112d8fe8fd5f5c"
-      - platform: "steam"
-        identifier: "1180760"
     settingsIdentifier: "RiskOfRain2"
     packageIndex: "https://thunderstore.io/c/riskofrain2/api/v1/package-listing-index/"
     steamFolderName: "Risk of Rain 2"

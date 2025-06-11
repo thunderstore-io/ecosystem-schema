@@ -21,8 +21,6 @@ r2modman:
         identifier: "892970"
       - platform: "xbox-game-pass"
         identifier: "CoffeeStainStudios.Valheim"
-      - platform: "steam"
-        identifier: "896660"
     settingsIdentifier: "Valheim"
     packageIndex: "https://thunderstore.io/c/valheim/api/v1/package-listing-index/"
     steamFolderName: "Valheim"
