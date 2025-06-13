@@ -14,7 +14,7 @@ export const ModmanPackageLoaderValues = [
   "godotml",
   "shimloader",
   "lovely",
-  "returnofmodding",
+  "return-of-modding",
   "gdweave",
   "recursive-melonloader",
   "none",
@@ -66,8 +66,8 @@ export interface GameModmanDefinition {
   // exclusionsUrl: string;
   steamFolderName: string;
   exeNames: string[];
-  gameInstanceType: "game" | "server";
-  gameSelectionDisplayMode: "visible" | "hidden";
+  gameInstanceType: GameType;
+  gameSelectionDisplayMode: DisplayType;
   // modLoaderPackages: ModmanModLoaderPackage[];
   installRules: ModmanInstallRule[];
   relativeFileExclusions: string[] | null;

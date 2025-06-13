@@ -17,7 +17,7 @@ import {
 } from "../../r2modmanPlus/src/r2mm/installing/profile_installers/ModLoaderVariantRecord.js";
 import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator.js";
 import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
-import { GetInstallerIdForLoader } from "../../r2modmanPlus/src/model/installing/PackageLoader";
+import { GetInstallerIdForLoader, PackageLoader } from "../../r2modmanPlus/src/model/installing/PackageLoader";
 
 const { generated, manual } = loadGameDefinitions();
 const labelToUuid = new Map<string, string>();
@@ -46,6 +46,22 @@ for (const def of manual) {
     }
   }
   labelToUuid.set(def.label, def.uuid);
+}
+
+/**
+ * Bypass chicken/egg problems by massaging the installer ids
+ * to new values we want to use going forward.
+ */
+function getInstallerId(loader: PackageLoader) {
+  const loaderId = GetInstallerIdForLoader(loader);
+  switch (loaderId) {
+    case "returnofmodding":
+      return "return-of-modding";
+    case null:
+      return "none";
+    default:
+      return loaderId;
+  }
 }
 
 function getUuid(label: string, settingsIdentifier: string): string {
@@ -124,10 +140,7 @@ for (const x of GameManager.gameList) {
         gameInstanceType: convertGameType(x.instanceType),
         gameSelectionDisplayMode: convertDisplayMode(x.displayMode),
         additionalSearchStrings: x.additionalSearchStrings,
-
-        // Cast null to "none" to bypass chicken/egg problem with
-        // syncing this repo and r2mm repo.
-        packageLoader: GetInstallerIdForLoader(x.packageLoader) || "none",
+        packageLoader: getInstallerId(x.packageLoader),
 
         ...extractRules(x.internalFolderName),
       },

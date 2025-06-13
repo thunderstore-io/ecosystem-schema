@@ -6,7 +6,6 @@ import {
   ModmanInstallRule,
   ModmanModLoaderPackage,
   ModmanPackageLoader,
-  ModmanPackageLoaderValues,
   ModmanTrackingMethod,
 } from "./models.js";
 import { StorePlatform } from "../r2modmanPlus/src/model/game/StorePlatform.js";
@@ -116,7 +115,7 @@ export function convertPackageLoader(
     case PackageLoader.LOVELY:
       return "lovely";
     case PackageLoader.RETURN_OF_MODDING:
-      return "returnofmodding";
+      return "return-of-modding";
     case PackageLoader.GDWEAVE:
       return "gdweave";
     case PackageLoader.RECURSIVE_MELON_LOADER:
