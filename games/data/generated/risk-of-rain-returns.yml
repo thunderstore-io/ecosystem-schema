@@ -24,6 +24,6 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "rorr"
-    packageLoader: "returnofmodding"
+    packageLoader: "return-of-modding"
     installRules: []
     relativeFileExclusions: null
