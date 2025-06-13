@@ -14,7 +14,7 @@ export const ModmanPackageLoaderValues = [
   "godotml",
   "shimloader",
   "lovely",
-  "returnofmodding",
+  "return-of-modding",
   "gdweave",
   "recursive-melonloader",
   "none",

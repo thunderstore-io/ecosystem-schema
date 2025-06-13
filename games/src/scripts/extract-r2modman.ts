@@ -2,12 +2,13 @@ import GameManager from "../../r2modmanPlus/src/model/game/GameManager.js";
 import { v4 as uuid } from "uuid";
 import * as yaml from "js-yaml";
 import * as fs from "fs";
-import { GameDefinition, GameModmanDefinition } from "../models.js";
+import { GameDefinition, GameModmanDefinition, ModmanPackageLoader } from "../models.js";
 import {
   convertDisplayMode,
   convertGameType,
   convertInstallRule,
   convertModLoaderPackageMapping,
+  convertPackageLoader,
   convertPlatform,
 } from "../utils.js";
 import { loadGameDefinitions } from "../load.js";
@@ -17,7 +18,6 @@ import {
 } from "../../r2modmanPlus/src/r2mm/installing/profile_installers/ModLoaderVariantRecord.js";
 import InstallationRuleApplicator from "../../r2modmanPlus/src/r2mm/installing/default_installation_rules/InstallationRuleApplicator.js";
 import InstallationRules from "../../r2modmanPlus/src/r2mm/installing/InstallationRules.js";
-import { GetInstallerIdForLoader } from "../../r2modmanPlus/src/model/installing/PackageLoader";
 
 const { generated, manual } = loadGameDefinitions();
 const labelToUuid = new Map<string, string>();
@@ -124,10 +124,7 @@ for (const x of GameManager.gameList) {
         gameInstanceType: convertGameType(x.instanceType),
         gameSelectionDisplayMode: convertDisplayMode(x.displayMode),
         additionalSearchStrings: x.additionalSearchStrings,
-
-        // Cast null to "none" to bypass chicken/egg problem with
-        // syncing this repo and r2mm repo.
-        packageLoader: GetInstallerIdForLoader(x.packageLoader) || "none",
+        packageLoader: convertPackageLoader(x.packageLoader),
 
         ...extractRules(x.internalFolderName),
       },
