@@ -1,15 +1,22 @@
-import { GameDefinition } from "../models.js";
+import { GameDefinition, GameModmanDefinition } from "../models.js";
 import { v4 as uuid } from "uuid";
 import fs from "fs";
 import * as yaml from "js-yaml";
-import { input, checkbox } from "@inquirer/prompts";
+import { input, checkbox, confirm, select } from "@inquirer/prompts";
 import _ from "lodash";
 import { AUTOLIST_PACKAGE_CHOICES } from "../schema/autolistPackages.js";
+import { GAME_TYPE_CHOICES } from "../schema/instanceTypes.js";
+import { PACKAGE_LOADER_CHOICES } from "../schema/packageLoaders.js";
+import { PLATFORM_CHOICES } from "../schema/platforms.js";
+
+const isNotEmpty = (x: string) => !!(x.trim());
+
+const pascalCase = (x: string) => x.charAt(0).toUpperCase() + _.camelCase(x.slice(1));
 
 async function runAddCommand() {
   const displayName = await input({
     message: "Display name for the community",
-    validate: (val) => !!val,
+    validate: isNotEmpty,
   });
   const identifier = await input({
     message: "Identifier for the community (slug)",
@@ -35,29 +42,64 @@ async function runAddCommand() {
     choices: AUTOLIST_PACKAGE_CHOICES,
   });
 
+  const managerSupport = await confirm({
+    message: "Add mod manager support (TSMM/r2modman)?",
+    default: true,
+  });
+
+  // Override exeNames type since prompts lib doesn't support returning string[].
+  type PromptedFields = "gameInstanceType" | "distributions" | "steamFolderName" | "dataFolderName" | "packageLoader";
+  type PromptedR2 = Pick<GameModmanDefinition, PromptedFields> & {exeNames: string};
+  let r2modman: PromptedR2|null = null;
+
+  if (managerSupport) {
+    r2modman = {
+      gameInstanceType: await select({
+        message: "Select type",
+        choices: GAME_TYPE_CHOICES,
+      }),
+
+      distributions: [{
+        platform: await select({
+          message: "Which store is the game available on?",
+          choices: PLATFORM_CHOICES,
+        }),
+        identifier: await input({
+          message: "Game's identifier on the selected store (optional for Oculus, Origin, and Other)",
+        }),
+      }],
+
+      steamFolderName: await input({
+        message: "Steam folder name (e.g. from SteamDB)",
+        default: displayName,
+        validate: isNotEmpty,
+      }),
+      dataFolderName: await input({
+        message: "Data folder name (e.g. from SteamDB)",
+        default: `${displayName}_Data`,
+        validate: isNotEmpty,
+      }),
+      exeNames: await input({
+        message: "Executable name (comma separated list)",
+        default: `${displayName}.exe`,
+        validate: isNotEmpty
+      }),
+      packageLoader: await select({
+        message: "Package loader",
+        choices: PACKAGE_LOADER_CHOICES,
+      }),
+    };
+  }
+
   const game: GameDefinition = {
     uuid: uuid(),
     label: identifier,
     meta: {
       displayName,
-      // iconUrl: "None", // TODO: Add support for media assets
+      iconUrl: `${_.kebabCase(displayName)}.webp`,
     },
     distributions: [],
-    // TODO: Enable once consumers implemented
-    // r2modman: {
-    //   internalFolderName: name,
-    //   dataFolderName: name,
-    //   settingsIdentifier: name,
-    //   packageIndex: `https://thunderstore.io/c/${name}/api/v1/package/`,
-    //   exclusionsUrl:
-    //     "https://raw.githubusercontent.com/ebkr/r2modmanPlus/master/modExclusions.md",
-    //   steamFolderName: name,
-    //   exeNames: [`${name}.exe`],
-    //   gameInstancetype: "game",
-    //   gameSelectionDisplayMode: "visible",
-    //   modLoaderPackages: [],
-    //   installRules: [],
-    // },
+    r2modman: null,
     thunderstore: {
       displayName,
       categories: {
@@ -85,6 +127,22 @@ async function runAddCommand() {
     },
   };
 
+  if (r2modman) {
+    game.r2modman = [{
+      ...r2modman,
+      meta: {...game.meta},
+      settingsIdentifier: pascalCase(displayName),
+      internalFolderName: pascalCase(displayName),
+      exeNames: r2modman.exeNames.split(",").map((name) => name.trim()),
+
+      packageIndex: `https://thunderstore.io/c/${identifier}/api/v1/package/`,
+      gameSelectionDisplayMode: "visible",
+      additionalSearchStrings: [],
+      installRules: [],  // TODO: add defaults for BepInEx
+      relativeFileExclusions: null,
+    }];
+  }
+
   const path = `./data/${identifier}.yml`;
   if (fs.existsSync(path)) {
     throw new Error(`${path} already exists`);
@@ -96,6 +154,8 @@ async function runAddCommand() {
       forceQuotes: true,
     })
   );
+
+  console.log(`data/${identifier}.yml file was created and can be manually edited before submitting a PR.`);
 }
 
 // TODO: Add await if/when top level await is supported without
