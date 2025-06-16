@@ -123,7 +123,7 @@ async function runAddCommand() {
       packageIndex: `https://thunderstore.io/c/${identifier}/api/v1/package/`,
       gameSelectionDisplayMode: "visible",
       additionalSearchStrings: [],
-      installRules: [],  // TODO: add defaults for BepInEx
+      installRules: r2modman.packageLoader === "bepinex" ? Default.BEPINEX_INSTALL_RULES : [],
       relativeFileExclusions: null,
     }];
   }
@@ -140,7 +140,11 @@ async function runAddCommand() {
     })
   );
 
-  console.log(`data/${identifier}.yml file was created and can be manually edited before submitting a PR.`);
+  console.log(`data/${identifier}.yml definition file was created and can be manually edited before submitting a PR.`);
+
+  if (r2modman?.packageLoader === "bepinex") {
+    console.log("Default BepInEx mod install rules have been added to the game definition file.");
+  }
 }
 
 // TODO: Add await if/when top level await is supported without
