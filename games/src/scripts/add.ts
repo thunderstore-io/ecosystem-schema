@@ -24,16 +24,15 @@ async function runAddCommand() {
     message: "Wiki URL for the community (optional)",
     default: "",
   });
-
-  const autolistPackageIds = await checkbox({
-    message: "Automatically list package",
-    choices: AUTOLIST_PACKAGE_CHOICES,
-  });
-
   const shortDescription = await input({
     message: "Short description for the community (optional)",
     default: "",
     validate: (val) => val.length < 513,
+  });
+
+  const autolistPackageIds = await checkbox({
+    message: "Automatically list package",
+    choices: AUTOLIST_PACKAGE_CHOICES,
   });
 
   const game: GameDefinition = {
