@@ -5,6 +5,7 @@ import * as yaml from "js-yaml";
 import { input, checkbox, confirm, select } from "@inquirer/prompts";
 import _ from "lodash";
 import { AUTOLIST_PACKAGE_CHOICES } from "../schema/autolistPackages.js";
+import * as Default from "../schema/defaults.js";
 import { GAME_TYPE_CHOICES } from "../schema/instanceTypes.js";
 import { PACKAGE_LOADER_CHOICES } from "../schema/packageLoaders.js";
 import { PLATFORM_CHOICES } from "../schema/platforms.js";
@@ -102,24 +103,8 @@ async function runAddCommand() {
     r2modman: null,
     thunderstore: {
       displayName,
-      categories: {
-        mods: { label: "Mods" },
-        modpacks: { label: "Modpacks" },
-        tools: { label: "Tools" },
-        libraries: { label: "Libraries" },
-        misc: { label: "Misc" },
-        audio: { label: "Audio" },
-      },
-      sections: {
-        mods: {
-          name: "Mods",
-          excludeCategories: ["modpacks"],
-        },
-        modpacks: {
-          name: "Modpacks",
-          requireCategories: ["modpacks"],
-        },
-      },
+      categories: Default.CATEGORIES,
+      sections: Default.SECTIONS,
       wikiUrl: wikiUrl || undefined,
       discordUrl: discordUrl || undefined,
       autolistPackageIds: autolistPackageIds || undefined,
