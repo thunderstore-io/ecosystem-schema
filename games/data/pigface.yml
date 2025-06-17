@@ -1,0 +1,31 @@
+uuid: "edc46cc0-7891-4a35-a68f-0933bbb6f49e"
+label: "pigface"
+meta:
+  displayName: "PIGFACE"
+distributions: []
+thunderstore:
+  displayName: "PIGFACE"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
