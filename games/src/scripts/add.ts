@@ -14,6 +14,8 @@ const isNotEmpty = (x: string) => !!(x.trim());
 
 const pascalCase = (x: string) => x.charAt(0).toUpperCase() + _.camelCase(x.slice(1));
 
+const definitionFilePath = (identifier: string) => `./data/${identifier}.yml`;
+
 async function runAddCommand() {
   const displayName = await input({
     message: "Display name for the community",
@@ -22,8 +24,14 @@ async function runAddCommand() {
   const identifier = await input({
     message: "Identifier for the community (slug)",
     default: _.kebabCase(displayName),
-    validate: (val) => !!val && val == _.kebabCase(val),
-  });
+    validate: (val) => {
+      const path = `./data/${val}.yml`;
+      if (fs.existsSync(definitionFilePath(val))) {
+        return `${definitionFilePath(val)} already exists. Edit the existing file to avoid overwriting it.`;
+      }
+
+      return !!val && val == _.kebabCase(val);      
+  }});
   const discordUrl = await input({
     message: "Discord URL for the community (optional)",
     default: "",
@@ -128,12 +136,8 @@ async function runAddCommand() {
     }];
   }
 
-  const path = `./data/${identifier}.yml`;
-  if (fs.existsSync(path)) {
-    throw new Error(`${path} already exists`);
-  }
   fs.writeFileSync(
-    path,
+    definitionFilePath(identifier),
     yaml.dump(game, {
       quotingType: '"',
       forceQuotes: true,
