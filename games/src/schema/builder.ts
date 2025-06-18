@@ -72,7 +72,7 @@ export function buildSchemaJson() {
   }
 
   return {
-    schemaVersion: "0.2.1",
+    schemaVersion: "0.2.2",
     games: Object.fromEntries(games),
     communities: Object.fromEntries(communities),
     packageInstallers: Object.fromEntries(packageInstallers),
