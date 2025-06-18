@@ -28,4 +28,4 @@ thunderstore:
       requireCategories:
         - "modpacks"
   discordUrl: "https://discord.gg/peakgame"
-  autolistPackageIds: []
+  autolistPackageIds: ["BepInEx-BepInExPack"]
