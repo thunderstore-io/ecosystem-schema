@@ -27,5 +27,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: "https://discord.gg/peakgame"
+  discordUrl: "https://discord.gg/TrgtJ5xCtX"
   autolistPackageIds: ["BepInEx-BepInExPack"]
