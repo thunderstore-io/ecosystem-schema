@@ -193,3 +193,6 @@
 - packageId: "LavaGang-MelonLoader"
   rootFolder: ""
   loader: "recursive-melonloader"
+- packageId: "BepInEx-BepInExPack_PEAK"
+  rootFolder: "BepInExPack_PEAK"
+  loader: "bepinex"
