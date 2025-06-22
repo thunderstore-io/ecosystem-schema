@@ -63,12 +63,12 @@ export interface GameModmanDefinition {
   distributions?: GameDistributionDefinition[];
   settingsIdentifier: string;
   packageIndex: string;
-  // exclusionsUrl: string;
   steamFolderName: string;
   exeNames: string[];
   gameInstanceType: GameType;
   gameSelectionDisplayMode: DisplayType;
-  // modLoaderPackages: ModmanModLoaderPackage[];
+  additionalSearchStrings: string[];
+  packageLoader: ModmanPackageLoader;
   installRules: ModmanInstallRule[];
   relativeFileExclusions: string[] | null;
 }
