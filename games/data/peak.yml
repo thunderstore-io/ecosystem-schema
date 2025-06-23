@@ -29,4 +29,3 @@ thunderstore:
         - "modpacks"
   discordUrl: "https://discord.gg/SAw86z24rB"
   wikiUrl: "https://peakmodding.github.io"
-  autolistPackageIds: ["BepInEx-BepInExPack"]
