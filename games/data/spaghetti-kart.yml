@@ -1,0 +1,33 @@
+uuid: "e9398d86-9fc8-4a68-83e0-90bdacc50289"
+label: "spaghetti-kart"
+meta:
+  displayName: "Spaghetti Kart"
+  iconUrl: "spaghetti-kart.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "Spaghetti Kart"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/shipofharkinian"
+  autolistPackageIds: []
