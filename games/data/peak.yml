@@ -18,6 +18,22 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    world:
+      label: "World"
+    items:
+      label: "Items"
+    qol:
+      label: "Quality Of Life"
+    client:
+      label: "Client Side"
+    host:
+      label: "Host Only"
+    all:
+      label: "All Clients"
+    translation:
+      label: "Translations"
+    optimization:
+      label: "Optimization"
   sections:
     mods:
       name: "Mods"
