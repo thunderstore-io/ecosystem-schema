@@ -60,6 +60,6 @@ async function runDeployCommand() {
 }
 
 // TODO: Add await if/when top level await is supported without
-//       "type": "module" inclusion in package.json or after removal of
-//       r2modmanPlus submodule from the repo.
+//       "type": "module" inclusion in package.json or after
+//       json-diff-kit supports it.
 runDeployCommand();
