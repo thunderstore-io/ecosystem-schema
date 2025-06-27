@@ -1,0 +1,69 @@
+uuid: "76651ab2-90fc-4aa1-bb3f-677dcf924c2c"
+label: "lost-skies-ic"
+meta:
+  displayName: "Lost Skies Island Creator"
+  iconUrl: "lost-skies-island-creator.webp"
+distributions:
+  - platform: "steam"
+    identifier: "2102670"
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2102670"
+    steamFolderName: "Lost Skies Island Creator"
+    dataFolderName: "IslandCreator_Data"
+    exeNames:
+      - "IslandCreator.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Lost Skies Island Creator"
+      iconUrl: "lost-skies-island-creator.webp"
+    settingsIdentifier: "LostSkiesIslandCreator"
+    internalFolderName: "LostSkiesIslandCreator"
+    packageIndex: "https://thunderstore.io/c/lost-skies-ic/api/v1/package/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: ["lsic"]
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Lost Skies Island Creator"
+  categories:
+    mods:
+      label: "Mods"
+    fixes:
+      label: "Fixes"
+    misc:
+      label: "Misc"
+  sections: {}
+  wikiUrl: "https://lostskies.wiki.gg/"
+  discordUrl: "https://discord.com/invite/QWtTAnbvqz"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
