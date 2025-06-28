@@ -128,7 +128,7 @@ async function runAddCommand() {
       internalFolderName: pascalCase(displayName),
       exeNames: r2modman.exeNames.split(",").map((name) => name.trim()),
 
-      packageIndex: `https://thunderstore.io/c/${identifier}/api/v1/package/`,
+      packageIndex: `https://thunderstore.io/c/${identifier}/api/v1/package-listing-index/`,
       gameSelectionDisplayMode: "visible",
       additionalSearchStrings: [],
       installRules: r2modman.packageLoader === "bepinex" ? Default.BEPINEX_INSTALL_RULES : [],

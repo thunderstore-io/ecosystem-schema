@@ -21,7 +21,7 @@ r2modman:
       iconUrl: "lost-skies-island-creator.webp"
     settingsIdentifier: "LostSkiesIslandCreator"
     internalFolderName: "LostSkiesIslandCreator"
-    packageIndex: "https://thunderstore.io/c/lost-skies-ic/api/v1/package/"
+    packageIndex: "https://thunderstore.io/c/lost-skies-ic/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: ["lsic"]
     installRules:
