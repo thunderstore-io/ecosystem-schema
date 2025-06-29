@@ -5,12 +5,6 @@ ecosystem.
 
 ## Usage
 
-### Extract r2modman definitions
-
-```
-yarn run extract
-```
-
 ### Build game definitions into json
 
 ```
