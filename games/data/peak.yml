@@ -34,6 +34,10 @@ thunderstore:
       label: "Translations"
     optimization:
       label: "Optimization"
+    cosmetics:
+      label: "Cosmetics"
+    faces:
+      label: "Faces"
   sections:
     mods:
       name: "Mods"
