@@ -18,6 +18,24 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    items:
+      label: "Items"
+    language:
+      label: "Language"
+    tweaks:
+      label: "Tweaks"
+    console:
+      label: "Console"
+    kerfur:
+      label: "Kerfur"
+    signals:
+      label: "Signals"
+    crafts:
+      label: "Crafts"
+    placeables:
+      label: "Placeables"
+    nsfw:
+      label: "NSFW"
   sections:
     mods:
       name: "Mods"
@@ -27,4 +45,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  wikiUrl: "https://modding.ariral.space/"
   discordUrl: "https://discord.gg/WKBvqu4tjV"
