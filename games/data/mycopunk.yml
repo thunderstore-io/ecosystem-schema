@@ -13,7 +13,7 @@ r2modman:
     dataFolderName: "Mycopunk_Data"
     exeNames:
       - "Mycopunk.exe"
-    packageLoader: "recursive-melonloader"
+    packageLoader: "bepinex"
     meta:
       displayName: "Mycopunk"
       iconUrl: "mycopunk.webp"
@@ -22,7 +22,34 @@ r2modman:
     packageIndex: "https://thunderstore.io/c/mycopunk/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
-    installRules: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "Mycopunk"
@@ -37,8 +64,22 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    animation:
+      label: "Animation"
+    gameplay:
+      label: "Gameplay"
     audio:
       label: "Audio"
+    qol:
+      label: "Quality Of Life"
+    client:
+      label: "Client-Side"
+    server:
+      label: "Server-Side"
+    all:
+      label: "All Clients"
+    cosmetic:
+      label: "Cosmetic"
   sections:
     mods:
       name: "Mods"
@@ -49,5 +90,4 @@ thunderstore:
       requireCategories:
         - "modpacks"
   discordUrl: "https://discord.com/invite/F8cJ2ePRej"
-  autolistPackageIds:
-    - "LavaGang-MelonLoader"
+  autolistPackageIds: []
