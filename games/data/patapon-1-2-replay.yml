@@ -46,9 +46,8 @@ r2modman:
         subRoutes: []
       - route: "BepInEx/hexpatches"
         isDefaultLocation: false
-        defaultFileExtensions:
-          - ".cfg"
-        trackingMethod: "none"
+        defaultFileExtensions: []
+        trackingMethod: "state"
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
