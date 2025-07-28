@@ -68,6 +68,8 @@ thunderstore:
       label: "Animation"
     gameplay:
       label: "Gameplay"
+    sandbox:
+      label: "Sandbox"
     audio:
       label: "Audio"
     qol:
