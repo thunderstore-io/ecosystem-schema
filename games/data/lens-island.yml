@@ -1,0 +1,80 @@
+uuid: "5dd42723-fd94-4592-8a87-b509d5402a72"
+label: "lens-island"
+meta:
+  displayName: "Len's Island"
+  iconUrl: "lens-island.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1335830"
+    steamFolderName: "Len's Island"
+    dataFolderName: "Len's Island_Data"
+    exeNames:
+      - "Len's Island.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Len's Island"
+      iconUrl: "lens-island.webp"
+    settingsIdentifier: "LensIsland"
+    internalFolderName: "LensIsland"
+    packageIndex: "https://thunderstore.io/c/lens-island/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Len's Island"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://lensisland.wiki.gg/"
+  discordUrl: "https://discord.gg/lensisland"
+  autolistPackageIds: []
