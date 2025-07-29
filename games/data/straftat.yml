@@ -18,6 +18,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    vanilla:
+      label: "Vanilla compatible"
   sections:
     mods:
       name: "Mods"
