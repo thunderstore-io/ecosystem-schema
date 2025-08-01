@@ -199,3 +199,7 @@
 - packageId: "BepInEx-BepInExPack_PEAK"
   rootFolder: "BepInExPack_PEAK"
   loader: "bepinex"
+- packageId: "BepInEx-BepInExPack_Ostranauts"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
+  
