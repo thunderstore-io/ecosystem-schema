@@ -10,7 +10,6 @@
     "rootDir": "./"
   },
   "scripts": {
-    "extract": "tsx ./src/scripts/extract-r2modman.ts",
     "build": "tsx ./src/scripts/build.ts",
     "add": "tsx ./src/scripts/add.ts",
     "deploy": "tsx ./src/scripts/deploy.ts",
