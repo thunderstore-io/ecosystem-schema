@@ -1,0 +1,61 @@
+uuid: "35a9dbb7-a4f8-4faf-a032-66352aa690cc"
+label: "r-5-reloaded"
+meta:
+  displayName: "R5Reloaded"
+  iconUrl: ""
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam-direct"
+        identifier: "1172470"
+    steamFolderName: "Apex Legends"
+    dataFolderName: ""
+    exeNames:
+      - "r5apex.exe"
+    packageLoader: "none"
+    meta:
+      displayName: "R5Reloaded"
+      iconUrl: ""
+    settingsIdentifier: "R5Reloaded"
+    internalFolderName: "R5Reloaded"
+    packageIndex: "https://thunderstore.io/c/r-5-reloaded/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "R5Reloaded"
+  categories:
+    legend:
+      label: "Legend"
+    weapon:
+      label: "Weapon"
+    gamemode:
+      label: "Gamemode"
+    map:
+      label: "Map"
+    framework:
+      label: "Framework"
+    modpack:
+      label: "Modpack"
+    client-side:
+      label: "Client-side"
+    server-side:
+      label: "Server-side"
+    cosmetic:
+      label: "Cosmetic"
+    model:
+      label: "Model"
+    ui:
+      label: "UI"
+    sound:
+      label: "Sound"
+    animation:
+      label: "Animation"
+    qol:
+      label: "QoL"
+  wikiUrl: "https://docs.r5reloaded.com/"
+  discordUrl: "https://discord.com/invite/jqMkUdXrBr"
+  autolistPackageIds: []
+  shortDescription: "Modded Apex Legends!"
