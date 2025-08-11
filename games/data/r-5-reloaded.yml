@@ -1,29 +1,10 @@
 uuid: "35a9dbb7-a4f8-4faf-a032-66352aa690cc"
-label: "r-5-reloaded"
+label: "r5reloaded"
 meta:
   displayName: "R5Reloaded"
   iconUrl: ""
 distributions: []
-r2modman:
-  - gameInstanceType: "game"
-    distributions:
-      - platform: "steam-direct"
-        identifier: "1172470"
-    steamFolderName: "Apex Legends"
-    dataFolderName: ""
-    exeNames:
-      - "r5apex.exe"
-    packageLoader: "none"
-    meta:
-      displayName: "R5Reloaded"
-      iconUrl: ""
-    settingsIdentifier: "R5Reloaded"
-    internalFolderName: "R5Reloaded"
-    packageIndex: "https://thunderstore.io/c/r-5-reloaded/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
-    installRules: []
-    relativeFileExclusions: null
+r2modman: null
 thunderstore:
   displayName: "R5Reloaded"
   categories:
