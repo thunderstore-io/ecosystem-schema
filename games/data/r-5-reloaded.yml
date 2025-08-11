@@ -1,0 +1,43 @@
+uuid: "35a9dbb7-a4f8-4faf-a032-66352aa690cc"
+label: "r5reloaded"
+meta:
+  displayName: "R5Reloaded"
+  iconUrl: ""
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "R5Reloaded"
+  sections: {}
+  categories:
+    legend:
+      label: "Legend"
+    weapon:
+      label: "Weapon"
+    gamemode:
+      label: "Gamemode"
+    map:
+      label: "Map"
+    framework:
+      label: "Framework"
+    modpack:
+      label: "Modpack"
+    client-side:
+      label: "Client-side"
+    server-side:
+      label: "Server-side"
+    cosmetic:
+      label: "Cosmetic"
+    model:
+      label: "Model"
+    ui:
+      label: "UI"
+    sound:
+      label: "Sound"
+    animation:
+      label: "Animation"
+    qol:
+      label: "QoL"
+  wikiUrl: "https://docs.r5reloaded.com/"
+  discordUrl: "https://discord.com/invite/jqMkUdXrBr"
+  autolistPackageIds: []
+  shortDescription: "Modded Apex Legends!"
