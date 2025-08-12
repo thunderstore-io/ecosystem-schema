@@ -22,6 +22,8 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    cosmetics:
+      label: "Cosmetics"
   sections:
     mods:
       name: "Mods"

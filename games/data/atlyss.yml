@@ -28,6 +28,6 @@ thunderstore:
       requireCategories:
         - "modpacks"
   wikiUrl: "https://atlyss.wiki.gg/wiki/ATLYSS_Wiki"
-  discordUrl: "https://discord.gg/atlyss"
+  discordUrl: "https://discord.gg/hQceRJ7pEW"
   autolistPackageIds:
     - "BepInEx-BepInExPack"

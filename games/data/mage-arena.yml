@@ -1,0 +1,80 @@
+uuid: "8952eb1d-3b5f-4f97-816a-617d183c206a"
+label: "mage-arena"
+meta:
+  displayName: "Mage Arena"
+  iconUrl: "mage-arena.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3716600"
+    steamFolderName: "Mage Arena"
+    dataFolderName: "MageArena_Data"
+    exeNames:
+      - "MageArena.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Mage Arena"
+      iconUrl: "mage-arena.webp"
+    settingsIdentifier: "MageArena"
+    internalFolderName: "MageArena"
+    packageIndex: "https://thunderstore.io/c/mage-arena/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Mage Arena"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/YXY5XZHG8R"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

@@ -42,6 +42,8 @@ thunderstore:
       label: "Interiors"
     furniture:
       label: "Furniture"
+    vehicles:
+      label: "Vehicles"
     clientside:
       label: "Client-side"
     serverside:
