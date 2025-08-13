@@ -18,6 +18,30 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    hand-cosmetics:
+      label: "Hand Cosmetics"
+    hand-packs:
+      label: "Hand Packs"
+    maps:
+      label: "Maps"
+    levels:
+      label: "Levels"
+    gamemodes:
+      label: "Gamemodes"
+    tweaks:
+      label: "Tweaks"
+    leaderboard-legal:
+      label: "Leaderboard Legal"
+    language:
+      label: "Language"
+    buffs:
+      label: "Buffs"
+    artifacts:
+      label: "Artifacts"
+    items:
+      label: "Items"
+    perks:
+      label: "Perks"
   sections:
     mods:
       name: "Mods"
