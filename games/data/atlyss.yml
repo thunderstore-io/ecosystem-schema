@@ -20,6 +20,10 @@ thunderstore:
       label: "Audio"
     maps:
       label: "Maps"
+    assets:
+      label: "Assets"
+    emotes:
+      label: "Emotes"
   sections:
     mods:
       name: "Mods"
