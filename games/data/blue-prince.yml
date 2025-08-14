@@ -1,0 +1,81 @@
+uuid: "23e4f880-9506-41a9-8bd1-4604c91d3cfc"
+label: "blue-prince"
+meta:
+  displayName: "Blue Prince"
+  iconUrl: "blue-prince.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1569580"
+    steamFolderName: "Blue Prince"
+    dataFolderName: "Blue Prince_Data"
+    exeNames:
+      - "BLUE PRINCE.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Blue Prince"
+      iconUrl: "blue-prince.webp"
+    settingsIdentifier: "BluePrince"
+    internalFolderName: "BluePrince"
+    packageIndex: "https://thunderstore.io/c/blue-prince/api/v1/package/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Blue Prince"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://blue-prince.fandom.com/wiki/Blue_Prince_Wiki"
+  discordUrl: "https://discord.gg/blueprince"
+  autolistPackageIds: []
+  shortDescription: "In Blue Prince, you embark on a genre-defying experience, filled with a unique mix of mystery, strategy, and puzzles that weave together to create an unpredictable journey. Will your explorative steps lead you to the rumored Room 46?"
