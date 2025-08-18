@@ -1,0 +1,79 @@
+uuid: "aa3deb5d-b580-4566-a549-4b65460b454f"
+label: "pac-man-world-re-pac"
+meta:
+  displayName: "PAC-MAN WORLD Re-PAC"
+  iconUrl: "pac-man-world-re-pac.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1859470"
+    steamFolderName: "PAC-MAN WORLD Re-PAC"
+    dataFolderName: "PAC-MAN WORLD Re-PAC_Data"
+    exeNames:
+      - "PAC-MAN WORLD Re-PAC.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "PAC-MAN WORLD Re-PAC"
+      iconUrl: "pac-man-world-re-pac.webp"
+    settingsIdentifier: "PacManWorldRePac"
+    internalFolderName: "PacManWorldRePac"
+    packageIndex: "https://thunderstore.io/c/pac-man-world-re-pac/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "PAC-MAN WORLD Re-PAC"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
