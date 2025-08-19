@@ -38,6 +38,10 @@ thunderstore:
       label: "Cosmetics"
     faces:
       label: "Faces"
+    afflictions:
+      label: "Afflications"
+    accolades:
+      label: "Accolades"
   sections:
     mods:
       name: "Mods"
