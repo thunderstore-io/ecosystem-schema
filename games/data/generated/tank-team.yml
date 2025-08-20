@@ -2,14 +2,14 @@ uuid: "e36d39f6-d0d2-4af1-8ff9-61757d734fcb"
 label: "tank-team"
 meta:
   displayName: "Tank Team"
-  iconUrl: "TankTeam.png"
+  iconUrl: "tank-team.webp"
 distributions:
   - platform: "steam"
     identifier: "2587450"
 r2modman:
   - meta:
       displayName: "Tank Team"
-      iconUrl: "TankTeam.png"
+      iconUrl: "tank-team.webp"
     internalFolderName: "TankTeam"
     dataFolderName: "Tank Team_Data"
     distributions:

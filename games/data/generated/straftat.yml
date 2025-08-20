@@ -2,14 +2,14 @@ uuid: "44bcb85e-66c1-4a04-a272-4aabeb1a4552"
 label: "straftat"
 meta:
   displayName: "STRAFTAT"
-  iconUrl: "STRAFTAT.png"
+  iconUrl: "straftat.webp"
 distributions:
   - platform: "steam"
     identifier: "2386720"
 r2modman:
   - meta:
       displayName: "STRAFTAT"
-      iconUrl: "STRAFTAT.png"
+      iconUrl: "straftat.webp"
     internalFolderName: "STRAFTAT"
     dataFolderName: "STRAFTAT_Data"
     distributions:

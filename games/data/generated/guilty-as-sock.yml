@@ -2,14 +2,14 @@ uuid: "32cca075-5dea-4bae-8ff5-1e0ccc737b0f"
 label: "guilty-as-sock"
 meta:
   displayName: "Guilty as Sock!"
-  iconUrl: "GuiltyasSock.png"
+  iconUrl: "guilty-as-sock.webp"
 distributions:
   - platform: "steam"
     identifier: "3400930"
 r2modman:
   - meta:
       displayName: "Guilty as Sock!"
-      iconUrl: "GuiltyasSock.png"
+      iconUrl: "guilty-as-sock.webp"
     internalFolderName: "GuiltyasSock"
     dataFolderName: "StandaloneWindows64_Data"
     distributions:

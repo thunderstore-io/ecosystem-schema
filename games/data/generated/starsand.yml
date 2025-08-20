@@ -2,7 +2,7 @@ uuid: "25892e24-3b51-4742-883e-3964024af225"
 label: "starsand"
 meta:
   displayName: "Starsand"
-  iconUrl: "Starsand.png"
+  iconUrl: "starsand.webp"
 distributions:
   - platform: "steam"
     identifier: "1380220"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Starsand"
-      iconUrl: "Starsand.png"
+      iconUrl: "starsand.webp"
     internalFolderName: "Starsand"
     dataFolderName: "Starsand_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "c49c7c87-81de-4877-aeb5-1793a88997e6"
 label: "gorebox"
 meta:
   displayName: "GoreBox"
-  iconUrl: "GoreBox.png"
+  iconUrl: "gore-box.webp"
 distributions:
   - platform: "steam"
     identifier: "2027330"
 r2modman:
   - meta:
       displayName: "GoreBox"
-      iconUrl: "GoreBox.png"
+      iconUrl: "gore-box.webp"
     internalFolderName: "GoreBox"
     dataFolderName: "GoreBox_Data"
     distributions:

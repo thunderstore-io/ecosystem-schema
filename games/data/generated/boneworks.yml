@@ -2,7 +2,7 @@ uuid: "f2ea35df-7594-42f9-9c90-ad7f0bd79fa9"
 label: "boneworks"
 meta:
   displayName: "BONEWORKS"
-  iconUrl: "BONEWORKS.jpg"
+  iconUrl: "boneworks.webp"
 distributions:
   - platform: "steam"
     identifier: "823500"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "BONEWORKS"
-      iconUrl: "BONEWORKS.jpg"
+      iconUrl: "boneworks.webp"
     internalFolderName: "BONEWORKS"
     dataFolderName: "BONEWORKS_Data"
     distributions:

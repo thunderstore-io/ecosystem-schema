@@ -2,14 +2,14 @@ uuid: "ac1a90d0-aad5-4a23-9d56-e8bff5beeaac"
 label: "gtfo"
 meta:
   displayName: "GTFO"
-  iconUrl: "GTFO.jpg"
+  iconUrl: "gtfo.webp"
 distributions:
   - platform: "steam"
     identifier: "493520"
 r2modman:
   - meta:
       displayName: "GTFO"
-      iconUrl: "GTFO.jpg"
+      iconUrl: "gtfo.webp"
     internalFolderName: "GTFO"
     dataFolderName: "GTFO_Data"
     distributions:

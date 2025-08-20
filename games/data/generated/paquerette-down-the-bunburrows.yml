@@ -2,14 +2,14 @@ uuid: "82797f44-f9db-44a3-a448-fcac4bd23673"
 label: "paquerette-down-the-bunburrows"
 meta:
   displayName: "Paquerette Down the Bunburrows"
-  iconUrl: "PaqueretteDownTheBunburrows.png"
+  iconUrl: "paquerette-down-the-bunburrows.webp"
 distributions:
   - platform: "steam"
     identifier: "1628610"
 r2modman:
   - meta:
       displayName: "Paquerette Down the Bunburrows"
-      iconUrl: "PaqueretteDownTheBunburrows.png"
+      iconUrl: "paquerette-down-the-bunburrows.webp"
     internalFolderName: "PaqueretteDownTheBunburrows"
     dataFolderName: "Paquerette Down the Bunburrows_Data"
     distributions:

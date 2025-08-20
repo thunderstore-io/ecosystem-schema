@@ -2,14 +2,14 @@ uuid: "be17d062-1f3d-4a6c-b147-33386590c648"
 label: "old-market-simulator"
 meta:
   displayName: "Old Market Simulator"
-  iconUrl: "OldMarketSimulator.png"
+  iconUrl: "old-market-simulator.webp"
 distributions:
   - platform: "steam"
     identifier: "2878420"
 r2modman:
   - meta:
       displayName: "Old Market Simulator"
-      iconUrl: "OldMarketSimulator.png"
+      iconUrl: "old-market-simulator.webp"
     internalFolderName: "OldMarketSimulator"
     dataFolderName: "Old Market Simulator_Data"
     distributions:
