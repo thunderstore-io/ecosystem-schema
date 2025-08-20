@@ -2,14 +2,14 @@ uuid: "ca3b2a52-0598-4611-9906-bba3934e27f6"
 label: "ultrakill"
 meta:
   displayName: "ULTRAKILL"
-  iconUrl: "ULTRAKILL.jpg"
+  iconUrl: "ultrakill.webp"
 distributions:
   - platform: "steam"
     identifier: "1229490"
 r2modman:
   - meta:
       displayName: "ULTRAKILL"
-      iconUrl: "ULTRAKILL.jpg"
+      iconUrl: "ultrakill.webp"
     internalFolderName: "ULTRAKILL"
     dataFolderName: "ULTRAKILL_Data"
     distributions:

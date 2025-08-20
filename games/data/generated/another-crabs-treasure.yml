@@ -2,14 +2,14 @@ uuid: "fe739984-0340-4004-885c-a831baee3952"
 label: "another-crabs-treasure"
 meta:
   displayName: "Another Crab's Treasure"
-  iconUrl: "AnotherCrabsTreasure.png"
+  iconUrl: "another-crabs-treasure.webp"
 distributions:
   - platform: "steam"
     identifier: "1887840"
 r2modman:
   - meta:
       displayName: "Another Crab's Treasure"
-      iconUrl: "AnotherCrabsTreasure.png"
+      iconUrl: "another-crabs-treasure.webp"
     internalFolderName: "AnotherCrabsTreasure"
     dataFolderName: "AnotherCrabsTreasure_Data"
     distributions:

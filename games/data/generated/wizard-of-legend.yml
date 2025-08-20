@@ -2,14 +2,14 @@ uuid: "55d10692-8429-400d-894e-4dc7b3ff2d16"
 label: "wizard-of-legend"
 meta:
   displayName: "Wizard of Legend"
-  iconUrl: "WizardOfLegend.jpg"
+  iconUrl: "wizard-of-legend.webp"
 distributions:
   - platform: "steam"
     identifier: "445980"
 r2modman:
   - meta:
       displayName: "Wizard of Legend"
-      iconUrl: "WizardOfLegend.jpg"
+      iconUrl: "wizard-of-legend.webp"
     internalFolderName: "WizardOfLegend"
     dataFolderName: "WizardOfLegend_Data"
     distributions:

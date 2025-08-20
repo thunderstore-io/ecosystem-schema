@@ -2,14 +2,14 @@ uuid: "588b3202-55b4-4701-8d28-0da252f8101f"
 label: "erenshor"
 meta:
   displayName: "Erenshor"
-  iconUrl: "Erenshor.jpg"
+  iconUrl: "erenshor.webp"
 distributions:
   - platform: "steam"
     identifier: "2382520"
 r2modman:
   - meta:
       displayName: "Erenshor"
-      iconUrl: "Erenshor.jpg"
+      iconUrl: "erenshor.webp"
     internalFolderName: "Erenshor"
     dataFolderName: "Erenshor_Data"
     distributions:

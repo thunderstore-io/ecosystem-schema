@@ -2,14 +2,14 @@ uuid: "d9438bf4-c83f-4d6d-952f-efc79b8432a1"
 label: "back-to-the-dawn"
 meta:
   displayName: "Back to the Dawn"
-  iconUrl: "BackToTheDawn.png"
+  iconUrl: "back-to-the-dawn.webp"
 distributions:
   - platform: "steam"
     identifier: "1735700"
 r2modman:
   - meta:
       displayName: "Back to the Dawn"
-      iconUrl: "BackToTheDawn.png"
+      iconUrl: "back-to-the-dawn.webp"
     internalFolderName: "BacktotheDawn"
     dataFolderName: "Back To The Dawn_Data"
     distributions:

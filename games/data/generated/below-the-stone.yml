@@ -2,14 +2,14 @@ uuid: "2e133e49-b1c0-4e72-81fe-2ce070ce912e"
 label: "below-the-stone"
 meta:
   displayName: "Below the Stone"
-  iconUrl: "BelowTheStone.png"
+  iconUrl: "below-the-stone.webp"
 distributions:
   - platform: "steam"
     identifier: "1170230"
 r2modman:
   - meta:
       displayName: "Below the Stone"
-      iconUrl: "BelowTheStone.png"
+      iconUrl: "below-the-stone.webp"
     internalFolderName: "BelowTheStone"
     dataFolderName: "Below The Stone_Data"
     distributions:

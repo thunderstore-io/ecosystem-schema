@@ -2,14 +2,14 @@ uuid: "66fb57a2-670d-4dc2-be6e-765db764866d"
 label: "magicraft"
 meta:
   displayName: "Magicraft"
-  iconUrl: "Magicraft.png"
+  iconUrl: "magicraft.webp"
 distributions:
   - platform: "steam"
     identifier: "2103140"
 r2modman:
   - meta:
       displayName: "Magicraft"
-      iconUrl: "Magicraft.png"
+      iconUrl: "magicraft.webp"
     internalFolderName: "Magicraft"
     dataFolderName: "Magicraft_Data"
     distributions:

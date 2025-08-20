@@ -2,14 +2,14 @@ uuid: "5087bfff-b7c0-44ac-9870-f10624e367d1"
 label: "the-ouroboros-king"
 meta:
   displayName: "The Ouroboros King"
-  iconUrl: "the-ouroboros-king.jpg"
+  iconUrl: "the-ouroboros-king.webp"
 distributions:
   - platform: "steam"
     identifier: "2096510"
 r2modman:
   - meta:
       displayName: "The Ouroboros King"
-      iconUrl: "the-ouroboros-king.jpg"
+      iconUrl: "the-ouroboros-king.webp"
     internalFolderName: "TheOuroborosKing"
     dataFolderName: "The Ouroboros King_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "cce6146c-afe8-4200-9359-1e023966d4dc"
 label: "the-planet-crafter"
 meta:
   displayName: "The Planet Crafter"
-  iconUrl: "the-planet-crafter.jpg"
+  iconUrl: "the-planet-crafter.webp"
 distributions:
   - platform: "steam"
     identifier: "1284190"
 r2modman:
   - meta:
       displayName: "The Planet Crafter"
-      iconUrl: "the-planet-crafter.jpg"
+      iconUrl: "the-planet-crafter.webp"
     internalFolderName: "ThePlanetCrafter"
     dataFolderName: "ThePlanetCrafter_Data"
     distributions:

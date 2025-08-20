@@ -2,14 +2,14 @@ uuid: "429bb8b1-7bb0-409f-a1f2-73357298e651"
 label: "h3vr"
 meta:
   displayName: "H3VR"
-  iconUrl: "H3VR.png"
+  iconUrl: "h3vr.webp"
 distributions:
   - platform: "steam"
     identifier: "450540"
 r2modman:
   - meta:
       displayName: "H3VR"
-      iconUrl: "H3VR.png"
+      iconUrl: "h3vr.webp"
     internalFolderName: "H3VR"
     dataFolderName: "h3vr_Data"
     distributions:

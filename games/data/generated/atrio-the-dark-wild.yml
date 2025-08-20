@@ -2,14 +2,14 @@ uuid: "867747e7-e916-4747-8ee9-8682cfdd4aa5"
 label: "atrio-the-dark-wild"
 meta:
   displayName: "Atrio: The Dark Wild"
-  iconUrl: "atrio-the-dark-wild.jpg"
+  iconUrl: "atrio-the-dark-wild.webp"
 distributions:
   - platform: "steam"
     identifier: "1125390"
 r2modman:
   - meta:
       displayName: "Atrio: The Dark Wild"
-      iconUrl: "atrio-the-dark-wild.jpg"
+      iconUrl: "atrio-the-dark-wild.webp"
     internalFolderName: "AtrioTheDarkWild"
     dataFolderName: "Atrio_Data"
     distributions:

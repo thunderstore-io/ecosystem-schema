@@ -2,14 +2,14 @@ uuid: "8217c6e0-ec15-474e-a447-fafbf435fd64"
 label: "supermarket-together"
 meta:
   displayName: "Supermarket Together"
-  iconUrl: "SupermarketTogether.png"
+  iconUrl: "supermarket-together.webp"
 distributions:
   - platform: "steam"
     identifier: "2709570"
 r2modman:
   - meta:
       displayName: "Supermarket Together"
-      iconUrl: "SupermarketTogether.png"
+      iconUrl: "supermarket-together.webp"
     internalFolderName: "SupermarketTogether"
     dataFolderName: "Supermarket Together_Data"
     distributions:

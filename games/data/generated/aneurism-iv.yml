@@ -2,14 +2,14 @@ uuid: "8d60a159-96e3-45b5-acf4-b2ebe356d1dd"
 label: "aneurism-iv"
 meta:
   displayName: "ANEURISM IV"
-  iconUrl: "ANEURISM_IV.png"
+  iconUrl: "aneurism-iv.webp"
 distributions:
   - platform: "steam"
     identifier: "2773280"
 r2modman:
   - meta:
       displayName: "ANEURISM IV"
-      iconUrl: "ANEURISM_IV.png"
+      iconUrl: "aneurism-iv.webp"
     internalFolderName: "ANEURISMIV"
     dataFolderName: "ANEURISM IV_Data"
     distributions:

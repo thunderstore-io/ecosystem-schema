@@ -2,14 +2,14 @@ uuid: "1003c39e-ee41-4111-ac9d-e10ca07bb8d8"
 label: "ale-and-tale-tavern"
 meta:
   displayName: "Ale & Tale Tavern"
-  iconUrl: "AleAndTaleTavern.png"
+  iconUrl: "ale-and-tale-tavern.webp"
 distributions:
   - platform: "steam"
     identifier: "2683150"
 r2modman:
   - meta:
       displayName: "Ale & Tale Tavern"
-      iconUrl: "AleAndTaleTavern.png"
+      iconUrl: "ale-and-tale-tavern.webp"
     internalFolderName: "AleAndTaleTavern"
     dataFolderName: "Ale and Tale Tavern_Data"
     distributions:

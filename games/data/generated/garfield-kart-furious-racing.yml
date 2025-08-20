@@ -2,14 +2,14 @@ uuid: "e4a6abd5-cc54-4a32-8491-d6a1b360bd71"
 label: "garfield-kart-furious-racing"
 meta:
   displayName: "Garfield Kart - Furious Racing"
-  iconUrl: "garfield-kart-furious-racing.png"
+  iconUrl: "garfield-kart-furious-racing.webp"
 distributions:
   - platform: "steam"
     identifier: "1085510"
 r2modman:
   - meta:
       displayName: "Garfield Kart - Furious Racing"
-      iconUrl: "garfield-kart-furious-racing.png"
+      iconUrl: "garfield-kart-furious-racing.webp"
     internalFolderName: "GarfieldKartFuriousRacing"
     dataFolderName: "GarfieldKartFuriousRacing_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "f0fbd55b-2283-43cf-9401-1c456e3f15a6"
 label: "dusk"
 meta:
   displayName: "DUSK"
-  iconUrl: "DUSK.png"
+  iconUrl: "dusk.webp"
 distributions:
   - platform: "steam"
     identifier: "519860"
 r2modman:
   - meta:
       displayName: "DUSK"
-      iconUrl: "DUSK.png"
+      iconUrl: "dusk.webp"
     internalFolderName: "DUSK"
     dataFolderName: "Dusk_Data"
     distributions:

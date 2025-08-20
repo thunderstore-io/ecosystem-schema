@@ -2,14 +2,14 @@ uuid: "5dbf02a7-1d75-4016-8b80-34e409c6e7b1"
 label: "gladio-mori"
 meta:
   displayName: "Gladio Mori"
-  iconUrl: "GladioMori.png"
+  iconUrl: "gladio-mori.webp"
 distributions:
   - platform: "steam"
     identifier: "2689120"
 r2modman:
   - meta:
       displayName: "Gladio Mori"
-      iconUrl: "GladioMori.png"
+      iconUrl: "gladio-mori.webp"
     internalFolderName: "GladioMori"
     dataFolderName: "Gladio Mori_Data"
     distributions:

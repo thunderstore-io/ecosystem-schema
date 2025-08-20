@@ -2,14 +2,14 @@ uuid: "2ed50207-0ffe-4d04-acc5-af4aa8722f8c"
 label: "aloft"
 meta:
   displayName: "Aloft"
-  iconUrl: "Aloft.png"
+  iconUrl: "aloft.webp"
 distributions:
   - platform: "steam"
     identifier: "1660080"
 r2modman:
   - meta:
       displayName: "Aloft"
-      iconUrl: "Aloft.png"
+      iconUrl: "aloft.webp"
     internalFolderName: "Aloft"
     dataFolderName: "Aloft_Data"
     distributions:

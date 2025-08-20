@@ -2,7 +2,7 @@ uuid: "549e0efb-bf7c-47f8-a76f-dfe61c89196c"
 label: "cities-skylines-ii"
 meta:
   displayName: "Cities: Skylines II"
-  iconUrl: "CitiesSkylines2.png"
+  iconUrl: "cities-skylines-2.webp"
 distributions:
   - platform: "steam"
     identifier: "949230"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Cities: Skylines II"
-      iconUrl: "CitiesSkylines2.png"
+      iconUrl: "cities-skylines-2.webp"
     internalFolderName: "CitiesSkylines2"
     dataFolderName: "CitiesSkylines2_Data"
     distributions:

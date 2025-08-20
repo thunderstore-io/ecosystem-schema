@@ -2,7 +2,7 @@ uuid: "5dc44866-bdbd-44fe-b144-d57d761f6f26"
 label: "zort"
 meta:
   displayName: "Zort"
-  iconUrl: "zort.png"
+  iconUrl: "zort.webp"
 distributions:
 - platform: steam
   identifier: "3121110"

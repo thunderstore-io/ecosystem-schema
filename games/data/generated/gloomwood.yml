@@ -2,14 +2,14 @@ uuid: "ad84c3e7-0db7-4a05-b498-63a0244fa510"
 label: "gloomwood"
 meta:
   displayName: "Gloomwood"
-  iconUrl: "Gloomwood.png"
+  iconUrl: "gloomwood.webp"
 distributions:
   - platform: "steam"
     identifier: "1150760"
 r2modman:
   - meta:
       displayName: "Gloomwood"
-      iconUrl: "Gloomwood.png"
+      iconUrl: "gloomwood.webp"
     internalFolderName: "Gloomwood"
     dataFolderName: "Gloomwood_Data"
     distributions:

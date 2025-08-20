@@ -2,14 +2,14 @@ uuid: "d3011931-87a2-4084-92d2-f653f2ef07b6"
 label: "slipstream-rogue-space"
 meta:
   displayName: "Slipstream: Rogue Space"
-  iconUrl: "SlipstreamRogueSpace.png"
+  iconUrl: "slipstream-rogue-space.webp"
 distributions:
   - platform: "steam"
     identifier: "2765860"
 r2modman:
   - meta:
       displayName: "Slipstream: Rogue Space"
-      iconUrl: "SlipstreamRogueSpace.png"
+      iconUrl: "slipstream-rogue-space.webp"
     internalFolderName: "SlipstreamRogueSpace"
     dataFolderName: "Slipstream_Win_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "e74a656d-3d3f-49be-a332-9066fe02c6b0"
 label: "distance"
 meta:
   displayName: "Distance"
-  iconUrl: "Distance.png"
+  iconUrl: "distance.webp"
 distributions:
   - platform: "steam"
     identifier: "233610"
 r2modman:
   - meta:
       displayName: "Distance"
-      iconUrl: "Distance.png"
+      iconUrl: "distance.webp"
     internalFolderName: "Distance"
     dataFolderName: "Distance_Data"
     distributions:

@@ -2,7 +2,7 @@ uuid: "4d8ab61e-eb93-4fab-b076-b73ae450b73f"
 label: "for-the-king"
 meta:
   displayName: "For The King"
-  iconUrl: "ForTheKing.png"
+  iconUrl: "for-the-king.webp"
 distributions:
   - platform: "steam"
     identifier: "527230"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "For The King"
-      iconUrl: "ForTheKing.png"
+      iconUrl: "for-the-king.webp"
     internalFolderName: "ForTheKing"
     dataFolderName: "FTK_Data"
     distributions:

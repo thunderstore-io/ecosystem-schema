@@ -2,14 +2,14 @@ uuid: "18b8d82e-aa61-453a-98b0-fc98dd3e6c70"
 label: "wrestling-empire"
 meta:
   displayName: "Wrestling Empire"
-  iconUrl: "wrestling-empire.jpg"
+  iconUrl: "wrestling-empire.webp"
 distributions:
   - platform: "steam"
     identifier: "1620340"
 r2modman:
   - meta:
       displayName: "Wrestling Empire"
-      iconUrl: "wrestling-empire.jpg"
+      iconUrl: "wrestling-empire.webp"
     internalFolderName: "WrestlingEmpire"
     dataFolderName: "Wrestling Empire_Data"
     distributions:

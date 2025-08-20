@@ -2,14 +2,14 @@ uuid: "c6954061-56b4-4854-b12b-b473c6bdf051"
 label: "depo"
 meta:
   displayName: "DEPO : Death Epileptic Pixel Origins"
-  iconUrl: "DEPO.png"
+  iconUrl: "depo.webp"
 distributions:
   - platform: "steam"
     identifier: "1091320"
 r2modman:
   - meta:
       displayName: "DEPO : Death Epileptic Pixel Origins"
-      iconUrl: "DEPO.png"
+      iconUrl: "depo.webp"
     internalFolderName: "DEPO"
     dataFolderName: "DEPO_Data"
     distributions:

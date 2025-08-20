@@ -2,14 +2,14 @@ uuid: "375634e8-16b6-486d-aa9d-26ba422d4143"
 label: "touhou-lost-branch-of-legend"
 meta:
   displayName: "TouhouLostBranchOfLegend"
-  iconUrl: "TouhouLostBranchOfLegend.jpg"
+  iconUrl: "touhou-lost-branch-of-legend.webp"
 distributions:
   - platform: "steam"
     identifier: "1140150"
 r2modman:
   - meta:
       displayName: "TouhouLostBranchOfLegend"
-      iconUrl: "TouhouLostBranchOfLegend.jpg"
+      iconUrl: "touhou-lost-branch-of-legend.webp"
     internalFolderName: "TouhouLostBranchOfLegend"
     dataFolderName: "LBoL_Data"
     distributions:

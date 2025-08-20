@@ -2,14 +2,14 @@ uuid: "ecbabbaa-076a-4fce-9211-4c90ab7f0890"
 label: "balatro"
 meta:
   displayName: "Balatro"
-  iconUrl: "Balatro.png"
+  iconUrl: "balatro.webp"
 distributions:
   - platform: "steam"
     identifier: "2379780"
 r2modman:
   - meta:
       displayName: "Balatro"
-      iconUrl: "Balatro.png"
+      iconUrl: "balatro.webp"
     internalFolderName: "Balatro"
     dataFolderName: "Balatro_Data"
     distributions:

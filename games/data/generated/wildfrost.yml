@@ -2,14 +2,14 @@ uuid: "bf3d42cc-65ca-46de-bcd1-8679e271e92d"
 label: "wildfrost"
 meta:
   displayName: "Wildfrost"
-  iconUrl: "wildfrost.jpg"
+  iconUrl: "wildfrost.webp"
 distributions:
   - platform: "steam"
     identifier: "1811990"
 r2modman:
   - meta:
       displayName: "Wildfrost"
-      iconUrl: "wildfrost.jpg"
+      iconUrl: "wildfrost.webp"
     internalFolderName: "Wildfrost"
     dataFolderName: "Wildfrost_Data"
     distributions:

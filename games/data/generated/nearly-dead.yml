@@ -2,14 +2,14 @@ uuid: "23a949a1-e3c4-4df3-9106-c1561dc709ec"
 label: "nearly-dead"
 meta:
   displayName: "Nearly Dead"
-  iconUrl: "NearlyDead.png"
+  iconUrl: "nearly-dead.webp"
 distributions:
   - platform: "steam"
     identifier: "1268900"
 r2modman:
   - meta:
       displayName: "Nearly Dead"
-      iconUrl: "NearlyDead.png"
+      iconUrl: "nearly-dead.webp"
     internalFolderName: "NearlyDead"
     dataFolderName: "Nearly Dead_Data"
     distributions:

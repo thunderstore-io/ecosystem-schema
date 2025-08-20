@@ -2,14 +2,14 @@ uuid: "3131efc5-6fe4-4f1d-8563-3de9001c8c5d"
 label: "shadows-over-loathing"
 meta:
   displayName: "Shadows Over Loathing"
-  iconUrl: "shadows-over-loathing.jpg"
+  iconUrl: "shadows-over-loathing.webp"
 distributions:
   - platform: "steam"
     identifier: "1939160"
 r2modman:
   - meta:
       displayName: "Shadows Over Loathing"
-      iconUrl: "shadows-over-loathing.jpg"
+      iconUrl: "shadows-over-loathing.webp"
     internalFolderName: "ShadowsOverLoathing"
     dataFolderName: "ShadowsOverLoathing_Data"
     distributions:

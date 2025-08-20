@@ -2,14 +2,14 @@ uuid: "00b69efd-f144-45d5-b16e-09c4927a5421"
 label: "across-the-obelisk"
 meta:
   displayName: "Across the Obelisk"
-  iconUrl: "AcrossTheObelisk.png"
+  iconUrl: "across-the-obelisk.webp"
 distributions:
   - platform: "steam"
     identifier: "1385380"
 r2modman:
   - meta:
       displayName: "Across the Obelisk"
-      iconUrl: "AcrossTheObelisk.png"
+      iconUrl: "across-the-obelisk.webp"
     internalFolderName: "AcrossTheObelisk"
     dataFolderName: "AcrossTheObelisk_Data"
     distributions:

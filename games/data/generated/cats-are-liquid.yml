@@ -2,7 +2,7 @@ uuid: "72045937-27bc-47cc-a2f4-477ec25b881c"
 label: "cats-are-liquid"
 meta:
   displayName: "Cats are Liquid - A Better Place"
-  iconUrl: "CatsAreLiquidABP.jpg"
+  iconUrl: "cats-are-liquid-abp.webp"
 distributions:
   - platform: "steam"
     identifier: "1188080"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Cats are Liquid - A Better Place"
-      iconUrl: "CatsAreLiquidABP.jpg"
+      iconUrl: "cats-are-liquid-abp.webp"
     internalFolderName: "CatsAreLiquidABP"
     dataFolderName: "CaL-ABP-Windows_Data"
     distributions:

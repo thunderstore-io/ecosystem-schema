@@ -2,7 +2,7 @@ uuid: "ede82780-6c91-4403-b444-1f4c279e784c"
 label: "among-us"
 meta:
   displayName: "Among Us"
-  iconUrl: "AmongUs.png"
+  iconUrl: "among-us.webp"
 distributions:
   - platform: "steam"
     identifier: "945360"
@@ -15,7 +15,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Among Us"
-      iconUrl: "AmongUs.png"
+      iconUrl: "among-us.webp"
     internalFolderName: "AmongUs"
     dataFolderName: "Among Us_Data"
     distributions:
