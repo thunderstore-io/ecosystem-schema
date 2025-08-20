@@ -2,14 +2,14 @@ uuid: "f21ea350-d7fc-4f18-9f59-d3133a1743b1"
 label: "rounds"
 meta:
   displayName: "ROUNDS"
-  iconUrl: "ROUNDS.png"
+  iconUrl: "rounds.webp"
 distributions:
   - platform: "steam"
     identifier: "1557740"
 r2modman:
   - meta:
       displayName: "ROUNDS"
-      iconUrl: "ROUNDS.png"
+      iconUrl: "rounds.webp"
     internalFolderName: "ROUNDS"
     dataFolderName: "Rounds_Data"
     distributions:

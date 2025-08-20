@@ -2,7 +2,7 @@ uuid: "e215e837-4d44-4774-9ed0-a40300dd5c1d"
 label: "peglin"
 meta:
   displayName: "Peglin"
-  iconUrl: "Peglin.jpg"
+  iconUrl: "peglin.webp"
 distributions:
   - platform: "steam"
     identifier: "1296610"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Peglin"
-      iconUrl: "Peglin.jpg"
+      iconUrl: "peglin.webp"
     internalFolderName: "Peglin"
     dataFolderName: "Peglin_Data"
     distributions:

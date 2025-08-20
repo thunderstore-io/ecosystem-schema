@@ -2,14 +2,14 @@ uuid: "fce81e4f-fb2f-4bcb-84f5-2118e79161c3"
 label: "content-warning"
 meta:
   displayName: "Content Warning"
-  iconUrl: "ContentWarning.png"
+  iconUrl: "content-warning.webp"
 distributions:
   - platform: "steam"
     identifier: "2881650"
 r2modman:
   - meta:
       displayName: "Content Warning"
-      iconUrl: "ContentWarning.png"
+      iconUrl: "content-warning.webp"
     internalFolderName: "ContentWarning"
     dataFolderName: "Content Warning_Data"
     distributions:

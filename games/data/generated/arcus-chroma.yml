@@ -2,14 +2,14 @@ uuid: "6ebb56d0-ca43-471a-9e50-3182cd3b3c66"
 label: "arcus-chroma"
 meta:
   displayName: "Arcus Chroma"
-  iconUrl: "ArcusChroma.png"
+  iconUrl: "arcus-chroma.webp"
 distributions:
   - platform: "steam"
     identifier: "1447350"
 r2modman:
   - meta:
       displayName: "Arcus Chroma"
-      iconUrl: "ArcusChroma.png"
+      iconUrl: "arcus-chroma.webp"
     internalFolderName: "ArcusChroma"
     dataFolderName: "Arcus Chroma_Data"
     distributions:

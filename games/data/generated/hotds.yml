@@ -2,14 +2,14 @@ uuid: "dc7232bd-040f-4d72-8353-2b2a7d4a5082"
 label: "hotds"
 meta:
   displayName: "House of the Dying Sun"
-  iconUrl: "HOTDS.jpg"
+  iconUrl: "house-of-the-dying-sun.webp"
 distributions:
   - platform: "steam"
     identifier: "283160"
 r2modman:
   - meta:
       displayName: "House of the Dying Sun"
-      iconUrl: "HOTDS.jpg"
+      iconUrl: "house-of-the-dying-sun.webp"
     internalFolderName: "HOTDS"
     dataFolderName: "dyingsun_Data"
     distributions:
