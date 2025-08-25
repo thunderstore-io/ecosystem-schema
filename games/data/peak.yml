@@ -42,14 +42,23 @@ thunderstore:
       label: "Afflications"
     accolades:
       label: "Accolades"
+    asset-replacements:
+      label: "Asset Replacements"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+        - "asset-replacements"
     modpacks:
       name: "Modpacks"
       requireCategories:
+        - "modpacks"
+    asset-replacements:
+      name: "Asset Replacements"
+      requireCategories:
+        - "asset-replacements"
+      excludeCategories:
         - "modpacks"
   discordUrl: "https://discord.gg/SAw86z24rB"
   wikiUrl: "https://peakmodding.github.io"
