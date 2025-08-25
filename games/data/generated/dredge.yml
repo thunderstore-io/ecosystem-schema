@@ -2,14 +2,14 @@ uuid: "a292ab38-090b-49aa-b155-ca7c8360ce0d"
 label: "dredge"
 meta:
   displayName: "DREDGE"
-  iconUrl: "Dredge.png"
+  iconUrl: "dredge.webp"
 distributions:
   - platform: "steam"
     identifier: "1562430"
 r2modman:
   - meta:
       displayName: "DREDGE"
-      iconUrl: "Dredge.png"
+      iconUrl: "dredge.webp"
     internalFolderName: "Dredge"
     dataFolderName: "DREDGE_Data"
     distributions:

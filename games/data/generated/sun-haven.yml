@@ -2,14 +2,14 @@ uuid: "6bc92698-4e26-4ebf-8c74-f3a9fcb768da"
 label: "sun-haven"
 meta:
   displayName: "Sun Haven"
-  iconUrl: "sun-haven.jpg"
+  iconUrl: "sun-haven.webp"
 distributions:
   - platform: "steam"
     identifier: "1432860"
 r2modman:
   - meta:
       displayName: "Sun Haven"
-      iconUrl: "sun-haven.jpg"
+      iconUrl: "sun-haven.webp"
     internalFolderName: "SunHaven"
     dataFolderName: "SunHaven_Data"
     distributions:

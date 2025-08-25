@@ -2,14 +2,14 @@ uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
 label: "repo"
 meta:
   displayName: "R.E.P.O."
-  iconUrl: "REPO.png"
+  iconUrl: "repo.webp"
 distributions:
   - platform: "steam"
     identifier: "3241660"
 r2modman:
   - meta:
       displayName: "R.E.P.O."
-      iconUrl: "REPO.png"
+      iconUrl: "repo.webp"
     internalFolderName: "REPO"
     dataFolderName: "REPO_Data"
     distributions:

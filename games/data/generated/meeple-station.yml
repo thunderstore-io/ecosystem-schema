@@ -2,14 +2,14 @@ uuid: "ff1755e6-c96f-4b4d-8ab2-a8ca6e2f1769"
 label: "meeple-station"
 meta:
   displayName: "Meeple Station"
-  iconUrl: "MeepleStation.png"
+  iconUrl: "meeple-station.webp"
 distributions:
   - platform: "steam"
     identifier: "900010"
 r2modman:
   - meta:
       displayName: "Meeple Station"
-      iconUrl: "MeepleStation.png"
+      iconUrl: "meeple-station.webp"
     internalFolderName: "MeepleStation"
     dataFolderName: "MeepleStation_Data"
     distributions:

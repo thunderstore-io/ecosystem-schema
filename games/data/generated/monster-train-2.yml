@@ -2,14 +2,14 @@ uuid: "d915f79b-330f-425d-bc4f-7f04bf85f7d8"
 label: "monster-train-2"
 meta:
   displayName: "Monster Train 2"
-  iconUrl: "MonsterTrain2.png"
+  iconUrl: "monster-train-2.webp"
 distributions:
   - platform: "steam"
     identifier: "2742830"
 r2modman:
   - meta:
       displayName: "Monster Train 2"
-      iconUrl: "MonsterTrain2.png"
+      iconUrl: "monster-train-2.webp"
     internalFolderName: "MonsterTrain2"
     dataFolderName: "MonsterTrain2_Data"
     distributions:
