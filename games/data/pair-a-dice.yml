@@ -1,0 +1,52 @@
+uuid: "ba399eee-df9f-44e9-93a4-d9d181b9bf99"
+label: "pair-a-dice"
+meta:
+  displayName: "Pair A Dice"
+  iconUrl: "pair-a-dice.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2842150"
+    steamFolderName: "PairADice"
+    dataFolderName: ""
+    exeNames:
+      - "PairADice.exe"
+    packageLoader: "godotml"
+    meta:
+      displayName: "Pair A Dice"
+      iconUrl: "pair-a-dice.webp"
+    settingsIdentifier: "PairADice"
+    internalFolderName: "PairADice"
+    packageIndex: "https://thunderstore.io/c/pair-a-dice/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: ["pad"]
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Pair A Dice"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/sNHt43Fjs3"
+  autolistPackageIds: []
