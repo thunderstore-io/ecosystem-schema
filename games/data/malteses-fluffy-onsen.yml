@@ -1,0 +1,80 @@
+uuid: "5ebb5fe3-e1fc-43e7-9598-063b0e3733f3"
+label: "malteses-fluffy-onsen"
+meta:
+  displayName: "Maltese's Fluffy Onsen"
+  iconUrl: "malteses-fluffy-onsen.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3404470"
+    steamFolderName: "Animal Spa"
+    dataFolderName: "AnimalSpa_Data"
+    exeNames:
+      - "AnimalSpa.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Maltese's Fluffy Onsen"
+      iconUrl: "malteses-fluffy-onsen.webp"
+    settingsIdentifier: "MaltesesFluffyOnsen"
+    internalFolderName: "MaltesesFluffyOnsen"
+    packageIndex: "https://thunderstore.io/c/malteses-fluffy-onsen/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: ["mfo"]
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Maltese's Fluffy Onsen"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://gldym.github.io/posts/Animal-Spa-En/"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
