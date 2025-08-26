@@ -49,4 +49,4 @@ thunderstore:
       requireCategories:
         - "modpacks"
   discordUrl: "https://discord.gg/sNHt43Fjs3"
-  autolistPackageIds: []
+  autolistPackageIds: ["GodotModding-GodotModLoader"]
