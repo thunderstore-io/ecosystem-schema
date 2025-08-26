@@ -16,6 +16,8 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    nsfw:
+      label: "NSFW"
     audio:
       label: "Audio"
     maps:
