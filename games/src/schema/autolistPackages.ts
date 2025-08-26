@@ -15,6 +15,10 @@ export const AUTOLIST_PACKAGE_CHOICES = [
     value: "LavaGang-MelonLoader",
     name: "MelonLoader",
   },
+  {
+    value: "GodotModding-GodotModLoader",
+    name: "GodotModLoader",
+  },
 ];
 
 const AUTOLIST_PACKAGE_IDS = AUTOLIST_PACKAGE_CHOICES.map((x) => x.value);
