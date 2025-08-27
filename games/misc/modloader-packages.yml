@@ -199,3 +199,6 @@
 - packageId: "BepInEx-BepInExPack_PEAK"
   rootFolder: "BepInExPack_PEAK"
   loader: "bepinex"
+- packageId: "ResoniteModding-BepisLoader"
+  rootFolder: "BepInExPack"
+  loader: "bepisloader"
