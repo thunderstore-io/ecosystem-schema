@@ -34,4 +34,8 @@ export const PACKAGE_LOADER_CHOICES: PackageLoaderChoice[] = [
     value: "none",
     name: "None",
   },
+  {
+    value: 'bepisloader',
+    name: 'BepisLoader'
+  },
 ];
