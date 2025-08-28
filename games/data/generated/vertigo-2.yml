@@ -2,14 +2,14 @@ uuid: "cff97c17-16f0-46d7-874c-4c53afd280e5"
 label: "vertigo-2"
 meta:
   displayName: "Vertigo 2"
-  iconUrl: "Vertigo2.png"
+  iconUrl: "vertigo-2.webp"
 distributions:
   - platform: "steam"
     identifier: "843390"
 r2modman:
   - meta:
       displayName: "Vertigo 2"
-      iconUrl: "Vertigo2.png"
+      iconUrl: "vertigo-2.webp"
     internalFolderName: "Vertigo2"
     dataFolderName: "vertigo2_Data"
     distributions:

@@ -2,7 +2,7 @@ uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
 label: "inscryption"
 meta:
   displayName: "Inscryption"
-  iconUrl: "Inscryption.png"
+  iconUrl: "inscryption.webp"
 distributions:
   - platform: "steam"
     identifier: "1092790"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Inscryption"
-      iconUrl: "Inscryption.png"
+      iconUrl: "inscryption.webp"
     internalFolderName: "Inscryption"
     dataFolderName: "Inscryption_Data"
     distributions:

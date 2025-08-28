@@ -2,14 +2,14 @@ uuid: "1a6f1e43-d697-4556-98cb-43b2e6ad16dd"
 label: "shapez-2"
 meta:
   displayName: "Shapez 2"
-  iconUrl: "Shapez2.png"
+  iconUrl: "shapez-2.webp"
 distributions:
   - platform: "steam"
     identifier: "2162800"
 r2modman:
   - meta:
       displayName: "Shapez 2"
-      iconUrl: "Shapez2.png"
+      iconUrl: "shapez-2.webp"
     internalFolderName: "Shapez2"
     dataFolderName: "shapez 2_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "86e03bd3-56c2-4cea-b471-fedde6069a68"
 label: "white-knuckle"
 meta:
   displayName: "White Knuckle"
-  iconUrl: "WhiteKnuckle.png"
+  iconUrl: "white-knuckle.webp"
 distributions:
   - platform: "steam"
     identifier: "3195790"
 r2modman:
   - meta:
       displayName: "White Knuckle"
-      iconUrl: "WhiteKnuckle.png"
+      iconUrl: "white-knuckle.webp"
     internalFolderName: "WhiteKnuckle"
     dataFolderName: "White Knuckle_Data"
     distributions:

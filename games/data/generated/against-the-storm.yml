@@ -2,14 +2,14 @@ uuid: "3905c63a-17b6-4f57-aae5-adfeb6697196"
 label: "against-the-storm"
 meta:
   displayName: "Against the Storm"
-  iconUrl: "AgainstTheStorm.png"
+  iconUrl: "against-the-storm.webp"
 distributions:
   - platform: "steam"
     identifier: "1336490"
 r2modman:
   - meta:
       displayName: "Against the Storm"
-      iconUrl: "AgainstTheStorm.png"
+      iconUrl: "against-the-storm.webp"
     internalFolderName: "AgainstTheStorm"
     dataFolderName: "Against the Storm_Data"
     distributions:

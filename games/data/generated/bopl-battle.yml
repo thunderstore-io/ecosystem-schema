@@ -2,14 +2,14 @@ uuid: "8481a40d-1bac-4e98-b03a-f80ae7c59cb7"
 label: "bopl-battle"
 meta:
   displayName: "Bopl Battle"
-  iconUrl: "BoplBattle.png"
+  iconUrl: "bopl-battle.webp"
 distributions:
   - platform: "steam"
     identifier: "1686940"
 r2modman:
   - meta:
       displayName: "Bopl Battle"
-      iconUrl: "BoplBattle.png"
+      iconUrl: "bopl-battle.webp"
     internalFolderName: "BoplBattle"
     dataFolderName: "BoplBattle_Data"
     distributions:
