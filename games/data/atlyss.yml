@@ -20,6 +20,10 @@ thunderstore:
       label: "Audio"
     maps:
       label: "Maps"
+    languages:
+      label: "Languages"
+    tweaks:
+      label: "Tweaks"
     assets:
       label: "Assets"
     emotes:
