@@ -1,0 +1,117 @@
+uuid: "514b380a-5632-4ea4-88e5-fa4f44dae626"
+label: "vampire-survivors"
+meta:
+  displayName: "Vampire Survivors"
+  iconUrl: "vampire-survivors.webp"
+distributions: [ ]
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1794680"
+    steamFolderName: "Vampire Survivors"
+    dataFolderName: "VampireSurvivors_Data"
+    exeNames:
+      - "VampireSurvivors.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Vampire Survivors"
+      iconUrl: "vampire-survivors.webp"
+    settingsIdentifier: "VampireSurvivors"
+    internalFolderName: "VampireSurvivors"
+    packageIndex: "https://thunderstore.io/c/vampire-survivors/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: [ ]
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: [ ]
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: [ ]
+        trackingMethod: "subdir"
+        subRoutes: [ ]
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: [ ]
+        trackingMethod: "subdir"
+        subRoutes: [ ]
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: [ ]
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: [ ]
+        trackingMethod: "none"
+        subRoutes: [ ]
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Vampire Survivors"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    characters:
+      label: "Characters"
+    weapons:
+      label: "Weapons"
+    passives:
+      label: "Passives"
+    evolutions:
+      label: "Evolutions"
+
+    stages:
+      label: "Stages"
+    enemies:
+      label: "Enemies"
+    pickups:
+      label: "Pick-ups"
+
+
+    relics:
+      label: "Relics"
+    arcana:
+      label: "Arcana"
+    powerups:
+      label: "Power-ups"
+
+
+    unlocks:
+      label: "Unlocks"
+    skins:
+      label: "Skins"
+    secrets:
+      label: "Secrets"
+
+    adventures:
+      label: "Adventures"
+
+    tweaks:
+      label: "Tweaks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://vampire.survivors.wiki/"
+  discordUrl: "https://discord.gg/vampire-survivors"
+  autolistPackageIds: [ ]
