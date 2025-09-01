@@ -44,6 +44,8 @@ thunderstore:
       label: "Accolades"
     asset-replacements:
       label: "Asset Replacements"
+    mixtapes:
+      label: "Mixtapes"
   sections:
     mods:
       name: "Mods"
