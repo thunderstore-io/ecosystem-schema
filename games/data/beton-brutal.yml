@@ -48,6 +48,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: "https://discord.gg/VHPEFKEU"
+  discordUrl: "https://discord.com/invite/DqKwJyugGv"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
