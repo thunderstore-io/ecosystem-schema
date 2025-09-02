@@ -13,14 +13,14 @@ r2modman:
     dataFolderName: "Resonite_Data"
     exeNames:
       - "Resonite.exe"
-    packageLoader: "bepisloader"
+    packageLoader: "bepinex"
     meta:
       displayName: "Resonite"
       iconUrl: "resonite.webp"
     settingsIdentifier: "Resonite"
     internalFolderName: "Resonite"
     packageIndex: "https://thunderstore.io/c/resonite/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "visible"
+    gameSelectionDisplayMode: "hidden"
     additionalSearchStrings: []
     installRules:
       - route: "BepInEx/plugins"
