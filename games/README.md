@@ -5,17 +5,20 @@ ecosystem.
 
 ## Usage
 
-### Build game definitions into json
+### Generate a new game definition YAML
+
+```
+yarn run add
+```
+
+### Build game definitions into JSON
 
 ```
 yarn run build
 ```
 
-### Generate a new game definition yml
-
-```
-yarn run add {gamename}
-```
+JSON file containing all the data, as well as JSON Schema file defining
+the structure of the data will be placed in `dist/` folder.
 
 ### Deploy the latest generated schema
 
@@ -25,6 +28,8 @@ be set. See [Configuring](#configuring) for more details.
 ```
 yarn run deploy
 ```
+
+Note that the CI pipeline will do this automatically when changes are merged.
 
 ## Configuring
 
