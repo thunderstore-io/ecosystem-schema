@@ -208,3 +208,6 @@
 - packageId: "BepInEx-BepInExPack_Patapon"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "BepInEx-BepInExPack_Silksong"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
