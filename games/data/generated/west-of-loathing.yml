@@ -2,14 +2,14 @@ uuid: "b7b7cf05-50a8-4ffd-815b-71a16d7f7954"
 label: "west-of-loathing"
 meta:
   displayName: "West of Loathing"
-  iconUrl: "west-of-loathing.jpg"
+  iconUrl: "west-of-loathing.webp"
 distributions:
   - platform: "steam"
     identifier: "597220"
 r2modman:
   - meta:
       displayName: "West of Loathing"
-      iconUrl: "west-of-loathing.jpg"
+      iconUrl: "west-of-loathing.webp"
     internalFolderName: "WestofLoathing"
     dataFolderName: "WestofLoathing_Data"
     distributions:

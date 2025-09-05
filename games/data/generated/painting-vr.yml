@@ -2,14 +2,14 @@ uuid: "ce8b8855-5fa1-46a1-a362-356254d1fff7"
 label: "painting-vr"
 meta:
   displayName: "Painting VR"
-  iconUrl: "PaintingVr.png"
+  iconUrl: "painting-vr.webp"
 distributions:
   - platform: "steam"
     identifier: "1905940"
 r2modman:
   - meta:
       displayName: "Painting VR"
-      iconUrl: "PaintingVr.png"
+      iconUrl: "painting-vr.webp"
     internalFolderName: "PaintingVr"
     dataFolderName: "PaintingVr_Data"
     distributions:

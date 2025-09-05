@@ -2,14 +2,14 @@ uuid: "ffd789b4-89d3-4909-95dd-38b588fbf4aa"
 label: "v-rising"
 meta:
   displayName: "V Rising"
-  iconUrl: "VRising.jpg"
+  iconUrl: "v-rising.webp"
 distributions:
   - platform: "steam"
     identifier: "1604030"
 r2modman:
   - meta:
       displayName: "V Rising"
-      iconUrl: "VRising.jpg"
+      iconUrl: "v-rising.webp"
     internalFolderName: "VRising"
     dataFolderName: "VRising_Data"
     distributions:

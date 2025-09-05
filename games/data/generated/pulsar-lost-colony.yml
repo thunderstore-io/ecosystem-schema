@@ -2,14 +2,14 @@ uuid: "d4f457c3-71b1-40c7-87f2-5ed5b0b67ca1"
 label: "pulsar-lost-colony"
 meta:
   displayName: "Pulsar: Lost Colony"
-  iconUrl: "PulsarLostColony.png"
+  iconUrl: "pulsar-lost-colony.webp"
 distributions:
   - platform: "steam"
     identifier: "252870"
 r2modman:
   - meta:
       displayName: "Pulsar: Lost Colony"
-      iconUrl: "PulsarLostColony.png"
+      iconUrl: "pulsar-lost-colony.webp"
     internalFolderName: "PulsarLostColony"
     dataFolderName: "PULSAR_LostColony_Data"
     distributions:
