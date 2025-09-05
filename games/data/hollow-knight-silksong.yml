@@ -4,7 +4,53 @@ meta:
   displayName: "Hollow Knight: Silksong"
   iconUrl: "hollow-knight-silksong.webp"
 distributions: []
-r2modman: null
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1030300"
+    steamFolderName: "Hollow Knight Silksong"
+    dataFolderName: "Hollow Knight Silksong_Data"
+    exeNames:
+      - "Hollow Knight Silksong.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Hollow Knight: Silksong"
+      iconUrl: "hollow-knight-silksong.webp"
+    settingsIdentifier: "HollowKnightSilksong"
+    internalFolderName: "HollowKnightSilksong"
+    packageIndex: "https://thunderstore.io/c/hollow-knight-silksong/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
 thunderstore:
   displayName: "Hollow Knight: Silksong"
   categories:
