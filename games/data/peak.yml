@@ -52,6 +52,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "asset-replacements"
+        - "mixtapes"
     modpacks:
       name: "Modpacks"
       requireCategories:
@@ -60,6 +61,13 @@ thunderstore:
       name: "Asset Replacements"
       requireCategories:
         - "asset-replacements"
+      excludeCategories:
+        - "modpacks"
+        - "mixtapes"
+    resource-packs:
+      name: "Resource Packs"
+      requireCategories:
+        - "mixtapes"
       excludeCategories:
         - "modpacks"
   discordUrl: "https://discord.gg/SAw86z24rB"
