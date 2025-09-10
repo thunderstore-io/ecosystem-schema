@@ -13,7 +13,7 @@ r2modman:
     dataFolderName: "Resonite_Data"
     exeNames:
       - "Resonite.exe"
-    packageLoader: "bepinex"
+    packageLoader: "bepisloader"
     meta:
       displayName: "Resonite"
       iconUrl: "resonite.webp"
@@ -27,6 +27,11 @@ r2modman:
         isDefaultLocation: true
         defaultFileExtensions:
           - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "Renderer/BepInEx/plugins"
+        isDefaultLocation: false
+        defaultFileExtensions: []
         trackingMethod: "subdir"
         subRoutes: []
       - route: "BepInEx/core"

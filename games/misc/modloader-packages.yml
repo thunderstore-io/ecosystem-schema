@@ -211,3 +211,6 @@
 - packageId: "BepInEx-BepInExPack_Silksong"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "ResoniteModding-BepisLoader"
+  rootFolder: "BepInExPack"
+  loader: "bepisloader"

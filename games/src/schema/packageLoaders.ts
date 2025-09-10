@@ -31,6 +31,10 @@ export const PACKAGE_LOADER_CHOICES: PackageLoaderChoice[] = [
     name: "Return Of Modding",
   },
   {
+    value: 'bepisloader',
+    name: "Bepisloader",
+  },
+  {
     value: "none",
     name: "None",
   },
