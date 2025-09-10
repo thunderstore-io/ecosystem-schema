@@ -1,37 +1,27 @@
-uuid: "b8fc6f53-5269-4768-b7ec-f09742f0b0bc"
-label: "hollow-knight-silksong"
+uuid: "3e5e018e-6d47-45cd-80eb-31317287ddb4"
+label: "house-of-legacy"
 meta:
-  displayName: "Hollow Knight: Silksong"
-  iconUrl: "hollow-knight-silksong.webp"
-distributions:
-  - platform: "steam"
-    identifier: "1030300"
-  - platform: "other"
-    identifier: null
-  - platform: "xbox-game-pass"
-    identifier: "TeamCherry.HollowKnightSilksong"
+  displayName: "House of Legacy"
+  iconUrl: "house-of-legacy.webp"
+distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "1030300"
-      - platform: "xbox-game-pass"
-        identifier: "TeamCherry.HollowKnightSilksong"
-      - platform: "other"
-        identifier: null
-    steamFolderName: "Hollow Knight Silksong"
-    dataFolderName: "Hollow Knight Silksong_Data"
+        identifier: "2503770"
+    steamFolderName: "吾今有世家"
+    dataFolderName: "House of Legacy_Data"
     exeNames:
-      - "Hollow Knight Silksong.exe"
+      - "House of Legacy.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "Hollow Knight: Silksong"
-      iconUrl: "hollow-knight-silksong.webp"
-    settingsIdentifier: "HollowKnightSilksong"
-    internalFolderName: "HollowKnightSilksong"
-    packageIndex: "https://thunderstore.io/c/hollow-knight-silksong/api/v1/package-listing-index/"
+      displayName: "House of Legacy"
+      iconUrl: "house-of-legacy.webp"
+    settingsIdentifier: "HouseOfLegacy"
+    internalFolderName: "HouseOfLegacy"
+    packageIndex: "https://thunderstore.io/c/house-of-legacy/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["hkss"]
+    additionalSearchStrings: ["hol"]
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -62,7 +52,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Hollow Knight: Silksong"
+  displayName: "House of Legacy"
   categories:
     mods:
       label: "Mods"
@@ -85,4 +75,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  autolistPackageIds: []
+  discordUrl: "https://discord.gg/FBAN8hFB"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
