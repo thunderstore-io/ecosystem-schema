@@ -20,7 +20,7 @@ r2modman:
     settingsIdentifier: "Resonite"
     internalFolderName: "Resonite"
     packageIndex: "https://thunderstore.io/c/resonite/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "hidden"
+    gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules:
       - route: "BepInEx/plugins"
