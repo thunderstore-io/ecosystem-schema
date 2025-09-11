@@ -2,14 +2,14 @@ uuid: "4a28a8cc-902c-4630-a4b7-79f90ae22299"
 label: "panicore"
 meta:
   displayName: "Panicore"
-  iconUrl: "Panicore.png"
+  iconUrl: "panicore.webp"
 distributions:
   - platform: "steam"
     identifier: "2695940"
 r2modman:
   - meta:
       displayName: "Panicore"
-      iconUrl: "Panicore.png"
+      iconUrl: "panicore.webp"
     internalFolderName: "Panicore"
     dataFolderName: "Panicore"
     distributions:

@@ -2,14 +2,14 @@ uuid: "18cea92d-ed64-4107-8f49-79b55ad6cb39"
 label: "plasma"
 meta:
   displayName: "Plasma"
-  iconUrl: "Plasma.jpg"
+  iconUrl: "plasma.webp"
 distributions:
   - platform: "steam"
     identifier: "1409160"
 r2modman:
   - meta:
       displayName: "Plasma"
-      iconUrl: "Plasma.jpg"
+      iconUrl: "plasma.webp"
     internalFolderName: "Plasma"
     dataFolderName: "Plasma_Data"
     distributions:

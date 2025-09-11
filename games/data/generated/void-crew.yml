@@ -2,14 +2,14 @@ uuid: "337b81bd-6acd-44b5-9a9f-13edc45c6d07"
 label: "void-crew"
 meta:
   displayName: "Void Crew"
-  iconUrl: "VoidCrew.png"
+  iconUrl: "void-crew.webp"
 distributions:
   - platform: "steam"
     identifier: "1063420"
 r2modman:
   - meta:
       displayName: "Void Crew"
-      iconUrl: "VoidCrew.png"
+      iconUrl: "void-crew.webp"
     internalFolderName: "VoidCrew"
     dataFolderName: "VoidCrew_Data"
     distributions:

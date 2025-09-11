@@ -2,14 +2,14 @@ uuid: "92c201e9-d38d-421e-b40b-7d0e0e84d433"
 label: "ravenfield"
 meta:
   displayName: "Ravenfield"
-  iconUrl: "Ravenfield.jpg"
+  iconUrl: "ravenfield.webp"
 distributions:
   - platform: "steam"
     identifier: "636480"
 r2modman:
   - meta:
       displayName: "Ravenfield"
-      iconUrl: "Ravenfield.jpg"
+      iconUrl: "ravenfield.webp"
     internalFolderName: "Ravenfield"
     dataFolderName: "ravenfield_Data"
     distributions:

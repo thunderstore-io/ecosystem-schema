@@ -2,14 +2,14 @@ uuid: "99207aff-e108-4371-ac34-75f57763729f"
 label: "tcg-card-shop-simulator"
 meta:
   displayName: "TCG Card Shop Simulator"
-  iconUrl: "TCGCardShopSimulator.png"
+  iconUrl: "tcg-card-shop-simulator.webp"
 distributions:
   - platform: "steam"
     identifier: "3070070"
 r2modman:
   - meta:
       displayName: "TCG Card Shop Simulator"
-      iconUrl: "TCGCardShopSimulator.png"
+      iconUrl: "tcg-card-shop-simulator.webp"
     internalFolderName: "TCGCardShopSimulator"
     dataFolderName: "Card Shop Simulator_Data"
     distributions:

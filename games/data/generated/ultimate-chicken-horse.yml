@@ -2,14 +2,14 @@ uuid: "c34fe1cf-1752-4185-bb39-25e29a6394f3"
 label: "ultimate-chicken-horse"
 meta:
   displayName: "Ultimate Chicken Horse"
-  iconUrl: "ultimate-chicken-horse.jpg"
+  iconUrl: "ultimate-chicken-horse.webp"
 distributions:
   - platform: "steam"
     identifier: "386940"
 r2modman:
   - meta:
       displayName: "Ultimate Chicken Horse"
-      iconUrl: "ultimate-chicken-horse.jpg"
+      iconUrl: "ultimate-chicken-horse.webp"
     internalFolderName: "UltimateChickenHorse"
     dataFolderName: "UltimateChickenHorse_Data"
     distributions:
