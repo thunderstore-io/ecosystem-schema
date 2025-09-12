@@ -18,6 +18,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    quests:
+      label: "Quests"
     maps:
       label: "Maps"
     languages:
