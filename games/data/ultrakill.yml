@@ -24,6 +24,10 @@ thunderstore:
       label: "Misc"
     cosmetics:
       label: "Cosmetics"
+    skinpacks:
+      label: "UltraSkins Skinpacks"
+    musicpacks:
+      label: "USTManager Music Packs"
   sections:
     mods:
       name: "Mods"
