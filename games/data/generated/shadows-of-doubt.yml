@@ -6,6 +6,8 @@ meta:
 distributions:
   - platform: "steam"
     identifier: "986130"
+  - platform: "other"
+    identifier: null
 r2modman:
   - meta:
       displayName: "Shadows of Doubt"
@@ -15,6 +17,8 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "986130"
+      - platform: "other"
+        identifier: null
     settingsIdentifier: "ShadowsofDoubt"
     packageIndex: "https://thunderstore.io/c/shadows-of-doubt/api/v1/package-listing-index/"
     steamFolderName: "Shadows of Doubt"
