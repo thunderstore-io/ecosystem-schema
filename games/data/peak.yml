@@ -39,7 +39,7 @@ thunderstore:
     faces:
       label: "Faces"
     afflictions:
-      label: "Afflications"
+      label: "Afflictions"
     accolades:
       label: "Accolades"
     asset-replacements:
