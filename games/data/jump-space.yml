@@ -1,0 +1,53 @@
+uuid: "0749aeb4-0675-405a-b247-c4180035066b"
+label: "jump-space"
+meta:
+  displayName: "Jump Space"
+  iconUrl: "jump-space.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1757300"
+    steamFolderName: "JumpSpace"
+    dataFolderName: "Jump Space_Data"
+    exeNames:
+      - "Jump Space.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Jump Space"
+      iconUrl: "jump-space.webp"
+    settingsIdentifier: "JumpSpace"
+    internalFolderName: "JumpSpace"
+    packageIndex: "https://thunderstore.io/c/jump-space/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Jump Space"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/jumpspace"
+  autolistPackageIds: []
+  shortDescription: "Jump Space (formerly Jump Ship) is a mission based co-op PvE for 1-4 players, where you are the crew of a spaceship."
