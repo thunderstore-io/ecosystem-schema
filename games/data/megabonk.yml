@@ -13,7 +13,7 @@ r2modman:
     dataFolderName: "Megabonk_Data"
     exeNames:
       - "Megabonk.exe"
-    packageLoader: "bepinex"
+    packageLoader: "recursive-melonloader"
     meta:
       displayName: "Megabonk"
       iconUrl: "megabonk.webp"
@@ -22,34 +22,7 @@ r2modman:
     packageIndex: "https://thunderstore.io/c/megabonk/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
-    installRules:
-      - route: "BepInEx/plugins"
-        isDefaultLocation: true
-        defaultFileExtensions:
-          - ".dll"
-        trackingMethod: "subdir"
-        subRoutes: []
-      - route: "BepInEx/core"
-        isDefaultLocation: false
-        defaultFileExtensions: []
-        trackingMethod: "subdir"
-        subRoutes: []
-      - route: "BepInEx/patchers"
-        isDefaultLocation: false
-        defaultFileExtensions: []
-        trackingMethod: "subdir"
-        subRoutes: []
-      - route: "BepInEx/monomod"
-        isDefaultLocation: false
-        defaultFileExtensions:
-          - ".mm.dll"
-        trackingMethod: "subdir"
-        subRoutes: []
-      - route: "BepInEx/config"
-        isDefaultLocation: false
-        defaultFileExtensions: []
-        trackingMethod: "none"
-        subRoutes: []
+    installRules: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "Megabonk"
@@ -77,4 +50,4 @@ thunderstore:
         - "modpacks"
   discordUrl: "https://discord.gg/EcnegvM5nc"
   autolistPackageIds:
-    - "BepInEx-BepInExPack_IL2CPP"
+    - "LavaGang-MelonLoader"
