@@ -1,0 +1,52 @@
+uuid: "dc4ff876-263d-4e67-9dd9-9fb42203e6c3"
+label: "an-unfinished-game"
+meta:
+  displayName: "An Unfinished Game"
+  iconUrl: "an-unfinished-game.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2919990"
+    steamFolderName: "An Unfinished Game"
+    dataFolderName: "UnfinishedGame_Data"
+    exeNames:
+      - "UnfinishedGame.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "An Unfinished Game"
+      iconUrl: "an-unfinished-game.webp"
+    settingsIdentifier: "AnUnfinishedGame"
+    internalFolderName: "AnUnfinishedGame"
+    packageIndex: "https://thunderstore.io/c/an-unfinished-game/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "An Unfinished Game"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
