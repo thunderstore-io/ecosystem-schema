@@ -2,7 +2,7 @@ uuid: "c69c1da5-4c6b-4523-a8e4-8bd49e1c9790"
 label: "valheim"
 meta:
   displayName: "Valheim"
-  iconUrl: "Valheim.jpg"
+  iconUrl: "valheim.webp"
 distributions:
   - platform: "steam"
     identifier: "892970"
@@ -13,7 +13,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Valheim"
-      iconUrl: "Valheim.jpg"
+      iconUrl: "valheim.webp"
     internalFolderName: "Valheim"
     dataFolderName: "valheim_Data"
     distributions:

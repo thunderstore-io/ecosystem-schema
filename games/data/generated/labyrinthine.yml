@@ -2,14 +2,14 @@ uuid: "f51778cc-ffa4-42f7-a140-9ad5c528d8f7"
 label: "labyrinthine"
 meta:
   displayName: "Labyrinthine"
-  iconUrl: "Labyrinthine.png"
+  iconUrl: "labyrinthine.webp"
 distributions:
   - platform: "steam"
     identifier: "1302240"
 r2modman:
   - meta:
       displayName: "Labyrinthine"
-      iconUrl: "Labyrinthine.png"
+      iconUrl: "labyrinthine.webp"
     internalFolderName: "Labyrinthine"
     dataFolderName: "Labyrinthine_Data"
     distributions:

@@ -2,7 +2,7 @@ uuid: "72ff8d9a-5af4-428d-9520-1955a464e3b6"
 label: "subnautica"
 meta:
   displayName: "Subnautica"
-  iconUrl: "Subnautica.png"
+  iconUrl: "subnautica.webp"
 distributions:
   - platform: "steam"
     identifier: "264710"
@@ -13,7 +13,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Subnautica"
-      iconUrl: "Subnautica.png"
+      iconUrl: "subnautica.webp"
     internalFolderName: "Subnautica"
     dataFolderName: "Subnautica_Data"
     distributions:

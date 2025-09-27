@@ -2,14 +2,14 @@ uuid: "d9fcc60f-1418-44b6-9ea9-15f50e5baf6f"
 label: "songs-of-conquest"
 meta:
   displayName: "Songs of Conquest"
-  iconUrl: "SongsOfConquest.png"
+  iconUrl: "songs-of-conquest.webp"
 distributions:
   - platform: "steam"
     identifier: "867210"
 r2modman:
   - meta:
       displayName: "Songs of Conquest"
-      iconUrl: "SongsOfConquest.png"
+      iconUrl: "songs-of-conquest.webp"
     internalFolderName: "SongsOfConquest"
     dataFolderName: "SongsOfConquest_Data"
     distributions:

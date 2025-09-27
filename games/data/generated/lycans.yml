@@ -2,14 +2,14 @@ uuid: "e9f5de2b-6273-4af4-a4cc-f7c427e1389a"
 label: "lycans"
 meta:
   displayName: "Lycans"
-  iconUrl: "Lycans.png"
+  iconUrl: "lycans.webp"
 distributions:
   - platform: "steam"
     identifier: "2596100"
 r2modman:
   - meta:
       displayName: "Lycans"
-      iconUrl: "Lycans.png"
+      iconUrl: "lycans.webp"
     internalFolderName: "Lycans"
     dataFolderName: "Lycans_Data"
     distributions:
