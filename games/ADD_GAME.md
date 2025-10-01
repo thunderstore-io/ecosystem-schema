@@ -66,10 +66,48 @@ These rules manage where files are placed within the profile folder, based on th
 - **isDefaultLocation**: Indicates whether this rule applies to files that don't match any extension-based rules.
 - **defaultFileExtensions**: Defines which file extensions this rule applies to.
 - **trackingMethod**: Defines the strategy used for conflict management and uninstallation:
-  - `"subdir"`: Places files in their own namespaced folder inside of the `route`.
+  - `"subdir"`: Places files in their own namespaced folder inside of the `route`. 
+    - Flattens content into the root of the namespaced folder unless content is inside an `override` folder.
+    - If there is content in an override folder, the relevant content is moved as-packaged into the corresponding folder.
+  - `"subdir-no-flatten"`: Places files in their own namespaced folder inside of the `route`. The file structure is not flattened. Override folders still behave the same.
   - `"state"`: Places files as-is in the `route`, while keeping track which files belong to which mods and managing conflicts.
+  - `"package-zip"`: Places the zip directly into the `route`. Renames the zip to match `<Mod Name>.ts.zip`. Used for loaders which can load the zip directly.
   - `"none"`: Places files as-is into the `route`. These files do not have conflict management and cannot be managed further (e.g. no disable/uninstall behaviour). Ideal for config files.
 - **subRoutes**: An array of InstallRule objects. Each `subRoute`'s `route` is joined with that of its parent allowing more granular control and clear organization of the routes, while avoiding repetition.
+
+#### Override folders
+You can find the most common override folders here: https://wiki.thunderstore.io/mods/packaging-your-mods
+
+All paths have an override folder. To identify one:
+- Look at the route definition
+- The last part of the path can be considered an override folder. The example below shows the `plugins` override definition.
+  - ```
+    - route: "BepInEx/plugins"
+    defaultFileExtensions: []
+    trackingMethod: "subdir"
+    subRoutes: []
+    isDefaultLocation: true
+    ```
+- Sub routes work the same, so a route defined like: 
+  ```
+    - route: "BepInEx"
+    defaultFileExtensions: []
+    trackingMethod: "subdir"
+    subRoutes: [
+      - route: "plugins"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    ]
+    isDefaultLocation: false
+    ```
+    actually has two override folders (`BepInEx` and `plugins`). 
+    
+#### Notes
+
+We want to avoid writing directly to the BepInEx folder and so we should only specify the direct paths 
+to prevent it being used as an override folder.
 
 ### Thunderstore Field
 
