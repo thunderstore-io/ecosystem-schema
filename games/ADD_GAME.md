@@ -75,6 +75,40 @@ These rules manage where files are placed within the profile folder, based on th
   - `"none"`: Places files as-is into the `route`. These files do not have conflict management and cannot be managed further (e.g. no disable/uninstall behaviour). Ideal for config files.
 - **subRoutes**: An array of InstallRule objects. Each `subRoute`'s `route` is joined with that of its parent allowing more granular control and clear organization of the routes, while avoiding repetition.
 
+#### Override folders
+You can find the most common override folders here: https://wiki.thunderstore.io/mods/packaging-your-mods
+
+All paths have an override folder. To identify one:
+- Look at the route definition
+- The last part of the path can be considered an override folder. The example below shows the `plugins` override definition.
+  - ```
+    - route: "BepInEx/plugins"
+    defaultFileExtensions: []
+    trackingMethod: "subdir"
+    subRoutes: []
+    isDefaultLocation: true
+    ```
+- Sub routes work the same, so a route defined like: 
+  ```
+    - route: "BepInEx"
+    defaultFileExtensions: []
+    trackingMethod: "subdir"
+    subRoutes: [
+      - route: "plugins"
+      defaultFileExtensions: []
+      trackingMethod: "subdir"
+      subRoutes: []
+      isDefaultLocation: true
+    ]
+    isDefaultLocation: false
+    ```
+    actually has two override folders (`BepInEx` and `plugins`). 
+    
+#### Notes
+
+We want to avoid writing directly to the BepInEx folder and so we should only specify the direct paths 
+to prevent it being used as an override folder.
+
 ### Thunderstore Field
 
 - **displayName**: Game's name for display purposes on the website.
