@@ -2,7 +2,7 @@ uuid: "8c424b9d-fa80-4b82-9be6-2ced047a1229"
 label: "magicite"
 meta:
   displayName: "Magicite"
-  iconUrl: "None"
+  iconUrl: "magicite.webp"
 distributions: []
 thunderstore:
   displayName: "Magicite"

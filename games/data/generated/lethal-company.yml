@@ -2,14 +2,14 @@ uuid: "40c7d846-cff1-45fe-8679-4abe993abafb"
 label: "lethal-company"
 meta:
   displayName: "Lethal Company"
-  iconUrl: "LethalCompany.png"
+  iconUrl: "lethal-company.webp"
 distributions:
   - platform: "steam"
     identifier: "1966720"
 r2modman:
   - meta:
       displayName: "Lethal Company"
-      iconUrl: "LethalCompany.png"
+      iconUrl: "lethal-company.webp"
     internalFolderName: "LethalCompany"
     dataFolderName: "Lethal Company_Data"
     distributions:

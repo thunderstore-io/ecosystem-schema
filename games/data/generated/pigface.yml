@@ -2,14 +2,14 @@ uuid: "edc46cc0-7891-4a35-a68f-0933bbb6f49e"
 label: "pigface"
 meta:
   displayName: "PIGFACE"
-  iconUrl: "PIGFACE.png"
+  iconUrl: "pigface.webp"
 distributions:
   - platform: "steam"
     identifier: "3746840"
 r2modman:
   - meta:
       displayName: "PIGFACE"
-      iconUrl: "PIGFACE.png"
+      iconUrl: "pigface.webp"
     internalFolderName: "PIGFACE"
     dataFolderName: "Pigface_Data"
     distributions:

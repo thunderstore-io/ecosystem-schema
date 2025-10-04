@@ -2,14 +2,14 @@ uuid: "17c73827-aed4-46b1-9f79-e52eaf7ef14a"
 label: "schedule-i"
 meta:
   displayName: "Schedule I"
-  iconUrl: "ScheduleI.png"
+  iconUrl: "schedule-i.webp"
 distributions:
   - platform: "steam"
     identifier: "3164500"
 r2modman:
   - meta:
       displayName: "Schedule I"
-      iconUrl: "ScheduleI.png"
+      iconUrl: "schedule-i.webp"
     internalFolderName: "ScheduleI"
     dataFolderName: "Schedule I_Data"
     distributions:

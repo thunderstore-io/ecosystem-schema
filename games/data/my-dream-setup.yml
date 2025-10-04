@@ -2,7 +2,7 @@ uuid: "c43b4368-ef52-40f6-99e8-4bbdefc589f8"
 label: "my-dream-setup"
 meta:
   displayName: "My Dream Setup"
-  iconUrl: "MyDreamSetup.png"
+  iconUrl: "my-dream-setup.webp"
 distributions:
 - platform: steam
   identifier: "2200780"

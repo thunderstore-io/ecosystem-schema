@@ -2,14 +2,14 @@ uuid: "52a2dfeb-584a-4c36-ab88-68faf0d10ec1"
 label: "human-fall-flat"
 meta:
   displayName: "Human Fall Flat"
-  iconUrl: "HumanFallFlat.png"
+  iconUrl: "human-fall-flat.webp"
 distributions:
   - platform: "steam"
     identifier: "477160"
 r2modman:
   - meta:
       displayName: "Human Fall Flat"
-      iconUrl: "HumanFallFlat.png"
+      iconUrl: "human-fall-flat.webp"
     internalFolderName: "HumanFallFlat"
     dataFolderName: "Human_Data"
     distributions:
