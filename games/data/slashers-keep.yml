@@ -1,0 +1,78 @@
+uuid: "3df67cc6-8ba1-41c8-829f-62694ee4da4a"
+label: "slashers-keep"
+meta:
+  displayName: "Slasher's Keep"
+  iconUrl: "slashers-keep.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "598060"
+    steamFolderName: "Slasher's Keep"
+    dataFolderName: "SlashersKeep_Data"
+    exeNames:
+      - "SlashersKeep.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Slasher's Keep"
+      iconUrl: "slashers-keep.webp"
+    settingsIdentifier: "SlashersKeep"
+    internalFolderName: "SlashersKeep"
+    packageIndex: "https://thunderstore.io/c/slashers-keep/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Slasher's Keep"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds: []
