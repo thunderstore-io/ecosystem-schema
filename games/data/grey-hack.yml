@@ -1,0 +1,80 @@
+uuid: "40ea6b48-e390-42f9-9454-d49ade3212eb"
+label: "grey-hack"
+meta:
+  displayName: "Grey Hack"
+  iconUrl: "grey-hack.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "605230"
+    steamFolderName: "Grey Hack"
+    dataFolderName: "Grey Hack_Data"
+    exeNames:
+      - "Grey Hack.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Grey Hack"
+      iconUrl: "grey-hack.webp"
+    settingsIdentifier: "GreyHack"
+    internalFolderName: "GreyHack"
+    packageIndex: "https://thunderstore.io/c/grey-hack/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Grey Hack"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/greyhack"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
