@@ -11,7 +11,7 @@ thunderstore:
     modpacks:
       label: "Modpacks"
     bundles:
-      label: "bundles"
+      label: "Bundles"
     tools:
       label: "Tools"
     libraries:
