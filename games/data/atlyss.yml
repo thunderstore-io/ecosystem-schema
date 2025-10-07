@@ -10,6 +10,8 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
+    bundles:
+      label: "bundles"
     tools:
       label: "Tools"
     libraries:
@@ -35,10 +37,15 @@ thunderstore:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+        - "bundles"
     modpacks:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+    bundles:
+      name: "Bundles"
+      requireCategories:
+        - "bundles"
   wikiUrl: "https://atlyss.wiki.gg/wiki/ATLYSS_Wiki"
   discordUrl: "https://discord.gg/hQceRJ7pEW"
   autolistPackageIds:
