@@ -66,6 +66,24 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    charms:
+      label: "Charms"
+    symbols:
+      label: "Symbols"
+    patterns:
+      label: "Patterns"
+    modifiers:
+      label: "Modifiers"
+    localization:
+      label: "Localization"
+    phone-options:
+      label: "Phone Options"
+    memory-packs:
+      label: "Memory Packs"
+    gameplay:
+      label: "Gameplay"
+    tweaks:
+      label: "Tweaks"
   sections:
     mods:
       name: "Mods"
