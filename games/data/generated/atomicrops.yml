@@ -2,14 +2,14 @@ uuid: "0730de09-f183-4cdc-ba4e-ddff5077f99b"
 label: "atomicrops"
 meta:
   displayName: "Atomicrops"
-  iconUrl: "Atomicrops.jpg"
+  iconUrl: "atomicrops.webp"
 distributions:
   - platform: "steam"
     identifier: "757320"
 r2modman:
   - meta:
       displayName: "Atomicrops"
-      iconUrl: "Atomicrops.jpg"
+      iconUrl: "atomicrops.webp"
     internalFolderName: "Atomicrops"
     dataFolderName: "Atomicrops_Data"
     distributions:

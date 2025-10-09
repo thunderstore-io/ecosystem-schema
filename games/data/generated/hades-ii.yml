@@ -2,7 +2,7 @@ uuid: "98d80ee3-5a6e-4c15-a433-ab70200a0b90"
 label: "hades-ii"
 meta:
   displayName: "Hades II"
-  iconUrl: "Hades2.png"
+  iconUrl: "hades-2.webp"
 distributions:
   - platform: "steam"
     identifier: "1145350"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Hades II"
-      iconUrl: "Hades2.png"
+      iconUrl: "hades-2.webp"
     internalFolderName: "HadesII"
     dataFolderName: ""
     distributions:

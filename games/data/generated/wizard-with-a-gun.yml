@@ -2,14 +2,14 @@ uuid: "646b9aff-b0b4-4a83-a661-4d50d1bb904b"
 label: "wizard-with-a-gun"
 meta:
   displayName: "Wizard With A Gun"
-  iconUrl: "WizardWithAGun.jpg"
+  iconUrl: "wizard-with-a-gun.webp"
 distributions:
   - platform: "steam"
     identifier: "1150530"
 r2modman:
   - meta:
       displayName: "Wizard With A Gun"
-      iconUrl: "WizardWithAGun.jpg"
+      iconUrl: "wizard-with-a-gun.webp"
     internalFolderName: "WizardWithAGun"
     dataFolderName: "wizardwithagun_Data"
     distributions:

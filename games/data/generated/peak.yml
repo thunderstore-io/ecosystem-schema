@@ -2,14 +2,14 @@ uuid: "bb2d482f-548d-4e6c-8421-0824a81f172c"
 label: "peak"
 meta:
   displayName: "PEAK"
-  iconUrl: "PEAK.webp"
+  iconUrl: "peak.webp"
 distributions:
   - platform: "steam"
     identifier: "3527290"
 r2modman:
   - meta:
       displayName: "PEAK"
-      iconUrl: "PEAK.webp"
+      iconUrl: "peak.webp"
     internalFolderName: "PEAK"
     dataFolderName: "PEAK_Data"
     distributions:

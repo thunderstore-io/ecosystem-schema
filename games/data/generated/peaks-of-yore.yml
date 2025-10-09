@@ -2,14 +2,14 @@ uuid: "4f23c46e-2f26-46fc-9e66-4b0bcfcf03f0"
 label: "peaks-of-yore"
 meta:
   displayName: "Peaks of Yore"
-  iconUrl: "PeaksOfYore.png"
+  iconUrl: "peaks-of-yore.webp"
 distributions:
   - platform: "steam"
     identifier: "2236070"
 r2modman:
   - meta:
       displayName: "Peaks of Yore"
-      iconUrl: "PeaksOfYore.png"
+      iconUrl: "peaks-of-yore.webp"
     internalFolderName: "PeaksOfYore"
     dataFolderName: "Peaks of Yore_Data"
     distributions:
