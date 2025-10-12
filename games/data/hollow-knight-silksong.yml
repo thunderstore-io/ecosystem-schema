@@ -65,19 +65,35 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Hollow Knight: Silksong"
+  discordUrl: "https://discord.gg/VDsg3HmWuB"
   categories:
     mods:
       label: "Mods"
     modpacks:
       label: "Modpacks"
-    tools:
-      label: "Tools"
     libraries:
       label: "Libraries"
-    misc:
-      label: "Misc"
-    audio:
-      label: "Audio"
+    utility:
+      # dev tools or other standalone content not related to the game
+      label: "Utility"
+    cosmetic:
+      # skins/custom audio/general asset replacement
+      label: "Cosmetic"
+    # categories for QoL
+    accessibility:
+      label: "Accessibility"
+    optimization:
+      label: "Optimization"
+    # categories for added game content
+    custom-tools:
+      # modded tools (the game mechanic) as opposed to "utilities" which has its own category
+      label: "Custom Tools"
+    custom-crests:
+      label: "Custom Crests"
+    boss:
+      label: "Boss"
+    expansion:
+      label: "Expansion"
   sections:
     mods:
       name: "Mods"
