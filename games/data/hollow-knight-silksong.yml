@@ -79,11 +79,9 @@ thunderstore:
     cosmetic:
       # skins/custom audio/general asset replacement
       label: "Cosmetic"
-    # categories for QoL
     accessibility:
+      # mods that improve accessibility or performance of the game
       label: "Accessibility"
-    optimization:
-      label: "Optimization"
     # categories for added game content
     custom-tools:
       # modded tools (the game mechanic) as opposed to "utilities" which has its own category
