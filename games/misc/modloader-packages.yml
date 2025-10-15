@@ -220,3 +220,6 @@
 - packageId: "BepInEx-BepInExPack_SlashersKeep"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "BepInEx-BepInExPack_BadNorth"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
