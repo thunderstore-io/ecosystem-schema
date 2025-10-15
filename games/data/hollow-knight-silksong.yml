@@ -95,14 +95,14 @@ thunderstore:
     # deprecated categories. hidden is not yet implemented anywhere but will be in the future.
     tools:
       # use "utilities" or "custom-tools" instead as appropriate 
-      label: "(Deprecated category) Tools
+      label: "(Deprecated category) Tools"
       hidden: true
     audio:
       # use "cosmetic" instead
-      label: "(Deprecated category) Audio
+      label: "(Deprecated category) Audio"
       hidden: true
     misc:
-      label: "(Deprecated category) Misc
+      label: "(Deprecated category) Misc"
       hidden: true
   sections:
     mods:
