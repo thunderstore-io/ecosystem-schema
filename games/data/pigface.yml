@@ -2,7 +2,56 @@ uuid: "edc46cc0-7891-4a35-a68f-0933bbb6f49e"
 label: "pigface"
 meta:
   displayName: "PIGFACE"
+  iconUrl: "PIGFACE.png"
 distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3341650"
+    steamFolderName: "PIGFACE"
+    dataFolderName: "Pigface_Data"
+    exeNames:
+      - "Pigface.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "PIGFACE"
+      iconUrl: "PIGFACE.png"
+    settingsIdentifier: "PIGFACE"
+    internalFolderName: "PIGFACE"
+    packageIndex: "https://thunderstore.io/c/pigface/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "pf"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
 thunderstore:
   displayName: "PIGFACE"
   categories:
