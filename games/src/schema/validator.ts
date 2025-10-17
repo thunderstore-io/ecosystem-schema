@@ -17,6 +17,7 @@ const communitySchema = z.strictObject({
     slug,
     z.strictObject({
       label: z.string(),
+      hidden: z.boolean().optional(),
     })
   ),
   sections: z.record(
