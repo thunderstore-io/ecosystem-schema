@@ -96,14 +96,14 @@ thunderstore:
     tools:
       # use "utilities" or "custom-tools" instead as appropriate 
       label: "(Deprecated category) Tools"
-      hidden: true
+      # hidden: true
     audio:
       # use "cosmetic" instead
       label: "(Deprecated category) Audio"
-      hidden: true
+      # hidden: true
     misc:
       label: "(Deprecated category) Misc"
-      hidden: true
+      # hidden: true
   sections:
     mods:
       name: "Mods"
