@@ -2,14 +2,14 @@ uuid: "c5f4a373-9875-4b21-b941-f7c95320bd6c"
 label: "skul-the-hero-slayer"
 meta:
   displayName: "Skul: The Hero Slayer"
-  iconUrl: "skul-the-hero-slayer.jpg"
+  iconUrl: "skul-the-hero-slayer.webp"
 distributions:
   - platform: "steam"
     identifier: "1147560"
 r2modman:
   - meta:
       displayName: "Skul: The Hero Slayer"
-      iconUrl: "skul-the-hero-slayer.jpg"
+      iconUrl: "skul-the-hero-slayer.webp"
     internalFolderName: "SkulTheHeroSlayer"
     dataFolderName: "Skul_Data"
     distributions:

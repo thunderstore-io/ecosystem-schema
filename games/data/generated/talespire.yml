@@ -2,14 +2,14 @@ uuid: "c72e0f9a-c223-4c3e-bf50-c4c1cf5eddad"
 label: "talespire"
 meta:
   displayName: "TaleSpire"
-  iconUrl: "TaleSpire.jpg"
+  iconUrl: "tale-spire.webp"
 distributions:
   - platform: "steam"
     identifier: "720620"
 r2modman:
   - meta:
       displayName: "TaleSpire"
-      iconUrl: "TaleSpire.jpg"
+      iconUrl: "tale-spire.webp"
     internalFolderName: "TaleSpire"
     dataFolderName: "TaleSpire_Data"
     distributions:

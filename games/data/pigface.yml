@@ -2,7 +2,7 @@ uuid: "edc46cc0-7891-4a35-a68f-0933bbb6f49e"
 label: "pigface"
 meta:
   displayName: "PIGFACE"
-  iconUrl: "PIGFACE.png"
+  iconUrl: "pigface.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "PIGFACE"
-      iconUrl: "PIGFACE.png"
+      iconUrl: "pigface.webp"
     settingsIdentifier: "PIGFACE"
     internalFolderName: "PIGFACE"
     packageIndex: "https://thunderstore.io/c/pigface/api/v1/package-listing-index/"

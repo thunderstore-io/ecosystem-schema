@@ -2,14 +2,14 @@ uuid: "6b4a870a-26fe-44c2-9164-9e3fc5d86e3a"
 label: "return-of-the-obra-dinn"
 meta:
   displayName: "Return of the Obra Dinn"
-  iconUrl: "ObraDinn.png"
+  iconUrl: "obra-dinn.webp"
 distributions:
   - platform: "steam"
     identifier: "653530"
 r2modman:
   - meta:
       displayName: "Return of the Obra Dinn"
-      iconUrl: "ObraDinn.png"
+      iconUrl: "obra-dinn.webp"
     internalFolderName: "ObraDinn"
     dataFolderName: "ObraDinn_Data"
     distributions:

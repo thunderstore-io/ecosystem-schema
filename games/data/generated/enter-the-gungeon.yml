@@ -2,7 +2,7 @@ uuid: "f2ae6950-3481-4448-827f-5d186c620dcf"
 label: "enter-the-gungeon"
 meta:
   displayName: "Enter the Gungeon"
-  iconUrl: "EnterTheGungeon.jpg"
+  iconUrl: "enter-the-gungeon.webp"
 distributions:
   - platform: "steam"
     identifier: "311690"
@@ -13,7 +13,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Enter the Gungeon"
-      iconUrl: "EnterTheGungeon.jpg"
+      iconUrl: "enter-the-gungeon.webp"
     internalFolderName: "ETG"
     dataFolderName: "EtG_Data"
     distributions:

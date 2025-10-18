@@ -2,14 +2,14 @@ uuid: "f02a7d1c-62b3-484b-8b34-6cc87a342521"
 label: "dale-dawson-stationery-supplies"
 meta:
   displayName: "Dale & Dawson Stationery Supplies"
-  iconUrl: "DaleAndDawson.png"
+  iconUrl: "dale-and-dawson.webp"
 distributions:
   - platform: "steam"
     identifier: "2920570"
 r2modman:
   - meta:
       displayName: "Dale & Dawson Stationery Supplies"
-      iconUrl: "DaleAndDawson.png"
+      iconUrl: "dale-and-dawson.webp"
     internalFolderName: "DaleAndDawson"
     dataFolderName: "DDSS_Data"
     distributions:

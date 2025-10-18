@@ -2,14 +2,14 @@ uuid: "46786b60-1740-4b74-99f6-e6be6db88438"
 label: "castle-story"
 meta:
   displayName: "Castle Story"
-  iconUrl: "CastleStory.png"
+  iconUrl: "castle-story.webp"
 distributions:
   - platform: "steam-direct"
     identifier: "227860"
 r2modman:
   - meta:
       displayName: "Castle Story"
-      iconUrl: "CastleStory.png"
+      iconUrl: "castle-story.webp"
     internalFolderName: "CastleStory"
     dataFolderName: "Castle Story_Data"
     distributions:

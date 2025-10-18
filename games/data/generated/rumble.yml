@@ -2,14 +2,14 @@ uuid: "16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e"
 label: "rumble"
 meta:
   displayName: "RUMBLE"
-  iconUrl: "RUMBLE.png"
+  iconUrl: "rumble.webp"
 distributions:
   - platform: "steam"
     identifier: "890550"
 r2modman:
   - meta:
       displayName: "RUMBLE"
-      iconUrl: "RUMBLE.png"
+      iconUrl: "rumble.webp"
     internalFolderName: "RUMBLE"
     dataFolderName: "RUMBLE_Data"
     distributions:
