@@ -2,14 +2,14 @@ uuid: "8979a32c-23d4-4fe6-b388-6282737d4db1"
 label: "nasb"
 meta:
   displayName: "Nickelodeon All‑Star Brawl"
-  iconUrl: "NASB.jpg"
+  iconUrl: "nickelodeon-all-star-brawl.webp"
 distributions:
   - platform: "steam"
     identifier: "1414850"
 r2modman:
   - meta:
       displayName: "Nickelodeon All‑Star Brawl"
-      iconUrl: "NASB.jpg"
+      iconUrl: "nickelodeon-all-star-brawl.webp"
     internalFolderName: "NASB"
     dataFolderName: "Nickelodeon All-Star Brawl_Data"
     distributions:

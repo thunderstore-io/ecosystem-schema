@@ -2,14 +2,14 @@ uuid: "f5dc52cc-47fb-441d-bcc1-23e0f82face0"
 label: "i-am-your-beast"
 meta:
   displayName: "I Am Your Beast"
-  iconUrl: "IAmYourBeast.webp"
+  iconUrl: "i-am-your-beast.webp"
 distributions:
   - platform: "steam"
     identifier: "1876590"
 r2modman:
   - meta:
       displayName: "I Am Your Beast"
-      iconUrl: "IAmYourBeast.webp"
+      iconUrl: "i-am-your-beast.webp"
     internalFolderName: "IAmYourBeast"
     dataFolderName: "I Am Your Beast_Data"
     distributions:

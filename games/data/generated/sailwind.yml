@@ -2,14 +2,14 @@ uuid: "45c79671-8676-4e4a-b8d8-63f79ef3fc6d"
 label: "sailwind"
 meta:
   displayName: "Sailwind"
-  iconUrl: "Sailwind.png"
+  iconUrl: "sailwind.webp"
 distributions:
   - platform: "steam"
     identifier: "1764530"
 r2modman:
   - meta:
       displayName: "Sailwind"
-      iconUrl: "Sailwind.png"
+      iconUrl: "sailwind.webp"
     internalFolderName: "Sailwind"
     dataFolderName: "Sailwind_Data"
     distributions:

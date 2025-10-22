@@ -2,14 +2,14 @@ uuid: "8c308f6d-91c2-4506-b860-b4f9cf69ef18"
 label: "ena-dream-bbq"
 meta:
   displayName: "ENA: Dream BBQ"
-  iconUrl: "ENADreamBBQ.png"
+  iconUrl: "ena-dream-bbq.webp"
 distributions:
   - platform: "steam"
     identifier: "2134320"
 r2modman:
   - meta:
       displayName: "ENA: Dream BBQ"
-      iconUrl: "ENADreamBBQ.png"
+      iconUrl: "ena-dream-bbq.webp"
     internalFolderName: "ENADreamBBQ"
     dataFolderName: "ENA-4-DreamBBQ_Data"
     distributions:

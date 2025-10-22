@@ -2,7 +2,7 @@ uuid: "538c21b3-7a42-445b-bded-864a5449d1ec"
 label: "timberborn"
 meta:
   displayName: "Timberborn"
-  iconUrl: "Timberborn.png"
+  iconUrl: "timberborn.webp"
 distributions:
   - platform: "steam"
     identifier: "1062090"
@@ -13,7 +13,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Timberborn"
-      iconUrl: "Timberborn.png"
+      iconUrl: "timberborn.webp"
     internalFolderName: "Timberborn"
     dataFolderName: "Timberborn_Data"
     distributions:

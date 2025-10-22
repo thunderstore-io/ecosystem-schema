@@ -2,14 +2,14 @@ uuid: "b0c85f2e-69ef-4ad2-a3a3-d2db18abe48c"
 label: "sulfur"
 meta:
   displayName: "SULFUR"
-  iconUrl: "SULFUR.png"
+  iconUrl: "sulfur.webp"
 distributions:
   - platform: "steam"
     identifier: "2124120"
 r2modman:
   - meta:
       displayName: "SULFUR"
-      iconUrl: "SULFUR.png"
+      iconUrl: "sulfur.webp"
     internalFolderName: "SULFUR"
     dataFolderName: "Sulfur_Data"
     distributions:

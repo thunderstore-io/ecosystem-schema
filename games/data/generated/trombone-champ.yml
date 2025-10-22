@@ -2,14 +2,14 @@ uuid: "2f4a73d2-001a-48a8-9957-b9aa5c1a6ec0"
 label: "trombone-champ"
 meta:
   displayName: "Trombone Champ"
-  iconUrl: "TromboneChamp.jpg"
+  iconUrl: "trombone-champ.webp"
 distributions:
   - platform: "steam"
     identifier: "1059990"
 r2modman:
   - meta:
       displayName: "Trombone Champ"
-      iconUrl: "TromboneChamp.jpg"
+      iconUrl: "trombone-champ.webp"
     internalFolderName: "TromboneChamp"
     dataFolderName: "TromboneChamp_Data"
     distributions:

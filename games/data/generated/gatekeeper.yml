@@ -2,14 +2,14 @@ uuid: "6326ec88-399a-4aac-bc1b-6db8f053f515"
 label: "gatekeeper"
 meta:
   displayName: "Gatekeeper"
-  iconUrl: "Gatekeeper.png"
+  iconUrl: "gatekeeper.webp"
 distributions:
   - platform: "steam"
     identifier: "2106670"
 r2modman:
   - meta:
       displayName: "Gatekeeper"
-      iconUrl: "Gatekeeper.png"
+      iconUrl: "gatekeeper.webp"
     internalFolderName: "Gatekeeper"
     dataFolderName: "Gatekeeper_Data"
     distributions:

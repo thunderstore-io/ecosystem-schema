@@ -2,14 +2,14 @@ uuid: "9004c7ca-cf7f-4adc-a184-1b6d4cc45eae"
 label: "sons-of-the-forest"
 meta:
   displayName: "Sons Of The Forest"
-  iconUrl: "sons-of-the-forest.jpg"
+  iconUrl: "sons-of-the-forest.webp"
 distributions:
   - platform: "steam"
     identifier: "1326470"
 r2modman:
   - meta:
       displayName: "Sons Of The Forest"
-      iconUrl: "sons-of-the-forest.jpg"
+      iconUrl: "sons-of-the-forest.webp"
     internalFolderName: "SonsOfTheForest"
     dataFolderName: "SonsOfTheForest_Data"
     distributions:

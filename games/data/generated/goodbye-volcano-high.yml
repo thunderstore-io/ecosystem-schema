@@ -2,14 +2,14 @@ uuid: "2ece1ef1-88cd-4b95-8e41-ef43f5f7fc80"
 label: "goodbye-volcano-high"
 meta:
   displayName: "Goodbye Volcano High"
-  iconUrl: "GoodbyeVolcanoHigh.png"
+  iconUrl: "goodbye-volcano-high.webp"
 distributions:
   - platform: "steam"
     identifier: "1310330"
 r2modman:
   - meta:
       displayName: "Goodbye Volcano High"
-      iconUrl: "GoodbyeVolcanoHigh.png"
+      iconUrl: "goodbye-volcano-high.webp"
     internalFolderName: "GoodbyeVolcanoHigh"
     dataFolderName: "Goodbye Volcano High_Data"
     distributions:

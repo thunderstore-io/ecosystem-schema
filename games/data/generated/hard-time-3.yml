@@ -2,14 +2,14 @@ uuid: "c3892224-6958-4e07-a6b5-61c60a48ec3a"
 label: "hard-time-3"
 meta:
   displayName: "Hard Time III"
-  iconUrl: "HardTime3.png"
+  iconUrl: "hard-time-3.webp"
 distributions:
   - platform: "steam"
     identifier: "3009850"
 r2modman:
   - meta:
       displayName: "Hard Time III"
-      iconUrl: "HardTime3.png"
+      iconUrl: "hard-time-3.webp"
     internalFolderName: "HardTime3"
     dataFolderName: "Hard Time III_Data"
     distributions:

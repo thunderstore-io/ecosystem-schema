@@ -2,14 +2,14 @@ uuid: "a601f2af-e4a6-4c60-9cbe-831159f74a32"
 label: "thronefall"
 meta:
   displayName: "Thronefall"
-  iconUrl: "thronefall.png"
+  iconUrl: "thronefall.webp"
 distributions:
   - platform: "steam"
     identifier: "2239150"
 r2modman:
   - meta:
       displayName: "Thronefall"
-      iconUrl: "thronefall.png"
+      iconUrl: "thronefall.webp"
     internalFolderName: "Thronefall"
     dataFolderName: "Thronefall_Data"
     distributions:

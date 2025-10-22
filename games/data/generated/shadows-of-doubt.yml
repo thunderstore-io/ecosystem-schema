@@ -2,7 +2,7 @@ uuid: "6fa77982-361c-45df-b797-b158d16be178"
 label: "shadows-of-doubt"
 meta:
   displayName: "Shadows of Doubt"
-  iconUrl: "shadows-of-doubt.jpg"
+  iconUrl: "shadows-of-doubt.webp"
 distributions:
   - platform: "steam"
     identifier: "986130"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Shadows of Doubt"
-      iconUrl: "shadows-of-doubt.jpg"
+      iconUrl: "shadows-of-doubt.webp"
     internalFolderName: "ShadowsofDoubt"
     dataFolderName: "ShadowsofDoubt_Data"
     distributions:

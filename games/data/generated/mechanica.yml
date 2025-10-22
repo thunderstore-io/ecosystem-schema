@@ -2,14 +2,14 @@ uuid: "f58e3cb3-9306-460f-89f3-1c5f9ba0e914"
 label: "mechanica"
 meta:
   displayName: "Mechanica"
-  iconUrl: "Mechanica.jpg"
+  iconUrl: "mechanica.webp"
 distributions:
   - platform: "steam"
     identifier: "1226990"
 r2modman:
   - meta:
       displayName: "Mechanica"
-      iconUrl: "Mechanica.jpg"
+      iconUrl: "mechanica.webp"
     internalFolderName: "Mechanica"
     dataFolderName: "Mechanica_Data"
     distributions:

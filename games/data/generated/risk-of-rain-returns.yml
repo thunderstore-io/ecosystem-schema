@@ -2,14 +2,14 @@ uuid: "624e16e1-47e6-406f-9ab4-cfc9b8398ab8"
 label: "risk-of-rain-returns"
 meta:
   displayName: "Risk of Rain Returns"
-  iconUrl: "RiskOfRainReturns.png"
+  iconUrl: "risk-of-rain-returns.webp"
 distributions:
   - platform: "steam"
     identifier: "1337520"
 r2modman:
   - meta:
       displayName: "Risk of Rain Returns"
-      iconUrl: "RiskOfRainReturns.png"
+      iconUrl: "risk-of-rain-returns.webp"
     internalFolderName: "RiskofRainReturns"
     dataFolderName: ""
     distributions:

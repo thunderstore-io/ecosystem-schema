@@ -2,7 +2,7 @@ uuid: "0a5f2248-3eff-408b-87ed-cd982e4f1c91"
 label: "bomb-rush-cyberfunk"
 meta:
   displayName: "Bomb Rush Cyberfunk"
-  iconUrl: "BombRushCyberfunk.jpg"
+  iconUrl: "bomb-rush-cyberfunk.webp"
 distributions:
   - platform: "steam"
     identifier: "1353230"
@@ -13,7 +13,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Bomb Rush Cyberfunk"
-      iconUrl: "BombRushCyberfunk.jpg"
+      iconUrl: "bomb-rush-cyberfunk.webp"
     internalFolderName: "BombRushCyberfunk"
     dataFolderName: "Bomb Rush Cyberfunk_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "17034141-3fc6-497e-bd71-d6bd61cf55a5"
 label: "muck"
 meta:
   displayName: "Muck"
-  iconUrl: "Muck.png"
+  iconUrl: "muck.webp"
 distributions:
   - platform: "steam"
     identifier: "1625450"
 r2modman:
   - meta:
       displayName: "Muck"
-      iconUrl: "Muck.png"
+      iconUrl: "muck.webp"
     internalFolderName: "Muck"
     dataFolderName: "Muck_Data"
     distributions:

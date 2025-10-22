@@ -2,14 +2,14 @@ uuid: "e7eaf05a-ba88-447b-bdd8-4c5d53ccfa11"
 label: "voices-of-the-void"
 meta:
   displayName: "Voices of the Void"
-  iconUrl: "VotV.png"
+  iconUrl: "voices-of-the-void.webp"
 distributions:
   - platform: "other"
     identifier: null
 r2modman:
   - meta:
       displayName: "Voices of the Void"
-      iconUrl: "VotV.png"
+      iconUrl: "voices-of-the-void.webp"
     internalFolderName: "VotV"
     dataFolderName: "VotV"
     distributions:

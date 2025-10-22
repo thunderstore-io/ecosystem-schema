@@ -2,14 +2,14 @@ uuid: "0b5d044e-7f08-411a-af50-40119a401460"
 label: "atlyss"
 meta:
   displayName: "ATLYSS"
-  iconUrl: "ATLYSS.png"
+  iconUrl: "atlyss.webp"
 distributions:
   - platform: "steam"
     identifier: "2768430"
 r2modman:
   - meta:
       displayName: "ATLYSS"
-      iconUrl: "ATLYSS.png"
+      iconUrl: "atlyss.webp"
     internalFolderName: "ATLYSS"
     dataFolderName: "ATLYSS_Data"
     distributions:

@@ -2,14 +2,14 @@ uuid: "0e914579-c6f4-4824-9920-618a668eb599"
 label: "screw-drivers"
 meta:
   displayName: "Screw Drivers"
-  iconUrl: "ScrewDrivers.png"
+  iconUrl: "screw-drivers.webp"
 distributions:
   - platform: "steam"
     identifier: "1279510"
 r2modman:
   - meta:
       displayName: "Screw Drivers"
-      iconUrl: "ScrewDrivers.png"
+      iconUrl: "screw-drivers.webp"
     internalFolderName: "ScrewDrivers"
     dataFolderName: "Screw Drivers_Data"
     distributions:

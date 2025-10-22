@@ -2,14 +2,14 @@ uuid: "0814ff73-fa5d-4d32-9248-57259fd43f9d"
 label: "lost-skies"
 meta:
   displayName: "Lost Skies"
-  iconUrl: "LostSkies.png"
+  iconUrl: "lost-skies.webp"
 distributions:
   - platform: "steam"
     identifier: "1931180"
 r2modman:
   - meta:
       displayName: "Lost Skies"
-      iconUrl: "LostSkies.png"
+      iconUrl: "lost-skies.webp"
     internalFolderName: "LostSkies"
     dataFolderName: "LostSkies_Data"
     distributions:

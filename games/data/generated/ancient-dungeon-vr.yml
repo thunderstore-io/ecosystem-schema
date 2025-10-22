@@ -2,7 +2,7 @@ uuid: "5278952c-a20c-42b9-a93f-9387cd7cfbb9"
 label: "ancient-dungeon-vr"
 meta:
   displayName: "Ancient Dungeon VR"
-  iconUrl: "ancient-dungeon-vr.png"
+  iconUrl: "ancient-dungeon-vr.webp"
 distributions:
   - platform: "steam"
     identifier: "1125240"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Ancient Dungeon VR"
-      iconUrl: "ancient-dungeon-vr.png"
+      iconUrl: "ancient-dungeon-vr.webp"
     internalFolderName: "AncientDungeonVR"
     dataFolderName: "Ancient_Dungeon_Data"
     distributions:

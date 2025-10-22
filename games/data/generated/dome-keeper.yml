@@ -2,14 +2,14 @@ uuid: "44f7465f-65f5-4f9f-964f-9e679e580144"
 label: "dome-keeper"
 meta:
   displayName: "Dome Keeper"
-  iconUrl: "dome-keeper.jpg"
+  iconUrl: "dome-keeper.webp"
 distributions:
   - platform: "steam"
     identifier: "1637320"
 r2modman:
   - meta:
       displayName: "Dome Keeper"
-      iconUrl: "dome-keeper.jpg"
+      iconUrl: "dome-keeper.webp"
     internalFolderName: "DomeKeeper"
     dataFolderName: ""
     distributions:

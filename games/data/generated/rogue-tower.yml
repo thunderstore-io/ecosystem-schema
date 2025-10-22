@@ -2,14 +2,14 @@ uuid: "7948dd1e-aa12-4cda-833f-1499f4c2a928"
 label: "rogue-tower"
 meta:
   displayName: "Rogue Tower"
-  iconUrl: "RogueTower.jpg"
+  iconUrl: "rogue-tower.webp"
 distributions:
   - platform: "steam"
     identifier: "1843760"
 r2modman:
   - meta:
       displayName: "Rogue Tower"
-      iconUrl: "RogueTower.jpg"
+      iconUrl: "rogue-tower.webp"
     internalFolderName: "RogueTower"
     dataFolderName: "Rogue Tower_Data"
     distributions:

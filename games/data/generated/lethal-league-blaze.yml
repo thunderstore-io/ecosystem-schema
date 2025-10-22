@@ -2,14 +2,14 @@ uuid: "96ba2a15-2347-4823-b216-d62bea492b33"
 label: "lethal-league-blaze"
 meta:
   displayName: "Lethal League Blaze"
-  iconUrl: "LethalLeagueBlaze.png"
+  iconUrl: "lethal-league-blaze.webp"
 distributions:
   - platform: "steam"
     identifier: "553310"
 r2modman:
   - meta:
       displayName: "Lethal League Blaze"
-      iconUrl: "LethalLeagueBlaze.png"
+      iconUrl: "lethal-league-blaze.webp"
     internalFolderName: "LethalLeagueBlaze"
     dataFolderName: "LLBlaze_Data"
     distributions:

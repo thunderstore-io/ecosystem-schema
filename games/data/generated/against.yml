@@ -2,14 +2,14 @@ uuid: "e62ac63e-4d33-41d5-8999-a600a7c6f3ed"
 label: "against"
 meta:
   displayName: "AGAINST"
-  iconUrl: "AGAINST.jpg"
+  iconUrl: "against.webp"
 distributions:
   - platform: "steam"
     identifier: "1584840"
 r2modman:
   - meta:
       displayName: "AGAINST"
-      iconUrl: "AGAINST.jpg"
+      iconUrl: "against.webp"
     internalFolderName: "AGAINST"
     dataFolderName: "AGAINST_Data"
     distributions:
