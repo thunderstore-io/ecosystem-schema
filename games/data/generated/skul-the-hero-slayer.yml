@@ -22,7 +22,8 @@ r2modman:
       - "Skul.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "小骨：英雄杀手"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

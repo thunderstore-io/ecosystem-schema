@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "palworld"
+      - "幻兽帕鲁"
     packageLoader: "shimloader"
     installRules: []
     relativeFileExclusions: null

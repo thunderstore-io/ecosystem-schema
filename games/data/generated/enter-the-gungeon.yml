@@ -32,6 +32,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "etg"
+      - "挺进地牢"
+      - "挺进枪牢"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

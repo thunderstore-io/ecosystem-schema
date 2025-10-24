@@ -28,6 +28,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "sod"
+      - "凶影疑云"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

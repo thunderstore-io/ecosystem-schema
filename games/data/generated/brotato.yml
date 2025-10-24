@@ -22,7 +22,8 @@ r2modman:
       - "Brotato.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "土豆兄弟"
     packageLoader: "godotml"
     installRules:
       - route: "mods"

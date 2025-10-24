@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "rec2"
+      - "接收者2"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "cw"
+      - "前方高能"
+      - "内容警告"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

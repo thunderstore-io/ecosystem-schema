@@ -29,6 +29,7 @@ r2modman:
     additionalSearchStrings:
       - "mtd"
       - "20mtd"
+      - "黎明前的20分钟"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

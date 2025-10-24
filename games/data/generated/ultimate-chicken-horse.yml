@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "uch"
+      - "超级鸡马"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
