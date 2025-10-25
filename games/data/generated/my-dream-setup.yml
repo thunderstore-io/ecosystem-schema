@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "MDS"
+      - "我的梦想卧室"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

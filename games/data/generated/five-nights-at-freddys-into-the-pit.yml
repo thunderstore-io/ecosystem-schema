@@ -23,7 +23,8 @@ r2modman:
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - ""
+      - "玩具熊的五夜惊魂：陷落球池"
+      - "玩具熊的五夜后宫：陷入球池"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

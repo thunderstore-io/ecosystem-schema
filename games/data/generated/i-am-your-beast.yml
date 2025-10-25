@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "iayb"
+      - "我是你的野兽"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

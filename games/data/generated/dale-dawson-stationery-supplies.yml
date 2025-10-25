@@ -23,7 +23,7 @@ r2modman:
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - ""
+      - "戴尔与道森文具店"
     packageLoader: "recursive-melonloader"
     installRules: []
     relativeFileExclusions: null
