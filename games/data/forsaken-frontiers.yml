@@ -1,0 +1,51 @@
+uuid: "8f216ccf-ed2e-4158-a09f-a60bc9586f25"
+label: "forsaken-frontiers"
+meta:
+  displayName: "Forsaken Frontiers"
+  iconUrl: "forsaken-frontiers.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2810780"
+    steamFolderName: "Forsaken Frontiers"
+    dataFolderName: "Forsaken Frontiers_Data"
+    exeNames:
+      - "Forsaken Frontiers.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Forsaken Frontiers"
+      iconUrl: "forsaken-frontiers.webp"
+    settingsIdentifier: "ForsakenFrontiers"
+    internalFolderName: "ForsakenFrontiers"
+    packageIndex: "https://thunderstore.io/c/forsaken-frontiers/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Forsaken Frontiers"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds: []
