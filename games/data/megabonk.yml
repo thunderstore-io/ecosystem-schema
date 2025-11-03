@@ -13,6 +13,7 @@ r2modman:
     dataFolderName: "Megabonk_Data"
     exeNames:
       - "Megabonk.exe"
+      - "Megabonk.x86_64"
     packageLoader: "bepinex"
     meta:
       displayName: "Megabonk"
