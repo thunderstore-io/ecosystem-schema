@@ -2,7 +2,62 @@ uuid: "ec590bff-7655-4946-acf1-476782de86d5"
 label: "five-nights-at-freddys-into-the-pit"
 meta:
   displayName: "Five Nights at Freddy's: Into the Pit"
-distributions: []
+  iconUrl: "five-nights-at-freddys-into-the-pit.webp"
+distributions:
+  - platform: "steam"
+    identifier: "2638370"
+  - platform: "epic-games-store"
+    identifier: "a0fbc3eb950341e290ae20a7d02cc501"
+r2modman:
+  - meta:
+      displayName: "Five Nights at Freddy's: Into the Pit"
+      iconUrl: "five-nights-at-freddys-into-the-pit.webp"
+    internalFolderName: "FiveNightsAtFreddysIntoThePit"
+    dataFolderName: "Five Nights at Freddy's Into the Pit_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "2638370"
+      - platform: "epic-games-store"
+        identifier: "a0fbc3eb950341e290ae20a7d02cc501"
+    settingsIdentifier: "FiveNightsAtFreddysIntoThePit"
+    packageIndex: "https://thunderstore.io/c/five-nights-at-freddys-into-the-pit/api/v1/package-listing-index/"
+    steamFolderName: "Five Nights at Freddy's Into the Pit"
+    exeNames:
+      - "Five Nights at Freddy's Into the Pit.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - ""
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
 thunderstore:
   displayName: "Five Nights at Freddy's: Into the Pit"
   categories:
