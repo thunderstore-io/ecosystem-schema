@@ -24,6 +24,7 @@ r2modman:
     steamFolderName: "Five Nights at Freddy's Into the Pit"
     exeNames:
       - "Five Nights at Freddy's Into the Pit.exe"
+      - "FNaFIntoThePit.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
