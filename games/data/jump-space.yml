@@ -48,7 +48,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: "https://discord.gg/jumpspace"
+  discordUrl: "https://discord.gg/JPnBe9ujTN"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
   shortDescription: "Jump Space (formerly Jump Ship) is a mission based co-op PvE for 1-4 players, where you are the crew of a spaceship."
