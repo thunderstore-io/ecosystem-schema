@@ -1,31 +1,31 @@
-uuid: "0749aeb4-0675-405a-b247-c4180035066b"
-label: "jump-space"
+uuid: "aeebfea4-fe72-4535-9cea-0b880b5d270c"
+label: "mimesis"
 meta:
-  displayName: "Jump Space"
-  iconUrl: "jump-space.webp"
+  displayName: "Mimesis"
+  iconUrl: "mimesis.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "1757300"
-    steamFolderName: "JumpSpace"
-    dataFolderName: "Jump Space_Data"
+        identifier: "2827200"
+    steamFolderName: "MIMESIS"
+    dataFolderName: "MIMESIS_Data"
     exeNames:
-      - "Jump Space.exe"
+      - "MIMESIS.exe"
     packageLoader: "recursive-melonloader"
     meta:
-      displayName: "Jump Space"
-      iconUrl: "jump-space.webp"
-    settingsIdentifier: "JumpSpace"
-    internalFolderName: "JumpSpace"
-    packageIndex: "https://thunderstore.io/c/jump-space/api/v1/package-listing-index/"
+      displayName: "Mimesis"
+      iconUrl: "mimesis.webp"
+    settingsIdentifier: "Mimesis"
+    internalFolderName: "Mimesis"
+    packageIndex: "https://thunderstore.io/c/mimesis/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Jump Space"
+  displayName: "Mimesis"
   categories:
     mods:
       label: "Mods"
@@ -48,7 +48,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: "https://discord.gg/JPnBe9ujTN"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
-  shortDescription: "Jump Space (formerly Jump Ship) is a mission based co-op PvE for 1-4 players, where you are the crew of a spaceship."

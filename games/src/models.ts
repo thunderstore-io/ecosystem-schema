@@ -18,6 +18,7 @@ export const ModmanPackageLoaderValues = [
   "gdweave",
   "recursive-melonloader",
   "bepisloader",
+  "umm",
   "none",
 ] as const;
 export type ModmanPackageLoader = typeof ModmanPackageLoaderValues[number];
