@@ -48,4 +48,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  autolistPackageIds: []
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
