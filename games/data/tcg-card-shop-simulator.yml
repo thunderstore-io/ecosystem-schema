@@ -42,16 +42,30 @@ thunderstore:
           label: "Apps"
         themes:
           label: "Themes"
+        main-branch:
+          label: "Main Branch"
+        0.62-branch:
+          label: "0.62 Branch"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+    main:
+      name: "Main Branch"
+      excludeCategories:
+        - "modpacks"
+        - "0.62-branch"
+    0.62:
+      name: "0.62 Branch"
+      excludeCategories:
+        - "modpacks"
+        - "main-branch"
     modpacks:
       name: 'Modpacks'
       requireCategories:
         - "modpacks"
-  wikiUrl: ""
+  wikiUrl: "https://tcg-card-shop-simulator.notion.site/3f8c9de6b54c47a9b80329b40bdd3c2c?v=04938d1088de49e5a55734d498f081ef"
   discordUrl: "https://discord.gg/kCp4mRAVUE"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
