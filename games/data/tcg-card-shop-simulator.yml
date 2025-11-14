@@ -44,7 +44,7 @@ thunderstore:
           label: "Tools"
         misc:
           label: "Misc"
-        0.62-branch:
+        0-62-branch:
           label: "0.62 Branch"
         add-entirely-new-cards:
           label: "Utilizes Add Entirely New Cards"
@@ -67,22 +67,22 @@ thunderstore:
       name: "Main Branch"
       excludeCategories:
         - "modpacks"
-        - "0.62-branch"
+        - "0-62-branch"
     main-modpacks:
       name: "Main Branch Modpacks"
       requireCategories:
         - "modpacks"
       excludeCategories:
-        - "0.62-branch"
-    0.62:
+        - "0-62-branch"
+    0-62:
       name: "0.62 Branch"
       requireCategories:
-        - "0.62-branch"
-    0.62-modpacks:
+        - "0-62-branch"
+    0-62-modpacks:
       name: "0.62 Branch Modpacks"
       requireCategories:
         - "modpacks"
-        - "0.62-branch"
+        - "0-62-branch"
     modpacks:
       name: 'Generalized Modpacks'
       requireCategories:
