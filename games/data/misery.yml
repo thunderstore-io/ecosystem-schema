@@ -1,0 +1,53 @@
+uuid: "b49685bb-630c-4f1c-ba7c-e03b84a10d11"
+label: "misery"
+meta:
+  displayName: "MISERY"
+  iconUrl: "misery.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2119830"
+    steamFolderName: "MISERY"
+    dataFolderName: "MISERY_Data"
+    exeNames:
+      - "MISERY.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "MISERY"
+      iconUrl: "misery.webp"
+    settingsIdentifier: "Misery"
+    internalFolderName: "Misery"
+    packageIndex: "https://thunderstore.io/c/misery/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "MISERY"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "MISERY is a 1–5 player co-op survival game set in a nuclear disaster zone. Beware of anomalies, monsters, and armed bandits."
