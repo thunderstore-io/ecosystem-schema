@@ -59,10 +59,6 @@ thunderstore:
         prefab-loader:
           label: "Utilizes Prefab Loader"
   sections:
-    mods:
-      name: "Generalized Mods"
-      excludeCategories:
-        - "modpacks"
     main:
       name: "Main Branch"
       excludeCategories:
@@ -78,15 +74,13 @@ thunderstore:
       name: "0.62 Branch"
       requireCategories:
         - "0-62-branch"
+      excludeCategories:
+        - "modpacks"
     0-62-modpacks:
       name: "0.62 Branch Modpacks"
       requireCategories:
         - "modpacks"
         - "0-62-branch"
-    modpacks:
-      name: 'Generalized Modpacks'
-      requireCategories:
-        - "modpacks"
   wikiUrl: "https://tcg-card-shop-simulator.notion.site/3f8c9de6b54c47a9b80329b40bdd3c2c?v=04938d1088de49e5a55734d498f081ef"
   discordUrl: "https://discord.gg/kCp4mRAVUE"
   autolistPackageIds:
