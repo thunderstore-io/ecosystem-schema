@@ -1,0 +1,52 @@
+uuid: "af2cd83f-99c0-4fa7-a319-e8022b0aea78"
+label: "vigil"
+meta:
+  displayName: "Vigil"
+  iconUrl: "vigil.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3817090"
+    steamFolderName: "Vigil"
+    dataFolderName: "Vigil_Data"
+    exeNames:
+      - "Vigil.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Vigil"
+      iconUrl: "vigil.webp"
+    settingsIdentifier: "Vigil"
+    internalFolderName: "Vigil"
+    packageIndex: "https://thunderstore.io/c/vigil/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Vigil"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
