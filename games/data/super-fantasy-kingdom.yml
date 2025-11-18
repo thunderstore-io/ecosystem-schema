@@ -1,0 +1,80 @@
+uuid: "fe0fa301-b037-4cbc-84e1-300a44bd3eb0"
+label: "super-fantasy-kingdom"
+meta:
+  displayName: "Super Fantasy Kingdom"
+  iconUrl: "super-fantasy-kingdom.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2289750"
+    steamFolderName: "Super Fantasy Kingdom"
+    dataFolderName: "Super Fantasy Kingdom_Data"
+    exeNames:
+      - "Super Fantasy Kingdom.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Super Fantasy Kingdom"
+      iconUrl: "super-fantasy-kingdom.webp"
+    settingsIdentifier: "SuperFantasyKingdom"
+    internalFolderName: "SuperFantasyKingdom"
+    packageIndex: "https://thunderstore.io/c/super-fantasy-kingdom/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Super Fantasy Kingdom"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/bdjvSJJwCX"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
