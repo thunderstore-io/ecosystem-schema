@@ -22,7 +22,8 @@ r2modman:
       - "Stacklands.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "堆叠大陆"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

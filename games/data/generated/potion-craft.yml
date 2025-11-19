@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "pc"
+      - "药剂工艺"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "poy"
+      - "昔日山峰"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

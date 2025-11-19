@@ -26,7 +26,8 @@ r2modman:
       - "Peglin.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "哥布林弹球"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

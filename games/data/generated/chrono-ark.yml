@@ -22,7 +22,8 @@ r2modman:
       - "ChronoArk.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "超时空方舟"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
