@@ -10,48 +10,68 @@ thunderstore:
           label: "Mods"
         modpacks:
           label: "Modpacks"
+        apps:
+          label: "Apps"
+        asset-replacement:
+          label: "Asset Replacement"
+        audio:
+          label: "Audio"
+        cards:
+          label: "Cards"
+        decoration:
+          label: "Decoration"
+        expansions:
+          label: "Expansions"
+        furniture:
+          label: "Furniture"
+        items:
+          label: "Items"
+        npcs:
+          label: "NPCs"
+        phone-related:
+          label: "Phone Related"
+        qol:
+          label: "QOL"
+        sellables:
+          label: "Sellables"
+        sets:
+          label: "Sets"
+        shop:
+          label: "Shop"
+        themes:
+          label: "Themes"
         tools:
           label: "Tools"
         misc:
           label: "Misc"
-        audio:
-          label: "Audio"
-        sets:
-          label: "Sets"
-        expansions:
-          label: "Expansions"
-        cards:
-          label: "Cards"
-        npcs:
-          label: "NPCs"
-        items:
-          label: "Items"
-        asset-replacement:
-          label: "Asset Replacement"
-        qol:
-          label: "QOL"
-        phone-related:
-          label: "Phone Related"
-        furniture:
-          label: "Furniture"
-        decoration:
-          label: "Decoration"
-        shop:
-          label: "Shop"
-        apps:
-          label: "Apps"
-        themes:
-          label: "Themes"
+        0-62-branch:
+          label: "0.62 Branch"
+        manual-dependencies:
+          label: "Requires Manual Dependencies"
   sections:
-    mods:
-      name: "Mods"
+    main:
+      name: "Main Branch"
       excludeCategories:
         - "modpacks"
-    modpacks:
-      name: 'Modpacks'
+        - "0-62-branch"
+    main-modpacks:
+      name: "Main Branch Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: ""
+      excludeCategories:
+        - "0-62-branch"
+    0-62:
+      name: "0.62 Branch"
+      requireCategories:
+        - "0-62-branch"
+      excludeCategories:
+        - "modpacks"
+    0-62-modpacks:
+      name: "0.62 Branch Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "0-62-branch"
+  wikiUrl: "https://tcg-card-shop-simulator.notion.site/3f8c9de6b54c47a9b80329b40bdd3c2c?v=04938d1088de49e5a55734d498f081ef"
   discordUrl: "https://discord.gg/kCp4mRAVUE"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
