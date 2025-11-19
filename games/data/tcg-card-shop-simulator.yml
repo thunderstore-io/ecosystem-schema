@@ -46,18 +46,8 @@ thunderstore:
           label: "Misc"
         0-62-branch:
           label: "0.62 Branch"
-        add-entirely-new-cards:
-          label: "Utilizes Add Entirely New Cards"
-        art-expander:
-          label: "Utilizes Art Expander"
-        custom-texture-replacer:
-          label: "Utilizes Custom Texture Replacer"
-        texture-replacer:
-          label: "Utilizes Texture Replacer"
-        the-api:
-          label: "Utilizes The API"
-        prefab-loader:
-          label: "Utilizes Prefab Loader"
+        manual-dependencies:
+          label: "Requires Manual Dependencies"
   sections:
     main:
       name: "Main Branch"
