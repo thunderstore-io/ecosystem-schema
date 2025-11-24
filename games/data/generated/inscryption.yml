@@ -26,7 +26,8 @@ r2modman:
       - "Inscryption.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "邪恶冥刻"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

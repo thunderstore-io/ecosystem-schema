@@ -22,7 +22,8 @@ r2modman:
       - "Sunkenland.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "沉没之地"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

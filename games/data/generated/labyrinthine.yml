@@ -23,7 +23,7 @@ r2modman:
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - ""
+      - "迷宫"
     packageLoader: "recursive-melonloader"
     installRules: []
     relativeFileExclusions: null

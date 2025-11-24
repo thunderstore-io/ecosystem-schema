@@ -29,7 +29,8 @@ r2modman:
       - "valheim.x86_64"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "英灵神殿"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
@@ -81,7 +82,8 @@ r2modman:
       - "valheim_server.x86_64"
     gameInstanceType: "server"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "英灵神殿"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

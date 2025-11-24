@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "wk"
+      - "赤手求升"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
