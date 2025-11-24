@@ -1,0 +1,34 @@
+uuid: "7d372a07-edb8-4267-b791-bd8a9b2c9381"
+label: "dinosaur-planet-recompiled"
+meta:
+  displayName: "Dinosaur Planet: Recompiled"
+  iconUrl: "dinosaur-planet-recompiled.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "Dinosaur Planet: Recompiled"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/DinosaurPlanetRecomp/dino-recomp?tab=readme-ov-file#creating-mods"
+  discordUrl: "https://discord.gg/SUrA4aV7UW"
+  autolistPackageIds: []
