@@ -9,6 +9,8 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "3314790"
+      - platform: "other"
+        identifier: null
     steamFolderName: "CloverPit"
     dataFolderName: "CloverPit_Data"
     exeNames:
