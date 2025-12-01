@@ -9,6 +9,8 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "3314790"
+      - platform: "xbox-game-pass"
+        identifier: "FutureFriendsGames.CloverPit"
     steamFolderName: "CloverPit"
     dataFolderName: "CloverPit_Data"
     exeNames:
