@@ -23,7 +23,8 @@ r2modman:
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - ""
+      - "帕格丽进入兔子洞"
+      - "帕格丽抓兔子"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

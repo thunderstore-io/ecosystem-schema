@@ -26,6 +26,7 @@ r2modman:
     additionalSearchStrings:
       - "bh"
       - "farlands"
+      - "背包英雄"
     packageLoader: "melonloader"
     installRules:
       - route: "Mods"

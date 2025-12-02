@@ -30,7 +30,9 @@ r2modman:
       - "Subnautica.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "深海迷航"
+      - "美丽水世界"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "we"
+      - "摔跤帝国"
+      - "摔角帝国"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

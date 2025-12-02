@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "ls"
+      - "失落的天空"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -22,7 +22,8 @@ r2modman:
       - "DREDGE.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "渔帆暗涌"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
