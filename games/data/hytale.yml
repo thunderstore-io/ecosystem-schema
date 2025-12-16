@@ -1,0 +1,34 @@
+uuid: "a656c998-825b-4ab6-a733-e0ed025994f7"
+label: "hytale"
+meta:
+  displayName: "Hytale"
+  iconUrl: "hytale.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "Hytale"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://hytalemodding.xyz/"
+  discordUrl: "https://discord.gg/KrHK7B39pY"
+  autolistPackageIds: []
