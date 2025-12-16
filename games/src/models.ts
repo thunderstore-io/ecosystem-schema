@@ -19,6 +19,7 @@ export const ModmanPackageLoaderValues = [
   "recursive-melonloader",
   "bepisloader",
   "umm",
+  "rivet",
   "none",
 ] as const;
 export type ModmanPackageLoader = typeof ModmanPackageLoaderValues[number];
