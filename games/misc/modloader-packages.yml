@@ -238,3 +238,6 @@
 - packageId: "UMM-UMM"
   rootFolder: "UMM"
   loader: "umm"
+- packageId: "ReDoIngMods-Rivet"
+  rootFolder: "Rivet"
+  loader: "rivet"

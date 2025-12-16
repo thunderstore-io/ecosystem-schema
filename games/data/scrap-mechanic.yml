@@ -1,0 +1,55 @@
+uuid: "4dc5616f-8de7-43d0-b067-17fa00031a9d"
+label: "scrap-mechanic"
+meta:
+  displayName: "Scrap Mechanic"
+  iconUrl: "scrap-mechanic.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "387990"
+    steamFolderName: "Scrap Mechanic"
+    dataFolderName: "Data"
+    exeNames:
+      - "ScrapMechanic.exe"
+    packageLoader: "rivet"
+    meta:
+      displayName: "Scrap Mechanic"
+      iconUrl: "scrap-mechanic.webp"
+    settingsIdentifier: "ScrapMechanic"
+    internalFolderName: "ScrapMechanic"
+    packageIndex: "https://thunderstore.io/c/scrap-mechanic/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Scrap Mechanic"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    bug-fixes:
+      label: "Bug Fixes"
+    content:
+      label: "Content"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://scrapmechanictools.com/"
+  discordUrl: "https://discord.gg/SxMyMnHryw"
+  autolistPackageIds: []
