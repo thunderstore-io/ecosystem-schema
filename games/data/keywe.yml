@@ -1,27 +1,25 @@
-uuid: "dc3c6f53-dbc6-497a-a922-1977b5df0751"
-label: "clover-pit"
+uuid: "352f09ba-5156-49f2-ad1f-ac33efa508ec"
+label: "keywe"
 meta:
-  displayName: "CloverPit"
-  iconUrl: "clover-pit.webp"
+  displayName: "KeyWe"
+  iconUrl: "keywe.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "3314790"
-      - platform: "xbox-game-pass"
-        identifier: "FutureFriendsGames.CloverPit"
-    steamFolderName: "CloverPit"
-    dataFolderName: "CloverPit_Data"
+        identifier: "1242980"
+    steamFolderName: "KeyWe"
+    dataFolderName: "KeyWe_Data"
     exeNames:
-      - "CloverPit.exe"
+      - "KeyWe.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "CloverPit"
-      iconUrl: "clover-pit.webp"
-    settingsIdentifier: "CloverPit"
-    internalFolderName: "CloverPit"
-    packageIndex: "https://thunderstore.io/c/clover-pit/api/v1/package-listing-index/"
+      displayName: "KeyWe"
+      iconUrl: "keywe.webp"
+    settingsIdentifier: "KeyWe"
+    internalFolderName: "KeyWe"
+    packageIndex: "https://thunderstore.io/c/keywe/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules:
@@ -54,7 +52,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "CloverPit"
+  displayName: "KeyWe"
   categories:
     mods:
       label: "Mods"
@@ -68,24 +66,6 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
-    charms:
-      label: "Charms"
-    symbols:
-      label: "Symbols"
-    patterns:
-      label: "Patterns"
-    modifiers:
-      label: "Modifiers"
-    localization:
-      label: "Localization"
-    phone-options:
-      label: "Phone Options"
-    memory-packs:
-      label: "Memory Packs"
-    gameplay:
-      label: "Gameplay"
-    tweaks:
-      label: "Tweaks"
   sections:
     mods:
       name: "Mods"
@@ -95,6 +75,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: " https://discord.gg/zTAZ9erd5g"
+  discordUrl: "https://discord.gg/Q9YVCsxqNN"
   autolistPackageIds:
     - "BepInEx-BepInExPack"

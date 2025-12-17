@@ -1,27 +1,25 @@
-uuid: "dc3c6f53-dbc6-497a-a922-1977b5df0751"
-label: "clover-pit"
+uuid: "dff631a2-171a-4bd1-af49-92a0c81eb49b"
+label: "football-manager-26"
 meta:
-  displayName: "CloverPit"
-  iconUrl: "clover-pit.webp"
+  displayName: "Football Manager 26"
+  iconUrl: "football-manager-26.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "3314790"
-      - platform: "xbox-game-pass"
-        identifier: "FutureFriendsGames.CloverPit"
-    steamFolderName: "CloverPit"
-    dataFolderName: "CloverPit_Data"
+        identifier: "3551340"
+    steamFolderName: "Football Manager 26"
+    dataFolderName: "fm_Data"
     exeNames:
-      - "CloverPit.exe"
+      - "fm.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "CloverPit"
-      iconUrl: "clover-pit.webp"
-    settingsIdentifier: "CloverPit"
-    internalFolderName: "CloverPit"
-    packageIndex: "https://thunderstore.io/c/clover-pit/api/v1/package-listing-index/"
+      displayName: "Football Manager 26"
+      iconUrl: "football-manager-26.webp"
+    settingsIdentifier: "FootballManager26"
+    internalFolderName: "FootballManager26"
+    packageIndex: "https://thunderstore.io/c/football-manager-26/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules:
@@ -54,7 +52,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "CloverPit"
+  displayName: "Football Manager 26"
   categories:
     mods:
       label: "Mods"
@@ -68,24 +66,6 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
-    charms:
-      label: "Charms"
-    symbols:
-      label: "Symbols"
-    patterns:
-      label: "Patterns"
-    modifiers:
-      label: "Modifiers"
-    localization:
-      label: "Localization"
-    phone-options:
-      label: "Phone Options"
-    memory-packs:
-      label: "Memory Packs"
-    gameplay:
-      label: "Gameplay"
-    tweaks:
-      label: "Tweaks"
   sections:
     mods:
       name: "Mods"
@@ -95,6 +75,4 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: " https://discord.gg/zTAZ9erd5g"
-  autolistPackageIds:
-    - "BepInEx-BepInExPack"
+  autolistPackageIds: []

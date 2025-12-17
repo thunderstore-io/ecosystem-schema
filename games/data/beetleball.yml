@@ -1,32 +1,31 @@
-uuid: "aeebfea4-fe72-4535-9cea-0b880b5d270c"
-label: "mimesis"
+uuid: "4746944a-59d5-4038-8a13-f9710a4c4bb7"
+label: "beetleball"
 meta:
-  displayName: "Mimesis"
-  iconUrl: "mimesis.webp"
+  displayName: "Beetleball"
+  iconUrl: "beetleball.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "2827200"
-    steamFolderName: "MIMESIS"
-    dataFolderName: "MIMESIS_Data"
+        identifier: "3821880"
+    steamFolderName: "BeetleBall Playtest"
+    dataFolderName: "Beetleball_Data"
     exeNames:
-      - "MIMESIS.exe"
+      - "Beetleball.exe"
     packageLoader: "recursive-melonloader"
     meta:
-      displayName: "Mimesis"
-      iconUrl: "mimesis.webp"
-    settingsIdentifier: "Mimesis"
-    internalFolderName: "Mimesis"
-    packageIndex: "https://thunderstore.io/c/mimesis/api/v1/package-listing-index/"
+      displayName: "Beetleball"
+      iconUrl: "beetleball.webp"
+    settingsIdentifier: "Beetleball"
+    internalFolderName: "Beetleball"
+    packageIndex: "https://thunderstore.io/c/beetleball/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Mimesis"
-  discordUrl: "https://discord.gg/FjPTPRMRn"
+  displayName: "Beetleball"
   categories:
     mods:
       label: "Mods"

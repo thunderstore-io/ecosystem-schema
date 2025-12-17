@@ -1,27 +1,25 @@
-uuid: "dc3c6f53-dbc6-497a-a922-1977b5df0751"
-label: "clover-pit"
+uuid: "fe0fa301-b037-4cbc-84e1-300a44bd3eb0"
+label: "super-fantasy-kingdom"
 meta:
-  displayName: "CloverPit"
-  iconUrl: "clover-pit.webp"
+  displayName: "Super Fantasy Kingdom"
+  iconUrl: "super-fantasy-kingdom.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "3314790"
-      - platform: "xbox-game-pass"
-        identifier: "FutureFriendsGames.CloverPit"
-    steamFolderName: "CloverPit"
-    dataFolderName: "CloverPit_Data"
+        identifier: "2289750"
+    steamFolderName: "Super Fantasy Kingdom"
+    dataFolderName: "Super Fantasy Kingdom_Data"
     exeNames:
-      - "CloverPit.exe"
+      - "Super Fantasy Kingdom.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "CloverPit"
-      iconUrl: "clover-pit.webp"
-    settingsIdentifier: "CloverPit"
-    internalFolderName: "CloverPit"
-    packageIndex: "https://thunderstore.io/c/clover-pit/api/v1/package-listing-index/"
+      displayName: "Super Fantasy Kingdom"
+      iconUrl: "super-fantasy-kingdom.webp"
+    settingsIdentifier: "SuperFantasyKingdom"
+    internalFolderName: "SuperFantasyKingdom"
+    packageIndex: "https://thunderstore.io/c/super-fantasy-kingdom/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules:
@@ -54,7 +52,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "CloverPit"
+  displayName: "Super Fantasy Kingdom"
   categories:
     mods:
       label: "Mods"
@@ -68,24 +66,6 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
-    charms:
-      label: "Charms"
-    symbols:
-      label: "Symbols"
-    patterns:
-      label: "Patterns"
-    modifiers:
-      label: "Modifiers"
-    localization:
-      label: "Localization"
-    phone-options:
-      label: "Phone Options"
-    memory-packs:
-      label: "Memory Packs"
-    gameplay:
-      label: "Gameplay"
-    tweaks:
-      label: "Tweaks"
   sections:
     mods:
       name: "Mods"
@@ -95,6 +75,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: " https://discord.gg/zTAZ9erd5g"
+  discordUrl: "https://discord.com/invite/bdjvSJJwCX"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
