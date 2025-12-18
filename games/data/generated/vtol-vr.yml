@@ -22,7 +22,8 @@ r2modman:
       - "VTOLVR.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "垂直起降"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

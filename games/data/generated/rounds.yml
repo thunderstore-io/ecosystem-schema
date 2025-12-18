@@ -22,7 +22,8 @@ r2modman:
       - "Rounds.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "回合决斗"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

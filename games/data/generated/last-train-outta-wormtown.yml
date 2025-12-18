@@ -24,7 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "ltow"
-      - "末班车离开虫镇"
+      - "末班列车：逃离虫镇"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "bb"
+      - "波普乱斗"
+      - "波普乱战"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

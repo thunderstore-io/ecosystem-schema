@@ -25,6 +25,7 @@ r2modman:
     additionalSearchStrings:
       - "Hot Dogs, Horseshoes & Hand Grenades"
       - "Hot Dogs, Horseshoes and Hand Grenades"
+      - "热狗马蹄铁和手榴弹"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

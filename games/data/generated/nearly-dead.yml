@@ -24,7 +24,6 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "nd"
-      - "快死了"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

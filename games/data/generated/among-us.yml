@@ -36,6 +36,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "au"
+      - "太空狼人杀"
+      - "在我们之中"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "panicore"
+      - "恐慌核心"
     packageLoader: "shimloader"
     installRules: []
     relativeFileExclusions: null
