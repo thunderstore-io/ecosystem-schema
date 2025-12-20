@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "ForsakenFrontiers"
     packageIndex: "https://thunderstore.io/c/forsaken-frontiers/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "遗弃前线"
+      - "遗忘边境"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

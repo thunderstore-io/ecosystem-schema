@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "EasyDeliveryCo"
     packageIndex: "https://thunderstore.io/c/easy-delivery-co/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "黑猫速递"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

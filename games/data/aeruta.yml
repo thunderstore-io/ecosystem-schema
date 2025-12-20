@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Aeruta"
     packageIndex: "https://thunderstore.io/c/aeruta/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "亚路塔：狐狸狐途的面包冒险"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

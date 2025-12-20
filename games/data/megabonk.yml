@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "Megabonk"
     packageIndex: "https://thunderstore.io/c/megabonk/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "梅加邦克"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

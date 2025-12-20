@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "LogicWorld"
     packageIndex: "https://thunderstore.io/c/logic-world/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "逻辑世界"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

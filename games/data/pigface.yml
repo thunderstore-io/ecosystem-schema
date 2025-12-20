@@ -23,6 +23,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "pf"
+      - "猪脸"
     installRules:
       - route: "BepInEx/plugins"
         defaultFileExtensions:

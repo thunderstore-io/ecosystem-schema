@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "SlashersKeep"
     packageIndex: "https://thunderstore.io/c/slashers-keep/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "血屠城堡"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

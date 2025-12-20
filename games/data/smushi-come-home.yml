@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "SmushiComeHome"
     packageIndex: "https://thunderstore.io/c/smushi-come-home/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "斯摩西回家"
+      - "舒米回家"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

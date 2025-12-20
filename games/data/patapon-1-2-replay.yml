@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Patapon12Replay"
     packageIndex: "https://thunderstore.io/c/patapon-1-2-replay/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "啪嗒砰1+2Replay"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
