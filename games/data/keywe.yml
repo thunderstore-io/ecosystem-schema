@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "KeyWe"
     packageIndex: "https://thunderstore.io/c/keywe/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "关键奇异鸟"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

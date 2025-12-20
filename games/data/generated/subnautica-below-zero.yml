@@ -30,6 +30,8 @@ r2modman:
       - "bz"
       - "sbz"
       - "s:bz"
+      - "深海迷航：零度之下"
+      - "美丽水世界：零度之下"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

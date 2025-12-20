@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Ostranauts"
     packageIndex: "https://thunderstore.io/c/ostranauts/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "星际漂流者"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

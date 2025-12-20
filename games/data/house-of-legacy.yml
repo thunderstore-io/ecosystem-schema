@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "HouseOfLegacy"
     packageIndex: "https://thunderstore.io/c/house-of-legacy/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["hol"]
+    additionalSearchStrings: 
+      - "hol"
+      - "吾今有世家"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

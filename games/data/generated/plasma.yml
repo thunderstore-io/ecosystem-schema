@@ -22,7 +22,8 @@ r2modman:
       - "Plasma.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "等离子体"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

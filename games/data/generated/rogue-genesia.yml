@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "rg"
+      - "罗格：救世传说"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

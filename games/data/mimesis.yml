@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Mimesis"
     packageIndex: "https://thunderstore.io/c/mimesis/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "迷魅狩猎"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

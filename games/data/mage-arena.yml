@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "MageArena"
     packageIndex: "https://thunderstore.io/c/mage-arena/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "法师竞技场"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

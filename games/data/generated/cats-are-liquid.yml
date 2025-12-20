@@ -32,6 +32,8 @@ r2modman:
       - "calabp"
       - "cal"
       - "abp"
+      - "猫是液体"
+      - "猫是液态的：更好的地方"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

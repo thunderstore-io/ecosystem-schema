@@ -25,6 +25,7 @@ r2modman:
     additionalSearchStrings:
       - "ato"
       - "ao"
+      - "横跨方尖碑"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -22,7 +22,8 @@ r2modman:
       - "Aloft.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "浮空岛"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "FootballManager26"
     packageIndex: "https://thunderstore.io/c/football-manager-26/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "足球经理26"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

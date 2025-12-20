@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Vellum"
     packageIndex: "https://thunderstore.io/c/vellum/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "维勒姆"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

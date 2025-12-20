@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Necropolis"
     packageIndex: "https://thunderstore.io/c/necropolis/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "墓园：野蛮版"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

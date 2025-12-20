@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Broforce"
     packageIndex: "https://thunderstore.io/c/broforce/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "武装原型"
     installRules:
       - route: "UMM/Mods"
         defaultFileExtensions: [".dll"]

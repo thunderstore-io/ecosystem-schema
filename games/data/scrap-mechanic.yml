@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "ScrapMechanic"
     packageIndex: "https://thunderstore.io/c/scrap-mechanic/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "废品机械师"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

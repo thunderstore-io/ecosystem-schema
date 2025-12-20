@@ -28,6 +28,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "ftk"
+      - "为了吾王"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

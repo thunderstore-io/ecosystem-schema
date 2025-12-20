@@ -21,7 +21,10 @@ r2modman:
     internalFolderName: "BadNorth"
     packageIndex: "https://thunderstore.io/c/bad-north/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "坏北"
+      - "绝境北地"
+      - "严峻北境"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

@@ -23,7 +23,8 @@ r2modman:
     internalFolderName: "CloverPit"
     packageIndex: "https://thunderstore.io/c/clover-pit/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "四叶草深渊"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

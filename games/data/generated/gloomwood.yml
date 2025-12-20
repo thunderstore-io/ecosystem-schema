@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "gw"
+      - "幽暗森林"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

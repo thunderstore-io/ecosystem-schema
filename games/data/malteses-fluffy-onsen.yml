@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "MaltesesFluffyOnsen"
     packageIndex: "https://thunderstore.io/c/malteses-fluffy-onsen/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["mfo"]
+    additionalSearchStrings:
+      - "mfo"
+      - "线条小狗：动物温泉"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

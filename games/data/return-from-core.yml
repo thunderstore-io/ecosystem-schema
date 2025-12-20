@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "ReturnFromCore"
     packageIndex: "https://thunderstore.io/c/return-from-core/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "地心归途"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

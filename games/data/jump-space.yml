@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "JumpSpace"
     packageIndex: "https://thunderstore.io/c/jump-space/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "跃迁空间"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

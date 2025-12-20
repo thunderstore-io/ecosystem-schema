@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "CrimeSimulator"
     packageIndex: "https://thunderstore.io/c/crime-simulator/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "犯罪模拟器"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

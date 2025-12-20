@@ -22,7 +22,8 @@ r2modman:
       - "vertigo2.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "眩晕2"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

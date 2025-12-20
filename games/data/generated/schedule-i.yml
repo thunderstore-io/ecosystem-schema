@@ -23,7 +23,7 @@ r2modman:
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - ""
+      - "绝命毒师模拟器"
     packageLoader: "recursive-melonloader"
     installRules: []
     relativeFileExclusions: null

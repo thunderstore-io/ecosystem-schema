@@ -23,7 +23,8 @@ r2modman:
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - ""
+      - "再见，火山高校"
+      - "再见火山高中"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

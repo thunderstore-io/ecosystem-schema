@@ -22,7 +22,8 @@ r2modman:
       - "PEAK.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "顶峰"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
