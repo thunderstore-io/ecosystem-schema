@@ -1,0 +1,52 @@
+uuid: "81310141-47b7-4a76-9142-f5a42d1c7811"
+label: "rv-there-yet"
+meta:
+  displayName: "RV There Yet?"
+  iconUrl: "rv-there-yet.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3949040"
+    steamFolderName: "Ride"
+    dataFolderName: "Ride"
+    exeNames:
+      - "Ride-Win64-Shipping.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "RV There Yet?"
+      iconUrl: "rv-there-yet.webp"
+    settingsIdentifier: "RvThereYet"
+    internalFolderName: "RvThereYet"
+    packageIndex: "https://thunderstore.io/c/rv-there-yet/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "RV There Yet?"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
