@@ -1,0 +1,79 @@
+uuid: "fa3f7e0d-f894-4eb5-b417-2dd2a9b531c9"
+label: "nuclear-option"
+meta:
+  displayName: "Nuclear Option"
+  iconUrl: "nuclear-option.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2168680"
+    steamFolderName: "Nuclear Option"
+    dataFolderName: "NuclearOption_Data"
+    exeNames:
+      - "NuclearOption.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Nuclear Option"
+      iconUrl: "nuclear-option.webp"
+    settingsIdentifier: "NuclearOption"
+    internalFolderName: "NuclearOption"
+    packageIndex: "https://thunderstore.io/c/nuclear-option/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Nuclear Option"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/nuclear-option"
+  autolistPackageIds: []

@@ -1,0 +1,78 @@
+uuid: "5090345c-21f2-421f-a53d-13b47a25beae"
+label: "chill-with-you"
+meta:
+  displayName: "Chill with You : Lo-Fi Story"
+  iconUrl: "chill-with-you-lo-fi-story.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3548580"
+    steamFolderName: "Chill with You Lo-Fi Story"
+    dataFolderName: "Chill With You_Data"
+    exeNames:
+      - "Chill With You.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Chill with You : Lo-Fi Story"
+      iconUrl: "chill-with-you.webp"
+    settingsIdentifier: "ChillWithYouLoFiStory"
+    internalFolderName: "ChillWithYouLoFiStory"
+    packageIndex: "https://thunderstore.io/c/chill-with-you/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Chill with You : Lo-Fi Story"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds: []
