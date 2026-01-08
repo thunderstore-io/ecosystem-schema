@@ -1,0 +1,78 @@
+uuid: "055b8ac0-3163-41b7-a244-da5672210f37"
+label: "goblin-buster"
+meta:
+  displayName: "Goblin Buster: Incremental Tower Defense"
+  iconUrl: "goblin-buster-incremental-tower-defense.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2482250"
+    steamFolderName: "Goblin Buster"
+    dataFolderName: "Goblin Buster_Data"
+    exeNames:
+      - "Goblin Buster.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Goblin Buster: Incremental Tower Defense"
+      iconUrl: "goblin-buster-incremental-tower-defense.webp"
+    settingsIdentifier: "GoblinBusterIncrementalTowerDefense"
+    internalFolderName: "GoblinBusterIncrementalTowerDefense"
+    packageIndex: "https://thunderstore.io/c/goblin-buster/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Goblin Buster: Incremental Tower Defense"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds: []
