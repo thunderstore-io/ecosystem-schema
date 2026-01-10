@@ -76,4 +76,5 @@ thunderstore:
       requireCategories:
         - "modpacks"
   discordUrl: "https://discord.gg/nuclear-option"
-  autolistPackageIds: []
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"

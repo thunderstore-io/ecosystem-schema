@@ -75,4 +75,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  autolistPackageIds: []
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
