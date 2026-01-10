@@ -78,4 +78,4 @@ thunderstore:
         - "modpacks"
   discordUrl: "https://discord.gg/jBGMZqndT3"
   autolistPackageIds:
-    - "BepInEx-BepInExPack"
+    - "BepInEx-BepInExPack_IL2CPP"
