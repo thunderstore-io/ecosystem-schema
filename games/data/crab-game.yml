@@ -10,7 +10,7 @@ r2modman:
       - platform: "steam"
         identifier: "1782210"
     steamFolderName: "Crab Game"
-    dataFolderName: "Grab Game_Data"
+    dataFolderName: "Crab Game_Data"
     exeNames:
       - "Crab Game.exe"
       - "Crab Game.x86_64"

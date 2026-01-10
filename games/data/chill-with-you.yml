@@ -2,7 +2,7 @@ uuid: "5090345c-21f2-421f-a53d-13b47a25beae"
 label: "chill-with-you"
 meta:
   displayName: "Chill with You : Lo-Fi Story"
-  iconUrl: "chill-with-you-lo-fi-story.webp"
+  iconUrl: "chill-with-you.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
