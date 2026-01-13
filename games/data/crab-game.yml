@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "CrabGame"
     packageIndex: "https://thunderstore.io/c/crab-game/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "螃蟹游戏"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

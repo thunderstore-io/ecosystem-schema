@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "RamRandomAccessMayhem"
     packageIndex: "https://thunderstore.io/c/random-access-mayhem/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "夺魄机兵"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

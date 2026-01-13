@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Crawlspace2"
     packageIndex: "https://thunderstore.io/c/crawlspace-2/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "爬行空间2"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

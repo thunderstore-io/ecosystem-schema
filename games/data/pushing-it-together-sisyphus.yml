@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "PushingItTogetherSisyphusCoOp"
     packageIndex: "https://thunderstore.io/c/pushing-it-together-sisyphus/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "努力，加油！一起化身西西弗斯（合作版）"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
