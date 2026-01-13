@@ -1,0 +1,53 @@
+uuid: "64dcbac2-cc02-4338-99b4-00af4b38450b"
+label: "random-access-mayhem"
+meta:
+  displayName: "RAM: Random Access Mayhem"
+  iconUrl: "random-access-mayhem.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2256450"
+    steamFolderName: "RAM Random Access Mayhem"
+    dataFolderName: ""
+    exeNames:
+      - "RAM.exe"
+    packageLoader: "godotml"
+    meta:
+      displayName: "RAM: Random Access Mayhem"
+      iconUrl: "random-access-mayhem.webp"
+    settingsIdentifier: "RamRandomAccessMayhem"
+    internalFolderName: "RamRandomAccessMayhem"
+    packageIndex: "https://thunderstore.io/c/random-access-mayhem/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "RAM: Random Access Mayhem"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/rmAGykYpxQ"
+  autolistPackageIds:
+    - "GodotModding-GodotModLoader"
