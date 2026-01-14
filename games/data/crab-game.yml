@@ -68,7 +68,7 @@ thunderstore:
     asset-replacements:
       label: "Asset Replacements"
     tweaks-and-quality-of-life:
-      label: "Tweaks & Quality of Life"
+      label: "Tweaks & Quality Of Life"
     bug-fixes:
       label: "Bug Fixes"
     commands:
