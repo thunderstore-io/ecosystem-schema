@@ -24,20 +24,20 @@ thunderstore:
       label: "Asset Packs"
     mods:
       label: "Mods"
-    combos:
+    modpacks:
       label: "Combos"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
-        - "combos"
+        - "modpacks"
         - "worlds"
         - "universes"
         - "saves"
     plugins:
       name: "Plugins"
       excludeCategories:
-        - "combos"
+        - "modpacks"
         - "worlds"
         - "universes"
         - "saves"
@@ -45,7 +45,7 @@ thunderstore:
     asset-packs:
       name: "Asset Packs"
       excludeCategories:
-        - "combos"
+        - "modpacks"
         - "worlds"
         - "universes"
         - "saves"
@@ -53,28 +53,28 @@ thunderstore:
     saves:
       name: "Saves"
       excludeCategories:
-        - "combos"
+        - "modpacks"
         - "worlds"
         - "universes"
         - "mods"
     universes:
       name: "Universes"
       excludeCategories:
-        - "combos"
+        - "modpacks"
         - "worlds"
         - "saves"
         - "mods"
     worlds:
       name: "Worlds"
       excludeCategories:
-        - "combos"
+        - "modpacks"
         - "universes"
         - "saves"
         - "mods"
-    combos:
+    modpacks:
       name: "Combos"
       requireCategories:
-        - "combos"
+        - "modpacks"
   wikiUrl: "https://hytalemodding.dev/"
   discordUrl: "https://discord.gg/hytalemodding"
   autolistPackageIds: []
