@@ -8,27 +8,73 @@ r2modman: null
 thunderstore:
   displayName: "Hytale"
   categories:
+    pre-release:
+      label: "Pre-Release"
+    release:
+      label: "Release"
+    worlds:
+      label: "Worlds"
+    universes:
+      label: "Universes"
+    saves:
+      label: "Saves"
+    plugins:
+      label: "Plugins"
+    asset-packs:
+      label: "Asset Packs"
     mods:
       label: "Mods"
-    modpacks:
-      label: "Modpacks"
-    tools:
-      label: "Tools"
-    libraries:
-      label: "Libraries"
-    misc:
-      label: "Misc"
-    audio:
-      label: "Audio"
+    combos:
+      label: "Combos"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
-        - "modpacks"
-    modpacks:
-      name: "Modpacks"
+        - "combos"
+        - "worlds"
+        - "universes"
+        - "saves"
+    plugins:
+      name: "Plugins"
+      excludeCategories:
+        - "combos"
+        - "worlds"
+        - "universes"
+        - "saves"
+        - "asset-packs"
+    asset-packs:
+      name: "Asset Packs"
+      excludeCategories:
+        - "combos"
+        - "worlds"
+        - "universes"
+        - "saves"
+        - "plugins"
+    saves:
+      name: "Saves"
+      excludeCategories:
+        - "combos"
+        - "worlds"
+        - "universes"
+        - "mods"
+    universes:
+      name: "Universes"
+      excludeCategories:
+        - "combos"
+        - "worlds"
+        - "saves"
+        - "mods"
+    worlds:
+      name: "Worlds"
+      excludeCategories:
+        - "combos"
+        - "universes"
+        - "saves"
+        - "mods"
+    combos:
+      name: "Combos"
       requireCategories:
-        - "modpacks"
-  wikiUrl: "https://hytalemodding.xyz/"
-  discordUrl: "https://discord.gg/KrHK7B39pY"
+        - "combos"
+  wikiUrl: "https://hytalemodding.dev/"
+  discordUrl: "https://discord.gg/hytalemodding"
   autolistPackageIds: []
