@@ -79,6 +79,10 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    audio:
+      label: "Audio"
+    tools:
+      label: "Tools"
   sections:
     mods:
       name: "Mods"
