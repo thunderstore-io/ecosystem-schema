@@ -12,18 +12,24 @@ thunderstore:
       label: "Pre-Release"
     release:
       label: "Release"
-    audio:
+    worlds:
       label: "Worlds"
     universes:
       label: "Universes"
     saves:
       label: "Saves"
-    tools:
+    plugins:
       label: "Plugins"
-    libraries:
+    asset-packs:
       label: "Asset Packs"
     mods:
       label: "Mods"
+    tools:
+      label: "Tools"
+    audio:
+      label: "Audio"
+    libraries:
+      label: "Libraries"
     modpacks:
       label: "Combos"
     misc:
@@ -31,54 +37,76 @@ thunderstore:
   sections:
     mods:
       name: "Mods"
+      requireCategories:
+        - "mods"
       excludeCategories:
         - "modpacks"
-        - "audio"
+        - "worlds"
         - "universes"
         - "saves"
-    tools:
+    plugins:
       name: "Plugins"
+      requireCategories:
+        - "plugins"
       excludeCategories:
         - "modpacks"
-        - "audio"
+        - "worlds"
         - "universes"
         - "saves"
-        - "libraries"
-    libraries:
+        - "asset-packs"
+    asset-packs:
       name: "Asset Packs"
+      requireCategories:
+        - "asset-packs"
       excludeCategories:
         - "modpacks"
-        - "audio"
+        - "worlds"
         - "universes"
         - "saves"
-        - "tools"
+        - "plugins"
     saves:
       name: "Saves"
+      requireCategories:
+        - "saves"
       excludeCategories:
         - "modpacks"
-        - "audio"
+        - "worlds"
         - "universes"
         - "mods"
-        - "libraries"
-        - "tools"
+        - "plugins"
+        - "asset-packs"
     universes:
       name: "Universes"
+      requireCategories:
+        - "universes"
       excludeCategories:
         - "modpacks"
-        - "audio"
+        - "worlds"
         - "saves"
         - "mods"
-        - "libraries"
-        - "tools"
-    audio:
+        - "plugins"
+        - "asset-packs"
+    worlds:
       name: "Worlds"
+      requireCategories:
+        - "worlds"
       excludeCategories:
         - "modpacks"
         - "universes"
         - "saves"
         - "mods"
-        - "libraries"
-        - "tools"
+        - "plugins"
+        - "asset-packs"
+    other:
+      name: "Other"
+      excludeCategories:
+        - "mods"
+        - "plugins"
+        - "asset-packs"
+        - "modpacks"
+        - "worlds"
+        - "universes"
+        - "saves"
     modpacks:
       name: "Combos"
       requireCategories:
