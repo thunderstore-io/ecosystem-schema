@@ -59,14 +59,30 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
-    tools:
-      label: "Tools"
+    host-only:
+      label: "Host Only"
+    client-side:
+      label: "Client Side"
+    all-clients:
+      label: "All Clients"
+    asset-replacements:
+      label: "Asset Replacements"
+    tweaks-and-quality-of-life:
+      label: "Tweaks & Quality Of Life"
+    bug-fixes:
+      label: "Bug Fixes"
+    commands:
+      label: "Commands"
+    game-modes:
+      label: "Game Modes"
     libraries:
       label: "Libraries"
     misc:
       label: "Misc"
     audio:
       label: "Audio"
+    tools:
+      label: "Tools"
   sections:
     mods:
       name: "Mods"
