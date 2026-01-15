@@ -26,7 +26,7 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Combos"
-    misc
+    misc:
       label: "Misc"
   sections:
     mods:
