@@ -59,6 +59,8 @@ thunderstore:
         - "audio"
         - "universes"
         - "mods"
+        - "libraries"
+        - "tools"
     universes:
       name: "Universes"
       excludeCategories:
@@ -66,6 +68,8 @@ thunderstore:
         - "audio"
         - "saves"
         - "mods"
+        - "libraries"
+        - "tools"
     audio:
       name: "Worlds"
       excludeCategories:
@@ -73,6 +77,8 @@ thunderstore:
         - "universes"
         - "saves"
         - "mods"
+        - "libraries"
+        - "tools"
     modpacks:
       name: "Combos"
       requireCategories:
