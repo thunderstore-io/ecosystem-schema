@@ -22,7 +22,8 @@ r2modman:
       - "Balatro.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "小丑牌"
     packageLoader: "lovely"
     installRules: []
     relativeFileExclusions: null

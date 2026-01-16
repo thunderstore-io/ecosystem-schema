@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "rorr"
+      - "雨中冒险：回归"
     packageLoader: "return-of-modding"
     installRules: []
     relativeFileExclusions: null

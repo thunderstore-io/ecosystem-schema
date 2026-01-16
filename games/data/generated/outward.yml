@@ -36,7 +36,8 @@ r2modman:
       - "Outward.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "物质世界"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
@@ -86,7 +87,8 @@ r2modman:
       - "Outward Definitive Edition.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "物质世界：决定版"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "NuclearOption"
     packageIndex: "https://thunderstore.io/c/nuclear-option/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "核选项"
+      - "终极威慑"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

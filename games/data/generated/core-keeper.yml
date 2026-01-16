@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "ck"
+      - "地心护核者"
+      - "护核纪元"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "SuperFantasyKingdom"
     packageIndex: "https://thunderstore.io/c/super-fantasy-kingdom/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "超级幻想王国"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

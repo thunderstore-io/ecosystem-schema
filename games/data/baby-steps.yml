@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "BabySteps"
     packageIndex: "https://thunderstore.io/c/baby-steps/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "一步一脚印"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

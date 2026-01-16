@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "rotod"
+      - "奥伯拉丁的回归"
+      - "奥伯拉丁的归来"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

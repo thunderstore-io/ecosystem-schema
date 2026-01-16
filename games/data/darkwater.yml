@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "Darkwater"
     packageIndex: "https://thunderstore.io/c/darkwater/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["dw"]
+    additionalSearchStrings:
+      - "dw"
+      - "黑水"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

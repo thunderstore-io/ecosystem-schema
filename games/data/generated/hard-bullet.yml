@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "hb"
+      - "硬弹"
+      - "坚硬的子弹"
     packageLoader: "melonloader"
     installRules:
       - route: "Mods"

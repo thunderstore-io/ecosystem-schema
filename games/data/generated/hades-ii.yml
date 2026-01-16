@@ -28,6 +28,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "h2"
+      - "黑帝斯2"
+      - "哈迪斯2"
     packageLoader: "return-of-modding"
     installRules: []
     relativeFileExclusions: null

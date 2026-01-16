@@ -33,7 +33,9 @@ r2modman:
     internalFolderName: "HollowKnightSilksong"
     packageIndex: "https://thunderstore.io/c/hollow-knight-silksong/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["hkss"]
+    additionalSearchStrings: 
+      - "hkss"
+      - "空洞骑士：丝之歌"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

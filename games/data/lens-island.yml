@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "LensIsland"
     packageIndex: "https://thunderstore.io/c/lens-island/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "莱恩岛生存指南"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "PaperAnimalAdventure"
     packageIndex: "https://thunderstore.io/c/paper-animal-adventure/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["paa"]
+    additionalSearchStrings:
+      - "paa"
+      - "纸片萌兽：小小迷途"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

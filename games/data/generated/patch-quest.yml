@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "pq"
+      - "拼贴冒险传"
     packageLoader: "melonloader"
     installRules:
       - route: "Mods"

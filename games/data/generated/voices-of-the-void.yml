@@ -24,6 +24,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "votv"
+      - "虚空之声"
     packageLoader: "shimloader"
     installRules: []
     relativeFileExclusions: null

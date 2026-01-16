@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "ChillWithYouLoFiStory"
     packageIndex: "https://thunderstore.io/c/chill-with-you/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "放松时光：与你共享Lo-Fi故事"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

@@ -23,7 +23,9 @@ r2modman:
     internalFolderName: "LostSkiesIslandCreator"
     packageIndex: "https://thunderstore.io/c/lost-skies-ic/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: ["lsic"]
+    additionalSearchStrings:
+      - "lsic"
+      - "失落的天空：岛屿创造者"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

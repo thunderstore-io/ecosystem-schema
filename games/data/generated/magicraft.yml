@@ -22,7 +22,8 @@ r2modman:
       - "Magicraft.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "魔法工艺"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"

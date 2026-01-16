@@ -29,6 +29,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "BL"
+      - "骨骼实验室"
     packageLoader: "melonloader"
     installRules:
       - route: "Mods"

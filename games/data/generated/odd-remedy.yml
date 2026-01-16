@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "or"
+      - "异界疗法"
+      - "奇怪的补救措施"
     packageLoader: "bepinex"
     installRules:
       - route: "BepInEx/plugins"
