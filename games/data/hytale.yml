@@ -22,6 +22,8 @@ thunderstore:
       label: "Plugins"
     asset-packs:
       label: "Asset Packs"
+    early-plugins:
+      label: "Early Plugins"
     mods:
       label: "Mods"
     tools:
@@ -54,6 +56,18 @@ thunderstore:
         - "universes"
         - "saves"
         - "asset-packs"
+        - "early-plugins"
+    early-plugins:
+      name: "Early Plugins"
+      requireCategories:
+        - "early-plugins"
+      excludeCategories:
+        - "modpacks"
+        - "worlds"
+        - "universes"
+        - "saves"
+        - "asset-packs"
+        - "plugins"
     asset-packs:
       name: "Asset Packs"
       requireCategories:
@@ -64,6 +78,7 @@ thunderstore:
         - "universes"
         - "saves"
         - "plugins"
+        - "early-plugins"
     saves:
       name: "Saves"
       requireCategories:
@@ -75,6 +90,7 @@ thunderstore:
         - "mods"
         - "plugins"
         - "asset-packs"
+        - "early-plugins"
     universes:
       name: "Universes"
       requireCategories:
@@ -86,6 +102,7 @@ thunderstore:
         - "mods"
         - "plugins"
         - "asset-packs"
+        - "early-plugins"
     worlds:
       name: "Worlds"
       requireCategories:
@@ -97,6 +114,7 @@ thunderstore:
         - "mods"
         - "plugins"
         - "asset-packs"
+        - "early-plugins"
     other:
       name: "Other"
       excludeCategories:
@@ -107,6 +125,7 @@ thunderstore:
         - "worlds"
         - "universes"
         - "saves"
+        - "early-plugins"
     modpacks:
       name: "Combos"
       requireCategories:
