@@ -20,7 +20,7 @@ r2modman:
     settingsIdentifier: "BabySteps"
     internalFolderName: "BabySteps"
     packageIndex: "https://thunderstore.io/c/baby-steps/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "visible"
+    gameSelectionDisplayMode: "hidden"
     additionalSearchStrings:
       - "一步一脚印"
     installRules: []
