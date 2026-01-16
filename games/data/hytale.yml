@@ -56,18 +56,6 @@ thunderstore:
         - "universes"
         - "saves"
         - "asset-packs"
-        - "early-plugins"
-    early-plugins:
-      name: "Early Plugins"
-      requireCategories:
-        - "early-plugins"
-      excludeCategories:
-        - "modpacks"
-        - "worlds"
-        - "universes"
-        - "saves"
-        - "asset-packs"
-        - "plugins"
     asset-packs:
       name: "Asset Packs"
       requireCategories:
