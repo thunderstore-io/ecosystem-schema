@@ -41,6 +41,9 @@ thunderstore:
       name: "Mods"
       requireCategories:
         - "mods"
+        - "plugins"
+        - "early-plugins"
+        - "asset-packs"
       excludeCategories:
         - "modpacks"
         - "worlds"
@@ -50,6 +53,7 @@ thunderstore:
       name: "Plugins"
       requireCategories:
         - "plugins"
+        - "early-plugins"
       excludeCategories:
         - "modpacks"
         - "worlds"
