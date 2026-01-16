@@ -8,27 +8,109 @@ r2modman: null
 thunderstore:
   displayName: "Hytale"
   categories:
+    pre-release:
+      label: "Pre-Release"
+    release:
+      label: "Release"
+    worlds:
+      label: "Worlds"
+    universes:
+      label: "Universes"
+    saves:
+      label: "Saves"
+    plugins:
+      label: "Plugins"
+    asset-packs:
+      label: "Asset Packs"
     mods:
       label: "Mods"
-    modpacks:
-      label: "Modpacks"
     tools:
       label: "Tools"
-    libraries:
-      label: "Libraries"
-    misc:
-      label: "Misc"
     audio:
       label: "Audio"
+    libraries:
+      label: "Libraries"
+    modpacks:
+      label: "Combos"
+    misc:
+      label: "Misc"
   sections:
     mods:
       name: "Mods"
+      requireCategories:
+        - "mods"
       excludeCategories:
         - "modpacks"
+        - "worlds"
+        - "universes"
+        - "saves"
+    plugins:
+      name: "Plugins"
+      requireCategories:
+        - "plugins"
+      excludeCategories:
+        - "modpacks"
+        - "worlds"
+        - "universes"
+        - "saves"
+        - "asset-packs"
+    asset-packs:
+      name: "Asset Packs"
+      requireCategories:
+        - "asset-packs"
+      excludeCategories:
+        - "modpacks"
+        - "worlds"
+        - "universes"
+        - "saves"
+        - "plugins"
+    saves:
+      name: "Saves"
+      requireCategories:
+        - "saves"
+      excludeCategories:
+        - "modpacks"
+        - "worlds"
+        - "universes"
+        - "mods"
+        - "plugins"
+        - "asset-packs"
+    universes:
+      name: "Universes"
+      requireCategories:
+        - "universes"
+      excludeCategories:
+        - "modpacks"
+        - "worlds"
+        - "saves"
+        - "mods"
+        - "plugins"
+        - "asset-packs"
+    worlds:
+      name: "Worlds"
+      requireCategories:
+        - "worlds"
+      excludeCategories:
+        - "modpacks"
+        - "universes"
+        - "saves"
+        - "mods"
+        - "plugins"
+        - "asset-packs"
+    other:
+      name: "Other"
+      excludeCategories:
+        - "mods"
+        - "plugins"
+        - "asset-packs"
+        - "modpacks"
+        - "worlds"
+        - "universes"
+        - "saves"
     modpacks:
-      name: "Modpacks"
+      name: "Combos"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://hytalemodding.xyz/"
-  discordUrl: "https://discord.gg/KrHK7B39pY"
+  wikiUrl: "https://hytalemodding.dev/"
+  discordUrl: "https://discord.gg/hytalemodding"
   autolistPackageIds: []
