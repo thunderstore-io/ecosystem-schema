@@ -241,3 +241,6 @@
 - packageId: "ReDoIngMods-Rivet"
   rootFolder: "Rivet"
   loader: "rivet"
+- packageId: "BepInEx-BepInExPack_CrabGame"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
