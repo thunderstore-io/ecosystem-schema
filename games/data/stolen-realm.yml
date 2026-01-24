@@ -1,0 +1,80 @@
+uuid: "7bb8d376-9f63-4ffb-ad9b-6069565a1ae0"
+label: "stolen-realm"
+meta:
+  displayName: "Stolen Realm"
+  iconUrl: "stolen-realm.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1330000"
+    steamFolderName: "Stolen Realm"
+    dataFolderName: "Stolen Realm_Data"
+    exeNames:
+      - "Stolen Realm.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Stolen Realm"
+      iconUrl: "stolen-realm.webp"
+    settingsIdentifier: "StolenRealm"
+    internalFolderName: "StolenRealm"
+    packageIndex: "https://thunderstore.io/c/stolen-realm/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Stolen Realm"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Stolen Realm is a simultaneous turn-based tactical dungeon crawling looter with action RPG elements where you control up to 6 heroes, solo or through online co-op, venturing forth in adventures set in a high-fantasy, low-poly world."
