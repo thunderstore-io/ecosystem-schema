@@ -1,0 +1,30 @@
+uuid: "887dcdab-3747-44a3-8c11-56389c80cc73"
+label: "starfox-64-recompiled"
+meta:
+  displayName: "Starfox 64: Recompiled"
+distributions: []
+thunderstore:
+  displayName: "Starfox 64: Recompiled"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds: []
