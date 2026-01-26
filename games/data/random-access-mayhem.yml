@@ -23,7 +23,12 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "夺魄机兵"
-    installRules: []
+    installRules:
+      - route: "mods"
+        defaultFileExtensions: []
+        trackingMethod: "package-zip"
+        subRoutes: []
+        isDefaultLocation: true
     relativeFileExclusions: null
 thunderstore:
   displayName: "RAM: Random Access Mayhem"
