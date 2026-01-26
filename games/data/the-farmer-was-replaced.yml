@@ -1,0 +1,80 @@
+uuid: "20fb1c8c-fa3b-48ec-b0bc-e7d1acc15355"
+label: "the-farmer-was-replaced"
+meta:
+  displayName: "The Farmer Was Replaced"
+  iconUrl: "the-farmer-was-replaced.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2060160"
+    steamFolderName: "The Farmer Was Replaced"
+    dataFolderName: "TheFarmerWasReplaced_Data"
+    exeNames:
+      - "TheFarmerWasReplaced.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "The Farmer Was Replaced"
+      iconUrl: "the-farmer-was-replaced.webp"
+    settingsIdentifier: "TheFarmerWasReplaced"
+    internalFolderName: "TheFarmerWasReplaced"
+    packageIndex: "https://thunderstore.io/c/the-farmer-was-replaced/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "The Farmer Was Replaced"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Program and optimize a drone to automate a farm and watch it do the work for you. Collect resources to unlock better technology and become the most efficient farmer in the world. Improve your problem solving and coding skills."
