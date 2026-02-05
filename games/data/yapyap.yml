@@ -77,3 +77,4 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+  discordUrl: "https://discord.gg/kzKBmD8HrB"
