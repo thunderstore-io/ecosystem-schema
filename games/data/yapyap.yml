@@ -66,6 +66,20 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    client:
+      label: "Client-side"
+    all:
+      label: "All Clients"
+    host:
+      label: "Host Only"
+    wands:
+      label: "Wands"
+    robes:
+      label: "Robes"
+    items:
+      label: "Items"
+    qol:
+      label: "Quality Of Life"
   sections:
     mods:
       name: "Mods"
