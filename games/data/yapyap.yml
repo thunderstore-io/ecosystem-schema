@@ -67,7 +67,7 @@ thunderstore:
     audio:
       label: "Audio"
     client:
-      label: "Client-side"
+      label: "Client Side"
     all:
       label: "All Clients"
     host:
