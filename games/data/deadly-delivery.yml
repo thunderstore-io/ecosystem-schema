@@ -1,0 +1,81 @@
+uuid: "1fd29521-6a2d-4206-abc8-bc2f3a61ac83"
+label: "deadly-delivery"
+meta:
+  displayName: "Deadly Delivery"
+  iconUrl: "deadly-delivery.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3743090"
+    steamFolderName: "Deadly Delivery"
+    dataFolderName: "Deadly Delivery_Data"
+    exeNames:
+      - "Deadly Delivery.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Deadly Delivery"
+      iconUrl: "deadly-delivery.webp"
+    settingsIdentifier: "DeadlyDelivery"
+    internalFolderName: "DeadlyDelivery"
+    packageIndex: "https://thunderstore.io/c/deadly-delivery/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Deadly Delivery"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/vxaFQr9jqC"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "An online VR co-op horror game about delivering parcels into haunted mines. Avoid monsters, drop off packages, and pray you reach the quota! Team up with up to 3 other delivery goblins, survive your shift and pay back your student loans."
