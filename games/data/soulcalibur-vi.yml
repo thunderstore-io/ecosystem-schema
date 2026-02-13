@@ -1,0 +1,72 @@
+uuid: "cc86a7a4-1f50-4c49-bbd6-d2eb960fb894"
+label: "soulcalibur-vi"
+meta:
+  displayName: "SOULCALIBUR VI"
+  iconUrl: "soulcalibur-vi.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "544750"
+    steamFolderName: "SoulcaliburVI"
+    dataFolderName: "SoulcaliburVI"
+    exeNames:
+      - "SoulcaliburVI.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "SOULCALIBUR VI"
+      iconUrl: "soulcalibur-vi.webp"
+    settingsIdentifier: "SoulcaliburVi"
+    internalFolderName: "SoulcaliburVi"
+    packageIndex: "https://thunderstore.io/c/soulcalibur-vi/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "SC6"
+      - "SCVI"
+      - "Soul Calibur"
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "SOULCALIBUR VI"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/jsJ7XpP"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "Bring more than your fists to the fight! Featuring all-new battle mechanics and characters, SOULCALIBUR VI marks a new era of the historic franchise. Welcome back to the stage of history!"
