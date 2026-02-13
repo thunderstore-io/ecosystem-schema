@@ -22,7 +22,22 @@ r2modman:
     packageIndex: "https://thunderstore.io/c/rv-there-yet/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
-    installRules: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "RV There Yet?"
