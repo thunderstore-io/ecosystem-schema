@@ -2,7 +2,45 @@ uuid: "43c1b6fb-f9a5-4d25-847f-c3eda4f2bf5a"
 label: "astroneer"
 meta:
   displayName: "Astroneer"
-distributions: []
+distributions:
+  - platform: "steam"
+    identifier: "361420"
+r2modman:
+  - meta:
+      displayName: "Astroneer"
+      iconUrl: "astroneer.webp"
+    internalFolderName: "Astroneer"
+    dataFolderName: "Astro"
+    distributions:
+      - platform: "steam"
+        identifier: "361420"
+    settingsIdentifier: "Astroneer"
+    packageIndex: "https://thunderstore.io/c/astroneer/api/v1/package-listing-index/"
+    steamFolderName: "ASTRONEER"
+    exeNames:
+      - "Astro.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    packageLoader: "shimloader"
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".pak"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
 thunderstore:
   displayName: "Astroneer"
   categories:
@@ -25,4 +63,5 @@ thunderstore:
         - "modpacks"
   wikiUrl: "https://astroneermodding.readthedocs.io/en/latest/"
   discordUrl: "https://discord.gg/astroneer-modding-774729322674126858"
-  autolistPackageIds: []
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"

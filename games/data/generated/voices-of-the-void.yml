@@ -26,5 +26,20 @@ r2modman:
       - "votv"
       - "虚空之声"
     packageLoader: "shimloader"
-    installRules: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
     relativeFileExclusions: null
