@@ -1,0 +1,80 @@
+uuid: "e0c90bc6-675a-4ae7-a60e-57696d4a2205"
+label: "granny-chapter-two"
+meta:
+  displayName: "Granny: Chapter Two"
+  iconUrl: "granny-chapter-two.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1205040"
+    steamFolderName: "Granny Chapter Two"
+    dataFolderName: "Granny Chapter Two_Data"
+    exeNames:
+      - "Granny Chapter Two.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Granny: Chapter Two"
+      iconUrl: "granny-chapter-two.webp"
+    settingsIdentifier: "GrannyChapterTwo"
+    internalFolderName: "GrannyChapterTwo"
+    packageIndex: "https://thunderstore.io/c/granny-chapter-two/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Granny: Chapter Two"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "You have to escape Granny and Grandpa...You have five days..."
