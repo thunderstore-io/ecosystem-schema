@@ -13,6 +13,7 @@ r2modman:
     dataFolderName: "On-Together_Data"
     exeNames:
       - "On-Together.exe"
+      - "OnTogether.exe"
     packageLoader: "bepinex"
     meta:
       displayName: "On-Together: Virtual Co-Working"
