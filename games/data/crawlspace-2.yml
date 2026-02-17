@@ -54,6 +54,7 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Crawlspace 2"
+  discordUrl: "https://discord.gg/BDZ6NjegeR"
   categories:
     mods:
       label: "Mods"
