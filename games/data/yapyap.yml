@@ -80,6 +80,8 @@ thunderstore:
       label: "Items"
     qol:
       label: "Quality Of Life"
+    contracts:
+      label: "Contracts"
   sections:
     mods:
       name: "Mods"
