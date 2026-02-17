@@ -1,26 +1,25 @@
-uuid: "299844b0-c8f4-41da-8e4a-d742aca37f8d"
-label: "on-together"
+uuid: "1fd29521-6a2d-4206-abc8-bc2f3a61ac83"
+label: "deadly-delivery"
 meta:
-  displayName: "On-Together: Virtual Co-Working"
-  iconUrl: "on-together.webp"
+  displayName: "Deadly Delivery"
+  iconUrl: "deadly-delivery.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "3707400"
-    steamFolderName: "On-Together/On-Together"
-    dataFolderName: "On-Together_Data"
+        identifier: "3743090"
+    steamFolderName: "Deadly Delivery"
+    dataFolderName: "Deadly Delivery_Data"
     exeNames:
-      - "On-Together.exe"
-      - "OnTogether.exe"
+      - "Deadly Delivery.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "On-Together: Virtual Co-Working"
-      iconUrl: "on-together.webp"
-    settingsIdentifier: "OnTogetherVirtualCoWorking"
-    internalFolderName: "OnTogetherVirtualCoWorking"
-    packageIndex: "https://thunderstore.io/c/on-together/api/v1/package-listing-index/"
+      displayName: "Deadly Delivery"
+      iconUrl: "deadly-delivery.webp"
+    settingsIdentifier: "DeadlyDelivery"
+    internalFolderName: "DeadlyDelivery"
+    packageIndex: "https://thunderstore.io/c/deadly-delivery/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules:
@@ -53,7 +52,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "On-Together: Virtual Co-Working"
+  displayName: "Deadly Delivery"
   categories:
     mods:
       label: "Mods"
@@ -76,6 +75,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.com/invite/vxaFQr9jqC"
   autolistPackageIds:
-    - "BepInEx-BepInExPack"
-  shortDescription: "Virtual co-working with friends or strangers all over the world! Digital pals hang out at the bottom of the screen while you work, study, and get stuff done. Includes productivity tools, hangout spots, breaktime games, and more!"
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "An online VR co-op horror game about delivering parcels into haunted mines. Avoid monsters, drop off packages, and pray you reach the quota! Team up with up to 3 other delivery goblins, survive your shift and pay back your student loans."

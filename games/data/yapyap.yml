@@ -66,6 +66,22 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    client:
+      label: "Client Side"
+    all:
+      label: "All Clients"
+    host:
+      label: "Host Only"
+    wands:
+      label: "Wands"
+    robes:
+      label: "Robes"
+    items:
+      label: "Items"
+    qol:
+      label: "Quality Of Life"
+    contracts:
+      label: "Contracts"
   sections:
     mods:
       name: "Mods"
@@ -77,3 +93,4 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+  discordUrl: "https://discord.gg/kzKBmD8HrB"

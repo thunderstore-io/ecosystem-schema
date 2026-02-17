@@ -1,27 +1,30 @@
-uuid: "81310141-47b7-4a76-9142-f5a42d1c7811"
-label: "rv-there-yet"
+uuid: "cc86a7a4-1f50-4c49-bbd6-d2eb960fb894"
+label: "soulcalibur-vi"
 meta:
-  displayName: "RV There Yet?"
-  iconUrl: "rv-there-yet.webp"
+  displayName: "SOULCALIBUR VI"
+  iconUrl: "soulcalibur-vi.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "3949040"
-    steamFolderName: "Ride"
-    dataFolderName: "Ride"
+        identifier: "544750"
+    steamFolderName: "SoulcaliburVI"
+    dataFolderName: "SoulcaliburVI"
     exeNames:
-      - "Ride.exe"
+      - "SoulcaliburVI.exe"
     packageLoader: "shimloader"
     meta:
-      displayName: "RV There Yet?"
-      iconUrl: "rv-there-yet.webp"
-    settingsIdentifier: "RvThereYet"
-    internalFolderName: "RvThereYet"
-    packageIndex: "https://thunderstore.io/c/rv-there-yet/api/v1/package-listing-index/"
+      displayName: "SOULCALIBUR VI"
+      iconUrl: "soulcalibur-vi.webp"
+    settingsIdentifier: "SoulcaliburVi"
+    internalFolderName: "SoulcaliburVi"
+    packageIndex: "https://thunderstore.io/c/soulcalibur-vi/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "SC6"
+      - "SCVI"
+      - "Soul Calibur"
     installRules:
       - route: "shimloader/mod"
         isDefaultLocation: true
@@ -40,7 +43,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "RV There Yet?"
+  displayName: "SOULCALIBUR VI"
   categories:
     mods:
       label: "Mods"
@@ -63,5 +66,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/jsJ7XpP"
   autolistPackageIds:
     - "Thunderstore-unreal_shimloader"
+  shortDescription: "Bring more than your fists to the fight! Featuring all-new battle mechanics and characters, SOULCALIBUR VI marks a new era of the historic franchise. Welcome back to the stage of history!"
