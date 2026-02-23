@@ -1,0 +1,81 @@
+uuid: "ff4d426c-8315-4e7c-b942-ce9d60dc2082"
+label: "super-battle-golf"
+meta:
+  displayName: "Super Battle Golf"
+  iconUrl: "super-battle-golf.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4069520"
+    steamFolderName: "Super Battle Golf"
+    dataFolderName: "Super Battle Golf_Data"
+    exeNames:
+      - "Super Battle Golf.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Super Battle Golf"
+      iconUrl: "super-battle-golf.webp"
+    settingsIdentifier: "SuperBattleGolf"
+    internalFolderName: "SuperBattleGolf"
+    packageIndex: "https://thunderstore.io/c/super-battle-golf/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "SBG"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Super Battle Golf"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "An online 1-8 player golf game where everyone plays at the same time. Swing, shoot, sabotage, and finish first by any means necessary in a free-for-all rush to the hole."
