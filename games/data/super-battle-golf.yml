@@ -76,6 +76,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/CCcvS2JDjH"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
   shortDescription: "An online 1-8 player golf game where everyone plays at the same time. Swing, shoot, sabotage, and finish first by any means necessary in a free-for-all rush to the hole."
