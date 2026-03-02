@@ -9,7 +9,7 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "4264890"
-    steamFolderName: "Cursed Words"
+    steamFolderName: "Cursed Words Demo"
     dataFolderName: "Cursed Words_Data"
     exeNames:
       - "Cursed Words.exe"
