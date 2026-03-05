@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "OnTogetherVirtualCoWorking"
     packageIndex: "https://thunderstore.io/c/on-together/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "随时在一起：云自习"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

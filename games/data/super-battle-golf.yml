@@ -23,6 +23,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "SBG"
+      - "超级高尔夫大乱斗"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
