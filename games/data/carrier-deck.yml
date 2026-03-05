@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "CarrierDeck"
     packageIndex: "https://thunderstore.io/c/carrier-deck/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "甲板指挥官"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

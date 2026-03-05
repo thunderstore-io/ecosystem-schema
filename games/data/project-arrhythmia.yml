@@ -23,6 +23,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "PA"
+      - "心律失常"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

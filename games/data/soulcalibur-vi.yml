@@ -25,6 +25,9 @@ r2modman:
       - "SC6"
       - "SCVI"
       - "Soul Calibur"
+      - "灵魂能力6"
+      - "刀魂6"
+      - "剑魂6"
     installRules:
       - route: "shimloader/mod"
         isDefaultLocation: true
