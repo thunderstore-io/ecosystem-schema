@@ -1,0 +1,81 @@
+uuid: "52f15796-8648-4247-8a84-9ef16ea2103c"
+label: "crawlspace"
+meta:
+  displayName: "Crawlspace"
+  iconUrl: "crawlspace.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1787860"
+    steamFolderName: "Crawlspace"
+    dataFolderName: "Crawlspace_Data"
+    exeNames:
+      - "Crawlspace.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Crawlspace"
+      iconUrl: "crawlspace.webp"
+    settingsIdentifier: "Crawlspace"
+    internalFolderName: "Crawlspace"
+    packageIndex: "https://thunderstore.io/c/crawlspace/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Crawlspace"
+  discordUrl: "https://discord.gg/BDZ6NjegeR"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "You saw an Ad about someone needing help with an odd job, retrieving his daughters missing dolls. Sounding like easy cash, you leave a message telling him you are interested. but as the nights progress, you realize why nobody else wanted to take this job."
