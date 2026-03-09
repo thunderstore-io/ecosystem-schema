@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "FactoryPlanner"
     packageIndex: "https://thunderstore.io/c/factory-planner/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "卡牌工厂"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

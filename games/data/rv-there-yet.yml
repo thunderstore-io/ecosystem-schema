@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "RvThereYet"
     packageIndex: "https://thunderstore.io/c/rv-there-yet/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "我们到了吗？"
     installRules:
       - route: "shimloader/mod"
         isDefaultLocation: true

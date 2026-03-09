@@ -21,7 +21,9 @@ r2modman:
       - "Astro.exe"
     gameInstanceType: "game"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "异星探险家"
+      - "异星旅人"
     packageLoader: "shimloader"
     installRules:
       - route: "shimloader/mod"

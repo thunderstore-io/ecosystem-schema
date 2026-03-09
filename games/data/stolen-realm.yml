@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "StolenRealm"
     packageIndex: "https://thunderstore.io/c/stolen-realm/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "失落王国"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

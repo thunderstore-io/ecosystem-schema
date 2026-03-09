@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "GrannyChapterTwo"
     packageIndex: "https://thunderstore.io/c/granny-chapter-two/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "恐怖奶奶2"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

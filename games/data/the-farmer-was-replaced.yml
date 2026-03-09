@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "TheFarmerWasReplaced"
     packageIndex: "https://thunderstore.io/c/the-farmer-was-replaced/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "编程农场"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
