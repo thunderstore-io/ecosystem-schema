@@ -46,7 +46,7 @@ thunderstore:
       name: "Bundles"
       requireCategories:
         - "bundles"
-  wikiUrl: "https://atlyss.wiki.gg/wiki/ATLYSS_Wiki"
+  wikiUrl: "https://github.com/AtlyssModding/ATLYSS-Modding-Resources"
   discordUrl: "https://discord.gg/hQceRJ7pEW"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
