@@ -13,7 +13,7 @@ r2modman:
     dataFolderName: "Cryo_Data"
     exeNames:
       - "Cryo.exe"
-    packageLoader: "melonloader"
+    packageLoader: "recursive-melonloader"
     meta:
       displayName: "CRYO"
       iconUrl: "cryo.webp"
