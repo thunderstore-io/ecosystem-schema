@@ -48,6 +48,8 @@ thunderstore:
       label: "Client-side"
     server-side:
       label: "Server-side"
+    mod-jam-1:
+      label: "Mod Jam 1 - Void"
   sections:
     mods:
       name: "Mods"
