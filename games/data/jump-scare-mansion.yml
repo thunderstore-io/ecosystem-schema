@@ -1,0 +1,83 @@
+uuid: "bd792010-c61e-454a-bf51-b3c28243e14f"
+label: "jump-scare-mansion"
+meta:
+  displayName: "Spooky's Jump Scare Mansion: HD Renovation"
+  iconUrl: "jump-scare-mansion.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "577690"
+    steamFolderName: "Spooky's Jump Scare Mansion HD Renovation"
+    dataFolderName: "SpookyUnity_Data"
+    exeNames:
+      - "SpookyUnity.exe"
+      - "SpookyUnity.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Spooky's Jump Scare Mansion: HD Renovation"
+      iconUrl: "jump-scare-mansion.webp"
+    settingsIdentifier: "SpookysJumpScareMansionHdRenovation"
+    internalFolderName: "SpookysJumpScareMansionHdRenovation"
+    packageIndex: "https://thunderstore.io/c/jump-scare-mansion/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "SJSM"
+      - "Spookys"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Spooky's Jump Scare Mansion: HD Renovation"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Can you survive 1000 rooms of cute terror? Or will you break once the cuteness starts to fade off and you're running for your life from the unspeakable hideous beings that shake and writhe in bowels of this house? They wait for you, they wait and hunger for meeting you."
