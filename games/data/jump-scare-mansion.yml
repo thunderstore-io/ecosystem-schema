@@ -1,29 +1,30 @@
-uuid: "ff4d426c-8315-4e7c-b942-ce9d60dc2082"
-label: "super-battle-golf"
+uuid: "bd792010-c61e-454a-bf51-b3c28243e14f"
+label: "jump-scare-mansion"
 meta:
-  displayName: "Super Battle Golf"
-  iconUrl: "super-battle-golf.webp"
+  displayName: "Spooky's Jump Scare Mansion: HD Renovation"
+  iconUrl: "jump-scare-mansion.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4069520"
-    steamFolderName: "Super Battle Golf"
-    dataFolderName: "Super Battle Golf_Data"
+        identifier: "577690"
+    steamFolderName: "Spooky's Jump Scare Mansion HD Renovation"
+    dataFolderName: "SpookyUnity_Data"
     exeNames:
-      - "Super Battle Golf.exe"
+      - "SpookyUnity.exe"
+      - "SpookyUnity.app"
     packageLoader: "bepinex"
     meta:
-      displayName: "Super Battle Golf"
-      iconUrl: "super-battle-golf.webp"
-    settingsIdentifier: "SuperBattleGolf"
-    internalFolderName: "SuperBattleGolf"
-    packageIndex: "https://thunderstore.io/c/super-battle-golf/api/v1/package-listing-index/"
+      displayName: "Spooky's Jump Scare Mansion: HD Renovation"
+      iconUrl: "jump-scare-mansion.webp"
+    settingsIdentifier: "SpookysJumpScareMansionHdRenovation"
+    internalFolderName: "SpookysJumpScareMansionHdRenovation"
+    packageIndex: "https://thunderstore.io/c/jump-scare-mansion/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - "SBG"
-      - "超级高尔夫大乱斗"
+      - "SJSM"
+      - "Spookys"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -54,7 +55,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Super Battle Golf"
+  displayName: "Spooky's Jump Scare Mansion: HD Renovation"
   categories:
     mods:
       label: "Mods"
@@ -68,20 +69,6 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
-    items:
-      label: "Items"
-    qol:
-      label: "Quality of Life"
-    cosmetics:
-      label: "Cosmetics"
-    courses:
-      label: "Courses"
-    clientside:
-      label: "Client-Side"
-    hostonly:
-      label: "Host-Only"
-    allclients:
-      label: "All Clients Required"
   sections:
     mods:
       name: "Mods"
@@ -91,7 +78,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: "https://discord.gg/CCcvS2JDjH"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
-  shortDescription: "An online 1-8 player golf game where everyone plays at the same time. Swing, shoot, sabotage, and finish first by any means necessary in a free-for-all rush to the hole."
+  shortDescription: "Can you survive 1000 rooms of cute terror? Or will you break once the cuteness starts to fade off and you're running for your life from the unspeakable hideous beings that shake and writhe in bowels of this house? They wait for you, they wait and hunger for meeting you."

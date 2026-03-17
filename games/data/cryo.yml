@@ -1,32 +1,31 @@
-uuid: "4746944a-59d5-4038-8a13-f9710a4c4bb7"
-label: "beetleball"
+uuid: "000d475a-d3d2-45e3-9059-2994929441a8"
+label: "cryo"
 meta:
-  displayName: "Beetleball"
-  iconUrl: "beetleball.webp"
+  displayName: "CRYO"
+  iconUrl: "cryo.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4231580"
-    steamFolderName: "Beetleball Demo"
-    dataFolderName: "Beetleball_Data"
+        identifier: "2564910"
+    steamFolderName: "CRYO"
+    dataFolderName: "Cryo_Data"
     exeNames:
-      - "Beetleball.exe"
+      - "Cryo.exe"
     packageLoader: "recursive-melonloader"
     meta:
-      displayName: "Beetleball"
-      iconUrl: "beetleball.webp"
-    settingsIdentifier: "Beetleball"
-    internalFolderName: "Beetleball"
-    packageIndex: "https://thunderstore.io/c/beetleball/api/v1/package-listing-index/"
+      displayName: "CRYO"
+      iconUrl: "cryo.webp"
+    settingsIdentifier: "Cryo"
+    internalFolderName: "Cryo"
+    packageIndex: "https://thunderstore.io/c/cryo/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings: []
     installRules: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Beetleball"
-  shortDescription: "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST"
+  displayName: "CRYO"
   categories:
     mods:
       label: "Mods"
@@ -51,3 +50,4 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
+  shortDescription: "CRYO is a multiplayer co-op survival horror for 1-4 players. You have been deployed by your company to various locations around the Antarctic due to communication issues. What awaits you in these dark, remote regions is far more sinister than a technical fault..."

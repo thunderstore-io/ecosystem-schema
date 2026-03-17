@@ -1,0 +1,55 @@
+uuid: "f82a5eb3-c8b7-49af-99d8-a812ab87f8fc"
+label: "gorilla-tag"
+meta:
+  displayName: "Gorilla Tag"
+  iconUrl: "gorilla-tag.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1533390"
+    steamFolderName: "Gorilla Tag"
+    dataFolderName: "Gorilla Tag_Data"
+    exeNames:
+      - "Gorilla Tag.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Gorilla Tag"
+      iconUrl: "gorilla-tag.webp"
+    settingsIdentifier: "GorillaTag"
+    internalFolderName: "GorillaTag"
+    packageIndex: "https://thunderstore.io/c/gorilla-tag/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "GT"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Gorilla Tag"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/5rTmMjtECf"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Run, jump, and climb using only your hands. Play tag or infection with people online. Run away from the infected players, or outmaneuver the survivors to catch them. Embrace your inner ape."

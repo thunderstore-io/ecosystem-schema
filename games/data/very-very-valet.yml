@@ -1,29 +1,28 @@
-uuid: "ff4d426c-8315-4e7c-b942-ce9d60dc2082"
-label: "super-battle-golf"
+uuid: "f5e40d47-b6b6-46a0-b8e1-cefcd851e796"
+label: "very-very-valet"
 meta:
-  displayName: "Super Battle Golf"
-  iconUrl: "super-battle-golf.webp"
+  displayName: "Very Very Valet"
+  iconUrl: "very-very-valet.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4069520"
-    steamFolderName: "Super Battle Golf"
-    dataFolderName: "Super Battle Golf_Data"
+        identifier: "1448840"
+    steamFolderName: "Very Very Valet/windows"
+    dataFolderName: "VeryVeryValet_Release_Data"
     exeNames:
-      - "Super Battle Golf.exe"
+      - "VeryVeryValet_Release.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "Super Battle Golf"
-      iconUrl: "super-battle-golf.webp"
-    settingsIdentifier: "SuperBattleGolf"
-    internalFolderName: "SuperBattleGolf"
-    packageIndex: "https://thunderstore.io/c/super-battle-golf/api/v1/package-listing-index/"
+      displayName: "Very Very Valet"
+      iconUrl: "very-very-valet.webp"
+    settingsIdentifier: "VeryVeryValet"
+    internalFolderName: "VeryVeryValet"
+    packageIndex: "https://thunderstore.io/c/very-very-valet/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
-      - "SBG"
-      - "超级高尔夫大乱斗"
+      - "VVV"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -54,7 +53,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Super Battle Golf"
+  displayName: "Very Very Valet"
   categories:
     mods:
       label: "Mods"
@@ -68,20 +67,6 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
-    items:
-      label: "Items"
-    qol:
-      label: "Quality of Life"
-    cosmetics:
-      label: "Cosmetics"
-    courses:
-      label: "Courses"
-    clientside:
-      label: "Client-Side"
-    hostonly:
-      label: "Host-Only"
-    allclients:
-      label: "All Clients Required"
   sections:
     mods:
       name: "Mods"
@@ -91,7 +76,6 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  discordUrl: "https://discord.gg/CCcvS2JDjH"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
-  shortDescription: "An online 1-8 player golf game where everyone plays at the same time. Swing, shoot, sabotage, and finish first by any means necessary in a free-for-all rush to the hole."
+  shortDescription: "Your next chaotic couch co-op party game is here! Drive, boost, and crash like wild with friends in this parking palooza"

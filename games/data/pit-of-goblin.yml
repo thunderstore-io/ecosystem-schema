@@ -1,0 +1,55 @@
+uuid: "642cb413-e757-4276-a329-5b7539e527e1"
+label: "pit-of-goblin"
+meta:
+  displayName: "Pit of Goblin"
+  iconUrl: "pit-of-goblin.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3253530"
+    steamFolderName: "Pit of Goblin"
+    dataFolderName: "Pit of Goblin_Data"
+    exeNames:
+      - "Pit of Goblin.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Pit of Goblin"
+      iconUrl: "pit-of-goblin.webp"
+    settingsIdentifier: "PitOfGoblin"
+    internalFolderName: "PitOfGoblin"
+    packageIndex: "https://thunderstore.io/c/pit-of-goblin/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "POG"
+      - "PoG"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Pit of Goblin"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "In this online horror co-op, you play as a scrappy goblin, scavenging dungeons, dodging traps, and fleeing monsters to feed the Goblin King-Queen. Team up with goblin pals, or go rogue, as you dive deep and cause chaos! Fail to feed them, and you might be the next meal!"
