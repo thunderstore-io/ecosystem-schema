@@ -66,6 +66,8 @@ thunderstore:
       label: "Performance"
     tweaks-and-quality-of-life:
       label: "Tweaks & Quality Of Life"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
