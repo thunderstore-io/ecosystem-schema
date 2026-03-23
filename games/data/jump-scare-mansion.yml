@@ -25,6 +25,9 @@ r2modman:
     additionalSearchStrings:
       - "SJSM"
       - "Spookys"
+      - "惊吓幽灵屋HD"
+      - "吓一跳的幽灵屋HD"
+      - "幽灵洋楼HD"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
