@@ -42,10 +42,14 @@ thunderstore:
           label: "Themes"
         tools:
           label: "Tools"
+        cheats:
+          label: "Cheats"
         misc:
           label: "Misc"
         0-62-branch:
           label: "0.62 Branch"
+        0-66-branch:
+          label: "0.66 Branch"
         manual-dependencies:
           label: "Requires Manual Dependencies"
   sections:
@@ -54,12 +58,14 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "0-62-branch"
+        - "0-66-branch"
     main-modpacks:
       name: "Main Branch Modpacks"
       requireCategories:
         - "modpacks"
       excludeCategories:
         - "0-62-branch"
+        - "0-66-branch"
     0-62:
       name: "0.62 Branch"
       requireCategories:
@@ -71,6 +77,17 @@ thunderstore:
       requireCategories:
         - "modpacks"
         - "0-62-branch"
+    0-66:
+      name: "0.66 Branch"
+      requireCategories:
+        - "0-66-branch"
+      excludeCategories:
+        - "modpacks"
+    0-66-modpacks:
+      name: "0.66 Branch Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "0-66-branch"
   wikiUrl: "https://tcg-card-shop-simulator.notion.site/3f8c9de6b54c47a9b80329b40bdd3c2c?v=04938d1088de49e5a55734d498f081ef"
   discordUrl: "https://discord.gg/kCp4mRAVUE"
   autolistPackageIds:
