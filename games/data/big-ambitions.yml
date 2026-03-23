@@ -1,0 +1,55 @@
+uuid: "2c4ef1aa-08bb-4ed8-9b74-4a23b390915c"
+label: "big-ambitions"
+meta:
+  displayName: "Big Ambitions"
+  iconUrl: "big-ambitions.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1331550"
+    steamFolderName: "Big Ambitions"
+    dataFolderName: "Big Ambitions_Data"
+    exeNames:
+      - "Big Ambitions.exe"
+      - "Big Ambitions.app"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Big Ambitions"
+      iconUrl: "big-ambitions.webp"
+    settingsIdentifier: "BigAmbitions"
+    internalFolderName: "BigAmbitions"
+    packageIndex: "https://thunderstore.io/c/big-ambitions/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Big Ambitions"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/hovgaardgames"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Big Ambitions is a revolutionary role-playing business sim. Go from nothing to the biggest entrepreneur in New York by opening small businesses or slowly building huge corporations any way you like."
