@@ -4,7 +4,7 @@ meta:
   displayName: "Titanfall 2"
   iconUrl: "titanfall-2.webp"
 distributions:
-  - platform: "steam-direct"
+  - platform: "steam"
     identifier: "1237970"
   - platform: "origin"
     identifier: ""
@@ -15,7 +15,7 @@ r2modman:
     internalFolderName: "Titanfall2"
     dataFolderName: ""
     distributions:
-      - platform: "steam-direct"
+      - platform: "steam"
         identifier: "1237970"
       - platform: "origin"
         identifier: ""
