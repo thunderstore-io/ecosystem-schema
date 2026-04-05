@@ -24,10 +24,23 @@ thunderstore:
       label: "Misc"
     cosmetics:
       label: "Cosmetics"
+    soundpacks:
+      label: "Sound Packs"
+    qol:
+      label: "Quality Of Life"
+    gameplay:
+      label: "Gameplay"
+    utility:
+      label: "Utility"
+    skins:
+      label: "Skins"
   sections:
     mods:
       name: "Mods"
-      excludeCategories: ["modpacks"]
+      excludeCategories: ["modpacks","soundpacks"]
+    soundpacks:
+      name: "Sound Packs"
+      requireCategories: ["soundpacks"]
     modpacks:
       name: "Modpacks"
       requireCategories: ["modpacks"]
