@@ -1,0 +1,81 @@
+uuid: "91fea4ea-4642-4afe-b906-4d45fc8ca1a1"
+label: "project-gorgon"
+meta:
+  displayName: "Project Gorgon"
+  iconUrl: "project-gorgon.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "342940"
+    steamFolderName: "Project Gorgon"
+    dataFolderName: "WindowsPlayer_Data"
+    exeNames:
+      - "WindowsPlayer.exe"
+      - "ProjectGorgon"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Project Gorgon"
+      iconUrl: "project-gorgon.webp"
+    settingsIdentifier: "ProjectGorgon"
+    internalFolderName: "ProjectGorgon"
+    packageIndex: "https://thunderstore.io/c/project-gorgon/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Project Gorgon"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Project: Gorgon is a fantasy MMORPG that allows you to forge your own path through exploration and discovery."
