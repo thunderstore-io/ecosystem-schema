@@ -1,0 +1,54 @@
+uuid: "e036d5db-ba60-420d-b151-3a56eb8183ab"
+label: "angry-birds-vr-isle-of-pigs"
+meta:
+  displayName: "Angry Birds VR: Isle of Pigs"
+  iconUrl: "angry-birds-vr-isle-of-pigs.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1001140"
+    steamFolderName: "Angry Birds VR Isle of Pigs"
+    dataFolderName: "angry-birds-vr-isle-of-pigs_Data"
+    exeNames:
+      - "angry-birds-vr-isle-of-pigs.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Angry Birds VR: Isle of Pigs"
+      iconUrl: "angry-birds-vr-isle-of-pigs.webp"
+    settingsIdentifier: "AngryBirdsVrIsleOfPigs"
+    internalFolderName: "AngryBirdsVrIsleOfPigs"
+    packageIndex: "https://thunderstore.io/c/angry-birds-vr-isle-of-pigs/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ABVR"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Angry Birds VR: Isle of Pigs"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Join Red, Chuck, Bomb & the Blues to save the stolen eggs in Angry Birds VR: Isle of Pigs, an immersive VR adventure! Discover the island where the greedy pigs vacation, slingshot your way to defeat Dr. Frankenswine & create/share/discover an infinite number of levels with the online level builder."
