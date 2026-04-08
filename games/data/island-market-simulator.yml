@@ -1,0 +1,83 @@
+uuid: "61a62561-13d8-4e32-9d1c-25f77acf702e"
+label: "island-market-simulator"
+meta:
+  displayName: "Island Market Simulator"
+  iconUrl: "island-market-simulator.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3391510"
+    steamFolderName: "Island Market Simulator"
+    dataFolderName: "Island Market Simulator_Data"
+    exeNames:
+      - "Island Market Simulator.exe"
+      - "IslandMarketSimulator.x86_64"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Island Market Simulator"
+      iconUrl: "island-market-simulator.webp"
+    settingsIdentifier: "IslandMarketSimulator"
+    internalFolderName: "IslandMarketSimulator"
+    packageIndex: "https://thunderstore.io/c/island-market-simulator/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "IMS"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Island Market Simulator"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/mKPBe6KccK"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Team up with your friends and build a thriving trade empire in this CO-OP strategy and economy simulation set on a lively island. Begin with a small market, share tasks, manage production chains, raise livestock, and dominate the economy together through changing seasons and dynamic festivals!"
