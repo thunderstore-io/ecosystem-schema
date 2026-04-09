@@ -77,4 +77,5 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+  discordUrl: "https://discord.gg/modulus"
   shortDescription: "Build, automate, & optimize production lines across sky islands with real spatial constraints. Every production line is an open-ended puzzle: which operators to use, how to route your belts and how to fit your factory into the landscape. Your solutions, like your factories, are uniquely your own."
