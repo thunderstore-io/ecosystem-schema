@@ -15,6 +15,7 @@
     "deploy": "tsx ./src/scripts/deploy.ts",
     "validate": "tsx ./src/scripts/validate.ts",
     "diff": "tsx ./src/scripts/diff.ts",
+    "check:game-keys": "tsx ./src/scripts/checkGameKeyRemovals.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

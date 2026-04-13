@@ -1,0 +1,41 @@
+on:
+  pull_request:
+    paths:
+      - "games/**"
+
+jobs:
+  validate-game-keys:
+    name: "Validate Games Keys"
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        working-directory: "games"
+    steps:
+      - uses: "actions/checkout@v3"
+        with:
+          fetch-depth: 0
+      - uses: "actions/setup-node@v3"
+        with:
+          node-version: "23.6"
+          cache-dependency-path: "games/yarn.lock"
+      - name: "Build schema for PR head"
+        run: |
+          yarn install --immutable
+          yarn run build
+          mkdir -p ../.artifacts/head
+          cp dist/latest.json ../.artifacts/head/latest.json
+      - name: "Build schema for PR base"
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git checkout "$BASE_SHA"
+          yarn install --immutable
+          yarn run build
+          mkdir -p ../.artifacts/base
+          cp dist/latest.json ../.artifacts/base/latest.json
+      - name: "Restore PR head checkout"
+        env:
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: git checkout "$HEAD_SHA"
+      - name: "Ensure no game keys were removed"
+        run: "yarn run check:game-keys ../.artifacts/base/latest.json ../.artifacts/head/latest.json"
