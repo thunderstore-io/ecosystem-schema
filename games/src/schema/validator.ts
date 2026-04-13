@@ -80,7 +80,9 @@ const r2modmanSchema = z.strictObject({
 const gameSchema = z.strictObject({
   uuid: z.string().uuid(),
   label: slug,
-  meta: metaSchema,
+  meta: metaSchema.extend({
+      iconUrl: iconUrl.nullable()
+  }),
   distributions: z.array(distributionSchema),
   thunderstore: communitySchema.optional(),
   tcli: z.object({}).passthrough().optional(), // TODO: Use strict object with schema
