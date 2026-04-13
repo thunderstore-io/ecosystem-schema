@@ -10,6 +10,7 @@ import {
 } from "../models";
 
 const slug = z.string().regex(new RegExp(/^[a-z0-9](-?[a-z0-9])*$/));
+const iconUrl = z.string().regex(new RegExp(/^[a-z0-9\-]+\.webp$/));
 
 const communitySchema = z.strictObject({
   displayName: z.string(),
@@ -56,7 +57,7 @@ const distributionSchema = z.strictObject({
 });
 const metaSchema = z.strictObject({
   displayName: z.string(),
-  iconUrl: z.string().nullable(),
+  iconUrl: iconUrl,
 });
 
 const r2modmanSchema = z.strictObject({
