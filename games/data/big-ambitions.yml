@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "BigAmbitions"
     packageIndex: "https://thunderstore.io/c/big-ambitions/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "雄心壮志"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
