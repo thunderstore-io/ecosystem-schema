@@ -9,6 +9,7 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "3799100"
+      - platform: "other"
     steamFolderName: "Side Effects"
     dataFolderName: "Side Effects_Data"
     exeNames:
