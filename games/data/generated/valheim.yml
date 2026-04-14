@@ -68,7 +68,7 @@ r2modman:
     relativeFileExclusions: null
   - meta:
       displayName: "Valheim Dedicated Server"
-      iconUrl: "Valheim.jpg"
+      iconUrl: "valheim.webp"
     internalFolderName: "Valheim"
     dataFolderName: "valheim_server_Data"
     distributions:
