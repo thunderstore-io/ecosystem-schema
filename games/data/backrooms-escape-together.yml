@@ -1,0 +1,57 @@
+uuid: "b6e77333-6bd4-42ca-a77d-8e200bff5094"
+label: "backrooms-escape-together"
+meta:
+  displayName: "Backrooms: Escape Together"
+  iconUrl: "backrooms-escape-together.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2141730"
+    steamFolderName: "Backrooms_Escape_Together"
+    dataFolderName: ""
+    exeNames:
+      - "BETGame.exe"
+    packageLoader: "none"
+    meta:
+      displayName: "Backrooms: Escape Together"
+      iconUrl: "backrooms-escape-together.webp"
+    settingsIdentifier: "BackroomsEscapeTogether"
+    internalFolderName: "BackroomsEscapeTogether"
+    packageIndex: "https://thunderstore.io/c/backrooms-escape-together/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "mods"
+        defaultFileExtensions: []
+        trackingMethod: "subdir-no-flatten"
+        subRoutes: []
+        isDefaultLocation: true
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Backrooms: Escape Together"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/backrooms"
+  shortDescription: "A visually lifelike co-op horror for 1-6 people. Journey through 10 procedurally generated levels, using what's available to survive and progress deeper into the Backrooms."
