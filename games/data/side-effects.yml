@@ -1,0 +1,81 @@
+uuid: "26a8a6fb-51ca-4706-8286-e8e8a23c30d1"
+label: "side-effects"
+meta:
+  displayName: "SIDE EFFECTS"
+  iconUrl: "side-effects.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3799100"
+      - platform: "other"
+    steamFolderName: "Side Effects"
+    dataFolderName: "Side Effects_Data"
+    exeNames:
+      - "Side Effects.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "SIDE EFFECTS"
+      iconUrl: "side-effects.webp"
+    settingsIdentifier: "SideEffects"
+    internalFolderName: "SideEffects"
+    packageIndex: "https://thunderstore.io/c/side-effects/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "SIDE EFFECTS"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "A twisted trial of pill roulette for up to 4 players (solo or online). Pick your poison. Use experimental items to shift the odds. And remember: only one of you can survive."
