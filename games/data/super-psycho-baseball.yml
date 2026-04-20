@@ -1,0 +1,81 @@
+uuid: "447a553c-c682-4493-8677-ae894e110f05"
+label: "super-psycho-baseball"
+meta:
+  displayName: "Super Psycho Baseball"
+  iconUrl: "super-psycho-baseball.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2216960"
+    steamFolderName: "Super Psycho Baseball"
+    dataFolderName: "SuperPsychoBaseball_Data"
+    exeNames:
+      - "SuperPsychoBaseball.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Super Psycho Baseball"
+      iconUrl: "super-psycho-baseball.webp"
+    settingsIdentifier: "SuperPsychoBaseball"
+    internalFolderName: "SuperPsychoBaseball"
+    packageIndex: "https://thunderstore.io/c/super-psycho-baseball/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "SPB"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Super Psycho Baseball"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Welcome to Super Psycho Baseball, a sadistic home-run hitting roguelike in which you try to conquer a gang of pitch-slinging bosses, each more psychotic than the last. Come face five fully-realized pitchers, rack up powerups, and reach the top!"

@@ -1,0 +1,31 @@
+uuid: "cef75c51-19b4-49cd-86b6-7eab099c8d4f"
+label: "bomberman-64-recompiled"
+meta:
+  displayName: "Bomberman 64: Recompiled"
+  iconUrl: "bomberman-64-recompiled.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "Bomberman 64: Recompiled"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"

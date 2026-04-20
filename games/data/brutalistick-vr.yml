@@ -1,0 +1,55 @@
+uuid: "5f4143f0-c9c1-4fae-9f72-055e3c5edd8d"
+label: "brutalistick-vr"
+meta:
+  displayName: "BRUTALISTICK VR"
+  iconUrl: "brutalistick-vr.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2669380"
+    steamFolderName: "BRUTALISTICK VR"
+    dataFolderName: "BrutalistickVR_Data"
+    exeNames:
+      - "BrutalistickVR.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "BRUTALISTICK VR"
+      iconUrl: "brutalistick-vr.webp"
+    settingsIdentifier: "BrutalistickVr"
+    internalFolderName: "BrutalistickVr"
+    packageIndex: "https://thunderstore.io/c/brutalistick-vr/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "BRUTALISTICK VR"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/Kubunautilus/BrutalistickVR_ModFramework/wiki"
+  discordUrl: "https://discord.gg/CxEtWnDAv4"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "The golden age of violent flash games now in your VR headset. Fully physics based combat with melee and firearms featuring copious amounts of blood, gore and destruction."

@@ -1,0 +1,31 @@
+uuid: "4bb22717-7479-46da-9c27-26270b421fe4"
+label: "mega-man-64-recompiled"
+meta:
+  displayName: "Mega Man 64: Recompiled"
+  iconUrl: "mega-man-64-recompiled.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "Mega Man 64: Recompiled"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
