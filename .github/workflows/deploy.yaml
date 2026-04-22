@@ -26,7 +26,7 @@ jobs:
         run: "yarn run build"
       - name: "Deploy cover images"
         run: |
-          aws s3 sync ./cover_images/ "s3://$DO_SPACES_BUCKET/cover_images/" \
+          aws s3 sync ./assets/ "s3://$DO_SPACES_BUCKET/assets/" \
             --endpoint-url "https://$DO_SPACES_REGION.digitaloceanspaces.com" \
             --acl public-read \
             --delete
