@@ -1,0 +1,80 @@
+uuid: "03a8892c-bab6-41dd-b604-8727b41d9554"
+label: "the-spell-brigade"
+meta:
+  displayName: "The Spell Brigade"
+  iconUrl: "the-spell-brigade.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2904000"
+    steamFolderName: "The Spell Brigade"
+    dataFolderName: "TheSpellBrigade_Data"
+    exeNames:
+      - "TheSpellBrigade.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "The Spell Brigade"
+      iconUrl: "the-spell-brigade.webp"
+    settingsIdentifier: "TheSpellBrigade"
+    internalFolderName: "TheSpellBrigade"
+    packageIndex: "https://thunderstore.io/c/the-spell-brigade/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "The Spell Brigade"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Survivors-like with ONLINE CO-OP for 1-4 players. Team up with your wizard friends to slay hordes of dark creatures. Complete team-based objectives, unlock new upgrades and create overpowered spell synergies. Friend nor foe is safe in this friendly fire bullet hell!"

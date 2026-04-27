@@ -1,0 +1,80 @@
+uuid: "efdd5f11-1a2c-4865-bf0a-ca548c0c28a9"
+label: "voodoo-fishin"
+meta:
+  displayName: "Voodoo Fishin'"
+  iconUrl: "voodoo-fishin.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3071240"
+    steamFolderName: "Voodoo Voyage"
+    dataFolderName: "Voodoo Fishin'_Data"
+    exeNames:
+      - "Voodoo Fishin'.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Voodoo Fishin'"
+      iconUrl: "voodoo-fishin.webp"
+    settingsIdentifier: "VoodooFishin"
+    internalFolderName: "VoodooFishin"
+    packageIndex: "https://thunderstore.io/c/voodoo-fishin/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Voodoo Fishin'"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "A creepy-cozy co-op fishing game for 1–4 players with proximity voice chat. Explore a haunted swamp for rare fish, sell your haul by the pound, and try to survive what hunts you in the dark."
