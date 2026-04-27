@@ -24,6 +24,8 @@ r2modman:
     additionalSearchStrings:
       - "POG"
       - "PoG"
+      - "地精之渊"
+      - "哥布林深渊"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

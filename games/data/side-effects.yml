@@ -22,7 +22,9 @@ r2modman:
     internalFolderName: "SideEffects"
     packageIndex: "https://thunderstore.io/c/side-effects/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "副作用"
+      - "试药轮盘"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

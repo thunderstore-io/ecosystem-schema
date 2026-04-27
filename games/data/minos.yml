@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Minos"
     packageIndex: "https://thunderstore.io/c/minos/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "牛头人迷阵"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

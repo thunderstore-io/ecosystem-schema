@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "RoadsideResearch"
     packageIndex: "https://thunderstore.io/c/roadside-research/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "宇宙牌加油站"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

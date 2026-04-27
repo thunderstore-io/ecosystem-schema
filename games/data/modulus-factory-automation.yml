@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "ModulusFactoryAutomation"
     packageIndex: "https://thunderstore.io/c/modulus-factory-automation/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "模块工厂：自动化大亨"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

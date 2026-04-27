@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "HotLava"
     packageIndex: "https://thunderstore.io/c/hot-lava/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "炽热熔岩"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
