@@ -17,8 +17,6 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "1092790"
-      - platform: "xbox-game-pass"
-        identifier: "DevolverDigital.Inscryption"
       - platform: "other"
         identifier: null
     settingsIdentifier: "Inscryption"
