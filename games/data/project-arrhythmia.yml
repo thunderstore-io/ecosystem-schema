@@ -1,7 +1,7 @@
 uuid: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
 label: "project-arrhythmia"
 meta:
-  displayName: "Project Arrhythmia"
+  displayName: "Afterbeat"
   iconUrl: "project-arrhythmia.webp"
 distributions: []
 r2modman:
@@ -15,13 +15,14 @@ r2modman:
       - "Project Arrhythmia.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "Project Arrhythmia"
+      displayName: "Afterbeat"
       iconUrl: "project-arrhythmia.webp"
     settingsIdentifier: "ProjectArrhythmia"
     internalFolderName: "ProjectArrhythmia"
     packageIndex: "https://thunderstore.io/c/project-arrhythmia/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
+      - "Project Arrhythmia"
       - "PA"
       - "心律失常"
     installRules:
@@ -54,7 +55,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Project Arrhythmia"
+  displayName: "Afterbeat"
   categories:
     mods:
       label: "Mods"
