@@ -2,7 +2,7 @@ uuid: "52f15796-8648-4247-8a84-9ef16ea2103c"
 label: "crawlspace"
 meta:
   displayName: "Crawlspace"
-  iconUrl: "crawlspace.webp"
+  iconUrl: "crawlspace/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Crawlspace"
-      iconUrl: "crawlspace.webp"
+      iconUrl: "crawlspace/cover-360x480.webp"
     settingsIdentifier: "Crawlspace"
     internalFolderName: "Crawlspace"
     packageIndex: "https://thunderstore.io/c/crawlspace/api/v1/package-listing-index/"

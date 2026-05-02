@@ -2,7 +2,7 @@ uuid: "f5e40d47-b6b6-46a0-b8e1-cefcd851e796"
 label: "very-very-valet"
 meta:
   displayName: "Very Very Valet"
-  iconUrl: "very-very-valet.webp"
+  iconUrl: "very-very-valet/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Very Very Valet"
-      iconUrl: "very-very-valet.webp"
+      iconUrl: "very-very-valet/cover-360x480.webp"
     settingsIdentifier: "VeryVeryValet"
     internalFolderName: "VeryVeryValet"
     packageIndex: "https://thunderstore.io/c/very-very-valet/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "1b6e731a-13a2-42ed-99ac-d2dcf7cadc75"
 label: "getting-over-it"
 meta:
   displayName: "Getting Over It with Bennett Foddy"
-  iconUrl: "getting-over-it.webp"
+  iconUrl: "getting-over-it/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -18,7 +18,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Getting Over It with Bennett Foddy"
-      iconUrl: "getting-over-it.webp"
+      iconUrl: "getting-over-it/cover-360x480.webp"
     settingsIdentifier: "GettingOverItWithBennettFoddy"
     internalFolderName: "GettingOverItWithBennettFoddy"
     packageIndex: "https://thunderstore.io/c/getting-over-it/api/v1/package-listing-index/"

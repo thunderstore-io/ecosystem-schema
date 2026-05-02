@@ -2,7 +2,7 @@ uuid: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
 label: "project-arrhythmia"
 meta:
   displayName: "Afterbeat"
-  iconUrl: "project-arrhythmia.webp"
+  iconUrl: "project-arrhythmia/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Afterbeat"
-      iconUrl: "project-arrhythmia.webp"
+      iconUrl: "project-arrhythmia/cover-360x480.webp"
     settingsIdentifier: "ProjectArrhythmia"
     internalFolderName: "ProjectArrhythmia"
     packageIndex: "https://thunderstore.io/c/project-arrhythmia/api/v1/package-listing-index/"

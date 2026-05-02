@@ -2,6 +2,7 @@ uuid: "375634e8-16b6-486d-aa9d-26ba422d4143"
 label: "touhou-lost-branch-of-legend"
 meta:
   displayName: "Touhou: Lost Branch of Legend"
+  iconUrl: "touhou-lost-branch-of-legend/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Touhou: Lost Branch of Legend"

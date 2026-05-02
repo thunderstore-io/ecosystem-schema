@@ -2,7 +2,7 @@ uuid: "352f09ba-5156-49f2-ad1f-ac33efa508ec"
 label: "keywe"
 meta:
   displayName: "KeyWe"
-  iconUrl: "keywe.webp"
+  iconUrl: "keywe/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "KeyWe"
-      iconUrl: "keywe.webp"
+      iconUrl: "keywe/cover-360x480.webp"
     settingsIdentifier: "KeyWe"
     internalFolderName: "KeyWe"
     packageIndex: "https://thunderstore.io/c/keywe/api/v1/package-listing-index/"

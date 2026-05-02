@@ -2,14 +2,14 @@ uuid: "3f1b9fa4-a067-4910-877e-78bcd8caef25"
 label: "9-kings"
 meta:
   displayName: "9 Kings"
-  iconUrl: "9-kings.webp"
+  iconUrl: "9-kings/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "2784470"
 r2modman:
   - meta:
       displayName: "9 Kings"
-      iconUrl: "9-kings.webp"
+      iconUrl: "9-kings/cover-360x480.webp"
     internalFolderName: "9Kings"
     dataFolderName: "9Kings_Data"
     distributions:

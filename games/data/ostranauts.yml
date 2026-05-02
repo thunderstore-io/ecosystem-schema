@@ -2,7 +2,7 @@ uuid: "376711bd-6557-4c98-8efc-acc903868386"
 label: "ostranauts"
 meta:
   displayName: "Ostranauts"
-  iconUrl: "ostranauts.webp"
+  iconUrl: "ostranauts/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Ostranauts"
-      iconUrl: "ostranauts.webp"
+      iconUrl: "ostranauts/cover-360x480.webp"
     settingsIdentifier: "Ostranauts"
     internalFolderName: "Ostranauts"
     packageIndex: "https://thunderstore.io/c/ostranauts/api/v1/package-listing-index/"

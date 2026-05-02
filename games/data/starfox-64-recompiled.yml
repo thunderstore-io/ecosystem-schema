@@ -2,6 +2,7 @@ uuid: "887dcdab-3747-44a3-8c11-56389c80cc73"
 label: "starfox-64-recompiled"
 meta:
   displayName: "Starfox 64: Recompiled"
+  iconUrl: "starfox-64-recompiled/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Starfox 64: Recompiled"

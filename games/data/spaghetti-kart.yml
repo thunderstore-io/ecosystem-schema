@@ -2,7 +2,7 @@ uuid: "e9398d86-9fc8-4a68-83e0-90bdacc50289"
 label: "spaghetti-kart"
 meta:
   displayName: "Spaghetti Kart"
-  iconUrl: "spaghetti-kart.webp"
+  iconUrl: "spaghetti-kart/cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

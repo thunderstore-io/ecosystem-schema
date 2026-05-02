@@ -2,6 +2,7 @@ uuid: "0a5f2248-3eff-408b-87ed-cd982e4f1c91"
 label: "bomb-rush-cyberfunk"
 meta:
   displayName: "Bomb Rush Cyberfunk"
+  iconUrl: "bomb-rush-cyberfunk/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Bomb Rush Cyberfunk"

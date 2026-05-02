@@ -2,7 +2,7 @@ uuid: "ff4d426c-8315-4e7c-b942-ce9d60dc2082"
 label: "super-battle-golf"
 meta:
   displayName: "Super Battle Golf"
-  iconUrl: "super-battle-golf.webp"
+  iconUrl: "super-battle-golf/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Super Battle Golf"
-      iconUrl: "super-battle-golf.webp"
+      iconUrl: "super-battle-golf/cover-360x480.webp"
     settingsIdentifier: "SuperBattleGolf"
     internalFolderName: "SuperBattleGolf"
     packageIndex: "https://thunderstore.io/c/super-battle-golf/api/v1/package-listing-index/"

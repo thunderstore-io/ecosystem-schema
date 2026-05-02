@@ -2,7 +2,7 @@ uuid: "2c1534b9-6b36-4f54-90bb-65615478cac5"
 label: "my-winter-car"
 meta:
   displayName: "My Winter Car"
-  iconUrl: "my-winter-car.webp"
+  iconUrl: "my-winter-car/cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

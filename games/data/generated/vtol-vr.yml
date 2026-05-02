@@ -2,14 +2,14 @@ uuid: "280cd9af-b668-42f1-9bb6-f172ec7998c2"
 label: "vtol-vr"
 meta:
   displayName: "VTOL VR"
-  iconUrl: "vtol-vr.webp"
+  iconUrl: "vtol-vr/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "667970"
 r2modman:
   - meta:
       displayName: "VTOL VR"
-      iconUrl: "vtol-vr.webp"
+      iconUrl: "vtol-vr/cover-360x480.webp"
     internalFolderName: "VTOL_VR"
     dataFolderName: "VTOLVR_Data"
     distributions:
