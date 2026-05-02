@@ -2,7 +2,7 @@ uuid: "dc3c6f53-dbc6-497a-a922-1977b5df0751"
 label: "clover-pit"
 meta:
   displayName: "CloverPit"
-  iconUrl: "clover-pit.webp"
+  iconUrl: "clover-pit/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -18,7 +18,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "CloverPit"
-      iconUrl: "clover-pit.webp"
+      iconUrl: "clover-pit/cover-360x480.webp"
     settingsIdentifier: "CloverPit"
     internalFolderName: "CloverPit"
     packageIndex: "https://thunderstore.io/c/clover-pit/api/v1/package-listing-index/"

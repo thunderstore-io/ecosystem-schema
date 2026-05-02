@@ -15,6 +15,9 @@
     "deploy": "tsx ./src/scripts/deploy.ts",
     "validate": "tsx ./src/scripts/validate.ts",
     "diff": "tsx ./src/scripts/diff.ts",
+    "resolve-egs": "tsx ./src/scripts/resolve-egs.ts",
+    "resolve-xbox": "tsx ./src/scripts/resolve-xbox.ts",
+    "resolve-itad": "tsx ./src/scripts/resolve-itad.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

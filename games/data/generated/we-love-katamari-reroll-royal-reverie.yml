@@ -2,14 +2,14 @@ uuid: "4df35e7e-e355-4ecc-b9db-76eebbff97d0"
 label: "we-love-katamari-reroll-royal-reverie"
 meta:
   displayName: "We Love Katamari REROLL+ Royal Reverie"
-  iconUrl: "we-love-katamari-reroll-royal-reverie.webp"
+  iconUrl: "we-love-katamari-reroll-royal-reverie/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1730700"
 r2modman:
   - meta:
       displayName: "We Love Katamari REROLL+ Royal Reverie"
-      iconUrl: "we-love-katamari-reroll-royal-reverie.webp"
+      iconUrl: "we-love-katamari-reroll-royal-reverie/cover-360x480.webp"
     internalFolderName: "WeLoveKatamariRerollRoyalReverie"
     dataFolderName: "WeLoveKatamariRerollRoyalReverie_Data"
     distributions:

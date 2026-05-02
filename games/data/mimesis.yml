@@ -2,7 +2,7 @@ uuid: "aeebfea4-fe72-4535-9cea-0b880b5d270c"
 label: "mimesis"
 meta:
   displayName: "Mimesis"
-  iconUrl: "mimesis.webp"
+  iconUrl: "mimesis/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Mimesis"
-      iconUrl: "mimesis.webp"
+      iconUrl: "mimesis/cover-360x480.webp"
     settingsIdentifier: "Mimesis"
     internalFolderName: "Mimesis"
     packageIndex: "https://thunderstore.io/c/mimesis/api/v1/package-listing-index/"

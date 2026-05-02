@@ -2,6 +2,7 @@ uuid: "16728cdd-8bf6-4dcb-adec-5aaa9c8e0d8e"
 label: "rumble"
 meta:
   displayName: "RUMBLE"
+  iconUrl: "rumble/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "RUMBLE"

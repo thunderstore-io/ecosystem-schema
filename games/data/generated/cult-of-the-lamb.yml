@@ -2,7 +2,7 @@ uuid: "5eb3bb69-dcca-436c-9bba-ab78c580c908"
 label: "cult-of-the-lamb"
 meta:
   displayName: "Cult of the Lamb"
-  iconUrl: "cult-of-the-lamb.webp"
+  iconUrl: "cult-of-the-lamb/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1313140"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Cult of the Lamb"
-      iconUrl: "cult-of-the-lamb.webp"
+      iconUrl: "cult-of-the-lamb/cover-360x480.webp"
     internalFolderName: "COTL"
     dataFolderName: "Cult Of The Lamb_Data"
     distributions:

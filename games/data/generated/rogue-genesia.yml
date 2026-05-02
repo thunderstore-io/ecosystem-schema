@@ -2,14 +2,14 @@ uuid: "02371030-eb56-4d5d-bed5-fa68446ff6ac"
 label: "rogue-genesia"
 meta:
   displayName: "Rogue : Genesia"
-  iconUrl: "rogue-genesia.webp"
+  iconUrl: "rogue-genesia/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "2067920"
 r2modman:
   - meta:
       displayName: "Rogue : Genesia"
-      iconUrl: "rogue-genesia.webp"
+      iconUrl: "rogue-genesia/cover-360x480.webp"
     internalFolderName: "RogueGenesia"
     dataFolderName: "Rogue Genesia_Data"
     distributions:

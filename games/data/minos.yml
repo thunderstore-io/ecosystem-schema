@@ -2,7 +2,7 @@ uuid: "f96148a5-903f-4d0b-8bb4-42b6e9d0c3ee"
 label: "minos"
 meta:
   displayName: "MINOS"
-  iconUrl: "minos.webp"
+  iconUrl: "minos/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "shimloader"
     meta:
       displayName: "MINOS"
-      iconUrl: "minos.webp"
+      iconUrl: "minos/cover-360x480.webp"
     settingsIdentifier: "Minos"
     internalFolderName: "Minos"
     packageIndex: "https://thunderstore.io/c/minos/api/v1/package-listing-index/"

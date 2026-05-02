@@ -2,7 +2,7 @@ uuid: "8952eb1d-3b5f-4f97-816a-617d183c206a"
 label: "mage-arena"
 meta:
   displayName: "Mage Arena"
-  iconUrl: "mage-arena.webp"
+  iconUrl: "mage-arena/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Mage Arena"
-      iconUrl: "mage-arena.webp"
+      iconUrl: "mage-arena/cover-360x480.webp"
     settingsIdentifier: "MageArena"
     internalFolderName: "MageArena"
     packageIndex: "https://thunderstore.io/c/mage-arena/api/v1/package-listing-index/"

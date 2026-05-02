@@ -2,7 +2,7 @@ uuid: "64dcbac2-cc02-4338-99b4-00af4b38450b"
 label: "random-access-mayhem"
 meta:
   displayName: "RAM: Random Access Mayhem"
-  iconUrl: "random-access-mayhem.webp"
+  iconUrl: "random-access-mayhem/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "godotml"
     meta:
       displayName: "RAM: Random Access Mayhem"
-      iconUrl: "random-access-mayhem.webp"
+      iconUrl: "random-access-mayhem/cover-360x480.webp"
     settingsIdentifier: "RamRandomAccessMayhem"
     internalFolderName: "RamRandomAccessMayhem"
     packageIndex: "https://thunderstore.io/c/random-access-mayhem/api/v1/package-listing-index/"

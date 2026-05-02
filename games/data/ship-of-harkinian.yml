@@ -2,6 +2,7 @@ uuid: "9fb26233-032a-43e3-bbe7-6e058f5daf15"
 label: "ship-of-harkinian"
 meta:
   displayName: "Ship of Harkinian"
+  iconUrl: "ship-of-harkinian/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Ship of Harkinian"

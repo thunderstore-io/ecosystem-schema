@@ -2,6 +2,7 @@ uuid: "44bcb85e-66c1-4a04-a272-4aabeb1a4552"
 label: "straftat"
 meta:
   displayName: "STRAFTAT"
+  iconUrl: "straftat/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "STRAFTAT"

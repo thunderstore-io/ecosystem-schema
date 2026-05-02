@@ -2,7 +2,7 @@ uuid: "af2cd83f-99c0-4fa7-a319-e8022b0aea78"
 label: "vigil"
 meta:
   displayName: "Vigil"
-  iconUrl: "vigil.webp"
+  iconUrl: "vigil/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Vigil"
-      iconUrl: "vigil.webp"
+      iconUrl: "vigil/cover-360x480.webp"
     settingsIdentifier: "Vigil"
     internalFolderName: "Vigil"
     packageIndex: "https://thunderstore.io/c/vigil/api/v1/package-listing-index/"

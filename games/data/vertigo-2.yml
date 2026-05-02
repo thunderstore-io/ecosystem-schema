@@ -2,6 +2,7 @@ uuid: "cff97c17-16f0-46d7-874c-4c53afd280e5"
 label: "vertigo-2"
 meta:
   displayName: "Vertigo 2"
+  iconUrl: "vertigo-2/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Vertigo 2"
