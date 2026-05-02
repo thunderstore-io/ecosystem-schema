@@ -1,0 +1,80 @@
+uuid: "dd690f63-77dc-40e6-8c1a-2ccc7c222bbf"
+label: "cave-crawlers"
+meta:
+  displayName: "Cave Crawlers"
+  iconUrl: "cave-crawlers.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2143030"
+    steamFolderName: "Cave Crawlers"
+    dataFolderName: "Cave Crawlers_Data"
+    exeNames:
+      - "Cave Crawlers.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Cave Crawlers"
+      iconUrl: "cave-crawlers.webp"
+    settingsIdentifier: "CaveCrawlers"
+    internalFolderName: "CaveCrawlers"
+    packageIndex: "https://thunderstore.io/c/cave-crawlers/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Cave Crawlers"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Cave Crawlers is a 1-10 player rogue lite set deep underground in a system of randomly generated caves. Players use weapons, spells, and talents to defeat the unique bosses and enemies found in each biome."
