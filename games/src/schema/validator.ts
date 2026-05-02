@@ -10,6 +10,8 @@ import {
 } from "../models";
 
 const slug = z.string().regex(new RegExp(/^[a-z0-9](-?[a-z0-9])*$/));
+const r2modmanIconUrl = z.string().regex(new RegExp(/^[a-z0-9\-]+\.webp$/));
+const gameSchemaIconUrl = z.union([r2modmanIconUrl, z.literal(""), z.null()]);
 
 const communitySchema = z.strictObject({
   displayName: z.string(),
@@ -56,7 +58,7 @@ const distributionSchema = z.strictObject({
 });
 const metaSchema = z.strictObject({
   displayName: z.string(),
-  iconUrl: z.string().nullable(),
+  iconUrl: r2modmanIconUrl,
 });
 
 const r2modmanSchema = z.strictObject({
@@ -79,7 +81,9 @@ const r2modmanSchema = z.strictObject({
 const gameSchema = z.strictObject({
   uuid: z.string().uuid(),
   label: slug,
-  meta: metaSchema,
+  meta: metaSchema.extend({
+      iconUrl: gameSchemaIconUrl
+  }),
   distributions: z.array(distributionSchema),
   thunderstore: communitySchema.optional(),
   tcli: z.object({}).passthrough().optional(), // TODO: Use strict object with schema
