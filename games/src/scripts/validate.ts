@@ -1,8 +1,36 @@
+import * as fs from "fs";
 import { buildSchemaJson } from "../schema/builder.js";
 import { validateSchemaJson } from "../schema/validator.js";
 
+const REQUIRED_VARIANTS = [
+  // "bg-1920x620.webp",
+  // "bg-1920x1080.webp",
+  "cover-360x480.webp",
+  // "icon-192x192.webp",
+];
+
+function validateAssetDirectories() {
+  const root = "./assets";
+  const missing: string[] = [];
+  fs.readdirSync(root).forEach((dir) => {
+    const full = `${root}/${dir}`;
+    if (!fs.statSync(full).isDirectory()) return;
+    REQUIRED_VARIANTS.forEach((variant) => {
+      if (!fs.existsSync(`${full}/${variant}`)) {
+        missing.push(`${dir}/${variant}`);
+      }
+    });
+  });
+  if (missing.length > 0) {
+    throw new Error(
+      `Missing required asset variants:\n\n${missing.join("\n")}`
+    );
+  }
+}
+
 async function runValidateCommand() {
   validateSchemaJson(buildSchemaJson());
+  validateAssetDirectories();
   console.log("Schema validated successfully!");
 }
 

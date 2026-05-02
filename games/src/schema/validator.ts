@@ -54,9 +54,12 @@ const distributionSchema = z.strictObject({
   platform: z.enum(DistributionPlatformValues),
   identifier: z.string().optional().nullable(),
 });
+const iconUrl = z.string().regex(
+  new RegExp(/^[a-z0-9](-?[a-z0-9])*\/(bg|cover|icon)-\d+x\d+\.(webp|png|jpg|jpeg)$/)
+);
 const metaSchema = z.strictObject({
   displayName: z.string(),
-  iconUrl: z.string().nullable(),
+  iconUrl: iconUrl.nullable(),
 });
 
 const r2modmanSchema = z.strictObject({
@@ -144,6 +147,19 @@ export function validateSchemaJson(schemaJson: any): SchemaType {
           `to use the label '${key}' but found '${game.label}'`
       );
     }
+
+    const expectedPrefix = `${game.label}/`;
+    const iconUrls = [
+      game.meta.iconUrl,
+      ...(game.r2modman ?? []).map((r) => r.meta.iconUrl),
+    ];
+    iconUrls.forEach((url) => {
+      if (url !== null && !url.startsWith(expectedPrefix)) {
+        throw new Error(
+          `Icon URL '${url}' for game '${game.label}' must start with '${expectedPrefix}'`
+        );
+      }
+    });
   });
 
   Object.entries(parsed.communities).forEach(([key, community]) => {
