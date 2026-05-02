@@ -20,6 +20,16 @@ yarn run build
 JSON file containing all the data, as well as JSON Schema file defining
 the structure of the data will be placed in `dist/` folder.
 
+### Serve the schema and assets locally
+
+```
+yarn run serve
+```
+
+Builds the schema, then serves the schema and asset files on
+`http://localhost:1337`. The port can be overridden via the `PORT`
+environment variable.
+
 ### Deploy the latest generated schema
 
 This requires the `DEPLOY_API_KEY` and `DEPLOY_API_URL` configuration options to
