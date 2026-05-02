@@ -2,7 +2,7 @@ uuid: "4b436497-2041-42ac-88b4-29206515b48d"
 label: "crab-game"
 meta:
   displayName: "Crab Game"
-  iconUrl: "crab-game.webp"
+  iconUrl: "crab-game/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -17,7 +17,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Crab Game"
-      iconUrl: "crab-game.webp"
+      iconUrl: "crab-game/cover-360x480.webp"
     settingsIdentifier: "CrabGame"
     internalFolderName: "CrabGame"
     packageIndex: "https://thunderstore.io/c/crab-game/api/v1/package-listing-index/"

@@ -2,6 +2,7 @@ uuid: "bf3d42cc-65ca-46de-bcd1-8679e271e92d"
 label: "wildfrost"
 meta:
   displayName: "Wildfrost"
+  iconUrl: "wildfrost/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Wildfrost"

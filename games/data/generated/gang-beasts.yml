@@ -2,14 +2,14 @@ uuid: "a78aee6c-e075-47d9-9c73-e4734ec3b22a"
 label: "gang-beasts"
 meta:
   displayName: "Gang Beasts"
-  iconUrl: "gang-beasts.webp"
+  iconUrl: "gang-beasts/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "285900"
 r2modman:
   - meta:
       displayName: "Gang Beasts"
-      iconUrl: "gang-beasts.webp"
+      iconUrl: "gang-beasts/cover-360x480.webp"
     internalFolderName: "GangBeasts"
     dataFolderName: "Gang Beasts_Data"
     distributions:

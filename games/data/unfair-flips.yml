@@ -2,7 +2,7 @@ uuid: "747c7cd7-8b91-45fd-b734-72fb313cf39b"
 label: "unfair-flips"
 meta:
   displayName: "Unfair Flips"
-  iconUrl: "unfair-flips.webp"
+  iconUrl: "unfair-flips/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Unfair Flips"
-      iconUrl: "unfair-flips.webp"
+      iconUrl: "unfair-flips/cover-360x480.webp"
     settingsIdentifier: "UnfairFlips"
     internalFolderName: "UnfairFlips"
     packageIndex: "https://thunderstore.io/c/unfair-flips/api/v1/package-listing-index/"

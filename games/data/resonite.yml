@@ -2,7 +2,7 @@ uuid: "f5859576-bdf8-40bb-b08b-69f5506199a4"
 label: "resonite"
 meta:
   displayName: "Resonite"
-  iconUrl: "resonite.webp"
+  iconUrl: "resonite/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepisloader"
     meta:
       displayName: "Resonite"
-      iconUrl: "resonite.webp"
+      iconUrl: "resonite/cover-360x480.webp"
     settingsIdentifier: "Resonite"
     internalFolderName: "Resonite"
     packageIndex: "https://thunderstore.io/c/resonite/api/v1/package-listing-index/"

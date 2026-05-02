@@ -2,7 +2,7 @@ uuid: "0653f513-b2ad-4fe0-99ec-78ce4beb674f"
 label: "hot-lava"
 meta:
   displayName: "Hot Lava"
-  iconUrl: "hot-lava.webp"
+  iconUrl: "hot-lava/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Hot Lava"
-      iconUrl: "hot-lava.webp"
+      iconUrl: "hot-lava/cover-360x480.webp"
     settingsIdentifier: "HotLava"
     internalFolderName: "HotLava"
     packageIndex: "https://thunderstore.io/c/hot-lava/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "ba3dd205-6083-4113-bad9-fa3d365635b8"
 label: "mine-mogul"
 meta:
   displayName: "MineMogul"
-  iconUrl: "mine-mogul.webp"
+  iconUrl: "mine-mogul/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "MineMogul"
-      iconUrl: "mine-mogul.webp"
+      iconUrl: "mine-mogul/cover-360x480.webp"
     settingsIdentifier: "MineMogul"
     internalFolderName: "MineMogul"
     packageIndex: "https://thunderstore.io/c/mine-mogul/api/v1/package-listing-index/"

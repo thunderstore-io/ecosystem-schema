@@ -2,6 +2,7 @@ uuid: "9004c7ca-cf7f-4adc-a184-1b6d4cc45eae"
 label: "sons-of-the-forest"
 meta:
   displayName: "Sons Of The Forest"
+  iconUrl: "sons-of-the-forest/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Sons Of The Forest"

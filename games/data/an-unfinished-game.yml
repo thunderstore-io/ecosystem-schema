@@ -2,7 +2,7 @@ uuid: "dc4ff876-263d-4e67-9dd9-9fb42203e6c3"
 label: "an-unfinished-game"
 meta:
   displayName: "An Unfinished Game"
-  iconUrl: "an-unfinished-game.webp"
+  iconUrl: "an-unfinished-game/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "An Unfinished Game"
-      iconUrl: "an-unfinished-game.webp"
+      iconUrl: "an-unfinished-game/cover-360x480.webp"
     settingsIdentifier: "AnUnfinishedGame"
     internalFolderName: "AnUnfinishedGame"
     packageIndex: "https://thunderstore.io/c/an-unfinished-game/api/v1/package-listing-index/"

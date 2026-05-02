@@ -2,7 +2,7 @@ uuid: "da7c4adc-dd04-4fca-b35c-31bcda26c53e"
 label: "outward"
 meta:
   displayName: "Outward"
-  iconUrl: "outward.webp"
+  iconUrl: "outward/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "794260"
@@ -19,7 +19,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Outward"
-      iconUrl: "outward.webp"
+      iconUrl: "outward/cover-360x480.webp"
     internalFolderName: "Outward"
     dataFolderName: "Outward_Data"
     distributions:
@@ -70,7 +70,7 @@ r2modman:
     relativeFileExclusions: null
   - meta:
       displayName: "Outward Definitive"
-      iconUrl: "outward-de.webp"
+      iconUrl: "outward/cover-360x480.webp"
     internalFolderName: "OutwardDe"
     dataFolderName: "Outward Definitive Edition_Data"
     distributions:
