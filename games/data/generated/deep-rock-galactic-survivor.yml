@@ -2,14 +2,14 @@ uuid: "45049fca-094f-4e86-a6aa-5eb11dc2f899"
 label: "deep-rock-galactic-survivor"
 meta:
   displayName: "Deep Rock Galactic: Survivor"
-  iconUrl: "deep-rock-galactic-survivor.webp"
+  iconUrl: "deep-rock-galactic-survivor/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "2321470"
 r2modman:
   - meta:
       displayName: "Deep Rock Galactic: Survivor"
-      iconUrl: "deep-rock-galactic-survivor.webp"
+      iconUrl: "deep-rock-galactic-survivor/cover-360x480.webp"
     internalFolderName: "DeepRockGalacticSurvivor"
     dataFolderName: "DRG Survivor_Data"
     distributions:

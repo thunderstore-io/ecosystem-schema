@@ -2,7 +2,7 @@ uuid: "4746944a-59d5-4038-8a13-f9710a4c4bb7"
 label: "beetleball"
 meta:
   displayName: "Beetleball"
-  iconUrl: "beetleball.webp"
+  iconUrl: "beetleball/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Beetleball"
-      iconUrl: "beetleball.webp"
+      iconUrl: "beetleball/cover-360x480.webp"
     settingsIdentifier: "Beetleball"
     internalFolderName: "Beetleball"
     packageIndex: "https://thunderstore.io/c/beetleball/api/v1/package-listing-index/"

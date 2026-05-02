@@ -2,7 +2,7 @@ uuid: "88c3d6ea-d7d4-4225-819c-bac4f86b79d6"
 label: "super-mario-3d-world"
 meta:
   displayName: "Super Mario 3D World"
-  iconUrl: "super-mario-3d-world.webp"
+  iconUrl: "super-mario-3d-world/cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

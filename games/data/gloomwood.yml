@@ -2,6 +2,7 @@ uuid: "ad84c3e7-0db7-4a05-b498-63a0244fa510"
 label: "gloomwood"
 meta:
   displayName: "Gloomwood"
+  iconUrl: "gloomwood/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Gloomwood"

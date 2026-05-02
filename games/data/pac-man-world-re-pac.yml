@@ -2,7 +2,7 @@ uuid: "aa3deb5d-b580-4566-a549-4b65460b454f"
 label: "pac-man-world-re-pac"
 meta:
   displayName: "PAC-MAN WORLD Re-PAC"
-  iconUrl: "pac-man-world-re-pac.webp"
+  iconUrl: "pac-man-world-re-pac/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "PAC-MAN WORLD Re-PAC"
-      iconUrl: "pac-man-world-re-pac.webp"
+      iconUrl: "pac-man-world-re-pac/cover-360x480.webp"
     settingsIdentifier: "PacManWorldRePac"
     internalFolderName: "PacManWorldRePac"
     packageIndex: "https://thunderstore.io/c/pac-man-world-re-pac/api/v1/package-listing-index/"

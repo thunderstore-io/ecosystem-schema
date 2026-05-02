@@ -2,7 +2,7 @@ uuid: "57ae7cc1-b21a-4592-8415-73512a91b180"
 label: "20-minutes-till-dawn"
 meta:
   displayName: "20 Minutes Till Dawn"
-  iconUrl: "20-minutes-till-dawn.webp"
+  iconUrl: "20-minutes-till-dawn/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1966900"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "20 Minutes Till Dawn"
-      iconUrl: "20-minutes-till-dawn.webp"
+      iconUrl: "20-minutes-till-dawn/cover-360x480.webp"
     internalFolderName: "20MinutesTillDawn"
     dataFolderName: "MinutesTillDawn_Data"
     distributions:

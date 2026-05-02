@@ -2,7 +2,7 @@ uuid: "76651ab2-90fc-4aa1-bb3f-677dcf924c2c"
 label: "lost-skies-ic"
 meta:
   displayName: "Lost Skies Island Creator"
-  iconUrl: "lost-skies-island-creator.webp"
+  iconUrl: "lost-skies-ic/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "2102670"
@@ -18,7 +18,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Lost Skies Island Creator"
-      iconUrl: "lost-skies-island-creator.webp"
+      iconUrl: "lost-skies-ic/cover-360x480.webp"
     settingsIdentifier: "LostSkiesIslandCreator"
     internalFolderName: "LostSkiesIslandCreator"
     packageIndex: "https://thunderstore.io/c/lost-skies-ic/api/v1/package-listing-index/"

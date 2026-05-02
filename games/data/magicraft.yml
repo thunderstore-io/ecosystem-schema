@@ -2,6 +2,7 @@ uuid: "66fb57a2-670d-4dc2-be6e-765db764866d"
 label: "magicraft"
 meta:
   displayName: "Magicraft"
+  iconUrl: "magicraft/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Magicraft"
@@ -27,4 +28,3 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  autolistPackageIds: ["BepInEx-BepInExPack_IL2CPP"]

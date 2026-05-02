@@ -2,7 +2,7 @@ uuid: "03a8892c-bab6-41dd-b604-8727b41d9554"
 label: "the-spell-brigade"
 meta:
   displayName: "The Spell Brigade"
-  iconUrl: "the-spell-brigade.webp"
+  iconUrl: "the-spell-brigade/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "The Spell Brigade"
-      iconUrl: "the-spell-brigade.webp"
+      iconUrl: "the-spell-brigade/cover-360x480.webp"
     settingsIdentifier: "TheSpellBrigade"
     internalFolderName: "TheSpellBrigade"
     packageIndex: "https://thunderstore.io/c/the-spell-brigade/api/v1/package-listing-index/"

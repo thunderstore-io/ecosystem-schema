@@ -2,7 +2,7 @@ uuid: "5090345c-21f2-421f-a53d-13b47a25beae"
 label: "chill-with-you"
 meta:
   displayName: "Chill with You : Lo-Fi Story"
-  iconUrl: "chill-with-you.webp"
+  iconUrl: "chill-with-you/cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Chill with You : Lo-Fi Story"
-      iconUrl: "chill-with-you.webp"
+      iconUrl: "chill-with-you/cover-360x480.webp"
     settingsIdentifier: "ChillWithYouLoFiStory"
     internalFolderName: "ChillWithYouLoFiStory"
     packageIndex: "https://thunderstore.io/c/chill-with-you/api/v1/package-listing-index/"

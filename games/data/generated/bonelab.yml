@@ -2,7 +2,7 @@ uuid: "2d7868bd-6b43-45b6-b587-172d44a11067"
 label: "bonelab"
 meta:
   displayName: "BONELAB"
-  iconUrl: "bonelab.webp"
+  iconUrl: "bonelab/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1592190"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "BONELAB"
-      iconUrl: "bonelab.webp"
+      iconUrl: "bonelab/cover-360x480.webp"
     internalFolderName: "BONELAB"
     dataFolderName: "BONELAB_Steam_Windows64"
     distributions:

@@ -2,7 +2,7 @@ uuid: "da7786df-a437-463a-b495-1f502bfff4bb"
 label: "riskofrain2"
 meta:
   displayName: "Risk of Rain 2"
-  iconUrl: "risk-of-rain-2.webp"
+  iconUrl: "riskofrain2/cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "632360"
@@ -13,7 +13,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Risk of Rain 2"
-      iconUrl: "risk-of-rain-2.webp"
+      iconUrl: "riskofrain2/cover-360x480.webp"
     internalFolderName: "RiskOfRain2"
     dataFolderName: "Risk of Rain 2_Data"
     distributions:
@@ -63,7 +63,7 @@ r2modman:
     relativeFileExclusions: null
   - meta:
       displayName: "Risk of Rain 2 Dedicated Server"
-      iconUrl: "risk-of-rain-2.webp"
+      iconUrl: "riskofrain2/cover-360x480.webp"
     internalFolderName: "RiskOfRain2"
     dataFolderName: "Risk of Rain 2_Data"
     distributions:

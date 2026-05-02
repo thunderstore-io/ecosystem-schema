@@ -2,6 +2,7 @@ uuid: "e36d39f6-d0d2-4af1-8ff9-61757d734fcb"
 label: "tank-team"
 meta:
   displayName: "Tank Team"
+  iconUrl: "tank-team/cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Tank Team"
