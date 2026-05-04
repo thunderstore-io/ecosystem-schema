@@ -27,3 +27,4 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  autolistPackageIds: ["BepInEx-BepInExPack_IL2CPP"]

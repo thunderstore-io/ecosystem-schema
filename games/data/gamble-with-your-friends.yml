@@ -1,0 +1,82 @@
+uuid: "8dbc0d05-e6b1-4cdc-92d0-68f21ac4d0e1"
+label: "gamble-with-your-friends"
+meta:
+  displayName: "Gamble With Your Friends"
+  iconUrl: "gamble-with-your-friends.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3892270"
+    steamFolderName: "Gamble With Your Friends"
+    dataFolderName: "Gamble With Your Friends_Data"
+    exeNames:
+      - "Gamble With Your Friends.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Gamble With Your Friends"
+      iconUrl: "gamble-with-your-friends.webp"
+    settingsIdentifier: "GambleWithYourFriends"
+    internalFolderName: "GambleWithYourFriends"
+    packageIndex: "https://thunderstore.io/c/gamble-with-your-friends/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "GWYF"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Gamble With Your Friends"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://gwyf.se/"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "An online 1-6 player co-op \"casino crawler\" where you and your friends share one bank account and one massive debt. Gamble, buy sketchy items, make terrible decisions, and climb an ominous casino tower to hit your loan shark's daily quota in 5 minutes - or face the consequences."
