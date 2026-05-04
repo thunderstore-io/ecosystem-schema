@@ -212,7 +212,7 @@ async function runCliMode(args: CliArgs) {
     label: identifier,
     meta: {
       displayName,
-      iconUrl: `${identifier}/cover-360x480.webp`,
+      iconUrl: `${identifier}/${identifier}-cover-360x480.webp`,
     },
     distributions: [],
     r2modman: null,
@@ -346,7 +346,7 @@ async function runInteractiveMode() {
     label: identifier,
     meta: {
       displayName,
-      iconUrl: `${identifier}/cover-360x480.webp`,
+      iconUrl: `${identifier}/${identifier}-cover-360x480.webp`,
     },
     distributions: [],
     r2modman: null,
