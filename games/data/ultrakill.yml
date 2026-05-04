@@ -34,6 +34,8 @@ thunderstore:
       label: "Utility"
     skins:
       label: "Skins"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
