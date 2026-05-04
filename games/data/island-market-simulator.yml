@@ -2,7 +2,7 @@ uuid: "61a62561-13d8-4e32-9d1c-25f77acf702e"
 label: "island-market-simulator"
 meta:
   displayName: "Island Market Simulator"
-  iconUrl: "island-market-simulator/cover-360x480.webp"
+  iconUrl: "island-market-simulator/island-market-simulator-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -17,7 +17,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Island Market Simulator"
-      iconUrl: "island-market-simulator/cover-360x480.webp"
+      iconUrl: "island-market-simulator/island-market-simulator-cover-360x480.webp"
     settingsIdentifier: "IslandMarketSimulator"
     internalFolderName: "IslandMarketSimulator"
     packageIndex: "https://thunderstore.io/c/island-market-simulator/api/v1/package-listing-index/"

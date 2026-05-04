@@ -2,7 +2,7 @@ uuid: "f971c560-4cd8-49dd-9bc2-f00011ea6cd7"
 label: "modulus-factory-automation"
 meta:
   displayName: "Modulus: Factory Automation"
-  iconUrl: "modulus-factory-automation/cover-360x480.webp"
+  iconUrl: "modulus-factory-automation/modulus-factory-automation-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Modulus: Factory Automation"
-      iconUrl: "modulus-factory-automation/cover-360x480.webp"
+      iconUrl: "modulus-factory-automation/modulus-factory-automation-cover-360x480.webp"
     settingsIdentifier: "ModulusFactoryAutomation"
     internalFolderName: "ModulusFactoryAutomation"
     packageIndex: "https://thunderstore.io/c/modulus-factory-automation/api/v1/package-listing-index/"

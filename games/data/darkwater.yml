@@ -2,7 +2,7 @@ uuid: "fde8a66c-d967-4505-adf3-5d9fe27bcc58"
 label: "darkwater"
 meta:
   displayName: "Darkwater"
-  iconUrl: "darkwater/cover-360x480.webp"
+  iconUrl: "darkwater/darkwater-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Darkwater"
-      iconUrl: "darkwater/cover-360x480.webp"
+      iconUrl: "darkwater/darkwater-cover-360x480.webp"
     settingsIdentifier: "Darkwater"
     internalFolderName: "Darkwater"
     packageIndex: "https://thunderstore.io/c/darkwater/api/v1/package-listing-index/"

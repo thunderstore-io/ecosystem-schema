@@ -2,7 +2,7 @@ uuid: "588b3202-55b4-4701-8d28-0da252f8101f"
 label: "erenshor"
 meta:
   displayName: "Erenshor"
-  iconUrl: "erenshor/cover-360x480.webp"
+  iconUrl: "erenshor/erenshor-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Erenshor"

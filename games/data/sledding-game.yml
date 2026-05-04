@@ -2,7 +2,7 @@ uuid: "b9a26634-8303-4c60-b170-b9a1f26654b5"
 label: "sledding-game"
 meta:
   displayName: "Sledding Game"
-  iconUrl: "sledding-game/cover-360x480.webp"
+  iconUrl: "sledding-game/sledding-game-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Sledding Game"
-      iconUrl: "sledding-game/cover-360x480.webp"
+      iconUrl: "sledding-game/sledding-game-cover-360x480.webp"
     settingsIdentifier: "SleddingGame"
     internalFolderName: "SleddingGame"
     packageIndex: "https://thunderstore.io/c/sledding-game/api/v1/package-listing-index/"

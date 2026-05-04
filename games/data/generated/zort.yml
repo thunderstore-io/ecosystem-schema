@@ -2,14 +2,14 @@ uuid: "5dc44866-bdbd-44fe-b144-d57d761f6f26"
 label: "zort"
 meta:
   displayName: "Zort"
-  iconUrl: "zort/cover-360x480.webp"
+  iconUrl: "zort/zort-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "3121110"
 r2modman:
   - meta:
       displayName: "Zort"
-      iconUrl: "zort/cover-360x480.webp"
+      iconUrl: "zort/zort-cover-360x480.webp"
     internalFolderName: "Zort"
     dataFolderName: "Zort_Data"
     distributions:

@@ -2,7 +2,7 @@ uuid: "3a02eb9f-a4f2-4e9a-811c-fd2775f68157"
 label: "will-you-snail"
 meta:
   displayName: "Will You Snail"
-  iconUrl: "will-you-snail/cover-360x480.webp"
+  iconUrl: "will-you-snail/will-you-snail-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Will You Snail"

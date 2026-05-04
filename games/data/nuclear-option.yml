@@ -2,7 +2,7 @@ uuid: "fa3f7e0d-f894-4eb5-b417-2dd2a9b531c9"
 label: "nuclear-option"
 meta:
   displayName: "Nuclear Option"
-  iconUrl: "nuclear-option/cover-360x480.webp"
+  iconUrl: "nuclear-option/nuclear-option-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Nuclear Option"
-      iconUrl: "nuclear-option/cover-360x480.webp"
+      iconUrl: "nuclear-option/nuclear-option-cover-360x480.webp"
     settingsIdentifier: "NuclearOption"
     internalFolderName: "NuclearOption"
     packageIndex: "https://thunderstore.io/c/nuclear-option/api/v1/package-listing-index/"

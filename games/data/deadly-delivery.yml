@@ -2,7 +2,7 @@ uuid: "1fd29521-6a2d-4206-abc8-bc2f3a61ac83"
 label: "deadly-delivery"
 meta:
   displayName: "Deadly Delivery"
-  iconUrl: "deadly-delivery/cover-360x480.webp"
+  iconUrl: "deadly-delivery/deadly-delivery-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Deadly Delivery"
-      iconUrl: "deadly-delivery/cover-360x480.webp"
+      iconUrl: "deadly-delivery/deadly-delivery-cover-360x480.webp"
     settingsIdentifier: "DeadlyDelivery"
     internalFolderName: "DeadlyDelivery"
     packageIndex: "https://thunderstore.io/c/deadly-delivery/api/v1/package-listing-index/"

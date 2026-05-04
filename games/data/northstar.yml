@@ -2,7 +2,7 @@ uuid: "2ba4fd1d-5cfc-45c8-a403-d9ebbd8c6165"
 label: "northstar"
 meta:
   displayName: "Titanfall 2"
-  iconUrl: "northstar/cover-360x480.webp"
+  iconUrl: "northstar/northstar-cover-360x480.webp"
 tcli:
   autodiscovery:
     - kind: "RegistryLookup"

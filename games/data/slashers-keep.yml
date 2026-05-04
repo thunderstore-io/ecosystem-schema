@@ -2,7 +2,7 @@ uuid: "3df67cc6-8ba1-41c8-829f-62694ee4da4a"
 label: "slashers-keep"
 meta:
   displayName: "Slasher's Keep"
-  iconUrl: "slashers-keep/cover-360x480.webp"
+  iconUrl: "slashers-keep/slashers-keep-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Slasher's Keep"
-      iconUrl: "slashers-keep/cover-360x480.webp"
+      iconUrl: "slashers-keep/slashers-keep-cover-360x480.webp"
     settingsIdentifier: "SlashersKeep"
     internalFolderName: "SlashersKeep"
     packageIndex: "https://thunderstore.io/c/slashers-keep/api/v1/package-listing-index/"

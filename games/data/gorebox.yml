@@ -2,7 +2,7 @@ uuid: "c49c7c87-81de-4877-aeb5-1793a88997e6"
 label: "gorebox"
 meta:
   displayName: "GoreBox"
-  iconUrl: "gorebox/cover-360x480.webp"
+  iconUrl: "gorebox/gorebox-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "GoreBox"

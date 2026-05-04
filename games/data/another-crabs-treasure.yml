@@ -2,7 +2,7 @@ uuid: "fe739984-0340-4004-885c-a831baee3952"
 label: "another-crabs-treasure"
 meta:
   displayName: "Another Crab's Treasure"
-  iconUrl: "another-crabs-treasure/cover-360x480.webp"
+  iconUrl: "another-crabs-treasure/another-crabs-treasure-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Another Crab's Treasure"

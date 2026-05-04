@@ -2,7 +2,7 @@ uuid: "dcebc888-06d8-436f-b7e7-ed08713f68bd"
 label: "broforce"
 meta:
   displayName: "Broforce"
-  iconUrl: "broforce/cover-360x480.webp"
+  iconUrl: "broforce/broforce-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "umm"
     meta:
       displayName: "Broforce"
-      iconUrl: "broforce/cover-360x480.webp"
+      iconUrl: "broforce/broforce-cover-360x480.webp"
     settingsIdentifier: "Broforce"
     internalFolderName: "Broforce"
     packageIndex: "https://thunderstore.io/c/broforce/api/v1/package-listing-index/"

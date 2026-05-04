@@ -2,7 +2,7 @@ uuid: "44f7465f-65f5-4f9f-964f-9e679e580144"
 label: "dome-keeper"
 meta:
   displayName: "Dome Keeper"
-  iconUrl: "dome-keeper/cover-360x480.webp"
+  iconUrl: "dome-keeper/dome-keeper-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Dome Keeper"

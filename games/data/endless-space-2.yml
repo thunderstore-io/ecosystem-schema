@@ -2,7 +2,7 @@ uuid: "5e4137bc-7823-44b1-a39b-0765cb6477b4"
 label: "endless-space-2"
 meta:
   displayName: "Endless Space 2"
-  iconUrl: "endless-space-2/cover-360x480.webp"
+  iconUrl: "endless-space-2/endless-space-2-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Endless Space 2"

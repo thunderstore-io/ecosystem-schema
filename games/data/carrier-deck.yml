@@ -2,7 +2,7 @@ uuid: "82453e42-aa80-4dd0-ab64-8a64d72fe252"
 label: "carrier-deck"
 meta:
   displayName: "Carrier Deck"
-  iconUrl: "carrier-deck/cover-360x480.webp"
+  iconUrl: "carrier-deck/carrier-deck-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Carrier Deck"
-      iconUrl: "carrier-deck/cover-360x480.webp"
+      iconUrl: "carrier-deck/carrier-deck-cover-360x480.webp"
     settingsIdentifier: "CarrierDeck"
     internalFolderName: "CarrierDeck"
     packageIndex: "https://thunderstore.io/c/carrier-deck/api/v1/package-listing-index/"

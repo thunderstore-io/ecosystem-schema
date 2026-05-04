@@ -2,7 +2,7 @@ uuid: "3bc90e47-4b31-486b-9226-e5d5791fe35e"
 label: "yapyap"
 meta:
   displayName: "YAPYAP"
-  iconUrl: "yapyap/cover-360x480.webp"
+  iconUrl: "yapyap/yapyap-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "YAPYAP"
-      iconUrl: "yapyap/cover-360x480.webp"
+      iconUrl: "yapyap/yapyap-cover-360x480.webp"
     settingsIdentifier: "Yapyap"
     internalFolderName: "Yapyap"
     packageIndex: "https://thunderstore.io/c/yapyap/api/v1/package-listing-index/"

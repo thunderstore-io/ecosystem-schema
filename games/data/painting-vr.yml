@@ -2,7 +2,7 @@ uuid: "ce8b8855-5fa1-46a1-a362-356254d1fff7"
 label: "painting-vr"
 meta:
   displayName: "Painting VR"
-  iconUrl: "painting-vr/cover-360x480.webp"
+  iconUrl: "painting-vr/painting-vr-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Painting VR"

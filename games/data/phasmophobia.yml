@@ -2,7 +2,7 @@ uuid: "59abf0d2-1f59-4378-897e-2b4c94c87245"
 label: "phasmophobia"
 meta:
   displayName: "Phasmophobia"
-  iconUrl: "phasmophobia/cover-360x480.webp"
+  iconUrl: "phasmophobia/phasmophobia-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Phasmophobia"

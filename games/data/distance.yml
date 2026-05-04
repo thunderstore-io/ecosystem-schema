@@ -2,7 +2,7 @@ uuid: "e74a656d-3d3f-49be-a332-9066fe02c6b0"
 label: "distance"
 meta:
   displayName: "Distance"
-  iconUrl: "distance/cover-360x480.webp"
+  iconUrl: "distance/distance-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "233610"

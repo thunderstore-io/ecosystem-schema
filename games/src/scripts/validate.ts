@@ -16,8 +16,9 @@ function validateAssetDirectories() {
     const full = `${root}/${dir}`;
     if (!fs.statSync(full).isDirectory()) return;
     REQUIRED_VARIANTS.forEach((variant) => {
-      if (!fs.existsSync(`${full}/${variant}`)) {
-        missing.push(`${dir}/${variant}`);
+      const filename = `${dir}-${variant}`;
+      if (!fs.existsSync(`${full}/${filename}`)) {
+        missing.push(`${dir}/${filename}`);
       }
     });
   });

@@ -2,7 +2,7 @@ uuid: "70e4bc07-8642-44f1-a0a5-575eac59bd60"
 label: "aeruta"
 meta:
   displayName: "Aeruta"
-  iconUrl: "aeruta/cover-360x480.webp"
+  iconUrl: "aeruta/aeruta-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Aeruta"
-      iconUrl: "aeruta/cover-360x480.webp"
+      iconUrl: "aeruta/aeruta-cover-360x480.webp"
     settingsIdentifier: "Aeruta"
     internalFolderName: "Aeruta"
     packageIndex: "https://thunderstore.io/c/aeruta/api/v1/package-listing-index/"

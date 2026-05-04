@@ -2,7 +2,7 @@ uuid: "1003c39e-ee41-4111-ac9d-e10ca07bb8d8"
 label: "ale-and-tale-tavern"
 meta:
   displayName: "Ale & Tale Tavern"
-  iconUrl: "ale-and-tale-tavern/cover-360x480.webp"
+  iconUrl: "ale-and-tale-tavern/ale-and-tale-tavern-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Ale & Tale Tavern"

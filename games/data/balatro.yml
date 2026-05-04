@@ -2,7 +2,7 @@ uuid: "ecbabbaa-076a-4fce-9211-4c90ab7f0890"
 label: "balatro"
 meta:
   displayName: "Balatro"
-  iconUrl: "balatro/cover-360x480.webp"
+  iconUrl: "balatro/balatro-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Balatro"

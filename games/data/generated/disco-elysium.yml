@@ -2,14 +2,14 @@ uuid: "2c8bdcd0-e5b7-4927-8e0b-c13b7914c3a1"
 label: "disco-elysium"
 meta:
   displayName: "Disco Elysium"
-  iconUrl: "disco-elysium/cover-360x480.webp"
+  iconUrl: "disco-elysium/disco-elysium-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "632470"
 r2modman:
   - meta:
       displayName: "Disco Elysium"
-      iconUrl: "disco-elysium/cover-360x480.webp"
+      iconUrl: "disco-elysium/disco-elysium-cover-360x480.webp"
     internalFolderName: "DiscoElysium"
     dataFolderName: "disco_Data"
     distributions:

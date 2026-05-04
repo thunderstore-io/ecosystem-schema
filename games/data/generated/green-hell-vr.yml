@@ -2,7 +2,7 @@ uuid: "586c54d1-53ce-4a7a-8466-73204bbd27ba"
 label: "green-hell-vr"
 meta:
   displayName: "Green Hell VR"
-  iconUrl: "green-hell-vr/cover-360x480.webp"
+  iconUrl: "green-hell-vr/green-hell-vr-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1782330"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Green Hell VR"
-      iconUrl: "green-hell-vr/cover-360x480.webp"
+      iconUrl: "green-hell-vr/green-hell-vr-cover-360x480.webp"
     internalFolderName: "GreenHellVR"
     dataFolderName: "GHVR_Data"
     distributions:

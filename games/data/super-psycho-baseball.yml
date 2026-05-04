@@ -2,7 +2,7 @@ uuid: "447a553c-c682-4493-8677-ae894e110f05"
 label: "super-psycho-baseball"
 meta:
   displayName: "Super Psycho Baseball"
-  iconUrl: "super-psycho-baseball/cover-360x480.webp"
+  iconUrl: "super-psycho-baseball/super-psycho-baseball-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Super Psycho Baseball"
-      iconUrl: "super-psycho-baseball/cover-360x480.webp"
+      iconUrl: "super-psycho-baseball/super-psycho-baseball-cover-360x480.webp"
     settingsIdentifier: "SuperPsychoBaseball"
     internalFolderName: "SuperPsychoBaseball"
     packageIndex: "https://thunderstore.io/c/super-psycho-baseball/api/v1/package-listing-index/"

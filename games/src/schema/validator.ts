@@ -55,7 +55,7 @@ const distributionSchema = z.strictObject({
   identifier: z.string().optional().nullable(),
 });
 const iconUrl = z.string().regex(
-  new RegExp(/^[a-z0-9](-?[a-z0-9])*\/(bg|cover|icon)-\d+x\d+\.(webp|png|jpg|jpeg)$/)
+  new RegExp(/^([a-z0-9](?:-?[a-z0-9])*)\/\1-(bg|cover|icon)-\d+x\d+\.(webp|png|jpg|jpeg)$/)
 );
 const metaSchema = z.strictObject({
   displayName: z.string(),
@@ -148,7 +148,7 @@ export function validateSchemaJson(schemaJson: any): SchemaType {
       );
     }
 
-    const expectedPrefix = `${game.label}/`;
+    const expectedPrefix = `${game.label}/${game.label}-`;
     const iconUrls = [
       game.meta.iconUrl,
       ...(game.r2modman ?? []).map((r) => r.meta.iconUrl),
