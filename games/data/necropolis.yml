@@ -2,7 +2,7 @@ uuid: "4b70da56-339a-4ab2-b9a8-eb11b0042805"
 label: "necropolis"
 meta:
   displayName: "Necropolis"
-  iconUrl: "necropolis/cover-360x480.webp"
+  iconUrl: "necropolis/necropolis-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Necropolis"
-      iconUrl: "necropolis/cover-360x480.webp"
+      iconUrl: "necropolis/necropolis-cover-360x480.webp"
     settingsIdentifier: "Necropolis"
     internalFolderName: "Necropolis"
     packageIndex: "https://thunderstore.io/c/necropolis/api/v1/package-listing-index/"

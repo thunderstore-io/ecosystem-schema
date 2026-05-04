@@ -2,7 +2,7 @@ uuid: "f5dc52cc-47fb-441d-bcc1-23e0f82face0"
 label: "i-am-your-beast"
 meta:
   displayName: "I Am Your Beast"
-  iconUrl: "i-am-your-beast/cover-360x480.webp"
+  iconUrl: "i-am-your-beast/i-am-your-beast-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "1876590"

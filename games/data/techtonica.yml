@@ -2,7 +2,7 @@ uuid: "3383f232-8539-4052-8da9-3067549a029c"
 label: "techtonica"
 meta:
   displayName: "Techtonica"
-  iconUrl: "techtonica/cover-360x480.webp"
+  iconUrl: "techtonica/techtonica-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Techtonica"

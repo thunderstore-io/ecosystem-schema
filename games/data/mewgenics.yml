@@ -2,7 +2,7 @@ uuid: "5f9befbe-f606-4498-a1c1-f4dabcd8d5c2"
 label: "mewgenics"
 meta:
   displayName: "Mewgenics"
-  iconUrl: "mewgenics/cover-360x480.webp"
+  iconUrl: "mewgenics/mewgenics-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

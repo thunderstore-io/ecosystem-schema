@@ -2,7 +2,7 @@ uuid: "e0c90bc6-675a-4ae7-a60e-57696d4a2205"
 label: "granny-chapter-two"
 meta:
   displayName: "Granny: Chapter Two"
-  iconUrl: "granny-chapter-two/cover-360x480.webp"
+  iconUrl: "granny-chapter-two/granny-chapter-two-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Granny: Chapter Two"
-      iconUrl: "granny-chapter-two/cover-360x480.webp"
+      iconUrl: "granny-chapter-two/granny-chapter-two-cover-360x480.webp"
     settingsIdentifier: "GrannyChapterTwo"
     internalFolderName: "GrannyChapterTwo"
     packageIndex: "https://thunderstore.io/c/granny-chapter-two/api/v1/package-listing-index/"

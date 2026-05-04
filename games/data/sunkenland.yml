@@ -2,7 +2,7 @@ uuid: "da78ae80-b42f-4956-b239-bfa408594ebc"
 label: "sunkenland"
 meta:
   displayName: "Sunkenland"
-  iconUrl: "sunkenland/cover-360x480.webp"
+  iconUrl: "sunkenland/sunkenland-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Sunkenland"

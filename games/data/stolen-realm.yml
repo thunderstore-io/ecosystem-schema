@@ -2,7 +2,7 @@ uuid: "7bb8d376-9f63-4ffb-ad9b-6069565a1ae0"
 label: "stolen-realm"
 meta:
   displayName: "Stolen Realm"
-  iconUrl: "stolen-realm/cover-360x480.webp"
+  iconUrl: "stolen-realm/stolen-realm-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Stolen Realm"
-      iconUrl: "stolen-realm/cover-360x480.webp"
+      iconUrl: "stolen-realm/stolen-realm-cover-360x480.webp"
     settingsIdentifier: "StolenRealm"
     internalFolderName: "StolenRealm"
     packageIndex: "https://thunderstore.io/c/stolen-realm/api/v1/package-listing-index/"

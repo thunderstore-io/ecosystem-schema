@@ -2,7 +2,7 @@ uuid: "5dd42723-fd94-4592-8a87-b509d5402a72"
 label: "lens-island"
 meta:
   displayName: "Len's Island"
-  iconUrl: "lens-island/cover-360x480.webp"
+  iconUrl: "lens-island/lens-island-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Len's Island"
-      iconUrl: "lens-island/cover-360x480.webp"
+      iconUrl: "lens-island/lens-island-cover-360x480.webp"
     settingsIdentifier: "LensIsland"
     internalFolderName: "LensIsland"
     packageIndex: "https://thunderstore.io/c/lens-island/api/v1/package-listing-index/"

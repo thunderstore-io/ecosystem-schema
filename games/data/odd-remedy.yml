@@ -2,7 +2,7 @@ uuid: "a8c07068-9690-4bb4-8b07-64e9da66208c"
 label: "odd-remedy"
 meta:
   displayName: "Odd Remedy"
-  iconUrl: "odd-remedy/cover-360x480.webp"
+  iconUrl: "odd-remedy/odd-remedy-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "1745680"

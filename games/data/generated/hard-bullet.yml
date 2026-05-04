@@ -2,14 +2,14 @@ uuid: "2bc64650-f8fa-424a-9ee2-53bef8041681"
 label: "hard-bullet"
 meta:
   displayName: "Hard Bullet"
-  iconUrl: "hard-bullet/cover-360x480.webp"
+  iconUrl: "hard-bullet/hard-bullet-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1294760"
 r2modman:
   - meta:
       displayName: "Hard Bullet"
-      iconUrl: "hard-bullet/cover-360x480.webp"
+      iconUrl: "hard-bullet/hard-bullet-cover-360x480.webp"
     internalFolderName: "HardBullet"
     dataFolderName: "Hard Bullet_Data"
     distributions:

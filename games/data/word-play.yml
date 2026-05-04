@@ -2,7 +2,7 @@ uuid: "a932f5bb-8871-400f-be6f-f9e8a0a47754"
 label: "word-play"
 meta:
   displayName: "Word Play"
-  iconUrl: "word-play/cover-360x480.webp"
+  iconUrl: "word-play/word-play-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Word Play"
-      iconUrl: "word-play/cover-360x480.webp"
+      iconUrl: "word-play/word-play-cover-360x480.webp"
     settingsIdentifier: "WordPlay"
     internalFolderName: "WordPlay"
     packageIndex: "https://thunderstore.io/c/word-play/api/v1/package-listing-index/"

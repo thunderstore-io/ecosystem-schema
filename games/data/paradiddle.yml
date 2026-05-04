@@ -2,7 +2,7 @@ uuid: "7bdd9e41-0144-4fa0-9727-580134489cfb"
 label: "paradiddle"
 meta:
   displayName: "Paradiddle"
-  iconUrl: "paradiddle/cover-360x480.webp"
+  iconUrl: "paradiddle/paradiddle-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

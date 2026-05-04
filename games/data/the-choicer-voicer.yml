@@ -2,7 +2,7 @@ uuid: "12bab0c0-24c5-4999-9a20-376abd6693e1"
 label: "the-choicer-voicer"
 meta:
   displayName: "The Choicer Voicer"
-  iconUrl: "the-choicer-voicer/cover-360x480.webp"
+  iconUrl: "the-choicer-voicer/the-choicer-voicer-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "The Choicer Voicer"

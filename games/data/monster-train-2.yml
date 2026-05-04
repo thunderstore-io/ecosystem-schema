@@ -2,7 +2,7 @@ uuid: "d915f79b-330f-425d-bc4f-7f04bf85f7d8"
 label: "monster-train-2"
 meta:
   displayName: "Monster Train 2"
-  iconUrl: "monster-train-2/cover-360x480.webp"
+  iconUrl: "monster-train-2/monster-train-2-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "2742830"

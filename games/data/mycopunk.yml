@@ -2,7 +2,7 @@ uuid: "ae70137d-e23a-46d1-bae2-56916f686018"
 label: "mycopunk"
 meta:
   displayName: "Mycopunk"
-  iconUrl: "mycopunk/cover-360x480.webp"
+  iconUrl: "mycopunk/mycopunk-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Mycopunk"
-      iconUrl: "mycopunk/cover-360x480.webp"
+      iconUrl: "mycopunk/mycopunk-cover-360x480.webp"
     settingsIdentifier: "Mycopunk"
     internalFolderName: "Mycopunk"
     packageIndex: "https://thunderstore.io/c/mycopunk/api/v1/package-listing-index/"

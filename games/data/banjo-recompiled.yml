@@ -2,7 +2,7 @@ uuid: "31d9c310-34d3-4c9c-9361-ea664f8a1104"
 label: "banjo-recompiled"
 meta:
   displayName: "Banjo: Recompiled"
-  iconUrl: "banjo-recompiled/cover-360x480.webp"
+  iconUrl: "banjo-recompiled/banjo-recompiled-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

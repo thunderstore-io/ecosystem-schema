@@ -2,7 +2,7 @@ uuid: "efdd5f11-1a2c-4865-bf0a-ca548c0c28a9"
 label: "voodoo-fishin"
 meta:
   displayName: "Voodoo Fishin'"
-  iconUrl: "voodoo-fishin/cover-360x480.webp"
+  iconUrl: "voodoo-fishin/voodoo-fishin-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Voodoo Fishin'"
-      iconUrl: "voodoo-fishin/cover-360x480.webp"
+      iconUrl: "voodoo-fishin/voodoo-fishin-cover-360x480.webp"
     settingsIdentifier: "VoodooFishin"
     internalFolderName: "VoodooFishin"
     packageIndex: "https://thunderstore.io/c/voodoo-fishin/api/v1/package-listing-index/"

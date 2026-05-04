@@ -2,7 +2,7 @@ uuid: "2216ad36-7433-468c-addf-3db3ddc2d947"
 label: "beton-brutal"
 meta:
   displayName: "BETON BRUTAL"
-  iconUrl: "beton-brutal/cover-360x480.webp"
+  iconUrl: "beton-brutal/beton-brutal-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "BETON BRUTAL"
-      iconUrl: "beton-brutal/cover-360x480.webp"
+      iconUrl: "beton-brutal/beton-brutal-cover-360x480.webp"
     settingsIdentifier: "BetonBrutal"
     internalFolderName: "BetonBrutal"
     packageIndex: "https://thunderstore.io/c/beton-brutal/api/v1/package-listing-index/"

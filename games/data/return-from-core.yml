@@ -2,7 +2,7 @@ uuid: "24c83122-c208-4384-906f-fd99b3194a65"
 label: "return-from-core"
 meta:
   displayName: "Return From Core"
-  iconUrl: "return-from-core/cover-360x480.webp"
+  iconUrl: "return-from-core/return-from-core-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Return From Core"
-      iconUrl: "return-from-core/cover-360x480.webp"
+      iconUrl: "return-from-core/return-from-core-cover-360x480.webp"
     settingsIdentifier: "ReturnFromCore"
     internalFolderName: "ReturnFromCore"
     packageIndex: "https://thunderstore.io/c/return-from-core/api/v1/package-listing-index/"

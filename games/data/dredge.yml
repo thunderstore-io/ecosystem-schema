@@ -2,7 +2,7 @@ uuid: "a292ab38-090b-49aa-b155-ca7c8360ce0d"
 label: "dredge"
 meta:
   displayName: "Dredge"
-  iconUrl: "dredge/cover-360x480.webp"
+  iconUrl: "dredge/dredge-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Dredge"

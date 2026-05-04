@@ -2,7 +2,7 @@ uuid: "bb2d482f-548d-4e6c-8421-0824a81f172c"
 label: "peak"
 meta:
   displayName: "PEAK"
-  iconUrl: "peak/cover-360x480.webp"
+  iconUrl: "peak/peak-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "PEAK"

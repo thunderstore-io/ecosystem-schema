@@ -2,7 +2,7 @@ uuid: "4363e08e-0e9d-4578-a8ab-9c28ce866280"
 label: "cursed-words"
 meta:
   displayName: "Cursed Words"
-  iconUrl: "cursed-words/cover-360x480.webp"
+  iconUrl: "cursed-words/cursed-words-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Cursed Words"
-      iconUrl: "cursed-words/cover-360x480.webp"
+      iconUrl: "cursed-words/cursed-words-cover-360x480.webp"
     settingsIdentifier: "CursedWords"
     internalFolderName: "CursedWords"
     packageIndex: "https://thunderstore.io/c/cursed-words/api/v1/package-listing-index/"

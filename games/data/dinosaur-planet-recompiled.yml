@@ -2,7 +2,7 @@ uuid: "7d372a07-edb8-4267-b791-bd8a9b2c9381"
 label: "dinosaur-planet-recompiled"
 meta:
   displayName: "Dinosaur Planet: Recompiled"
-  iconUrl: "dinosaur-planet-recompiled/cover-360x480.webp"
+  iconUrl: "dinosaur-planet-recompiled/dinosaur-planet-recompiled-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

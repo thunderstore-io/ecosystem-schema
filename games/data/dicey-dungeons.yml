@@ -2,7 +2,7 @@ uuid: "6332d5c4-1a74-4826-abb3-f18b212f26fd"
 label: "dicey-dungeons"
 meta:
   displayName: "Dicey Dungeons"
-  iconUrl: "dicey-dungeons/cover-360x480.webp"
+  iconUrl: "dicey-dungeons/dicey-dungeons-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Dicey Dungeons"
