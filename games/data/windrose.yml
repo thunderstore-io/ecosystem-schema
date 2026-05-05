@@ -1,0 +1,58 @@
+uuid: "23f8dcde-9376-4107-ba47-e8a47fa3bdee"
+label: "windrose"
+meta:
+  displayName: "Windrose"
+  iconUrl: "windrose.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3041230"
+      - platform: "epic-games-store"
+        identifier: "d08157fbe22d45fcba452680857ac58d"
+    steamFolderName: "Windrose"
+    dataFolderName: "R5"
+    exeNames:
+      - "Windrose.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "Windrose"
+      iconUrl: "windrose.webp"
+    settingsIdentifier: "Windrose"
+    internalFolderName: "Windrose"
+    packageIndex: "https://thunderstore.io/c/windrose/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "WR"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Windrose"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://windrose.gaming.tools/"
+  discordUrl: "https://discord.gg/2GJJZAkk85"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures!"
