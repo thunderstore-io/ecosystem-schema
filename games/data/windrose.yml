@@ -55,14 +55,54 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
-    tools:
-      label: "Tools"
-    libraries:
-      label: "Libraries"
-    misc:
-      label: "Misc"
+    ai-generated:
+      label: "AI Generated"
     audio:
       label: "Audio"
+    building:
+      label: "Building"
+    client-side:
+      label: "Client-side"
+    companions:
+      label: "Companions"
+    crafting:
+      label: "Crafting"
+    dedicated-server:
+      label: "Dedicated Server"
+    enemies:
+      label: "Enemies"
+    gear-and-armor:
+      label: "Gear and Armor"
+    inventory-modifications:
+      label: "Inventory Modifications"
+    libraries:
+      label: "Libraries"
+    logic-mod:
+      label: "Logic Mod"
+    misc:
+      label: "Misc"
+    npcs:
+      label: "NPCs"
+    quality-of-life:
+      label: "Quality of Life"
+    server-side:
+      label: "Server-side"
+    ships:
+      label: "Ships"
+    single-player:
+      label: "Single Player"
+    skins:
+      label: "Skins"
+    tools:
+      label: "Tools"
+    tweaks:
+      label: "Tweaks"
+    ue4ss-mod:
+      label: "UE4SS Mod"
+    utility:
+      label: "Utility"
+    world-generation:
+      label: "World Generation"
   sections:
     mods:
       name: "Mods"
