@@ -23,7 +23,22 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "牛头人迷阵"
-    installRules: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "MINOS"

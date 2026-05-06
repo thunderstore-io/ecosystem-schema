@@ -22,10 +22,25 @@ r2modman:
     settingsIdentifier: "Windrose"
     internalFolderName: "Windrose"
     packageIndex: "https://thunderstore.io/c/windrose/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "visible"
+    gameSelectionDisplayMode: "hidden"
     additionalSearchStrings:
       - "WR"
-    installRules: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "Windrose"
