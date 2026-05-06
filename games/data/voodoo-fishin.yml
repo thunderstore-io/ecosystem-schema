@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "VoodooFishin"
     packageIndex: "https://thunderstore.io/c/voodoo-fishin/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "巫毒垂钓"
+      - "巫毒钓鱼"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

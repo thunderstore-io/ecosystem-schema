@@ -26,6 +26,9 @@ r2modman:
     additionalSearchStrings:
       - "GOI"
       - "GOIWBF"
+      - "和班尼特福迪一起攻克难关"
+      - "掘地求升"
+      - "罐男镐手"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

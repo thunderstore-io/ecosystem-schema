@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "MiSideZero"
     packageIndex: "https://thunderstore.io/c/miside-zero/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "米塔：零"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "TheSpellBrigade"
     packageIndex: "https://thunderstore.io/c/the-spell-brigade/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "咒语旅团"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
