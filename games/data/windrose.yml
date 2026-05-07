@@ -41,6 +41,11 @@ r2modman:
         defaultFileExtensions: []
         trackingMethod: "none"
         subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
     relativeFileExclusions: null
 thunderstore:
   displayName: "Windrose"
