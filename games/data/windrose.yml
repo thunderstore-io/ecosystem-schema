@@ -22,9 +22,10 @@ r2modman:
     settingsIdentifier: "Windrose"
     internalFolderName: "Windrose"
     packageIndex: "https://thunderstore.io/c/windrose/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "hidden"
+    gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "WR"
+      - "风启之旅"
     installRules:
       - route: "shimloader/mod"
         isDefaultLocation: true

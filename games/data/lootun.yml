@@ -1,34 +1,27 @@
-uuid: "42bb337d-c169-476c-81fa-1a645de8c80f"
-label: "vampire-crawlers"
+uuid: "80951f48-c690-4c04-af1c-b428f914ba21"
+label: "lootun"
 meta:
-  displayName: "Vampire Crawlers"
-  iconUrl: "vampire-crawlers.webp"
+  displayName: "Lootun"
+  iconUrl: "lootun.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "3265700"
-      - platform: "epic-games-store"
-        identifier: "6d4f12300a0844369205eb8ae9619ca0"
-      - platform: "xbox-game-pass"
-        identifier: "poncle.VampireCrawlers"
-    steamFolderName: "Vampire Crawlers"
-    dataFolderName: "Vampire Crawlers_Data"
+        identifier: "1960270"
+    steamFolderName: "Lootun"
+    dataFolderName: "Lootun_Data"
     exeNames:
-      - "Vampire Crawlers.exe"
-      - "Vampire Crawlers.app"
+      - "Lootun.exe"
     packageLoader: "bepinex"
     meta:
-      displayName: "Vampire Crawlers"
-      iconUrl: "vampire-crawlers.webp"
-    settingsIdentifier: "VampireCrawlers"
-    internalFolderName: "VampireCrawlers"
-    packageIndex: "https://thunderstore.io/c/vampire-crawlers/api/v1/package-listing-index/"
+      displayName: "Lootun"
+      iconUrl: "lootun.webp"
+    settingsIdentifier: "Lootun"
+    internalFolderName: "Lootun"
+    packageIndex: "https://thunderstore.io/c/lootun/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings:
-      - "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者"
-      - "吸血鬼探索者: 屠戮地牢的吸血鬼幸存者"
+    additionalSearchStrings: []
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -59,7 +52,7 @@ r2modman:
         subRoutes: []
     relativeFileExclusions: null
 thunderstore:
-  displayName: "Vampire Crawlers"
+  displayName: "Lootun"
   categories:
     mods:
       label: "Mods"
@@ -83,5 +76,5 @@ thunderstore:
       requireCategories:
         - "modpacks"
   autolistPackageIds:
-    - "BepInEx-BepInExPack_IL2CPP"
-  shortDescription: "From the creators of Vampire Survivors comes a turbo-charged, turn-based roguelite deckbuilder! Deal world-ending combos, blitz through infested dungeons, and master the Turboturn to obliterate hordes of familiar foes with a chaotic hand of cards."
+    - "BepInEx-BepInExPack"
+  shortDescription: "Lootun is a Semi-Idle RPG with a strong focus on Character/Skill Progression, Item Hunting, and Inventory Management. Assemble a team of adventurers and send them off to clear missions while you Craft, Upgrade and Enchant the Loot!"

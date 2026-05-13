@@ -8,11 +8,11 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4029310"
-    steamFolderName: "Sledding Game Demo"
-    dataFolderName: "Sledding Game Demo_Data"
+        identifier: "3438850"
+    steamFolderName: "Sledding Game"
+    dataFolderName: "Sledding Game_Data"
     exeNames:
-      - "Sledding Game Demo.exe"
+      - "Sledding Game.exe"
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Sledding Game"
@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "SleddingGame"
     packageIndex: "https://thunderstore.io/c/sledding-game/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "滑雪游戏"
+      - "雪橇游戏"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
