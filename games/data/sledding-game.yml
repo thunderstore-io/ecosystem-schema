@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "SleddingGame"
     packageIndex: "https://thunderstore.io/c/sledding-game/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "滑雪游戏"
+      - "雪橇游戏"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

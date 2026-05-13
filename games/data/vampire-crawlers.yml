@@ -26,7 +26,9 @@ r2modman:
     internalFolderName: "VampireCrawlers"
     packageIndex: "https://thunderstore.io/c/vampire-crawlers/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "吸血鬼爬行者: 屠戮地牢的吸血鬼幸存者"
+      - "吸血鬼探索者: 屠戮地牢的吸血鬼幸存者"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
