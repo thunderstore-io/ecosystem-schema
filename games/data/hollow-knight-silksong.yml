@@ -94,6 +94,8 @@ thunderstore:
       label: "Boss"
     expansion:
       label: "Expansion"
+    ai-generated:
+      label: "AI Generated"
     # deprecated categories. hidden is not yet implemented anywhere but will be in the future.
     tools:
       # use "utilities" or "custom-tools" instead as appropriate 
