@@ -211,7 +211,7 @@
 - packageId: "BepInEx-BepInExPack_Patapon"
   rootFolder: "BepInExPack"
   loader: "bepinex"
-- packageId: "BepInEx-BepInExPack_Silksong"
+- packageId: "silksong_modding-BepInExPack_Silksong"
   rootFolder: "BepInExPack"
   loader: "bepinex"
 - packageId: "ResoniteModding-BepisLoader"
