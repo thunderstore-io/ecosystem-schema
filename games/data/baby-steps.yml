@@ -25,6 +25,26 @@ r2modman:
       - "一步一脚印"
     installRules: []
     relativeFileExclusions: null
+  - gameInstanceType: "server"
+    distributions:
+      - platform: "other"
+        identifier: null
+    steamFolderName: "Baby Steps"
+    dataFolderName: "BabySteps_Data"
+    exeNames:
+      - "BabyStepsMultiplayerServer.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Baby Steps Dedicated Server"
+      iconUrl: "baby-steps.webp"
+    settingsIdentifier: "BabySteps"
+    internalFolderName: "BabySteps"
+    packageIndex: "https://thunderstore.io/c/baby-steps/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "一步一脚印"
+    installRules: []
+    relativeFileExclusions: null
 thunderstore:
   displayName: "Baby Steps"
   categories:
