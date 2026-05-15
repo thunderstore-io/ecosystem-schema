@@ -2,6 +2,7 @@ uuid: "0730de09-f183-4cdc-ba4e-ddff5077f99b"
 label: "atomicrops"
 meta:
   displayName: "Atomicrops"
+  iconUrl: "atomicrops/atomicrops-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Atomicrops"

@@ -2,7 +2,7 @@ uuid: "ac6446c4-17ff-4027-b11d-fa7a39c0be2c"
 label: "r5valkyrie"
 meta:
   displayName: "R5Valkyrie"
-  iconUrl: ""
+  iconUrl: "r5valkyrie/r5valkyrie-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

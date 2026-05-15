@@ -2,7 +2,7 @@ uuid: "a1979509-361c-4029-8daa-20bc5ba3553d"
 label: "bendy-and-the-ink-machine"
 meta:
   displayName: "Bendy and the Ink Machine"
-  iconUrl: "bendy-and-the-ink-machine.webp"
+  iconUrl: "bendy-and-the-ink-machine/bendy-and-the-ink-machine-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -18,7 +18,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Bendy and the Ink Machine"
-      iconUrl: "bendy-and-the-ink-machine.webp"
+      iconUrl: "bendy-and-the-ink-machine/bendy-and-the-ink-machine-cover-360x480.webp"
     settingsIdentifier: "BendyAndTheInkMachine"
     internalFolderName: "BendyAndTheInkMachine"
     packageIndex: "https://thunderstore.io/c/bendy-and-the-ink-machine/api/v1/package-listing-index/"

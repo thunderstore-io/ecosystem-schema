@@ -2,7 +2,7 @@ uuid: "e036d5db-ba60-420d-b151-3a56eb8183ab"
 label: "angry-birds-vr-isle-of-pigs"
 meta:
   displayName: "Angry Birds VR: Isle of Pigs"
-  iconUrl: "angry-birds-vr-isle-of-pigs.webp"
+  iconUrl: "angry-birds-vr-isle-of-pigs/angry-birds-vr-isle-of-pigs-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Angry Birds VR: Isle of Pigs"
-      iconUrl: "angry-birds-vr-isle-of-pigs.webp"
+      iconUrl: "angry-birds-vr-isle-of-pigs/angry-birds-vr-isle-of-pigs-cover-360x480.webp"
     settingsIdentifier: "AngryBirdsVrIsleOfPigs"
     internalFolderName: "AngryBirdsVrIsleOfPigs"
     packageIndex: "https://thunderstore.io/c/angry-birds-vr-isle-of-pigs/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "7b33c310-2147-45c6-b621-4ecfe90e3a0d"
 label: "roadside-research"
 meta:
   displayName: "Roadside Research"
-  iconUrl: "roadside-research.webp"
+  iconUrl: "roadside-research/roadside-research-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Roadside Research"
-      iconUrl: "roadside-research.webp"
+      iconUrl: "roadside-research/roadside-research-cover-360x480.webp"
     settingsIdentifier: "RoadsideResearch"
     internalFolderName: "RoadsideResearch"
     packageIndex: "https://thunderstore.io/c/roadside-research/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "cef75c51-19b4-49cd-86b6-7eab099c8d4f"
 label: "bomberman-64-recompiled"
 meta:
   displayName: "Bomberman 64: Recompiled"
-  iconUrl: "bomberman-64-recompiled.webp"
+  iconUrl: "bomberman-64-recompiled/bomberman-64-recompiled-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

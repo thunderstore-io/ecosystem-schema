@@ -2,7 +2,7 @@ uuid: "91fea4ea-4642-4afe-b906-4d45fc8ca1a1"
 label: "project-gorgon"
 meta:
   displayName: "Project Gorgon"
-  iconUrl: "project-gorgon.webp"
+  iconUrl: "project-gorgon/project-gorgon-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -17,7 +17,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Project Gorgon"
-      iconUrl: "project-gorgon.webp"
+      iconUrl: "project-gorgon/project-gorgon-cover-360x480.webp"
     settingsIdentifier: "ProjectGorgon"
     internalFolderName: "ProjectGorgon"
     packageIndex: "https://thunderstore.io/c/project-gorgon/api/v1/package-listing-index/"

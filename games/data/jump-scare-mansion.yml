@@ -2,7 +2,7 @@ uuid: "bd792010-c61e-454a-bf51-b3c28243e14f"
 label: "jump-scare-mansion"
 meta:
   displayName: "Spooky's Jump Scare Mansion: HD Renovation"
-  iconUrl: "jump-scare-mansion.webp"
+  iconUrl: "jump-scare-mansion/jump-scare-mansion-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -17,7 +17,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Spooky's Jump Scare Mansion: HD Renovation"
-      iconUrl: "jump-scare-mansion.webp"
+      iconUrl: "jump-scare-mansion/jump-scare-mansion-cover-360x480.webp"
     settingsIdentifier: "SpookysJumpScareMansionHdRenovation"
     internalFolderName: "SpookysJumpScareMansionHdRenovation"
     packageIndex: "https://thunderstore.io/c/jump-scare-mansion/api/v1/package-listing-index/"

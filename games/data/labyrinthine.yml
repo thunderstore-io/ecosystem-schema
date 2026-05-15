@@ -2,6 +2,7 @@ uuid: "f51778cc-ffa4-42f7-a140-9ad5c528d8f7"
 label: "labyrinthine"
 meta:
   displayName: "Labyrinthine"
+  iconUrl: "labyrinthine/labyrinthine-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Labyrinthine"

@@ -2,6 +2,7 @@ uuid: "4a28a8cc-902c-4630-a4b7-79f90ae22299"
 label: "panicore"
 meta:
   displayName: "Panicore"
+  iconUrl: "panicore/panicore-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Panicore"

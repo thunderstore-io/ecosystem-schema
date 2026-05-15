@@ -2,7 +2,7 @@ uuid: "ca4df913-b688-459c-bb60-f56951a5b6a0"
 label: "pushing-it-together-sisyphus"
 meta:
   displayName: "Pushing it! Together - Sisyphus Co-op"
-  iconUrl: "pushing-it-together-sisyphus-co-op.webp"
+  iconUrl: "pushing-it-together-sisyphus/pushing-it-together-sisyphus-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Pushing it! Together - Sisyphus Co-op"
-      iconUrl: "pushing-it-together-sisyphus-co-op.webp"
+      iconUrl: "pushing-it-together-sisyphus/pushing-it-together-sisyphus-cover-360x480.webp"
     settingsIdentifier: "PushingItTogetherSisyphusCoOp"
     internalFolderName: "PushingItTogetherSisyphusCoOp"
     packageIndex: "https://thunderstore.io/c/pushing-it-together-sisyphus/api/v1/package-listing-index/"

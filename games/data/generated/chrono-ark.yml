@@ -2,14 +2,14 @@ uuid: "6bec34e7-ce43-4fd5-a4d9-5017ab5f6245"
 label: "chrono-ark"
 meta:
   displayName: "Chrono Ark"
-  iconUrl: "chrono-ark.webp"
+  iconUrl: "chrono-ark/chrono-ark-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1188930"
 r2modman:
   - meta:
       displayName: "Chrono Ark"
-      iconUrl: "chrono-ark.webp"
+      iconUrl: "chrono-ark/chrono-ark-cover-360x480.webp"
     internalFolderName: "ChronoArk"
     dataFolderName: "ChronoArk_Data"
     distributions:

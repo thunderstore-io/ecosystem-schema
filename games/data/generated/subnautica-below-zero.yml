@@ -2,7 +2,7 @@ uuid: "c7281746-5743-4dd1-b37f-b640f6611854"
 label: "subnautica-below-zero"
 meta:
   displayName: "Subnautica: Below Zero"
-  iconUrl: "subnautica-below-zero.webp"
+  iconUrl: "subnautica-below-zero/subnautica-below-zero-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "848450"
@@ -11,7 +11,7 @@ distributions:
 r2modman:
   - meta:
       displayName: "Subnautica: Below Zero"
-      iconUrl: "subnautica-below-zero.webp"
+      iconUrl: "subnautica-below-zero/subnautica-below-zero-cover-360x480.webp"
     internalFolderName: "SubnauticaBZ"
     dataFolderName: "SubnauticaZero_Data"
     distributions:

@@ -2,6 +2,7 @@ uuid: "be17d062-1f3d-4a6c-b147-33386590c648"
 label: "old-market-simulator"
 meta:
   displayName: "Old Market Simulator"
+  iconUrl: "old-market-simulator/old-market-simulator-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Old Market Simulator"

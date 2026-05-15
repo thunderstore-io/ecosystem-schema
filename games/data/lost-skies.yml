@@ -2,6 +2,7 @@ uuid: "0814ff73-fa5d-4d32-9248-57259fd43f9d"
 label: "lost-skies"
 meta:
   displayName: "Lost Skies"
+  iconUrl: "lost-skies/lost-skies-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Lost Skies"

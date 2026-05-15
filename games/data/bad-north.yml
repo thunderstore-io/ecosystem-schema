@@ -2,7 +2,7 @@ uuid: "f59327ea-5b65-4817-b347-7c08fdda0fdd"
 label: "bad-north"
 meta:
   displayName: "Bad North"
-  iconUrl: "bad-north.webp"
+  iconUrl: "bad-north/bad-north-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Bad North"
-      iconUrl: "bad-north.webp"
+      iconUrl: "bad-north/bad-north-cover-360x480.webp"
     settingsIdentifier: "BadNorth"
     internalFolderName: "BadNorth"
     packageIndex: "https://thunderstore.io/c/bad-north/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "b8fc6f53-5269-4768-b7ec-f09742f0b0bc"
 label: "hollow-knight-silksong"
 meta:
   displayName: "Hollow Knight: Silksong"
-  iconUrl: "hollow-knight-silksong.webp"
+  iconUrl: "hollow-knight-silksong/hollow-knight-silksong-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1030300"
@@ -28,7 +28,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Hollow Knight: Silksong"
-      iconUrl: "hollow-knight-silksong.webp"
+      iconUrl: "hollow-knight-silksong/hollow-knight-silksong-cover-360x480.webp"
     settingsIdentifier: "HollowKnightSilksong"
     internalFolderName: "HollowKnightSilksong"
     packageIndex: "https://thunderstore.io/c/hollow-knight-silksong/api/v1/package-listing-index/"

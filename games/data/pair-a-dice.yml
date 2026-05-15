@@ -2,7 +2,7 @@ uuid: "ba399eee-df9f-44e9-93a4-d9d181b9bf99"
 label: "pair-a-dice"
 meta:
   displayName: "Pair A Dice"
-  iconUrl: "pair-a-dice.webp"
+  iconUrl: "pair-a-dice/pair-a-dice-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "godotml"
     meta:
       displayName: "Pair A Dice"
-      iconUrl: "pair-a-dice.webp"
+      iconUrl: "pair-a-dice/pair-a-dice-cover-360x480.webp"
     settingsIdentifier: "PairADice"
     internalFolderName: "PairADice"
     packageIndex: "https://thunderstore.io/c/pair-a-dice/api/v1/package-listing-index/"
