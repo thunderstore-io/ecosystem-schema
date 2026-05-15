@@ -40,6 +40,8 @@ thunderstore:
       label: "Server-side"
     cosmetics:
       label: "Cosmetics"
+    quality-of-life:
+      label: "Quality Of Life"
     ai-generated:
       label: "AI Generated"
   sections:
