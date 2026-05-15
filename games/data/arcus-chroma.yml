@@ -2,6 +2,7 @@ uuid: "6ebb56d0-ca43-471a-9e50-3182cd3b3c66"
 label: "arcus-chroma"
 meta:
   displayName: "Arcus Chroma"
+  iconUrl: "arcus-chroma/arcus-chroma-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Arcus Chroma"

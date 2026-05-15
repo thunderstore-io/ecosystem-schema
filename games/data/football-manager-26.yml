@@ -2,7 +2,7 @@ uuid: "dff631a2-171a-4bd1-af49-92a0c81eb49b"
 label: "football-manager-26"
 meta:
   displayName: "Football Manager 26"
-  iconUrl: "football-manager-26.webp"
+  iconUrl: "football-manager-26/football-manager-26-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Football Manager 26"
-      iconUrl: "football-manager-26.webp"
+      iconUrl: "football-manager-26/football-manager-26-cover-360x480.webp"
     settingsIdentifier: "FootballManager26"
     internalFolderName: "FootballManager26"
     packageIndex: "https://thunderstore.io/c/football-manager-26/api/v1/package-listing-index/"

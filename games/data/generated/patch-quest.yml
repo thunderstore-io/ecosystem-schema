@@ -2,14 +2,14 @@ uuid: "f177bed2-ec0d-424a-98bd-87e9e3484924"
 label: "patch-quest"
 meta:
   displayName: "Patch Quest"
-  iconUrl: "patch-quest.webp"
+  iconUrl: "patch-quest/patch-quest-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1347970"
 r2modman:
   - meta:
       displayName: "Patch Quest"
-      iconUrl: "patch-quest.webp"
+      iconUrl: "patch-quest/patch-quest-cover-360x480.webp"
     internalFolderName: "PatchQuest"
     dataFolderName: "PatchQuest_Data"
     distributions:

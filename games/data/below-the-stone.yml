@@ -2,6 +2,7 @@ uuid: "2e133e49-b1c0-4e72-81fe-2ce070ce912e"
 label: "below-the-stone"
 meta:
   displayName: "Below the Stone"
+  iconUrl: "below-the-stone/below-the-stone-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Below the Stone"

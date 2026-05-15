@@ -2,6 +2,7 @@ uuid: "3f1b9fa4-a067-4910-877e-78bcd8caef25"
 label: "9-kings"
 meta:
   displayName: "9 Kings"
+  iconUrl: "9-kings/9-kings-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "9 Kings"

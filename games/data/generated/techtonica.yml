@@ -2,14 +2,14 @@ uuid: "3383f232-8539-4052-8da9-3067549a029c"
 label: "techtonica"
 meta:
   displayName: "Techtonica"
-  iconUrl: "techtonica.webp"
+  iconUrl: "techtonica/techtonica-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "1457320"
 r2modman:
   - meta:
       displayName: "Techtonica"
-      iconUrl: "techtonica.webp"
+      iconUrl: "techtonica/techtonica-cover-360x480.webp"
     internalFolderName: "Techtonica"
     dataFolderName: "Techtonica_Data"
     distributions:

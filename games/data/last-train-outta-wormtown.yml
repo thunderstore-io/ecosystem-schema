@@ -2,6 +2,7 @@ uuid: "476f1d7a-4009-4ede-9ccd-e620a57f4040"
 label: "last-train-outta-wormtown"
 meta:
   displayName: "Last Train Outta' Wormtown"
+  iconUrl: "last-train-outta-wormtown/last-train-outta-wormtown-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Last Train Outta' Wormtown"

@@ -2,7 +2,7 @@ uuid: "c0935537-9ac9-43f6-9c30-64c4dd5945d1"
 label: "paper-animal-adventure"
 meta:
   displayName: "Paper Animal Adventure"
-  iconUrl: "paper-animal-adventure.webp"
+  iconUrl: "paper-animal-adventure/paper-animal-adventure-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Paper Animal Adventure"
-      iconUrl: "paper-animal-adventure.webp"
+      iconUrl: "paper-animal-adventure/paper-animal-adventure-cover-360x480.webp"
     settingsIdentifier: "PaperAnimalAdventure"
     internalFolderName: "PaperAnimalAdventure"
     packageIndex: "https://thunderstore.io/c/paper-animal-adventure/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "35a9dbb7-a4f8-4faf-a032-66352aa690cc"
 label: "r5reloaded"
 meta:
   displayName: "R5Reloaded"
-  iconUrl: ""
+  iconUrl: "r5reloaded/r5reloaded-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

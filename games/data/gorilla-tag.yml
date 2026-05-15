@@ -2,7 +2,7 @@ uuid: "f82a5eb3-c8b7-49af-99d8-a812ab87f8fc"
 label: "gorilla-tag"
 meta:
   displayName: "Gorilla Tag"
-  iconUrl: "gorilla-tag.webp"
+  iconUrl: "gorilla-tag/gorilla-tag-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Gorilla Tag"
-      iconUrl: "gorilla-tag.webp"
+      iconUrl: "gorilla-tag/gorilla-tag-cover-360x480.webp"
     settingsIdentifier: "GorillaTag"
     internalFolderName: "GorillaTag"
     packageIndex: "https://thunderstore.io/c/gorilla-tag/api/v1/package-listing-index/"

@@ -2,7 +2,7 @@ uuid: "8685454b-def3-4ff5-8cb1-c0784a49f62d"
 label: "in-silence"
 meta:
   displayName: "In Silence"
-  iconUrl: "in-silence.webp"
+  iconUrl: "in-silence/in-silence-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

@@ -2,7 +2,7 @@ uuid: "940cd817-fa5b-464e-88a3-0de6d04388c0"
 label: "vellum"
 meta:
   displayName: "Vellum"
-  iconUrl: "vellum.webp"
+  iconUrl: "vellum/vellum-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Vellum"
-      iconUrl: "vellum.webp"
+      iconUrl: "vellum/vellum-cover-360x480.webp"
     settingsIdentifier: "Vellum"
     internalFolderName: "Vellum"
     packageIndex: "https://thunderstore.io/c/vellum/api/v1/package-listing-index/"

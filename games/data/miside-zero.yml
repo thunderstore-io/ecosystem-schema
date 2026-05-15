@@ -2,7 +2,7 @@ uuid: "2c255a03-0065-4fdc-9889-7c26e99274f3"
 label: "miside-zero"
 meta:
   displayName: "MiSide: Zero"
-  iconUrl: "miside-zero.webp"
+  iconUrl: "miside-zero/miside-zero-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "MiSide: Zero"
-      iconUrl: "miside-zero.webp"
+      iconUrl: "miside-zero/miside-zero-cover-360x480.webp"
     settingsIdentifier: "MiSideZero"
     internalFolderName: "MiSideZero"
     packageIndex: "https://thunderstore.io/c/miside-zero/api/v1/package-listing-index/"

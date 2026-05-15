@@ -2,7 +2,7 @@ uuid: "02ecb2ec-5bd1-402c-ab52-b87b3abc5d90"
 label: "baby-steps"
 meta:
   displayName: "Baby Steps"
-  iconUrl: "baby-steps.webp"
+  iconUrl: "baby-steps/baby-steps-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Baby Steps"
-      iconUrl: "baby-steps.webp"
+      iconUrl: "baby-steps/baby-steps-cover-360x480.webp"
     settingsIdentifier: "BabySteps"
     internalFolderName: "BabySteps"
     packageIndex: "https://thunderstore.io/c/baby-steps/api/v1/package-listing-index/"
