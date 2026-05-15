@@ -2,6 +2,7 @@ uuid: "f02a7d1c-62b3-484b-8b34-6cc87a342521"
 label: "dale-dawson-stationery-supplies"
 meta:
   displayName: "Dale & Dawson Stationery Supplies"
+  iconUrl: "dale-dawson-stationery-supplies/dale-dawson-stationery-supplies-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: '2920570'

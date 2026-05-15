@@ -2,7 +2,7 @@ uuid: "642cb413-e757-4276-a329-5b7539e527e1"
 label: "pit-of-goblin"
 meta:
   displayName: "Pit of Goblin"
-  iconUrl: "pit-of-goblin.webp"
+  iconUrl: "pit-of-goblin/pit-of-goblin-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Pit of Goblin"
-      iconUrl: "pit-of-goblin.webp"
+      iconUrl: "pit-of-goblin/pit-of-goblin-cover-360x480.webp"
     settingsIdentifier: "PitOfGoblin"
     internalFolderName: "PitOfGoblin"
     packageIndex: "https://thunderstore.io/c/pit-of-goblin/api/v1/package-listing-index/"

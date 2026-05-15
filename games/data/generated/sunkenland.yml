@@ -2,14 +2,14 @@ uuid: "da78ae80-b42f-4956-b239-bfa408594ebc"
 label: "sunkenland"
 meta:
   displayName: "Sunkenland"
-  iconUrl: "sunkenland.webp"
+  iconUrl: "sunkenland/sunkenland-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "2080690"
 r2modman:
   - meta:
       displayName: "Sunkenland"
-      iconUrl: "sunkenland.webp"
+      iconUrl: "sunkenland/sunkenland-cover-360x480.webp"
     internalFolderName: "Sunkenland"
     dataFolderName: "Sunkenland_Data"
     distributions:

@@ -2,6 +2,7 @@ uuid: "f177bed2-ec0d-424a-98bd-87e9e3484924"
 label: "patch-quest"
 meta:
   displayName: "Patch Quest"
+  iconUrl: "patch-quest/patch-quest-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Patch Quest"

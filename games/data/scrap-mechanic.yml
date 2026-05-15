@@ -2,7 +2,7 @@ uuid: "4dc5616f-8de7-43d0-b067-17fa00031a9d"
 label: "scrap-mechanic"
 meta:
   displayName: "Scrap Mechanic"
-  iconUrl: "scrap-mechanic.webp"
+  iconUrl: "scrap-mechanic/scrap-mechanic-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "rivet"
     meta:
       displayName: "Scrap Mechanic"
-      iconUrl: "scrap-mechanic.webp"
+      iconUrl: "scrap-mechanic/scrap-mechanic-cover-360x480.webp"
     settingsIdentifier: "ScrapMechanic"
     internalFolderName: "ScrapMechanic"
     packageIndex: "https://thunderstore.io/c/scrap-mechanic/api/v1/package-listing-index/"

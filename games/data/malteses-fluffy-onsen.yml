@@ -2,7 +2,7 @@ uuid: "5ebb5fe3-e1fc-43e7-9598-063b0e3733f3"
 label: "malteses-fluffy-onsen"
 meta:
   displayName: "Maltese's Fluffy Onsen"
-  iconUrl: "malteses-fluffy-onsen.webp"
+  iconUrl: "malteses-fluffy-onsen/malteses-fluffy-onsen-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Maltese's Fluffy Onsen"
-      iconUrl: "malteses-fluffy-onsen.webp"
+      iconUrl: "malteses-fluffy-onsen/malteses-fluffy-onsen-cover-360x480.webp"
     settingsIdentifier: "MaltesesFluffyOnsen"
     internalFolderName: "MaltesesFluffyOnsen"
     packageIndex: "https://thunderstore.io/c/malteses-fluffy-onsen/api/v1/package-listing-index/"

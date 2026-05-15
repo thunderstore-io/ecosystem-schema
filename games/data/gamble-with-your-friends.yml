@@ -2,7 +2,7 @@ uuid: "8dbc0d05-e6b1-4cdc-92d0-68f21ac4d0e1"
 label: "gamble-with-your-friends"
 meta:
   displayName: "Gamble With Your Friends"
-  iconUrl: "gamble-with-your-friends.webp"
+  iconUrl: "gamble-with-your-friends/gamble-with-your-friends-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Gamble With Your Friends"
-      iconUrl: "gamble-with-your-friends.webp"
+      iconUrl: "gamble-with-your-friends/gamble-with-your-friends-cover-360x480.webp"
     settingsIdentifier: "GambleWithYourFriends"
     internalFolderName: "GambleWithYourFriends"
     packageIndex: "https://thunderstore.io/c/gamble-with-your-friends/api/v1/package-listing-index/"

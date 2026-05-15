@@ -2,7 +2,7 @@ uuid: "a0dd50c8-8622-4e2e-a2b2-8af424bd483a"
 label: "crashout-crew"
 meta:
   displayName: "Crashout Crew"
-  iconUrl: "crashout-crew.webp"
+  iconUrl: "crashout-crew/crashout-crew-cover-360x480.webp"
 distributions: []
 r2modman: null
 thunderstore:

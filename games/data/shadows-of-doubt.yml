@@ -2,6 +2,7 @@ uuid: "6fa77982-361c-45df-b797-b158d16be178"
 label: "shadows-of-doubt"
 meta:
   displayName: "Shadows of Doubt"
+  iconUrl: "shadows-of-doubt/shadows-of-doubt-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Shadows of Doubt"

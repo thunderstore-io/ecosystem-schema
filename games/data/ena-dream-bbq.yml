@@ -2,7 +2,7 @@ uuid: "8c308f6d-91c2-4506-b860-b4f9cf69ef18"
 label: "ena-dream-bbq"
 meta:
   displayName: "ENA: Dream BBQ"
-  iconUrl: "ena-dream-bbq.webp"
+  iconUrl: "ena-dream-bbq/ena-dream-bbq-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "ENA: Dream BBQ"

@@ -2,7 +2,7 @@ uuid: "80951f48-c690-4c04-af1c-b428f914ba21"
 label: "lootun"
 meta:
   displayName: "Lootun"
-  iconUrl: "lootun.webp"
+  iconUrl: "lootun/lootun-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Lootun"
-      iconUrl: "lootun.webp"
+      iconUrl: "lootun/lootun-cover-360x480.webp"
     settingsIdentifier: "Lootun"
     internalFolderName: "Lootun"
     packageIndex: "https://thunderstore.io/c/lootun/api/v1/package-listing-index/"

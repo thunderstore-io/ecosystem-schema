@@ -2,6 +2,7 @@ uuid: "6b4a870a-26fe-44c2-9164-9e3fc5d86e3a"
 label: "return-of-the-obra-dinn"
 meta:
   displayName: "Return of the Obra Dinn"
+  iconUrl: "return-of-the-obra-dinn/return-of-the-obra-dinn-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Return of the Obra Dinn"

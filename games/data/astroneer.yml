@@ -2,13 +2,14 @@ uuid: "43c1b6fb-f9a5-4d25-847f-c3eda4f2bf5a"
 label: "astroneer"
 meta:
   displayName: "Astroneer"
+  iconUrl: "astroneer/astroneer-cover-360x480.webp"
 distributions:
   - platform: "steam"
     identifier: "361420"
 r2modman:
   - meta:
       displayName: "Astroneer"
-      iconUrl: "astroneer.webp"
+      iconUrl: "astroneer/astroneer-cover-360x480.webp"
     internalFolderName: "Astroneer"
     dataFolderName: "Astro"
     distributions:
