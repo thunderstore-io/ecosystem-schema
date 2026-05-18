@@ -2,7 +2,7 @@ uuid: "ae24513f-4737-4dfd-8fbd-6879ffdd88d2"
 label: "crime-simulator"
 meta:
   displayName: "Crime Simulator"
-  iconUrl: "crime-simulator.webp"
+  iconUrl: "crime-simulator/crime-simulator-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Crime Simulator"
-      iconUrl: "crime-simulator.webp"
+      iconUrl: "crime-simulator/crime-simulator-cover-360x480.webp"
     settingsIdentifier: "CrimeSimulator"
     internalFolderName: "CrimeSimulator"
     packageIndex: "https://thunderstore.io/c/crime-simulator/api/v1/package-listing-index/"

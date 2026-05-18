@@ -2,7 +2,7 @@ uuid: "2c4ef1aa-08bb-4ed8-9b74-4a23b390915c"
 label: "big-ambitions"
 meta:
   displayName: "Big Ambitions"
-  iconUrl: "big-ambitions.webp"
+  iconUrl: "big-ambitions/big-ambitions-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -17,7 +17,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Big Ambitions"
-      iconUrl: "big-ambitions.webp"
+      iconUrl: "big-ambitions/big-ambitions-cover-360x480.webp"
     settingsIdentifier: "BigAmbitions"
     internalFolderName: "BigAmbitions"
     packageIndex: "https://thunderstore.io/c/big-ambitions/api/v1/package-listing-index/"

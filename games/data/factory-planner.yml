@@ -2,7 +2,7 @@ uuid: "f8e2a1c3-9b4d-4e6f-a7c8-d1e2f3a4b5c6"
 label: "factory-planner"
 meta:
   displayName: "Factory Planner"
-  iconUrl: "factory-planner.webp"
+  iconUrl: "factory-planner/factory-planner-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Factory Planner"
-      iconUrl: "factory-planner.webp"
+      iconUrl: "factory-planner/factory-planner-cover-360x480.webp"
     settingsIdentifier: "FactoryPlanner"
     internalFolderName: "FactoryPlanner"
     packageIndex: "https://thunderstore.io/c/factory-planner/api/v1/package-listing-index/"

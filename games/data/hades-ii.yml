@@ -2,6 +2,7 @@ uuid: "98d80ee3-5a6e-4c15-a433-ab70200a0b90"
 label: "hades-ii"
 meta:
   displayName: "Hades 2"
+  iconUrl: "hades-ii/hades-ii-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Hades 2"

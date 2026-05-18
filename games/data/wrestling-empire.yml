@@ -2,6 +2,7 @@ uuid: "18b8d82e-aa61-453a-98b0-fc98dd3e6c70"
 label: "wrestling-empire"
 meta:
   displayName: "Wrestling Empire"
+  iconUrl: "wrestling-empire/wrestling-empire-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "Wrestling Empire"

@@ -2,6 +2,7 @@ uuid: "3a1ccbdc-11ac-4426-a7af-892b5677c0ca"
 label: "repo"
 meta:
   displayName: "R.E.P.O."
+  iconUrl: "repo/repo-cover-360x480.webp"
 distributions:
 - platform: steam
   identifier: "3241660"

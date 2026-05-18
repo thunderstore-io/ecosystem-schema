@@ -2,7 +2,7 @@ uuid: "8f216ccf-ed2e-4158-a09f-a60bc9586f25"
 label: "forsaken-frontiers"
 meta:
   displayName: "Forsaken Frontiers"
-  iconUrl: "forsaken-frontiers.webp"
+  iconUrl: "forsaken-frontiers/forsaken-frontiers-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "Forsaken Frontiers"
-      iconUrl: "forsaken-frontiers.webp"
+      iconUrl: "forsaken-frontiers/forsaken-frontiers-cover-360x480.webp"
     settingsIdentifier: "ForsakenFrontiers"
     internalFolderName: "ForsakenFrontiers"
     packageIndex: "https://thunderstore.io/c/forsaken-frontiers/api/v1/package-listing-index/"

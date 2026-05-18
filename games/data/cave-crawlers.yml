@@ -2,7 +2,7 @@ uuid: "dd690f63-77dc-40e6-8c1a-2ccc7c222bbf"
 label: "cave-crawlers"
 meta:
   displayName: "Cave Crawlers"
-  iconUrl: "cave-crawlers.webp"
+  iconUrl: "cave-crawlers/cave-crawlers-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Cave Crawlers"
-      iconUrl: "cave-crawlers.webp"
+      iconUrl: "cave-crawlers/cave-crawlers-cover-360x480.webp"
     settingsIdentifier: "CaveCrawlers"
     internalFolderName: "CaveCrawlers"
     packageIndex: "https://thunderstore.io/c/cave-crawlers/api/v1/package-listing-index/"

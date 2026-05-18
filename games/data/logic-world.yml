@@ -2,7 +2,7 @@ uuid: "20e72fc7-3ff5-4c8e-b2aa-9a4857e50c6f"
 label: "logic-world"
 meta:
   displayName: "Logic World"
-  iconUrl: "logic-world.webp"
+  iconUrl: "logic-world/logic-world-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Logic World"
-      iconUrl: "logic-world.webp"
+      iconUrl: "logic-world/logic-world-cover-360x480.webp"
     settingsIdentifier: "LogicWorld"
     internalFolderName: "LogicWorld"
     packageIndex: "https://thunderstore.io/c/logic-world/api/v1/package-listing-index/"

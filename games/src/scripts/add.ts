@@ -105,7 +105,7 @@ async function runAddCommand() {
     label: identifier,
     meta: {
       displayName,
-      iconUrl: `${_.kebabCase(displayName)}.webp`,
+      iconUrl: `${identifier}/${identifier}-cover-360x480.webp`,
     },
     distributions: [],
     r2modman: null,

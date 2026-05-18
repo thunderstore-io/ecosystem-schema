@@ -2,7 +2,7 @@ uuid: "5f4143f0-c9c1-4fae-9f72-055e3c5edd8d"
 label: "brutalistick-vr"
 meta:
   displayName: "BRUTALISTICK VR"
-  iconUrl: "brutalistick-vr.webp"
+  iconUrl: "brutalistick-vr/brutalistick-vr-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "recursive-melonloader"
     meta:
       displayName: "BRUTALISTICK VR"
-      iconUrl: "brutalistick-vr.webp"
+      iconUrl: "brutalistick-vr/brutalistick-vr-cover-360x480.webp"
     settingsIdentifier: "BrutalistickVr"
     internalFolderName: "BrutalistickVr"
     packageIndex: "https://thunderstore.io/c/brutalistick-vr/api/v1/package-listing-index/"

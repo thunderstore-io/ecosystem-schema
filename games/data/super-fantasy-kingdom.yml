@@ -2,7 +2,7 @@ uuid: "fe0fa301-b037-4cbc-84e1-300a44bd3eb0"
 label: "super-fantasy-kingdom"
 meta:
   displayName: "Super Fantasy Kingdom"
-  iconUrl: "super-fantasy-kingdom.webp"
+  iconUrl: "super-fantasy-kingdom/super-fantasy-kingdom-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Super Fantasy Kingdom"
-      iconUrl: "super-fantasy-kingdom.webp"
+      iconUrl: "super-fantasy-kingdom/super-fantasy-kingdom-cover-360x480.webp"
     settingsIdentifier: "SuperFantasyKingdom"
     internalFolderName: "SuperFantasyKingdom"
     packageIndex: "https://thunderstore.io/c/super-fantasy-kingdom/api/v1/package-listing-index/"

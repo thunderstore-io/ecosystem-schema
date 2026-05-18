@@ -2,7 +2,7 @@ uuid: "42bb337d-c169-476c-81fa-1a645de8c80f"
 label: "vampire-crawlers"
 meta:
   displayName: "Vampire Crawlers"
-  iconUrl: "vampire-crawlers.webp"
+  iconUrl: "vampire-crawlers/vampire-crawlers-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -21,7 +21,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Vampire Crawlers"
-      iconUrl: "vampire-crawlers.webp"
+      iconUrl: "vampire-crawlers/vampire-crawlers-cover-360x480.webp"
     settingsIdentifier: "VampireCrawlers"
     internalFolderName: "VampireCrawlers"
     packageIndex: "https://thunderstore.io/c/vampire-crawlers/api/v1/package-listing-index/"

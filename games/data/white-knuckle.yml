@@ -2,6 +2,7 @@ uuid: "86e03bd3-56c2-4cea-b471-fedde6069a68"
 label: "white-knuckle"
 meta:
   displayName: "White Knuckle"
+  iconUrl: "white-knuckle/white-knuckle-cover-360x480.webp"
 distributions: []
 thunderstore:
   displayName: "White Knuckle"

@@ -2,7 +2,7 @@ uuid: "3e5e018e-6d47-45cd-80eb-31317287ddb4"
 label: "house-of-legacy"
 meta:
   displayName: "House of Legacy"
-  iconUrl: "house-of-legacy.webp"
+  iconUrl: "house-of-legacy/house-of-legacy-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "House of Legacy"
-      iconUrl: "house-of-legacy.webp"
+      iconUrl: "house-of-legacy/house-of-legacy-cover-360x480.webp"
     settingsIdentifier: "HouseOfLegacy"
     internalFolderName: "HouseOfLegacy"
     packageIndex: "https://thunderstore.io/c/house-of-legacy/api/v1/package-listing-index/"
