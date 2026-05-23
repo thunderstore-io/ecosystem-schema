@@ -21,6 +21,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
@@ -33,3 +35,4 @@ thunderstore:
   discordUrl: "https://discord.com/invite/fCwXc5k43w"
   autolistPackageIds:
     - "LavaGang-MelonLoader"
+    - "CementGB-CementGB"
