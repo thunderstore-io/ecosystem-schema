@@ -1,0 +1,80 @@
+uuid: "b8c43422-e740-4f35-9000-323b788a3d65"
+label: "everything-is-crab"
+meta:
+  displayName: "Everything is Crab"
+  iconUrl: "everything-is-crab/everything-is-crab-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3526710"
+    steamFolderName: "Everything is Crab"
+    dataFolderName: "Everything is Crab_Data"
+    exeNames:
+      - "Everything is Crab.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Everything is Crab"
+      iconUrl: "everything-is-crab/everything-is-crab-cover-360x480.webp"
+    settingsIdentifier: "EverythingIsCrab"
+    internalFolderName: "EverythingIsCrab"
+    packageIndex: "https://thunderstore.io/c/everything-is-crab/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Everything is Crab"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "The Animal Evolution Roguelite. Hunt, Flee, Scavenge and Thrive in a living ecosystem. Choose from 125+ Evolutions and Specialisations for unique creature combinations in every run. Adapt to survive the natural curve in order to beat carcinisation... or get Darwin'd trying!"
