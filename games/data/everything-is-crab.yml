@@ -2,7 +2,7 @@ uuid: "b8c43422-e740-4f35-9000-323b788a3d65"
 label: "everything-is-crab"
 meta:
   displayName: "Everything is Crab"
-  iconUrl: null
+  iconUrl: "everything-is-crab/everything-is-crab-cover-360x480.webp"
 distributions: []
 r2modman:
   - gameInstanceType: "game"
@@ -16,7 +16,7 @@ r2modman:
     packageLoader: "bepinex"
     meta:
       displayName: "Everything is Crab"
-      iconUrl: null
+      iconUrl: "everything-is-crab/everything-is-crab-cover-360x480.webp"
     settingsIdentifier: "EverythingIsCrab"
     internalFolderName: "EverythingIsCrab"
     packageIndex: "https://thunderstore.io/c/everything-is-crab/api/v1/package-listing-index/"
