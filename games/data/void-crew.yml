@@ -33,6 +33,12 @@ thunderstore:
       label: "Bug Fixes"
     disables-progression:
       label: "Disables Progression"
+    carryables:
+      label: "Carryables"
+    cosmetics:
+      label: "Cosmetics"
+    decorations:
+      label: "Decorations"
   sections:
     mods:
       name: "Mods"
