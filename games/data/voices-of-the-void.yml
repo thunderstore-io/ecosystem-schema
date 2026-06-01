@@ -46,5 +46,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://modding.ariral.space/"
+  wikiUrl: "https://questwalker.github.io/votv-modding-wiki/"
   discordUrl: "https://discord.gg/WKBvqu4tjV"
