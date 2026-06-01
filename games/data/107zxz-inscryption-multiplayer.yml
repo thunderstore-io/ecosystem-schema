@@ -6,6 +6,7 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Inscryption Multiplayer"
+  listed: false
   categories:
     mods:
       label: "Mods"

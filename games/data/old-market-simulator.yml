@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Old Market Simulator"
+  listed: true
+  meta:
+    icon: "old-market-simulator/old-market-simulator-icon-192x192.webp"
+    cover: "old-market-simulator/old-market-simulator-cover-360x480.webp"
+    background: "old-market-simulator/old-market-simulator-bg-1920x1080.webp"
+    hero: "old-market-simulator/old-market-simulator-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

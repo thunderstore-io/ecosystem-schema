@@ -53,6 +53,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Word Play"
+  listed: true
+  meta:
+    icon: "word-play/word-play-icon-192x192.webp"
+    cover: "word-play/word-play-cover-360x480.webp"
+    background: "word-play/word-play-bg-1920x1080.webp"
+    hero: "word-play/word-play-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

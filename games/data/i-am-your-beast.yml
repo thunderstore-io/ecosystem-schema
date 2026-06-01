@@ -8,6 +8,12 @@ distributions:
   identifier: "1876590"
 thunderstore:
   displayName: "I Am Your Beast"
+  listed: true
+  meta:
+    icon: "i-am-your-beast/i-am-your-beast-icon-192x192.webp"
+    cover: "i-am-your-beast/i-am-your-beast-cover-360x480.webp"
+    background: "i-am-your-beast/i-am-your-beast-bg-1920x1080.webp"
+    hero: "i-am-your-beast/i-am-your-beast-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

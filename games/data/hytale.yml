@@ -7,6 +7,12 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Hytale"
+  listed: true
+  meta:
+    icon: "hytale/hytale-icon-192x192.webp"
+    cover: "hytale/hytale-cover-360x480.webp"
+    background: "hytale/hytale-bg-1920x1080.webp"
+    hero: "hytale/hytale-bg-1920x620.webp"
   categories:
     pre-release:
       label: "Pre-Release"

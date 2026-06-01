@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Palworld"
+  listed: true
+  meta:
+    icon: "palworld/palworld-icon-192x192.webp"
+    cover: "palworld/palworld-cover-360x480.webp"
+    background: "palworld/palworld-bg-1920x1080.webp"
+    hero: "palworld/palworld-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

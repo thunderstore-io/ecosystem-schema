@@ -7,6 +7,12 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Bomberman 64: Recompiled"
+  listed: true
+  meta:
+    icon: "bomberman-64-recompiled/bomberman-64-recompiled-icon-192x192.webp"
+    cover: "bomberman-64-recompiled/bomberman-64-recompiled-cover-360x480.webp"
+    background: "bomberman-64-recompiled/bomberman-64-recompiled-bg-1920x1080.webp"
+    hero: "bomberman-64-recompiled/bomberman-64-recompiled-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

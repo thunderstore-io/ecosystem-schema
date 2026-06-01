@@ -53,6 +53,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Unfair Flips"
+  listed: true
+  meta:
+    icon: "unfair-flips/unfair-flips-icon-192x192.webp"
+    cover: "unfair-flips/unfair-flips-cover-360x480.webp"
+    background: "unfair-flips/unfair-flips-bg-1920x1080.webp"
+    hero: "unfair-flips/unfair-flips-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

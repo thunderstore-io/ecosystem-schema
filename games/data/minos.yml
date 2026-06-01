@@ -47,6 +47,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "MINOS"
+  listed: true
+  meta:
+    icon: "minos/minos-icon-192x192.webp"
+    cover: "minos/minos-cover-360x480.webp"
+    background: "minos/minos-bg-1920x1080.webp"
+    hero: "minos/minos-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

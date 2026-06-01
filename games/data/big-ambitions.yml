@@ -28,6 +28,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Big Ambitions"
+  listed: true
+  meta:
+    icon: "big-ambitions/big-ambitions-icon-192x192.webp"
+    cover: "big-ambitions/big-ambitions-cover-360x480.webp"
+    background: "big-ambitions/big-ambitions-bg-1920x1080.webp"
+    hero: "big-ambitions/big-ambitions-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

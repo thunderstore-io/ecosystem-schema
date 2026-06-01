@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Wildfrost"
+  listed: true
+  meta:
+    icon: "wildfrost/wildfrost-icon-192x192.webp"
+    cover: "wildfrost/wildfrost-cover-360x480.webp"
+    hero: "wildfrost/wildfrost-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

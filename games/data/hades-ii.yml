@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Hades 2"
+  listed: true
+  meta:
+    icon: "hades-ii/hades-ii-icon-192x192.webp"
+    cover: "hades-ii/hades-ii-cover-360x480.webp"
+    background: "hades-ii/hades-ii-bg-1920x1080.webp"
+    hero: "hades-ii/hades-ii-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Gamble With Your Friends"
+  listed: true
+  meta:
+    icon: "gamble-with-your-friends/gamble-with-your-friends-icon-192x192.webp"
+    cover: "gamble-with-your-friends/gamble-with-your-friends-cover-360x480.webp"
+    background: "gamble-with-your-friends/gamble-with-your-friends-bg-1920x1080.webp"
+    hero: "gamble-with-your-friends/gamble-with-your-friends-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
