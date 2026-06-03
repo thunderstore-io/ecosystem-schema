@@ -1,0 +1,83 @@
+uuid: "3d802435-2791-4e5a-9998-c4492e2ca23d"
+label: "paralives"
+meta:
+  displayName: "Paralives"
+  iconUrl: "paralives/paralives-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1118520"
+    steamFolderName: "Paralives"
+    dataFolderName: "Paralives_Data"
+    exeNames:
+      - "Paralives.exe"
+      - "Paralives.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Paralives"
+      iconUrl: "paralives/paralives-cover-360x480.webp"
+    settingsIdentifier: "Paralives"
+    internalFolderName: "Paralives"
+    packageIndex: "https://thunderstore.io/c/paralives/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Paralives"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://paralives.wiki.gg/wiki/Portal:Modding_guides"
+  discordUrl: "https://discord.com/invite/paralives"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Paralives is a life simulation game about building homes, lives and bonds. Through both hardship and success, where will your story take you?"
