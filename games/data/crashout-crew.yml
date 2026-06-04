@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "CrashoutCrew"
     packageIndex: "https://thunderstore.io/c/crashout-crew/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "崩溃小队"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
