@@ -33,6 +33,8 @@ thunderstore:
       label: "Assets"
     emotes:
       label: "Emotes"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
