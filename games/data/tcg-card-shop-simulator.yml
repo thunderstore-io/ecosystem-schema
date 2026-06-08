@@ -53,6 +53,8 @@ thunderstore:
           label: "0.66 Branch"
         manual-dependencies:
           label: "Requires Manual Dependencies"
+        ai-generated:
+          label: "AI Generated"
   sections:
     main:
       name: "Main Branch"
