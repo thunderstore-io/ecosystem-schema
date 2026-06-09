@@ -8,8 +8,8 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4264890"
-    steamFolderName: "Cursed Words Demo"
+        identifier: "3856460"
+    steamFolderName: "Cursed Words"
     dataFolderName: "Cursed Words_Data"
     exeNames:
       - "Cursed Words.exe"
