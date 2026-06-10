@@ -19,6 +19,8 @@ thunderstore:
       label: "Libraries"
     misc:
       label: "Misc"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
