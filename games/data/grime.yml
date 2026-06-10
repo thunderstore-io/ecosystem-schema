@@ -26,7 +26,8 @@ r2modman:
     internalFolderName: "Grime"
     packageIndex: "https://thunderstore.io/c/grime/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "尘埃异变"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
