@@ -1,0 +1,83 @@
+uuid: "31937f32-07c0-42ca-b69a-7b1893490213"
+label: "grime"
+meta:
+  displayName: "GRIME"
+  iconUrl: "grime/grime-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1123050"
+      - platform: "epic-games-store"
+        identifier: "028263f54a874e35800d142275254d2c"
+      - platform: "other"
+        identifier: null
+    steamFolderName: "GRIME"
+    dataFolderName: "GRIME_Data"
+    exeNames:
+      - "GRIME.exe"
+      - "GRIME.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "GRIME"
+      iconUrl: "grime/grime-cover-360x480.webp"
+    settingsIdentifier: "Grime"
+    internalFolderName: "Grime"
+    packageIndex: "https://thunderstore.io/c/grime/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "GRIME"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Destroy... Absorb... Grow... GRIME is a fast and unforgiving Action-Adventure RPG in which you crush your foes with living weapons that mutate form and function, and then consume their remains with a black hole to strengthen your vessel as you break apart a world of anatomical horror and intrigue."
