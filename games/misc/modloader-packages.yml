@@ -253,3 +253,6 @@
 - packageId: "BepInEx-BepInExPack_InSilence"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "grime_modding-BepInExPack_Grime"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
