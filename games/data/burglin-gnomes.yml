@@ -1,0 +1,83 @@
+uuid: "114d7d9d-140e-42ac-82ac-1e1e60fcdc0e"
+label: "burglin-gnomes"
+meta:
+  displayName: "Burglin' Gnomes"
+  iconUrl: "burglin-gnomes/burglin-gnomes-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3844970"
+    steamFolderName: "Burglin' Gnomes"
+    dataFolderName: "Gnomium_Data"
+    exeNames:
+      - "Gnomium.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Burglin' Gnomes"
+      iconUrl: "burglin-gnomes/burglin-gnomes-cover-360x480.webp"
+    settingsIdentifier: "BurglinGnomes"
+    internalFolderName: "BurglinGnomes"
+    packageIndex: "https://thunderstore.io/c/burglin-gnomes/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Burglin' Gnomes"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/WmHc6MAhuB"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "An online Co-op game about breaking into houses and causing havoc as a tiny gnome. Avoid danger, repurpose stolen household items, and complete tasks to meet the High-Gnome’s demands. Craft equipment and upgrade your home to make your missions easier and more successful."
