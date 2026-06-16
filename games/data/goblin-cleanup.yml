@@ -75,6 +75,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  autolistPackageIds:
-    - "BepInEx-BepInExPack"
+  autolistPackageIds: []
   shortDescription: "A co-op cleaning game where you have to clean and rearrange a dungeon before the next adventurers come to complete it again."
