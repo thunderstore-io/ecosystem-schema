@@ -97,6 +97,8 @@ thunderstore:
       label: "Visual Tweaks"
     wizards:
       label: "Wizards"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
