@@ -1,0 +1,74 @@
+uuid: "4e456243-f88e-43f7-a494-a05af7ce163a"
+label: "meccha-chameleon"
+meta:
+  displayName: "MECCHA CHAMELEON"
+  iconUrl: "meccha-chameleon/meccha-chameleon-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4704690"
+    steamFolderName: "MECCHA CHAMELEON"
+    dataFolderName: "Chameleon"
+    exeNames:
+      - "PenguinHotel.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "MECCHA CHAMELEON"
+      iconUrl: "meccha-chameleon/meccha-chameleon-cover-360x480.webp"
+    settingsIdentifier: "MecchaChameleon"
+    internalFolderName: "MecchaChameleon"
+    packageIndex: "https://thunderstore.io/c/meccha-chameleon/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "MECCHA CHAMELEON"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/eNFUDBSwag"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "Paint yourself to blend in! \"Meccha Chameleon\" is a new-sensation hide-and-seek game where you paint your white body to mimic the stage. Spot, pose, and \"artistic skill\" are keys to survival. Deceive Seekers with techniques that put chameleons to shame! Supports public matches and streaming."
