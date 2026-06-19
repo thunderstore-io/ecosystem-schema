@@ -1,0 +1,79 @@
+uuid: "1dcd3347-99dd-42b9-9cfd-4d741523d2aa"
+label: "romestead"
+meta:
+  displayName: "Romestead"
+  iconUrl: "romestead/romestead-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1805320"
+    steamFolderName: "romestead"
+    dataFolderName: ""
+    exeNames:
+      - "Romestead.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Romestead"
+      iconUrl: "romestead/romestead-cover-360x480.webp"
+    settingsIdentifier: "Romestead"
+    internalFolderName: "Romestead"
+    packageIndex: "https://thunderstore.io/c/romestead/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "hidden"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Romestead"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/BDgRY2WFDS"
+  shortDescription: "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends."
