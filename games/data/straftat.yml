@@ -39,6 +39,8 @@ thunderstore:
       name: "Maps"
       requireCategories:
         - "maps"
+      excludeCategories:
+        - "modpacks"
   discordUrl: "https://discord.gg/qeMEaMEkDa"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
