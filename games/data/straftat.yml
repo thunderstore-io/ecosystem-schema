@@ -11,6 +11,8 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
+    maps:
+      label: "Maps"
     tools:
       label: "Tools"
     libraries:
@@ -21,15 +23,22 @@ thunderstore:
       label: "Audio"
     vanilla:
       label: "Vanilla compatible"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
       excludeCategories:
         - "modpacks"
+        - "maps"
     modpacks:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+    maps:
+      name: "Maps"
+      requireCategories:
+        - "maps"
   discordUrl: "https://discord.gg/qeMEaMEkDa"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
