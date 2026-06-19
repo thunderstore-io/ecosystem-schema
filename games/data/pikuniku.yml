@@ -9,6 +9,10 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "572890"
+      - platform: "epic-games-store"
+        identifier: "48619f5656da446abccb727b78cda644"
+      - platform: "other"
+        identifier: null
     steamFolderName: "Pikuniku"
     dataFolderName: "Pikuniku_Data"
     exeNames:
