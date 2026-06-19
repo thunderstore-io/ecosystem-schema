@@ -9,6 +9,8 @@ thunderstore:
   categories:
     mods:
       label: "Mods"
+    maps:
+      label: "Maps"
     modpacks:
       label: "Modpacks"
     tools:
@@ -21,9 +23,18 @@ thunderstore:
       label: "Audio"
     vanilla:
       label: "Vanilla compatible"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
+      excludeCategories:
+        - "modpacks"
+        - "maps"
+    maps:
+      name: "Maps"
+      requireCategories:
+        - "maps"
       excludeCategories:
         - "modpacks"
     modpacks:
