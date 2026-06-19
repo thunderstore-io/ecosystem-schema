@@ -24,7 +24,8 @@ r2modman:
     internalFolderName: "BluePrince"
     packageIndex: "https://thunderstore.io/c/blue-prince/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "蓝途王子"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

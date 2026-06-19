@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "EverythingIsCrab"
     packageIndex: "https://thunderstore.io/c/everything-is-crab/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "万物皆可蟹：动物进化"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
