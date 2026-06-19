@@ -256,3 +256,6 @@
 - packageId: "grime_modding-BepInExPack_Grime"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "GoblinCleanupModding-BepInExPack_GoblinCleanup"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
