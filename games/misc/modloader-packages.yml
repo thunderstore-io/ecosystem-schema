@@ -259,3 +259,6 @@
 - packageId: "GoblinCleanupModding-BepInExPack_GoblinCleanup"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "Romestead_Modding-BepInExPack_Romestead"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
