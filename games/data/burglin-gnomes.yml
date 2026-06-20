@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "BurglinGnomes"
     packageIndex: "https://thunderstore.io/c/burglin-gnomes/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "地精捣蛋团"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

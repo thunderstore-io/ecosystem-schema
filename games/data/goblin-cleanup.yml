@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "GoblinCleanup"
     packageIndex: "https://thunderstore.io/c/goblin-cleanup/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "哥布林女仆大扫除"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

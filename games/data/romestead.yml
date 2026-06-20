@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Romestead"
     packageIndex: "https://thunderstore.io/c/romestead/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "hidden"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "罗马拓荒录"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
