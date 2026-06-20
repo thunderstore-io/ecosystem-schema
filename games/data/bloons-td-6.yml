@@ -26,6 +26,7 @@ r2modman:
     additionalSearchStrings:
       - "bloonstd6"
       - "btd6"
+      - "气球塔防6"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

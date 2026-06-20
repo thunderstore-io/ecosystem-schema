@@ -28,7 +28,8 @@ r2modman:
     internalFolderName: "Pikuniku"
     packageIndex: "https://thunderstore.io/c/pikuniku/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "野餐大冒险"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
