@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "GoreBox"
+  listed: true
+  meta:
+    icon: "gorebox/gorebox-icon-192x192.webp"
+    cover: "gorebox/gorebox-cover-360x480.webp"
+    background: "gorebox/gorebox-bg-1920x1080.webp"
+    hero: "gorebox/gorebox-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

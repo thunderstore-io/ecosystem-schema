@@ -67,6 +67,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Hollow Knight: Silksong"
+  listed: true
+  meta:
+    icon: "hollow-knight-silksong/hollow-knight-silksong-icon-192x192.webp"
+    cover: "hollow-knight-silksong/hollow-knight-silksong-cover-360x480.webp"
+    background: "hollow-knight-silksong/hollow-knight-silksong-bg-1920x1080.webp"
+    hero: "hollow-knight-silksong/hollow-knight-silksong-bg-1920x620.webp"
   discordUrl: "https://discord.gg/VDsg3HmWuB"
   categories:
     mods:

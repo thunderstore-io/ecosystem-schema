@@ -7,6 +7,12 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Banjo: Recompiled"
+  listed: true
+  meta:
+    icon: "banjo-recompiled/banjo-recompiled-icon-192x192.webp"
+    cover: "banjo-recompiled/banjo-recompiled-cover-360x480.webp"
+    background: "banjo-recompiled/banjo-recompiled-bg-1920x1080.webp"
+    hero: "banjo-recompiled/banjo-recompiled-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

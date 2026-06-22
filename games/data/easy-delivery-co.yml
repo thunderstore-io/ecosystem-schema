@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Easy Delivery Co"
+  listed: true
+  meta:
+    icon: "easy-delivery-co/easy-delivery-co-icon-192x192.webp"
+    cover: "easy-delivery-co/easy-delivery-co-cover-360x480.webp"
+    background: "easy-delivery-co/easy-delivery-co-bg-1920x1080.webp"
+    hero: "easy-delivery-co/easy-delivery-co-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

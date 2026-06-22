@@ -27,6 +27,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Vellum"
+  listed: true
+  meta:
+    icon: "vellum/vellum-icon-192x192.webp"
+    cover: "vellum/vellum-cover-360x480.webp"
+    background: "vellum/vellum-bg-1920x1080.webp"
+    hero: "vellum/vellum-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

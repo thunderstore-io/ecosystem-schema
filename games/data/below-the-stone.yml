@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Below the Stone"
+  listed: true
+  meta:
+    icon: "below-the-stone/below-the-stone-icon-192x192.webp"
+    cover: "below-the-stone/below-the-stone-cover-360x480.webp"
+    background: "below-the-stone/below-the-stone-bg-1920x1080.webp"
+    hero: "below-the-stone/below-the-stone-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

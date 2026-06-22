@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Sons Of The Forest"
+  listed: true
+  meta:
+    icon: "sons-of-the-forest/sons-of-the-forest-icon-192x192.webp"
+    cover: "sons-of-the-forest/sons-of-the-forest-cover-360x480.webp"
+    hero: "sons-of-the-forest/sons-of-the-forest-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

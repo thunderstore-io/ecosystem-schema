@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Crawlspace"
+  listed: true
+  meta:
+    icon: "crawlspace/crawlspace-icon-192x192.webp"
+    cover: "crawlspace/crawlspace-cover-360x480.webp"
+    background: "crawlspace/crawlspace-bg-1920x1080.webp"
+    hero: "crawlspace/crawlspace-bg-1920x620.webp"
   discordUrl: "https://discord.gg/BDZ6NjegeR"
   categories:
     mods:

@@ -6,6 +6,10 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Endless Space 2"
+  listed: false
+  meta:
+    icon: "endless-space-2/endless-space-2-icon-192x192.webp"
+    cover: "endless-space-2/endless-space-2-cover-360x480.webp"
   categories:
     mods:
       label: "Mods"

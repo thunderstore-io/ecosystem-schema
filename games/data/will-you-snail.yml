@@ -6,6 +6,10 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Will You Snail"
+  listed: false
+  meta:
+    icon: "will-you-snail/will-you-snail-icon-192x192.webp"
+    cover: "will-you-snail/will-you-snail-cover-360x480.webp"
   categories:
     mods:
       label: "Mods"

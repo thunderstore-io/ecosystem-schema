@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Labyrinthine"
+  listed: true
+  meta:
+    icon: "labyrinthine/labyrinthine-icon-192x192.webp"
+    cover: "labyrinthine/labyrinthine-cover-360x480.webp"
+    background: "labyrinthine/labyrinthine-bg-1920x1080.webp"
+    hero: "labyrinthine/labyrinthine-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

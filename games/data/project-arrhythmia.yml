@@ -56,6 +56,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Afterbeat"
+  listed: true
+  meta:
+    icon: "project-arrhythmia/project-arrhythmia-icon-192x192.webp"
+    cover: "project-arrhythmia/project-arrhythmia-cover-360x480.webp"
+    background: "project-arrhythmia/project-arrhythmia-bg-1920x1080.webp"
+    hero: "project-arrhythmia/project-arrhythmia-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
