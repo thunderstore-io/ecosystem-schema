@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "The Farmer Was Replaced"
-  listed: true
-  meta:
-    icon: "the-farmer-was-replaced/the-farmer-was-replaced-icon-192x192.webp"
-    cover: "the-farmer-was-replaced/the-farmer-was-replaced-cover-360x480.webp"
-    background: "the-farmer-was-replaced/the-farmer-was-replaced-bg-1920x1080.webp"
-    hero: "the-farmer-was-replaced/the-farmer-was-replaced-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

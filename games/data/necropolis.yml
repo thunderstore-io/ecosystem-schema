@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Necropolis"
-  listed: true
-  meta:
-    icon: "necropolis/necropolis-icon-192x192.webp"
-    cover: "necropolis/necropolis-cover-360x480.webp"
-    background: "necropolis/necropolis-bg-1920x1080.webp"
-    hero: "necropolis/necropolis-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

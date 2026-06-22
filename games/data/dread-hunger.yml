@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Dread Hunger"
-  listed: false
-  meta:
-    icon: "dread-hunger/dread-hunger-icon-192x192.webp"
-    cover: "dread-hunger/dread-hunger-cover-360x480.webp"
-    background: "dread-hunger/dread-hunger-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

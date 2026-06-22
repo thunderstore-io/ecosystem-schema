@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "ATLYSS"
-  listed: true
-  meta:
-    icon: "atlyss/atlyss-icon-192x192.webp"
-    cover: "atlyss/atlyss-cover-360x480.webp"
-    background: "atlyss/atlyss-bg-1920x1080.webp"
-    hero: "atlyss/atlyss-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -28,12 +28,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Sledding Game"
-  listed: true
-  meta:
-    icon: "sledding-game/sledding-game-icon-192x192.webp"
-    cover: "sledding-game/sledding-game-cover-360x480.webp"
-    background: "sledding-game/sledding-game-bg-1920x1080.webp"
-    hero: "sledding-game/sledding-game-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Techtonica"
-  listed: true
-  meta:
-    icon: "techtonica/techtonica-icon-192x192.webp"
-    cover: "techtonica/techtonica-cover-360x480.webp"
-    hero: "techtonica/techtonica-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

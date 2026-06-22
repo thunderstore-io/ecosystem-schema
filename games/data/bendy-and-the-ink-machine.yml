@@ -56,12 +56,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Bendy and the Ink Machine"
-  listed: true
-  meta:
-    icon: "bendy-and-the-ink-machine/bendy-and-the-ink-machine-icon-192x192.webp"
-    cover: "bendy-and-the-ink-machine/bendy-and-the-ink-machine-cover-360x480.webp"
-    background: "bendy-and-the-ink-machine/bendy-and-the-ink-machine-bg-1920x1080.webp"
-    hero: "bendy-and-the-ink-machine/bendy-and-the-ink-machine-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

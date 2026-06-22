@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "WEBFISHING"
-  listed: true
-  meta:
-    icon: "webfishing/webfishing-icon-192x192.webp"
-    cover: "webfishing/webfishing-cover-360x480.webp"
-    background: "webfishing/webfishing-bg-1920x1080.webp"
-    hero: "webfishing/webfishing-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

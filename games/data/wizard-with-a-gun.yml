@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Wizard with a Gun"
-  listed: true
-  meta:
-    icon: "wizard-with-a-gun/wizard-with-a-gun-icon-192x192.webp"
-    cover: "wizard-with-a-gun/wizard-with-a-gun-cover-360x480.webp"
-    hero: "wizard-with-a-gun/wizard-with-a-gun-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Len's Island"
-  listed: true
-  meta:
-    icon: "lens-island/lens-island-icon-192x192.webp"
-    cover: "lens-island/lens-island-cover-360x480.webp"
-    background: "lens-island/lens-island-bg-1920x1080.webp"
-    hero: "lens-island/lens-island-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

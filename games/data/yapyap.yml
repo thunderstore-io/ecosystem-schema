@@ -53,12 +53,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "YAPYAP"
-  listed: true
-  meta:
-    icon: "yapyap/yapyap-icon-192x192.webp"
-    cover: "yapyap/yapyap-cover-360x480.webp"
-    background: "yapyap/yapyap-bg-1920x1080.webp"
-    hero: "yapyap/yapyap-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

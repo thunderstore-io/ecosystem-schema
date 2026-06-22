@@ -8,12 +8,6 @@ distributions:
   identifier: "2846060"
 thunderstore:
   displayName: "Subterror"
-  listed: true
-  meta:
-    icon: "subterror/subterror-icon-192x192.webp"
-    cover: "subterror/subterror-cover-360x480.webp"
-    background: "subterror/subterror-bg-1920x1080.webp"
-    hero: "subterror/subterror-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

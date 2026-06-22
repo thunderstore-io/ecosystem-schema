@@ -53,12 +53,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "MineMogul"
-  listed: true
-  meta:
-    icon: "mine-mogul/mine-mogul-icon-192x192.webp"
-    cover: "mine-mogul/mine-mogul-cover-360x480.webp"
-    background: "mine-mogul/mine-mogul-bg-1920x1080.webp"
-    hero: "mine-mogul/mine-mogul-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

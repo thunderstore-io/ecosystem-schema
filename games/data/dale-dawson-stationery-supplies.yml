@@ -8,12 +8,6 @@ distributions:
   identifier: '2920570'
 thunderstore:
   displayName: "Dale & Dawson Stationery Supplies"
-  listed: true
-  meta:
-    icon: "dale-dawson-stationery-supplies/dale-dawson-stationery-supplies-icon-192x192.webp"
-    cover: "dale-dawson-stationery-supplies/dale-dawson-stationery-supplies-cover-360x480.webp"
-    background: "dale-dawson-stationery-supplies/dale-dawson-stationery-supplies-bg-1920x1080.webp"
-    hero: "dale-dawson-stationery-supplies/dale-dawson-stationery-supplies-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

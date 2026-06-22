@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Plasma"
-  listed: true
-  meta:
-    icon: "plasma/plasma-icon-192x192.webp"
-    cover: "plasma/plasma-cover-360x480.webp"
-    background: "plasma/plasma-bg-1920x1080.webp"
-    hero: "plasma/plasma-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

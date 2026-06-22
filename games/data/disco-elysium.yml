@@ -8,12 +8,6 @@ distributions:
   identifier: "632470"
 thunderstore:
   displayName: "Disco Elysium"
-  listed: true
-  meta:
-    icon: "disco-elysium/disco-elysium-icon-192x192.webp"
-    cover: "disco-elysium/disco-elysium-cover-360x480.webp"
-    background: "disco-elysium/disco-elysium-bg-1920x1080.webp"
-    hero: "disco-elysium/disco-elysium-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

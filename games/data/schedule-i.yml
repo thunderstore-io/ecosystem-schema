@@ -8,12 +8,6 @@ distributions:
   identifier: "3164500"
 thunderstore:
   displayName: "Schedule I"
-  listed: true
-  meta:
-    icon: "schedule-i/schedule-i-icon-192x192.webp"
-    cover: "schedule-i/schedule-i-cover-360x480.webp"
-    background: "schedule-i/schedule-i-bg-1920x1080.webp"
-    hero: "schedule-i/schedule-i-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

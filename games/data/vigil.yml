@@ -26,12 +26,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Vigil"
-  listed: true
-  meta:
-    icon: "vigil/vigil-icon-192x192.webp"
-    cover: "vigil/vigil-cover-360x480.webp"
-    background: "vigil/vigil-bg-1920x1080.webp"
-    hero: "vigil/vigil-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Slipstream: Rogue Space"
-  listed: true
-  meta:
-    icon: "slipstream-rogue-space/slipstream-rogue-space-icon-192x192.webp"
-    cover: "slipstream-rogue-space/slipstream-rogue-space-cover-360x480.webp"
-    background: "slipstream-rogue-space/slipstream-rogue-space-bg-1920x1080.webp"
-    hero: "slipstream-rogue-space/slipstream-rogue-space-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

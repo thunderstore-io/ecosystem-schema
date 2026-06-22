@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Bopl Battle"
-  listed: true
-  meta:
-    icon: "bopl-battle/bopl-battle-icon-192x192.webp"
-    cover: "bopl-battle/bopl-battle-cover-360x480.webp"
-    background: "bopl-battle/bopl-battle-bg-1920x1080.webp"
-    hero: "bopl-battle/bopl-battle-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

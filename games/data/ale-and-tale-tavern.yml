@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Ale & Tale Tavern"
-  listed: true
-  meta:
-    icon: "ale-and-tale-tavern/ale-and-tale-tavern-icon-192x192.webp"
-    cover: "ale-and-tale-tavern/ale-and-tale-tavern-cover-360x480.webp"
-    background: "ale-and-tale-tavern/ale-and-tale-tavern-bg-1920x1080.webp"
-    hero: "ale-and-tale-tavern/ale-and-tale-tavern-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

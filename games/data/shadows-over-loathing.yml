@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Shadows Over Loathing"
-  listed: true
-  meta:
-    icon: "shadows-over-loathing/shadows-over-loathing-icon-192x192.webp"
-    cover: "shadows-over-loathing/shadows-over-loathing-cover-360x480.webp"
-    hero: "shadows-over-loathing/shadows-over-loathing-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -7,10 +7,6 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Spaghetti Kart"
-  listed: true
-  meta:
-    cover: "spaghetti-kart/spaghetti-kart-cover-360x480.webp"
-    background: "spaghetti-kart/spaghetti-kart-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

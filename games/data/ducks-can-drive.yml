@@ -28,12 +28,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Ducks Can Drive"
-  listed: true
-  meta:
-    icon: "ducks-can-drive/ducks-can-drive-icon-192x192.webp"
-    cover: "ducks-can-drive/ducks-can-drive-cover-360x480.webp"
-    background: "ducks-can-drive/ducks-can-drive-bg-1920x1080.webp"
-    hero: "ducks-can-drive/ducks-can-drive-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

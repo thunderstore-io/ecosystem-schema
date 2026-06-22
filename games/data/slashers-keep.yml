@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Slasher's Keep"
-  listed: true
-  meta:
-    icon: "slashers-keep/slashers-keep-icon-192x192.webp"
-    cover: "slashers-keep/slashers-keep-cover-360x480.webp"
-    background: "slashers-keep/slashers-keep-bg-1920x1080.webp"
-    hero: "slashers-keep/slashers-keep-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

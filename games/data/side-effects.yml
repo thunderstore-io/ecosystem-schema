@@ -56,12 +56,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "SIDE EFFECTS"
-  listed: true
-  meta:
-    icon: "side-effects/side-effects-icon-192x192.webp"
-    cover: "side-effects/side-effects-cover-360x480.webp"
-    background: "side-effects/side-effects-bg-1920x1080.webp"
-    hero: "side-effects/side-effects-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

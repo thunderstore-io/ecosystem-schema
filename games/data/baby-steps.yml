@@ -27,12 +27,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Baby Steps"
-  listed: true
-  meta:
-    icon: "baby-steps/baby-steps-icon-192x192.webp"
-    cover: "baby-steps/baby-steps-cover-360x480.webp"
-    background: "baby-steps/baby-steps-bg-1920x1080.webp"
-    hero: "baby-steps/baby-steps-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

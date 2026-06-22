@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Last Train Outta' Wormtown"
-  listed: true
-  meta:
-    icon: "last-train-outta-wormtown/last-train-outta-wormtown-icon-192x192.webp"
-    cover: "last-train-outta-wormtown/last-train-outta-wormtown-cover-360x480.webp"
-    hero: "last-train-outta-wormtown/last-train-outta-wormtown-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

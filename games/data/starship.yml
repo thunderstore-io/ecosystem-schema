@@ -6,10 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Starship"
-  listed: true
-  meta:
-    cover: "starship/starship-cover-360x480.webp"
-    background: "starship/starship-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

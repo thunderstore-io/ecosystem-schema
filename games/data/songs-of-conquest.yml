@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Songs of Conquest"
-  listed: true
-  meta:
-    icon: "songs-of-conquest/songs-of-conquest-icon-192x192.webp"
-    cover: "songs-of-conquest/songs-of-conquest-cover-360x480.webp"
-    background: "songs-of-conquest/songs-of-conquest-bg-1920x1080.webp"
-    hero: "songs-of-conquest/songs-of-conquest-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

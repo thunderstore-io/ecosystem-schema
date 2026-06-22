@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Paquerette Down the Bunburrows"
-  listed: true
-  meta:
-    icon: "paquerette-down-the-bunburrows/paquerette-down-the-bunburrows-icon-192x192.webp"
-    cover: "paquerette-down-the-bunburrows/paquerette-down-the-bunburrows-cover-360x480.webp"
-    background: "paquerette-down-the-bunburrows/paquerette-down-the-bunburrows-bg-1920x1080.webp"
-    hero: "paquerette-down-the-bunburrows/paquerette-down-the-bunburrows-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

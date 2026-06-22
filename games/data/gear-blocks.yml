@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "GearBlocks"
-  listed: false
-  meta:
-    icon: "gear-blocks/gear-blocks-icon-192x192.webp"
-    cover: "gear-blocks/gear-blocks-cover-360x480.webp"
-    background: "gear-blocks/gear-blocks-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

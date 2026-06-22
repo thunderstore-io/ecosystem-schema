@@ -8,12 +8,6 @@ distributions:
   identifier: "2200780"
 thunderstore:
   displayName: "My Dream Setup"
-  listed: true
-  meta:
-    icon: "my-dream-setup/my-dream-setup-icon-192x192.webp"
-    cover: "my-dream-setup/my-dream-setup-cover-360x480.webp"
-    background: "my-dream-setup/my-dream-setup-bg-1920x1080.webp"
-    hero: "my-dream-setup/my-dream-setup-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

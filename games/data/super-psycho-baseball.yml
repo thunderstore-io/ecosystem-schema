@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Super Psycho Baseball"
-  listed: true
-  meta:
-    icon: "super-psycho-baseball/super-psycho-baseball-icon-192x192.webp"
-    cover: "super-psycho-baseball/super-psycho-baseball-cover-360x480.webp"
-    background: "super-psycho-baseball/super-psycho-baseball-bg-1920x1080.webp"
-    hero: "super-psycho-baseball/super-psycho-baseball-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

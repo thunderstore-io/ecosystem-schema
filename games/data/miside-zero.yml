@@ -27,12 +27,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "MiSide: Zero"
-  listed: true
-  meta:
-    icon: "miside-zero/miside-zero-icon-192x192.webp"
-    cover: "miside-zero/miside-zero-cover-360x480.webp"
-    background: "miside-zero/miside-zero-bg-1920x1080.webp"
-    hero: "miside-zero/miside-zero-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -52,12 +52,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "SOULCALIBUR VI"
-  listed: true
-  meta:
-    icon: "soulcalibur-vi/soulcalibur-vi-icon-192x192.webp"
-    cover: "soulcalibur-vi/soulcalibur-vi-cover-360x480.webp"
-    background: "soulcalibur-vi/soulcalibur-vi-bg-1920x1080.webp"
-    hero: "soulcalibur-vi/soulcalibur-vi-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

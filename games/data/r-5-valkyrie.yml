@@ -7,12 +7,6 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "R5Valkyrie"
-  listed: true
-  meta:
-    icon: "r5valkyrie/r5valkyrie-icon-192x192.webp"
-    cover: "r5valkyrie/r5valkyrie-cover-360x480.webp"
-    background: "r5valkyrie/r5valkyrie-bg-1920x1080.webp"
-    hero: "r5valkyrie/r5valkyrie-bg-1920x620.webp"
   categories:
     legend:
       label: "Legend"

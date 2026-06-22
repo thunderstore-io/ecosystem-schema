@@ -8,11 +8,6 @@ distributions:
     identifier: "1229490"
 thunderstore:
   displayName: "ULTRAKILL"
-  listed: true
-  meta:
-    icon: "ultrakill/ultrakill-icon-192x192.webp"
-    cover: "ultrakill/ultrakill-cover-360x480.webp"
-    hero: "ultrakill/ultrakill-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

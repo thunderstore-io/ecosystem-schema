@@ -53,12 +53,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Cave Crawlers"
-  listed: true
-  meta:
-    icon: "cave-crawlers/cave-crawlers-icon-192x192.webp"
-    cover: "cave-crawlers/cave-crawlers-cover-360x480.webp"
-    background: "cave-crawlers/cave-crawlers-bg-1920x1080.webp"
-    hero: "cave-crawlers/cave-crawlers-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

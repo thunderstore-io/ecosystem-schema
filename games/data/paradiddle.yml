@@ -7,12 +7,6 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Paradiddle"
-  listed: true
-  meta:
-    icon: "paradiddle/paradiddle-icon-192x192.webp"
-    cover: "paradiddle/paradiddle-cover-360x480.webp"
-    background: "paradiddle/paradiddle-bg-1920x1080.webp"
-    hero: "paradiddle/paradiddle-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

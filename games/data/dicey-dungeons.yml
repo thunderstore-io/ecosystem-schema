@@ -6,10 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Dicey Dungeons"
-  listed: false
-  meta:
-    icon: "dicey-dungeons/dicey-dungeons-icon-192x192.webp"
-    cover: "dicey-dungeons/dicey-dungeons-cover-360x480.webp"
   categories:
     mods:
       label: "Mods"

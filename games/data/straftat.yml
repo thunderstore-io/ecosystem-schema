@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "STRAFTAT"
-  listed: true
-  meta:
-    icon: "straftat/straftat-icon-192x192.webp"
-    cover: "straftat/straftat-cover-360x480.webp"
-    background: "straftat/straftat-bg-1920x1080.webp"
-    hero: "straftat/straftat-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

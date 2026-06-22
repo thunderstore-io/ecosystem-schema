@@ -42,12 +42,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Broforce"
-  listed: true
-  meta:
-    icon: "broforce/broforce-icon-192x192.webp"
-    cover: "broforce/broforce-cover-360x480.webp"
-    background: "broforce/broforce-bg-1920x1080.webp"
-    hero: "broforce/broforce-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

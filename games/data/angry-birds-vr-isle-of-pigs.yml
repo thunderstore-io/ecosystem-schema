@@ -28,12 +28,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Angry Birds VR: Isle of Pigs"
-  listed: true
-  meta:
-    icon: "angry-birds-vr-isle-of-pigs/angry-birds-vr-isle-of-pigs-icon-192x192.webp"
-    cover: "angry-birds-vr-isle-of-pigs/angry-birds-vr-isle-of-pigs-cover-360x480.webp"
-    background: "angry-birds-vr-isle-of-pigs/angry-birds-vr-isle-of-pigs-bg-1920x1080.webp"
-    hero: "angry-birds-vr-isle-of-pigs/angry-birds-vr-isle-of-pigs-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

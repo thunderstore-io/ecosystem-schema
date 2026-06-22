@@ -27,12 +27,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Mimesis"
-  listed: true
-  meta:
-    icon: "mimesis/mimesis-icon-192x192.webp"
-    cover: "mimesis/mimesis-cover-360x480.webp"
-    background: "mimesis/mimesis-bg-1920x1080.webp"
-    hero: "mimesis/mimesis-bg-1920x620.webp"
   discordUrl: "https://discord.gg/FjPTPRMRn"
   categories:
     mods:

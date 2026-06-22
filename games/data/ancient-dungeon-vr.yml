@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Ancient Dungeon VR"
-  listed: true
-  meta:
-    icon: "ancient-dungeon-vr/ancient-dungeon-vr-icon-192x192.webp"
-    cover: "ancient-dungeon-vr/ancient-dungeon-vr-cover-360x480.webp"
-    hero: "ancient-dungeon-vr/ancient-dungeon-vr-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

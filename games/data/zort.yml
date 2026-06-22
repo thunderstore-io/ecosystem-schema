@@ -8,11 +8,6 @@ distributions:
   identifier: "3121110"
 thunderstore:
   displayName: "Zort"
-  listed: true
-  meta:
-    cover: "zort/zort-cover-360x480.webp"
-    background: "zort/zort-bg-1920x1080.webp"
-    hero: "zort/zort-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

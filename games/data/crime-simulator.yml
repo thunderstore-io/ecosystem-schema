@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Crime Simulator"
-  listed: true
-  meta:
-    icon: "crime-simulator/crime-simulator-icon-192x192.webp"
-    cover: "crime-simulator/crime-simulator-cover-360x480.webp"
-    background: "crime-simulator/crime-simulator-bg-1920x1080.webp"
-    hero: "crime-simulator/crime-simulator-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
