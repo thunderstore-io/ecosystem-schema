@@ -26,6 +26,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Puttler"
+  listed: true
+  meta:
+    icon: "puttler/puttler-icon-192x192.webp"
+    cover: "puttler/puttler-cover-360x480.webp"
+    background: "puttler/puttler-bg-1920x1080.webp"
+    hero: "puttler/puttler-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

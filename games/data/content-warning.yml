@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Content Warning"
+  listed: true
+  meta:
+    icon: "content-warning/content-warning-icon-192x192.webp"
+    cover: "content-warning/content-warning-cover-360x480.webp"
+    background: "content-warning/content-warning-bg-1920x1080.webp"
+    hero: "content-warning/content-warning-bg-1920x620.webp"
   categories:
     clientside:
       label: "Client-Only"

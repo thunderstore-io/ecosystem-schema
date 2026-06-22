@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Mage Arena"
+  listed: true
+  meta:
+    icon: "mage-arena/mage-arena-icon-192x192.webp"
+    cover: "mage-arena/mage-arena-cover-360x480.webp"
+    background: "mage-arena/mage-arena-bg-1920x1080.webp"
+    hero: "mage-arena/mage-arena-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

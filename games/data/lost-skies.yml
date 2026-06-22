@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Lost Skies"
+  listed: true
+  meta:
+    icon: "lost-skies/lost-skies-icon-192x192.webp"
+    cover: "lost-skies/lost-skies-cover-360x480.webp"
+    background: "lost-skies/lost-skies-bg-1920x1080.webp"
+    hero: "lost-skies/lost-skies-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

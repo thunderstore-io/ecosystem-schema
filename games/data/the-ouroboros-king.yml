@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "The Ouroboros King"
+  listed: true
+  meta:
+    icon: "the-ouroboros-king/the-ouroboros-king-icon-192x192.webp"
+    cover: "the-ouroboros-king/the-ouroboros-king-cover-360x480.webp"
+    hero: "the-ouroboros-king/the-ouroboros-king-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

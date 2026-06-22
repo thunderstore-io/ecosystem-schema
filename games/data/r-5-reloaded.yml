@@ -7,6 +7,12 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "R5Reloaded"
+  listed: false
+  meta:
+    icon: "r5reloaded/r5reloaded-icon-192x192.webp"
+    cover: "r5reloaded/r5reloaded-cover-360x480.webp"
+    background: "r5reloaded/r5reloaded-bg-1920x1080.webp"
+    hero: "r5reloaded/r5reloaded-bg-1920x620.webp"
   sections: {}
   categories:
     legend:

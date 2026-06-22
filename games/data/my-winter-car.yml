@@ -7,6 +7,12 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "My Winter Car"
+  listed: true
+  meta:
+    icon: "my-winter-car/my-winter-car-icon-192x192.webp"
+    cover: "my-winter-car/my-winter-car-cover-360x480.webp"
+    background: "my-winter-car/my-winter-car-bg-1920x1080.webp"
+    hero: "my-winter-car/my-winter-car-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

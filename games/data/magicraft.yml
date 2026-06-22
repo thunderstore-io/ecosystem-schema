@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Magicraft"
+  listed: true
+  meta:
+    icon: "magicraft/magicraft-icon-192x192.webp"
+    cover: "magicraft/magicraft-cover-360x480.webp"
+    background: "magicraft/magicraft-bg-1920x1080.webp"
+    hero: "magicraft/magicraft-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

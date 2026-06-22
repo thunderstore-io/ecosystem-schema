@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Crashout Crew"
+  listed: true
+  meta:
+    icon: "crashout-crew/crashout-crew-icon-192x192.webp"
+    cover: "crashout-crew/crashout-crew-cover-360x480.webp"
+    background: "crashout-crew/crashout-crew-bg-1920x1080.webp"
+    hero: "crashout-crew/crashout-crew-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

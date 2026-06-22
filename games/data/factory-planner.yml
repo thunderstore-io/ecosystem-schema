@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Factory Planner"
+  listed: true
+  meta:
+    icon: "factory-planner/factory-planner-icon-192x192.webp"
+    cover: "factory-planner/factory-planner-cover-360x480.webp"
+    background: "factory-planner/factory-planner-bg-1920x1080.webp"
+    hero: "factory-planner/factory-planner-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
