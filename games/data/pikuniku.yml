@@ -61,6 +61,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Pikuniku"
+  listed: true
+  meta:
+    icon: "pikuniku/pikuniku-icon-192x192.webp"
+    cover: "pikuniku/pikuniku-cover-360x480.webp"
+    background: "pikuniku/pikuniku-bg-1920x1080.webp"
+    hero: "pikuniku/pikuniku-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

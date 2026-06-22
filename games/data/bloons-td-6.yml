@@ -31,6 +31,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Bloons TD 6"
+  listed: true
+  meta:
+    icon: "bloons-td-6/bloons-td-6-icon-192x192.webp"
+    cover: "bloons-td-6/bloons-td-6-cover-360x480.webp"
+    background: "bloons-td-6/bloons-td-6-bg-1920x1080.webp"
+    hero: "bloons-td-6/bloons-td-6-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

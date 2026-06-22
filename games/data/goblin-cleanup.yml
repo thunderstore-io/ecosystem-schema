@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Goblin Cleanup"
+  listed: true
+  meta:
+    icon: "goblin-cleanup/goblin-cleanup-icon-192x192.webp"
+    cover: "goblin-cleanup/goblin-cleanup-cover-360x480.webp"
+    background: "goblin-cleanup/goblin-cleanup-bg-1920x1080.webp"
+    hero: "goblin-cleanup/goblin-cleanup-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
