@@ -20,7 +20,7 @@ r2modman:
     settingsIdentifier: "Romestead"
     internalFolderName: "Romestead"
     packageIndex: "https://thunderstore.io/c/romestead/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "hidden"
+    gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "罗马拓荒录"
     installRules:
