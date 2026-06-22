@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Betrayal Beach"
-  listed: true
-  meta:
-    icon: "betrayal-beach/betrayal-beach-icon-192x192.webp"
-    cover: "betrayal-beach/betrayal-beach-cover-360x480.webp"
-    background: "betrayal-beach/betrayal-beach-bg-1920x1080.webp"
-    hero: "betrayal-beach/betrayal-beach-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

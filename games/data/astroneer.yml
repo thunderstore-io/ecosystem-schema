@@ -51,12 +51,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Astroneer"
-  listed: true
-  meta:
-    icon: "astroneer/astroneer-icon-192x192.webp"
-    cover: "astroneer/astroneer-cover-360x480.webp"
-    background: "astroneer/astroneer-bg-1920x1080.webp"
-    hero: "astroneer/astroneer-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

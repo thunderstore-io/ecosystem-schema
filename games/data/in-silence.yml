@@ -7,12 +7,6 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "In Silence"
-  listed: true
-  meta:
-    icon: "in-silence/in-silence-icon-192x192.webp"
-    cover: "in-silence/in-silence-cover-360x480.webp"
-    background: "in-silence/in-silence-bg-1920x1080.webp"
-    hero: "in-silence/in-silence-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

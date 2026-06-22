@@ -26,12 +26,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "An Unfinished Game"
-  listed: true
-  meta:
-    icon: "an-unfinished-game/an-unfinished-game-icon-192x192.webp"
-    cover: "an-unfinished-game/an-unfinished-game-cover-360x480.webp"
-    background: "an-unfinished-game/an-unfinished-game-bg-1920x1080.webp"
-    hero: "an-unfinished-game/an-unfinished-game-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Painting VR"
-  listed: true
-  meta:
-    icon: "painting-vr/painting-vr-icon-192x192.webp"
-    cover: "painting-vr/painting-vr-cover-360x480.webp"
-    background: "painting-vr/painting-vr-bg-1920x1080.webp"
-    hero: "painting-vr/painting-vr-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -8,12 +8,6 @@ distributions:
   identifier: "2527500"
 thunderstore:
   displayName: "MiSide"
-  listed: true
-  meta:
-    icon: "miside/miside-icon-192x192.webp"
-    cover: "miside/miside-cover-360x480.webp"
-    background: "miside/miside-bg-1920x1080.webp"
-    hero: "miside/miside-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

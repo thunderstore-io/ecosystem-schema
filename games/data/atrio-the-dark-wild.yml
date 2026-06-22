@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Atrio: The Dark Wild"
-  listed: true
-  meta:
-    icon: "atrio-the-dark-wild/atrio-the-dark-wild-icon-192x192.webp"
-    cover: "atrio-the-dark-wild/atrio-the-dark-wild-cover-360x480.webp"
-    hero: "atrio-the-dark-wild/atrio-the-dark-wild-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

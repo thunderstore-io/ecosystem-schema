@@ -30,12 +30,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Pit of Goblin"
-  listed: true
-  meta:
-    icon: "pit-of-goblin/pit-of-goblin-icon-192x192.webp"
-    cover: "pit-of-goblin/pit-of-goblin-cover-360x480.webp"
-    background: "pit-of-goblin/pit-of-goblin-bg-1920x1080.webp"
-    hero: "pit-of-goblin/pit-of-goblin-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

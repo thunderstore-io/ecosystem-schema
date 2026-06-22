@@ -55,12 +55,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Paper Animal Adventure"
-  listed: true
-  meta:
-    icon: "paper-animal-adventure/paper-animal-adventure-icon-192x192.webp"
-    cover: "paper-animal-adventure/paper-animal-adventure-cover-360x480.webp"
-    background: "paper-animal-adventure/paper-animal-adventure-bg-1920x1080.webp"
-    hero: "paper-animal-adventure/paper-animal-adventure-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

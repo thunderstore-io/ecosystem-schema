@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "TCG Card Shop Simulator"
-  listed: true
-  meta:
-    icon: "tcg-card-shop-simulator/tcg-card-shop-simulator-icon-192x192.webp"
-    cover: "tcg-card-shop-simulator/tcg-card-shop-simulator-cover-360x480.webp"
-    background: "tcg-card-shop-simulator/tcg-card-shop-simulator-bg-1920x1080.webp"
-    hero: "tcg-card-shop-simulator/tcg-card-shop-simulator-bg-1920x620.webp"
   categories:
         mods:
           label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Bomb Rush Cyberfunk"
-  listed: true
-  meta:
-    icon: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-icon-192x192.webp"
-    cover: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-cover-360x480.webp"
-    hero: "bomb-rush-cyberfunk/bomb-rush-cyberfunk-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Zelda 64: Recompiled"
-  listed: true
-  meta:
-    icon: "zelda-64-recompiled/zelda-64-recompiled-icon-192x192.webp"
-    cover: "zelda-64-recompiled/zelda-64-recompiled-cover-360x480.webp"
-    background: "zelda-64-recompiled/zelda-64-recompiled-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "SULFUR"
-  listed: true
-  meta:
-    icon: "sulfur/sulfur-icon-192x192.webp"
-    cover: "sulfur/sulfur-cover-360x480.webp"
-    background: "sulfur/sulfur-bg-1920x1080.webp"
-    hero: "sulfur/sulfur-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Arcus Chroma"
-  listed: true
-  meta:
-    icon: "arcus-chroma/arcus-chroma-icon-192x192.webp"
-    cover: "arcus-chroma/arcus-chroma-cover-360x480.webp"
-    background: "arcus-chroma/arcus-chroma-bg-1920x1080.webp"
-    hero: "arcus-chroma/arcus-chroma-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Wrestling Empire"
-  listed: true
-  meta:
-    icon: "wrestling-empire/wrestling-empire-icon-192x192.webp"
-    cover: "wrestling-empire/wrestling-empire-cover-360x480.webp"
-    hero: "wrestling-empire/wrestling-empire-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

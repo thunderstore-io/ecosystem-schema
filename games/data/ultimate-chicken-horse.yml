@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Ultimate Chicken Horse"
-  listed: true
-  meta:
-    icon: "ultimate-chicken-horse/ultimate-chicken-horse-icon-192x192.webp"
-    cover: "ultimate-chicken-horse/ultimate-chicken-horse-cover-360x480.webp"
-    hero: "ultimate-chicken-horse/ultimate-chicken-horse-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

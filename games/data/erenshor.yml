@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Erenshor"
-  listed: true
-  meta:
-    icon: "erenshor/erenshor-icon-192x192.webp"
-    cover: "erenshor/erenshor-cover-360x480.webp"
-    background: "erenshor/erenshor-bg-1920x1080.webp"
-    hero: "erenshor/erenshor-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

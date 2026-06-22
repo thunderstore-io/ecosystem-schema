@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Crawlspace 2"
-  listed: true
-  meta:
-    icon: "crawlspace-2/crawlspace-2-icon-192x192.webp"
-    cover: "crawlspace-2/crawlspace-2-cover-360x480.webp"
-    background: "crawlspace-2/crawlspace-2-bg-1920x1080.webp"
-    hero: "crawlspace-2/crawlspace-2-bg-1920x620.webp"
   wikiUrl: "https://misterbubb.github.io/ModdingWiki/"
   discordUrl: "https://discord.gg/BDZ6NjegeR"
   categories:

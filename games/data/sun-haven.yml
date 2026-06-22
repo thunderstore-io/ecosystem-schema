@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Sun Haven"
-  listed: true
-  meta:
-    icon: "sun-haven/sun-haven-icon-192x192.webp"
-    cover: "sun-haven/sun-haven-cover-360x480.webp"
-    hero: "sun-haven/sun-haven-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

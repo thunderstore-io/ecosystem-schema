@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Mycopunk"
-  listed: true
-  meta:
-    icon: "mycopunk/mycopunk-icon-192x192.webp"
-    cover: "mycopunk/mycopunk-cover-360x480.webp"
-    background: "mycopunk/mycopunk-bg-1920x1080.webp"
-    hero: "mycopunk/mycopunk-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

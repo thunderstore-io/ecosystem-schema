@@ -53,12 +53,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Deadly Delivery"
-  listed: true
-  meta:
-    icon: "deadly-delivery/deadly-delivery-icon-192x192.webp"
-    cover: "deadly-delivery/deadly-delivery-cover-360x480.webp"
-    background: "deadly-delivery/deadly-delivery-bg-1920x1080.webp"
-    hero: "deadly-delivery/deadly-delivery-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

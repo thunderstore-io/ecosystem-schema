@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Supermarket Together"
-  listed: true
-  meta:
-    icon: "supermarket-together/supermarket-together-icon-192x192.webp"
-    cover: "supermarket-together/supermarket-together-cover-360x480.webp"
-    background: "supermarket-together/supermarket-together-bg-1920x1080.webp"
-    hero: "supermarket-together/supermarket-together-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

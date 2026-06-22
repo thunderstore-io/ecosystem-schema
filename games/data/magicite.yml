@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Magicite"
-  listed: true
-  meta:
-    icon: "magicite/magicite-icon-192x192.webp"
-    cover: "magicite/magicite-cover-360x480.webp"
-    background: "magicite/magicite-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "West of Loathing"
-  listed: true
-  meta:
-    icon: "west-of-loathing/west-of-loathing-icon-192x192.webp"
-    cover: "west-of-loathing/west-of-loathing-cover-360x480.webp"
-    hero: "west-of-loathing/west-of-loathing-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

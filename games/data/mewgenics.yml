@@ -7,7 +7,6 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Mewgenics"
-  listed: true
   categories:
     mods:
       label: "Mods"

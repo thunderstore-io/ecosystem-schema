@@ -26,12 +26,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Beetleball"
-  listed: true
-  meta:
-    icon: "beetleball/beetleball-icon-192x192.webp"
-    cover: "beetleball/beetleball-cover-360x480.webp"
-    background: "beetleball/beetleball-bg-1920x1080.webp"
-    hero: "beetleball/beetleball-bg-1920x620.webp"
   shortDescription: "Score goals with dungballs in Beetleball, the Greatest Online Multiplayer Class-based Dung Beetle Soccer Game TO EVER EXIST"
   categories:
     mods:

@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "9 Kings"
-  listed: true
-  meta:
-    icon: "9-kings/9-kings-icon-192x192.webp"
-    cover: "9-kings/9-kings-cover-360x480.webp"
-    background: "9-kings/9-kings-bg-1920x1080.webp"
-    hero: "9-kings/9-kings-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

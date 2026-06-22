@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Thronefall"
-  listed: true
-  meta:
-    icon: "thronefall/thronefall-icon-192x192.webp"
-    cover: "thronefall/thronefall-cover-360x480.webp"
-    hero: "thronefall/thronefall-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

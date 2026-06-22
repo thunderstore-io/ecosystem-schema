@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "PAC-MAN WORLD Re-PAC"
-  listed: true
-  meta:
-    icon: "pac-man-world-re-pac/pac-man-world-re-pac-icon-192x192.webp"
-    cover: "pac-man-world-re-pac/pac-man-world-re-pac-cover-360x480.webp"
-    background: "pac-man-world-re-pac/pac-man-world-re-pac-bg-1920x1080.webp"
-    hero: "pac-man-world-re-pac/pac-man-world-re-pac-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

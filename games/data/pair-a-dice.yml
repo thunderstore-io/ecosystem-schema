@@ -26,12 +26,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Pair A Dice"
-  listed: true
-  meta:
-    icon: "pair-a-dice/pair-a-dice-icon-192x192.webp"
-    cover: "pair-a-dice/pair-a-dice-cover-360x480.webp"
-    background: "pair-a-dice/pair-a-dice-bg-1920x1080.webp"
-    hero: "pair-a-dice/pair-a-dice-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

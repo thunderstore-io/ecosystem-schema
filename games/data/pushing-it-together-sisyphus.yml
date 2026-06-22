@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Pushing it! Together - Sisyphus Co-op"
-  listed: true
-  meta:
-    icon: "pushing-it-together-sisyphus/pushing-it-together-sisyphus-icon-192x192.webp"
-    cover: "pushing-it-together-sisyphus/pushing-it-together-sisyphus-cover-360x480.webp"
-    background: "pushing-it-together-sisyphus/pushing-it-together-sisyphus-bg-1920x1080.webp"
-    hero: "pushing-it-together-sisyphus/pushing-it-together-sisyphus-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Mirror's Edge"
-  listed: false
-  meta:
-    icon: "mirrors-edge/mirrors-edge-icon-192x192.webp"
-    cover: "mirrors-edge/mirrors-edge-cover-360x480.webp"
-    background: "mirrors-edge/mirrors-edge-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Everything is Crab"
-  listed: true
-  meta:
-    icon: "everything-is-crab/everything-is-crab-icon-192x192.webp"
-    cover: "everything-is-crab/everything-is-crab-cover-360x480.webp"
-    background: "everything-is-crab/everything-is-crab-bg-1920x1080.webp"
-    hero: "everything-is-crab/everything-is-crab-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

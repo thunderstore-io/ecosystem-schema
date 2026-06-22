@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Shadows of Doubt"
-  listed: true
-  meta:
-    icon: "shadows-of-doubt/shadows-of-doubt-icon-192x192.webp"
-    cover: "shadows-of-doubt/shadows-of-doubt-cover-360x480.webp"
-    hero: "shadows-of-doubt/shadows-of-doubt-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

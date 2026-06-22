@@ -8,12 +8,6 @@ distributions:
   identifier: "233610"
 thunderstore:
   displayName: "Distance"
-  listed: true
-  meta:
-    icon: "distance/distance-icon-192x192.webp"
-    cover: "distance/distance-cover-360x480.webp"
-    background: "distance/distance-bg-1920x1080.webp"
-    hero: "distance/distance-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

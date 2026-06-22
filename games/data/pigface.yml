@@ -55,12 +55,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "PIGFACE"
-  listed: true
-  meta:
-    icon: "pigface/pigface-icon-192x192.webp"
-    cover: "pigface/pigface-cover-360x480.webp"
-    background: "pigface/pigface-bg-1920x1080.webp"
-    hero: "pigface/pigface-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

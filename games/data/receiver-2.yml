@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Receiver 2"
-  listed: true
-  meta:
-    icon: "receiver-2/receiver-2-icon-192x192.webp"
-    cover: "receiver-2/receiver-2-cover-360x480.webp"
-    hero: "receiver-2/receiver-2-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

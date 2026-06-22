@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Patch Quest"
-  listed: true
-  meta:
-    icon: "patch-quest/patch-quest-icon-192x192.webp"
-    cover: "patch-quest/patch-quest-cover-360x480.webp"
-    hero: "patch-quest/patch-quest-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

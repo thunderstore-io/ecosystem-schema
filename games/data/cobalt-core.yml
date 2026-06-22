@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Cobalt Core"
-  listed: true
-  meta:
-    icon: "cobalt-core/cobalt-core-icon-192x192.webp"
-    cover: "cobalt-core/cobalt-core-cover-360x480.webp"
-    background: "cobalt-core/cobalt-core-bg-1920x1080.webp"
-    hero: "cobalt-core/cobalt-core-bg-1920x620.webp"
   categories:
     # main categories
     mods:

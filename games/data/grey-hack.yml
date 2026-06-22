@@ -53,12 +53,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Grey Hack"
-  listed: true
-  meta:
-    icon: "grey-hack/grey-hack-icon-192x192.webp"
-    cover: "grey-hack/grey-hack-cover-360x480.webp"
-    background: "grey-hack/grey-hack-bg-1920x1080.webp"
-    hero: "grey-hack/grey-hack-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

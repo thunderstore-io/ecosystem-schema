@@ -27,12 +27,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Jump Space"
-  listed: true
-  meta:
-    icon: "jump-space/jump-space-icon-192x192.webp"
-    cover: "jump-space/jump-space-cover-360x480.webp"
-    background: "jump-space/jump-space-bg-1920x1080.webp"
-    hero: "jump-space/jump-space-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

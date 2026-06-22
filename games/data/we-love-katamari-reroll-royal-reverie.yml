@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "We Love Katamari REROLL+ Royal Reverie"
-  listed: true
-  meta:
-    icon: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-icon-192x192.webp"
-    cover: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-cover-360x480.webp"
-    hero: "we-love-katamari-reroll-royal-reverie/we-love-katamari-reroll-royal-reverie-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

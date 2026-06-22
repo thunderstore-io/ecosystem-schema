@@ -28,12 +28,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Forsaken Frontiers"
-  listed: true
-  meta:
-    icon: "forsaken-frontiers/forsaken-frontiers-icon-192x192.webp"
-    cover: "forsaken-frontiers/forsaken-frontiers-cover-360x480.webp"
-    background: "forsaken-frontiers/forsaken-frontiers-bg-1920x1080.webp"
-    hero: "forsaken-frontiers/forsaken-frontiers-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Return of the Obra Dinn"
-  listed: true
-  meta:
-    icon: "return-of-the-obra-dinn/return-of-the-obra-dinn-icon-192x192.webp"
-    cover: "return-of-the-obra-dinn/return-of-the-obra-dinn-cover-360x480.webp"
-    background: "return-of-the-obra-dinn/return-of-the-obra-dinn-bg-1920x1080.webp"
-    hero: "return-of-the-obra-dinn/return-of-the-obra-dinn-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

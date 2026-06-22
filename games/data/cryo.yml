@@ -26,12 +26,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "CRYO"
-  listed: true
-  meta:
-    icon: "cryo/cryo-icon-192x192.webp"
-    cover: "cryo/cryo-cover-360x480.webp"
-    background: "cryo/cryo-bg-1920x1080.webp"
-    hero: "cryo/cryo-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

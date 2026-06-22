@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Human Fall Flat"
-  listed: true
-  meta:
-    icon: "human-fall-flat/human-fall-flat-icon-192x192.webp"
-    cover: "human-fall-flat/human-fall-flat-cover-360x480.webp"
-    background: "human-fall-flat/human-fall-flat-bg-1920x1080.webp"
-    hero: "human-fall-flat/human-fall-flat-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

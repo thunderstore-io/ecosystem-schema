@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Carrier Deck"
-  listed: true
-  meta:
-    icon: "carrier-deck/carrier-deck-icon-192x192.webp"
-    cover: "carrier-deck/carrier-deck-cover-360x480.webp"
-    background: "carrier-deck/carrier-deck-bg-1920x1080.webp"
-    hero: "carrier-deck/carrier-deck-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

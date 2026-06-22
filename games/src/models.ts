@@ -76,17 +76,8 @@ export interface GameModmanDefinition {
   relativeFileExclusions: string[] | null;
 }
 
-export interface ThunderstoreCommunityMeta {
-  icon?: string;
-  cover?: string;
-  background?: string;
-  hero?: string;
-}
-
 export interface ThunderstoreCommunityDefinition {
   displayName: string;
-  listed?: boolean;
-  meta?: ThunderstoreCommunityMeta;
   categories?: { [key: string]: { label: string } };
   sections?: {
     [key: string]: {

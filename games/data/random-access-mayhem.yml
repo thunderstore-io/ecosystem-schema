@@ -32,12 +32,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "RAM: Random Access Mayhem"
-  listed: true
-  meta:
-    icon: "random-access-mayhem/random-access-mayhem-icon-192x192.webp"
-    cover: "random-access-mayhem/random-access-mayhem-cover-360x480.webp"
-    background: "random-access-mayhem/random-access-mayhem-bg-1920x1080.webp"
-    hero: "random-access-mayhem/random-access-mayhem-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

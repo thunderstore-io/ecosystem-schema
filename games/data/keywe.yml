@@ -54,12 +54,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "KeyWe"
-  listed: true
-  meta:
-    icon: "keywe/keywe-icon-192x192.webp"
-    cover: "keywe/keywe-cover-360x480.webp"
-    background: "keywe/keywe-bg-1920x1080.webp"
-    hero: "keywe/keywe-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

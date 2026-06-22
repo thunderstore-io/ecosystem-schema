@@ -55,12 +55,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "On-Together: Virtual Co-Working"
-  listed: true
-  meta:
-    icon: "on-together/on-together-icon-192x192.webp"
-    cover: "on-together/on-together-cover-360x480.webp"
-    background: "on-together/on-together-bg-1920x1080.webp"
-    hero: "on-together/on-together-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

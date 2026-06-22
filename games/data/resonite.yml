@@ -58,12 +58,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Resonite"
-  listed: true
-  meta:
-    icon: "resonite/resonite-icon-192x192.webp"
-    cover: "resonite/resonite-cover-360x480.webp"
-    background: "resonite/resonite-bg-1920x1080.webp"
-    hero: "resonite/resonite-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

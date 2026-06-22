@@ -27,12 +27,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Scrap Mechanic"
-  listed: true
-  meta:
-    icon: "scrap-mechanic/scrap-mechanic-icon-192x192.webp"
-    cover: "scrap-mechanic/scrap-mechanic-cover-360x480.webp"
-    background: "scrap-mechanic/scrap-mechanic-bg-1920x1080.webp"
-    hero: "scrap-mechanic/scrap-mechanic-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

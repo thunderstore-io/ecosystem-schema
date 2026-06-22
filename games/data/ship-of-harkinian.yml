@@ -6,10 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Ship of Harkinian"
-  listed: true
-  meta:
-    cover: "ship-of-harkinian/ship-of-harkinian-cover-360x480.webp"
-    background: "ship-of-harkinian/ship-of-harkinian-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

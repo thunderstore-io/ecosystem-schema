@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Phasmophobia"
-  listed: false
-  meta:
-    icon: "phasmophobia/phasmophobia-icon-192x192.webp"
-    cover: "phasmophobia/phasmophobia-cover-360x480.webp"
-    background: "phasmophobia/phasmophobia-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Dredge"
-  listed: true
-  meta:
-    icon: "dredge/dredge-icon-192x192.webp"
-    cover: "dredge/dredge-cover-360x480.webp"
-    hero: "dredge/dredge-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

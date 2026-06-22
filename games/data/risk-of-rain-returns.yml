@@ -6,11 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Risk of Rain Returns"
-  listed: true
-  meta:
-    icon: "risk-of-rain-returns/risk-of-rain-returns-icon-192x192.webp"
-    cover: "risk-of-rain-returns/risk-of-rain-returns-cover-360x480.webp"
-    hero: "risk-of-rain-returns/risk-of-rain-returns-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

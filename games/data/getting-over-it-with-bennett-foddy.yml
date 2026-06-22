@@ -60,12 +60,6 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Getting Over It with Bennett Foddy"
-  listed: true
-  meta:
-    icon: "getting-over-it/getting-over-it-icon-192x192.webp"
-    cover: "getting-over-it/getting-over-it-cover-360x480.webp"
-    background: "getting-over-it/getting-over-it-bg-1920x1080.webp"
-    hero: "getting-over-it/getting-over-it-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

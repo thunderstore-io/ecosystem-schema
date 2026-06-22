@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "ENA: Dream BBQ"
-  listed: true
-  meta:
-    icon: "ena-dream-bbq/ena-dream-bbq-icon-192x192.webp"
-    cover: "ena-dream-bbq/ena-dream-bbq-cover-360x480.webp"
-    background: "ena-dream-bbq/ena-dream-bbq-bg-1920x1080.webp"
-    hero: "ena-dream-bbq/ena-dream-bbq-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

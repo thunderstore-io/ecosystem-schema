@@ -6,12 +6,6 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Back to the Dawn"
-  listed: true
-  meta:
-    icon: "back-to-the-dawn/back-to-the-dawn-icon-192x192.webp"
-    cover: "back-to-the-dawn/back-to-the-dawn-cover-360x480.webp"
-    background: "back-to-the-dawn/back-to-the-dawn-bg-1920x1080.webp"
-    hero: "back-to-the-dawn/back-to-the-dawn-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
