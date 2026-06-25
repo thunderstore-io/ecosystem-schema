@@ -1,0 +1,144 @@
+uuid: "833a9314-5538-43ee-969b-a563b5f92ce3"
+label: "inscryption"
+meta:
+  displayName: "Inscryption"
+  iconUrl: "inscryption/inscryption-cover-360x480.webp"
+distributions:
+  - platform: "steam"
+    identifier: "1092790"
+  - platform: "other"
+    identifier: null
+r2modman:
+  - meta:
+      displayName: "Inscryption"
+      iconUrl: "inscryption/inscryption-cover-360x480.webp"
+    internalFolderName: "Inscryption"
+    dataFolderName: "Inscryption_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "1092790"
+      - platform: "other"
+        identifier: null
+    settingsIdentifier: "Inscryption"
+    packageIndex: "https://thunderstore.io/c/inscryption/api/v1/package-listing-index/"
+    steamFolderName: "Inscryption"
+    exeNames:
+      - "Inscryption.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "邪恶冥刻"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Inscryption"
+  listed: true
+  meta:
+    icon: "inscryption/inscryption-icon-192x192.webp"
+    cover: "inscryption/inscryption-cover-360x480.webp"
+    background: "inscryption/inscryption-bg-1920x1080.webp"
+    hero: "inscryption/inscryption-bg-1920x620.webp"
+  categories:
+    act-i:
+      label: "Act I"
+    act-ii:
+      label: "Act II"
+    act-iii:
+      label: "Act III"
+    kaycees-mod:
+      label: "Kaycee's Mod"
+    magmod-addons:
+      label: "Magnificus Mod"
+    grimoramod-addons:
+      label: "Grimora Mod"
+    p03-kcm-addons:
+      label: "P03 In Kaycee's Mod"
+    cards:
+      label: "Cards"
+    music:
+      label: "Music"
+    items:
+      label: "Items"
+    regions:
+      label: "Regions"
+    encounters:
+      label: "Encounters"
+    scribes:
+      label: "Scrybes"
+    bosses:
+      label: "Bosses"
+    language:
+      label: "Language"
+    audio:
+      label: "Audio"
+    libraries:
+      label: "Libraries"
+    tweaks:
+      label: "Tweaks"
+    misc:
+      label: "Misc"
+    modpacks:
+      label: "Modpacks"
+  sections:
+    mods:
+      name: "All Mods"
+      excludeCategories:
+        - "modpacks"
+    act-i:
+      name: "Act I"
+      requireCategories:
+        - "act-i"
+      excludeCategories:
+        - "modpacks"
+    act-ii:
+      name: "Act II"
+      requireCategories:
+        - "act-ii"
+      excludeCategories:
+        - "modpacks"
+    act-iii:
+      name: "Act III"
+      requireCategories:
+        - "act-iii"
+      excludeCategories:
+        - "modpacks"
+    kaycees-mod:
+      name: "Kaycee's Mod"
+      requireCategories:
+        - "kaycees-mod"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://inscryptionmodding.github.io/InscryptionAPI/wiki/"
+  discordUrl: "https://discord.gg/8EZFmm5xB6"
