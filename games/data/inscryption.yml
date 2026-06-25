@@ -83,18 +83,6 @@ thunderstore:
       label: "P03 In Kaycee's Mod"
     cards:
       label: "Cards"
-    sigils:
-      label: "Sigils"
-    special-abilities:
-      label: "Special Abilities"
-    traits:
-      label: "Traits"
-    tribes:
-      label: "Tribes"
-    pelts:
-      label: "Pelts"
-    costs:
-      label: "Costs"
     music:
       label: "Music"
     items:
@@ -113,8 +101,6 @@ thunderstore:
       label: "Audio"
     libraries:
       label: "Libraries"
-    tools:
-      label: "Tools"
     tweaks:
       label: "Tweaks"
     misc:
@@ -126,61 +112,28 @@ thunderstore:
       name: "All Mods"
       excludeCategories:
         - "modpacks"
-        - "tools"
     act-i:
       name: "Act I"
       requireCategories:
         - "act-i"
       excludeCategories:
         - "modpacks"
-        - "tools"
     act-ii:
       name: "Act II"
       requireCategories:
         - "act-ii"
       excludeCategories:
         - "modpacks"
-        - "tools"
     act-iii:
       name: "Act III"
       requireCategories:
         - "act-iii"
       excludeCategories:
         - "modpacks"
-        - "tools"
     kaycees-mod:
       name: "Kaycee's Mod"
       requireCategories:
         - "kaycees-mod"
-      excludeCategories:
-        - "modpacks"
-        - "tools"
-    magmod-addons:
-      name: "Magnificus Mod"
-      requireCategories:
-        - "magmod-addons"
-      excludeCategories:
-        - "modpacks"
-        - "tools"
-    grimoramod-addons:
-      name: "Grimora Mod"
-      requireCategories:
-        - "grimoramod-addons"
-      excludeCategories:
-        - "modpacks"
-        - "tools"
-    p03-kcm-addons:
-      name: "P03 In Kaycee's Mod"
-      requireCategories:
-        - "p03-kcm-addons"
-      excludeCategories:
-        - "modpacks"
-        - "tools"
-    developer-tools:
-      name: "Developer Tools"
-      requireCategories:
-        - "tools"
-        - "libraries"
       excludeCategories:
         - "modpacks"
     modpacks:
