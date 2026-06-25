@@ -56,6 +56,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Island Market Simulator"
+  listed: true
+  meta:
+    icon: "island-market-simulator/island-market-simulator-icon-192x192.webp"
+    cover: "island-market-simulator/island-market-simulator-cover-360x480.webp"
+    background: "island-market-simulator/island-market-simulator-bg-1920x1080.webp"
+    hero: "island-market-simulator/island-market-simulator-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

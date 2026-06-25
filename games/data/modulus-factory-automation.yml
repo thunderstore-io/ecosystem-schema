@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Modulus: Factory Automation"
+  listed: true
+  meta:
+    icon: "modulus-factory-automation/modulus-factory-automation-icon-192x192.webp"
+    cover: "modulus-factory-automation/modulus-factory-automation-cover-360x480.webp"
+    background: "modulus-factory-automation/modulus-factory-automation-bg-1920x1080.webp"
+    hero: "modulus-factory-automation/modulus-factory-automation-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

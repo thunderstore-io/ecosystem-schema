@@ -8,6 +8,12 @@ distributions:
   identifier: "519860"
 thunderstore:
   displayName: "DUSK"
+  listed: true
+  meta:
+    icon: "dusk/dusk-icon-192x192.webp"
+    cover: "dusk/dusk-cover-360x480.webp"
+    background: "dusk/dusk-bg-1920x1080.webp"
+    hero: "dusk/dusk-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

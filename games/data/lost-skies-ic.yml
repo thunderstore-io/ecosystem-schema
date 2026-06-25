@@ -57,6 +57,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Lost Skies Island Creator"
+  listed: true
+  meta:
+    icon: "lost-skies-ic/lost-skies-ic-icon-192x192.webp"
+    cover: "lost-skies-ic/lost-skies-ic-cover-360x480.webp"
+    background: "lost-skies-ic/lost-skies-ic-bg-1920x1080.webp"
+    hero: "lost-skies-ic/lost-skies-ic-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

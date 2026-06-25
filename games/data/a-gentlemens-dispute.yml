@@ -56,6 +56,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "A Gentlemen's Dispute"
+  listed: true
+  meta:
+    icon: "a-gentlemens-dispute/a-gentlemens-dispute-icon-192x192.webp"
+    cover: "a-gentlemens-dispute/a-gentlemens-dispute-cover-360x480.webp"
+    background: "a-gentlemens-dispute/a-gentlemens-dispute-bg-1920x1080.webp"
+    hero: "a-gentlemens-dispute/a-gentlemens-dispute-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

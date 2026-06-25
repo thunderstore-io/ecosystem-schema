@@ -53,6 +53,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Goblin Buster: Incremental Tower Defense"
+  listed: true
+  meta:
+    icon: "goblin-buster/goblin-buster-icon-192x192.webp"
+    cover: "goblin-buster/goblin-buster-cover-360x480.webp"
+    background: "goblin-buster/goblin-buster-bg-1920x1080.webp"
+    hero: "goblin-buster/goblin-buster-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

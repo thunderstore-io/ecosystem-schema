@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Brotato"
+  listed: true
+  meta:
+    icon: "brotato/brotato-icon-192x192.webp"
+    cover: "brotato/brotato-cover-360x480.webp"
+    hero: "brotato/brotato-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

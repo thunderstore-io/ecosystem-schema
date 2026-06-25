@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "BurglinGnomes"
     packageIndex: "https://thunderstore.io/c/burglin-gnomes/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "地精捣蛋团"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -53,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Burglin' Gnomes"
+  listed: true
+  meta:
+    icon: "burglin-gnomes/burglin-gnomes-icon-192x192.webp"
+    cover: "burglin-gnomes/burglin-gnomes-cover-360x480.webp"
+    background: "burglin-gnomes/burglin-gnomes-bg-1920x1080.webp"
+    hero: "burglin-gnomes/burglin-gnomes-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -1,0 +1,94 @@
+uuid: "34a540a1-1cf3-45e3-aa09-a2f33e25d231"
+label: "pikuniku"
+meta:
+  displayName: "Pikuniku"
+  iconUrl: "pikuniku/pikuniku-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "572890"
+      - platform: "epic-games-store"
+        identifier: "48619f5656da446abccb727b78cda644"
+      - platform: "other"
+        identifier: null
+    steamFolderName: "Pikuniku"
+    dataFolderName: "Pikuniku_Data"
+    exeNames:
+      - "Pikuniku.exe"
+      - "Pikuniku.app"
+      - "Pikuniku.x86_64"
+      - "Pikuniku.x86"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Pikuniku"
+      iconUrl: "pikuniku/pikuniku-cover-360x480.webp"
+    settingsIdentifier: "Pikuniku"
+    internalFolderName: "Pikuniku"
+    packageIndex: "https://thunderstore.io/c/pikuniku/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "野餐大冒险"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Pikuniku"
+  listed: true
+  meta:
+    icon: "pikuniku/pikuniku-icon-192x192.webp"
+    cover: "pikuniku/pikuniku-cover-360x480.webp"
+    background: "pikuniku/pikuniku-bg-1920x1080.webp"
+    hero: "pikuniku/pikuniku-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Pikuniku is an absurdly wonderful puzzle-exploration game that takes place in a strange but playful world where not everything is as happy as it seems. Help peculiar characters overcome struggles, uncover a deep state conspiracy, and start a little revolution in this delightful dystopian adventure!"

@@ -53,6 +53,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "PATAPON 1+2 REPLAY"
+  listed: true
+  meta:
+    icon: "patapon-1-2-replay/patapon-1-2-replay-icon-192x192.webp"
+    cover: "patapon-1-2-replay/patapon-1-2-replay-cover-360x480.webp"
+    background: "patapon-1-2-replay/patapon-1-2-replay-bg-1920x1080.webp"
+    hero: "patapon-1-2-replay/patapon-1-2-replay-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

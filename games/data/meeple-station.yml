@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Meeple Station"
+  listed: true
+  meta:
+    icon: "meeple-station/meeple-station-icon-192x192.webp"
+    cover: "meeple-station/meeple-station-cover-360x480.webp"
+    hero: "meeple-station/meeple-station-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

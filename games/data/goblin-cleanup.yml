@@ -1,0 +1,86 @@
+uuid: "acbb4942-3917-494a-8635-6b4bd9e5feea"
+label: "goblin-cleanup"
+meta:
+  displayName: "Goblin Cleanup"
+  iconUrl: "goblin-cleanup/goblin-cleanup-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2748340"
+    steamFolderName: "Goblin Cleanup"
+    dataFolderName: "Goblin Cleanup_Data"
+    exeNames:
+      - "Goblin Cleanup.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Goblin Cleanup"
+      iconUrl: "goblin-cleanup/goblin-cleanup-cover-360x480.webp"
+    settingsIdentifier: "GoblinCleanup"
+    internalFolderName: "GoblinCleanup"
+    packageIndex: "https://thunderstore.io/c/goblin-cleanup/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "哥布林女仆大扫除"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Goblin Cleanup"
+  listed: true
+  meta:
+    icon: "goblin-cleanup/goblin-cleanup-icon-192x192.webp"
+    cover: "goblin-cleanup/goblin-cleanup-cover-360x480.webp"
+    background: "goblin-cleanup/goblin-cleanup-bg-1920x1080.webp"
+    hero: "goblin-cleanup/goblin-cleanup-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds: []
+  shortDescription: "A co-op cleaning game where you have to clean and rearrange a dungeon before the next adventurers come to complete it again."

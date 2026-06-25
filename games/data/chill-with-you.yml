@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Chill with You : Lo-Fi Story"
+  listed: true
+  meta:
+    icon: "chill-with-you/chill-with-you-icon-192x192.webp"
+    cover: "chill-with-you/chill-with-you-cover-360x480.webp"
+    background: "chill-with-you/chill-with-you-bg-1920x1080.webp"
+    hero: "chill-with-you/chill-with-you-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

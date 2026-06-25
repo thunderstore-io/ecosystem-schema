@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Pulsar: Lost Colony"
+  listed: true
+  meta:
+    icon: "pulsar-lost-colony/pulsar-lost-colony-icon-192x192.webp"
+    cover: "pulsar-lost-colony/pulsar-lost-colony-cover-360x480.webp"
+    background: "pulsar-lost-colony/pulsar-lost-colony-bg-1920x1080.webp"
+    hero: "pulsar-lost-colony/pulsar-lost-colony-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

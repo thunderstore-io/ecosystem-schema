@@ -56,6 +56,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Very Very Valet"
+  listed: true
+  meta:
+    icon: "very-very-valet/very-very-valet-icon-192x192.webp"
+    cover: "very-very-valet/very-very-valet-cover-360x480.webp"
+    background: "very-very-valet/very-very-valet-bg-1920x1080.webp"
+    hero: "very-very-valet/very-very-valet-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
