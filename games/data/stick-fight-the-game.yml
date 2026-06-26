@@ -1,0 +1,80 @@
+uuid: "d9d71d9e-38a7-4fa5-87f4-820c3f243694"
+label: "stick-fight-the-game"
+meta:
+  displayName: "Stick Fight: The Game"
+  iconUrl: "stick-fight-the-game/stick-fight-the-game-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "674940"
+    steamFolderName: "StickFightTheGame"
+    dataFolderName: "StickFight_Data"
+    exeNames:
+      - "StickFight.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Stick Fight: The Game"
+      iconUrl: "stick-fight-the-game/stick-fight-the-game-cover-360x480.webp"
+    settingsIdentifier: "StickFightTheGame"
+    internalFolderName: "StickFightTheGame"
+    packageIndex: "https://thunderstore.io/c/stick-fight-the-game/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Stick Fight: The Game"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Stick Fight is a physics-based couch/online fighting game where you battle it out as the iconic stick figures from the golden age of the internet."
