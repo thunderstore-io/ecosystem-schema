@@ -10,7 +10,7 @@ r2modman:
       - platform: "steam"
         identifier: "960090"
       - platform: "epic-games-store"
-        identifier: "b27e3b556f1048b9824c7196f32afceb"
+        identifier: "7786b355a13b47a6b3915335117cd0b2"
     steamFolderName: "BloonsTD6"
     dataFolderName: "BloonsTD6_Data"
     exeNames:
