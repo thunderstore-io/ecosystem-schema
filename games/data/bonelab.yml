@@ -1,0 +1,122 @@
+uuid: "2d7868bd-6b43-45b6-b587-172d44a11067"
+label: "bonelab"
+meta:
+  displayName: "BONELAB"
+  iconUrl: "bonelab/bonelab-cover-360x480.webp"
+distributions:
+  - platform: "steam"
+    identifier: "1592190"
+  - platform: "oculus-store"
+    identifier: null
+thunderstore:
+  displayName: "BONELAB"
+  listed: true
+  meta:
+      icon: "bonelab/bonelab-icon-192x192.webp"
+      cover: "bonelab/bonelab-cover-360x480.webp"
+      background: "bonelab/bonelab-bg-1920x1080.webp"
+      hero: "bonelab/bonelab-bg-1920x620.webp"
+  categories:
+    ai-generated:
+      label: "AI Generated"
+    mods:
+      label: "Mods"
+    audio:
+      label: "Audio"
+    npc:
+      label: "NPC"
+    gamemodes:
+      label: "Gamemodes"
+    misc:
+      label: "Misc"
+    utility:
+      label: "Utility"
+  discordUrl: "https://discord.gg/BONELAB"
+r2modman:
+  - meta:
+      displayName: "BONELAB"
+      iconUrl: "bonelab/bonelab-cover-360x480.webp"
+    internalFolderName: "BONELAB"
+    dataFolderName: "BONELAB_Steam_Windows64"
+    distributions:
+      - platform: "steam"
+        identifier: "1592190"
+      - platform: "oculus-store"
+        identifier: null
+    settingsIdentifier: "BONELAB"
+    packageIndex: "https://thunderstore.io/c/bonelab/api/v1/package-listing-index/"
+    steamFolderName: "BONELAB"
+    exeNames:
+      - "BONELAB_Steam_Windows64.exe"
+      - "BONELAB_Oculus_Windows64.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "BL"
+      - "骨骼实验室"
+    packageLoader: "melonloader"
+    installRules:
+      - route: "Mods"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "Plugins"
+        defaultFileExtensions:
+          - ".plugin.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "UserLibs"
+        defaultFileExtensions:
+          - ".lib.dll"
+        trackingMethod: "state"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "MelonLoader"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes:
+          - route: "Managed"
+            defaultFileExtensions:
+              - ".managed.dll"
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+          - route: "Libs"
+            defaultFileExtensions: []
+            trackingMethod: "state"
+            subRoutes: []
+            isDefaultLocation: false
+        isDefaultLocation: false
+      - route: "UserData"
+        defaultFileExtensions: []
+        trackingMethod: "state"
+        subRoutes:
+          - route: "Not Enough Photons"
+            defaultFileExtensions: []
+            trackingMethod: "state"
+            isDefaultLocation: false
+            subRoutes:
+              - route: "Hitmarkers"
+                defaultFileExtensions: []
+                trackingMethod: "state"
+                isDefaultLocation: false
+                subRoutes:
+                  - route: "Skins"
+                    defaultFileExtensions: []
+                    trackingMethod: "state"
+                    subRoutes: []
+                    isDefaultLocation: false
+              - route: "ScoreLab"
+                defaultFileExtensions: []
+                trackingMethod: "state"
+                subRoutes: []
+                isDefaultLocation: false
+        isDefaultLocation: false
+    relativeFileExclusions:
+      - "manifest.json"
+      - "icon.png"
+      - "README.md"
+      - "LICENCE"
