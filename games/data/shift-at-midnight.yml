@@ -1,0 +1,89 @@
+uuid: "41984c19-29e0-4e44-a213-046069b2dcbf"
+label: "shift-at-midnight"
+meta:
+  displayName: "Shift At Midnight"
+  iconUrl: "shift-at-midnight/shift-at-midnight-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3722330"
+      - platform: "xbox-game-pass"
+        identifier: "Kwalee.ShiftAtMidnight"
+    steamFolderName: "Shift At Midnight"
+    dataFolderName: "ShiftAtMidnight_Data"
+    exeNames:
+      - "ShiftAtMidnight.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Shift At Midnight"
+      iconUrl: "shift-at-midnight/shift-at-midnight-cover-360x480.webp"
+    settingsIdentifier: "ShiftAtMidnight"
+    internalFolderName: "ShiftAtMidnight"
+    packageIndex: "https://thunderstore.io/c/shift-at-midnight/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Shift At Midnight"
+  listed: true
+  meta:
+    icon: "shift-at-midnight/shift-at-midnight-icon-192x192.webp"
+    cover: "shift-at-midnight/shift-at-midnight-cover-360x480.webp"
+    background: "shift-at-midnight/shift-at-midnight-bg-1920x1080.webp"
+    hero: "shift-at-midnight/shift-at-midnight-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/KY8gHB4azk"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "An online co-op detective horror for up to 3 players. Work together across randomly generated shifts to investigate your customers, as some are only pretending to be human. Make one mistake, and you'll be forced to board up, set traps, and hide."
