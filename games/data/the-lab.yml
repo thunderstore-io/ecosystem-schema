@@ -1,0 +1,86 @@
+uuid: "75ec6438-5b36-4ca2-b059-1c07d42a2f09"
+label: "the-lab"
+meta:
+  displayName: "The Lab"
+  iconUrl: "the-lab/the-lab-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "450390"
+    steamFolderName: "The Lab/TheLab/win64"
+    dataFolderName: "TheLab_Data"
+    exeNames:
+      - "TheLab.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "The Lab"
+      iconUrl: "the-lab/the-lab-cover-360x480.webp"
+    settingsIdentifier: "TheLab"
+    internalFolderName: "TheLab"
+    packageIndex: "https://thunderstore.io/c/the-lab/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "The Lab"
+  listed: true
+  meta:
+    icon: "the-lab/the-lab-icon-192x192.webp"
+    cover: "the-lab/the-lab-cover-360x480.webp"
+    background: "the-lab/the-lab-bg-1920x1080.webp"
+    hero: "the-lab/the-lab-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Welcome to The Lab, a compilation of Valve's room-scale VR experiments set in a pocket universe within Aperture Science. Fix a robot, defend a castle, adopt a mechanical dog, and more. Still not sold? It's free!"
