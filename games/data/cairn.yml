@@ -1,0 +1,61 @@
+uuid: "8b9d6da3-6929-4f4b-bec0-5988a526de8d"
+label: "cairn"
+meta:
+  displayName: "Cairn"
+  iconUrl: "cairn/cairn-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1588550"
+    steamFolderName: "Cairn"
+    dataFolderName: "Cairn_Data"
+    exeNames:
+      - "Cairn.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Cairn"
+      iconUrl: "cairn/cairn-cover-360x480.webp"
+    settingsIdentifier: "Cairn"
+    internalFolderName: "Cairn"
+    packageIndex: "https://thunderstore.io/c/cairn/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Cairn"
+  listed: true
+  meta:
+    icon: "cairn/cairn-icon-192x192.webp"
+    cover: "cairn/cairn-cover-360x480.webp"
+    background: "cairn/cairn-bg-1920x1080.webp"
+    hero: "cairn/cairn-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://cairn.ldlework.com/"
+  discordUrl: "https://discord.gg/fnhvPzRhtA"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Reach a summit never climbed before in this survival-climber from the creators of Furi and Haven. Climb anywhere and plan your route carefully, managing pitons and resources to survive unforgiving Mount Kami. Discover what Aava is willing to sacrifice to achieve the ascent of a lifetime."
