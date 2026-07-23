@@ -1,0 +1,59 @@
+uuid: "a3fec145-8e37-40b3-9846-8bf7fd8a1764"
+label: "superhot"
+meta:
+  displayName: "SUPERHOT"
+  iconUrl: "superhot/superhot-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam-direct"
+        identifier: "322500"
+    steamFolderName: "SUPERHOT"
+    dataFolderName: "SH_Data"
+    exeNames:
+      - "SH.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "SUPERHOT"
+      iconUrl: "superhot/superhot-cover-360x480.webp"
+    settingsIdentifier: "Superhot"
+    internalFolderName: "Superhot"
+    packageIndex: "https://thunderstore.io/c/superhot/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "SUPERHOT"
+  listed: true
+  meta:
+    icon: "superhot/superhot-icon-192x192.webp"
+    cover: "superhot/superhot-cover-360x480.webp"
+    background: "superhot/superhot-bg-1920x1080.webp"
+    hero: "superhot/superhot-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "SUPERHOT is the smash-hit FPS where time moves only when you move. No regenerating health bars. No conveniently placed ammo drops. It's you, alone, outnumbered and outgunned. Snatch weapons from fallen enemies to shoot, slice and dodge through a truly cinematic hurricane of slow-motion bullets."

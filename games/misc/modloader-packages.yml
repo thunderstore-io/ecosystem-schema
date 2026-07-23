@@ -262,3 +262,6 @@
 - packageId: "Romestead_Modding-BepInExPack_Romestead"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "ADOFAI_Modding-UMM_ADOFAI"
+  rootFolder: "UMM"
+  loader: "umm"

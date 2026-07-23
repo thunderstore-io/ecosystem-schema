@@ -1,0 +1,87 @@
+uuid: "c810af99-1894-41a9-a03b-3c7b410d6832"
+label: "wobbly-life"
+meta:
+  displayName: "Wobbly Life"
+  iconUrl: "wobbly-life/wobbly-life-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1211020"
+    steamFolderName: "Wobbly Life"
+    dataFolderName: "Wobbly Life_Data"
+    exeNames:
+      - "Wobbly Life.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Wobbly Life"
+      iconUrl: "wobbly-life/wobbly-life-cover-360x480.webp"
+    settingsIdentifier: "WobblyLife"
+    internalFolderName: "WobblyLife"
+    packageIndex: "https://thunderstore.io/c/wobbly-life/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Wobbly Life"
+  listed: true
+  meta:
+    icon: "wobbly-life/wobbly-life-icon-192x192.webp"
+    cover: "wobbly-life/wobbly-life-cover-360x480.webp"
+    background: "wobbly-life/wobbly-life-bg-1920x1080.webp"
+    hero: "wobbly-life/wobbly-life-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/aXznsYQReP"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Wobbly Life is a vibrant open-world physics sandbox. Play with your friends online or in local co-op, with exciting jobs, mini games and wacky story missions. Earn cash to spend in the world on clothes, vehicles and houses. There is a whole Wobbly World out there to explore!"
