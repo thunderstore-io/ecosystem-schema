@@ -1,0 +1,65 @@
+uuid: "7f339ac0-00b8-4f94-9632-3ce4673d590a"
+label: "a-dance-of-fire-and-ice"
+meta:
+  displayName: "A Dance of Fire and Ice"
+  iconUrl: "a-dance-of-fire-and-ice/a-dance-of-fire-and-ice-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "977950"
+    steamFolderName: "A Dance of Fire and Ice"
+    dataFolderName: "A Dance of Fire and Ice_Data"
+    exeNames:
+      - "A Dance of Fire and Ice.exe"
+    packageLoader: "umm"
+    meta:
+      displayName: "A Dance of Fire and Ice"
+      iconUrl: "a-dance-of-fire-and-ice/a-dance-of-fire-and-ice-cover-360x480.webp"
+    settingsIdentifier: "AdanceOfFireAndIce"
+    internalFolderName: "AdanceOfFireAndIce"
+    packageIndex: "https://thunderstore.io/c/a-dance-of-fire-and-ice/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ADOFAI"
+    installRules:
+      - route: "UMM/Mods"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "A Dance of Fire and Ice"
+  listed: true
+  meta:
+    icon: "a-dance-of-fire-and-ice/a-dance-of-fire-and-ice-icon-192x192.webp"
+    cover: "a-dance-of-fire-and-ice/a-dance-of-fire-and-ice-cover-360x480.webp"
+    background: "a-dance-of-fire-and-ice/a-dance-of-fire-and-ice-bg-1920x1080.webp"
+    hero: "a-dance-of-fire-and-ice/a-dance-of-fire-and-ice-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/adofaigg"
+  shortDescription: "A Dance of Fire and Ice is a strict rhythm game. Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium."
