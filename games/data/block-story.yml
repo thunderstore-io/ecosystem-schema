@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "BlockStory"
     packageIndex: "https://thunderstore.io/c/block-story/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "被尘封的故事"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

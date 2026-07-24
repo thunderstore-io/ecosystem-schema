@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Superhot"
     packageIndex: "https://thunderstore.io/c/superhot/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "燥热"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
