@@ -23,7 +23,9 @@ r2modman:
     internalFolderName: "ShiftAtMidnight"
     packageIndex: "https://thunderstore.io/c/shift-at-midnight/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "午夜轮班"
+      - "伪人超市"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

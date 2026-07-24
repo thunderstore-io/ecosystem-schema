@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "WobblyLife"
     packageIndex: "https://thunderstore.io/c/wobbly-life/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "晃晃人生"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

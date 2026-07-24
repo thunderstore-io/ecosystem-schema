@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "SineusArenaSurvivors"
     packageIndex: "https://thunderstore.io/c/sineus-arena-survivors/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "圣火守望者：共筑防线"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

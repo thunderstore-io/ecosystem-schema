@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "TheLab"
     packageIndex: "https://thunderstore.io/c/the-lab/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "实验室"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
