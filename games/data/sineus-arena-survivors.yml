@@ -1,0 +1,87 @@
+uuid: "1fdc870f-1908-4840-b3ba-8217e956493a"
+label: "sineus-arena-survivors"
+meta:
+  displayName: "Sineus Arena Survivors"
+  iconUrl: "sineus-arena-survivors/sineus-arena-survivors-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4227400"
+    steamFolderName: "Sineus Arena"
+    dataFolderName: "SineusArena_Data"
+    exeNames:
+      - "SineusArena.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Sineus Arena Survivors"
+      iconUrl: "sineus-arena-survivors/sineus-arena-survivors-cover-360x480.webp"
+    settingsIdentifier: "SineusArenaSurvivors"
+    internalFolderName: "SineusArenaSurvivors"
+    packageIndex: "https://thunderstore.io/c/sineus-arena-survivors/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Sineus Arena Survivors"
+  listed: true
+  meta:
+    icon: "sineus-arena-survivors/sineus-arena-survivors-icon-192x192.webp"
+    cover: "sineus-arena-survivors/sineus-arena-survivors-cover-360x480.webp"
+    background: "sineus-arena-survivors/sineus-arena-survivors-bg-1920x1080.webp"
+    hero: "sineus-arena-survivors/sineus-arena-survivors-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/sineusarena"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Fight hordes and defend your Stronghold in a bullet heaven survivor-like with co-op and tower defense. Gain power-ups every level, collect random artifacts from chests and grow stronger to survive, defeat the boss and claim a top spot on the Sineus Arena leaderboards!"
