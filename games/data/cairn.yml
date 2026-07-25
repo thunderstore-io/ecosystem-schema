@@ -9,6 +9,10 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "1588550"
+      - platform: "epic-games-store"
+        identifier: "b94ba8f135914605ad8bbc9083db427e"
+      - platform: "other"
+        identifier: null
     steamFolderName: "Cairn"
     dataFolderName: "Cairn_Data"
     exeNames:

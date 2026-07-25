@@ -9,6 +9,12 @@ r2modman:
     distributions:
       - platform: "steam-direct"
         identifier: "322500"
+      - platform: "epic-games-store"
+        identifier: "Dory"
+      - platform: "xbox-game-pass"
+        identifier: "SUPERHOTTeam.SHPLACEHOLDER"
+      - platform: "other"
+        identifier: null
     steamFolderName: "SUPERHOT"
     dataFolderName: "SH_Data"
     exeNames:

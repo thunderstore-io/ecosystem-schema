@@ -9,6 +9,8 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "977950"
+      - platform: "other"
+        identifier: null
     steamFolderName: "A Dance of Fire and Ice"
     dataFolderName: "A Dance of Fire and Ice_Data"
     exeNames:

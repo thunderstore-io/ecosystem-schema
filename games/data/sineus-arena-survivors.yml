@@ -9,6 +9,8 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "4227400"
+      - platform: "other"
+        identifier: null
     steamFolderName: "Sineus Arena"
     dataFolderName: "SineusArena_Data"
     exeNames:
