@@ -1,0 +1,88 @@
+uuid: "35075828-eef0-4438-ae80-bc1e4af94534"
+label: "lumentale-memories-of-trey"
+meta:
+  displayName: "LumenTale: Memories of Trey"
+  iconUrl: "lumentale-memories-of-trey/lumentale-memories-of-trey-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2261430"
+    steamFolderName: "LumenTale Memories of Trey"
+    dataFolderName: "LumenTale Memories of Trey_Data"
+    exeNames:
+      - "LumenTale Memories of Trey.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "LumenTale: Memories of Trey"
+      iconUrl: "lumentale-memories-of-trey/lumentale-memories-of-trey-cover-360x480.webp"
+    settingsIdentifier: "LumenTaleMemoriesOfTrey"
+    internalFolderName: "LumenTaleMemoriesOfTrey"
+    packageIndex: "https://thunderstore.io/c/lumentale-memories-of-trey/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "LumenTale"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "LumenTale: Memories of Trey"
+  listed: true
+  meta:
+    icon: "lumentale-memories-of-trey/lumentale-memories-of-trey-icon-192x192.webp"
+    cover: "lumentale-memories-of-trey/lumentale-memories-of-trey-cover-360x480.webp"
+    background: "lumentale-memories-of-trey/lumentale-memories-of-trey-bg-1920x1080.webp"
+    hero: "lumentale-memories-of-trey/lumentale-memories-of-trey-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.com/invite/CukguFbxSG"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "LumenTale: Memories of Trey is a captivating Monster Collector RPG set in a beautiful and enchanting world. Follow Trey as he embarks on an adventure to recover his missing memories and make new ones with the Animon."
