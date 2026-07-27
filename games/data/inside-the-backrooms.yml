@@ -21,9 +21,7 @@ r2modman:
     internalFolderName: "InsideTheBackrooms"
     packageIndex: "https://thunderstore.io/c/inside-the-backrooms/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings:
-      - "inside the backrooms"
-      - "backrooms"
+    additionalSearchStrings: []
     installRules: []
     relativeFileExclusions: null
 thunderstore:
