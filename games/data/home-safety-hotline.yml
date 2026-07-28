@@ -27,6 +27,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Home Safety Hotline"
+  listed: true
+  meta:
+    icon: "home-safety-hotline/home-safety-hotline-icon-192x192.webp"
+    cover: "home-safety-hotline/home-safety-hotline-cover-360x480.webp"
+    background: "home-safety-hotline/home-safety-hotline-bg-1920x1080.webp"
+    hero: "home-safety-hotline/home-safety-hotline-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
