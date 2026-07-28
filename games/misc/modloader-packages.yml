@@ -265,3 +265,6 @@
 - packageId: "ADOFAI_Modding-UMM_ADOFAI"
   rootFolder: "UMM"
   loader: "umm"
+- packageId: "HomeSafetyHotline_Modding-MelonLoader_HomeSafetyHotline"
+  rootFolder: ""
+  loader: "recursive-melonloader"

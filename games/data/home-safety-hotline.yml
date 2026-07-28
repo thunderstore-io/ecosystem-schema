@@ -51,6 +51,4 @@ thunderstore:
         - "modpacks"
   wikiUrl: "https://github.com/Gasterbuzzer/NewSafetyHelp/wiki"
   discordUrl: "https://discord.com/invite/4PgHK5qAwg"
-  autolistPackageIds:
-    - "LavaGang-MelonLoader"
   shortDescription: "Hearing noises? Seeing things? Call Home Safety Hotline! Our operators are standing by, waiting to give you the answers you need to protect your home from all manner of pests and household hazards."
