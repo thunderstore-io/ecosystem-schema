@@ -59,6 +59,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Spooky's Jump Scare Mansion: HD Renovation"
+  listed: true
+  meta:
+    icon: "jump-scare-mansion/jump-scare-mansion-icon-192x192.webp"
+    cover: "jump-scare-mansion/jump-scare-mansion-cover-360x480.webp"
+    background: "jump-scare-mansion/jump-scare-mansion-bg-1920x1080.webp"
+    hero: "jump-scare-mansion/jump-scare-mansion-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "PEAK"
+  listed: true
+  meta:
+    icon: "peak/peak-icon-192x192.webp"
+    cover: "peak/peak-cover-360x480.webp"
+    background: "peak/peak-bg-1920x1080.webp"
+    hero: "peak/peak-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

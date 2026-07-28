@@ -26,6 +26,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "BETON BRUTAL"
+  listed: true
+  meta:
+    icon: "beton-brutal/beton-brutal-icon-192x192.webp"
+    cover: "beton-brutal/beton-brutal-cover-360x480.webp"
+    background: "beton-brutal/beton-brutal-bg-1920x1080.webp"
+    hero: "beton-brutal/beton-brutal-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

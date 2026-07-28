@@ -180,6 +180,18 @@ export function validateAssets(schema: SchemaType): void {
     }
   }
 
+  // Every community asset path must resolve to a file. Allowlisted slugs are exempt.
+  for (const [label, community] of Object.entries(schema.communities)) {
+    if (allowlist.has(label)) continue;
+    for (const path of Object.values(community.meta ?? {})) {
+      if (path && !fs.existsSync(`${ASSETS_ROOT}/${path}`)) {
+        errors.push(
+          `${label}: community asset '${path}' has no corresponding file in assets/`
+        );
+      }
+    }
+  }
+
   if (errors.length > 0) {
     throw new Error(`Asset validation failed:\n\n${errors.join("\n")}`);
   }

@@ -6,6 +6,7 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Starfox 64: Recompiled"
+  listed: true
   categories:
     mods:
       label: "Mods"

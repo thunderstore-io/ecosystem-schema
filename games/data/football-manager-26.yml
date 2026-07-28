@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Football Manager 26"
+  listed: true
+  meta:
+    icon: "football-manager-26/football-manager-26-icon-192x192.webp"
+    cover: "football-manager-26/football-manager-26-cover-360x480.webp"
+    background: "football-manager-26/football-manager-26-bg-1920x1080.webp"
+    hero: "football-manager-26/football-manager-26-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

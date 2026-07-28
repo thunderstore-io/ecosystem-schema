@@ -47,6 +47,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "RV There Yet?"
+  listed: true
+  meta:
+    icon: "rv-there-yet/rv-there-yet-icon-192x192.webp"
+    cover: "rv-there-yet/rv-there-yet-cover-360x480.webp"
+    background: "rv-there-yet/rv-there-yet-bg-1920x1080.webp"
+    hero: "rv-there-yet/rv-there-yet-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

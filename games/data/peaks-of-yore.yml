@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Peaks of Yore"
+  listed: true
+  meta:
+    icon: "peaks-of-yore/peaks-of-yore-icon-192x192.webp"
+    cover: "peaks-of-yore/peaks-of-yore-cover-360x480.webp"
+    background: "peaks-of-yore/peaks-of-yore-bg-1920x1080.webp"
+    hero: "peaks-of-yore/peaks-of-yore-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

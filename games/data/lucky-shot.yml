@@ -1,0 +1,81 @@
+uuid: "93146cfa-fcc4-45a3-8e89-2381d09d7d37"
+label: "lucky-shot"
+meta:
+  displayName: "Lucky Shot"
+  iconUrl: "lucky-shot/lucky-shot-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4676090"
+    steamFolderName: "Lucky Shot Demo"
+    dataFolderName: "LuckyShot_Data"
+    exeNames:
+      - "LuckyShot.exe"
+      - "LuckyShot.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Lucky Shot"
+      iconUrl: "lucky-shot/lucky-shot-cover-360x480.webp"
+    settingsIdentifier: "LuckyShot"
+    internalFolderName: "LuckyShot"
+    packageIndex: "https://thunderstore.io/c/lucky-shot/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Lucky Shot"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "A shooting dopamine machine! Lucky shot is a roguelike mag-builder FPS where you master different weapons, discover unique combos, and break the game to reach massive high scores."

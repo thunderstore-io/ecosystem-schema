@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Dome Keeper"
+  listed: true
+  meta:
+    icon: "dome-keeper/dome-keeper-icon-192x192.webp"
+    cover: "dome-keeper/dome-keeper-cover-360x480.webp"
+    hero: "dome-keeper/dome-keeper-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

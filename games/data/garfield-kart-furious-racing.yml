@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Garfield Kart - Furious Racing"
+  listed: true
+  meta:
+    icon: "garfield-kart-furious-racing/garfield-kart-furious-racing-icon-192x192.webp"
+    cover: "garfield-kart-furious-racing/garfield-kart-furious-racing-cover-360x480.webp"
+    hero: "garfield-kart-furious-racing/garfield-kart-furious-racing-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

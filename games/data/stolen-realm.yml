@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Stolen Realm"
+  listed: true
+  meta:
+    icon: "stolen-realm/stolen-realm-icon-192x192.webp"
+    cover: "stolen-realm/stolen-realm-cover-360x480.webp"
+    background: "stolen-realm/stolen-realm-bg-1920x1080.webp"
+    hero: "stolen-realm/stolen-realm-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

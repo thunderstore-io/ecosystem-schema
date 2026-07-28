@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "White Knuckle"
+  listed: true
+  meta:
+    icon: "white-knuckle/white-knuckle-icon-192x192.webp"
+    cover: "white-knuckle/white-knuckle-cover-360x480.webp"
+    background: "white-knuckle/white-knuckle-bg-1920x1080.webp"
+    hero: "white-knuckle/white-knuckle-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
@@ -43,6 +49,8 @@ thunderstore:
       label: "Items"
     perks:
       label: "Perks"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"

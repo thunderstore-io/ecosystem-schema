@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "DEPO : Death Epileptic Pixel Origins"
+  listed: true
+  meta:
+    icon: "depo/depo-icon-192x192.webp"
+    cover: "depo/depo-cover-360x480.webp"
+    background: "depo/depo-bg-1920x1080.webp"
+    hero: "depo/depo-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Smushi Come Home"
+  listed: true
+  meta:
+    icon: "smushi-come-home/smushi-come-home-icon-192x192.webp"
+    cover: "smushi-come-home/smushi-come-home-cover-360x480.webp"
+    background: "smushi-come-home/smushi-come-home-bg-1920x1080.webp"
+    hero: "smushi-come-home/smushi-come-home-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Cities: Skylines II"
+  listed: true
+  meta:
+    icon: "cities-skylines-ii/cities-skylines-ii-icon-192x192.webp"
+    cover: "cities-skylines-ii/cities-skylines-ii-cover-360x480.webp"
+    background: "cities-skylines-ii/cities-skylines-ii-bg-1920x1080.webp"
+    hero: "cities-skylines-ii/cities-skylines-ii-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

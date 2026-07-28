@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Deep Rock Galactic: Survivor"
+  listed: true
+  meta:
+    icon: "deep-rock-galactic-survivor/deep-rock-galactic-survivor-icon-192x192.webp"
+    cover: "deep-rock-galactic-survivor/deep-rock-galactic-survivor-cover-360x480.webp"
+    background: "deep-rock-galactic-survivor/deep-rock-galactic-survivor-bg-1920x1080.webp"
+    hero: "deep-rock-galactic-survivor/deep-rock-galactic-survivor-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

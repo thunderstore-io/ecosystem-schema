@@ -8,6 +8,12 @@ distributions:
   identifier: "2742830"
 thunderstore:
   displayName: "Monster Train 2"
+  listed: true
+  meta:
+    icon: "monster-train-2/monster-train-2-icon-192x192.webp"
+    cover: "monster-train-2/monster-train-2-cover-360x480.webp"
+    background: "monster-train-2/monster-train-2-bg-1920x1080.webp"
+    hero: "monster-train-2/monster-train-2-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -60,6 +60,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Vampire Crawlers"
+  listed: true
+  meta:
+    icon: "vampire-crawlers/vampire-crawlers-icon-192x192.webp"
+    cover: "vampire-crawlers/vampire-crawlers-cover-360x480.webp"
+    background: "vampire-crawlers/vampire-crawlers-bg-1920x1080.webp"
+    hero: "vampire-crawlers/vampire-crawlers-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

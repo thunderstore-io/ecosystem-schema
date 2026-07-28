@@ -50,6 +50,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Windrose"
+  listed: true
+  meta:
+    icon: "windrose/windrose-icon-192x192.webp"
+    cover: "windrose/windrose-cover-360x480.webp"
+    background: "windrose/windrose-bg-1920x1080.webp"
+    hero: "windrose/windrose-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

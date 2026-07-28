@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "The Spell Brigade"
+  listed: true
+  meta:
+    icon: "the-spell-brigade/the-spell-brigade-icon-192x192.webp"
+    cover: "the-spell-brigade/the-spell-brigade-cover-360x480.webp"
+    background: "the-spell-brigade/the-spell-brigade-bg-1920x1080.webp"
+    hero: "the-spell-brigade/the-spell-brigade-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

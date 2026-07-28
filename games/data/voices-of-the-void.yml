@@ -6,6 +6,10 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Voices of the Void"
+  listed: true
+  meta:
+    icon: "voices-of-the-void/voices-of-the-void-icon-192x192.webp"
+    cover: "voices-of-the-void/voices-of-the-void-cover-360x480.webp"
   categories:
     mods:
       label: "Mods"
@@ -46,5 +50,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://modding.ariral.space/"
+  wikiUrl: "https://questwalker.github.io/votv-modding-wiki/"
   discordUrl: "https://discord.gg/WKBvqu4tjV"

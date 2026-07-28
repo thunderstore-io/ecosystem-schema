@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Goodbye Volcano High"
+  listed: true
+  meta:
+    icon: "goodbye-volcano-high/goodbye-volcano-high-icon-192x192.webp"
+    cover: "goodbye-volcano-high/goodbye-volcano-high-cover-360x480.webp"
+    background: "goodbye-volcano-high/goodbye-volcano-high-bg-1920x1080.webp"
+    hero: "goodbye-volcano-high/goodbye-volcano-high-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

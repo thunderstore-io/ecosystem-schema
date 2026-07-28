@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Lethal Company"
+  listed: true
+  meta:
+    icon: "lethal-company/lethal-company-icon-192x192.webp"
+    cover: "lethal-company/lethal-company-cover-360x480.webp"
+    background: "lethal-company/lethal-company-bg-1920x1080.webp"
+    hero: "lethal-company/lethal-company-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

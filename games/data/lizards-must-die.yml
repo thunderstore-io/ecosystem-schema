@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Lizards Must Die"
+  listed: false
+  meta:
+    icon: "lizards-must-die/lizards-must-die-icon-192x192.webp"
+    cover: "lizards-must-die/lizards-must-die-cover-360x480.webp"
+    background: "lizards-must-die/lizards-must-die-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "The Choicer Voicer"
+  listed: true
+  meta:
+    icon: "the-choicer-voicer/the-choicer-voicer-icon-192x192.webp"
+    cover: "the-choicer-voicer/the-choicer-voicer-cover-360x480.webp"
+    background: "the-choicer-voicer/the-choicer-voicer-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

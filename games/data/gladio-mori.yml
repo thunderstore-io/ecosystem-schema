@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Gladio Mori"
+  listed: true
+  meta:
+    icon: "gladio-mori/gladio-mori-icon-192x192.webp"
+    cover: "gladio-mori/gladio-mori-cover-360x480.webp"
+    background: "gladio-mori/gladio-mori-bg-1920x1080.webp"
+    hero: "gladio-mori/gladio-mori-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

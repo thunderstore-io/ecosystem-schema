@@ -56,6 +56,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "CloverPit"
+  listed: true
+  meta:
+    icon: "clover-pit/clover-pit-icon-192x192.webp"
+    cover: "clover-pit/clover-pit-cover-360x480.webp"
+    background: "clover-pit/clover-pit-bg-1920x1080.webp"
+    hero: "clover-pit/clover-pit-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

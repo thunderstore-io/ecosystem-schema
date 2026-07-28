@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "House of Legacy"
+  listed: true
+  meta:
+    icon: "house-of-legacy/house-of-legacy-icon-192x192.webp"
+    cover: "house-of-legacy/house-of-legacy-cover-360x480.webp"
+    background: "house-of-legacy/house-of-legacy-bg-1920x1080.webp"
+    hero: "house-of-legacy/house-of-legacy-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
