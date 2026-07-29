@@ -91,7 +91,7 @@
 - packageId: "BepInEx-BepInExPack_Core_Keeper"
   rootFolder: "BepInExPack_Core-Keeper"
   loader: "bepinex"
-- packageId: "Northstar-Northstar"
+- packageId: "northstar-Northstar"
   rootFolder: "Northstar"
   loader: "northstar"
 - packageId: "BepInEx-BepInExPack_Peglin"
