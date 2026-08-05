@@ -1,0 +1,64 @@
+uuid: "fa30656c-5581-4654-a8ec-4d8dea4e6a6d"
+label: "superhot-mind-control-delete"
+meta:
+  displayName: "SUPERHOT: MIND CONTROL DELETE"
+  iconUrl: "superhot-mind-control-delete/superhot-mind-control-delete-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam-direct"
+        identifier: "690040"
+      - platform: "epic-games-store"
+        identifier: "7c9f2b7aa5a549e381b4e6aeff3779a1"
+      - platform: "xbox-game-pass"
+        identifier: "SUPERHOTTeam.533673F36228B"
+      - platform: "other"
+        identifier: null
+    steamFolderName: "SUPERHOTMCD"
+    dataFolderName: "SHMCD_Data"
+    exeNames:
+      - "SHMCD.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "SUPERHOT: MIND CONTROL DELETE"
+      iconUrl: "superhot-mind-control-delete/superhot-mind-control-delete-cover-360x480.webp"
+    settingsIdentifier: "SuperhotMindControlDelete"
+    internalFolderName: "SuperhotMindControlDelete"
+    packageIndex: "https://thunderstore.io/c/superhot-mind-control-delete/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "MCD"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "SUPERHOT: MIND CONTROL DELETE"
+  listed: true
+  meta:
+    icon: "superhot-mind-control-delete/superhot-mind-control-delete-icon-192x192.webp"
+    cover: "superhot-mind-control-delete/superhot-mind-control-delete-cover-360x480.webp"
+    background: "superhot-mind-control-delete/superhot-mind-control-delete-bg-1920x1080.webp"
+    hero: "superhot-mind-control-delete/superhot-mind-control-delete-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "The long-awaited third game in the groundbreaking SUPERHOT franchise - MIND CONTROL DELETE gives you more insight into the world of SUPERHOT, more story, more signature gameplay. Keep dancing the slow-motion ballet of destruction for so much longer than ever before."
