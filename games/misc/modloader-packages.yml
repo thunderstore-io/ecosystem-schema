@@ -268,3 +268,6 @@
 - packageId: "HomeSafetyHotline_Modding-MelonLoader_HomeSafetyHotline"
   rootFolder: ""
   loader: "recursive-melonloader"
+- packageId: "SlipSkid_Modding-BepInExPack_SlipSkid"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
