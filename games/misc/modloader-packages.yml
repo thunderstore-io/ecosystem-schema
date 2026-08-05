@@ -271,3 +271,6 @@
 - packageId: "SlipSkid_Modding-BepInExPack_SlipSkid"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "SHMCD_Modding-MelonLoader_SHMCD"
+  rootFolder: ""
+  loader: "recursive-melonloader"
