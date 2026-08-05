@@ -1,0 +1,87 @@
+uuid: "71f8bbda-c833-4d79-9bcd-ce868ce034b3"
+label: "big-walk"
+meta:
+  displayName: "Big Walk"
+  iconUrl: "big-walk/big-walk-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1478500"
+    steamFolderName: "Big Walk"
+    dataFolderName: "Big Walk_Data"
+    exeNames:
+      - "Big Walk.exe"
+      - "Big Walk.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Big Walk"
+      iconUrl: "big-walk/big-walk-cover-360x480.webp"
+    settingsIdentifier: "BigWalk"
+    internalFolderName: "BigWalk"
+    packageIndex: "https://thunderstore.io/c/big-walk/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Big Walk"
+  listed: true
+  meta:
+    icon: "big-walk/big-walk-icon-192x192.webp"
+    cover: "big-walk/big-walk-cover-360x480.webp"
+    background: "big-walk/big-walk-bg-1920x1080.webp"
+    hero: "big-walk/big-walk-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Hang out and get lost with close friends in a big world. A cooperative online walker-talker from the creators of Untitled Goose Game."

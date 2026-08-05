@@ -1,0 +1,85 @@
+uuid: "4b10ebea-7c85-484b-85c0-17b594448199"
+label: "slip-skid"
+meta:
+  displayName: "Slip & Skid"
+  iconUrl: "slip-skid/slip-skid-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2651350"
+    steamFolderName: "Slip & Skid"
+    dataFolderName: "Slip & Skid_Data"
+    exeNames:
+      - "Slip & Skid.exe"
+      - "Slip & Skid"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Slip & Skid"
+      iconUrl: "slip-skid/slip-skid-cover-360x480.webp"
+    settingsIdentifier: "SlipSkid"
+    internalFolderName: "SlipSkid"
+    packageIndex: "https://thunderstore.io/c/slip-skid/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Slip & Skid"
+  listed: true
+  meta:
+    icon: "slip-skid/slip-skid-icon-192x192.webp"
+    cover: "slip-skid/slip-skid-cover-360x480.webp"
+    background: "slip-skid/slip-skid-bg-1920x1080.webp"
+    hero: "slip-skid/slip-skid-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Race against your friends and alter the track by placing obstacles after each lap. Change the rules mid-game with roguelike modifiers. Shove your opponents off the track, drift, boost and jump. Up to 4 players online and local split-screen."
