@@ -23,6 +23,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "HSH"
+      - "家庭安全热线"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
