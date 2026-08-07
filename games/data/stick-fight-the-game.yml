@@ -53,6 +53,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Stick Fight: The Game"
+  listed: true
+  meta:
+    icon: "stick-fight-the-game/stick-fight-the-game-icon-192x192.webp"
+    cover: "stick-fight-the-game/stick-fight-the-game-cover-360x480.webp"
+    background: "stick-fight-the-game/stick-fight-the-game-bg-1920x1080.webp"
+    hero: "stick-fight-the-game/stick-fight-the-game-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
