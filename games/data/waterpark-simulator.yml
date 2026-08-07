@@ -1,0 +1,86 @@
+uuid: "03fed83d-1c42-4906-9a3f-cd60007ac174"
+label: "waterpark-simulator"
+meta:
+  displayName: "Waterpark Simulator"
+  iconUrl: "waterpark-simulator/waterpark-simulator-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3293260"
+    steamFolderName: "WaterPark Simulator"
+    dataFolderName: "WaterparkSimulator_Data"
+    exeNames:
+      - "WaterparkSimulator.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Waterpark Simulator"
+      iconUrl: "waterpark-simulator/waterpark-simulator-cover-360x480.webp"
+    settingsIdentifier: "WaterparkSimulator"
+    internalFolderName: "WaterparkSimulator"
+    packageIndex: "https://thunderstore.io/c/waterpark-simulator/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Waterpark Simulator"
+  listed: true
+  meta:
+    icon: "waterpark-simulator/waterpark-simulator-icon-192x192.webp"
+    cover: "waterpark-simulator/waterpark-simulator-cover-360x480.webp"
+    background: "waterpark-simulator/waterpark-simulator-bg-1920x1080.webp"
+    hero: "waterpark-simulator/waterpark-simulator-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Build and run your own waterpark solo or with friends. Design slides, send guests flying with ragdoll physics, manage staff, and fully customize your park. Turn total madness into a diamond five-star empire in this first-person management simulator!"
