@@ -1,0 +1,48 @@
+uuid: "2d7868bd-6b43-45b6-b587-172d44a11067"
+label: "bonelab"
+meta:
+  displayName: "BONELAB"
+  iconUrl: "bonelab/bonelab-cover-360x480.webp"
+distributions: []
+thunderstore:
+  displayName: "BONELAB"
+  listed: true
+  meta:
+    icon: "bonelab/bonelab-icon-192x192.webp"
+    cover: "bonelab/bonelab-cover-360x480.webp"
+    background: "bonelab/bonelab-bg-1920x1080.webp"
+    hero: "bonelab/bonelab-bg-1920x620.webp"
+  categories:
+    code-mods:
+      label: "Code Mods"
+    custom-audio:
+      label: "Custom Audio"
+    custom-items:
+      label: "Custom Items"
+    custom-maps:
+      label: "Custom Maps"
+    custom-npcs:
+      label: "Custom NPCs"
+    custom-player-models:
+      label: "Custom Player Models"
+    custom-skins:
+      label: "Custom Skins"
+    custom-weapons:
+      label: "Custom Weapons"
+    ai-generated:
+      label: "AI Generated"
+    mods:
+      label: "Mods"
+    audio:
+      label: "Audio"
+    npc:
+      label: "NPC"
+    gamemodes:
+      label: "Gamemodes"
+    misc:
+      label: "Misc"
+    utility:
+      label: "Utility"
+  sections: {}
+  discordUrl: "https://discord.gg/BONELAB"
+  shortDescription: "BONELAB is an experimental physics action game. Explore a mysterious lab filled with weapons, enemies, challenges and secrets. Escape your reality, or wreak havoc. No wrong answers."
