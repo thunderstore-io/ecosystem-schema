@@ -3,20 +3,32 @@ label: "bonelab"
 meta:
   displayName: "BONELAB"
   iconUrl: "bonelab/bonelab-cover-360x480.webp"
-distributions:
-  - platform: "steam"
-    identifier: "1592190"
-  - platform: "oculus-store"
-    identifier: null
+distributions: []
 thunderstore:
   displayName: "BONELAB"
   listed: true
   meta:
-      icon: "bonelab/bonelab-icon-192x192.webp"
-      cover: "bonelab/bonelab-cover-360x480.webp"
-      background: "bonelab/bonelab-bg-1920x1080.webp"
-      hero: "bonelab/bonelab-bg-1920x620.webp"
+    icon: "bonelab/bonelab-icon-192x192.webp"
+    cover: "bonelab/bonelab-cover-360x480.webp"
+    background: "bonelab/bonelab-bg-1920x1080.webp"
+    hero: "bonelab/bonelab-bg-1920x620.webp"
   categories:
+    code-mods:
+      label: "Code Mods"
+    custom-audio:
+      label: "Custom Audio"
+    custom-items:
+      label: "Custom Items"
+    custom-maps:
+      label: "Custom Maps"
+    custom-npcs:
+      label: "Custom NPCs"
+    custom-player-models:
+      label: "Custom Player Models"
+    custom-skins:
+      label: "Custom Skins"
+    custom-weapons:
+      label: "Custom Weapons"
     ai-generated:
       label: "AI Generated"
     mods:
@@ -31,92 +43,6 @@ thunderstore:
       label: "Misc"
     utility:
       label: "Utility"
+  sections: {}
   discordUrl: "https://discord.gg/BONELAB"
-r2modman:
-  - meta:
-      displayName: "BONELAB"
-      iconUrl: "bonelab/bonelab-cover-360x480.webp"
-    internalFolderName: "BONELAB"
-    dataFolderName: "BONELAB_Steam_Windows64"
-    distributions:
-      - platform: "steam"
-        identifier: "1592190"
-      - platform: "oculus-store"
-        identifier: null
-    settingsIdentifier: "BONELAB"
-    packageIndex: "https://thunderstore.io/c/bonelab/api/v1/package-listing-index/"
-    steamFolderName: "BONELAB"
-    exeNames:
-      - "BONELAB_Steam_Windows64.exe"
-      - "BONELAB_Oculus_Windows64.exe"
-    gameInstanceType: "game"
-    gameSelectionDisplayMode: "visible"
-    additionalSearchStrings:
-      - "BL"
-      - "骨骼实验室"
-    packageLoader: "melonloader"
-    installRules:
-      - route: "Mods"
-        defaultFileExtensions:
-          - ".dll"
-        trackingMethod: "state"
-        subRoutes: []
-        isDefaultLocation: true
-      - route: "Plugins"
-        defaultFileExtensions:
-          - ".plugin.dll"
-        trackingMethod: "state"
-        subRoutes: []
-        isDefaultLocation: false
-      - route: "UserLibs"
-        defaultFileExtensions:
-          - ".lib.dll"
-        trackingMethod: "state"
-        subRoutes: []
-        isDefaultLocation: false
-      - route: "MelonLoader"
-        defaultFileExtensions: []
-        trackingMethod: "state"
-        subRoutes:
-          - route: "Managed"
-            defaultFileExtensions:
-              - ".managed.dll"
-            trackingMethod: "state"
-            subRoutes: []
-            isDefaultLocation: false
-          - route: "Libs"
-            defaultFileExtensions: []
-            trackingMethod: "state"
-            subRoutes: []
-            isDefaultLocation: false
-        isDefaultLocation: false
-      - route: "UserData"
-        defaultFileExtensions: []
-        trackingMethod: "state"
-        subRoutes:
-          - route: "Not Enough Photons"
-            defaultFileExtensions: []
-            trackingMethod: "state"
-            isDefaultLocation: false
-            subRoutes:
-              - route: "Hitmarkers"
-                defaultFileExtensions: []
-                trackingMethod: "state"
-                isDefaultLocation: false
-                subRoutes:
-                  - route: "Skins"
-                    defaultFileExtensions: []
-                    trackingMethod: "state"
-                    subRoutes: []
-                    isDefaultLocation: false
-              - route: "ScoreLab"
-                defaultFileExtensions: []
-                trackingMethod: "state"
-                subRoutes: []
-                isDefaultLocation: false
-        isDefaultLocation: false
-    relativeFileExclusions:
-      - "manifest.json"
-      - "icon.png"
-      - "README.md"
-      - "LICENCE"
+  shortDescription: "BONELAB is an experimental physics action game. Explore a mysterious lab filled with weapons, enemies, challenges and secrets. Escape your reality, or wreak havoc. No wrong answers."
