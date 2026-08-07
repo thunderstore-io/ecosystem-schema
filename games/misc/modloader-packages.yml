@@ -274,3 +274,6 @@
 - packageId: "SHMCD_Modding-MelonLoader_SHMCD"
   rootFolder: ""
   loader: "recursive-melonloader"
+- packageId: "SFTG_Modding-BepInExPack_SFTG"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
