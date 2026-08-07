@@ -8,8 +8,8 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4264890"
-    steamFolderName: "Cursed Words Demo"
+        identifier: "3856460"
+    steamFolderName: "Cursed Words"
     dataFolderName: "Cursed Words_Data"
     exeNames:
       - "Cursed Words.exe"
@@ -26,6 +26,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Cursed Words"
+  listed: true
+  meta:
+    icon: "cursed-words/cursed-words-icon-192x192.webp"
+    cover: "cursed-words/cursed-words-cover-360x480.webp"
+    background: "cursed-words/cursed-words-bg-1920x1080.webp"
+    hero: "cursed-words/cursed-words-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

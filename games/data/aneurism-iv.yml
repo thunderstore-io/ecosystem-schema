@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "ANEURISM IV"
+  listed: true
+  meta:
+    cover: "aneurism-iv/aneurism-iv-cover-360x480.webp"
+    background: "aneurism-iv/aneurism-iv-bg-1920x1080.webp"
+    hero: "aneurism-iv/aneurism-iv-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

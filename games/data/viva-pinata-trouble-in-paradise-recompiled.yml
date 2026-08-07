@@ -1,0 +1,39 @@
+uuid: "3311de5e-0881-4c43-a7a0-8ad4c5d74e3d"
+label: "viva-pinata-trouble-in-paradise-recompiled"
+meta:
+  displayName: "Viva Piñata: Trouble in Paradise Recompiled"
+  iconUrl: "viva-pinata-trouble-in-paradise-recompiled/viva-pinata-trouble-in-paradise-recompiled-cover-360x480.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "Viva Piñata: Trouble in Paradise Recompiled"
+  listed: true
+  meta:
+    icon: "viva-pinata-trouble-in-paradise-recompiled/viva-pinata-trouble-in-paradise-recompiled-icon-192x192.webp"
+    cover: "viva-pinata-trouble-in-paradise-recompiled/viva-pinata-trouble-in-paradise-recompiled-cover-360x480.webp"
+    background: "viva-pinata-trouble-in-paradise-recompiled/viva-pinata-trouble-in-paradise-recompiled-bg-1920x1080.webp"
+    hero: "viva-pinata-trouble-in-paradise-recompiled/viva-pinata-trouble-in-paradise-recompiled-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/39AtUkYr7s"
+  shortDescription: "A Recompilation of Viva Pinata: Trouble In Paradise"

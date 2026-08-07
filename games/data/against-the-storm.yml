@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Against the Storm"
+  listed: true
+  meta:
+    icon: "against-the-storm/against-the-storm-icon-192x192.webp"
+    cover: "against-the-storm/against-the-storm-cover-360x480.webp"
+    background: "against-the-storm/against-the-storm-bg-1920x1080.webp"
+    hero: "against-the-storm/against-the-storm-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

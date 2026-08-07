@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Darkwater"
+  listed: true
+  meta:
+    icon: "darkwater/darkwater-icon-192x192.webp"
+    cover: "darkwater/darkwater-cover-360x480.webp"
+    background: "darkwater/darkwater-bg-1920x1080.webp"
+    hero: "darkwater/darkwater-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

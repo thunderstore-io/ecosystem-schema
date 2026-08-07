@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Guilty as Sock!"
+  listed: true
+  meta:
+    icon: "guilty-as-sock/guilty-as-sock-icon-192x192.webp"
+    cover: "guilty-as-sock/guilty-as-sock-cover-360x480.webp"
+    background: "guilty-as-sock/guilty-as-sock-bg-1920x1080.webp"
+    hero: "guilty-as-sock/guilty-as-sock-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

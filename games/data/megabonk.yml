@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Megabonk"
+  listed: true
+  meta:
+    icon: "megabonk/megabonk-icon-192x192.webp"
+    cover: "megabonk/megabonk-cover-360x480.webp"
+    background: "megabonk/megabonk-bg-1920x1080.webp"
+    hero: "megabonk/megabonk-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

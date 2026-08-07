@@ -25,6 +25,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "BoT"
+      - "旅行游记"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

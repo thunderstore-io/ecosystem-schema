@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "ASKA"
+  listed: true
+  meta:
+    icon: "aska/aska-icon-192x192.webp"
+    cover: "aska/aska-cover-360x480.webp"
+    background: "aska/aska-bg-1920x1080.webp"
+    hero: "aska/aska-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Super Fantasy Kingdom"
+  listed: true
+  meta:
+    icon: "super-fantasy-kingdom/super-fantasy-kingdom-icon-192x192.webp"
+    cover: "super-fantasy-kingdom/super-fantasy-kingdom-cover-360x480.webp"
+    background: "super-fantasy-kingdom/super-fantasy-kingdom-bg-1920x1080.webp"
+    hero: "super-fantasy-kingdom/super-fantasy-kingdom-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

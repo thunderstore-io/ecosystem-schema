@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Logic World"
+  listed: true
+  meta:
+    icon: "logic-world/logic-world-icon-192x192.webp"
+    cover: "logic-world/logic-world-cover-360x480.webp"
+    background: "logic-world/logic-world-bg-1920x1080.webp"
+    hero: "logic-world/logic-world-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

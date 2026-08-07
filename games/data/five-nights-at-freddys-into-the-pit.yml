@@ -62,6 +62,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Five Nights at Freddy's: Into the Pit"
+  listed: true
+  meta:
+    icon: "five-nights-at-freddys-into-the-pit/five-nights-at-freddys-into-the-pit-icon-192x192.webp"
+    cover: "five-nights-at-freddys-into-the-pit/five-nights-at-freddys-into-the-pit-cover-360x480.webp"
+    background: "five-nights-at-freddys-into-the-pit/five-nights-at-freddys-into-the-pit-bg-1920x1080.webp"
+    hero: "five-nights-at-freddys-into-the-pit/five-nights-at-freddys-into-the-pit-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

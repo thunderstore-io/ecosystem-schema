@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Project Gorgon"
+  listed: true
+  meta:
+    icon: "project-gorgon/project-gorgon-icon-192x192.webp"
+    cover: "project-gorgon/project-gorgon-cover-360x480.webp"
+    background: "project-gorgon/project-gorgon-bg-1920x1080.webp"
+    hero: "project-gorgon/project-gorgon-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

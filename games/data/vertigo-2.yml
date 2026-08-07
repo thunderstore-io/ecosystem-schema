@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Vertigo 2"
+  listed: true
+  meta:
+    icon: "vertigo-2/vertigo-2-icon-192x192.webp"
+    cover: "vertigo-2/vertigo-2-cover-360x480.webp"
+    background: "vertigo-2/vertigo-2-bg-1920x1080.webp"
+    hero: "vertigo-2/vertigo-2-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

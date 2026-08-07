@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Skul: The Hero Slayer"
+  listed: true
+  meta:
+    icon: "skul-the-hero-slayer/skul-the-hero-slayer-icon-192x192.webp"
+    cover: "skul-the-hero-slayer/skul-the-hero-slayer-cover-360x480.webp"
+    hero: "skul-the-hero-slayer/skul-the-hero-slayer-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Kerbal Space Program 2"
+  listed: false
+  meta:
+    icon: "kerbal-space-program-2/kerbal-space-program-2-icon-192x192.webp"
+    cover: "kerbal-space-program-2/kerbal-space-program-2-cover-360x480.webp"
+    background: "kerbal-space-program-2/kerbal-space-program-2-bg-1920x1080.webp"
   categories:
     mods:
       label: "Mods"

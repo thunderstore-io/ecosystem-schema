@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Nuclear Option"
+  listed: true
+  meta:
+    icon: "nuclear-option/nuclear-option-icon-192x192.webp"
+    cover: "nuclear-option/nuclear-option-cover-360x480.webp"
+    background: "nuclear-option/nuclear-option-bg-1920x1080.webp"
+    hero: "nuclear-option/nuclear-option-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

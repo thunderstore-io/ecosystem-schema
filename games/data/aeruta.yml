@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Aeruta"
+  listed: true
+  meta:
+    icon: "aeruta/aeruta-icon-192x192.webp"
+    cover: "aeruta/aeruta-cover-360x480.webp"
+    background: "aeruta/aeruta-bg-1920x1080.webp"
+    hero: "aeruta/aeruta-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

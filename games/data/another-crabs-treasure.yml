@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Another Crab's Treasure"
+  listed: true
+  meta:
+    icon: "another-crabs-treasure/another-crabs-treasure-icon-192x192.webp"
+    cover: "another-crabs-treasure/another-crabs-treasure-cover-360x480.webp"
+    background: "another-crabs-treasure/another-crabs-treasure-bg-1920x1080.webp"
+    hero: "another-crabs-treasure/another-crabs-treasure-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -55,6 +55,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Maltese's Fluffy Onsen"
+  listed: true
+  meta:
+    icon: "malteses-fluffy-onsen/malteses-fluffy-onsen-icon-192x192.webp"
+    cover: "malteses-fluffy-onsen/malteses-fluffy-onsen-cover-360x480.webp"
+    background: "malteses-fluffy-onsen/malteses-fluffy-onsen-bg-1920x1080.webp"
+    hero: "malteses-fluffy-onsen/malteses-fluffy-onsen-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Void Crew"
+  listed: true
+  meta:
+    icon: "void-crew/void-crew-icon-192x192.webp"
+    cover: "void-crew/void-crew-cover-360x480.webp"
+    background: "void-crew/void-crew-bg-1920x1080.webp"
+    hero: "void-crew/void-crew-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

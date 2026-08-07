@@ -6,6 +6,11 @@ meta:
 distributions: []
 thunderstore:
   displayName: "The Planet Crafter"
+  listed: true
+  meta:
+    icon: "the-planet-crafter/the-planet-crafter-icon-192x192.webp"
+    cover: "the-planet-crafter/the-planet-crafter-cover-360x480.webp"
+    hero: "the-planet-crafter/the-planet-crafter-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

@@ -6,6 +6,12 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Balatro"
+  listed: true
+  meta:
+    icon: "balatro/balatro-icon-192x192.webp"
+    cover: "balatro/balatro-cover-360x480.webp"
+    background: "balatro/balatro-bg-1920x1080.webp"
+    hero: "balatro/balatro-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

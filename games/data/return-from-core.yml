@@ -54,6 +54,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Return From Core"
+  listed: true
+  meta:
+    icon: "return-from-core/return-from-core-icon-192x192.webp"
+    cover: "return-from-core/return-from-core-cover-360x480.webp"
+    background: "return-from-core/return-from-core-bg-1920x1080.webp"
+    hero: "return-from-core/return-from-core-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

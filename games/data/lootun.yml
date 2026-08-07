@@ -53,6 +53,12 @@ r2modman:
     relativeFileExclusions: null
 thunderstore:
   displayName: "Lootun"
+  listed: true
+  meta:
+    icon: "lootun/lootun-icon-192x192.webp"
+    cover: "lootun/lootun-cover-360x480.webp"
+    background: "lootun/lootun-bg-1920x1080.webp"
+    hero: "lootun/lootun-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"

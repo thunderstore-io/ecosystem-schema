@@ -8,6 +8,12 @@ distributions:
   identifier: "1745680"
 thunderstore:
   displayName: "Odd Remedy"
+  listed: true
+  meta:
+    icon: "odd-remedy/odd-remedy-icon-192x192.webp"
+    cover: "odd-remedy/odd-remedy-cover-360x480.webp"
+    background: "odd-remedy/odd-remedy-bg-1920x1080.webp"
+    hero: "odd-remedy/odd-remedy-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
