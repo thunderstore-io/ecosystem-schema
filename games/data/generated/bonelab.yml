@@ -125,6 +125,26 @@ r2modman:
             trackingMethod: "state"
             subRoutes: []
             isDefaultLocation: false
+          - route: "Not Enough Photons"
+            defaultFileExtensions: []
+            trackingMethod: "state"
+            subRoutes:
+              - route: "Hitmarkers"
+                defaultFileExtensions: []
+                trackingMethod: "state"
+                subRoutes:
+                  - route: "Skins"
+                    defaultFileExtensions: []
+                    trackingMethod: "state"
+                    subRoutes: []
+                    isDefaultLocation: false
+                isDefaultLocation: false
+              - route: "ScoreLab"
+                defaultFileExtensions: []
+                trackingMethod: "state"
+                subRoutes: []
+                isDefaultLocation: false
+            isDefaultLocation: false
         isDefaultLocation: false
     relativeFileExclusions:
       - "manifest.json"
