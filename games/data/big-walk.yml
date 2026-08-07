@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "BigWalk"
     packageIndex: "https://thunderstore.io/c/big-walk/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "大步走"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
