@@ -8,10 +8,10 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4300500"
+        identifier: "2950790"
       - platform: "other"
         identifier: null
-    steamFolderName: "IRON NEST Heavy Turret Simulator Demo"
+    steamFolderName: "Iron Nest Heavy Turret Simulator"
     dataFolderName: "Iron Nest Heavy Turret Simulator_Data"
     exeNames:
       - "Iron Nest Heavy Turret Simulator.exe"
