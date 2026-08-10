@@ -1,0 +1,79 @@
+uuid: "903540ef-c22d-4bc8-bea8-7932747aea88"
+label: "grain-rot"
+meta:
+  displayName: "Grain Rot"
+  iconUrl: "grain-rot/grain-rot-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4450620"
+    steamFolderName: "Grain Rot"
+    dataFolderName: "Helden"
+    exeNames:
+      - "Helden.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "Grain Rot"
+      iconUrl: "grain-rot/grain-rot-cover-360x480.webp"
+    settingsIdentifier: "GrainRot"
+    internalFolderName: "GrainRot"
+    packageIndex: "https://thunderstore.io/c/grain-rot/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Grain Rot"
+  listed: true
+  meta:
+    icon: "grain-rot/grain-rot-icon-192x192.webp"
+    cover: "grain-rot/grain-rot-cover-360x480.webp"
+    background: "grain-rot/grain-rot-bg-1920x1080.webp"
+    hero: "grain-rot/grain-rot-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "A horror co-op extraction builder set in a scorched wasteland where everything burns. Descend with your friends into shifting ruins, rip out furniture, and scavenge for loot before the Corrupted close in. Make it back alive, then rebuild the Outpost to better your chances for the next run."
