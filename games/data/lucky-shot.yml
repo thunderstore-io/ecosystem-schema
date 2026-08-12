@@ -8,8 +8,8 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4676090"
-    steamFolderName: "Lucky Shot Demo"
+        identifier: "4092940"
+    steamFolderName: "Lucky Shot"
     dataFolderName: "LuckyShot_Data"
     exeNames:
       - "LuckyShot.exe"
