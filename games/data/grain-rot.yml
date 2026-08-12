@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "GrainRot"
     packageIndex: "https://thunderstore.io/c/grain-rot/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "朽木难雕"
     installRules:
       - route: "shimloader/mod"
         isDefaultLocation: true
