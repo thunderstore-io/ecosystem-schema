@@ -1,0 +1,86 @@
+uuid: "7e2fe6e8-9686-4c81-b591-a8f309d31af7"
+label: "stonewards"
+meta:
+  displayName: "Stonewards"
+  iconUrl: "stonewards/stonewards-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4502710"
+    steamFolderName: "Stonewards"
+    dataFolderName: "Stonewards_Data"
+    exeNames:
+      - "Stonewards.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Stonewards"
+      iconUrl: "stonewards/stonewards-cover-360x480.webp"
+    settingsIdentifier: "Stonewards"
+    internalFolderName: "Stonewards"
+    packageIndex: "https://thunderstore.io/c/stonewards/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Stonewards"
+  listed: true
+  meta:
+    icon: "stonewards/stonewards-icon-192x192.webp"
+    cover: "stonewards/stonewards-cover-360x480.webp"
+    background: "stonewards/stonewards-bg-1920x1080.webp"
+    hero: "stonewards/stonewards-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "DWARF COMBAT! Stonewards is a 1-4 player co-op first-person roguelite defense game. Lead a crew of stubborn dwarves from your base camp to aid nearby kingdoms, mine deep for resources, forge powerful upgrades, and hold the line against relentless monster attacks."
