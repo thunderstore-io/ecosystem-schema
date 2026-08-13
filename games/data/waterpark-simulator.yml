@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "WaterparkSimulator"
     packageIndex: "https://thunderstore.io/c/waterpark-simulator/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "水上乐园模拟器"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

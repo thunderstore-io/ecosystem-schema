@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "StickFightTheGame"
     packageIndex: "https://thunderstore.io/c/stick-fight-the-game/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "火柴人大乱斗"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
