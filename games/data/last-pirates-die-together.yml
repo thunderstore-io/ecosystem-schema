@@ -1,0 +1,86 @@
+uuid: "f82e488e-4e57-43f2-a8af-e3fbe4832329"
+label: "last-pirates-die-together"
+meta:
+  displayName: "Last Pirates: Die Together"
+  iconUrl: "last-pirates-die-together/last-pirates-die-together-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4317790"
+    steamFolderName: "Last Pirates Die Together"
+    dataFolderName: "Last Pirates Die Together_Data"
+    exeNames:
+      - "Last Pirates Die Together.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Last Pirates: Die Together"
+      iconUrl: "last-pirates-die-together/last-pirates-die-together-cover-360x480.webp"
+    settingsIdentifier: "LastPiratesDieTogether"
+    internalFolderName: "LastPiratesDieTogether"
+    packageIndex: "https://thunderstore.io/c/last-pirates-die-together/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Last Pirates: Die Together"
+  listed: true
+  meta:
+    icon: "last-pirates-die-together/last-pirates-die-together-icon-192x192.webp"
+    cover: "last-pirates-die-together/last-pirates-die-together-cover-360x480.webp"
+    background: "last-pirates-die-together/last-pirates-die-together-bg-1920x1080.webp"
+    hero: "last-pirates-die-together/last-pirates-die-together-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "An online co-op horror experience for up to 4 players. Use your elastic arms to grab valuable loot for your captain. But be careful, danger lurks around every corner trying to take your booty!"
