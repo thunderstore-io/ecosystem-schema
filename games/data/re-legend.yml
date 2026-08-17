@@ -1,0 +1,86 @@
+uuid: "41d74fa8-9297-4289-a1a4-67af9ce5c940"
+label: "re-legend"
+meta:
+  displayName: "Re:Legend"
+  iconUrl: "re-legend/re-legend-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "823950"
+    steamFolderName: "Re-Legend"
+    dataFolderName: "Relegend_Data"
+    exeNames:
+      - "ReLegend.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Re:Legend"
+      iconUrl: "re-legend/re-legend-cover-360x480.webp"
+    settingsIdentifier: "ReLegend"
+    internalFolderName: "ReLegend"
+    packageIndex: "https://thunderstore.io/c/re-legend/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Re:Legend"
+  listed: true
+  meta:
+    icon: "re-legend/re-legend-icon-192x192.webp"
+    cover: "re-legend/re-legend-cover-360x480.webp"
+    background: "re-legend/re-legend-bg-1920x1080.webp"
+    hero: "re-legend/re-legend-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Adventure with friends in a beautiful world of wonder and fantastic creatures. Build, craft, farm and fish, as you raise and breed amazing pet companions!"
