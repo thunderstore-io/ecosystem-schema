@@ -26,7 +26,8 @@ r2modman:
     internalFolderName: "Moonlighter"
     packageIndex: "https://thunderstore.io/c/moonlighter/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "夜勤人"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

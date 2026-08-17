@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "LastPiratesDieTogether"
     packageIndex: "https://thunderstore.io/c/last-pirates-die-together/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "最后的海盗：无人生还"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
