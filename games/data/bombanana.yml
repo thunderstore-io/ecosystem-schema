@@ -1,0 +1,85 @@
+uuid: "580cd378-526d-4084-a74d-f692ed8f6141"
+label: "bombanana"
+meta:
+  displayName: "BOMBANANA!"
+  iconUrl: "bombanana/bombanana-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4747510"
+    steamFolderName: "BOMBANANA! Demo"
+    dataFolderName: "BOMBANANA_Data"
+    exeNames:
+      - "BOMBANANA.exe"
+      - "BOMBANANA.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "BOMBANANA!"
+      iconUrl: "bombanana/bombanana-cover-360x480.webp"
+    settingsIdentifier: "Bombanana"
+    internalFolderName: "Bombanana"
+    packageIndex: "https://thunderstore.io/c/bombanana/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "BOMBANANA!"
+  listed: true
+  meta:
+    icon: "bombanana/bombanana-icon-192x192.webp"
+    cover: "bombanana/bombanana-cover-360x480.webp"
+    background: "bombanana/bombanana-bg-1920x1080.webp"
+    hero: "bombanana/bombanana-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "You are a 3-player bomb defusal team made up of three monkeys: blind, deaf, and mute. Inside your minivan turned mobile bomb workshop, you must defuse bombs before they explode using limited time and limited communication!"

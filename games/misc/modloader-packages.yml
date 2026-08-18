@@ -277,3 +277,6 @@
 - packageId: "SFTG_Modding-BepInExPack_SFTG"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "BOMBANANA_Modding-BepInExPack_BOMBANANA"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
