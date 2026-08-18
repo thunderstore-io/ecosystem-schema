@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Stonewards"
     packageIndex: "https://thunderstore.io/c/stonewards/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "磐石守卫"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
