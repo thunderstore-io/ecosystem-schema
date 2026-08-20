@@ -53,6 +53,8 @@ thunderstore:
       label: "Asset Replacements"
     mixtapes:
       label: "Mixtapes"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
