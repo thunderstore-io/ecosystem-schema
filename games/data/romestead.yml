@@ -73,6 +73,8 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
