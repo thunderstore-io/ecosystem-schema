@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "ReLegend"
     packageIndex: "https://thunderstore.io/c/re-legend/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "海岛牧歌"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "LastPiratesDieTogether"
     packageIndex: "https://thunderstore.io/c/last-pirates-die-together/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "最后的海盗：无人生还"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
@@ -83,4 +84,5 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
+  discordUrl: https://discord.gg/eQ3VrsEPK3
   shortDescription: "An online co-op horror experience for up to 4 players. Use your elastic arms to grab valuable loot for your captain. But be careful, danger lurks around every corner trying to take your booty!"
