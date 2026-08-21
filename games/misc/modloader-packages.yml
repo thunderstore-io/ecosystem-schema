@@ -280,3 +280,6 @@
 - packageId: "Nucleares_Modding-BepInExPack_Nucleares"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "BOMBANANA_Modding-BepInExPack_BOMBANANA"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
