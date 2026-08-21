@@ -1,0 +1,88 @@
+uuid: "e6363e69-cce2-441c-8414-01022f7ef533"
+label: "how-to-fish"
+meta:
+  displayName: "How to Fish"
+  iconUrl: "how-to-fish/how-to-fish-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4001890"
+    steamFolderName: "How to Fish/How to Fish"
+    dataFolderName: "How to Fish_Data"
+    exeNames:
+      - "How to Fish.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "How to Fish"
+      iconUrl: "how-to-fish/how-to-fish-cover-360x480.webp"
+    settingsIdentifier: "HowToFish"
+    internalFolderName: "HowToFish"
+    packageIndex: "https://thunderstore.io/c/how-to-fish/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "How to Fish"
+  listed: true
+  meta:
+    icon: "how-to-fish/how-to-fish-icon-192x192.webp"
+    cover: "how-to-fish/how-to-fish-cover-360x480.webp"
+    background: "how-to-fish/how-to-fish-bg-1920x1080.webp"
+    hero: "how-to-fish/how-to-fish-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "A 1-4 player physics based fishing simulator. While drinking and boating you suddenly crash into a small island. To work your way back home you have to learn How to Fish."
