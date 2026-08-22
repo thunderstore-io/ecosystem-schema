@@ -84,5 +84,4 @@ thunderstore:
         - "modpacks"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
-  discordUrl: https://discord.gg/eQ3VrsEPK3
   shortDescription: "An online co-op horror experience for up to 4 players. Use your elastic arms to grab valuable loot for your captain. But be careful, danger lurks around every corner trying to take your booty!"
