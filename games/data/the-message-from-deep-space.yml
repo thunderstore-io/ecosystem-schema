@@ -24,6 +24,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "TMFDS"
+      - "深空来信"
+      - "深空讯息"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

@@ -26,7 +26,8 @@ r2modman:
     internalFolderName: "Cuphead"
     packageIndex: "https://thunderstore.io/c/cuphead/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "茶杯头"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

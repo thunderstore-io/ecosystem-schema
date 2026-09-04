@@ -25,6 +25,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "Holdfast NaW"
+      - "坚守：国家战争"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

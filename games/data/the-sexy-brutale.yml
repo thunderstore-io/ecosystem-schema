@@ -23,6 +23,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "TSB"
+      - "迷人的残酷"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

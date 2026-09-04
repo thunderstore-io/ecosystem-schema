@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "InfernoProtocol"
     packageIndex: "https://thunderstore.io/c/inferno-protocol/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "地狱协议"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

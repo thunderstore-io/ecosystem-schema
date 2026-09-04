@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "HowToFish"
     packageIndex: "https://thunderstore.io/c/how-to-fish/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "渔力全开"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

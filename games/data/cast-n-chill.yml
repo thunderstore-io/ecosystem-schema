@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "CastNChill"
     packageIndex: "https://thunderstore.io/c/cast-n-chill/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "抛竿悠游"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

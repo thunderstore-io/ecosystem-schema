@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "LazyWitchsFactory"
     packageIndex: "https://thunderstore.io/c/lazy-witchs-factory/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "魔女工厂"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
