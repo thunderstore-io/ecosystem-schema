@@ -289,7 +289,7 @@
 - packageId: "TheSexyBrutale_Modding-BepInExPack_TheSexyBrutale"
   rootFolder: "BepInExPack"
   loader: "bepinex"
-- packageId: "HoldfastModdingModding-BepInExPack_Holdfast"
+- packageId: "HoldfastModding-BepInExPack_Holdfast"
   rootFolder: "BepInExPack"
   loader: "bepinex"
   
