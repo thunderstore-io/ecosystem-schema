@@ -7,7 +7,7 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "Super Mario 3D World"
-  listed: true
+  listed: false
   meta:
     icon: "super-mario-3d-world/super-mario-3d-world-icon-192x192.webp"
     cover: "super-mario-3d-world/super-mario-3d-world-cover-360x480.webp"
