@@ -55,7 +55,7 @@ Mod manager (provide all installation fields and at least one distribution):
                                in misc/modloader-packages.yml, not in this option.
   -h, --help                  Show this help
 
-Examples (run from games/):
+Examples (run from the repository root):
   yarn run add
   yarn run add --name "Example Game" --steam-id 12345 \\
     --steam-folder "Example Game" --data-folder "Example_Data" \\
@@ -64,7 +64,7 @@ Examples (run from games/):
     --data-folder "Other_Data" --exe "Other.exe" --loader bepinex
   yarn run add --name "Site Only" --steam-id 12345 --thunderstore-only
 
-Assets: games/assets/<slug>/<slug>-{icon-192x192,cover-360x480,bg-1920x1080,bg-1920x620}.webp
+Assets: assets/<slug>/<slug>-{icon-192x192,cover-360x480,bg-1920x1080,bg-1920x620}.webp
 Without --assets, iconUrl is null and listed/thunderstore.meta are omitted.
 Use --assets only when shipping all four images. Run yarn run validate before submitting.
 Verify engine, Unity runtime and executable bitness before selecting an autolist pack.
@@ -322,7 +322,7 @@ async function runAddCommand() {
   console.log(`${file} was created. Review it and run yarn run validate before submitting a PR.`);
 
   if (options.assets) {
-    console.log(`Asset paths were written. All four webps must be in games/assets/${game.label}/ before validation.`);
+    console.log(`Asset paths were written. All four webps must be in assets/${game.label}/ before validation.`);
   } else {
     console.log("iconUrl is null and listing is not enabled. Edit the definition's asset fields once all four images are available.");
   }

@@ -11,7 +11,7 @@ To add a new game to Thunderstore, follow these steps:
 
 ## Creating a PR
 
-To start creating a PR, run the provided game addition script from `games/`:
+To start creating a PR, run the provided game addition script from the repository root:
 
 ```bash
 yarn install
@@ -46,7 +46,7 @@ yarn run add \
 
 We recommend that you omit assets unless absolutely necessary, we will provide them.
 
-Without `--assets`, both `meta.iconUrl` fields are `null`, and `thunderstore.listed` and `thunderstore.meta` are omitted. With `--assets`, both icon URLs point at the cover, `listed: true` is set, and the four community asset paths are included. Ship these files under `games/assets/<slug>/`:
+Without `--assets`, both `meta.iconUrl` fields are `null`, and `thunderstore.listed` and `thunderstore.meta` are omitted. With `--assets`, both icon URLs point at the cover, `listed: true` is set, and the four community asset paths are included. Ship these files under `assets/<slug>/`:
 
 | Filename | Dimensions |
 |----------|------------|
@@ -67,7 +67,7 @@ Review the generated YAML for game-specific installation requirements, then run 
 ### Meta Field
 
 - **displayName**: The game's name, used for display in clients.
-- **iconUrl**: The cover image path relative to `games/assets/`, or `null` when assets are pending.
+- **iconUrl**: The cover image path relative to `assets/`, or `null` when assets are pending.
 
 ### Distributions Array
 
@@ -151,7 +151,7 @@ to prevent it being used as an override folder.
 - **displayName**: Game's name for display purposes on the website.
 - **autolistPackageIds**: Standard packages to automatically list in the community. See [autolistPackages.ts](src/schema/autolistPackages.ts) for the options. Custom game-specific loader packs are registered separately, not autolisted.
 - **listed**: Whether the community is listed on Thunderstore. The add script sets this to `true` when assets ship.
-- **meta**: Paths to the `icon`, `cover`, `background`, and `hero` images, relative to `games/assets/`.
+- **meta**: Paths to the `icon`, `cover`, `background`, and `hero` images, relative to `assets/`.
 
 #### Categories Array
 
