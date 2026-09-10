@@ -1,54 +1,244 @@
-import { GameDefinition, GameModmanDefinition } from "../models.js";
-import { v4 as uuid } from "uuid";
-import fs from "fs";
-import * as yaml from "js-yaml";
+/** Create a game definition interactively or from command-line options. */
 import { input, checkbox, confirm, select } from "@inquirer/prompts";
 import _ from "lodash";
+import { parseArgs } from "node:util";
+import { DistributionPlatformValues, GameDistributionDefinition, GameTypeValues } from "../models.js";
 import { AUTOLIST_PACKAGE_CHOICES } from "../schema/autolistPackages.js";
-import * as Default from "../schema/defaults.js";
 import { GAME_TYPE_CHOICES } from "../schema/instanceTypes.js";
-import { PACKAGE_LOADER_CHOICES } from "../schema/packageLoaders.js";
+import { PACKAGE_LOADER_CHOICES, requiresDataFolder } from "../schema/packageLoaders.js";
 import { PLATFORM_CHOICES } from "../schema/platforms.js";
+import {
+  createDistribution,
+  createGameDefinition,
+  existingDefinition,
+  NewGameOptions,
+  splitList,
+  validateSlug,
+  writeGameDefinition,
+} from "../schema/newGame.js";
 
-const isNotEmpty = (x: string) => !!(x.trim());
+const loaderChoices = PACKAGE_LOADER_CHOICES.filter(choice => choice.value !== "melonloader");
+const isNotEmpty = (value: string) => !!value.trim();
 
-const pascalCase = (x: string) => x.charAt(0).toUpperCase() + _.camelCase(x.slice(1));
+function printHelp() {
+  console.log(`
+Usage: yarn run add [options]
 
-const definitionFilePath = (identifier: string) => `./data/${identifier}.yml`;
+With no arguments, asks interactive questions. With any options, --name is required.
 
-async function runAddCommand() {
-  const displayName = await input({
+Community:
+  -n, --name <name>            Display name
+      --slug <identifier>      Kebab-case slug (defaults to the name in kebab-case)
+      --description <text>     Exact store short description, at most 512 characters
+      --discord <url>          Community Discord URL, requires --discord-consent
+      --discord-consent        Server moderators have agreed to modding traffic
+      --wiki <url>             Community wiki URL
+      --assets                 Ship all four webps, write asset paths and listed: true
+      --thunderstore-only      Do not add mod manager support
+
+Distribution:
+  -i, --store-id <id>          Store identifier (--steam-id is an alias)
+  -p, --platform <platform>    Default: steam
+                               Values: ${DistributionPlatformValues.join(", ")}
+      --distribution <p[=id]>  Repeat for additional stores, or use instead of -p/-i
+                               IDs may be omitted for oculus-store, origin, other
+
+Mod manager (provide all installation fields and at least one distribution):
+  -f, --steam-folder <name>    Verified install folder, including any nested exe path
+  -d, --data-folder <name>     Verified data folder, use "" when not applicable
+  -e, --exe <names>           Verified executable names, comma-separated for all OSes
+  -l, --loader <loader>       ${loaderChoices.map(choice => choice.value).join(", ")}
+                               melonloader is an alias for recursive-melonloader
+  -t, --type <type>           ${GameTypeValues.join(", ")} (default: game)
+  -s, --search-strings <text>  Alternative search names, comma-separated
+  -a, --autolist <ids>        Standard package IDs, comma-separated. Custom packs go
+                               in misc/modloader-packages.yml, not in this option.
+  -h, --help                  Show this help
+
+Examples (run from games/):
+  yarn run add
+  yarn run add --name "Example Game" --steam-id 12345 \\
+    --steam-folder "Example Game" --data-folder "Example_Data" \\
+    --exe "Example.exe" --loader bepinex --autolist BepInEx-BepInExPack --assets
+  yarn run add --name "Other Game" --platform other --steam-folder "Other Game" \\
+    --data-folder "Other_Data" --exe "Other.exe" --loader bepinex
+  yarn run add --name "Site Only" --steam-id 12345 --thunderstore-only
+
+Assets: games/assets/<slug>/<slug>-{icon-192x192,cover-360x480,bg-1920x1080,bg-1920x620}.webp
+Without --assets, iconUrl is null and listed/thunderstore.meta are omitted.
+Use --assets only when shipping all four images. Run yarn run validate before submitting.
+Verify engine, Unity runtime and executable bitness before selecting an autolist pack.
+`);
+}
+
+function parseCliOptions(): NewGameOptions | null {
+  const { values } = parseArgs({
+    options: {
+      name: { type: "string", short: "n" },
+      slug: { type: "string" },
+      "store-id": { type: "string", short: "i" },
+      "steam-id": { type: "string" },
+      platform: { type: "string", short: "p" },
+      distribution: { type: "string", multiple: true },
+      "steam-folder": { type: "string", short: "f" },
+      "data-folder": { type: "string", short: "d" },
+      exe: { type: "string", short: "e" },
+      loader: { type: "string", short: "l" },
+      type: { type: "string", short: "t" },
+      discord: { type: "string" },
+      "discord-consent": { type: "boolean" },
+      wiki: { type: "string" },
+      autolist: { type: "string", short: "a" },
+      "search-strings": { type: "string", short: "s" },
+      description: { type: "string" },
+      assets: { type: "boolean" },
+      "thunderstore-only": { type: "boolean" },
+      help: { type: "boolean", short: "h" },
+    },
+    strict: true,
+    allowPositionals: false,
+  });
+
+  if (values.help) {
+    printHelp();
+    return null;
+  }
+
+  if (!values.name?.trim()) {
+    throw new Error("--name is required when supplying command-line options. Use --help for usage.");
+  }
+
+  if (values["store-id"] !== undefined && values["steam-id"] !== undefined) {
+    throw new Error("Use either --store-id or --steam-id, not both.");
+  }
+
+  const distributions: GameDistributionDefinition[] = [];
+  const storeId = values["store-id"] ?? values["steam-id"];
+
+  if (storeId !== undefined || values.platform !== undefined) {
+    distributions.push(createDistribution(values.platform ?? "steam", storeId));
+  }
+
+  for (const distribution of values.distribution ?? []) {
+    const [platform, ...identifier] = distribution.split("=");
+    distributions.push(createDistribution(platform, identifier.join("=")));
+  }
+
+  return {
+    name: values.name,
+    slug: values.slug,
+    distributions,
+    steamFolder: values["steam-folder"],
+    dataFolder: values["data-folder"],
+    exe: values.exe,
+    loader: values.loader,
+    type: values.type,
+    discord: values.discord,
+    discordConsent: values["discord-consent"],
+    wiki: values.wiki,
+    autolist: values.autolist,
+    searchStrings: values["search-strings"],
+    description: values.description,
+    assets: values.assets,
+    thunderstoreOnly: values["thunderstore-only"],
+  };
+}
+
+async function promptDistributions(): Promise<GameDistributionDefinition[]> {
+  const distributions: GameDistributionDefinition[] = [];
+  let addAnother = true;
+
+  console.log("Check other storefronts too (for example, using IsThereAnyDeal). Only add verified distributions.");
+
+  while (addAnother) {
+    const platform = await select({
+      message: "Which store is the game available on?",
+      choices: PLATFORM_CHOICES,
+    });
+
+    const identifier = await input({
+      message: "Game's store identifier (optional for Oculus, Origin, and Other)",
+      validate: value => {
+        try {
+          createDistribution(platform, value);
+          return true;
+        } catch (error) {
+          return (error as Error).message;
+        }
+      },
+    });
+
+    distributions.push(createDistribution(platform, identifier));
+
+    addAnother = await confirm({
+      message: "Add another store distribution?",
+      default: false,
+    });
+  }
+
+  return distributions;
+}
+
+async function promptOptions(): Promise<NewGameOptions> {
+  const name = await input({
     message: "Display name for the community",
     validate: isNotEmpty,
   });
-  const identifier = await input({
+
+  const slug = await input({
     message: "Identifier for the community (slug)",
-    default: _.kebabCase(displayName),
-    validate: (val) => {
-      const path = `./data/${val}.yml`;
-      if (fs.existsSync(definitionFilePath(val))) {
-        return `${definitionFilePath(val)} already exists. Edit the existing file to avoid overwriting it.`;
+    default: _.kebabCase(name),
+    validate: value => {
+      if (!validateSlug(value)) {
+        return "Use a non-empty kebab-case slug.";
       }
 
-      return !!val && val == _.kebabCase(val);      
-  }});
-  const discordUrl = await input({
-    message: "Discord URL for the community (optional)",
-    default: "",
-  });
-  const wikiUrl = await input({
-    message: "Wiki URL for the community (optional)",
-    default: "",
-  });
-  const shortDescription = await input({
-    message: "Short description for the community (optional)",
-    default: "",
-    validate: (val) => val.length < 513,
+      const existing = existingDefinition(value);
+
+      if (existing) {
+        return `${existing} already exists. Edit the existing definition instead.`;
+      }
+
+      return true;
+    },
   });
 
-  const autolistPackageIds = await checkbox({
-    message: "Automatically list package",
+  let discord = await input({
+    message: "Discord URL for the community (optional)",
+  });
+  let discordConsent = false;
+
+  if (discord) {
+    discordConsent = await confirm({
+      message: "Have the server moderators agreed to receive modding traffic, including support and NSFW mod discussions?",
+      default: false,
+    });
+
+    if (!discordConsent) {
+      console.log("Leaving the Discord URL out until server consent is verified.");
+      discord = "";
+    }
+  }
+
+  const wiki = await input({
+    message: "Wiki URL for the community (optional)",
+  });
+
+  const description = await input({
+    message: "Exact store short description (optional)",
+    validate: value => value.length <= 512 || "Maximum 512 characters.",
+  });
+
+  console.log("Verify Unity Mono/IL2CPP and executable bitness before choosing a pack. Custom packs must be registered separately.");
+
+  const autolist = await checkbox({
+    message: "Automatically list standard packages",
     choices: AUTOLIST_PACKAGE_CHOICES,
+  });
+
+  const assets = await confirm({
+    message: "Ship all four asset webps (icon, cover, background, hero) in this PR?",
+    default: false,
   });
 
   const managerSupport = await confirm({
@@ -56,102 +246,97 @@ async function runAddCommand() {
     default: true,
   });
 
-  // Override exeNames type since prompts lib doesn't support returning string[].
-  type PromptedFields = "gameInstanceType" | "distributions" | "steamFolderName" | "dataFolderName" | "packageLoader";
-  type PromptedR2 = Pick<GameModmanDefinition, PromptedFields> & {exeNames: string};
-  let r2modman: PromptedR2|null = null;
+  let addDistributions = managerSupport;
 
-  if (managerSupport) {
-    r2modman = {
-      gameInstanceType: await select({
-        message: "Select type",
-        choices: GAME_TYPE_CHOICES,
-      }),
-
-      distributions: [{
-        platform: await select({
-          message: "Which store is the game available on?",
-          choices: PLATFORM_CHOICES,
-        }),
-        identifier: await input({
-          message: "Game's identifier on the selected store (optional for Oculus, Origin, and Other)",
-        }),
-      }],
-
-      steamFolderName: await input({
-        message: "Steam folder name (e.g. from SteamDB)",
-        default: displayName,
-        validate: isNotEmpty,
-      }),
-      dataFolderName: await input({
-        message: "Data folder name (e.g. from SteamDB)",
-        default: `${displayName}_Data`,
-        validate: isNotEmpty,
-      }),
-      exeNames: await input({
-        message: "Executable name (comma separated list)",
-        default: `${displayName}.exe`,
-        validate: isNotEmpty
-      }),
-      packageLoader: await select({
-        message: "Package loader",
-        choices: PACKAGE_LOADER_CHOICES,
-      }),
-    };
+  if (!managerSupport) {
+    addDistributions = await confirm({
+      message: "Add store distributions?",
+      default: true,
+    });
   }
 
-  const game: GameDefinition = {
-    uuid: uuid(),
-    label: identifier,
-    meta: {
-      displayName,
-      iconUrl: `${identifier}/${identifier}-cover-360x480.webp`,
-    },
-    distributions: [],
-    r2modman: null,
-    thunderstore: {
-      displayName,
-      categories: Default.CATEGORIES,
-      sections: Default.SECTIONS,
-      wikiUrl: wikiUrl || undefined,
-      discordUrl: discordUrl || undefined,
-      autolistPackageIds: autolistPackageIds || undefined,
-      shortDescription: shortDescription || undefined,
-    },
+  const distributions = addDistributions ? await promptDistributions() : [];
+  const options: NewGameOptions = {
+    name,
+    slug,
+    discord,
+    discordConsent,
+    wiki,
+    description,
+    autolist: autolist.join(","),
+    assets,
+    distributions,
+    thunderstoreOnly: !managerSupport,
   };
 
-  if (r2modman) {
-    game.r2modman = [{
-      ...r2modman,
-      meta: {...game.meta},
-      settingsIdentifier: pascalCase(displayName),
-      internalFolderName: pascalCase(displayName),
-      exeNames: r2modman.exeNames.split(",").map((name) => name.trim()),
-
-      packageIndex: `https://thunderstore.io/c/${identifier}/api/v1/package-listing-index/`,
-      gameSelectionDisplayMode: "visible",
-      additionalSearchStrings: [],
-      installRules: r2modman.packageLoader === "bepinex" ? Default.BEPINEX_INSTALL_RULES : [],
-      relativeFileExclusions: null,
-    }];
+  if (!managerSupport) {
+    return options;
   }
 
-  fs.writeFileSync(
-    definitionFilePath(identifier),
-    yaml.dump(game, {
-      quotingType: '"',
-      forceQuotes: true,
-    })
-  );
+  options.type = await select({
+    message: "Select type",
+    choices: GAME_TYPE_CHOICES,
+  });
 
-  console.log(`data/${identifier}.yml definition file was created and can be manually edited before submitting a PR.`);
+  const loader = await select({
+    message: "Package loader",
+    choices: loaderChoices,
+  });
+  options.loader = loader;
 
-  if (r2modman?.packageLoader === "bepinex") {
-    console.log("Default BepInEx mod install rules have been added to the game definition file.");
+  const usesSteam = distributions.some(d => d.platform === "steam" || d.platform === "steam-direct");
+
+  options.steamFolder = await input({
+    message: "Verified install folder (include any nested executable directory, use forward slashes)",
+    validate: usesSteam ? isNotEmpty : undefined,
+  });
+
+  options.dataFolder = await input({
+    message: "Verified data folder from the game build (leave empty if not applicable)",
+    validate: requiresDataFolder(loader) ? isNotEmpty : undefined,
+  });
+
+  options.exe = await input({
+    message: "Verified executable names for all supported OSes (comma-separated)",
+    validate: value => splitList(value).length > 0,
+  });
+
+  options.searchStrings = await input({
+    message: "Additional search strings (optional, comma-separated)",
+  });
+
+  return options;
+}
+
+async function runAddCommand() {
+  const options = process.argv.length > 2 ? parseCliOptions() : await promptOptions();
+
+  if (!options) {
+    return;
+  }
+
+  const game = createGameDefinition(options);
+  const file = writeGameDefinition(game);
+  const modman = game.r2modman?.[0];
+
+  console.log(`${file} was created. Review it and run yarn run validate before submitting a PR.`);
+
+  if (options.assets) {
+    console.log(`Asset paths were written. All four webps must be in games/assets/${game.label}/ before validation.`);
+  } else {
+    console.log("iconUrl is null and listing is not enabled. Edit the definition's asset fields once all four images are available.");
+  }
+
+  if (modman?.installRules.length) {
+    console.log(`Default ${modman.packageLoader} install rules were added.`);
+  }
+
+  if (modman?.packageLoader === "umm") {
+    console.log("UMM requires a game-specific pack and Config.xml. Register it in misc/modloader-packages.yml.");
   }
 }
 
-// TODO: Add await if/when top level await is supported without
-//       "type": "module" inclusion in package.json or after
-//       json-diff-kit supports it.
-runAddCommand();
+runAddCommand().catch((error: unknown) => {
+  console.error(error instanceof Error ? error.message : error);
+  process.exitCode = 1;
+});

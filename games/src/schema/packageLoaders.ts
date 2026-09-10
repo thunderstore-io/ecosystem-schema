@@ -5,6 +5,10 @@ interface PackageLoaderChoice {
   name: string;
 }
 
+export function requiresDataFolder(loader: string): boolean {
+  return ["bepinex", "shimloader", "umm", "recursive-melonloader"].includes(loader);
+}
+
 export const PACKAGE_LOADER_CHOICES: PackageLoaderChoice[] = [
   {
     value: "bepinex",
@@ -33,6 +37,26 @@ export const PACKAGE_LOADER_CHOICES: PackageLoaderChoice[] = [
   {
     value: 'bepisloader',
     name: "Bepisloader",
+  },
+  {
+    value: "northstar",
+    name: "Northstar",
+  },
+  {
+    value: "lovely",
+    name: "Lovely",
+  },
+  {
+    value: "gdweave",
+    name: "GDWeave",
+  },
+  {
+    value: "umm",
+    name: "Unity Mod Manager",
+  },
+  {
+    value: "rivet",
+    name: "Rivet",
   },
   {
     value: "none",

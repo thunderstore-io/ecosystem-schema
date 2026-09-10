@@ -92,7 +92,7 @@ const r2modmanSchema = z.strictObject({
   relativeFileExclusions: z.array(z.string()).nullable(),
 });
 
-const gameSchema = z.strictObject({
+export const gameSchema = z.strictObject({
   uuid: z.string().uuid(),
   label: slug,
   meta: metaSchema,

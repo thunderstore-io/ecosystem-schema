@@ -11,16 +11,53 @@ To add a new game to Thunderstore, follow these steps:
 
 ## Creating a PR
 
-To start creating a PR, run the provider game addition script:
+To start creating a PR, run the provided game addition script from `games/`:
 
 ```bash
 yarn install
 yarn run add
 ```
 
-This begins an interactive prompt that asks a series of questions about the game and generates a .yml file based on the answers. For most BepInEx and MelonLoader games that's enough, and a PR can be created for the .yml file.
+With no arguments, the script asks interactive questions and generates a .yml file. It supports standard loader install rules, multiple store distributions, optional assets, and Thunderstore-only communities. It refuses to replace existing manual or generated entries.
 
-In some cases, you'll need to manually edit the .yml file to ensure proper support for the game. Refer to the documentation below for details on each field.
+For non-interactive use, run `yarn run add --help`. For example:
+
+```bash
+yarn run add \
+  --name "Example Game" \
+  --steam-id 12345 \
+  --steam-folder "Example Game" \
+  --data-folder "Actual_Data" \
+  --exe "Actual.exe,Actual.app" \
+  --loader bepinex \
+  --autolist BepInEx-BepInExPack \
+  --assets
+```
+
+- Use verified install folders, data folders, and executables from the actual build or SteamDB. Include any nested executable directory in `steamFolderName` using forward slashes. For launcher-wrapped games, verify whether `steam-direct` is needed to preserve loader arguments.
+- Check other storefronts, for example through IsThereAnyDeal. Add verified stores with repeated `--distribution platform=identifier` options. These can replace or supplement `--platform` and `--store-id` (`--steam-id` is an alias). Oculus, Origin, and Other can omit the identifier, which is written as `null`.
+- Mod manager entries require a distribution, loader, install folder, data folder, and executable names. Use `--data-folder ""` for loaders without a data folder, such as GodotML. Missing fields cause an error rather than silently dropping mod manager support.
+- Use `--thunderstore-only` without installation options for unsupported engines. `--loader none` by itself also creates a site-only entry, while supplying a complete installation configuration with `none` enables the mod manager's direct-copy installer.
+- New MelonLoader entries use `recursive-melonloader` (v0.7.0+). The CLI normalizes `--loader melonloader` to that value. Existing legacy entries are unchanged.
+- Before selecting a BepInEx autolist package, verify Mono versus IL2CPP and the executable's bitness. The standard Mono pack is x64. Custom packs, including per-game x86 packs and UMM configurations, must be registered in `misc/modloader-packages.yml`, not added to `autolistPackageIds`.
+- Only supply `--discord` after server moderators consent to modding traffic. Confirm that with `--discord-consent`. The interactive flow leaves the URL out if consent is not confirmed.
+
+### Assets
+
+We recommend that you omit assets unless absolutely necessary, we will provide them.
+
+Without `--assets`, both `meta.iconUrl` fields are `null`, and `thunderstore.listed` and `thunderstore.meta` are omitted. With `--assets`, both icon URLs point at the cover, `listed: true` is set, and the four community asset paths are included. Ship these files under `games/assets/<slug>/`:
+
+| Filename | Dimensions |
+|----------|------------|
+| `<slug>-icon-192x192.webp` | 192×192 |
+| `<slug>-cover-360x480.webp` | 360×480 |
+| `<slug>-bg-1920x1080.webp` | 1920×1080 |
+| `<slug>-bg-1920x620.webp` | 1920×620 |
+
+The script generates paths, not images. Inspect the images and crops before submitting. Do not put new entries in `.legacy-allowlist`. If assets are supplied later, edit the existing YAML's asset fields rather than rerunning the add command.
+
+Review the generated YAML for game-specific installation requirements, then run `yarn run validate`. This checks the schema and actual asset dimensions before a PR is created. Refer to the field documentation below for manual adjustments.
 
 ## YAML File Fields
 
@@ -30,7 +67,7 @@ In some cases, you'll need to manually edit the .yml file to ensure proper suppo
 ### Meta Field
 
 - **displayName**: The game's name, used for display in clients.
-- **iconUrl**: The filename of the game's cover image.
+- **iconUrl**: The cover image path relative to `games/assets/`, or `null` when assets are pending.
 
 ### Distributions Array
 
@@ -45,8 +82,8 @@ This array contains the information required to add support for the game in r2mo
 
 - **gameInstanceType**: Use `"game"` for games or `"server"` for dedicated servers.
 - **distributions**: See [Distributions Array](#distributions-array).
-- **steamFolderName**: The subfolder used by Steam for the game. This is used to locate the game directory. Use an empty string for non-Steam platforms.
-- **dataFolderName**: Required for Unreal Engine games that rely on _unreal-shimloader_.
+- **steamFolderName**: The game's installation folder. For nested layouts, append the executable's directory with forward slashes, such as `The Lab/TheLab/win64`. For non-Steam games, use the natural install folder name, or an empty string when unused.
+- **dataFolderName**: The verified Unity data folder or Unreal game content folder. Use an empty string for loaders where this does not apply.
 - **exeNames**: An array of executable names for all supported platforms (and in r2modman's case, OSes). For the "other" and "steam-direct" platforms, the first executable in the array is used to launch the game.
 - **packageLoader**: The package (mod) loader used by the mod manager for this game. Only one loader is supported per game. See `ModmanPackageLoaderValues` in [models.ts](src/models.ts) for the options.
 - **meta**: See [Meta field](#meta-field).
@@ -112,7 +149,9 @@ to prevent it being used as an override folder.
 ### Thunderstore Field
 
 - **displayName**: Game's name for display purposes on the website.
-- **autolistPackageId**: Allows automatically listing specific packages like a mod loader on the community. See [autoListPackages.ts](src/schema/autolistPackages.ts) for the options.
+- **autolistPackageIds**: Standard packages to automatically list in the community. See [autolistPackages.ts](src/schema/autolistPackages.ts) for the options. Custom game-specific loader packs are registered separately, not autolisted.
+- **listed**: Whether the community is listed on Thunderstore. The add script sets this to `true` when assets ship.
+- **meta**: Paths to the `icon`, `cover`, `background`, and `hero` images, relative to `games/assets/`.
 
 #### Categories Array
 
