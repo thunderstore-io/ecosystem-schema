@@ -76,7 +76,7 @@ test("incomplete installations and unverified community settings are rejected", 
 });
 
 test("writing YAML preserves fields and never replaces an existing entry", () => {
-  const scratch = path.resolve("../.scratch");
+  const scratch = path.resolve(".scratch");
   fs.mkdirSync(scratch, { recursive: true });
   const directory = fs.mkdtempSync(path.join(scratch, "add-test-"));
 
