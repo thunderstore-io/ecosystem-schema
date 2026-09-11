@@ -1,0 +1,91 @@
+uuid: "87378edf-5cdb-4d96-bc23-e48850066a10"
+label: "survival-fountain-of-youth"
+meta:
+  displayName: "Survival: Fountain of Youth"
+  iconUrl: "survival-fountain-of-youth/survival-fountain-of-youth-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1967630"
+      - platform: "epic-games-store"
+        identifier: "b628a8803ed34779aed1791026c08f36"
+    steamFolderName: "Survival Fountain of Youth"
+    dataFolderName: "Survival Fountain of Youth_Data"
+    exeNames:
+      - "Survival Fountain of Youth.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Survival: Fountain of Youth"
+      iconUrl: "survival-fountain-of-youth/survival-fountain-of-youth-cover-360x480.webp"
+    settingsIdentifier: "SurvivalFountainOfYouth"
+    internalFolderName: "SurvivalFountainOfYouth"
+    packageIndex: "https://thunderstore.io/c/survival-fountain-of-youth/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "SFOY"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Survival: Fountain of Youth"
+  listed: true
+  meta:
+    icon: "survival-fountain-of-youth/survival-fountain-of-youth-icon-192x192.webp"
+    cover: "survival-fountain-of-youth/survival-fountain-of-youth-cover-360x480.webp"
+    background: "survival-fountain-of-youth/survival-fountain-of-youth-bg-1920x1080.webp"
+    hero: "survival-fountain-of-youth/survival-fountain-of-youth-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Survival: Fountain of Youth is a challenging single-player open-world adventure game set on the Caribbean islands. Survive as a shipwrecked 16th-century explorer, craft tools and shelter, and uncover the secrets of both an ancient civilization and your own fate."
