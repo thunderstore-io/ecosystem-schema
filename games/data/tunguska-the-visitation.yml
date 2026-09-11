@@ -1,0 +1,89 @@
+uuid: "0e1f97ad-8a79-4338-9735-438e884e1465"
+label: "tunguska-the-visitation"
+meta:
+  displayName: "Tunguska: The Visitation"
+  iconUrl: "tunguska-the-visitation/tunguska-the-visitation-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1601970"
+    steamFolderName: "Tunguska The Visitation"
+    dataFolderName: "Tunguska_Data"
+    exeNames:
+      - "Tunguska.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Tunguska: The Visitation"
+      iconUrl: "tunguska-the-visitation/tunguska-the-visitation-cover-360x480.webp"
+    settingsIdentifier: "TunguskaTheVisitation"
+    internalFolderName: "TunguskaTheVisitation"
+    packageIndex: "https://thunderstore.io/c/tunguska-the-visitation/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "Tunguska: The Visitation - Final Cut"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Tunguska: The Visitation"
+  listed: true
+  meta:
+    icon: "tunguska-the-visitation/tunguska-the-visitation-icon-192x192.webp"
+    cover: "tunguska-the-visitation/tunguska-the-visitation-cover-360x480.webp"
+    background: "tunguska-the-visitation/tunguska-the-visitation-bg-1920x1080.webp"
+    hero: "tunguska-the-visitation/tunguska-the-visitation-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Tunguska: The Visitation is a single player top-down shooter RPG. Seek fortune as a Ghoul Hunter in an abandoned Soviet Exclusion Zone. Use your grit and ingenuity to survive deadly radiation, mysterious anomalies, and poisonous mutants. Go in guns-blazing, or stay in the shadows - your choice."
