@@ -1,0 +1,61 @@
+uuid: "de874a82-391d-4a89-a572-9be5fdf91dc7"
+label: "offscreen"
+meta:
+  displayName: "Offscreen"
+  iconUrl: "offscreen/offscreen-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3702990"
+    steamFolderName: "Offscreen Demo/Offscreen"
+    dataFolderName: "Offscreen_Data"
+    exeNames:
+      - "Offscreen.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Offscreen"
+      iconUrl: "offscreen/offscreen-cover-360x480.webp"
+    settingsIdentifier: "Offscreen"
+    internalFolderName: "Offscreen"
+    packageIndex: "https://thunderstore.io/c/offscreen/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Offscreen"
+  listed: true
+  meta:
+    icon: "offscreen/offscreen-icon-192x192.webp"
+    cover: "offscreen/offscreen-cover-360x480.webp"
+    background: "offscreen/offscreen-bg-1920x1080.webp"
+    hero: "offscreen/offscreen-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Escape from a flat 2D TV screen and discover a 3D world in this story-driven puzzle game! Embark on a journey between dimensions, walk across the neon city, through the screens full of unexpected puzzles."
