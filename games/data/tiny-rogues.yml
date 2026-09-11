@@ -1,0 +1,88 @@
+uuid: "3763f987-9cf8-4d84-bad9-a2bb57f58fa8"
+label: "tiny-rogues"
+meta:
+  displayName: "Tiny Rogues"
+  iconUrl: "tiny-rogues/tiny-rogues-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2088570"
+    steamFolderName: "Tiny Rogues"
+    dataFolderName: "Tiny Rogues_Data"
+    exeNames:
+      - "Tiny Rogues.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Tiny Rogues"
+      iconUrl: "tiny-rogues/tiny-rogues-cover-360x480.webp"
+    settingsIdentifier: "TinyRogues"
+    internalFolderName: "TinyRogues"
+    packageIndex: "https://thunderstore.io/c/tiny-rogues/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Tiny Rogues"
+  listed: true
+  meta:
+    icon: "tiny-rogues/tiny-rogues-icon-192x192.webp"
+    cover: "tiny-rogues/tiny-rogues-cover-360x480.webp"
+    background: "tiny-rogues/tiny-rogues-bg-1920x1080.webp"
+    hero: "tiny-rogues/tiny-rogues-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Tiny Rogues is a challenging fantasy rogue-lite bullet-hell dungeon crawler with rpg elements. Build a new unique character each run and fight one monster-infested room after another! Discover unique weapons, collect magical items and level up to become more and more powerful!"
