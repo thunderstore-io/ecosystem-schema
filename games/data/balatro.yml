@@ -38,7 +38,7 @@ thunderstore:
     textures:
       label: "Textures"
     translation:
-      label: "Tranlation"
+      label: "Translation"
     text-changes:
       lavel: "Text Changes"
   sections:
