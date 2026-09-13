@@ -30,9 +30,9 @@ thunderstore:
     content-mod:
       label: "Content Mods"
     gameplay-tweaks:
-      label: "Gameplay Changes and Tweaks"
-    new-mechanics:
-      label: "New Mechanics"
+      label: "Gameplay Tweaks"
+    mechanics:
+      label: "Gameplay Mechanics"
     qol:
       label: "Quality of Life"
     textures:
