@@ -37,8 +37,10 @@ thunderstore:
       label: "Quality of Life"
     textures:
       label: "Textures"
-    localization:
-      label: "Localization"
+    translation:
+      label: "Tranlation"
+    text-changes:
+      lavel: "Text Changes"
   sections:
     mods:
       name: "Mods"
