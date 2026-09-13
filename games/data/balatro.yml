@@ -40,7 +40,7 @@ thunderstore:
     translation:
       label: "Translation"
     text-changes:
-      lavel: "Text Changes"
+      label: "Text Changes"
   sections:
     mods:
       name: "Mods"
