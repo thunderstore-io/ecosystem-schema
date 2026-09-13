@@ -27,6 +27,18 @@ thunderstore:
       label: "Audio"
     ai-generated:
       label: "AI Generated"
+    content-mod:
+      label: "Content Mods"
+    gameplay-tweaks:
+      label: "Gameplay Changes and Tweaks"
+    new-mechanics:
+      label: "New Mechanics"
+    qol:
+      label: "Quality of Life"
+    textures:
+      label: "Textures"
+    localization:
+      label: "Localization"
   sections:
     mods:
       name: "Mods"
