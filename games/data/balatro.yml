@@ -32,7 +32,7 @@ thunderstore:
     gameplay-tweaks:
       label: "Gameplay Tweaks"
     mechanics:
-      label: "Gameplay Mechanics"
+      label: "New Mechanics"
     qol:
       label: "Quality of Life"
     textures:
