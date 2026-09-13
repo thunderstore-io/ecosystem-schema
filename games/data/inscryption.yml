@@ -6,6 +6,7 @@ meta:
 distributions: []
 thunderstore:
   displayName: "Inscryption"
+  shortDescription: "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards..."
   listed: true
   meta:
     icon: "inscryption/inscryption-icon-192x192.webp"
