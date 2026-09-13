@@ -1,0 +1,90 @@
+uuid: "86cfaa74-0050-4997-91f6-5b770e19d4af"
+label: "electoral-carnage"
+meta:
+  displayName: "Electoral Carnage"
+  iconUrl: "electoral-carnage/electoral-carnage-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3706810"
+    steamFolderName: "Electoral Carnage"
+    dataFolderName: "Electoral Carnage_Data"
+    exeNames:
+      - "Electoral Carnage.exe"
+      - "Electoral Carnage.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Electoral Carnage"
+      iconUrl: "electoral-carnage/electoral-carnage-cover-360x480.webp"
+    settingsIdentifier: "ElectoralCarnage"
+    internalFolderName: "ElectoralCarnage"
+    packageIndex: "https://thunderstore.io/c/electoral-carnage/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "EC"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Electoral Carnage"
+  listed: true
+  meta:
+    icon: "electoral-carnage/electoral-carnage-icon-192x192.webp"
+    cover: "electoral-carnage/electoral-carnage-cover-360x480.webp"
+    background: "electoral-carnage/electoral-carnage-bg-1920x1080.webp"
+    hero: "electoral-carnage/electoral-carnage-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Electoral Carnage is an absurd 2D fighting game featuring America's most famous (and infamous) politicians. If you don't download it you hate America. Also JFK can assassinate himself. What more do you need to know?"

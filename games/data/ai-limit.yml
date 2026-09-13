@@ -1,0 +1,90 @@
+uuid: "cf89dd59-3ed0-4bca-a072-b28c1640ba9a"
+label: "ai-limit"
+meta:
+  displayName: "AI LIMIT"
+  iconUrl: "ai-limit/ai-limit-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2407270"
+      - platform: "epic-games-store"
+        identifier: "be55cbfd8bfb4605830e6a1308e03e73"
+    steamFolderName: "AI Limit"
+    dataFolderName: "AI-LIMIT_Data"
+    exeNames:
+      - "AI-LIMIT.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "AI LIMIT"
+      iconUrl: "ai-limit/ai-limit-cover-360x480.webp"
+    settingsIdentifier: "AiLimit"
+    internalFolderName: "AiLimit"
+    packageIndex: "https://thunderstore.io/c/ai-limit/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "AI LIMIT"
+  listed: true
+  meta:
+    icon: "ai-limit/ai-limit-icon-192x192.webp"
+    cover: "ai-limit/ai-limit-cover-360x480.webp"
+    background: "ai-limit/ai-limit-bg-1920x1080.webp"
+    hero: "ai-limit/ai-limit-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "In the distant future when civilization is on the verge of extinction, people follow the legend of the Elysium in the last city, Havenswell. In this post-apocalyptic wasteland sci-fi ARPG, you will play as Arrisa, a Blader with immortality, and explore the city ruin to find the hope of a new life."
