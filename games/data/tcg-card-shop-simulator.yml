@@ -57,6 +57,10 @@ thunderstore:
           label: "0.62 Branch"
         0-66-branch:
           label: "0.66 Branch"
+        0-70-branch:
+          label: "0.70 Branch"
+        1-0-classic-branch:
+          label: "1.0 Classic Branch"
         manual-dependencies:
           label: "Requires Manual Dependencies"
         ai-generated:
@@ -97,7 +101,30 @@ thunderstore:
       requireCategories:
         - "modpacks"
         - "0-66-branch"
+    0-70:
+      name: "0.70 Branch"
+      requireCategories:
+        - "0-70-branch"
+      excludeCategories:
+        - "modpacks"
+    0-70-modpacks:
+      name: "0.70 Branch Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "0-70-branch"
+    1-0-classic:
+      name: "1.0 Classic Branch"
+      requireCategories:
+        - "1-0-classic-branch"
+      excludeCategories:
+        - "modpacks"
+    1-0-classic-modpacks:
+      name: "1.0 Classic Branch Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "1-0-classic-branch"
   wikiUrl: "https://tcg-card-shop-simulator.notion.site/3f8c9de6b54c47a9b80329b40bdd3c2c?v=04938d1088de49e5a55734d498f081ef"
   discordUrl: "https://discord.gg/kCp4mRAVUE"
+  shortDescription: "Open your own local game store. Stock shelves with the latest booster packs, or crack them and collect the cards for yourself. Set your own prices, hire staff, host events, and expand your card shop."
   autolistPackageIds:
     - "BepInEx-BepInExPack"
