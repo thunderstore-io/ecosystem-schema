@@ -23,6 +23,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "Tunguska: The Visitation - Final Cut"
+      - "通古斯：禁区实录"
+      - "战栗通古斯"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
