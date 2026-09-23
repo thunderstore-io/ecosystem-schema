@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "TinyRogues"
     packageIndex: "https://thunderstore.io/c/tiny-rogues/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "小小肉鸽"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

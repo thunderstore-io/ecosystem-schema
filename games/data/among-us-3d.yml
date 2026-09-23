@@ -23,6 +23,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "AU3D"
+      - "太空狼人杀3D"
+      - "在我们之中3D"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

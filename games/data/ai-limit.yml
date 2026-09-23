@@ -23,7 +23,8 @@ r2modman:
     internalFolderName: "AiLimit"
     packageIndex: "https://thunderstore.io/c/ai-limit/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "无限机兵"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
