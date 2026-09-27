@@ -25,6 +25,16 @@ thunderstore:
       label: "Misc"
     audio:
       label: "Audio"
+    gameplay:
+      label: "Gameplay"
+    cheats:
+      label: "Cheats"
+    cosmetics:
+      label: "Cosmetics"
+    accessibility:
+      label: "Accessibility"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"

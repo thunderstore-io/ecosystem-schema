@@ -7,7 +7,7 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "R5Valkyrie"
-  listed: true
+  listed: false
   meta:
     icon: "r5valkyrie/r5valkyrie-icon-192x192.webp"
     cover: "r5valkyrie/r5valkyrie-cover-360x480.webp"

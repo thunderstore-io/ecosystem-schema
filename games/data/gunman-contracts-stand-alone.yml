@@ -1,0 +1,88 @@
+uuid: "d2e00ef9-0628-4c6f-a34f-5896c66f842c"
+label: "gunman-contracts-stand-alone"
+meta:
+  displayName: "Gunman Contracts - Stand Alone"
+  iconUrl: "gunman-contracts-stand-alone/gunman-contracts-stand-alone-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2421750"
+    steamFolderName: "Gunman Contracts - Stand Alone"
+    dataFolderName: "GunmanContracts_Data"
+    exeNames:
+      - "GunmanContracts.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Gunman Contracts - Stand Alone"
+      iconUrl: "gunman-contracts-stand-alone/gunman-contracts-stand-alone-cover-360x480.webp"
+    settingsIdentifier: "GunmanContractsStandAlone"
+    internalFolderName: "GunmanContractsStandAlone"
+    packageIndex: "https://thunderstore.io/c/gunman-contracts-stand-alone/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Gunman Contracts - Stand Alone"
+  listed: true
+  meta:
+    icon: "gunman-contracts-stand-alone/gunman-contracts-stand-alone-icon-192x192.webp"
+    cover: "gunman-contracts-stand-alone/gunman-contracts-stand-alone-cover-360x480.webp"
+    background: "gunman-contracts-stand-alone/gunman-contracts-stand-alone-bg-1920x1080.webp"
+    hero: "gunman-contracts-stand-alone/gunman-contracts-stand-alone-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "\"Gunman Contracts - Stand Alone\" is an intense, action-movie inspired single player shooter created for VR and Non-VR. As a professional hitman, take on ruthless forces in the criminal underworld - one contract at a time."

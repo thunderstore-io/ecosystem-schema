@@ -1,0 +1,88 @@
+uuid: "258c331a-de9e-411d-b270-5bebc3f14a32"
+label: "in-falsus"
+meta:
+  displayName: "In Falsus"
+  iconUrl: "in-falsus/in-falsus-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3971950"
+    steamFolderName: "In Falsus"
+    dataFolderName: "infalsus_Data"
+    exeNames:
+      - "infalsus.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "In Falsus"
+      iconUrl: "in-falsus/in-falsus-cover-360x480.webp"
+    settingsIdentifier: "InFalsus"
+    internalFolderName: "InFalsus"
+    packageIndex: "https://thunderstore.io/c/in-falsus/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "In Falsus"
+  listed: true
+  meta:
+    icon: "in-falsus/in-falsus-icon-192x192.webp"
+    cover: "in-falsus/in-falsus-cover-360x480.webp"
+    background: "in-falsus/in-falsus-bg-1920x1080.webp"
+    hero: "in-falsus/in-falsus-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "In a world bound by truths: connect. In Falsus is a mesmerizing rhythm game tied to an intricate card system brought together through a layered narrative. Taking place in a near-future world, traverse an atmospheric soundscape through the eyes of 5 interconnected protagonists."

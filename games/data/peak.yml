@@ -55,6 +55,10 @@ thunderstore:
       label: "Mixtapes"
     ai-generated:
       label: "AI Generated"
+    gameplay:
+      label: "Gameplay"
+    biomes:
+      label: "Biomes"
   sections:
     mods:
       name: "Mods"
