@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "GunmanContractsStandAlone"
     packageIndex: "https://thunderstore.io/c/gunman-contracts-stand-alone/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "枪手合约：独立版"
+      - "枪手契约：独立版"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

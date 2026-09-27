@@ -26,6 +26,8 @@ r2modman:
     additionalSearchStrings:
       - "GK2"
       - "GYK2"
+      - "守墓人2"
+      - "墓场物语2"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
