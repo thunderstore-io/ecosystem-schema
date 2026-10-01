@@ -25,6 +25,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "SFOY"
+      - "求生岛：不老泉传说"
+      - "求生：青春之泉"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
