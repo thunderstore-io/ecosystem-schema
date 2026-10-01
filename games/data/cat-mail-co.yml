@@ -1,0 +1,89 @@
+uuid: "ec3caa99-c4ad-4b4e-9019-a236a9fac3bf"
+label: "cat-mail-co"
+meta:
+  displayName: "Cat Mail Co."
+  iconUrl: "cat-mail-co/cat-mail-co-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4380490"
+    steamFolderName: "CatMailCo"
+    dataFolderName: "CatMailCo_Data"
+    exeNames:
+      - "CatMailCo.exe"
+      - "CatMailCo-OSX-Universal.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Cat Mail Co."
+      iconUrl: "cat-mail-co/cat-mail-co-cover-360x480.webp"
+    settingsIdentifier: "CatMailCo"
+    internalFolderName: "CatMailCo"
+    packageIndex: "https://thunderstore.io/c/cat-mail-co/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Cat Mail Co."
+  listed: true
+  meta:
+    icon: "cat-mail-co/cat-mail-co-icon-192x192.webp"
+    cover: "cat-mail-co/cat-mail-co-cover-360x480.webp"
+    background: "cat-mail-co/cat-mail-co-bg-1920x1080.webp"
+    hero: "cat-mail-co/cat-mail-co-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Run a cozy cat post office. Sort and deliver parcels from the daily boat, organizing everything your way. At night, the moon reveals hidden truths about packages. Clear a strange backlog, help locals, and unlock new abilities and destinations."
