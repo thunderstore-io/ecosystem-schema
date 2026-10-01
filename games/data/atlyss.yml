@@ -13,34 +13,32 @@ thunderstore:
     background: "atlyss/atlyss-bg-1920x1080.webp"
     hero: "atlyss/atlyss-bg-1920x620.webp"
   categories:
-    mods:
-      label: "Mods"
-    modpacks:
-      label: "Modpacks"
-    bundles:
-      label: "Bundles"
-    tools:
-      label: "Tools"
-    libraries:
-      label: "Libraries"
-    misc:
-      label: "Misc"
-    audio:
-      label: "Audio"
-    quests:
-      label: "Quests"
-    maps:
-      label: "Maps"
-    languages:
-      label: "Languages"
-    tweaks:
-      label: "Tweaks"
-    assets:
-      label: "Assets"
-    emotes:
-      label: "Emotes"
     ai-generated:
       label: "AI Generated"
+    assets:
+      label: "Assets"
+    audio:
+      label: "Audio"
+    bundles:
+      label: "Bundles"
+    emotes:
+      label: "Emotes"
+    languages:
+      label: "Languages"
+    libraries:
+      label: "Libraries"
+    maps:
+      label: "Maps"
+    modpacks:
+      label: "Modpacks"
+    mods:
+      label: "Mods"
+    quests:
+      label: "Quests"
+    tools:
+      label: "Tools"
+    tweaks:
+      label: "Tweaks"
   sections:
     mods:
       name: "Mods"
