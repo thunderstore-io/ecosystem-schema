@@ -1,0 +1,88 @@
+uuid: "577c6aaf-721c-4cd0-bd5e-99951096ae5c"
+label: "space-cat-digger"
+meta:
+  displayName: "Space Cat Digger"
+  iconUrl: "space-cat-digger/space-cat-digger-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "5291170"
+    steamFolderName: "Space Cat Digger Demo"
+    dataFolderName: "Space Cat Digger Demo_Data"
+    exeNames:
+      - "Space Cat Digger Demo.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Space Cat Digger"
+      iconUrl: "space-cat-digger/space-cat-digger-cover-360x480.webp"
+    settingsIdentifier: "SpaceCatDigger"
+    internalFolderName: "SpaceCatDigger"
+    packageIndex: "https://thunderstore.io/c/space-cat-digger/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Space Cat Digger"
+  listed: true
+  meta:
+    icon: "space-cat-digger/space-cat-digger-icon-192x192.webp"
+    cover: "space-cat-digger/space-cat-digger-cover-360x480.webp"
+    background: "space-cat-digger/space-cat-digger-bg-1920x1080.webp"
+    hero: "space-cat-digger/space-cat-digger-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "In Space Cat Digger, you will mine resources, build machines, upgrade your equipment, and try to get the highest score possible within a limited time. Play your own way, manage your resources, optimize, automate… while something strange begins to awaken"
