@@ -7,7 +7,7 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "ReSkate"
-  listed: false
+  listed: true
   meta:
     icon: "reskate/reskate-icon-192x192.webp"
     cover: "reskate/reskate-cover-360x480.webp"
