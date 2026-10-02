@@ -29,6 +29,8 @@ thunderstore:
       label: "Libraries"
     maps:
       label: "Maps"
+    misc:
+      label: "Misc"
     modpacks:
       label: "Modpacks"
     mods:
