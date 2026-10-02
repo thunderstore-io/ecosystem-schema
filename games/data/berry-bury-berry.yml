@@ -1,0 +1,88 @@
+uuid: "a6e32440-fdf8-4ac3-b4a6-cf83dd80e62b"
+label: "berry-bury-berry"
+meta:
+  displayName: "Berry Bury Berry"
+  iconUrl: "berry-bury-berry/berry-bury-berry-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3370870"
+    steamFolderName: "BerryBerryBerry"
+    dataFolderName: "BerryBerryBerryBerryBerryBerryBerryBerryBerry_Data"
+    exeNames:
+      - "BerryBerryBerryBerryBerryBerryBerryBerryBerry.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Berry Bury Berry"
+      iconUrl: "berry-bury-berry/berry-bury-berry-cover-360x480.webp"
+    settingsIdentifier: "BerryBuryBerry"
+    internalFolderName: "BerryBuryBerry"
+    packageIndex: "https://thunderstore.io/c/berry-bury-berry/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Berry Bury Berry"
+  listed: true
+  meta:
+    icon: "berry-bury-berry/berry-bury-berry-icon-192x192.webp"
+    cover: "berry-bury-berry/berry-bury-berry-cover-360x480.webp"
+    background: "berry-bury-berry/berry-bury-berry-bg-1920x1080.webp"
+    hero: "berry-bury-berry/berry-bury-berry-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "A juicy first-person incremental game about growing berries and tossing them down an ominous hole. Earn money and upgrades. Make new friends with sentient berry pals. Grow and control the hole as you unearth why nobody leaves this accursed garden. Bury it all, Berry everything."

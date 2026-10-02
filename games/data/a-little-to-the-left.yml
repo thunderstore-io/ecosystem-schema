@@ -1,0 +1,92 @@
+uuid: "775ba624-f329-4827-aed9-2c06042c5eff"
+label: "a-little-to-the-left"
+meta:
+  displayName: "A Little to the Left"
+  iconUrl: "a-little-to-the-left/a-little-to-the-left-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1629520"
+      - platform: "xbox-game-pass"
+        identifier: "SecretMode.14503D6FAF8AD"
+    steamFolderName: "A Little To The Left"
+    dataFolderName: "A Little To The Left_Data"
+    exeNames:
+      - "A Little To The Left.exe"
+      - "A Little To The Left.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "A Little to the Left"
+      iconUrl: "a-little-to-the-left/a-little-to-the-left-cover-360x480.webp"
+    settingsIdentifier: "ALittleToTheLeft"
+    internalFolderName: "ALittleToTheLeft"
+    packageIndex: "https://thunderstore.io/c/a-little-to-the-left/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "ALTTL"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "A Little to the Left"
+  listed: true
+  meta:
+    icon: "a-little-to-the-left/a-little-to-the-left-icon-192x192.webp"
+    cover: "a-little-to-the-left/a-little-to-the-left-cover-360x480.webp"
+    background: "a-little-to-the-left/a-little-to-the-left-bg-1920x1080.webp"
+    hero: "a-little-to-the-left/a-little-to-the-left-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "A Little to the Left is a cozy puzzle game that has you sort, stack, and organize household items into pleasing arrangements while you keep an eye out for a mischievous cat with an inclination for chaos. Check out this playful and intuitive puzzler with 100+ satisfying messes to tidy."
