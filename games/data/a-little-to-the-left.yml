@@ -26,6 +26,7 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "ALTTL"
+      - "往左一点"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
