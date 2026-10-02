@@ -21,7 +21,9 @@ r2modman:
     internalFolderName: "BerryBuryBerry"
     packageIndex: "https://thunderstore.io/c/berry-bury-berry/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "无底洞和鲜果乐园"
+      - "浆果埋葬巴里"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

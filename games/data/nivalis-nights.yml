@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "NivalisNights"
     packageIndex: "https://thunderstore.io/c/nivalis-nights/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "尼瓦利斯之夜"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

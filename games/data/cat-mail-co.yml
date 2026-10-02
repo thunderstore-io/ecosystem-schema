@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "CatMailCo"
     packageIndex: "https://thunderstore.io/c/cat-mail-co/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "猫咪邮政"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
