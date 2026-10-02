@@ -1,0 +1,88 @@
+uuid: "ace913c3-1e5e-4c52-89be-7dbbd5c1d472"
+label: "nivalis-nights"
+meta:
+  displayName: "Nivalis Nights"
+  iconUrl: "nivalis-nights/nivalis-nights-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1488490"
+    steamFolderName: "Nivalis Nights"
+    dataFolderName: "Nivalis Nights_Data"
+    exeNames:
+      - "Nivalis Nights.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Nivalis Nights"
+      iconUrl: "nivalis-nights/nivalis-nights-cover-360x480.webp"
+    settingsIdentifier: "NivalisNights"
+    internalFolderName: "NivalisNights"
+    packageIndex: "https://thunderstore.io/c/nivalis-nights/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Nivalis Nights"
+  listed: true
+  meta:
+    icon: "nivalis-nights/nivalis-nights-icon-192x192.webp"
+    cover: "nivalis-nights/nivalis-nights-cover-360x480.webp"
+    background: "nivalis-nights/nivalis-nights-bg-1920x1080.webp"
+    hero: "nivalis-nights/nivalis-nights-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Grow your business, manage restaurants and nightclubs, make friends and enemies, buy and decorate apartments, go fishing and maybe even find love in a cyberpunk city that stretches from the ocean to the clouds."

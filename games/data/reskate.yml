@@ -1,0 +1,40 @@
+uuid: "62550834-f3d6-4d6e-97c5-7a1bb10f9cf2"
+label: "reskate"
+meta:
+  displayName: "ReSkate"
+  iconUrl: "reskate/reskate-cover-360x480.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "ReSkate"
+  listed: false
+  meta:
+    icon: "reskate/reskate-icon-192x192.webp"
+    cover: "reskate/reskate-cover-360x480.webp"
+    background: "reskate/reskate-bg-1920x1080.webp"
+    hero: "reskate/reskate-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "A custom modded client for the game skate."

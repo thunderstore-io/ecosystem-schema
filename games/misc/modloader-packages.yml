@@ -295,3 +295,6 @@
 - packageId: "BepInEx-BepInExPack_Sineus"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "ApproximatelyUp_Modding-BepInExPack_ApproximatelyUp"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"

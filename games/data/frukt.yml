@@ -1,0 +1,61 @@
+uuid: "a1b7d20b-143a-47a1-9c89-871ae557f99c"
+label: "frukt"
+meta:
+  displayName: "FRUKT"
+  iconUrl: "frukt/frukt-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3880400"
+    steamFolderName: "FRUKT"
+    dataFolderName: "FRUKT_Data"
+    exeNames:
+      - "FRUKT.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "FRUKT"
+      iconUrl: "frukt/frukt-cover-360x480.webp"
+    settingsIdentifier: "Frukt"
+    internalFolderName: "Frukt"
+    packageIndex: "https://thunderstore.io/c/frukt/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "FRUKT"
+  listed: true
+  meta:
+    icon: "frukt/frukt-icon-192x192.webp"
+    cover: "frukt/frukt-cover-360x480.webp"
+    background: "frukt/frukt-bg-1920x1080.webp"
+    hero: "frukt/frukt-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "A voxel-based death sandbox. Shoot, dismember, and crush NPCs with realistic body physics."
