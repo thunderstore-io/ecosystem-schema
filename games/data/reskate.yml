@@ -47,4 +47,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/HXAJ89Zz5A"
   shortDescription: "A custom modded client for the game skate."
