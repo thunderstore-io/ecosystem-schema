@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "ApproximatelyUp"
     packageIndex: "https://thunderstore.io/c/approximately-up/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "近似上升"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
