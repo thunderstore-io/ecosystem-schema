@@ -7,7 +7,7 @@ distributions: []
 r2modman: null
 thunderstore:
   displayName: "ReSkate"
-  listed: false
+  listed: true
   meta:
     icon: "reskate/reskate-icon-192x192.webp"
     cover: "reskate/reskate-cover-360x480.webp"
@@ -18,6 +18,16 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
+    maps:
+      label: "Maps"
+    cosmetics:
+      label: "Cosmetics"
+    skateboards:
+      label: "Skateboards"
+    emotes:
+      label: "Emotes"
+    camera-mods:
+      label: "Camera Mods"
     tools:
       label: "Tools"
     libraries:
@@ -37,4 +47,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/HXAJ89Zz5A"
   shortDescription: "A custom modded client for the game skate."
