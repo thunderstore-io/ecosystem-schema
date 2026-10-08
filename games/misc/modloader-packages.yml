@@ -298,3 +298,6 @@
 - packageId: "ApproximatelyUp_Modding-BepInExPack_ApproximatelyUp"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "WhisperOfTheHouse_Modding-BepInExPack_WhisperOfTheHouse"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
