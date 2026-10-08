@@ -301,3 +301,6 @@
 - packageId: "WhisperOfTheHouse_Modding-BepInExPack_WhisperOfTheHouse"
   rootFolder: "BepInExPack"
   loader: "bepinex"
+- packageId: "Crawl_Modding-BepInExPack_Crawl"
+  rootFolder: "BepInExPack"
+  loader: "bepinex"
