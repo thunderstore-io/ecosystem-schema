@@ -21,6 +21,7 @@ export const ModmanPackageLoaderValues = [
   "umm",
   "rivet",
   "mio",
+  "gdpatch",
   "none",
 ] as const;
 export type ModmanPackageLoader = typeof ModmanPackageLoaderValues[number];
