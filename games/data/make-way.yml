@@ -1,0 +1,90 @@
+uuid: "f91de328-8021-46a0-8dac-75d2d4343d6b"
+label: "make-way"
+meta:
+  displayName: "Make Way"
+  iconUrl: "make-way/make-way-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1445790"
+      - platform: "epic-games-store"
+        identifier: "4ff6e3e8e29a4c94a177af77baba1fde"
+    steamFolderName: "Make Way"
+    dataFolderName: "Make Way_Data"
+    exeNames:
+      - "Make Way.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Make Way"
+      iconUrl: "make-way/make-way-cover-360x480.webp"
+    settingsIdentifier: "MakeWay"
+    internalFolderName: "MakeWay"
+    packageIndex: "https://thunderstore.io/c/make-way/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Make Way"
+  listed: true
+  meta:
+    icon: "make-way/make-way-icon-192x192.webp"
+    cover: "make-way/make-way-cover-360x480.webp"
+    background: "make-way/make-way-bg-1920x1080.webp"
+    hero: "make-way/make-way-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Speed around loops, dart through train crossings, drift around helter skelters, and unleash wacky weaponry in this modern take on classic top-down multiplayer racing games such as Micro Machines and Mashed. The twist? You build the track."
