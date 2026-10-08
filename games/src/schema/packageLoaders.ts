@@ -59,6 +59,10 @@ export const PACKAGE_LOADER_CHOICES: PackageLoaderChoice[] = [
     name: "Rivet",
   },
   {
+    value: "gdpatch",
+    name: "GDPatch",
+  },
+  {
     value: "none",
     name: "None",
   },
