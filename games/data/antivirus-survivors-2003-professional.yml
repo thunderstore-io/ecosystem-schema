@@ -1,0 +1,60 @@
+uuid: "9d7ad61a-5f6b-4ba6-8c42-7f402096ba69"
+label: "antivirus-survivors-2003-professional"
+meta:
+  displayName: "Antivirus Survivors 2003 Professional"
+  iconUrl: "antivirus-survivors-2003-professional/antivirus-survivors-2003-professional-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3832490"
+    steamFolderName: "Antivirus Survivors 2003 Professional"
+    dataFolderName: ""
+    exeNames:
+      - "AVS03Pro.exe"
+    packageLoader: "gdpatch"
+    meta:
+      displayName: "Antivirus Survivors 2003 Professional"
+      iconUrl: "antivirus-survivors-2003-professional/antivirus-survivors-2003-professional-cover-360x480.webp"
+    settingsIdentifier: "AntivirusSurvivors2003Professional"
+    internalFolderName: "AntivirusSurvivors2003Professional"
+    packageIndex: "https://thunderstore.io/c/antivirus-survivors-2003-professional/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "AVS03"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Antivirus Survivors 2003 Professional"
+  listed: true
+  meta:
+    icon: "antivirus-survivors-2003-professional/antivirus-survivors-2003-professional-icon-192x192.webp"
+    cover: "antivirus-survivors-2003-professional/antivirus-survivors-2003-professional-cover-360x480.webp"
+    background: "antivirus-survivors-2003-professional/antivirus-survivors-2003-professional-bg-1920x1080.webp"
+    hero: "antivirus-survivors-2003-professional/antivirus-survivors-2003-professional-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "The family computer is infected again and it’s your job to fend off waves of viruses and adware foes with an arsenal of nostalgic Y2K-inspired weapons. Antivirus Survivors 2003 Professional is a survivor-like auto-shooter filled with nods to the days when computers were actually fun."
