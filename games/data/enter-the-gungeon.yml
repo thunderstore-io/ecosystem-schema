@@ -1,0 +1,63 @@
+uuid: "f2ae6950-3481-4448-827f-5d186c620dcf"
+label: "enter-the-gungeon"
+meta:
+  displayName: "Enter the Gungeon"
+  iconUrl: "enter-the-gungeon/enter-the-gungeon-cover-360x480.webp"
+distributions: []
+thunderstore:
+  displayName: "Enter the Gungeon"
+  listed: true
+  meta:
+    icon: "enter-the-gungeon/enter-the-gungeon-icon-192x192.webp"
+    cover: "enter-the-gungeon/enter-the-gungeon-cover-360x480.webp"
+    background: "enter-the-gungeon/enter-the-gungeon-bg-1920x1080.webp"
+    hero: "enter-the-gungeon/enter-the-gungeon-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    libraries:
+      label: "Libraries"
+    tools:
+      label: "Tools"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    guns:
+      label: "Guns"
+    items:
+      label: "Items"
+    bosses:
+      label: "Bosses"
+    npcs:
+      label: "NPCs"
+    gungeoneers:
+      label: "Gungeoneers"
+    qol:
+      label: "QoL"
+    rooms:
+      label: "Rooms"
+    floors:
+      label: "Floors"
+    enemies:
+      label: "Enemies"
+    reskins:
+      label: "Reskins"
+    hats:
+      label: "Hats"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/uT7AwbcpyC"
+  wikiUrl: "https://mtgmodders.gitbook.io/mtg-modding-guide/"
+  shortDescription: "Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past."
