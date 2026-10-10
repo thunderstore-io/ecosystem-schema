@@ -1,0 +1,91 @@
+uuid: "471954f6-2d93-46ab-ac37-a55ed4212cde"
+label: "crawl"
+meta:
+  displayName: "Crawl"
+  iconUrl: "crawl/crawl-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "293780"
+      - platform: "other"
+        identifier: null
+    steamFolderName: "Crawl"
+    dataFolderName: "Crawl_Data"
+    exeNames:
+      - "Crawl.exe"
+      - "Crawl.x86"
+      - "Crawl.x86_64"
+      - "Crawl.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Crawl"
+      iconUrl: "crawl/crawl-cover-360x480.webp"
+    settingsIdentifier: "Crawl"
+    internalFolderName: "Crawl"
+    packageIndex: "https://thunderstore.io/c/crawl/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Crawl"
+  listed: true
+  meta:
+    icon: "crawl/crawl-icon-192x192.webp"
+    cover: "crawl/crawl-cover-360x480.webp"
+    background: "crawl/crawl-bg-1920x1080.webp"
+    hero: "crawl/crawl-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Crawl is the local multiplayer dungeon crawler where your friends control the monsters! Battle through dungeons and power up your hero - if a friend kills you they take your place and it’s their turn to crawl. It's a race to gain enough XP and loot to take on the hulking final boss!"

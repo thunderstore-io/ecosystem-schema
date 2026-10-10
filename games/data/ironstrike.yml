@@ -1,0 +1,88 @@
+uuid: "bf7e1d5b-32c6-4a6f-9afd-abaf3c87210d"
+label: "ironstrike"
+meta:
+  displayName: "IRONSTRIKE"
+  iconUrl: "ironstrike/ironstrike-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3233230"
+    steamFolderName: "IRONSTRIKE"
+    dataFolderName: "Ironstrike_Data"
+    exeNames:
+      - "Ironstrike.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "IRONSTRIKE"
+      iconUrl: "ironstrike/ironstrike-cover-360x480.webp"
+    settingsIdentifier: "Ironstrike"
+    internalFolderName: "Ironstrike"
+    packageIndex: "https://thunderstore.io/c/ironstrike/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "IRONSTRIKE"
+  listed: true
+  meta:
+    icon: "ironstrike/ironstrike-icon-192x192.webp"
+    cover: "ironstrike/ironstrike-cover-360x480.webp"
+    background: "ironstrike/ironstrike-bg-1920x1080.webp"
+    hero: "ironstrike/ironstrike-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "IRONSTRIKE is a 4-player co-op roguelike featuring physics-based swordplay, gestural spellcasting, and archery. Wield a sword, bow & arrow, or magic, and customize your build as you fight to rescue the gods of a vibrant fantasy world."
