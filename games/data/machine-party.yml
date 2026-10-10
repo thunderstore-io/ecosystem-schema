@@ -1,0 +1,59 @@
+uuid: "ab992ae7-6a81-4080-ba69-dc64797ef4c8"
+label: "machine-party"
+meta:
+  displayName: "Machine Party"
+  iconUrl: "machine-party/machine-party-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4108000"
+    steamFolderName: "party project/Machine Party_Windows"
+    dataFolderName: ""
+    exeNames:
+      - "Machine Party.exe"
+    packageLoader: "gdpatch"
+    meta:
+      displayName: "Machine Party"
+      iconUrl: "machine-party/machine-party-cover-360x480.webp"
+    settingsIdentifier: "MachineParty"
+    internalFolderName: "MachineParty"
+    packageIndex: "https://thunderstore.io/c/machine-party/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Machine Party"
+  listed: true
+  meta:
+    icon: "machine-party/machine-party-icon-192x192.webp"
+    cover: "machine-party/machine-party-cover-360x480.webp"
+    background: "machine-party/machine-party-bg-1920x1080.webp"
+    hero: "machine-party/machine-party-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Machine Party is a collection of violent party games where failure is lethal. Gather your friends and endure high stakes situations to prove your life is worth more than theirs. Survival is unlikely."
