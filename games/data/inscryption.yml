@@ -136,5 +136,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://inscryptionmodding.github.io/InscryptionAPI/wiki/"
+  wikiUrl: "https://inscryptionmodding.wiki.gg/"
   discordUrl: "https://discord.gg/8EZFmm5xB6"
