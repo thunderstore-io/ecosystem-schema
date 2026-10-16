@@ -8,8 +8,8 @@ r2modman:
   - gameInstanceType: "game"
     distributions:
       - platform: "steam"
-        identifier: "4231580"
-    steamFolderName: "Beetleball Demo"
+        identifier: "2776270"
+    steamFolderName: "BeetleBall"
     dataFolderName: "Beetleball_Data"
     exeNames:
       - "Beetleball.exe"
