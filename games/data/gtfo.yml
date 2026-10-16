@@ -1,0 +1,32 @@
+uuid: "ac1a90d0-aad5-4a23-9d56-e8bff5beeaac"
+label: "gtfo"
+meta:
+  displayName: "GTFO"
+  iconUrl: "gtfo/gtfo-cover-360x480.webp"
+distributions: []
+thunderstore:
+  displayName: "GTFO"
+  listed: true
+  meta:
+    icon: "gtfo/gtfo-icon-192x192.webp"
+    cover: "gtfo/gtfo-cover-360x480.webp"
+    background: "gtfo/gtfo-bg-1920x1080.webp"
+    hero: "gtfo/gtfo-bg-1920x620.webp"
+  categories:
+    rundowns:
+      label: "Rundowns"
+    client-mods:
+      label: "Client Mods"
+    rundown-mods:
+      label: "Rundown Mods"
+    dev-tools:
+      label: "Dev Tools"
+    modpacks:
+      label: "Modpacks"
+    libraries:
+      label: "Libraries"
+    ai-generated:
+      label: "AI Generated"
+  sections: {}
+  discordUrl: "https://discord.com/invite/rRMPtv4FAh"
+  shortDescription: "GTFO is a hardcore cooperative horror shooter that throws you from gripping suspense to explosive action in a heartbeat. Stealth, strategy, and teamwork are necessary to survive in your deadly, underground prison. Work together or die together."
