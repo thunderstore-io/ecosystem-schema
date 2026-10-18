@@ -23,6 +23,8 @@ r2modman:
     gameSelectionDisplayMode: "visible"
     additionalSearchStrings:
       - "AVS03"
+      - "杀毒软件幸存者2003专业版"
+      - "杀毒幸存者2003专业版"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

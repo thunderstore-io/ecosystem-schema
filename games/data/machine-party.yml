@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "MachineParty"
     packageIndex: "https://thunderstore.io/c/machine-party/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "机械狂欢"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
