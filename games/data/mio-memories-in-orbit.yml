@@ -27,7 +27,10 @@ r2modman:
     internalFolderName: "MioMemoriesInOrbit"
     packageIndex: "https://thunderstore.io/c/mio-memories-in-orbit/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "秘奥：秘宇奥忆"
+      - "MIO：轨道记忆"
+      - "MIO：记忆中的轨道"
     installRules: []
     relativeFileExclusions: null
 thunderstore:
