@@ -21,8 +21,12 @@ thunderstore:
       label: "Audio"
     bundles:
       label: "Bundles"
+    customisation:
+      label: "Customisation"
     emotes:
       label: "Emotes"
+    items:
+      label: "Items"
     languages:
       label: "Languages"
     libraries:
