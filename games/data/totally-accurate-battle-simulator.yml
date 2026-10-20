@@ -1,0 +1,104 @@
+uuid: "d731a8bc-0780-432c-9c8a-b8e9d6047831"
+label: "totally-accurate-battle-simulator"
+meta:
+  displayName: "TABS"
+  iconUrl: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-cover-360x480.webp"
+distributions:
+  - platform: "steam"
+    identifier: "508440"
+  - platform: "epic-games-store"
+    identifier: "Driftfish"
+  - platform: "xbox-game-pass"
+    identifier: "LandfallGames.TotallyAccurateBattleSimulator"
+r2modman:
+  - meta:
+      displayName: "TABS"
+      iconUrl: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-cover-360x480.webp"
+    internalFolderName: "TABS"
+    dataFolderName: "TotallyAccurateBattleSimulator_Data"
+    distributions:
+      - platform: "steam"
+        identifier: "508440"
+      - platform: "epic-games-store"
+        identifier: "Driftfish"
+      - platform: "xbox-game-pass"
+        identifier: "LandfallGames.TotallyAccurateBattleSimulator"
+    settingsIdentifier: "TotallyAccurateBattleSimulator"
+    packageIndex: "https://thunderstore.io/c/totally-accurate-battle-simulator/api/v1/package-listing-index/"
+    steamFolderName: "Totally Accurate Battle Simulator"
+    exeNames:
+      - "TotallyAccurateBattleSimulator.exe"
+    gameInstanceType: "game"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "Totally Accurate Battle Simulator"
+      - "全面战争模拟器"
+    packageLoader: "bepinex"
+    installRules:
+      - route: "BepInEx/plugins"
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: true
+      - route: "BepInEx/core"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/patchers"
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/monomod"
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+        isDefaultLocation: false
+      - route: "BepInEx/config"
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+        isDefaultLocation: false
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Totally Accurate Battle Simulator"
+  listed: true
+  meta:
+    icon: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-icon-192x192.webp"
+    cover: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-cover-360x480.webp"
+    background: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-bg-1920x1080.webp"
+    hero: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    units:
+      label: "Units"
+    factions:
+      label: "Factions"
+    maps:
+      label: "Maps"
+    ai-generated:
+      label: "AI-Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Totally Accurate Battle Simulator is a silly physics-based fighting simulation game"
