@@ -27,6 +27,8 @@ thunderstore:
       label: "Libraries"
     ai-generated:
       label: "AI Generated"
+    geomorph-packs:
+      label: "Geomorph Packs"
   sections: {}
   discordUrl: "https://discord.com/invite/rRMPtv4FAh"
   shortDescription: "GTFO is a hardcore cooperative horror shooter that throws you from gripping suspense to explosive action in a heartbeat. Stealth, strategy, and teamwork are necessary to survive in your deadly, underground prison. Work together or die together."
