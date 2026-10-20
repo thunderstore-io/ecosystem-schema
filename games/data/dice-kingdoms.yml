@@ -1,0 +1,88 @@
+uuid: "8c924dfa-6781-437a-82ae-1ae2c645ceea"
+label: "dice-kingdoms"
+meta:
+  displayName: "Dice Kingdoms"
+  iconUrl: "dice-kingdoms/dice-kingdoms-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1501690"
+    steamFolderName: "Dice-Kingdoms"
+    dataFolderName: "Dice-Kingdoms_Data"
+    exeNames:
+      - "Dice-Kingdoms.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Dice Kingdoms"
+      iconUrl: "dice-kingdoms/dice-kingdoms-cover-360x480.webp"
+    settingsIdentifier: "DiceKingdoms"
+    internalFolderName: "DiceKingdoms"
+    packageIndex: "https://thunderstore.io/c/dice-kingdoms/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Dice Kingdoms"
+  listed: true
+  meta:
+    icon: "dice-kingdoms/dice-kingdoms-icon-192x192.webp"
+    cover: "dice-kingdoms/dice-kingdoms-cover-360x480.webp"
+    background: "dice-kingdoms/dice-kingdoms-bg-1920x1080.webp"
+    hero: "dice-kingdoms/dice-kingdoms-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Compete against friends in games filled with unpredictable twists and turns. Roll the dice to gather resources and test your adaptability. Lead your kingdom to success through military power, religious knowledge, or architectural ingenuity."
