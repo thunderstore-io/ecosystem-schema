@@ -1,0 +1,53 @@
+uuid: "a1159a16-08af-4b9d-af6c-21facc01f6f0"
+label: "snaptic"
+meta:
+  displayName: "SNAPTIC"
+  iconUrl: null
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "5273300"
+    steamFolderName: "SNAPTIC Demo"
+    dataFolderName: ""
+    exeNames:
+      - "snaptic.exe"
+    packageLoader: "gdpatch"
+    meta:
+      displayName: "SNAPTIC"
+      iconUrl: null
+    settingsIdentifier: "Snaptic"
+    internalFolderName: "Snaptic"
+    packageIndex: "https://thunderstore.io/c/snaptic/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "SNAPTIC"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "SNAPTIC is a physics-based puzzle-platformer that takes place in an offline laptop, and it's up to you to remember the Wi-Fi password."
