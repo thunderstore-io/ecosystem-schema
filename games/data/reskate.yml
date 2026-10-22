@@ -18,6 +18,8 @@ thunderstore:
       label: "Mods"
     modpacks:
       label: "Modpacks"
+    plugins:
+      label: "Plugins"
     maps:
       label: "Maps"
     cosmetics:
