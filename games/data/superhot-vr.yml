@@ -1,0 +1,62 @@
+uuid: "61af71ba-bcb4-4c49-834f-4a2fddfa68cb"
+label: "superhot-vr"
+meta:
+  displayName: "SUPERHOT VR"
+  iconUrl: "superhot-vr/superhot-vr-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "617830"
+    steamFolderName: "SUPERHOT VR"
+    dataFolderName: "SUPERHOT_VR_Data"
+    exeNames:
+      - "SUPERHOT_VR.exe"
+      - "SUPERHOTVR.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "SUPERHOT VR"
+      iconUrl: "superhot-vr/superhot-vr-cover-360x480.webp"
+    settingsIdentifier: "SuperhotVr"
+    internalFolderName: "SuperhotVr"
+    packageIndex: "https://thunderstore.io/c/superhot-vr/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "SUPERHOT VR"
+  listed: true
+  meta:
+    icon: "superhot-vr/superhot-vr-icon-192x192.webp"
+    cover: "superhot-vr/superhot-vr-cover-360x480.webp"
+    background: "superhot-vr/superhot-vr-bg-1920x1080.webp"
+    hero: "superhot-vr/superhot-vr-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Lose track of what’s real. Commit yourself, body and mind. Confront the evocative, elegantly brutal world of SUPERHOT VR. Enemies pouring into the room from all sides, dozens of bullets coursing through the air... Wait. Something seems different in here..."

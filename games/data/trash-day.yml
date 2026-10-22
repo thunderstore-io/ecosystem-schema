@@ -1,0 +1,88 @@
+uuid: "a0ed2324-50d5-4737-ad69-8dfe71cc1462"
+label: "trash-day"
+meta:
+  displayName: "Trash Day"
+  iconUrl: "trash-day/trash-day-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3314580"
+    steamFolderName: "TrashDay"
+    dataFolderName: "Trash_Data"
+    exeNames:
+      - "Trash.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Trash Day"
+      iconUrl: "trash-day/trash-day-cover-360x480.webp"
+    settingsIdentifier: "TrashDay"
+    internalFolderName: "TrashDay"
+    packageIndex: "https://thunderstore.io/c/trash-day/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Trash Day"
+  listed: true
+  meta:
+    icon: "trash-day/trash-day-icon-192x192.webp"
+    cover: "trash-day/trash-day-cover-360x480.webp"
+    background: "trash-day/trash-day-bg-1920x1080.webp"
+    hero: "trash-day/trash-day-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Team up with your raccoon squad in this physics-based co-op adventure for up to 6 players. Scavenge trash, fill your stolen wagon, and haul it to Raccoon Paradise. Live your best raccoon life."

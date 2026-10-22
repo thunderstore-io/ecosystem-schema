@@ -1,0 +1,44 @@
+uuid: "d4edd31f-ad02-40ec-8396-9a5ea10647d1"
+label: "movie-battles-2"
+meta:
+  displayName: "Movie Battles II"
+  iconUrl: "movie-battles-2/movie-battles-2-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Movie Battles II"
+  listed: true
+  meta:
+    icon: "movie-battles-2/movie-battles-2-icon-192x192.webp"
+    cover: "movie-battles-2/movie-battles-2-cover-360x480.webp"
+    background: "movie-battles-2/movie-battles-2-bg-1920x1080.webp"
+    hero: "movie-battles-2/movie-battles-2-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://moviebattles.fandom.com/wiki/Tools"
+  discordUrl: "https://discord.moviebattles.org/"
+  shortDescription: "Movie Battles II is a multiplayer mod for the award winning game Jedi Knight Jedi Academy. Players fight in the most iconic battles seen throughout the entire Star Wars saga!"

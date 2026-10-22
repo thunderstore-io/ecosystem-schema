@@ -1,0 +1,55 @@
+uuid: "429bb8b1-7bb0-409f-a1f2-73357298e651"
+label: "h3vr"
+meta:
+  displayName: "H3VR"
+  iconUrl: "h3vr/h3vr-cover-360x480.webp"
+distributions: []
+thunderstore:
+  displayName: "H3VR"
+  listed: true
+  meta:
+    icon: "h3vr/h3vr-icon-192x192.webp"
+    cover: "h3vr/h3vr-cover-360x480.webp"
+    background: "h3vr/h3vr-bg-1920x1080.webp"
+    hero: "h3vr/h3vr-bg-1920x620.webp"
+  categories:
+    items:
+      label: "Items"
+    weapons:
+      label: "Weapons"
+    ammo:
+      label: "Ammo"
+    skins:
+      label: "Skins"
+    audio:
+      label: "Audio"
+    maps:
+      label: "Maps"
+    characters:
+      label: "Characters"
+    tweaks:
+      label: "Tweaks"
+    libraries:
+      label: "Libraries"
+    tools:
+      label: "Tools"
+    nsfw:
+      label: "NSFW"
+    modpacks:
+      label: "Modpacks"
+    mods:
+      label: "Mods"
+    wearables:
+      label: "Wearables"
+    music:
+      label: "Music"
+    vault-file:
+      label: "Vault File"
+    scene-file:
+      label: "Scene File"
+    ai-generated:
+      label: "AI Generated"
+  sections: {}
+  discordUrl: "https://discord.gg/Hggg7wh"
+  wikiUrl: "https://h3vrmodding.miraheze.org/wiki/Main_Page"
+  shortDescription: "Do you like hot dogs? How about horseshoes? Hand grenades? (everyone likes hand grenades) Anyway, we've got all that, and guns. SO MANY GUNS. So if you like ordnance, meat, and far too many groan-worthy puns, this is the VR sandbox game for you."

@@ -1,0 +1,91 @@
+uuid: "65d458ed-2636-4252-9527-2f3e2e22d600"
+label: "a-webbing-journey"
+meta:
+  displayName: "A Webbing Journey"
+  iconUrl: "a-webbing-journey/a-webbing-journey-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2073910"
+    steamFolderName: "A Webbing Journey"
+    dataFolderName: "A Webbing Journey_Data"
+    exeNames:
+      - "A Webbing Journey.exe"
+      - "A Webbing Journey.app"
+      - "A Webbing Journey.x86_64"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "A Webbing Journey"
+      iconUrl: "a-webbing-journey/a-webbing-journey-cover-360x480.webp"
+    settingsIdentifier: "AWebbingJourney"
+    internalFolderName: "AWebbingJourney"
+    packageIndex: "https://thunderstore.io/c/a-webbing-journey/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "A Webbing Journey"
+  listed: true
+  meta:
+    icon: "a-webbing-journey/a-webbing-journey-icon-192x192.webp"
+    cover: "a-webbing-journey/a-webbing-journey-cover-360x480.webp"
+    background: "a-webbing-journey/a-webbing-journey-bg-1920x1080.webp"
+    hero: "a-webbing-journey/a-webbing-journey-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://thespidercasino.notion.site/Getting-Started-31e897e4cffd80cfa5efd006711616d4"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Adorable spider chaos! Swing around the house, weave crazy structures, play with physics-based objects, and pull off chores with nothing but your webs and your wits in this madcap sandbox adventure. Play solo or cause chaos together in 1-4 player local co-op!"
