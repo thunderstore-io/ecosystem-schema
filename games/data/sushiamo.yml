@@ -39,4 +39,5 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  discordUrl: "https://discord.gg/rvN9GW2F8T"
   shortDescription: "Sushiamo is a roguelike deck-builder where you make sushi to reach absurd scores. Discover unique ingredients, sauces, game-changing tools, and navigate the map to break the game with insane combos!"

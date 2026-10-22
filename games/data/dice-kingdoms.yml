@@ -83,6 +83,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  wikiUrl: "https://dicemodders.github.io/DiceKingdoms-Modding-Wiki/"
   autolistPackageIds:
     - "BepInEx-BepInExPack_IL2CPP"
   shortDescription: "Compete against friends in games filled with unpredictable twists and turns. Roll the dice to gather resources and test your adaptability. Lead your kingdom to success through military power, religious knowledge, or architectural ingenuity."

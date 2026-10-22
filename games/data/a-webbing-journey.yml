@@ -85,6 +85,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+  wikiUrl: "https://thespidercasino.notion.site/Getting-Started-31e897e4cffd80cfa5efd006711616d4"
   autolistPackageIds:
     - "BepInEx-BepInExPack"
   shortDescription: "Adorable spider chaos! Swing around the house, weave crazy structures, play with physics-based objects, and pull off chores with nothing but your webs and your wits in this madcap sandbox adventure. Play solo or cause chaos together in 1-4 player local co-op!"
