@@ -88,6 +88,8 @@ thunderstore:
       label: "Host-Only"
     allclients:
       label: "All Clients Required"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
