@@ -26,7 +26,9 @@ r2modman:
     internalFolderName: "FateReawakened"
     packageIndex: "https://thunderstore.io/c/fate-reawakened/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "黑暗史诗Fate重制版"
+      - "命运：重生"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

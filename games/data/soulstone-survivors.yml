@@ -27,7 +27,8 @@ r2modman:
     internalFolderName: "SoulstoneSurvivors"
     packageIndex: "https://thunderstore.io/c/soulstone-survivors/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "灵魂石幸存者"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
