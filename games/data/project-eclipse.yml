@@ -1,0 +1,36 @@
+uuid: "40d722d0-c84b-43c6-9b7f-80a9ba4e4b0a"
+label: "project-eclipse"
+meta:
+  displayName: "Project Eclipse"
+  iconUrl: null
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Project Eclipse"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://dawc17.github.io/ProjectEclipse/"

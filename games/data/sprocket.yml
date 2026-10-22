@@ -1,0 +1,88 @@
+uuid: "57c19f7e-7bcc-4c0b-86e1-4caffd0f3a2b"
+label: "sprocket"
+meta:
+  displayName: "Sprocket"
+  iconUrl: "sprocket/sprocket-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1674170"
+    steamFolderName: "Sprocket"
+    dataFolderName: "Sprocket_Data"
+    exeNames:
+      - "Sprocket.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Sprocket"
+      iconUrl: "sprocket/sprocket-cover-360x480.webp"
+    settingsIdentifier: "Sprocket"
+    internalFolderName: "Sprocket"
+    packageIndex: "https://thunderstore.io/c/sprocket/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Sprocket"
+  listed: true
+  meta:
+    icon: "sprocket/sprocket-icon-192x192.webp"
+    cover: "sprocket/sprocket-cover-360x480.webp"
+    background: "sprocket/sprocket-bg-1920x1080.webp"
+    hero: "sprocket/sprocket-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Carefully balance mobility, firepower and armour in a dedicated tank designer. Then uncarefully put them to the test in a series of combat scenarios progressing through the ages of the tank. Here, your limit is what you can fit inside your hull and turret while still being able to move forwards."
