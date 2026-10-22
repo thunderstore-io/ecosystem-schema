@@ -1,0 +1,93 @@
+uuid: "67ff1c48-e288-4c32-90bf-024e861ada84"
+label: "fate-reawakened"
+meta:
+  displayName: "FATE: Reawakened"
+  iconUrl: "fate-reawakened/fate-reawakened-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3030720"
+      - platform: "epic-games-store"
+        identifier: "a7bb4d7ed8c74b319ee7adfb08ae383d"
+      - platform: "xbox-game-pass"
+        identifier: "TrionWorldsInc.5031793EE547F"
+    steamFolderName: "FATE Reawakened"
+    dataFolderName: "FateReawakened_Data"
+    exeNames:
+      - "FateReawakened.exe"
+      - "fate.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "FATE: Reawakened"
+      iconUrl: "fate-reawakened/fate-reawakened-cover-360x480.webp"
+    settingsIdentifier: "FateReawakened"
+    internalFolderName: "FateReawakened"
+    packageIndex: "https://thunderstore.io/c/fate-reawakened/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "FATE: Reawakened"
+  listed: true
+  meta:
+    icon: "fate-reawakened/fate-reawakened-icon-192x192.webp"
+    cover: "fate-reawakened/fate-reawakened-cover-360x480.webp"
+    background: "fate-reawakened/fate-reawakened-bg-1920x1080.webp"
+    hero: "fate-reawakened/fate-reawakened-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Reawaken the critically acclaimed FATE games like never before! Play all 4 classic dungeon crawler titles with enhanced graphics as you battle through challenging procedurally generated dungeons, learn powerful spells, and fish to your heart’s content. Are you up to the task? Your FATE awaits!"

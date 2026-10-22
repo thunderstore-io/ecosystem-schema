@@ -1,0 +1,88 @@
+uuid: "a1fe4835-4cf4-404f-b694-41ee81782f12"
+label: "pummel-party"
+meta:
+  displayName: "Pummel Party"
+  iconUrl: "pummel-party/pummel-party-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "880940"
+    steamFolderName: "Pummel Party"
+    dataFolderName: "PummelParty_Data"
+    exeNames:
+      - "PummelParty.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Pummel Party"
+      iconUrl: "pummel-party/pummel-party-cover-360x480.webp"
+    settingsIdentifier: "PummelParty"
+    internalFolderName: "PummelParty"
+    packageIndex: "https://thunderstore.io/c/pummel-party/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Pummel Party"
+  listed: true
+  meta:
+    icon: "pummel-party/pummel-party-icon-192x192.webp"
+    cover: "pummel-party/pummel-party-cover-360x480.webp"
+    background: "pummel-party/pummel-party-bg-1920x1080.webp"
+    hero: "pummel-party/pummel-party-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Pummel Party is a 4-8 player online and local-multiplayer party game. Pummel friends or AI using a wide array of absurd items in the board mode and compete to destroy friendships in the unique collection of minigames."
