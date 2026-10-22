@@ -63,3 +63,42 @@ r2modman:
         subRoutes: []
         isDefaultLocation: false
     relativeFileExclusions: null
+thunderstore:
+  displayName: "Totally Accurate Battle Simulator"
+  listed: true
+  meta:
+    icon: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-icon-192x192.webp"
+    cover: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-cover-360x480.webp"
+    background: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-bg-1920x1080.webp"
+    hero: "totally-accurate-battle-simulator/totally-accurate-battle-simulator-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    units:
+      label: "Units"
+    factions:
+      label: "Factions"
+    maps:
+      label: "Maps"
+    ai-generated:
+      label: "AI-Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Totally Accurate Battle Simulator is a silly physics-based fighting simulation game"
