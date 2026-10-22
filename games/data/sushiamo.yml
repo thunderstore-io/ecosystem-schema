@@ -1,0 +1,42 @@
+uuid: "df8d0d00-f893-4877-a090-5bff1d0e901e"
+label: "sushiamo"
+meta:
+  displayName: "Sushiamo"
+  iconUrl: "sushiamo/sushiamo-cover-360x480.webp"
+distributions:
+  - platform: "steam"
+    identifier: "4555040"
+r2modman: null
+thunderstore:
+  displayName: "Sushiamo"
+  listed: true
+  meta:
+    icon: "sushiamo/sushiamo-icon-192x192.webp"
+    cover: "sushiamo/sushiamo-cover-360x480.webp"
+    background: "sushiamo/sushiamo-bg-1920x1080.webp"
+    hero: "sushiamo/sushiamo-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Sushiamo is a roguelike deck-builder where you make sushi to reach absurd scores. Discover unique ingredients, sauces, game-changing tools, and navigate the map to break the game with insane combos!"

@@ -1,0 +1,36 @@
+uuid: "0fb9ac77-9d7a-4c86-b1af-85feeae9312f"
+label: "scam-with-your-friends"
+meta:
+  displayName: "Scam With Your Friends"
+  iconUrl: null
+distributions:
+  - platform: "steam"
+    identifier: "4954910"
+r2modman: null
+thunderstore:
+  displayName: "Scam With Your Friends"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "Run a scam call center with your friends. Use increasingly ridiculous schemes to trick AI callers out of their life savings. Hit your daily quota, cause chaos around the office, and survive a brutal performance review from your rageaholic boss."

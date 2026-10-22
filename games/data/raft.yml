@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "Raft"
     packageIndex: "https://thunderstore.io/c/raft/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "木筏求生"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

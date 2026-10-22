@@ -1,0 +1,95 @@
+uuid: "88834c16-67b1-4c66-8ee9-1a712bd01031"
+label: "soulstone-survivors"
+meta:
+  displayName: "Soulstone Survivors"
+  iconUrl: "soulstone-survivors/soulstone-survivors-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2066020"
+      - platform: "epic-games-store"
+        identifier: "a7d7b86a17f74d759e48cd39e1d5efe1"
+      - platform: "other"
+        identifier: null
+    steamFolderName: "Soulstone Survivors"
+    dataFolderName: "Soulstone Survivors_Data"
+    exeNames:
+      - "Soulstone Survivors.exe"
+      - "Soulstone-Survivors.x86_64"
+      - "Soulstone-Survivors.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Soulstone Survivors"
+      iconUrl: "soulstone-survivors/soulstone-survivors-cover-360x480.webp"
+    settingsIdentifier: "SoulstoneSurvivors"
+    internalFolderName: "SoulstoneSurvivors"
+    packageIndex: "https://thunderstore.io/c/soulstone-survivors/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "灵魂石幸存者"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Soulstone Survivors"
+  listed: true
+  meta:
+    icon: "soulstone-survivors/soulstone-survivors-icon-192x192.webp"
+    cover: "soulstone-survivors/soulstone-survivors-cover-360x480.webp"
+    background: "soulstone-survivors/soulstone-survivors-bg-1920x1080.webp"
+    hero: "soulstone-survivors/soulstone-survivors-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Face the Lords of the Void and their endless minions, collect their Soulstones and become a god! In this Action Roguelite, unveil secret spells, craft mighty weapons, unlock multiple characters, discover game-breaking synergies and conquer the power of the void."
