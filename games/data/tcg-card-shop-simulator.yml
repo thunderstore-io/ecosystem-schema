@@ -13,16 +13,18 @@ thunderstore:
     background: "tcg-card-shop-simulator/tcg-card-shop-simulator-bg-1920x1080.webp"
     hero: "tcg-card-shop-simulator/tcg-card-shop-simulator-bg-1920x620.webp"
   categories:
-        mods:
-          label: "Mods"
-        modpacks:
-          label: "Modpacks"
+        0-62-branch:
+          label: "0.62 Branch"
+        0-66-branch:
+          label: "0.66 Branch"
+        0-70-branch:
+          label: "0.70 Branch"
+        1-0-classic-branch:
+          label: "1.0 Classic Branch"
         apps:
           label: "Apps"
         asset-replacement:
           label: "Asset Replacement"
-        audio:
-          label: "Audio"
         cards:
           label: "Cards"
         decoration:
@@ -47,20 +49,20 @@ thunderstore:
           label: "Shop"
         themes:
           label: "Themes"
-        tools:
-          label: "Tools"
         cheats:
           label: "Cheats"
+        audio:
+          label: "Audio"
+        mods:
+          label: "Mods"
+        modpacks:
+          label: "Modpacks"
+        tools:
+          label: "Tools"
+        libraries:
+          label: "Libraries"
         misc:
           label: "Misc"
-        0-62-branch:
-          label: "0.62 Branch"
-        0-66-branch:
-          label: "0.66 Branch"
-        0-70-branch:
-          label: "0.70 Branch"
-        1-0-classic-branch:
-          label: "1.0 Classic Branch"
         manual-dependencies:
           label: "Requires Manual Dependencies"
         ai-generated:
@@ -72,6 +74,8 @@ thunderstore:
         - "modpacks"
         - "0-62-branch"
         - "0-66-branch"
+        - "0-70-branch"
+        - "tools"
     main-modpacks:
       name: "Main Branch Modpacks"
       requireCategories:
@@ -79,50 +83,71 @@ thunderstore:
       excludeCategories:
         - "0-62-branch"
         - "0-66-branch"
+        - "0-70-branch"
+        - "tools"
     0-62:
       name: "0.62 Branch"
       requireCategories:
         - "0-62-branch"
       excludeCategories:
         - "modpacks"
+        - "tools"
     0-62-modpacks:
       name: "0.62 Branch Modpacks"
       requireCategories:
         - "modpacks"
         - "0-62-branch"
+      excludeCategories:
+        - "tools"
     0-66:
       name: "0.66 Branch"
       requireCategories:
         - "0-66-branch"
       excludeCategories:
         - "modpacks"
+        - "tools"
     0-66-modpacks:
       name: "0.66 Branch Modpacks"
       requireCategories:
         - "modpacks"
         - "0-66-branch"
+      excludeCategories:
+        - "tools"
     0-70:
       name: "0.70 Branch"
       requireCategories:
         - "0-70-branch"
       excludeCategories:
         - "modpacks"
+        - "tools"
     0-70-modpacks:
       name: "0.70 Branch Modpacks"
       requireCategories:
         - "modpacks"
         - "0-70-branch"
+      excludeCategories:
+        - "tools"
     1-0-classic:
       name: "1.0 Classic Branch"
       requireCategories:
         - "1-0-classic-branch"
       excludeCategories:
         - "modpacks"
+        - "tools"
     1-0-classic-modpacks:
       name: "1.0 Classic Branch Modpacks"
       requireCategories:
         - "modpacks"
         - "1-0-classic-branch"
+      excludeCategories:
+        - "tools"
+    developer-tools:
+      name: "Developer Tools"
+      requireCategories:
+        - "tools"
+        - "libraries"
+      excludeCategories:
+        - "modpacks"
   wikiUrl: "https://tcg-card-shop-simulator.notion.site/3f8c9de6b54c47a9b80329b40bdd3c2c?v=04938d1088de49e5a55734d498f081ef"
   discordUrl: "https://discord.gg/kCp4mRAVUE"
   shortDescription: "Open your own local game store. Stock shelves with the latest booster packs, or crack them and collect the cards for yourself. Set your own prices, hire staff, host events, and expand your card shop."
