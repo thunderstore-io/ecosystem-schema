@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "TrashDay"
     packageIndex: "https://thunderstore.io/c/trash-day/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "垃圾日"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

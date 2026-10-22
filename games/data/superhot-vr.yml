@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "SuperhotVr"
     packageIndex: "https://thunderstore.io/c/superhot-vr/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "燥热VR"
     installRules: []
     relativeFileExclusions: null
 thunderstore:

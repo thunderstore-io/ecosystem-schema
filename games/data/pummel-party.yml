@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "PummelParty"
     packageIndex: "https://thunderstore.io/c/pummel-party/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "揍击派对"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

@@ -21,7 +21,8 @@ r2modman:
     internalFolderName: "AirportSecuritySucks"
     packageIndex: "https://thunderstore.io/c/airport-security-sucks/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "机场安检糟心事"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
