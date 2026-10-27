@@ -304,6 +304,6 @@
 - packageId: "Crawl_Modding-BepInExPack_Crawl"
   rootFolder: "BepInExPack"
   loader: "bepinex"
-- packageId: "Yakari-BepInExPack_SWYF"
-  rootFolder: "BepInExPack_SWYF"
+- packageId: "BepInEx-BepInExPack_SWYF"
+  rootFolder: "BepInExPack"
   loader: "bepinex"
