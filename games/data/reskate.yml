@@ -30,6 +30,8 @@ thunderstore:
       label: "Emotes"
     camera-mods:
       label: "Camera Mods"
+    animation-packs:
+      label: "Animation Packs"
     tools:
       label: "Tools"
     libraries:
