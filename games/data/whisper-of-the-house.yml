@@ -22,7 +22,8 @@ r2modman:
     internalFolderName: "WhisperOfTheHouse"
     packageIndex: "https://thunderstore.io/c/whisper-of-the-house/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "呓语小镇"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true

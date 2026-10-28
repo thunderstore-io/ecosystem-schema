@@ -25,7 +25,8 @@ r2modman:
     internalFolderName: "PapersPlease"
     packageIndex: "https://thunderstore.io/c/papers-please/api/v1/package-listing-index/"
     gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
+    additionalSearchStrings:
+      - "请出示证件"
     installRules:
       - route: "BepInEx/plugins"
         isDefaultLocation: true
