@@ -20,7 +20,6 @@ export const ModmanPackageLoaderValues = [
   "bepisloader",
   "umm",
   "rivet",
-  "mio",
   "none",
 ] as const;
 export type ModmanPackageLoader = typeof ModmanPackageLoaderValues[number];
