@@ -4,32 +4,7 @@ meta:
   displayName: "MIO: Memories in Orbit"
   iconUrl: "mio-memories-in-orbit/mio-memories-in-orbit-cover-360x480.webp"
 distributions: []
-r2modman:
-  - gameInstanceType: "game"
-    distributions:
-      - platform: "steam"
-        identifier: "1672810"
-      - platform: "epic-games-store"
-        identifier: "cf65e9d06d1c4bbe8267bdd65fb87a55"
-      - platform: "xbox-game-pass"
-        identifier: "FocusHomeInteractiveSA.MioMemoriesinOrbit"
-      - platform: "other"
-        identifier: null
-    steamFolderName: "MIO"
-    dataFolderName: ""
-    exeNames:
-      - "mio.exe"
-    packageLoader: "mio"
-    meta:
-      displayName: "MIO: Memories in Orbit"
-      iconUrl: "mio-memories-in-orbit/mio-memories-in-orbit-cover-360x480.webp"
-    settingsIdentifier: "MioMemoriesInOrbit"
-    internalFolderName: "MioMemoriesInOrbit"
-    packageIndex: "https://thunderstore.io/c/mio-memories-in-orbit/api/v1/package-listing-index/"
-    gameSelectionDisplayMode: "visible"
-    additionalSearchStrings: []
-    installRules: []
-    relativeFileExclusions: null
+r2modman: null
 thunderstore:
   displayName: "MIO: Memories in Orbit"
   listed: true
