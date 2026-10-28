@@ -1,0 +1,37 @@
+uuid: "31476fc8-b952-4537-827e-9d02f2676d14"
+label: "socom-2-legacy"
+meta:
+  displayName: "SOCOM II Legacy"
+  iconUrl: null
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "SOCOM II Legacy"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/Rgg62asgYT"
+  shortDescription: "Bringing SOCOM II to your browser. Built by lifelong fans, staying rigidly true to the game we love."
