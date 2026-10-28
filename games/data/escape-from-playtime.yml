@@ -1,0 +1,82 @@
+uuid: "87092aa2-20a0-484d-9634-34b09a302b6c"
+label: "escape-from-playtime"
+meta:
+  displayName: "Escape from Playtime"
+  iconUrl: "escape-from-playtime/escape-from-playtime-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2087540"
+    steamFolderName: "Escape From Playtime"
+    dataFolderName: "EscapeFromPlaytime"
+    exeNames:
+      - "EscapeFromPlaytime.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "Escape from Playtime"
+      iconUrl: "escape-from-playtime/escape-from-playtime-cover-360x480.webp"
+    settingsIdentifier: "EscapeFromPlaytime"
+    internalFolderName: "EscapeFromPlaytime"
+    packageIndex: "https://thunderstore.io/c/escape-from-playtime/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "EFP"
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Escape from Playtime"
+  listed: true
+  meta:
+    icon: "escape-from-playtime/escape-from-playtime-icon-192x192.webp"
+    cover: "escape-from-playtime/escape-from-playtime-cover-360x480.webp"
+    background: "escape-from-playtime/escape-from-playtime-bg-1920x1080.webp"
+    hero: "escape-from-playtime/escape-from-playtime-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "An online 2-8 player co-op horror experience where you and your friends are trapped in an abandoned toy factory. A mysterious voice commands you for an unknown purpose as you explore shifting halls, scavenge for tools, and fight for survival against creatures that lurk in the dark."

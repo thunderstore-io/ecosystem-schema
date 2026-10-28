@@ -1,0 +1,91 @@
+uuid: "7f5cd6a4-17e7-4cf5-8e2f-66dca1ada6db"
+label: "tiny-terrys-turbo-trip"
+meta:
+  displayName: "Tiny Terry's Turbo Trip"
+  iconUrl: "tiny-terrys-turbo-trip/tiny-terrys-turbo-trip-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2238040"
+      - platform: "epic-games-store"
+        identifier: "7fdfa8d6de6d4705b1e63d5ef599d408"
+    steamFolderName: "Tiny Terry's Turbo Trip"
+    dataFolderName: "Tiny Terry's Turbo Trip_Data"
+    exeNames:
+      - "Tiny Terry's Turbo Trip.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Tiny Terry's Turbo Trip"
+      iconUrl: "tiny-terrys-turbo-trip/tiny-terrys-turbo-trip-cover-360x480.webp"
+    settingsIdentifier: "TinyTerrysTurboTrip"
+    internalFolderName: "TinyTerrysTurboTrip"
+    packageIndex: "https://thunderstore.io/c/tiny-terrys-turbo-trip/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "TTTT"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Tiny Terry's Turbo Trip"
+  listed: true
+  meta:
+    icon: "tiny-terrys-turbo-trip/tiny-terrys-turbo-trip-icon-192x192.webp"
+    cover: "tiny-terrys-turbo-trip/tiny-terrys-turbo-trip-cover-360x480.webp"
+    background: "tiny-terrys-turbo-trip/tiny-terrys-turbo-trip-bg-1920x1080.webp"
+    hero: "tiny-terrys-turbo-trip/tiny-terrys-turbo-trip-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "Terry wants to launch himself into space using his new car. Doing something this cool and reckless will surely make him the talk of the town. Run, drive and glide through this small journey of big discoveries as Terry works towards achieving this goal."
