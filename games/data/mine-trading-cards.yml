@@ -16,21 +16,21 @@ thunderstore:
     hero: "mine-trading-cards/mine-trading-cards-bg-1920x620.webp"
   categories:
     version-1-7-x-packs:
-      - label: "Version 1.7.X MTC Packs"
+      label: "Version 1.7.X MTC Packs"
     version-2-0-x-packs:
-      - label: "Version 2.0.X MTC Packs"
+      label: "Version 2.0.X MTC Packs"
     version-2-1-x-packs:
-      - label: "Version 2.1.X MTC Packs"
+      label: "Version 2.1.X MTC Packs"
     version-3-0-x-packs:
-      - label: "Version 3.0.X MTC Packs"
+      label: "Version 3.0.X MTC Packs"
     version-3-1-x-packs:
-      - label: "Version 3.1.X MTC Packs"
+      label: "Version 3.1.X MTC Packs"
     version-4-0-x-packs:
-      - label: "Version 4.0.X MTC Packs"
+      label: "Version 4.0.X MTC Packs"
     minecraft-compatible:
-      - label: "Minecraft"
+      label: "Minecraft"
     ai-generated:
-      - label: "AI Generated/Assisted Content"
+      label: "AI Generated/Assisted Content"
   sections:
     mtc-packs:
       name: "MTC Packs"
