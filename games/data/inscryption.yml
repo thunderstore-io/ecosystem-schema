@@ -69,7 +69,7 @@ thunderstore:
     modpacks:
       label: "Modpacks"
     ai-generated:
-      label: "AI Generated Content"
+      label: "AI Generated/Assisted Content"
   sections:
     mods:
       name: "All Mods"
@@ -134,7 +134,7 @@ thunderstore:
         - "tools"
         - "ai-generated"
     ai-gen-mods:
-      name: "AI Generated Mods"
+      name: "AI Generated/Assisted Mods"
       requireCategories:
         - "ai-generated"
       excludeCategories:
@@ -149,7 +149,7 @@ thunderstore:
         - "modpacks"
         - "ai-generated"
     ai-gen-developer-tools:
-      name: "AI Generated Developer Tools"
+      name: "AI Generated Generated/Assisted Tools"
       requireCategories:
         - "tools"
         - "libraries"
@@ -164,7 +164,7 @@ thunderstore:
         - "tools"
         - "ai-generated"
     ai-gen-modpacks:
-      name: "AI Generated Modpacks"
+      name: "AI Generated/Assisted Modpacks"
       requireCategories:
         - "modpacks"
         - "ai-generated"
