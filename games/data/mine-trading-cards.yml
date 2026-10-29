@@ -1,0 +1,80 @@
+uuid: "ca0083e0-697f-4825-b0fc-fbb3eff34dd3"
+label: "mine-trading-cards"
+meta:
+  displayName: "mine-trading-cards"
+  iconUrl: "mine-trading-cards/mine-trading-cards-cover-360x480.webp"
+distributions: []
+r2modman: null
+thunderstore:
+  displayName: "mine-trading-cards"
+  shortDescription: "Mine Trading Cards is a Content Loader (primarily for Minecraft) which allows you to add Trading Card Game related content to your games. This ecosystem contains MTC Packs for the Loader."
+  listed: true
+  meta:
+    icon: "mine-trading-cards/mine-trading-cards-icon-192x192.webp"
+    cover: "mine-trading-cards/mine-trading-cards-cover-360x480.webp"
+    background: "mine-trading-cards/mine-trading-cards-bg-1920x1080.webp"
+    hero: "mine-trading-cards/mine-trading-cards-bg-1920x620.webp"
+  categories:
+    version-1-7-x-packs:
+      - label: "Version 1.7.X MTC Packs"
+    version-2-0-x-packs:
+      - label: "Version 2.0.X MTC Packs"
+    version-2-1-x-packs:
+      - label: "Version 2.1.X MTC Packs"
+    version-3-0-x-packs:
+      - label: "Version 3.0.X MTC Packs"
+    version-3-1-x-packs:
+      - label: "Version 3.1.X MTC Packs"
+    version-4-0-x-packs:
+      - label: "Version 4.0.X MTC Packs"
+    minecraft-compatible:
+      - label: "Minecraft"
+    ai-generated:
+      - label: "AI Generated/Assisted Content"
+  sections:
+    mtc-packs:
+      name: "MTC Packs"
+      excludeCategories:
+        - "ai-generated"
+    version-17x-mtc-packs:
+      name: "Version 1.7.X MTC Packs"
+      requireCategories:
+        - "version-1-7-x-packs"
+      excludeCategories:
+        - "ai-generated"
+    version-20x-mtc-packs:
+      name: "Version 2.0.X MTC Packs"
+      requireCategories:
+        - "version-2-0-x-packs"
+      excludeCategories:
+        - "ai-generated"
+    version-21x-mtc-packs:
+      name: "Version 2.1.X MTC Packs"
+      requireCategories:
+        - "version-2-1-x-packs"
+      excludeCategories:
+        - "ai-generated"
+    version-30x-mtc-packs:
+      name: "Version 3.0.X MTC Packs"
+      requireCategories:
+        - "version-3-0-x-packs"
+      excludeCategories:
+        - "ai-generated"
+    version-31x-mtc-packs:
+      name: "Version 3.1.X MTC Packs"
+      requireCategories:
+        - "version-3-1-x-packs"
+      excludeCategories:
+        - "ai-generated"
+    version-40x-mtc-packs:
+      name: "Version 4.0.X MTC Packs"
+      requireCategories:
+        - "version-4-0-x-packs"
+      excludeCategories:
+        - "ai-generated"
+    ai-mtc-packs:
+      name: "AI Generated MTC Packs"
+      requireCategories:
+        - "ai-generated"
+  wikiUrl: "https://mtc-cards.notion.site/d3e2d4c08e7540aba07e1965d8853ba5?v=ce0021d1a64344a6a5e6bf10ada5497a"
+  discordUrl: "https://discord.gg/TWDcAaX"
