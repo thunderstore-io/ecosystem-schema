@@ -21,6 +21,8 @@ thunderstore:
           label: "0.70 Branch"
         1-0-classic-branch:
           label: "1.0 Classic Branch"
+        1-0-new-render-branch:
+          label: "1.0 New Render Branch"
         apps:
           label: "Apps"
         asset-replacement:
@@ -66,7 +68,7 @@ thunderstore:
         manual-dependencies:
           label: "Requires Manual Dependencies"
         ai-generated:
-          label: "AI Generated"
+          label: "AI Generated Content"
   sections:
     main:
       name: "Main Branch"
@@ -139,6 +141,20 @@ thunderstore:
       requireCategories:
         - "modpacks"
         - "1-0-classic-branch"
+      excludeCategories:
+        - "tools"
+    1-0-new-render:
+      name: "1.0 New Render Branch"
+      requireCategories:
+        - "1-0-new-render-branch"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+    1-0-new-render-modpacks:
+      name: "1.0 New Render Branch Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "1-0-new-render-branch"
       excludeCategories:
         - "tools"
     developer-tools:

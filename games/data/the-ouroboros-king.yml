@@ -6,7 +6,7 @@ meta:
 distributions: []
 thunderstore:
   displayName: "The Ouroboros King"
-  listed: true
+  listed: false
   meta:
     icon: "the-ouroboros-king/the-ouroboros-king-icon-192x192.webp"
     cover: "the-ouroboros-king/the-ouroboros-king-cover-360x480.webp"
@@ -25,7 +25,7 @@ thunderstore:
     misc:
       label: "Misc"
     ai-generated:
-      label: "AI Generated"
+      label: "AI Generated Content"
   sections:
     mods:
       name: "Mods"
