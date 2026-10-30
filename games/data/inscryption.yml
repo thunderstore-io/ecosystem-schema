@@ -76,6 +76,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     act-i:
       name: "Act I"
       requireCategories:
@@ -83,6 +84,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     act-ii:
       name: "Act II"
       requireCategories:
@@ -90,6 +92,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     act-iii:
       name: "Act III"
       requireCategories:
@@ -97,6 +100,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     kaycees-mod:
       name: "Kaycee's Mod"
       requireCategories:
@@ -104,6 +108,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     magmod-addons:
       name: "Magnificus Mod"
       requireCategories:
@@ -111,6 +116,7 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     grimoramod-addons:
       name: "Grimora Mod"
       requireCategories:
@@ -118,10 +124,19 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     p03-kcm-addons:
       name: "P03 In Kaycee's Mod"
       requireCategories:
         - "p03-kcm-addons"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+        - "ai-generated"
+    ai-gen-mods:
+      name: "AI Generated Mods"
+      requireCategories:
+        - "ai-generated"
       excludeCategories:
         - "modpacks"
         - "tools"
@@ -132,9 +147,28 @@ thunderstore:
         - "libraries"
       excludeCategories:
         - "modpacks"
+        - "ai-generated"
+    ai-gen-developer-tools:
+      name: "AI Generated Developer Tools"
+      requireCategories:
+        - "tools"
+        - "libraries"
+        - "ai-generated"
+      excludeCategories:
+        - "modpacks"
     modpacks:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+      excludeCategories:
+        - "tools"
+        - "ai-generated"
+    ai-gen-modpacks:
+      name: "AI Generated Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "ai-generated"
+      excludeCategories:
+        - "tools"
   wikiUrl: "https://inscryptionmodding.wiki.gg/"
   discordUrl: "https://discord.gg/8EZFmm5xB6"
