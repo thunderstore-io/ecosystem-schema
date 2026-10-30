@@ -43,7 +43,7 @@ thunderstore:
     misc:
       label: "Misc"
     ai-generated:
-      label: "AI Generated/Assisted Content"
+      label: "AI Generated Content"
   sections:
     mods:
       name: "Mods"
