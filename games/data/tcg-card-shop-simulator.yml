@@ -68,7 +68,7 @@ thunderstore:
         manual-dependencies:
           label: "Requires Manual Dependencies"
         ai-generated:
-          label: "AI Generated/Assisted Content"
+          label: "AI Generated Content"
   sections:
     main:
       name: "Main Branch"
