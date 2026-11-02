@@ -1,0 +1,52 @@
+uuid: "69aa6adb-4bb8-4937-9e17-bcca38845134"
+label: "over-the-hill"
+meta:
+  displayName: "Over the Hill"
+  iconUrl: null
+distributions:
+  - platform: "steam"
+    identifier: "2929250"
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2929250"
+    steamFolderName: "over the hill"
+    dataFolderName: "over the hill_Data"
+    exeNames:
+      - "over the hill.x86_64"
+      - "over the hill.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Over the Hill"
+      iconUrl: null
+    settingsIdentifier: "OverTheHill"
+    internalFolderName: "OverTheHill"
+    packageIndex: "https://thunderstore.io/c/over-the-hill/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "OTH"
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Over the Hill"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
