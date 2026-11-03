@@ -4,9 +4,49 @@ meta:
   displayName: "Dread Hunger"
   iconUrl: "dread-hunger/dread-hunger-cover-360x480.webp"
 distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1418630"
+    steamFolderName: "Dread Hunger"
+    dataFolderName: "DreadHunger"
+    exeNames:
+      - "DreadHunger.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "Dread Hunger"
+      iconUrl: "dread-hunger/dread-hunger-cover-360x480.webp"
+    settingsIdentifier: "DreadHunger"
+    internalFolderName: "DreadHunger"
+    packageIndex: "https://thunderstore.io/c/dread-hunger/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
 thunderstore:
   displayName: "Dread Hunger"
-  listed: false
+  listed: true
   meta:
     icon: "dread-hunger/dread-hunger-icon-192x192.webp"
     cover: "dread-hunger/dread-hunger-cover-360x480.webp"
