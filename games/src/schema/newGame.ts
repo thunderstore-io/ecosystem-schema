@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import * as yaml from "js-yaml";
 import _ from "lodash";
-import { v4 as uuid } from "uuid";
+import { randomUUID } from "node:crypto";
 import { z } from "zod";
 import {
   DistributionPlatformValues,
@@ -165,7 +165,7 @@ export function createGameDefinition(options: NewGameOptions): GameDefinition {
   }
 
   const game: GameDefinition = {
-    uuid: uuid(),
+    uuid: randomUUID(),
     label: identifier,
     meta: {
       displayName,
