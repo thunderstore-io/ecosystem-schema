@@ -83,6 +83,14 @@ export interface ThunderstoreCommunityMeta {
   hero?: string;
 }
 
+// This is the version of the Filter of Exclusion/Requirement that allows for toggling whether its forced as an && or an ||.
+// This is rarely used in the Ecosystem but useful for Sections that need more advanced filtering.
+// Code from Chaosyr/The Stoat Lord/Thincreator3483/SaxbyMod
+export interface FilterCategoryAndMode {
+  category: string;
+  "concatenation-mode": boolean;
+}
+
 export interface ThunderstoreCommunityDefinition {
   displayName: string;
   listed?: boolean;
@@ -91,8 +99,8 @@ export interface ThunderstoreCommunityDefinition {
   sections?: {
     [key: string]: {
       name: string;
-      excludeCategories?: string[];
-      requireCategories?: string[];
+      excludeCategories?: string[] | FilterCategoryAndMode[];
+      requireCategories?: string[] | FilterCategoryAndMode[];
     };
   };
   discordUrl?: string;
