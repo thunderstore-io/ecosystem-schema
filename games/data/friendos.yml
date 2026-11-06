@@ -1,0 +1,60 @@
+uuid: "39d8d52e-e58b-455f-8a0f-1b4db7dc6399"
+label: "friendos"
+meta:
+  displayName: "FriendOS"
+  iconUrl: "friendos/friendos-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4531070"
+    steamFolderName: "FriendOS Demo"
+    dataFolderName: ""
+    exeNames:
+      - "FriendOS.exe"
+      - "FriendOS.x86_64"
+    packageLoader: "gdpatch"
+    meta:
+      displayName: "FriendOS"
+      iconUrl: "friendos/friendos-cover-360x480.webp"
+    settingsIdentifier: "FriendOs"
+    internalFolderName: "FriendOs"
+    packageIndex: "https://thunderstore.io/c/friendos/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "FriendOS"
+  listed: true
+  meta:
+    icon: "friendos/friendos-icon-192x192.webp"
+    cover: "friendos/friendos-cover-360x480.webp"
+    background: "friendos/friendos-bg-1920x1080.webp"
+    hero: "friendos/friendos-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  shortDescription: "FriendOS is a 1-3 player action RPG where viruses must die! Strike and batter your opponents in Cartoon Sports Combat, and create the virtual animal avatar of your dreams. Hang out in lobbies with up to 12 friends and team up to protect the world of FriendOS from virus corruption."
