@@ -15,19 +15,19 @@ thunderstore:
     hero: "inscryption/inscryption-bg-1920x620.webp"
   categories:
     act-i:
-      label: "Act I"
+      label: "Act I Compatible"
     act-ii:
-      label: "Act II"
+      label: "Act II Compatible"
     act-iii:
-      label: "Act III"
+      label: "Act III Compatible"
     kaycees-mod:
-      label: "Kaycee's Mod"
+      label: "Kaycee's Mod Compatible"
     magmod-addons:
-      label: "Magnificus Mod"
+      label: "Magnificus Mod Compatible"
     grimoramod-addons:
-      label: "Grimora Mod"
+      label: "Grimora Mod Compatible"
     p03-kcm-addons:
-      label: "P03 In Kaycee's Mod"
+      label: "P03 In Kaycee's Mod Compatible"
     cards:
       label: "Cards"
     sigils:
@@ -61,7 +61,7 @@ thunderstore:
     libraries:
       label: "Libraries"
     tools:
-      label: "Tools"
+      label: "Developer Tools"
     tweaks:
       label: "Tweaks"
     misc:
@@ -72,69 +72,108 @@ thunderstore:
       label: "AI Generated Content"
   sections:
     mods:
-      name: "All Mods"
+      name: "Mods"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     act-i:
-      name: "Act I"
+      name: "Act I Mods"
       requireCategories:
         - "act-i"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     act-ii:
-      name: "Act II"
+      name: "Act II Mods"
       requireCategories:
         - "act-ii"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     act-iii:
-      name: "Act III"
+      name: "Act III Mods"
       requireCategories:
         - "act-iii"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     kaycees-mod:
-      name: "Kaycee's Mod"
+      name: "Kaycee's Mod Addons"
       requireCategories:
         - "kaycees-mod"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     magmod-addons:
-      name: "Magnificus Mod"
+      name: "Magnificus Mod Addons"
       requireCategories:
         - "magmod-addons"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     grimoramod-addons:
-      name: "Grimora Mod"
+      name: "Grimora Mod Addons"
       requireCategories:
         - "grimoramod-addons"
       excludeCategories:
         - "modpacks"
         - "tools"
+        - "ai-generated"
     p03-kcm-addons:
-      name: "P03 In Kaycee's Mod"
+      name: "P03 In Kaycee's Mod Addons"
       requireCategories:
         - "p03-kcm-addons"
+      excludeCategories:
+        - "modpacks"
+        - "tools"
+        - "ai-generated"
+    ai-gen-mods:
+      name: "AI Generated Mods"
+      requireCategories:
+        - "ai-generated"
       excludeCategories:
         - "modpacks"
         - "tools"
     developer-tools:
       name: "Developer Tools"
       requireCategories:
-        - "tools"
-        - "libraries"
+        - category: "tools"
+          concatenation-mode: false
+        - category: "libraries"
+          concatenation-mode: false
+      excludeCategories:
+        - "modpacks"
+        - "ai-generated"
+    ai-gen-developer-tools:
+      name: "AI Generated Developer Tools"
+      requireCategories:
+        - category: "tools"
+          concatenation-mode: false
+        - category: "libraries"
+          concatenation-mode: false
+        - category: "ai-generated"
+          concatenation-mode: true
       excludeCategories:
         - "modpacks"
     modpacks:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+      excludeCategories:
+        - "tools"
+        - "ai-generated"
+    ai-gen-modpacks:
+      name: "AI Generated Modpacks"
+      requireCategories:
+        - "modpacks"
+        - "ai-generated"
+      excludeCategories:
+        - "tools"
   wikiUrl: "https://inscryptionmodding.wiki.gg/"
   discordUrl: "https://discord.gg/8EZFmm5xB6"
