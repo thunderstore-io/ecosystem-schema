@@ -105,5 +105,10 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
+    libraries:
+      name: "Dev Tools and Libraries"
+      requireCategories:
+        - "libraries"
+        - "dev-tools"
   discordUrl: "https://discord.gg/nmPYUsXFTz"
   shortDescription: "Be the leader of wobblers from ancient lands, spooky places, and fantasy worlds. Watch them fight in simulations made with the wobbliest physics system ever created, make your own wobblers in the unit creator and send your army off to fight your friends in multiplayer."
