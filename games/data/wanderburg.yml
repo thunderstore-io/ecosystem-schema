@@ -1,0 +1,62 @@
+uuid: "52094106-d4e7-48de-9920-35a3fbb3639a"
+label: "wanderburg"
+meta:
+  displayName: "Wanderburg"
+  iconUrl: "wanderburg/wanderburg-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3624140"
+    steamFolderName: "Wanderburg Game"
+    dataFolderName: "Wanderburg_Data"
+    exeNames:
+      - "Wanderburg.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Wanderburg"
+      iconUrl: "wanderburg/wanderburg-cover-360x480.webp"
+    settingsIdentifier: "Wanderburg"
+    internalFolderName: "Wanderburg"
+    packageIndex: "https://thunderstore.io/c/wanderburg/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Wanderburg"
+  listed: true
+  meta:
+    icon: "wanderburg/wanderburg-icon-192x192.webp"
+    cover: "wanderburg/wanderburg-cover-360x480.webp"
+    background: "wanderburg/wanderburg-bg-1920x1080.webp"
+    hero: "wanderburg/wanderburg-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/DU5Ty8HzTt"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Drive your Castle on Wheels into battle in this minimalist medieval roguelike of roaming fortresses! Devour entire villages, build your modular arsenal of siege machinery and break the game as you grow with every stronghold you crush."

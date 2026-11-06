@@ -1,0 +1,82 @@
+uuid: "d72d7d9e-40a1-4e7a-96c3-887275206585"
+label: "flipping-is-hard"
+meta:
+  displayName: "Flipping is Hard"
+  iconUrl: null
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3826670"
+    steamFolderName: "Flipping is Hard"
+    dataFolderName: "Flipping is Hard_Data"
+    exeNames:
+      - "Flipping is Hard.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Flipping is Hard"
+      iconUrl: null
+    settingsIdentifier: "FlippingIsHard"
+    internalFolderName: "FlippingIsHard"
+    packageIndex: "https://thunderstore.io/c/flipping-is-hard/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Flipping is Hard"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "No Legs. Just Flips. A hard and punishing game where you flip, fall, and climb as Flippy, using only rotation. Do you have what it takes to get back to Jeff?"

@@ -1,0 +1,56 @@
+uuid: "c5312094-1a3a-4215-ba0f-76f9626712f9"
+label: "airframe-ultra"
+meta:
+  displayName: "Airframe Ultra"
+  iconUrl: null
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2522120"
+    steamFolderName: "Airframe Ultra"
+    dataFolderName: "AirframeUltra_Data"
+    exeNames:
+      - "AirframeUltra.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Airframe Ultra"
+      iconUrl: null
+    settingsIdentifier: "AirframeUltra"
+    internalFolderName: "AirframeUltra"
+    packageIndex: "https://thunderstore.io/c/airframe-ultra/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Airframe Ultra"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/3Wgfb5nHEf"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Airframe Ultra is an online, multiplayer combat racing game. There's only two types of racers in Megacity West: The winners and the dead. Down here, you’ve got a chop shop Airframe, a rusted machete, and blood on the motorway. Welcome to the violent underground world of Ultra Circuit racing!"
