@@ -1,0 +1,89 @@
+uuid: "78a6b226-9d08-401a-b060-07933f29a212"
+label: "madness-melee"
+meta:
+  displayName: "Madness Melee"
+  iconUrl: "madness-melee/madness-melee-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "other"
+        identifier: null
+    steamFolderName: "Madness Melee"
+    dataFolderName: "MadnessMelee_Data"
+    exeNames:
+      - "MadnessMelee.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Madness Melee"
+      iconUrl: "madness-melee/madness-melee-cover-360x480.webp"
+    settingsIdentifier: "MadnessMelee"
+    internalFolderName: "MadnessMelee"
+    packageIndex: "https://thunderstore.io/c/madness-melee/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Madness Melee"
+  listed: true
+  meta:
+    icon: "madness-melee/madness-melee-icon-192x192.webp"
+    cover: "madness-melee/madness-melee-cover-360x480.webp"
+    background: "madness-melee/madness-melee-bg-1920x1080.webp"
+    hero: "madness-melee/madness-melee-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/CwWrfaCHCy"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Madness Melee is a 2D madness combat fangame. Enter the new Sleepwalker Program, and fight through 100 arena waves while upgrading your character the whole way through! Unlock new characters to beat the arena with, after completing the game."
