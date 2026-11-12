@@ -1,0 +1,44 @@
+uuid: "5d1561d4-d001-4725-9f93-80e92081bf2b"
+label: "medievil-recompiled"
+meta:
+  displayName: "MediEvil Recompiled"
+  iconUrl: "medievil-recompiled/medievil-recompiled-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "MediEvil Recompiled"
+  listed: true
+  meta:
+    icon: "medievil-recompiled/medievil-recompiled-icon-192x192.webp"
+    cover: "medievil-recompiled/medievil-recompiled-cover-360x480.webp"
+    background: "medievil-recompiled/medievil-recompiled-bg-1920x1080.webp"
+    hero: "medievil-recompiled/medievil-recompiled-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/BlackLabelHQ/RecompOne/wiki/Making-a-Mod"
+  discordUrl: "https://discord.gg/65g8ZEPnbR"
+  shortDescription: "Static Recomp of PSX USA MediEvil, By BlackLabelHQ"
