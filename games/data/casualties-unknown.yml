@@ -1,0 +1,89 @@
+uuid: "d3d59f52-b656-4a7d-98e9-bc88bce361e0"
+label: "casualties-unknown"
+meta:
+  displayName: "Casualties: Unknown"
+  iconUrl: "casualties-unknown/casualties-unknown-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4576490"
+    steamFolderName: "Casualties Unknown"
+    dataFolderName: "CasualtiesUnknown_Data"
+    exeNames:
+      - "CasualtiesUnknown.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Casualties: Unknown"
+      iconUrl: "casualties-unknown/casualties-unknown-cover-360x480.webp"
+    settingsIdentifier: "CasualtiesUnknown"
+    internalFolderName: "CasualtiesUnknown"
+    packageIndex: "https://thunderstore.io/c/casualties-unknown/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "CU"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Casualties: Unknown"
+  listed: true
+  meta:
+    icon: "casualties-unknown/casualties-unknown-icon-192x192.webp"
+    cover: "casualties-unknown/casualties-unknown-cover-360x480.webp"
+    background: "casualties-unknown/casualties-unknown-bg-1920x1080.webp"
+    hero: "casualties-unknown/casualties-unknown-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Casualties: Unknown is an unforgiving cave-exploration survival simulator. Your captors have tasked you with retrieving lost cargo on a foreign planet, explore its 11 layers and do your best to survive diverse hostile environments. You are just one of the thousands of test subjects sent to die."
