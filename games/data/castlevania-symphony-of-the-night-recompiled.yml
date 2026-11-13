@@ -1,0 +1,44 @@
+uuid: "dc53d1b8-3abb-4263-9433-2292914c5f58"
+label: "castlevania-symphony-of-the-night-recompiled"
+meta:
+  displayName: "Castlevania: Symphony of the Night Recompiled"
+  iconUrl: "castlevania-symphony-of-the-night-recompiled/castlevania-symphony-of-the-night-recompiled-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Castlevania: Symphony of the Night Recompiled"
+  listed: true
+  meta:
+    icon: "castlevania-symphony-of-the-night-recompiled/castlevania-symphony-of-the-night-recompiled-icon-192x192.webp"
+    cover: "castlevania-symphony-of-the-night-recompiled/castlevania-symphony-of-the-night-recompiled-cover-360x480.webp"
+    background: "castlevania-symphony-of-the-night-recompiled/castlevania-symphony-of-the-night-recompiled-bg-1920x1080.webp"
+    hero: "castlevania-symphony-of-the-night-recompiled/castlevania-symphony-of-the-night-recompiled-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/BlackLabelHQ/RecompOne/wiki/Making-a-Mod"
+  discordUrl: "https://discord.gg/65g8ZEPnbR"
+  shortDescription: "Recompilation project for Castlevania: Symphony of the Night"
