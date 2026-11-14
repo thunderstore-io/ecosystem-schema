@@ -35,6 +35,8 @@ thunderstore:
       label: "Species"
     maps:
       label: "Maps"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
@@ -45,5 +47,5 @@ thunderstore:
       requireCategories:
         - "modpacks"
   wikiUrl: "https://notnite.github.io/webfishing-mod-wiki/"
-  discordUrl: "https://discord.gg/PMdFCrJnUb"
+  discordUrl: "https://discord.gg/eTMGZg2DCx"
   autolistPackageIds: []
