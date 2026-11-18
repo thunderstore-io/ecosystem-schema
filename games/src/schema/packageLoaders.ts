@@ -63,6 +63,10 @@ export const PACKAGE_LOADER_CHOICES: PackageLoaderChoice[] = [
     name: "MIO Mod Loader",
   },
   {
+    value: "gdpatch",
+    name: "GDPatch",
+  },
+  {
     value: "none",
     name: "None",
   },
