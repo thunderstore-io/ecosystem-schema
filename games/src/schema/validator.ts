@@ -22,6 +22,14 @@ const communityMetaSchema = z.strictObject({
   hero: communityAsset.optional(),
 });
 
+// This is the version of the Filter of Exclusion/Requirement that allows for toggling whether its forced as an && or an ||.
+// This is rarely used in the Ecosystem but useful for Sections that need more advanced filtering.
+// Code from Chaosyr/The Stoat Lord/Thincreator3483/SaxbyMod
+const filterCategoryAndModeSchema = z.strictObject({
+  category: z.string(),
+  "concatenation-mode": z.boolean(),
+});
+
 const communitySchema = z.strictObject({
   displayName: z.string(),
   listed: z.boolean().optional(),
@@ -37,8 +45,14 @@ const communitySchema = z.strictObject({
     slug,
     z.strictObject({
       name: z.string(),
-      excludeCategories: z.array(z.string()).optional(),
-      requireCategories: z.array(z.string()).optional(),
+      excludeCategories: z.union([
+        z.array(z.string()),
+        z.array(filterCategoryAndModeSchema)
+      ]).optional(),
+      requireCategories: z.union([
+        z.array(z.string()),
+        z.array(filterCategoryAndModeSchema)
+      ]).optional(),
     })
   ),
   wikiUrl: z.string().optional(),
