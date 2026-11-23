@@ -13,14 +13,14 @@ This repository is the backend to [Thunderstore](https://thunderstore.io)'s Comm
     * The Link to the Community's Primary Page
         * For a Game that would be a link to the game as well as its store pages, such as a Steam Link like [Inscryption](https://store.steampowered.com/app/1092790/Inscryption).
         * If your community is not a game, wherever the community is found, for example the Content Loader "Mine Trading Cards" would be: [Curseforge: Mine Trading Cards](https://www.curseforge.com/minecraft/mc-mods/mine-trading-cards-open-source-edition), [Modrinth: Mine Trading Cards](https://modrinth.com/mod/mine-trading-cards), and [Minecraft Forum: Mine Trading Cards](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2913625-mine-trading-cards-open-source-updated-by)
-      * [IMPORTANT AND REQUIRED]: Are there any authors within the community interested in using [Thunderstore](https://thunderstore.io) for uploading their content? This can be yourself if you have mods ready for upload, or someone else in the community if you have proof they want to use [Thunderstore](https://thunderstore.io).
-      * The following links are ideal if you have them, that way we can list them with your community.
-        * The Discord Associated with your Community such as a Modding Discord.
-        * The WIKI Associated with your Community such as a Wiki Describing a Core API or linking out to a central place to get started modding the game. Three examples are [HytaleModding](https://hytalemodding.dev/en/docs), [Inscryption Modding Wiki](https://inscryptionmodding.wiki.gg/), [InscryptionAPI Wiki](https://inscryptionmodding.github.io/InscryptionAPI/wiki/index.html)
-      * What Engine (if the Community is a Game) is relevant for the Community, the exact version is ideal if you can get it.
-        * If Unity whether it is am IL2CPP or Mono Game.
-        * What Mod Loader(s) does the game use, this can be for example [BepInEx](https://github.com/BepInEx/BepInEx/releases), [MelonLoader](https://github.com/LavaGang/MelonLoader/releases), [GDWeave](https://github.com/NotNite/GDWeave/releases) or even something custom, but if it is custom keep in mind we may need additional time for the request because it requires new Technology.
-      * Anything Else that may be relevant to the request, such as how a custom loader works, or how your community would be using Thunderstore.
+    * [IMPORTANT AND REQUIRED]: Are there any authors within the community interested in using [Thunderstore](https://thunderstore.io) for uploading their content? This can be yourself if you have mods ready for upload, or someone else in the community if you have proof they want to use [Thunderstore](https://thunderstore.io).
+    * The following links are ideal if you have them, that way we can list them with your community.
+      * The Discord Associated with your Community such as a Modding Discord.
+      * The WIKI Associated with your Community such as a Wiki Describing a Core API or linking out to a central place to get started modding the game. Three examples are [HytaleModding](https://hytalemodding.dev/en/docs), [Inscryption Modding Wiki](https://inscryptionmodding.wiki.gg/), [InscryptionAPI Wiki](https://inscryptionmodding.github.io/InscryptionAPI/wiki/index.html)
+    * What Engine (if the Community is a Game) is relevant for the Community, the exact version is ideal if you can get it.
+      * If Unity whether it is am IL2CPP or Mono Game.
+      * What Mod Loader(s) does the game use, this can be for example [BepInEx](https://github.com/BepInEx/BepInEx/releases), [MelonLoader](https://github.com/LavaGang/MelonLoader/releases), [GDWeave](https://github.com/NotNite/GDWeave/releases) or even something custom, but if it is custom keep in mind we may need additional time for the request because it requires new Technology.
+    * Anything Else that may be relevant to the request, such as how a custom loader works, or how your community would be using Thunderstore.
 2. I need a new Category for my Community, how do I request it?
     1. You can A.) Open an Issue to this Repository/PR the Changes, or B.) Mention it to us through the aforementioned Game Requests form, please reuse the existing post if available before making a new one.
 3. I need something more advanced for my community, how do I request it?
