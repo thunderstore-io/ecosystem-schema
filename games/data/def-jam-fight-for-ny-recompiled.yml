@@ -1,0 +1,44 @@
+uuid: "6ed53e8b-e74b-49d5-8418-a1efbc279751"
+label: "def-jam-fight-for-ny-recompiled"
+meta:
+  displayName: "Def Jam: Fight for NY Recompiled"
+  iconUrl: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Def Jam: Fight for NY Recompiled"
+  listed: true
+  meta:
+    icon: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-icon-192x192.webp"
+    cover: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-cover-360x480.webp"
+    background: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-bg-1920x1080.webp"
+    hero: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/vyanhursky/DefJamFFNY-recomp/blob/main/docs/texture-modding-getting-started.md"
+  discordUrl: "https://discord.gg/RzyFHVbgZN"
+  shortDescription: "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump."

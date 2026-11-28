@@ -1,0 +1,63 @@
+uuid: "825797ad-9dea-4465-b465-035aa49a75a1"
+label: "over-the-hill"
+meta:
+  displayName: "Over the Hill"
+  iconUrl: "over-the-hill/over-the-hill-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2929250"
+    steamFolderName: "over the hill"
+    dataFolderName: "over the hill_Data"
+    exeNames:
+      - "over the hill.exe"
+      - "over the hill.x86_64"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Over the Hill"
+      iconUrl: "over-the-hill/over-the-hill-cover-360x480.webp"
+    settingsIdentifier: "OverTheHill"
+    internalFolderName: "OverTheHill"
+    packageIndex: "https://thunderstore.io/c/over-the-hill/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Over the Hill"
+  listed: true
+  meta:
+    icon: "over-the-hill/over-the-hill-icon-192x192.webp"
+    cover: "over-the-hill/over-the-hill-cover-360x480.webp"
+    background: "over-the-hill/over-the-hill-bg-1920x1080.webp"
+    hero: "over-the-hill/over-the-hill-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/TcRCrnh"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Explore the world in the golden age of offroading. Drive iconic 4x4 vehicles from the 60s to 80s by yourself or with friends through challenging trails and beautiful scenery."

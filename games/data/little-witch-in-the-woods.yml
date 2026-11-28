@@ -1,0 +1,92 @@
+uuid: "d623d6ce-2c0e-4a0c-8862-a08e2f86b6c6"
+label: "little-witch-in-the-woods"
+meta:
+  displayName: "Little Witch in the Woods"
+  iconUrl: "little-witch-in-the-woods/little-witch-in-the-woods-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1594940"
+    steamFolderName: "Little Witch in the Woods"
+    dataFolderName: "LWIW_Data"
+    exeNames:
+      - "LWIW.exe"
+      - "LWIW.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Little Witch in the Woods"
+      iconUrl: "little-witch-in-the-woods/little-witch-in-the-woods-cover-360x480.webp"
+    settingsIdentifier: "LittleWitchInTheWoods"
+    internalFolderName: "LittleWitchInTheWoods"
+    packageIndex: "https://thunderstore.io/c/little-witch-in-the-woods/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "LWIW"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Little Witch in the Woods"
+  listed: true
+  meta:
+    icon: "little-witch-in-the-woods/little-witch-in-the-woods-icon-192x192.webp"
+    cover: "little-witch-in-the-woods/little-witch-in-the-woods-cover-360x480.webp"
+    background: "little-witch-in-the-woods/little-witch-in-the-woods-bg-1920x1080.webp"
+    hero: "little-witch-in-the-woods/little-witch-in-the-woods-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://littlewitchinthewoods.wiki.gg/"
+  discordUrl: "https://discord.gg/uxYMxYUSwj"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Little Witch in the Woods tells the story of Ellie, an apprentice witch. Explore the mystical forest, help the charming residents, and experience the daily life of the witch."

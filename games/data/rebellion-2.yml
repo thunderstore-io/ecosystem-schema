@@ -1,0 +1,44 @@
+uuid: "3a40fbb5-b754-4c5b-a7e8-964483727061"
+label: "rebellion-2"
+meta:
+  displayName: "Rebellion 2"
+  iconUrl: "rebellion-2/rebellion-2-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Rebellion 2"
+  listed: true
+  meta:
+    icon: "rebellion-2/rebellion-2-icon-192x192.webp"
+    cover: "rebellion-2/rebellion-2-cover-360x480.webp"
+    background: "rebellion-2/rebellion-2-bg-1920x1080.webp"
+    hero: "rebellion-2/rebellion-2-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/davidadas/rebellion2/blob/master/Docs/Modding/Index.md"
+  discordUrl: "https://swrebellion.link/discord"
+  shortDescription: "An open-source remake of the 1998 strategy game Star Wars: Rebellion, built with Unity and the improvements we have always wanted."

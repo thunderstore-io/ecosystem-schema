@@ -1,0 +1,43 @@
+uuid: "40d722d0-c84b-43c6-9b7f-80a9ba4e4b0a"
+label: "project-eclipse"
+meta:
+  displayName: "Project Eclipse"
+  iconUrl: "project-eclipse/project-eclipse-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Project Eclipse"
+  listed: true
+  meta:
+    icon: "project-eclipse/project-eclipse-icon-192x192.webp"
+    cover: "project-eclipse/project-eclipse-cover-360x480.webp"
+    background: "project-eclipse/project-eclipse-bg-1920x1080.webp"
+    hero: "project-eclipse/project-eclipse-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://dawc17.github.io/ProjectEclipse/"
+  discordUrl: "https://discord.gg/2k6QKHDZ8d"

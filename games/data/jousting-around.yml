@@ -1,0 +1,91 @@
+uuid: "381fa2b3-81c8-453a-b672-963a0aa832e1"
+label: "jousting-around"
+meta:
+  displayName: "Jousting Around"
+  iconUrl: "jousting-around/jousting-around-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4983950"
+    steamFolderName: "Jousting Around"
+    dataFolderName: "Jousting Around_Data"
+    exeNames:
+      - "Jousting Around.exe"
+      - "Jousting Around.app"
+      - "Jousting Around.x86_64"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Jousting Around"
+      iconUrl: "jousting-around/jousting-around-cover-360x480.webp"
+    settingsIdentifier: "JoustingAround"
+    internalFolderName: "JoustingAround"
+    packageIndex: "https://thunderstore.io/c/jousting-around/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Jousting Around"
+  listed: true
+  meta:
+    icon: "jousting-around/jousting-around-icon-192x192.webp"
+    cover: "jousting-around/jousting-around-cover-360x480.webp"
+    background: "jousting-around/jousting-around-bg-1920x1080.webp"
+    hero: "jousting-around/jousting-around-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/XnfR3Nk9WM"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Challenge your friends to chaotic horseback combat where every limb can be severed. Master independent arm controls to strike, block, and send opponents flying."

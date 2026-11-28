@@ -1,0 +1,44 @@
+uuid: "187f1a28-0452-4ccb-968e-60b08962b1cb"
+label: "restreet"
+meta:
+  displayName: "ReStreet"
+  iconUrl: "restreet/restreet-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "ReStreet"
+  listed: true
+  meta:
+    icon: "restreet/restreet-icon-192x192.webp"
+    cover: "restreet/restreet-cover-360x480.webp"
+    background: "restreet/restreet-bg-1920x1080.webp"
+    hero: "restreet/restreet-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://github.com/sajermann/fs4-patch-studio"
+  discordUrl: "https://discord.gg/CqjYMGKyy2"
+  shortDescription: "FIFA Street (2012) recompiled for Windows, with online play. Bring your own game."

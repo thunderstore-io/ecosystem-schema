@@ -1,0 +1,43 @@
+uuid: "aeb2c5f0-fbe6-45dc-8a31-5594f813501c"
+label: "pokemon-snap-recompiled"
+meta:
+  displayName: "Pokémon Snap: Recompiled"
+  iconUrl: "pokemon-snap-recompiled/pokemon-snap-recompiled-cover-360x480.webp"
+distributions:
+  - platform: "other"
+    identifier: null
+r2modman: null
+thunderstore:
+  displayName: "Pokémon Snap: Recompiled"
+  listed: true
+  meta:
+    icon: "pokemon-snap-recompiled/pokemon-snap-recompiled-icon-192x192.webp"
+    cover: "pokemon-snap-recompiled/pokemon-snap-recompiled-cover-360x480.webp"
+    background: "pokemon-snap-recompiled/pokemon-snap-recompiled-bg-1920x1080.webp"
+    hero: "pokemon-snap-recompiled/pokemon-snap-recompiled-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://hackmd.io/fMDiGEJ9TBSjomuZZOgzNg"
+  shortDescription: "Native Windows, Linux, macOS and Android (beta) port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included."

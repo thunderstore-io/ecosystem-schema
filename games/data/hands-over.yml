@@ -1,0 +1,88 @@
+uuid: "3de2cc7e-2dff-477f-a2c9-4efefad076d9"
+label: "hands-over"
+meta:
+  displayName: "HANDS OVER"
+  iconUrl: "hands-over/hands-over-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4661070"
+    steamFolderName: "HANDS OVER"
+    dataFolderName: "Hands Over_Data"
+    exeNames:
+      - "Hands Over.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "HANDS OVER"
+      iconUrl: "hands-over/hands-over-cover-360x480.webp"
+    settingsIdentifier: "HandsOver"
+    internalFolderName: "HandsOver"
+    packageIndex: "https://thunderstore.io/c/hands-over/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "HANDS OVER"
+  listed: true
+  meta:
+    icon: "hands-over/hands-over-icon-192x192.webp"
+    cover: "hands-over/hands-over-cover-360x480.webp"
+    background: "hands-over/hands-over-bg-1920x1080.webp"
+    hero: "hands-over/hands-over-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "HANDS OVER is a 5-player co-op horror game where harmless challenges become cruel tests of luck and nerve. Bluff, sabotage your friends, play dirty, and stay at the table longer than anyone else."

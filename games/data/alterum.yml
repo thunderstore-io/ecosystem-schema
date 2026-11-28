@@ -1,0 +1,88 @@
+uuid: "4df5d33c-826e-48e8-9dc7-073970c2ab74"
+label: "alterum"
+meta:
+  displayName: "Alterum"
+  iconUrl: "alterum/alterum-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4424420"
+    steamFolderName: "Alterum"
+    dataFolderName: "Alterum_Data"
+    exeNames:
+      - "Alterum.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Alterum"
+      iconUrl: "alterum/alterum-cover-360x480.webp"
+    settingsIdentifier: "Alterum"
+    internalFolderName: "Alterum"
+    packageIndex: "https://thunderstore.io/c/alterum/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Alterum"
+  listed: true
+  meta:
+    icon: "alterum/alterum-icon-192x192.webp"
+    cover: "alterum/alterum-cover-360x480.webp"
+    background: "alterum/alterum-bg-1920x1080.webp"
+    hero: "alterum/alterum-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack_IL2CPP"
+  shortDescription: "A multiplayer social deduction horror where spells are spoken aloud. One of you is altered. Cast magic with your voice, hunt the traitor, survive the ritual. Every word can save - or kill."

@@ -1,0 +1,62 @@
+uuid: "c5312094-1a3a-4215-ba0f-76f9626712f9"
+label: "airframe-ultra"
+meta:
+  displayName: "Airframe Ultra"
+  iconUrl: "airframe-ultra/airframe-ultra-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "2522120"
+    steamFolderName: "Airframe Ultra"
+    dataFolderName: "AirframeUltra_Data"
+    exeNames:
+      - "AirframeUltra.exe"
+    packageLoader: "recursive-melonloader"
+    meta:
+      displayName: "Airframe Ultra"
+      iconUrl: "airframe-ultra/airframe-ultra-cover-360x480.webp"
+    settingsIdentifier: "AirframeUltra"
+    internalFolderName: "AirframeUltra"
+    packageIndex: "https://thunderstore.io/c/airframe-ultra/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Airframe Ultra"
+  listed: true
+  meta:
+    icon: "airframe-ultra/airframe-ultra-icon-192x192.webp"
+    cover: "airframe-ultra/airframe-ultra-cover-360x480.webp"
+    background: "airframe-ultra/airframe-ultra-bg-1920x1080.webp"
+    hero: "airframe-ultra/airframe-ultra-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  discordUrl: "https://discord.gg/3Wgfb5nHEf"
+  autolistPackageIds:
+    - "LavaGang-MelonLoader"
+  shortDescription: "Airframe Ultra is an online, multiplayer combat racing game. There's only two types of racers in Megacity West: The winners and the dead. Down here, you’ve got a chop shop Airframe, a rusted machete, and blood on the motorway. Welcome to the violent underground world of Ultra Circuit racing!"
