@@ -1,0 +1,89 @@
+uuid: "83616f6b-673b-464b-ad35-ea8954fd9992"
+label: "slots-and-daggers"
+meta:
+  displayName: "Slots & Daggers"
+  iconUrl: "slots-and-daggers/slots-and-daggers-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "3631290"
+    steamFolderName: "Slots and Daggers"
+    dataFolderName: "Slots and Daggers_Data"
+    exeNames:
+      - "Slots and Daggers.exe"
+      - "Slots and Daggers.app"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Slots & Daggers"
+      iconUrl: "slots-and-daggers/slots-and-daggers-cover-360x480.webp"
+    settingsIdentifier: "SlotsDaggers"
+    internalFolderName: "SlotsDaggers"
+    packageIndex: "https://thunderstore.io/c/slots-and-daggers/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Slots & Daggers"
+  listed: true
+  meta:
+    icon: "slots-and-daggers/slots-and-daggers-icon-192x192.webp"
+    cover: "slots-and-daggers/slots-and-daggers-cover-360x480.webp"
+    background: "slots-and-daggers/slots-and-daggers-bg-1920x1080.webp"
+    hero: "slots-and-daggers/slots-and-daggers-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "A retro mini-roguelike inside a slot machine. Steady your blade - and spin!"
