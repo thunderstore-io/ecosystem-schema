@@ -148,14 +148,6 @@ thunderstore:
       excludeCategories:
         - "modpacks"
         - "ai-generated"
-    ai-gen-developer-tools:
-      name: "AI Generated Developer Tools"
-      requireCategories:
-        - "tools"
-        - "libraries"
-        - "ai-generated"
-      excludeCategories:
-        - "modpacks"
     modpacks:
       name: "Modpacks"
       requireCategories:
