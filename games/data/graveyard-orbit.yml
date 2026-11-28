@@ -1,0 +1,88 @@
+uuid: "f48f6de4-30d8-4cc7-8bd7-3f3579108ca4"
+label: "graveyard-orbit"
+meta:
+  displayName: "Graveyard Orbit"
+  iconUrl: "graveyard-orbit/graveyard-orbit-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "4654120"
+    steamFolderName: "Graveyard Orbit"
+    dataFolderName: "GraveyardOrbit_Data"
+    exeNames:
+      - "GraveyardOrbit.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "Graveyard Orbit"
+      iconUrl: "graveyard-orbit/graveyard-orbit-cover-360x480.webp"
+    settingsIdentifier: "GraveyardOrbit"
+    internalFolderName: "GraveyardOrbit"
+    packageIndex: "https://thunderstore.io/c/graveyard-orbit/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "Graveyard Orbit"
+  listed: true
+  meta:
+    icon: "graveyard-orbit/graveyard-orbit-icon-192x192.webp"
+    cover: "graveyard-orbit/graveyard-orbit-cover-360x480.webp"
+    background: "graveyard-orbit/graveyard-orbit-bg-1920x1080.webp"
+    hero: "graveyard-orbit/graveyard-orbit-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "A relaxing space mining incremental. Build your own ship. Clean up the galaxy’s wreckage, piece by piece. Cash in your haul for parts and upgrades. Enjoy the quiet satisfaction of leaving nothing behind."

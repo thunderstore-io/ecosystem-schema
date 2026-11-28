@@ -1,0 +1,94 @@
+uuid: "76101652-9861-4799-9033-87543a039672"
+label: "for-the-king-ii"
+meta:
+  displayName: "For The King II"
+  iconUrl: "for-the-king-ii/for-the-king-ii-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "1676840"
+      - platform: "xbox-game-pass"
+        identifier: "CurveDigital.ForTheKingII"
+    steamFolderName: "For The King II"
+    dataFolderName: "For The King II_Data"
+    exeNames:
+      - "For The King II.exe"
+    packageLoader: "bepinex"
+    meta:
+      displayName: "For The King II"
+      iconUrl: "for-the-king-ii/for-the-king-ii-cover-360x480.webp"
+    settingsIdentifier: "ForTheKingII"
+    internalFolderName: "ForTheKingII"
+    packageIndex: "https://thunderstore.io/c/for-the-king-ii/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings:
+      - "FTK2"
+      - "FTK II"
+      - "For The King 2"
+    installRules:
+      - route: "BepInEx/plugins"
+        isDefaultLocation: true
+        defaultFileExtensions:
+          - ".dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/core"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/patchers"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/monomod"
+        isDefaultLocation: false
+        defaultFileExtensions:
+          - ".mm.dll"
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "BepInEx/config"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "For The King II"
+  listed: true
+  meta:
+    icon: "for-the-king-ii/for-the-king-ii-icon-192x192.webp"
+    cover: "for-the-king-ii/for-the-king-ii-cover-360x480.webp"
+    background: "for-the-king-ii/for-the-king-ii-bg-1920x1080.webp"
+    hero: "for-the-king-ii/for-the-king-ii-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  wikiUrl: "https://fortheking.wiki.gg/wiki/For_The_King_II_(game)"
+  autolistPackageIds:
+    - "BepInEx-BepInExPack"
+  shortDescription: "Battle against Fahrul's tyrannical Queen alone or as a party of four players in the sequel to For The King, the massively popular turn-based roguelite tabletop RPG. Will you unravel the once beloved Queen's terrible secret?"

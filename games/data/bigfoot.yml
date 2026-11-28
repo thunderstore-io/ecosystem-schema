@@ -1,0 +1,81 @@
+uuid: "9fc62cc8-f151-43ca-b5ec-adc48ae21931"
+label: "bigfoot"
+meta:
+  displayName: "BIGFOOT"
+  iconUrl: "bigfoot/bigfoot-cover-360x480.webp"
+distributions: []
+r2modman:
+  - gameInstanceType: "game"
+    distributions:
+      - platform: "steam"
+        identifier: "509980"
+    steamFolderName: "BigfootContent"
+    dataFolderName: "Bigfoot"
+    exeNames:
+      - "Bigfoot.exe"
+    packageLoader: "shimloader"
+    meta:
+      displayName: "BIGFOOT"
+      iconUrl: "bigfoot/bigfoot-cover-360x480.webp"
+    settingsIdentifier: "Bigfoot"
+    internalFolderName: "Bigfoot"
+    packageIndex: "https://thunderstore.io/c/bigfoot/api/v1/package-listing-index/"
+    gameSelectionDisplayMode: "visible"
+    additionalSearchStrings: []
+    installRules:
+      - route: "shimloader/mod"
+        isDefaultLocation: true
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/pak"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+      - route: "shimloader/cfg"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "none"
+        subRoutes: []
+      - route: "shimloader/overlay"
+        isDefaultLocation: false
+        defaultFileExtensions: []
+        trackingMethod: "subdir"
+        subRoutes: []
+    relativeFileExclusions: null
+thunderstore:
+  displayName: "BIGFOOT"
+  listed: true
+  meta:
+    icon: "bigfoot/bigfoot-icon-192x192.webp"
+    cover: "bigfoot/bigfoot-cover-360x480.webp"
+    background: "bigfoot/bigfoot-bg-1920x1080.webp"
+    hero: "bigfoot/bigfoot-bg-1920x620.webp"
+  categories:
+    mods:
+      label: "Mods"
+    modpacks:
+      label: "Modpacks"
+    tools:
+      label: "Tools"
+    libraries:
+      label: "Libraries"
+    misc:
+      label: "Misc"
+    audio:
+      label: "Audio"
+    ai-generated:
+      label: "AI Generated"
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
+  autolistPackageIds:
+    - "Thunderstore-unreal_shimloader"
+  shortDescription: "You are a Bigfoot hunter with an important mission: to put an end to rumours once and for all and prove to yourself that Bigfoot is not just a myth or an invention of the mind..."
